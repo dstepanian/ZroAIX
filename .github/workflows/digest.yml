@@ -36,15 +36,28 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add history.json
-          if git diff --cached --quiet; then
-            echo "No history change."
-            exit 0
-          fi
-          git commit -m "chore: record daily digest in history [skip ci]"
-          # Another push may have landed while this run was working. Rebase onto it,
-          # and if history.json conflicts (add/add or content), keep OUR freshly
-          # generated copy: it already contains origin's entries plus today's, and
-          # appendHistory dedupes by date — so '-X theirs' loses nothing.
-          git pull --rebase -X theirs --autostash origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          # Conflict-proof persist: never merge/rebase history.json. Save our freshly
+          # generated copy, hard-reset onto the very latest origin, re-apply our copy
+          # as a single clean commit, and push — retrying only if the push itself
+          # races another update. Our copy already holds origin's entries plus today's,
+          # and appendHistory dedupes by date, so re-applying loses nothing.
+          cp history.json "${RUNNER_TEMP}/history.json"
+          for i in 1 2 3 4 5; do
+            git fetch -q origin "${GITHUB_REF_NAME}"
+            git reset -q --hard "origin/${GITHUB_REF_NAME}"
+            cp "${RUNNER_TEMP}/history.json" history.json
+            git add history.json
+            if git diff --cached --quiet; then
+              echo "No history change."
+              exit 0
+            fi
+            git commit -q -m "chore: record daily digest in history [skip ci]"
+            if git push -q origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "History persisted."
+              exit 0
+            fi
+            echo "Push raced with another update — retry ${i}/5"
+            sleep $((RANDOM % 4 + 2))
+          done
+          echo "Could not persist history after 5 retries" >&2
+          exit 1
