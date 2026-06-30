@@ -39,8 +39,12 @@ jobs:
           git add history.json
           if git diff --cached --quiet; then
             echo "No history change."
-          else
-            git commit -m "chore: record daily digest in history [skip ci]"
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
+            exit 0
           fi
+          git commit -m "chore: record daily digest in history [skip ci]"
+          # Another push may have landed while this run was working. Rebase onto it,
+          # and if history.json conflicts (add/add or content), keep OUR freshly
+          # generated copy: it already contains origin's entries plus today's, and
+          # appendHistory dedupes by date — so '-X theirs' loses nothing.
+          git pull --rebase -X theirs --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
