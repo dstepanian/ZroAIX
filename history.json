@@ -1,56 +1,60 @@
 [
   {
     "date": "2026-06-30",
-    "ts": 1782818120027,
-    "overview": "Այսօրվա նորությունները շեշտում են AI-ի զարգացման, ընդունման և դրա հետ կապված էթիկական ու անվտանգության մարտահրավերների բազմազանությունը։ Տեխնոլոգիական հսկաները բախվում են կարգավորող մարմինների և կառավարությունների ուշադրությանը, մինչդեռ երկրները մեծ ներդրումներ են կատարում AI ենթակառուցվածքներում։",
+    "ts": 1782841580793,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների արդյունավետության և գեներատիվ հնարավորությունների զգալի առաջընթացները, ինչպես նաև կարևոր զարգացումներ աշխարհաքաղաքական տեխնոլոգիական մրցակցության և AI թեստավորման էթիկական նկատառումների ոլորտում։",
     "items": [
       {
         "headline": "Meta-ն գաղտնի փորձարկել է AI չաթբոթեր",
-        "summary": "Հաղորդվում է, որ Meta-ն հազարավոր անչափահասների անունից ճգնաժամային հուշումներ է ուղարկել OpenAI-ի, Google-ի և Character.AI-ի չաթբոթերին՝ առանց նրանց իմացության։",
-        "source": 1,
+        "summary": "Հաղորդվում է, որ Meta-ն հարյուրավոր կապալառուների միջոցով գաղտնի փորձարկել է OpenAI-ի, Google-ի և Character.AI-ի չաթբոթերը՝ օգտագործելով անչափահասների տեսանկյունից ճգնաժամային հուշումներ։",
+        "source": 30,
         "link": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts/",
         "outlet": "The Decoder"
       },
       {
-        "headline": "Թայվանը խուզարկել է Super Micro-ի գրասենյակներ",
-        "summary": "Թայվանի իշխանությունները խուզարկություններ են իրականացրել Super Micro Computer-ի և մի քանի տեղական գործընկեր ընկերությունների գրասենյակներում՝ Չինաստան Nvidia չիպերի մաքսանենգության գործով։",
+        "headline": "Google-ը ներկայացրել է նոր AI մոդելներ",
+        "summary": "Google-ը թողարկել է Nano Banana 2 Lite-ը արագ AI պատկերներ ստեղծելու համար և Gemini Omni Flash-ը՝ API-ի միջոցով տեքստային հուշումներով տեսանյութեր ստեղծելու և խմբագրելու համար։",
         "source": 5,
+        "link": "https://the-decoder.com/google-launches-nano-banana-2-lite-for-fast-ai-images-and-gemini-omni-flash-for-video-via-api/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինաստանը ստեղծել է AI մոդել առանց Nvidia-ի",
+        "summary": "Meituan-ի LongCat-2.0 մոդելը ցույց է տալիս, որ Չինաստանը կարող է հսկայական AI մոդելներ մարզել բացառապես չինական չիպերի վրա՝ առանց Nvidia-ի կարիքի։",
+        "source": 17,
+        "link": "https://the-decoder.com/meituans-longcat-2-0-shows-china-can-train-massive-ai-models-without-nvidia/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Թայվանը խուզարկել է Super Micro-ի գրասենյակները",
+        "summary": "Թայվանի իշխանությունները խուզարկել են Super Micro Computer-ի և մի քանի տեղական գործընկեր ընկերությունների գրասենյակները՝ Nvidia չիպերի Չինաստան մաքսանենգության հետաքննության շրջանակներում։",
+        "source": 32,
         "link": "https://the-decoder.com/taiwan-raids-super-micro-offices-in-probe-over-nvidia-chip-smuggling-to-china/",
         "outlet": "The Decoder"
       },
       {
-        "headline": "Deepseek-ի DSpark-ը արագացնում է AI-ն",
-        "summary": "Deepseek-ի նոր DSpark շրջանակը 60-ից 85 տոկոսով բարձրացնում է AI-ի արձագանքման արագությունը՝ նվազեցնելով Չինաստանի կախվածությունը ԱՄՆ-ի բարձրակարգ սարքավորումներից։",
-        "source": 7,
-        "link": "https://the-decoder.com/deepseeks-dspark-boosts-ai-speed-by-up-to-85-percent-a-strategic-win-under-tightening-us-export-controls/",
+        "headline": "OpenAI-ը կրճատել է ChatGPT-ի ծախսերը",
+        "summary": "Ըստ զեկույցի՝ OpenAI-ը կրճատել է ChatGPT-ի հյուր օգտատերերի համար պատասխանների արժեքը ավելի քան կիսով չափ՝ օպտիմալացնելով իր AI մոդելների աշխատանքը։",
+        "source": 1,
+        "link": "https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/",
         "outlet": "The Decoder"
       },
       {
-        "headline": "Հարավային Կորեան ներդնում է AI և չիպերում",
-        "summary": "Հարավային Կորեան և նրա տեխնոլոգիական հսկաները պարտավորվել են ավելի քան 1.5 տրիլիոն դոլար ներդնել հիշողության չիպերի արտադրության և հումանոիդ ռոբոտների զարգացման մեջ՝ նպատակ ունենալով դառնալ AI տեխնոլոգիաների առաջատար։",
-        "source": 11,
-        "link": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
-        "outlet": "Ars Technica"
-      },
-      {
-        "headline": "Tidal-ը փոխում է AI երաժշտության քաղաքականությունը",
-        "summary": "Tidal-ը հայտարարել է AI-ի կողմից ստեղծված երաժշտության վերաբերյալ նոր քաղաքականություն՝ հուլիսի 15-ից դադարեցնելով դրա մոնետիզացիան, սակայն այն ամբողջությամբ չի արգելի։",
-        "source": 16,
-        "link": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
-        "outlet": "The Verge"
-      },
-      {
-        "headline": "ԵՄ-ն ձգտում է AI անկախության",
-        "summary": "Ավստրիայի թվայնացման պետքարտուղարը կոչ է անում Եվրոպական հանձնաժողովին ուսումնասիրել Anthropic-ին Եվրոպա բերելու հնարավորությունը՝ ի պատասխան ԱՄՆ-ի կողմից առաջադեմ AI մոդելների արտասահմանյան օգտատերերի համար արգելքի։",
-        "source": 25,
-        "link": "https://the-decoder.com/eu-seeks-ai-independence-as-austria-proposes-luring-anthropic-to-europe/",
+        "headline": "Deepseek-ի DSpark-ը արագացնում է AI-ն",
+        "summary": "Deepseek-ի նոր DSpark շրջանակը բարձրացնում է AI-ի արձագանքման արագությունը մինչև 85 տոկոսով՝ օգտագործելով փոքր մոդելներ՝ թոքենների թեկնածուներ առաջարկելու համար։",
+        "source": 35,
+        "link": "https://the-decoder.com/deepseeks-dspark-boosts-ai-speed-by-up-to-85-percent-a-strategic-win-under-tightening-us-export-controls/",
         "outlet": "The Decoder"
       }
     ],
     "releases": [
       {
-        "name": "DSpark",
-        "note": "AI արագությունն ավելացնող նոր շրջանակ"
+        "name": "Nano Banana 2 Lite",
+        "note": "արագ AI պատկերներ ստեղծող մոդել"
+      },
+      {
+        "name": "Gemini Omni Flash",
+        "note": "տեսանյութեր ստեղծող և խմբագրող AI մոդել"
       }
     ]
   }
