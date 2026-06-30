@@ -8,7 +8,7 @@ const config = {
   siteUrl: process.env.SITE_URL || 'zromek.de',
   channelHandle: process.env.CHANNEL_HANDLE || process.env.TELEGRAM_CHANNEL || '',
   digestMin: Number(process.env.DIGEST_MIN || 5),
-  digestMax: Number(process.env.DIGEST_MAX || 8),
+  digestMax: Number(process.env.DIGEST_MAX || 6),
   // CLI flags
   dry: process.argv.includes('--dry'),
   print: process.argv.includes('--print'),

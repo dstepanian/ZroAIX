@@ -28,7 +28,8 @@ Your job:
 5. "overview" = ONE or TWO sentences in Armenian capturing the OVERALL picture / theme of
    the day across all the items (the big trend, not a single story). Neutral, editorial tone.
 6. "releases" = ONLY genuinely new model/product/tool launches or major version releases
-   announced in today's items. For each: "name" in its original form (e.g. "Gemini 2.5",
+   announced in today's items. List at most the 2 MOST significant; if more were
+   announced, pick the biggest. For each: "name" in its original form (e.g. "Gemini 2.5",
    "Llama 4") and "note" = a short Armenian phrase saying what it is. If there are none,
    return an empty array. Do not invent releases.
 
@@ -79,7 +80,7 @@ export const curate = async (rawItems) => {
   return {
     overview: (parsed.overview || '').trim(),
     items: items.slice(0, config.digestMax),
-    releases: releases.slice(0, 4),
+    releases: releases.slice(0, 2),
   };
 };
 
