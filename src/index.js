@@ -24,6 +24,14 @@ const run = async () => {
     console.error('[zroaix] curation failed:', e.message);
   }
 
+  // Resolve each item's source index (1-based, into raw) to a real link + outlet.
+  // Out-of-range/missing indexes just yield no link — the story still renders.
+  items = items.map((it) => {
+    const src = raw[Number(it.source) - 1];
+    return { ...it, link: src?.link || null, outlet: src?.outlet || null };
+  });
+  console.log(`[zroaix] ${items.filter((it) => it.link).length}/${items.length} items linked to source`);
+
   if (!items.length) {
     console.error('[zroaix] nothing to post — aborting');
     process.exit(1);

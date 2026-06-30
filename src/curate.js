@@ -16,6 +16,8 @@ Your job:
    (e.g. OpenAI, GPT-5, Gemini, Claude, NVIDIA, Hugging Face, Llama, ChatGPT, API) —
    do not transliterate them.
 4. "headline" = a short Armenian title (max ~7 words). "summary" = one Armenian sentence.
+   "source" = the NUMBER of the single raw item (from the numbered list below) that the
+   story is primarily based on. If you merge several, pick the most important one.
 5. "overview" = ONE or TWO sentences in Armenian capturing the OVERALL picture / theme of
    the day across all the items (the big trend, not a single story). Neutral, editorial tone.
 6. "releases" = ONLY genuinely new model/product/tool launches or major version releases
@@ -40,8 +42,9 @@ const dailySchema = {
         properties: {
           headline: { type: 'string' },
           summary: { type: 'string' },
+          source: { type: 'integer' },
         },
-        required: ['headline', 'summary'],
+        required: ['headline', 'summary', 'source'],
       },
     },
     releases: {
