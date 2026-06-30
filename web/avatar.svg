@@ -1,0 +1,71 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ZroAIX channel avatar">
+  <title>ZroAIX</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#19D3FF"/>
+      <stop offset="1" stop-color="#7C5CFF"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#0B0E14" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0B0E14" stop-opacity="0.48"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- faint circuit + ring motif (family resemblance with ZroCrypto) -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.10">
+    <circle cx="256" cy="256" r="150"/>
+    <circle cx="256" cy="256" r="205"/>
+    <path d="M60 150 L150 150 L185 115"/>
+    <path d="M452 360 L360 360 L325 396"/>
+  </g>
+  <g fill="#FFFFFF" opacity="0.14">
+    <circle cx="150" cy="150" r="6"/>
+    <circle cx="185" cy="115" r="6"/>
+    <circle cx="360" cy="360" r="6"/>
+    <circle cx="325" cy="396" r="6"/>
+  </g>
+
+  <rect width="512" height="512" fill="url(#vig)"/>
+
+  <!-- neural-network hub glyph: 6 nodes + center, fully spoked + ringed -->
+  <g stroke="#FFFFFF" stroke-linecap="round" fill="none">
+    <!-- spokes -->
+    <g stroke-width="9" opacity="0.92">
+      <path d="M256 256 L256 146"/>
+      <path d="M256 256 L351 201"/>
+      <path d="M256 256 L351 311"/>
+      <path d="M256 256 L256 366"/>
+      <path d="M256 256 L161 311"/>
+      <path d="M256 256 L161 201"/>
+    </g>
+    <!-- ring edges -->
+    <g stroke-width="7" opacity="0.62">
+      <path d="M256 146 L351 201 L351 311 L256 366 L161 311 L161 201 Z"/>
+    </g>
+  </g>
+
+  <!-- soft white glow behind the core -->
+  <circle cx="256" cy="256" r="70" fill="url(#coreGlow)"/>
+
+  <!-- nodes -->
+  <g fill="#FFFFFF">
+    <circle cx="256" cy="146" r="19"/>
+    <circle cx="351" cy="201" r="19"/>
+    <circle cx="351" cy="311" r="19"/>
+    <circle cx="256" cy="366" r="19"/>
+    <circle cx="161" cy="311" r="19"/>
+    <circle cx="161" cy="201" r="19"/>
+    <circle cx="256" cy="256" r="27"/>
+  </g>
+  <!-- core accent ring -->
+  <circle cx="256" cy="256" r="27" fill="none" stroke="#19D3FF" stroke-width="6" opacity="0.55"/>
+</svg>
