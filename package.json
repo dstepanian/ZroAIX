@@ -1,0 +1,17 @@
+{
+  "name": "zroaix",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Armenian AI/tech news digest bot — RSS + Hugging Face trending + Gemini Flash, posted twice daily to Telegram.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dry": "node src/index.js --dry",
+    "preview": "node src/index.js --dry --print"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "rss-parser": "^3.13.0"
+  }
+}
