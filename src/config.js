@@ -7,8 +7,8 @@ const config = {
   geminiModel: process.env.GEMINI_MODEL || 'gemini-2.5-flash',
   siteUrl: process.env.SITE_URL || 'zromek.de',
   channelHandle: process.env.CHANNEL_HANDLE || process.env.TELEGRAM_CHANNEL || '',
-  digestMin: Number(process.env.DIGEST_MIN || 4),
-  digestMax: Number(process.env.DIGEST_MAX || 6),
+  digestMin: Number(process.env.DIGEST_MIN || 5),
+  digestMax: Number(process.env.DIGEST_MAX || 8),
   // CLI flags
   dry: process.argv.includes('--dry'),
   print: process.argv.includes('--print'),
