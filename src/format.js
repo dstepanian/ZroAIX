@@ -56,7 +56,7 @@ export const formatDigest = ({ items = [], overview = '', releases = [], trendin
     out.push('');
     items.forEach((it) => {
       const src = it.link
-        ? `  <a href="${esc(it.link)}">${esc(it.outlet || 'աղբյուր')} ↗</a>`
+        ? `  <a href="${esc(it.link)}">🔗 ${esc(it.outlet || 'աղբյուր')}</a>`
         : '';
       out.push(`🔸 ${esc(it.summary || it.headline)}${src}`);
       out.push(''); // breathing room between stories
