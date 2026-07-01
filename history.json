@@ -57,5 +57,64 @@
         "note": "տեսանյութեր ստեղծող և խմբագրող AI մոդել"
       }
     ]
+  },
+  {
+    "date": "2026-07-01",
+    "ts": 1782898064060,
+    "overview": "Այսօրվա նորությունները գերակշռում են AI մոդելների նոր թողարկումներով և արտադրանքի թարմացումներով այնպիսի խոշոր խաղացողներից, ինչպիսիք են Anthropic-ը և Google-ը, ինչպես նաև AI ենթակառուցվածքի և քաղաքականության զարգացումներով։",
+    "items": [
+      {
+        "headline": "Anthropic-ի Fable 5-ը վերադառնում է",
+        "summary": "Շաբաթներ տևած բանակցություններից հետո Anthropic-ը ստացել է թույլտվություն՝ վերականգնելու Fable 5 մոդելի հասանելիությունը օգտատերերին ամբողջ աշխարհում։",
+        "source": 7,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ը ներկայացրել է Claude Science-ը",
+        "summary": "Anthropic-ը գործարկել է Claude Science-ը՝ նոր հիմնական արտադրանք, որը նախատեսված է գիտական հետազոտություններին աջակցելու համար՝ Claude Code-ի նման։",
+        "source": 12,
+        "link": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Anthropic-ը թողարկել է Claude Sonnet 5-ը",
+        "summary": "Anthropic-ը թողարկել է Claude Sonnet 5-ը, որը գերազանցում է իր նախորդ Sonnet 4.6-ին բոլոր չափորոշիչներով և մոտենում է Opus մոդելների շարքին։",
+        "source": 20,
+        "link": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը ներկայացրել է նոր AI մոդելներ",
+        "summary": "Google-ը ներկայացրել է Nano Banana 2 Lite պատկերների գեներատորը՝ արագ և էժան AI պատկերների համար, և Gemini Omni Flash-ը՝ API-ի միջոցով տեսանյութերի ստեղծման համար։",
+        "source": 33,
+        "link": "https://the-decoder.com/google-launches-nano-banana-2-lite-for-fast-ai-images-and-gemini-omni-flash-for-video-via-api/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meituan-ը մարզել է LongCat-2.0-ը",
+        "summary": "Meituan-ը մարզել է 1.6 տրիլիոն պարամետր ունեցող LongCat-2.0 AI մոդելը՝ ամբողջությամբ օգտագործելով չինական չիպեր՝ առանց Nvidia-ի կարիքի։",
+        "source": 39,
+        "link": "https://the-decoder.com/meituans-longcat-2-0-shows-china-can-train-massive-ai-models-without-nvidia/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը կրճատել է ChatGPT-ի ծախսերը",
+        "summary": "Ըստ զեկույցի՝ OpenAI-ը կրճատել է իր AI մոդելների արձագանքման ծախսերը ավելի քան կիսով չափ՝ օպտիմալացումներ կիրառելով ChatGPT-ում։",
+        "source": 29,
+        "link": "https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Claude Science",
+        "note": "Գիտական հետազոտությունների համար նախատեսված AI աշխատանքային միջավայր"
+      },
+      {
+        "name": "Claude Sonnet 5",
+        "note": "Anthropic-ի նոր AI մոդել՝ բարելավված գործակալական հնարավորություններով"
+      }
+    ]
   }
 ]
