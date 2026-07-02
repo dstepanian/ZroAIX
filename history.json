@@ -119,56 +119,56 @@
   },
   {
     "date": "2026-07-02",
-    "ts": 1782981653225,
-    "overview": "Օրվա նորությունները ընդգծում են արհեստական բանականության և տեխնոլոգիական ոլորտներում զգալի առաջընթացներ և ռազմավարական փոփոխություններ՝ սկսած նոր արտադրանքի մշակումներից և հետազոտական հայտնագործություններից մինչև զարգացող ոլորտի քաղաքականություն և բիզնես մոդելներ։",
+    "ts": 1783013146516,
+    "overview": "Օրվա նորությունները ընդգծում են AI-ի տնտեսության և հասարակության մեջ ինտեգրման զգալի զարգացումները՝ սկսած խոշոր կորպորատիվ ներդրումներից և նոր արտադրանքի նախատիպերից մինչև բաժնետիրական կապիտալի և բովանդակության օգտագործման շուրջ քաղաքականության քննարկումները։",
     "items": [
       {
-        "headline": "SpaceX-ը ցուցադրել է AI սմարթֆոնի նախատիպ",
-        "summary": "SpaceX-ը ներդրողներին ցուցադրել է AI սմարթֆոնի նախատիպ, որն ինտեգրում է xAI տեխնոլոգիան։",
+        "headline": "OpenAI-ը բաժնետոմսեր է առաջարկում ԱՄՆ-ին",
+        "summary": "Հաղորդվում է, որ OpenAI-ի գործադիր տնօրեն Սեմ Ալթմանն առաջարկել է ընկերության բաժնետիրական կապիտալի 5%-ը փոխանցել ԱՄՆ-ի ինքնիշխան հարստության հիմնադրամին՝ վերակենդանացնելով հանրությանը AI բումից ֆինանսական շահույթներում մասնակից դարձնելու քննարկումները։",
         "source": 6,
+        "link": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Microsoft-ը ստեղծում է AI ընկերություն",
+        "summary": "Microsoft-ը գործարկել է իր սեփական AI տեղակայման ընկերությունը՝ 2.5 միլիարդ դոլարի ներդրումով, հետևելով Amazon-ի, OpenAI-ի և Anthropic-ի օրինակին։",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Nvidia-ն ֆինանսավորում է AI ստարտափներին",
+        "summary": "Nvidia-ն ավելի ու ավելի է հանդես գալիս որպես կենտրոնական բանկ AI ստարտափների համար՝ ակտիվորեն ձևավորելով հաշվողական շուկան և թուլացնելով խոշոր տեխնոլոգիական ընկերությունների կախվածությունը իր չիպային բիզնեսից։",
+        "source": 13,
+        "link": "https://the-decoder.com/nvidia-is-bankrolling-ai-startups-to-loosen-big-techs-grip-on-its-chip-business/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալների աճող կարողություններ",
+        "summary": "AI գործակալներն այժմ կարող են կատարել ֆրիլանս աշխատանքների 16%-ը պրոֆեսիոնալ որակով, ինչը զգալի աճ է ութ ամիս առաջվա 2.5%-ի համեմատ։",
+        "source": 15,
+        "link": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "SpaceX-ը ցուցադրել է AI սմարթֆոնի նախատիպ",
+        "summary": "SpaceX-ը ներդրողներին ցուցադրել է AI սմարթֆոնի նախատիպ, որը ենթադրաբար ավելի բարակ է, քան iPhone-ը և ինտեգրում է xAI տեխնոլոգիան՝ աշխատելով Qualcomm Snapdragon չիպով և սեփական օպերացիոն համակարգով։",
+        "source": 28,
         "link": "https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/",
         "outlet": "The Decoder"
       },
       {
-        "headline": "Cloudflare-ի նոր քաղաքականությունը AI ընկերությունների համար",
-        "summary": "Cloudflare-ը AI ընկերություններին մինչև սեպտեմբերի 15-ը ժամկետ է տվել՝ առանձնացնելու որոնման համար օգտագործվող վեբ քրոուլերները AI ուսուցման համար նախատեսվածներից, հակառակ դեպքում նրանք կարող են արգելափակվել։",
-        "source": 9,
+        "headline": "Cloudflare-ի նոր քաղաքականությունը AI-ի համար",
+        "summary": "Cloudflare-ը AI ընկերություններին ժամանակ է տալիս մինչև սեպտեմբերի 15-ը՝ առանձնացնելու որոնման համար օգտագործվող վեբ քրոուլերները AI ուսուցման և գործակալների համար օգտագործվողներից, հակառակ դեպքում նրանք կկանգնեն բազմաթիվ հրատարակիչների կողմից արգելափակվելու վտանգի առաջ։",
+        "source": 31,
         "link": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
         "outlet": "TechCrunch"
-      },
-      {
-        "headline": "Meta-ն ստեղծում է AI հաշվողական ամպային բիզնես",
-        "summary": "Meta-ն ստեղծում է սեփական ամպային բիզնես՝ արտաքին հաճախորդներին վաճառելու իր ավելորդ AI հաշվողական հզորությունը։",
-        "source": 14,
-        "link": "https://the-decoder.com/meta-follows-spacexs-playbook-and-builds-a-cloud-business-to-sell-its-spare-ai-compute-to-outside-customers/",
-        "outlet": "The Decoder"
-      },
-      {
-        "headline": "Meta-ի ոչ ինվազիվ ուղեղից տեքստ AI",
-        "summary": "Meta-ի FAIR AI թիմը մշակում է ոչ ինվազիվ ուղեղից տեքստ AI համակարգ, որը մոտենում է վիրաբուժական իմպլանտների ճշգրտությանը՝ առանց վիրահատության անհրաժեշտության։",
-        "source": 15,
-        "link": "https://the-decoder.com/metas-non-invasive-brain-to-text-ai-is-closing-the-gap-with-surgical-implants/",
-        "outlet": "The Decoder"
-      },
-      {
-        "headline": "Sony-ն դադարեցնում է PlayStation սկավառակների արտադրությունը",
-        "summary": "Sony-ն հայտարարել է, որ 2028 թվականի հունվարից դադարեցնելու է ֆիզիկական PlayStation սկավառակների արտադրությունը, ինչը նշանակում է, որ PS5 նոր խաղերը հասանելի կլինեն միայն թվային տարբերակով։",
-        "source": 18,
-        "link": "https://www.theverge.com/games/960212/sony-playstation-killing-discs-digital-preservation",
-        "outlet": "The Verge"
-      },
-      {
-        "headline": "OpenAI-ի GPT-5 Pro շարքի արտահոսք",
-        "summary": "OpenAI-ի գենոմիկայի վերաբերյալ հոդվածը պատահաբար բացահայտել է GPT-5.6 Pro շարքի գոյությունը, որը կարող է թողարկվել երեք տարբերակով։",
-        "source": 27,
-        "link": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy/",
-        "outlet": "The Decoder"
       }
     ],
     "releases": [
       {
-        "name": "Claude Science",
-        "note": "Anthropic-ի նոր արտադրանքը գիտական հետազոտությունների համար։"
+        "name": "SpaceX AI smartphone",
+        "note": "xAI տեխնոլոգիայով աշխատող սմարթֆոնի նախատիպ"
       }
     ]
   }
