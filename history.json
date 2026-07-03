@@ -174,8 +174,8 @@
   },
   {
     "date": "2026-07-03",
-    "ts": 1783098728347,
-    "overview": "Արհեստական բանականության ոլորտում նկատվում են խոշոր ներդրումներ և ռազմավարական քայլեր առաջատար ընկերությունների կողմից, միաժամանակ բացահայտվում են նոր հավելվածներ և զարգացման մարտահրավերներ։",
+    "ts": 1783103083440,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի զարգացման շարունակական առաջընթացներն ու մարտահրավերները՝ սկսած նոր արտադրանքների թողարկումներից և սարքավորումների նախաձեռնություններից մինչև AI հնարավորությունների կարևոր գնահատումներ և աշխարհաքաղաքական նկատառումներ։",
     "items": [
       {
         "headline": "Microsoft-ը ներդնում է $2.5 միլիարդ AI ինժեներների համար",
@@ -218,13 +218,68 @@
         "source": 1,
         "link": "https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude Code-ի Չինաստանի խնդիրը",
+        "summary": "Anthropic-ը փորձում է արգելափակել չինական ընկերությունների մուտքը Claude Code, սակայն նրանք շրջանցում են սահմանափակումները VPN-ների և արտասահմանյան դուստր ձեռնարկությունների միջոցով։",
+        "source": 2,
+        "link": "https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գնահատումները թերագնահատում են գործակալներին",
+        "summary": "Միացյալ Թագավորության AI անվտանգության ինստիտուտի ուսումնասիրությունը ցույց է տվել, որ ստանդարտ AI գնահատումները համակարգված կերպով թերագնահատում են գործակալների հնարավորությունները՝ սահմանափակելով հաշվողական բյուջեն։",
+        "source": 3,
+        "link": "https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GPT-ն և Claude-ը ձախողել են ֆինանսական թեստերը",
+        "summary": "Bridgewater-ը և Thinking Machines Lab-ը հայտարարել են, որ իրենց Qwen3-235B մոդելը ֆինանսական խնդիրներում գերազանցում է Gemini-ին, Claude-ին և GPT-ին՝ հասնելով 84.7 տոկոս ճշգրտության։",
+        "source": 15,
+        "link": "https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Զուքերբերգը դժգոհ է AI գործակալների առաջընթացից",
+        "summary": "Meta-ի գործադիր տնօրեն Մարկ Զուքերբերգը ներքին հանդիպման ժամանակ հայտարարել է, որ AI գործակալների մշակման աշխատանքներն այնքան արագ չեն ընթանում, որքան ինքը հույս ուներ։",
+        "source": 19,
+        "link": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Meta-ն թողարկում է Pocket խաղային հավելվածը",
+        "summary": "Meta-ն անաղմուկ կերպով թողարկել է Pocket անունով փորձարարական AI հավելված, որը թույլ է տալիս օգտատերերին ստեղծել և կիսվել ինտերակտիվ մինի խաղերով՝ օգտագործելով տեքստային հրահանգներ։",
+        "source": 22,
+        "link": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը քննարկում է հատուկ AI չիպի ստեղծումը",
+        "summary": "Anthropic-ը Samsung-ի հետ քննարկում է նոր հատուկ AI չիպի մշակումը, ինչը տեղի է ունենում OpenAI-ի կողմից Broadcom-ի հետ նմանատիպ համագործակցության հայտարարությունից մեկ շաբաթ անց։",
+        "source": 23,
+        "link": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
       {
         "name": "Claude Science",
         "note": "Նոր AI աշխատանքային միջավայր գիտնականների համար"
+      },
+      {
+        "name": "llm-coding-agent 0.1a0",
+        "note": "Կոդավորման համար նախատեսված նոր AI գործակալ"
+      },
+      {
+        "name": "Pocket",
+        "note": "Meta-ի նոր AI-ով աշխատող խաղային հավելված"
       }
+    ],
+    "trending": [
+      "zai-org/GLM-5.2",
+      "baidu/Unlimited-OCR",
+      "deepseek-ai/DeepSeek-V4-Pro-DSpark"
     ]
   }
 ]
