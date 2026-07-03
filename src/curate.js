@@ -11,6 +11,9 @@ Your job:
    developments: new AI models and products, major research, funding and acquisitions,
    regulation and policy, and industry-shaping moves. Ignore low-quality posts, ads,
    thin opinion pieces, listicles, how-to/SEO filler, and near-duplicate stories.
+   The channel is AI-focused: pick general tech stories only when they are truly major.
+   Favor a mix of outlets — when equally newsworthy options exist, avoid taking more
+   than 2-3 items from the same outlet (shown in [brackets] before each title).
 2. Write each as ONE clear, neutral sentence in fluent Armenian (Eastern Armenian).
    Precision and tone scale with the stakes: for sensitive or high-stakes stories —
    armed conflict, casualties or deaths, military or government action, legal and
@@ -31,12 +34,13 @@ Your job:
    announced in today's items. List at most the 2 MOST significant; if more were
    announced, pick the biggest. For each: "name" in its original form (e.g. "Gemini 2.5",
    "Llama 4") and "note" = a short Armenian phrase saying what it is. If there are none,
-   return an empty array. Do not invent releases.
+   return an empty array. Do not invent releases. Prototypes, demos, previews and
+   roadmap announcements are NOT releases — only things users can actually get now.
 
 Return ONLY JSON matching the schema. No markdown, no commentary.
 
 Raw items:
-${rawItems.map((it, n) => `${n + 1}. ${it.title}: ${it.text}`).join('\n')}
+${rawItems.map((it, n) => `${n + 1}. [${it.outlet || it.source || '?'}] ${it.title}: ${it.text}`).join('\n')}
 `.trim();
 
 const dailySchema = {

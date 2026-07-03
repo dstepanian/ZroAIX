@@ -37,7 +37,8 @@ const outletName = (link = '') => {
 const WINDOW_MS = 24 * 60 * 60 * 1000;
 
 // Pull all feeds, keep items from the last 24h, dedupe by link, cap the list.
-export const aggregate = async ({ windowMs = WINDOW_MS, cap = 40 } = {}) => {
+// `exclude` = links already posted in recent digests, skipped before the cap.
+export const aggregate = async ({ windowMs = WINDOW_MS, cap = 40, exclude = new Set() } = {}) => {
   const feeds = await fetchFeeds(FEEDS);
   const now = Date.now();
   const seen = new Set();
@@ -47,7 +48,7 @@ export const aggregate = async ({ windowMs = WINDOW_MS, cap = 40 } = {}) => {
     const source = feed.title || '';
     for (const item of feed.items || []) {
       const link = (item.link || '').trim();
-      if (!link || seen.has(link)) continue;
+      if (!link || seen.has(link) || exclude.has(link)) continue;
 
       const ts = new Date(item.isoDate || item.pubDate || 0).getTime();
       if (!ts || now - ts > windowMs) continue;

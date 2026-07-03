@@ -14,12 +14,31 @@ export const loadHistory = () => {
   }
 };
 
-// One entry per calendar day (Yerevan). A later run on the same day overwrites
-// the earlier snapshot, so we always keep the most recent state for that day.
+// Union two lists, keeping the first occurrence per key.
+const unionBy = (a = [], b = [], key) => {
+  const seen = new Set();
+  return [...a, ...b].filter((x) => {
+    const k = key(x);
+    if (!k || seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+};
+
+// Combine the day's earlier snapshot with a later run on the same day: union
+// items by link and releases by name (the bot posts twice a day and both runs'
+// stories matter for dedup and the weekly recap), keep the latest overview/trending.
+const mergeDay = (prev, next) => ({
+  ...next,
+  items: unionBy(prev.items, next.items, (it) => it.link || it.headline),
+  releases: unionBy(prev.releases, next.releases, (r) => (r.name || '').toLowerCase()),
+});
+
+// One entry per calendar day (Yerevan).
 export const appendHistory = (entry) => {
   const hist = loadHistory();
   const idx = hist.findIndex((e) => e.date === entry.date);
-  if (idx >= 0) hist[idx] = entry;
+  if (idx >= 0) hist[idx] = mergeDay(hist[idx], entry);
   else hist.push(entry);
 
   hist.sort((a, b) => (a.date < b.date ? -1 : 1));
@@ -29,3 +48,23 @@ export const appendHistory = (entry) => {
 };
 
 export const lastNDays = (n) => loadHistory().slice(-n);
+
+// Links of every story posted in the last n days — used to drop already-covered
+// raw feed items before curation (the twice-daily 24h windows overlap).
+export const postedLinks = (n) => {
+  const links = new Set();
+  for (const day of lastNDays(n)) {
+    for (const it of day.items || []) if (it.link) links.add(it.link);
+  }
+  return links;
+};
+
+// Lowercased release names announced in the last n days — a launch should only
+// appear in the 🚀 section once, not in every digest that mentions it.
+export const postedReleaseNames = (n) => {
+  const names = new Set();
+  for (const day of lastNDays(n)) {
+    for (const r of day.releases || []) if (r.name) names.add(r.name.toLowerCase());
+  }
+  return names;
+};

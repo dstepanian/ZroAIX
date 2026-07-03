@@ -5,14 +5,23 @@ const MONTHS_HY = [
   'հուլիսի', 'օգոստոսի', 'սեպտեմբերի', 'հոկտեմբերի', 'նոյեմբերի', 'դեկտեմբերի',
 ];
 
-// Today's date in Yerevan, e.g. "28 հունիսի".
+// Today's date in Yerevan, e.g. "հունիսի 28" (Armenian is month-first).
 const yerevanDate = (d = new Date()) => {
   const parts = new Intl.DateTimeFormat('en-US', {
     timeZone: 'Asia/Yerevan', day: 'numeric', month: 'numeric',
   }).formatToParts(d);
   const day = parts.find((p) => p.type === 'day').value;
   const month = Number(parts.find((p) => p.type === 'month').value);
-  return `${day} ${MONTHS_HY[month - 1]}`;
+  return `${MONTHS_HY[month - 1]} ${day}`;
+};
+
+// Which of the two daily runs this is (10:00 & 20:00 Yerevan) — the posts would
+// otherwise carry identical titles and read as accidental duplicates.
+const yerevanEdition = (d = new Date()) => {
+  const hour = Number(new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Yerevan', hour: 'numeric', hour12: false,
+  }).format(d));
+  return hour < 15 ? 'առավոտյան' : 'երեկոյան';
 };
 
 // Today's calendar date in Yerevan as YYYY-MM-DD (used as the history key).
@@ -24,13 +33,13 @@ const yerevanISO = (d = new Date()) => {
   return `${get('year')}-${get('month')}-${get('day')}`;
 };
 
-// Armenian date range from two YYYY-MM-DD strings, e.g. "23–29 հունիսի"
-// or "28 հունիսի – 4 հուլիսի" across a month boundary.
+// Armenian date range from two YYYY-MM-DD strings, e.g. "հունիսի 23–29"
+// or "հունիսի 28 – հուլիսի 4" across a month boundary.
 const yerevanRange = (startISO, endISO) => {
   const [, am, ad] = startISO.split('-').map(Number);
   const [, bm, bd] = endISO.split('-').map(Number);
-  if (am === bm) return `${ad}–${bd} ${MONTHS_HY[bm - 1]}`;
-  return `${ad} ${MONTHS_HY[am - 1]} – ${bd} ${MONTHS_HY[bm - 1]}`;
+  if (am === bm) return `${MONTHS_HY[bm - 1]} ${ad}–${bd}`;
+  return `${MONTHS_HY[am - 1]} ${ad} – ${MONTHS_HY[bm - 1]} ${bd}`;
 };
 
 const esc = (s = '') =>
@@ -41,7 +50,7 @@ const esc = (s = '') =>
 export const formatDigest = ({ items = [], overview = '', releases = [], trending = [] }, { date } = {}) => {
   const out = [];
 
-  out.push(`🤖 <b>AI օրվա ամփոփում — ${date || yerevanDate()}</b>`);
+  out.push(`🤖 <b>AI օրվա ամփոփում — ${date || yerevanDate()} · ${yerevanEdition()}</b>`);
   out.push('');
 
   // AI big-picture line for the day.

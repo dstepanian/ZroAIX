@@ -4,14 +4,25 @@ import { getTrending } from './trending.js';
 import { curate } from './curate.js';
 import { formatDigest, yerevanISO } from './format.js';
 import { postToTelegram } from './post.js';
-import { appendHistory } from './history.js';
+import { appendHistory, lastNDays, postedLinks, postedReleaseNames } from './history.js';
+
+// How far back a story/release stays "already covered". The twice-daily 24h
+// windows overlap, and outlets keep re-reporting for a couple of days.
+const DEDUP_DAYS = 3;
 
 const run = async () => {
   console.log(`[zroaix] starting${config.dry ? ' (dry run)' : ''}`);
 
-  // Raw news and Hugging Face trending models in parallel.
-  const [raw, trending] = await Promise.all([aggregate(), getTrending()]);
-  console.log(`[zroaix] ${raw.length} raw news items, ${trending.length} trending models`);
+  // Raw news (minus links already posted in recent digests) and Hugging Face
+  // trending models in parallel.
+  const exclude = postedLinks(DEDUP_DAYS);
+  const [raw, trending] = await Promise.all([aggregate({ exclude }), getTrending()]);
+  console.log(`[zroaix] ${raw.length} raw news items (${exclude.size} recent links excluded), ${trending.length} trending models`);
+
+  if (!raw.length) {
+    console.log('[zroaix] no new items since the last digest — nothing to post');
+    return;
+  }
 
   // Curate via Gemini; on failure there's nothing else to post, so abort.
   let items = [];
@@ -37,7 +48,21 @@ const run = async () => {
     process.exit(1);
   }
 
-  const text = formatDigest({ items, overview, releases, trending });
+  // A release only gets the 🚀 spotlight once, even if outlets keep covering it.
+  const seenReleases = postedReleaseNames(DEDUP_DAYS);
+  const newReleases = releases.filter((r) => !seenReleases.has((r.name || '').toLowerCase()));
+  if (newReleases.length < releases.length) {
+    console.log(`[zroaix] dropped ${releases.length - newReleases.length} already-announced release(s)`);
+  }
+  releases = newReleases;
+
+  // The HF trending line only earns its place when the lineup actually changed.
+  const trendingIds = trending.map((t) => t.id);
+  const prevTrendingIds = lastNDays(1)[0]?.trending || [];
+  const trendingChanged = trendingIds.join() !== prevTrendingIds.join();
+  if (!trendingChanged) console.log('[zroaix] trending unchanged — omitting the line');
+
+  const text = formatDigest({ items, overview, releases, trending: trendingChanged ? trending : [] });
 
   if (config.dry) {
     if (config.print) {
@@ -59,6 +84,7 @@ const run = async () => {
     overview,
     items,
     releases,
+    trending: trendingIds,
   });
   console.log(`[zroaix] history now holds ${count} day(s)`);
 };
