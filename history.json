@@ -174,56 +174,56 @@
   },
   {
     "date": "2026-07-03",
-    "ts": 1783068441230,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի զարգացումները՝ ներառյալ խոշոր ներդրումները, սարքավորումների ռազմավարական համագործակցությունները և ազգային շահերի վերաբերյալ քաղաքական քննարկումները, ինչպես նաև տեխնոլոգիայի բնապահպանական ազդեցության և անվտանգության հետ կապված մտահոգությունները։",
+    "ts": 1783098728347,
+    "overview": "Արհեստական բանականության ոլորտում նկատվում են խոշոր ներդրումներ և ռազմավարական քայլեր առաջատար ընկերությունների կողմից, միաժամանակ բացահայտվում են նոր հավելվածներ և զարգացման մարտահրավերներ։",
     "items": [
       {
-        "headline": "Tesla-ի վարորդին մեղադրանք է առաջադրվել",
-        "summary": "Տեխասում Tesla-ի վարորդին մեղադրանք է առաջադրվել անզգուշությամբ սպանության համար՝ այն բանից հետո, երբ նրա մեքենան, որը, ըստ նրա, օգտագործում էր Full-Self Driving (FSD) համակարգը, մխրճվել է տան մեջ՝ սպանելով մի կնոջ։",
-        "source": 3,
-        "link": "https://www.theverge.com/transportation/961161/tesla-fsd-katy-tx-manslaughter-charges",
-        "outlet": "The Verge"
-      },
-      {
-        "headline": "Meta-ն գործարկել է նոր Pocket հավելված",
-        "summary": "Meta-ն գործարկել է Pocket անունով նոր փորձարարական AI հավելված, որը թույլ է տալիս օգտատերերին ստեղծել և կիսվել ինտերակտիվ մինի խաղերով՝ օգտագործելով տեքստային հրահանգներ։",
-        "source": 4,
-        "link": "https://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai",
-        "outlet": "The Verge"
-      },
-      {
-        "headline": "Microsoft-ը ստեղծում է $2.5 միլիարդանոց AI միավոր",
-        "summary": "Microsoft-ը 2.5 միլիարդ դոլար է ներդնում նոր «Frontier Company» ստորաբաժանման մեջ, որը 6000 AI ինժեներ կտեղակայի ձեռնարկությունների հաճախորդների մոտ՝ AI-ն հիմնական գործընթացներում ինտեգրելու համար։",
-        "source": 8,
+        "headline": "Microsoft-ը ներդնում է $2.5 միլիարդ AI ինժեներների համար",
+        "summary": "Microsoft-ը $2.5 միլիարդ է ներդնում «Frontier Company» նոր ստորաբաժանման մեջ՝ 6,000 AI ինժեներներ տեղակայելու համար ձեռնարկությունների հաճախորդների մոտ՝ արհեստական բանականությունը հիմնական գործընթացներում ինտեգրելու նպատակով։",
+        "source": 24,
         "link": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/",
         "outlet": "The Decoder"
       },
       {
-        "headline": "Anthropic-ը քննարկում է հատուկ AI չիպի արտադրություն",
-        "summary": "Anthropic-ը, ըստ տեղեկությունների, բանակցում է Samsung Electronics-ի հետ հատուկ AI չիպի արտադրության շուրջ՝ ի լրումն OpenAI-ի նմանատիպ քայլերի։",
-        "source": 13,
+        "headline": "Չինական Kling AI տեսանյութերի ընկերությունը $2 միլիարդ է հավաքել",
+        "summary": "Չինական AI տեսանյութեր ստեղծող Kling ընկերությունը հավաքել է մոտ $2 միլիարդ ներդրողներից՝ նախապատրաստվելով Հոնկոնգի ֆոնդային բորսայում IPO-ի։",
+        "source": 19,
+        "link": "https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը քննարկում է սեփական AI չիպերի արտադրությունը Samsung-ի հետ",
+        "summary": "Հաղորդվում է, որ Anthropic-ը բանակցություններ է վարում Samsung Electronics-ի հետ՝ սեփական AI չիպերի արտադրության շուրջ՝ ենթակառուցվածքների ծախսերը կրճատելու նպատակով։",
+        "source": 28,
         "link": "https://the-decoder.com/anthropic-reportedly-explores-custom-chip-manufacturing-with-samsung-while-insisting-nvidia-still-matters/",
         "outlet": "The Decoder"
       },
       {
-        "headline": "OpenAI-ը առաջարկում է բաժնետոմսեր ԱՄՆ-ին",
-        "summary": "OpenAI-ի գործադիր տնօրեն Սեմ Ալթմանը, ըստ տեղեկությունների, առաջարկել է ընկերության բաժնետոմսերի 5%-ը տրամադրել ԱՄՆ-ի ինքնիշխան հարստության հիմնադրամին՝ AI-ի ֆինանսական շահույթները հանրության հետ կիսելու համար։",
-        "source": 19,
-        "link": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
-        "outlet": "TechCrunch"
+        "headline": "Meta-ի AI գործակալների զարգացումը դանդաղում է",
+        "summary": "Mark Zuckerberg-ը հայտարարել է, որ Meta-ի արհեստական բանականության գործակալների զարգացումն ավելի դանդաղ է ընթանում, քան նախատեսված էր։",
+        "source": 16,
+        "link": "https://the-decoder.com/metas-ai-agent-push-is-moving-slower-than-zuckerberg-planned/",
+        "outlet": "The Decoder"
       },
       {
-        "headline": "Google-ի AI-ն մեծացրել է էլեկտրաէներգիայի սպառումը",
-        "summary": "Google-ի AI ենթակառուցվածքների կառուցումը 2025 թվականին հանգեցրել է էլեկտրաէներգիայի սպառման 37% աճի՝ ընդգծելով AI-ի բնապահպանական ազդեցությունը։",
-        "source": 32,
-        "link": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
-        "outlet": "Ars Technica"
+        "headline": "Anthropic-ը ներկայացնում է Claude Science-ը գիտնականների համար",
+        "summary": "Anthropic-ը ներկայացրել է Claude Science-ը՝ նոր «AI աշխատանքային միջավայր գիտնականների համար», որը միավորում է տարբեր գործիքներ և տվյալների հավաքածուներ՝ գիտական հետազոտությունները խթանելու համար։",
+        "source": 9,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI մոդելները բարձրացրել են անվտանգության խոցելիության հաշվետվությունները",
+        "summary": "Epoch AI-ի զեկույցի համաձայն՝ անվտանգության խոցելիության հաշվետվությունների կտրուկ աճ է գրանցվել, ինչը համընկնում է AI-ի վրա հիմնված սխալներ հայտնաբերող ծրագրերի գործարկման հետ։",
+        "source": 1,
+        "link": "https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
       {
-        "name": "Pocket",
-        "note": "Meta-ի նոր AI հավելված"
+        "name": "Claude Science",
+        "note": "Նոր AI աշխատանքային միջավայր գիտնականների համար"
       }
     ]
   }
