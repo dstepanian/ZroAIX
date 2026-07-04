@@ -1,0 +1,65 @@
+name: LinkedIn Draft
+
+on:
+  schedule:
+    # Yerevan is UTC+4 (no DST). 07:00 UTC = 11:00 Yerevan — after the morning
+    # digest (06:00 UTC) so the latest @zroaix post is fresh source material.
+    - cron: '0 7 * * *'
+  workflow_dispatch: {} # allow manual "Run workflow" from the Actions tab
+
+jobs:
+  linkedin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write # needed to commit linkedin-history.json back to the repo
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Generate and send LinkedIn draft
+        run: npm run linkedin:once
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
+          SOURCE_CHANNEL_USERNAME: ${{ vars.SOURCE_CHANNEL_USERNAME || 'zroaix' }}
+          SITE_URL: ${{ vars.SITE_URL || 'zromek.de' }}
+          CHANNEL_HANDLE: ${{ vars.CHANNEL_HANDLE }}
+          LINKEDIN_CARD_THEME: ${{ vars.LINKEDIN_CARD_THEME || 'mono' }}
+
+      - name: Persist LinkedIn history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Conflict-proof persist (same approach as digest.yml): keep our freshly
+          # generated copy, hard-reset onto the latest origin, re-apply our copy as a
+          # single clean commit, and push — retrying only if the push itself races.
+          # saveLinkedInPackage dedupes by sourcePostId, so re-applying loses nothing.
+          cp linkedin-history.json "${RUNNER_TEMP}/linkedin-history.json"
+          for i in 1 2 3 4 5; do
+            git fetch -q origin "${GITHUB_REF_NAME}"
+            git reset -q --hard "origin/${GITHUB_REF_NAME}"
+            cp "${RUNNER_TEMP}/linkedin-history.json" linkedin-history.json
+            git add linkedin-history.json
+            if git diff --cached --quiet; then
+              echo "No LinkedIn history change."
+              exit 0
+            fi
+            git commit -q -m "chore: record LinkedIn draft in history [skip ci]"
+            if git push -q origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "LinkedIn history persisted."
+              exit 0
+            fi
+            echo "Push raced with another update — retry ${i}/5"
+            sleep $((RANDOM % 4 + 2))
+          done
+          echo "Could not persist LinkedIn history after 5 retries" >&2
+          exit 1
