@@ -6,6 +6,15 @@ import { buildLinkedInAnimatedPosterSvg } from './linkedinCard.js';
 
 const DEFAULT_FPS = 24;
 const DEFAULT_DURATION_SECONDS = 4.8;
+// Instagram Reel canvas (9:16). The square 1080x1080 poster is centered and the
+// top/bottom bands are filled with the theme background so it blends seamlessly.
+const REEL_WIDTH = 1080;
+const REEL_HEIGHT = 1920;
+const reelBackground = (theme) => {
+  if (theme === 'dark') return '#11161c';
+  if (theme === 'light') return '#ffffff';
+  return '#fbfbf8'; // mono
+};
 
 const resolveFfmpeg = () => {
   if (process.env.FFMPEG_PATH) return process.env.FFMPEG_PATH;
@@ -113,6 +122,9 @@ export const writeLinkedInAnimatedPosterMp4 = async (card, filePath, options = {
   const durationSeconds = Number(options.durationSeconds || DEFAULT_DURATION_SECONDS);
   const frameCount = Math.max(1, Math.round(fps * durationSeconds));
   const framesDir = path.join(path.dirname(filePath), '.zroaix-poster-frames');
+  const width = Number(options.width || REEL_WIDTH);
+  const height = Number(options.height || REEL_HEIGHT);
+  const background = options.background || reelBackground(options.theme);
 
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   await runFfmpeg(['-version']);
@@ -124,7 +136,10 @@ export const writeLinkedInAnimatedPosterMp4 = async (card, filePath, options = {
       const seconds = frame / fps;
       const svg = buildPosterFrameSvg(card, options, seconds);
       const framePath = path.join(framesDir, `frame-${String(frame).padStart(4, '0')}.png`);
-      await sharp(Buffer.from(svg)).png().resize(1080, 1080).toFile(framePath);
+      await sharp(Buffer.from(svg))
+        .resize(width, height, { fit: 'contain', background })
+        .png()
+        .toFile(framePath);
     }
 
     await runFfmpeg([
