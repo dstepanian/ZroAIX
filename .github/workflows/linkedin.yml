@@ -2,9 +2,11 @@ name: LinkedIn Draft
 
 on:
   schedule:
-    # Yerevan is UTC+4 (no DST). 07:00 UTC = 11:00 Yerevan — after the morning
-    # digest (06:00 UTC) so the latest @zroaix post is fresh source material.
+    # Yerevan is UTC+4 (no DST).
+    # 07:00 UTC = 11:00 Yerevan — morning run (light card), after the 06:00 digest.
     - cron: '0 7 * * *'
+    # 17:00 UTC = 21:00 Yerevan — evening run (dark card), after the 16:00 digest.
+    - cron: '0 17 * * *'
   workflow_dispatch: {} # allow manual "Run workflow" from the Actions tab
 
 jobs:
@@ -23,6 +25,15 @@ jobs:
 
       - run: npm ci
 
+      - name: Pick card theme by time of day
+        # Morning run → light card, evening run → dark card. For a manual
+        # (workflow_dispatch) run, decide from the current UTC hour the same way.
+        run: |
+          hour=$(date -u +%H)
+          if [ "$hour" -lt 12 ]; then theme=light; else theme=dark; fi
+          echo "LINKEDIN_CARD_THEME=$theme" >> "$GITHUB_ENV"
+          echo "Using $theme card theme (UTC hour $hour)."
+
       - name: Generate and send LinkedIn draft
         run: npm run linkedin:once
         env:
@@ -33,7 +44,8 @@ jobs:
           SOURCE_CHANNEL_USERNAME: ${{ vars.SOURCE_CHANNEL_USERNAME || 'zroaix' }}
           SITE_URL: ${{ vars.SITE_URL || 'zromek.de' }}
           CHANNEL_HANDLE: ${{ vars.CHANNEL_HANDLE }}
-          LINKEDIN_CARD_THEME: ${{ vars.LINKEDIN_CARD_THEME || 'mono' }}
+          # LINKEDIN_CARD_THEME is set by the previous step (light in the morning,
+          # dark in the evening); linkedinBot reads it as the card theme.
 
       - name: Persist LinkedIn history
         run: |
