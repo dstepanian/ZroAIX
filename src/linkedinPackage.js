@@ -70,17 +70,25 @@ Create a LinkedIn package in fluent Eastern Armenian.
 
 Rules:
 - Return ONLY JSON matching the schema.
-- Generate two LinkedIn posts:
-  1. "professional": useful professional insight version.
-  2. "personal": more human build-in-public version, written as the channel creator.
-- Start each post with a strong hook.
-- Each post must be 450-850 characters.
-- Use exactly 4 short paragraphs separated by blank lines.
-- Each paragraph must be 1-2 sentences.
-- Focus on 1-3 strongest ideas, not every item in the source post.
-- Do not sound like an ad.
-- Explain why this matters for Armenian students, developers, founders, and tech professionals.
-- Mention ZroAIX only near the end.
+- GOAL of both posts: introduce the ZroAIX channel to a LinkedIn audience that may be
+  seeing it for the first time, using today's news as the hook, and invite them to subscribe.
+- Make clear what ZroAIX is: a channel that reads the day's AI news and posts a short
+  daily digest in Armenian — the important things only, in ~30 seconds a day.
+- Generate two LinkedIn posts, same goal but different voice:
+  1. "professional": a confident editor's-eye CONCLUSION about where AI is heading today.
+     Big-picture "so what", not a walkthrough of individual stories.
+  2. "personal": the channel creator's voice — today's takeaway and why you run ZroAIX.
+- Start each post with a strong one-line hook (max ~14 words) stating the day's overall takeaway.
+- Do NOT go story by story. Distill the source into ONE clear conclusion about the day.
+  You may mention AT MOST ONE example briefly as proof — do not explain several news items.
+- Each post must be 400-750 characters.
+- Use 3-4 short paragraphs separated by blank lines. Each paragraph 1-2 sentences.
+- End each post by inviting the reader to subscribe / follow ZroAIX for the daily AI digest.
+  Because the clickable link lives in the first comment, write the invite WITHOUT a raw URL
+  (e.g. "subscribe արեք ZroAIX-ին, Link-ը comment-ում").
+- Be welcoming and inviting, but stay genuine and useful — do not sound spammy or hypey.
+- In one line, say why it matters for Armenian students, developers, founders, and tech pros.
+- Keep company/product/model names in their original form (OpenAI, Anthropic, Mistral, Claude, NVIDIA).
 - Do NOT include Telegram URLs in professional or personal.
 - Use 0-2 hashtags maximum.
 - "firstComment" must be exactly: ${FIRST_COMMENT}
@@ -197,24 +205,24 @@ export const buildMockLinkedInPackage = (post = sampleChannelPost()) => ({
   sourceUrl: post.url,
   generatedAt: new Date().toISOString(),
   professional: [
-    'AI automation-ը արդեն փոքր թիմերի համար էլ իրական գործիք է դառնում։',
+    'Այսօրվա AI-ի գլխավոր եզրակացությունը մեկ նախադասությամբ․ AI-ն արագ դառնում է ամենօրյա գործիք, ոչ թե ապագայի խոստում։',
     '',
-    'OpenAI-ի նոր գործիքը ցույց է տալիս մի կարևոր միտում․ AI agent-ները գնում են ոչ թե միայն demo-ների, այլ ամենօրյա workflow-ների կողմը։',
+    'Ամեն օր կարդում եմ տասնյակ աղբյուրներ և ZroAIX-ում հավաքում եմ միայն այն AI նորությունները, որոնք իրոք կարևոր են՝ կարճ, հայերեն ամփոփումով։',
     '',
-    'Հայաստանում սա կարող է օգտակար լինել հատկապես ուսանողների, developers-ի և founders-ի համար, որովհետև թույլ է տալիս արագ փորձարկել customer support, research և ներքին պրոցեսների ավտոմատացում։',
+    'Հայ ուսանողների, developers-ի և founders-ի համար սա հնարավորություն է հետևել ոլորտին՝ առանց ամբողջ օրը նորություններ կարդալու։',
     '',
-    'Նման կարճ AI ամփոփումներ հավաքում եմ ZroAIX-ում։ Link-ը comment-ում։',
+    'Ուզո՞ւմ եք ամեն օր ստանալ AI-ի գլխավորը հայերենով՝ subscribe արեք ZroAIX-ին։ Link-ը comment-ում։',
     '',
-    '#AI #Armenia',
+    '#AI #ArmenianTech',
   ].join('\n'),
   personal: [
-    'Այսօր ZroAIX-ի համար նյութեր հավաքելիս մի բան նորից պարզ դարձավ․ AI-ի արժեքը արդեն ոչ թե “wow effect”-ն է, այլ ժամանակ խնայելը։',
+    'Ինչու՞ եմ ամեն օր ZroAIX-ի համար նյութ հավաքում․ որովհետև AI-ի արագությանը մենակ հետևելը դժվար է։',
     '',
-    'OpenAI-ի agent workflow-ների ուղղությունը հետաքրքիր է, որովհետև փոքր թիմերը կարող են ավելի արագ փորձարկել գաղափարներ՝ առանց մեծ budget-ի։',
+    'Այսօրվա ընդհանուր պատկերը պարզ է՝ գործիքները մոտենում են գործնական աշխատանքին, և ով շուտ է փորձարկում, առաջ է անցնում։',
     '',
-    'Ինձ համար սա հենց ZroAIX-ի պատճառներից մեկն է․ հայերենով ֆիլտրել այն նորությունները, որոնք կարող են գործնական արժեք ունենալ մեր tech համայնքի համար։',
+    'ZroAIX-ը իմ փորձն է՝ ֆիլտրել աղմուկը և հայերենով տալ օրվա ամենակարևոր AI նորությունը՝ 30 վայրկյանում։',
     '',
-    'Link-ը comment-ում։',
+    'Միացե՛ք համայնքին և subscribe արեք, որ ոչ մի կարևոր բան բաց չթողնեք։ Link-ը comment-ում։',
   ].join('\n'),
   firstComment: FIRST_COMMENT,
   instagram: {
