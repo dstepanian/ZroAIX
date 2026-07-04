@@ -8,10 +8,14 @@
   "scripts": {
     "start": "node src/index.js",
     "dry": "node src/index.js --dry",
-    "preview": "node src/index.js --dry --print"
+    "preview": "node src/index.js --dry --print",
+    "linkedin:bot": "node src/linkedinBot.js",
+    "linkedin:once": "node src/linkedinBot.js --once",
+    "linkedin:test": "node src/linkedinBot.js --sample --mock --print"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "rss-parser": "^3.13.0"
+    "rss-parser": "^3.13.0",
+    "sharp": "^0.35.3"
   }
 }

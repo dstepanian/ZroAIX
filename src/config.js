@@ -3,6 +3,8 @@ import 'dotenv/config';
 const config = {
   token: process.env.TELEGRAM_BOT_TOKEN,
   channel: process.env.TELEGRAM_CHANNEL,
+  ownerChatId: process.env.OWNER_CHAT_ID,
+  sourceChannelUsername: (process.env.SOURCE_CHANNEL_USERNAME || 'zroaix').replace(/^@/, ''),
   geminiKey: process.env.GEMINI_API_KEY,
   geminiModel: process.env.GEMINI_MODEL || 'gemini-2.5-flash',
   siteUrl: process.env.SITE_URL || 'zromek.de',

@@ -31,6 +31,53 @@ node src/weekly.js --dry --print   # preview the weekly recap (needs >=2 days of
 node src/weekly.js                 # post the weekly recap
 ```
 
+## LinkedIn draft bot
+
+The LinkedIn helper reads the latest public post from `@zroaix`, creates two Armenian
+LinkedIn drafts plus a branded `1080x1350` PNG card, and sends them only to your private
+chat with `@zroaixbot`. It never posts drafts into `@zroaix` and never posts to LinkedIn.
+
+Add these variables to `.env`:
+
+```bash
+TELEGRAM_BOT_TOKEN=123456:ABC-your-zroaixbot-token
+OWNER_CHAT_ID=123456789
+SOURCE_CHANNEL_USERNAME=zroaix
+GEMINI_API_KEY=your-gemini-key
+```
+
+To get `OWNER_CHAT_ID`, open the private chat with `@zroaixbot`, press Start, run the bot
+locally with `npm run linkedin:bot`, and send `/start`. The bot replies with your chat id.
+
+Commands:
+
+```bash
+npm run linkedin:test   # no Telegram/API send; writes out/zroaix-linkedin-card.png
+npm run linkedin:bot    # listens for private /generate_zroaix_linkedin commands
+npm run linkedin:once   # generates once and sends to OWNER_CHAT_ID
+```
+
+Private bot command:
+
+```text
+/generate_zroaix_linkedin
+```
+
+The expected private-chat output is:
+
+1. LinkedIn draft version 1
+2. LinkedIn draft version 2
+3. First comment with `https://t.me/zroaix`
+4. Attached PNG image card
+
+Generated packages are cached in `linkedin-history.json` by source Telegram post id so the
+same channel post is not regenerated accidentally. Add `force` to the command if you want
+a fresh version:
+
+```text
+/generate_zroaix_linkedin force
+```
+
 ## Scheduling (free)
 
 `.github/workflows/digest.yml` runs at **06:00 & 16:00 UTC = 10:00 & 20:00 Yerevan**.
@@ -65,3 +112,4 @@ self-skips until at least 2 days of history exist. The daily workflow needs
 | `src/history.js` | append/load `history.json` (one entry per day) |
 | `src/index.js` | orchestrate the daily run |
 | `src/weekly.js` | orchestrate the Sunday weekly recap |
+| `src/linkedinBot.js` | private bot command for LinkedIn drafts |
