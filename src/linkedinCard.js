@@ -44,14 +44,33 @@ const THEMES = {
     blobOpacity: 0.68,
     shadow: 0.12,
   },
+  mono: {
+    bg: '#fbfbf8',
+    grid: '#d7d8d5',
+    frame: '#172026',
+    frameOpacity: 0.13,
+    text: '#172026',
+    muted: '#6d747a',
+    logoText: '#172026',
+    iconBg: '#ffffff',
+    pillBg: '#ffffff',
+    cardBg: '#ffffff',
+    title: '#172026',
+    blobBlue: '#ececea',
+    blobGreen: '#f3f3f0',
+    blobOpacity: 0.82,
+    shadow: 0.1,
+  },
 };
 
 const ACCENTS = ['#2f6df6', '#12a84f', '#ef6f8d'];
+const MONO_ACCENTS = ['#172026', '#172026', '#172026'];
 
 const esc = (s = '') =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-const normalizeTheme = (theme) => (theme === 'light' ? 'light' : 'dark');
+const normalizeTheme = (theme) => (theme === 'light' || theme === 'mono' ? theme : 'dark');
+const themeAccents = (themeName) => (themeName === 'mono' ? MONO_ACCENTS : ACCENTS);
 
 const wrapText = (text, maxChars, maxLines) => {
   const words = String(text || '').trim().split(/\s+/).filter(Boolean);
@@ -84,18 +103,19 @@ const tspans = (lines, x, y, lineHeight, className, anchor = 'start') =>
 export const buildLinkedInCardSvg = ({ headline = '', bullets = [], date = yerevanDate() } = {}, options = {}) => {
   const themeName = normalizeTheme(options.theme || config.linkedinCardTheme);
   const t = THEMES[themeName];
+  const accents = themeAccents(themeName);
   const titleLines = wrapText(headline, 21, 3);
   const insightRows = bullets.slice(0, 3).map((bullet, idx) => ({
     label: ['Signal', 'Impact', 'Action'][idx],
     lines: wrapText(bullet, 34, 2),
-    accent: ACCENTS[idx],
+    accent: accents[idx],
   }));
   while (insightRows.length < 3) {
     const idx = insightRows.length;
     insightRows.push({
       label: ['Signal', 'Impact', 'Action'][idx],
       lines: [['AI-ի կարեւոր միտում', 'Հայ tech համայնքի համար'][idx] || 'Կարճ գործնական takeaway'],
-      accent: ACCENTS[idx],
+      accent: accents[idx],
     });
   }
 
@@ -106,8 +126,8 @@ export const buildLinkedInCardSvg = ({ headline = '', bullets = [], date = yerev
       <path d="M 135 0 L 0 0 0 135" fill="none" stroke="${t.grid}" stroke-width="1.4" opacity="0.55"/>
     </pattern>
     <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2f6df6"/>
-      <stop offset="100%" stop-color="#61d29b"/>
+      <stop offset="0%" stop-color="${accents[0]}"/>
+      <stop offset="100%" stop-color="${accents[1]}"/>
     </linearGradient>
     <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="${t.shadow}"/>
@@ -124,29 +144,29 @@ export const buildLinkedInCardSvg = ({ headline = '', bullets = [], date = yerev
   <style>
     text { font-family: "DejaVu Sans", "Noto Sans Armenian", "Noto Sans", Arial, sans-serif; }
     .logo { fill: ${t.logoText}; font-size: 56px; font-weight: 800; letter-spacing: 0; }
-    .terminal { fill: #8ee6a8; font-size: 58px; font-weight: 900; }
-    .terminalBlue { fill: #2f6df6; font-size: 58px; font-weight: 900; }
+    .terminal { fill: ${themeName === 'mono' ? accents[0] : '#8ee6a8'}; font-size: 58px; font-weight: 900; }
+    .terminalBlue { fill: ${accents[0]}; font-size: 58px; font-weight: 900; }
     .pill { fill: ${t.text}; font-size: 20px; font-weight: 800; }
-    .tag { fill: #22ad58; font-size: 18px; font-weight: 900; }
+    .tag { fill: ${accents[1]}; font-size: 18px; font-weight: 900; }
     .date { fill: ${t.muted}; font-size: 21px; font-weight: 800; }
     .headline { fill: ${t.title}; font-family: Georgia, "DejaVu Serif", serif; font-size: 56px; font-weight: 900; }
     .formula { fill: ${t.text}; font-size: 31px; font-weight: 900; letter-spacing: 0.5px; }
     .rowLabel { font-size: 18px; font-weight: 900; letter-spacing: 1px; }
     .rowText { fill: ${t.text}; font-size: 25px; font-weight: 850; }
     .footerMain { fill: ${t.muted}; font-size: 30px; font-weight: 900; letter-spacing: 1px; }
-    .footerSub { fill: #22ad58; font-size: 27px; font-weight: 900; }
+    .footerSub { fill: ${accents[1]}; font-size: 27px; font-weight: 900; }
   </style>
 
-  <rect x="390" y="116" width="124" height="124" rx="25" fill="${t.iconBg}" stroke="#5f86ff" stroke-width="4" filter="url(#softShadow)"/>
+  <rect x="390" y="116" width="124" height="124" rx="25" fill="${t.iconBg}" stroke="${accents[0]}" stroke-width="4" filter="url(#softShadow)"/>
   <text x="424" y="194" class="${themeName === 'dark' ? 'terminal' : 'terminalBlue'}">&gt;_</text>
   <text x="546" y="195" class="logo">zroaix</text>
   <rect x="548" y="220" width="330" height="7" rx="4" fill="url(#accentLine)"/>
 
-  <rect x="172" y="286" width="254" height="48" rx="14" fill="${t.pillBg}" stroke="#2f6df6" stroke-opacity="0.7"/>
-  <circle cx="200" cy="310" r="6" fill="#4f83ff"/>
+  <rect x="172" y="286" width="254" height="48" rx="14" fill="${t.pillBg}" stroke="${accents[0]}" stroke-opacity="0.7"/>
+  <circle cx="200" cy="310" r="6" fill="${accents[0]}"/>
   <text x="220" y="317" class="pill">AI digest</text>
   <text x="540" y="320" text-anchor="middle" class="date">${esc(date)}</text>
-  <rect x="746" y="286" width="162" height="48" rx="14" fill="${t.pillBg}" stroke="#61d29b" stroke-opacity="0.65"/>
+  <rect x="746" y="286" width="162" height="48" rx="14" fill="${t.pillBg}" stroke="${accents[1]}" stroke-opacity="0.65"/>
   <text x="827" y="317" text-anchor="middle" class="tag">#ZROAIX</text>
 
   <text>${tspans(titleLines, 540, 415, 68, 'headline', 'middle')}</text>
@@ -174,22 +194,29 @@ export const buildLinkedInAnimatedPosterSvg = ({ headline = '', bullets = [], da
   const themeName = normalizeTheme(options.theme || config.linkedinCardTheme);
   const t = THEMES[themeName];
   const isDark = themeName === 'dark';
+  const isMono = themeName === 'mono';
+  const accents = themeAccents(themeName);
   const titleLines = wrapText(headline, 22, 2);
   const insightRows = bullets.slice(0, 3).map((bullet, idx) => ({
     label: ['Signal', 'Impact', 'Action'][idx],
     lines: wrapText(bullet, 16, 2),
-    accent: ACCENTS[idx],
+    accent: accents[idx],
   }));
   while (insightRows.length < 3) {
     const idx = insightRows.length;
     insightRows.push({
       label: ['Signal', 'Impact', 'Action'][idx],
       lines: wrapText(['AI-ի կարեւոր միտում', 'Գործնական ազդեցություն', 'Հայ tech համայնքի հնարավորություն'][idx], 16, 2),
-      accent: ACCENTS[idx],
+      accent: accents[idx],
     });
   }
 
-  const bgStops = isDark
+  const bgStops = isMono
+    ? `
+      <stop offset="0" stop-color="#fbfbf8"/>
+      <stop offset=".56" stop-color="#f4f4f1"/>
+      <stop offset="1" stop-color="#ffffff"/>`
+    : isDark
     ? `
       <stop offset="0" stop-color="#171c24"/>
       <stop offset=".56" stop-color="#11161c"/>
@@ -201,7 +228,11 @@ export const buildLinkedInAnimatedPosterSvg = ({ headline = '', bullets = [], da
   const gridStroke = isDark ? '#ffffff' : '#10232c';
   const tileFill = isDark ? '#11161c' : '#ffffff';
   const tileFillOpacity = isDark ? '.86' : '.9';
-  const promptFill = isDark ? '#8ee6a8' : '#2563eb';
+  const promptFill = isDark ? '#8ee6a8' : accents[0];
+  const topBandStart = isMono ? '#ececea' : '#2f6df6';
+  const topBandEnd = isMono ? '#f3f3f0' : '#12a84f';
+  const bottomBandStart = isMono ? '#f0f0ed' : '#ef6f8d';
+  const bottomBandEnd = isMono ? '#ececea' : '#2f6df6';
 
   return `
 <svg xmlns="http://www.w3.org/2000/svg" width="${POSTER_WIDTH}" height="${POSTER_HEIGHT}" viewBox="0 0 ${POSTER_WIDTH} ${POSTER_HEIGHT}">
@@ -209,16 +240,16 @@ export const buildLinkedInAnimatedPosterSvg = ({ headline = '', bullets = [], da
     <linearGradient id="poster-bg" x1="0" y1="0" x2="1" y2="1">${bgStops}
     </linearGradient>
     <linearGradient id="poster-accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2f6df6"/>
-      <stop offset="1" stop-color="#12a84f"/>
+      <stop offset="0" stop-color="${accents[0]}"/>
+      <stop offset="1" stop-color="${accents[1]}"/>
     </linearGradient>
     <linearGradient id="poster-band-top" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2f6df6" stop-opacity="${isDark ? '.24' : '.18'}"/>
-      <stop offset="1" stop-color="#12a84f" stop-opacity="${isDark ? '.18' : '.14'}"/>
+      <stop offset="0" stop-color="${topBandStart}" stop-opacity="${isDark ? '.24' : isMono ? '.92' : '.18'}"/>
+      <stop offset="1" stop-color="${topBandEnd}" stop-opacity="${isDark ? '.18' : isMono ? '.92' : '.14'}"/>
     </linearGradient>
     <linearGradient id="poster-band-bottom" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ef6f8d" stop-opacity="${isDark ? '.18' : '.13'}"/>
-      <stop offset="1" stop-color="#2f6df6" stop-opacity="${isDark ? '.18' : '.13'}"/>
+      <stop offset="0" stop-color="${bottomBandStart}" stop-opacity="${isDark ? '.18' : isMono ? '.84' : '.13'}"/>
+      <stop offset="1" stop-color="${bottomBandEnd}" stop-opacity="${isDark ? '.18' : isMono ? '.84' : '.13'}"/>
     </linearGradient>
     <filter id="poster-shadow" x="-30%" y="-30%" width="160%" height="170%">
       <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="${isDark ? '.26' : '.12'}"/>
@@ -243,7 +274,7 @@ export const buildLinkedInAnimatedPosterSvg = ({ headline = '', bullets = [], da
       .footer-text{animation:footerPulse 4.8s ease-in-out infinite}
       .date{fill:${t.muted};font-size:21px;font-weight:800}
       .pill{fill:${t.text};font-size:20px;font-weight:800}
-      .tag{fill:#22ad58;font-size:20px;font-weight:900}
+      .tag{fill:${accents[1]};font-size:20px;font-weight:900}
       .headlineText{fill:${t.title};font-size:54px;font-weight:900}
       .sublineText{fill:${t.muted};font-size:38px;font-weight:850}
       .tileLabel{font-size:18px;font-weight:900;letter-spacing:1px}
@@ -272,20 +303,20 @@ export const buildLinkedInAnimatedPosterSvg = ({ headline = '', bullets = [], da
   <rect class="frame" x="92" y="92" width="896" height="896" rx="46" fill="none" stroke="${t.frame}" stroke-opacity="${isDark ? '.18' : '.14'}" stroke-width="2"/>
 
   <g class="terminal-mark" transform="translate(406 118)" filter="url(#poster-shadow)">
-    <rect width="116" height="116" rx="24" fill="${t.iconBg}" stroke="#2f6df6" stroke-opacity=".5" stroke-width="4"/>
+    <rect width="116" height="116" rx="24" fill="${t.iconBg}" stroke="${accents[0]}" stroke-opacity=".5" stroke-width="4"/>
     <text x="27" y="75" class="mono prompt" font-size="50" fill="${promptFill}" font-weight="800">&gt;_</text>
   </g>
   <text class="mono" x="548" y="200" font-size="58" fill="${t.logoText}" font-weight="800">zroaix</text>
   <rect class="brand-line" x="548" y="228" width="330" height="7" rx="4" fill="url(#poster-accent)"/>
 
   <g transform="translate(172 286)" filter="url(#poster-shadow)">
-    <rect width="254" height="46" rx="14" fill="${t.pillBg}" fill-opacity="${isDark ? '.9' : '.84'}" stroke="#2f6df6" stroke-opacity=".46"/>
-    <circle cx="28" cy="23" r="6" fill="#2f6df6"/>
+    <rect width="254" height="46" rx="14" fill="${t.pillBg}" fill-opacity="${isDark ? '.9' : '.84'}" stroke="${accents[0]}" stroke-opacity=".46"/>
+    <circle cx="28" cy="23" r="6" fill="${accents[0]}"/>
     <text class="sans pill" x="48" y="30">AI digest</text>
   </g>
   <text x="540" y="318" text-anchor="middle" class="sans date">${esc(date)}</text>
   <g transform="translate(746 286)" filter="url(#poster-shadow)">
-    <rect width="162" height="46" rx="14" fill="${t.pillBg}" fill-opacity="${isDark ? '.9' : '.76'}" stroke="#12a84f" stroke-opacity=".44"/>
+    <rect width="162" height="46" rx="14" fill="${t.pillBg}" fill-opacity="${isDark ? '.9' : '.76'}" stroke="${accents[1]}" stroke-opacity=".44"/>
     <text class="mono tag" x="81" y="30" text-anchor="middle">#ZROAIX</text>
   </g>
 
@@ -305,7 +336,7 @@ export const buildLinkedInAnimatedPosterSvg = ({ headline = '', bullets = [], da
     .join('')}
 
   <text class="mono footer-text" x="540" y="904" text-anchor="middle" font-size="30" fill="${t.muted}" font-weight="700">${esc(config.siteUrl)}</text>
-  <text class="sans footer-text" x="540" y="948" text-anchor="middle" font-size="27" fill="#22ad58" font-weight="800">AI News | Armenian</text>
+  <text class="sans footer-text" x="540" y="948" text-anchor="middle" font-size="27" fill="${accents[1]}" font-weight="800">AI News | Armenian</text>
 </svg>`.trim();
 };
 

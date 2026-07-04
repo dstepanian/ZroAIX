@@ -44,7 +44,7 @@ TELEGRAM_BOT_TOKEN=123456:ABC-your-zroaixbot-token
 OWNER_CHAT_ID=123456789
 SOURCE_CHANNEL_USERNAME=zroaix
 GEMINI_API_KEY=your-gemini-key
-LINKEDIN_CARD_THEME=dark
+LINKEDIN_CARD_THEME=mono
 ```
 
 To get `OWNER_CHAT_ID`, open the private chat with `@zroaixbot`, press Start, run the bot
@@ -60,10 +60,11 @@ npm run linkedin:bot    # listens for private /generate_zroaix_linkedin commands
 npm run linkedin:once   # generates once and sends to OWNER_CHAT_ID
 ```
 
-Use `LINKEDIN_CARD_THEME=dark` or `LINKEDIN_CARD_THEME=light` for the default card
+Use `LINKEDIN_CARD_THEME=mono`, `LINKEDIN_CARD_THEME=dark`, or `LINKEDIN_CARD_THEME=light` for the default card
 style. You can also override per command:
 
 ```bash
+node src/linkedinBot.js --sample --mock --print --theme=mono
 node src/linkedinBot.js --sample --mock --print --theme=light
 node src/linkedinBot.js --sample --mock --print --theme=dark
 node src/linkedinBot.js --sample --mock --print --animated
@@ -81,10 +82,13 @@ The `/start` message also shows quick buttons for:
 ```text
 PNG dark
 PNG light
+PNG mono
 MP4 dark
 MP4 light
+MP4 mono
 SVG dark
 SVG light
+SVG mono
 ```
 
 For a one-off theme from Telegram:
@@ -92,6 +96,7 @@ For a one-off theme from Telegram:
 ```text
 /generate_zroaix_linkedin light
 /generate_zroaix_linkedin dark
+/generate_zroaix_linkedin mono
 /generate_zroaix_linkedin animated
 /generate_zroaix_linkedin mp4
 ```

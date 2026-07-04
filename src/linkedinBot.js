@@ -16,6 +16,7 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const isOwner = (chatId) => config.ownerChatId && String(chatId) === String(config.ownerChatId);
 const argValue = (name) => process.argv.find((arg) => arg.startsWith(`${name}=`))?.split('=').slice(1).join('=');
 const themeFromText = (text = '') => {
+  if (/\bmono\b/i.test(text)) return 'mono';
   if (/\blight\b/i.test(text)) return 'light';
   if (/\bdark\b/i.test(text)) return 'dark';
   return argValue('--theme') || config.linkedinCardTheme;
@@ -23,15 +24,15 @@ const themeFromText = (text = '') => {
 const wantsAnimatedPoster = (text = '') => args.has('--animated') || args.has('--poster') || /\b(animated|poster|svg)\b/i.test(text);
 const wantsPosterMp4 = (text = '') => args.has('--mp4') || /\b(mp4|video)\b/i.test(text);
 const isGenerateRequest = (text = '') =>
-  text.startsWith('/generate_zroaix_linkedin') || /^(png|image|mp4|video|svg|animated|poster)\s+(dark|light)$/i.test(text);
+  text.startsWith('/generate_zroaix_linkedin') || /^(png|image|mp4|video|svg|animated|poster)\s+(dark|light|mono)$/i.test(text);
 const buildStartKeyboard = () => ({
   keyboard: [
-    [{ text: 'PNG dark' }, { text: 'PNG light' }],
-    [{ text: 'MP4 dark' }, { text: 'MP4 light' }],
-    [{ text: 'SVG dark' }, { text: 'SVG light' }],
+    [{ text: 'PNG mono' }, { text: 'PNG dark' }, { text: 'PNG light' }],
+    [{ text: 'MP4 mono' }, { text: 'MP4 dark' }, { text: 'MP4 light' }],
+    [{ text: 'SVG mono' }, { text: 'SVG dark' }, { text: 'SVG light' }],
   ],
   resize_keyboard: true,
-  one_time_keyboard: false,
+  one_time_keyboard: true,
 });
 
 const telegramApi = async (method, body) => {
@@ -143,7 +144,7 @@ const handleMessage = async (message) => {
         'MP4 = video poster',
         'SVG = animated poster file',
         '',
-        'Pick dark or light below. Nothing is posted publicly.',
+        'Pick mono, dark, or light below. Nothing is posted publicly.',
       ].join('\n'),
       { replyMarkup: buildStartKeyboard() }
     );
@@ -163,7 +164,8 @@ const handleMessage = async (message) => {
       chatId,
       `Generating today's LinkedIn drafts from @zroaix with ${theme} card theme${animatedPoster ? ' and animated poster' : ''}${
         posterMp4 ? ' and MP4 export' : ''
-      }...`
+      }...`,
+      { replyMarkup: { remove_keyboard: true } }
     );
     await sendPackage({ chatId, force: text.includes('force'), theme, animatedPoster, posterMp4 });
   }
