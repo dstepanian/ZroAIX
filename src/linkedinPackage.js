@@ -329,7 +329,10 @@ const normalizePackage = (post, parsed) => ({
 export const createLinkedInPackage = async ({ force = false, sample = false, mock = false, save = true } = {}) => {
   const post = sample ? sampleChannelPost() : await fetchLatestChannelPost(config.sourceChannelUsername);
   const cached = findLinkedInPackage(post.id);
-  if (cached && !force && !mock && save) {
+  // Only reuse a cache entry that already has the Instagram captions — older
+  // entries were saved before that field existed, so treat them as a miss and
+  // regenerate to fill in the bilingual captions.
+  if (cached && cached.instagram && !force && !mock && save) {
     return { post, pkg: cached, fromCache: true };
   }
 
