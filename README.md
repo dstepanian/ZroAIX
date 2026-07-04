@@ -79,10 +79,12 @@ Private bot command:
 The `/start` message also shows quick buttons for:
 
 ```text
-/generate_zroaix_linkedin image dark
-/generate_zroaix_linkedin image light
-/generate_zroaix_linkedin video dark
-/generate_zroaix_linkedin video light
+PNG dark
+PNG light
+MP4 dark
+MP4 light
+SVG dark
+SVG light
 ```
 
 For a one-off theme from Telegram:

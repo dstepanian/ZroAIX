@@ -22,11 +22,13 @@ const themeFromText = (text = '') => {
 };
 const wantsAnimatedPoster = (text = '') => args.has('--animated') || args.has('--poster') || /\b(animated|poster|svg)\b/i.test(text);
 const wantsPosterMp4 = (text = '') => args.has('--mp4') || /\b(mp4|video)\b/i.test(text);
+const isGenerateRequest = (text = '') =>
+  text.startsWith('/generate_zroaix_linkedin') || /^(png|image|mp4|video|svg|animated|poster)\s+(dark|light)$/i.test(text);
 const buildStartKeyboard = () => ({
   keyboard: [
-    [{ text: '/generate_zroaix_linkedin image dark' }, { text: '/generate_zroaix_linkedin image light' }],
-    [{ text: '/generate_zroaix_linkedin video dark' }, { text: '/generate_zroaix_linkedin video light' }],
-    [{ text: '/generate_zroaix_linkedin animated dark' }, { text: '/generate_zroaix_linkedin animated light' }],
+    [{ text: 'PNG dark' }, { text: 'PNG light' }],
+    [{ text: 'MP4 dark' }, { text: 'MP4 light' }],
+    [{ text: 'SVG dark' }, { text: 'SVG light' }],
   ],
   resize_keyboard: true,
   one_time_keyboard: false,
@@ -131,27 +133,24 @@ const handleMessage = async (message) => {
     await sendTelegramMessage(
       chatId,
       [
-        'ZroAIX LinkedIn draft bot is ready.',
+        'ZroAIX draft bot is ready.',
         '',
-        `Your chat id: ${chatId}`,
-        'Put it in OWNER_CHAT_ID, then use /generate_zroaix_linkedin.',
+        `Chat id: ${chatId}`,
+        'Set OWNER_CHAT_ID to this once.',
         '',
-        'Quick options:',
-        '/generate_zroaix_linkedin image dark',
-        '/generate_zroaix_linkedin image light',
-        '/generate_zroaix_linkedin video dark',
-        '/generate_zroaix_linkedin video light',
+        'Quick buttons:',
+        'PNG = image card',
+        'MP4 = video poster',
+        'SVG = animated poster file',
         '',
-        'Use image for the PNG card, video for the MP4 poster, or animated for the SVG poster.',
-        '',
-        'Drafts are sent only to this private chat. The bot does not post to @zroaix or LinkedIn.',
+        'Pick dark or light below. Nothing is posted publicly.',
       ].join('\n'),
       { replyMarkup: buildStartKeyboard() }
     );
     return;
   }
 
-  if (text.startsWith('/generate_zroaix_linkedin')) {
+  if (isGenerateRequest(text)) {
     if (!isOwner(chatId)) {
       await sendTelegramMessage(chatId, 'This command is only allowed for OWNER_CHAT_ID.');
       return;
