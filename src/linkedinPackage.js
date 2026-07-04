@@ -51,8 +51,13 @@ Rules:
 - Do NOT include Telegram URLs in professional or personal.
 - Use 0-2 hashtags maximum.
 - "firstComment" must be exactly: ${FIRST_COMMENT}
-- "card.headline" must be short enough for a LinkedIn image card.
-- "card.bullets" must contain exactly 3 short Armenian bullets.
+- The image/video card must be clean and readable.
+- "card.headline" must be a short takeaway, 2-5 words, max 34 characters.
+- "card.headline" must NOT include the date, "օրվա ամփոփում", "ամփոփում", or repeat the channel title.
+- "card.bullets" must contain exactly 3 original Armenian takeaway phrases.
+- Each card bullet must be max 42 characters.
+- Card bullets must not copy full source sentences. Rewrite them as short designed phrases.
+- Card bullets must not include labels like Signal, Impact, Action.
 `.trim();
 
 const cleanLinkedInPost = (text = '') =>
@@ -83,6 +88,44 @@ const compactLinkedInPost = (text, maxChars = 1000) => {
   return [...picked, cta, hashtags].filter(Boolean).join('\n\n').trim();
 };
 
+const stripCardHeadlineNoise = (text = '') =>
+  String(text)
+    .replace(/AI[-ի\s]*օրվա\s*ամփոփում[:：]?/giu, '')
+    .replace(/օրվա\s*ամփոփում[:：]?/giu, '')
+    .replace(/ամփոփում[:：]?/giu, '')
+    .replace(/հուլիսի\s*\d+/giu, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+
+const compactCardPhrase = (text = '', maxChars = 42) => {
+  const cleaned = String(text)
+    .replace(/^[•\-\d.)\s]+/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (cleaned.length <= maxChars) return cleaned;
+
+  const firstClause = cleaned.split(/[։:.,;՝]/u)[0]?.trim();
+  if (firstClause && firstClause.length <= maxChars) return firstClause;
+
+  const words = cleaned.split(/\s+/u);
+  const picked = [];
+  for (const word of words) {
+    const candidate = [...picked, word].join(' ');
+    if (candidate.length > maxChars) break;
+    picked.push(word);
+  }
+  return picked.join(' ').trim() || cleaned.slice(0, maxChars).trim();
+};
+
+const cleanCard = (card = {}) => ({
+  headline: compactCardPhrase(stripCardHeadlineNoise(card.headline || 'AI փոփոխություն'), 34) || 'AI փոփոխություն',
+  bullets: (Array.isArray(card.bullets) ? card.bullets : [])
+    .map((item) => compactCardPhrase(item, 42))
+    .filter(Boolean)
+    .slice(0, 3),
+  date: yerevanDate(),
+});
+
 export const buildMockLinkedInPackage = (post = sampleChannelPost()) => ({
   sourcePostId: post.id,
   sourceUrl: post.url,
@@ -109,11 +152,11 @@ export const buildMockLinkedInPackage = (post = sampleChannelPost()) => ({
   ].join('\n'),
   firstComment: FIRST_COMMENT,
   card: {
-    headline: 'AI agent-ները մտնում են workflow-ներ',
+    headline: 'AI-ը դառնում է գործիք',
     bullets: [
-      'Փոքր թիմերը կարող են արագ փորձարկել ավտոմատացում',
-      'Արժեքը տեղափոխվում է գործնական պրոցեսների մեջ',
-      'Հայ tech համայնքի համար սա նոր հնարավորություն է',
+      'Ավտոմատացումը մոտենում է թիմերին',
+      'Գործնական արժեքն աճում է',
+      'Փորձարկելու պահն է',
     ],
   },
 });
@@ -125,14 +168,7 @@ const normalizePackage = (post, parsed) => ({
   professional: compactLinkedInPost(parsed.professional),
   personal: compactLinkedInPost(parsed.personal),
   firstComment: FIRST_COMMENT,
-  card: {
-    headline: String(parsed.card?.headline || 'AI նորություն, որ արժե իմանալ').trim(),
-    bullets: (Array.isArray(parsed.card?.bullets) ? parsed.card.bullets : [])
-      .map((item) => String(item || '').trim())
-      .filter(Boolean)
-      .slice(0, 3),
-    date: yerevanDate(),
-  },
+  card: cleanCard(parsed.card),
 });
 
 export const createLinkedInPackage = async ({ force = false, sample = false, mock = false, save = true } = {}) => {

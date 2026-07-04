@@ -100,8 +100,126 @@ const tspans = (lines, x, y, lineHeight, className, anchor = 'start') =>
     .map((line, idx) => `<tspan x="${x}" y="${y + idx * lineHeight}" text-anchor="${anchor}" class="${className}">${esc(line)}</tspan>`)
     .join('');
 
+const normalizedCardBullets = (bullets = [], fallback = ['Ավտոմատացումը մոտենում է թիմերին', 'Գործնական արժեքն աճում է', 'Փորձարկելու պահն է']) => {
+  const items = bullets.map((item) => String(item || '').trim()).filter(Boolean).slice(0, 3);
+  return [...items, ...fallback].slice(0, 3);
+};
+
+const buildMonoLinkedInCardSvg = ({ headline = '', bullets = [], date = yerevanDate() } = {}) => {
+  const titleLines = wrapText(headline || 'AI-ը դառնում է գործիք', 23, 2);
+  const rows = normalizedCardBullets(bullets).map((bullet, idx) => ({
+    number: String(idx + 1).padStart(2, '0'),
+    lines: wrapText(bullet, 36, 2),
+  }));
+
+  return `
+<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}">
+  <rect width="${WIDTH}" height="${HEIGHT}" fill="#fbfbf8"/>
+  <style>
+    text { font-family: "DejaVu Sans", "Noto Sans Armenian", "Noto Sans", Arial, sans-serif; }
+    .mono { font-family: "JetBrains Mono", "Consolas", "Courier New", monospace; }
+    .brand { fill: #172026; font-size: 56px; font-weight: 850; }
+    .mark { fill: #172026; font-size: 58px; font-weight: 900; }
+    .date { fill: #737b82; font-size: 22px; font-weight: 850; }
+    .headline { fill: #172026; font-size: 60px; font-weight: 900; }
+    .rowNo { fill: #737b82; font-size: 28px; font-weight: 900; }
+    .rowText { fill: #172026; font-size: 31px; font-weight: 850; }
+    .footerMain { fill: #737b82; font-size: 30px; font-weight: 900; }
+    .footerSub { fill: #172026; font-size: 28px; font-weight: 900; }
+  </style>
+
+  <rect x="390" y="116" width="124" height="124" rx="26" fill="#ffffff" stroke="#172026" stroke-width="3"/>
+  <text x="424" y="194" class="mono mark">&gt;_</text>
+  <text x="546" y="195" class="mono brand">zroaix</text>
+  <rect x="548" y="220" width="330" height="6" rx="4" fill="#172026"/>
+
+  <text x="540" y="323" text-anchor="middle" class="date">${esc(date)}</text>
+  <text>${tspans(titleLines, 540, 435, 68, 'headline', 'middle')}</text>
+
+  ${rows
+    .map((row, idx) => {
+      const y = 710 + idx * 138;
+      return `
+  <text x="194" y="${y + 32}" text-anchor="middle" class="mono rowNo">${row.number}</text>
+  <text>${tspans(row.lines, 270, y + 24, 37, 'rowText')}</text>
+  <rect x="172" y="${y + 104}" width="736" height="2" fill="#d9d9d6"/>`;
+    })
+    .join('')}
+
+  <text x="540" y="1160" text-anchor="middle" class="mono footerMain">${esc(config.siteUrl)}</text>
+  <text x="540" y="1207" text-anchor="middle" class="footerSub">AI News | Armenian</text>
+</svg>`.trim();
+};
+
+const buildMonoAnimatedPosterSvg = ({ headline = '', bullets = [], date = yerevanDate() } = {}) => {
+  const titleLines = wrapText(headline || 'AI-ը դառնում է գործիք', 21, 2);
+  const rows = normalizedCardBullets(bullets).map((bullet, idx) => ({
+    number: String(idx + 1).padStart(2, '0'),
+    lines: wrapText(bullet, 24, 2),
+  }));
+
+  return `
+<svg xmlns="http://www.w3.org/2000/svg" width="${POSTER_WIDTH}" height="${POSTER_HEIGHT}" viewBox="0 0 ${POSTER_WIDTH} ${POSTER_HEIGHT}">
+  <rect width="${POSTER_WIDTH}" height="${POSTER_HEIGHT}" fill="#fbfbf8"/>
+  <style>
+    .mono{font-family:"JetBrains Mono","Consolas","Courier New",monospace}
+    .sans{font-family:"Noto Sans Armenian","Segoe UI",Arial,sans-serif}
+    .terminal-mark,.headline,.subline,.step-1,.step-2,.step-3{transform-box:fill-box;transform-origin:center}
+    .terminal-mark{animation:markPop 4.2s ease-in-out infinite}
+    .prompt{animation:promptBlink 1.1s steps(2,start) infinite}
+    .brand-line{transform-origin:548px 231px;animation:lineDraw 4.8s ease-in-out infinite}
+    .headline{animation:fadeRise 4.8s ease-in-out infinite}
+    .step-1,.step-2,.step-3{animation:cardBreathe 6.4s ease-in-out infinite}
+    .step-1{animation-delay:.2s}.step-2{animation-delay:1s}.step-3{animation-delay:1.8s}
+    .footer-text{animation:footerPulse 4.8s ease-in-out infinite}
+    .brand{fill:#172026;font-size:58px;font-weight:850}
+    .mark{fill:#172026;font-size:50px;font-weight:900}
+    .date{fill:#737b82;font-size:21px;font-weight:850}
+    .headlineText{fill:#172026;font-size:56px;font-weight:900}
+    .rowNo{fill:#737b82;font-size:25px;font-weight:900}
+    .rowText{fill:#172026;font-size:25px;font-weight:850}
+    @keyframes markPop{0%,100%{transform:translate(406px,118px) scale(1)}50%{transform:translate(406px,118px) scale(1.035)}}
+    @keyframes promptBlink{50%{opacity:.45}}
+    @keyframes lineDraw{0%,10%,100%{transform:scaleX(.08);opacity:.35}30%,88%{transform:scaleX(1);opacity:1}}
+    @keyframes fadeRise{0%,12%,100%{opacity:0;transform:translateY(18px)}30%,88%{opacity:1;transform:translateY(0)}}
+    @keyframes cardBreathe{0%,100%{opacity:.9}22%,68%{opacity:1}}
+    @keyframes footerPulse{50%{opacity:.72}}
+    @media (prefers-reduced-motion:reduce){
+      .terminal-mark,.prompt,.brand-line,.headline,.step-1,.step-2,.step-3,.footer-text{animation:none}
+    }
+  </style>
+
+  <g class="terminal-mark" transform="translate(406 118)">
+    <rect width="116" height="116" rx="24" fill="#ffffff" stroke="#172026" stroke-width="3"/>
+    <text x="27" y="75" class="mono prompt mark">&gt;_</text>
+  </g>
+  <text class="mono brand" x="548" y="200">zroaix</text>
+  <rect class="brand-line" x="548" y="228" width="330" height="6" rx="4" fill="#172026"/>
+
+  <text x="540" y="322" text-anchor="middle" class="sans date">${esc(date)}</text>
+  <text class="sans headline headlineText" x="540" y="428" text-anchor="middle">${tspans(titleLines, 540, 428, 64, 'headlineText', 'middle')}</text>
+
+  ${rows
+    .map((row, idx) => {
+      const y = 655 + idx * 90;
+      return `
+  <g class="step-${idx + 1}" transform="translate(0 0)">
+    <text x="210" y="${y + 28}" text-anchor="middle" class="mono rowNo">${row.number}</text>
+    <text class="sans">${tspans(row.lines, 300, y + 22, 30, 'rowText')}</text>
+    <rect x="172" y="${y + 68}" width="736" height="2" fill="#d9d9d6"/>
+  </g>`;
+    })
+    .join('')}
+
+  <text class="mono footer-text" x="540" y="970" text-anchor="middle" font-size="29" fill="#737b82" font-weight="800">${esc(config.siteUrl)}</text>
+  <text class="sans footer-text" x="540" y="1016" text-anchor="middle" font-size="27" fill="#172026" font-weight="900">AI News | Armenian</text>
+</svg>`.trim();
+};
+
 export const buildLinkedInCardSvg = ({ headline = '', bullets = [], date = yerevanDate() } = {}, options = {}) => {
   const themeName = normalizeTheme(options.theme || config.linkedinCardTheme);
+  if (themeName === 'mono') return buildMonoLinkedInCardSvg({ headline, bullets, date });
+
   const t = THEMES[themeName];
   const accents = themeAccents(themeName);
   const titleLines = wrapText(headline, 21, 3);
@@ -192,6 +310,8 @@ export const buildLinkedInCardSvg = ({ headline = '', bullets = [], date = yerev
 
 export const buildLinkedInAnimatedPosterSvg = ({ headline = '', bullets = [], date = yerevanDate() } = {}, options = {}) => {
   const themeName = normalizeTheme(options.theme || config.linkedinCardTheme);
+  if (themeName === 'mono') return buildMonoAnimatedPosterSvg({ headline, bullets, date });
+
   const t = THEMES[themeName];
   const isDark = themeName === 'dark';
   const isMono = themeName === 'mono';
