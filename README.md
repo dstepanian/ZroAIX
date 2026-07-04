@@ -76,6 +76,15 @@ Private bot command:
 /generate_zroaix_linkedin
 ```
 
+The `/start` message also shows quick buttons for:
+
+```text
+/generate_zroaix_linkedin image dark
+/generate_zroaix_linkedin image light
+/generate_zroaix_linkedin video dark
+/generate_zroaix_linkedin video light
+```
+
 For a one-off theme from Telegram:
 
 ```text

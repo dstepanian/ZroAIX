@@ -1,6 +1,6 @@
 import config from './config.js';
 
-export const sendTelegramMessage = async (chatId, text, { parseMode, disableWebPagePreview = true } = {}) => {
+export const sendTelegramMessage = async (chatId, text, { parseMode, disableWebPagePreview = true, replyMarkup } = {}) => {
   if (!config.token) {
     throw new Error('TELEGRAM_BOT_TOKEN missing');
   }
@@ -14,6 +14,7 @@ export const sendTelegramMessage = async (chatId, text, { parseMode, disableWebP
     disable_web_page_preview: disableWebPagePreview,
   };
   if (parseMode) body.parse_mode = parseMode;
+  if (replyMarkup) body.reply_markup = replyMarkup;
 
   const res = await fetch(`https://api.telegram.org/bot${config.token}/sendMessage`, {
     method: 'POST',
