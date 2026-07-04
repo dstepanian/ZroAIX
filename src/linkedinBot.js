@@ -8,6 +8,12 @@ import { sendTelegramMessage, sendTelegramPhoto } from './post.js';
 const args = new Set(process.argv.slice(2));
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const isOwner = (chatId) => config.ownerChatId && String(chatId) === String(config.ownerChatId);
+const argValue = (name) => process.argv.find((arg) => arg.startsWith(`${name}=`))?.split('=').slice(1).join('=');
+const themeFromText = (text = '') => {
+  if (/\blight\b/i.test(text)) return 'light';
+  if (/\bdark\b/i.test(text)) return 'dark';
+  return argValue('--theme') || config.linkedinCardTheme;
+};
 
 const telegramApi = async (method, body) => {
   if (!config.token) throw new Error('TELEGRAM_BOT_TOKEN missing');
@@ -21,16 +27,16 @@ const telegramApi = async (method, body) => {
   return data.result;
 };
 
-const sendPackage = async ({ chatId, force = false, sample = false, mock = false }) => {
+const sendPackage = async ({ chatId, force = false, sample = false, mock = false, theme = config.linkedinCardTheme }) => {
   const result = await createLinkedInPackage({ force, sample, mock });
   const { pkg, post, fromCache } = result;
-  const png = await renderLinkedInCardPng(pkg.card);
+  const png = await renderLinkedInCardPng(pkg.card, { theme });
   const cacheNote = fromCache ? '\n\n(Already generated before, sending cached draft.)' : '';
 
   await sendTelegramMessage(chatId, `LinkedIn draft 1:\n\n${pkg.professional}${cacheNote}`);
   await sendTelegramMessage(chatId, `LinkedIn draft 2:\n\n${pkg.personal}`);
   await sendTelegramMessage(chatId, `First comment:\n${pkg.firstComment}`);
-  await sendTelegramPhoto(chatId, png, `ZroAIX LinkedIn card\nSource: ${post.url}`, 'zroaix-linkedin-card.png');
+  await sendTelegramPhoto(chatId, png, `ZroAIX LinkedIn card (${theme})\nSource: ${post.url}`, 'zroaix-linkedin-card.png');
   return result;
 };
 
@@ -42,9 +48,11 @@ const printPackage = async () => {
     save: !args.has('--mock'),
   });
   const outPath = path.join(process.cwd(), 'out', 'zroaix-linkedin-card.png');
-  await writeLinkedInCardPng(result.pkg.card, outPath);
+  const theme = themeFromText();
+  await writeLinkedInCardPng(result.pkg.card, outPath, { theme });
   console.log(formatPackageForConsole(result));
-  console.log(`\nPNG: ${outPath}`);
+  console.log(`\nTheme: ${theme}`);
+  console.log(`PNG: ${outPath}`);
 };
 
 const runOnce = async () => {
@@ -56,6 +64,7 @@ const runOnce = async () => {
     force: args.has('--force'),
     sample: args.has('--sample'),
     mock: args.has('--mock'),
+    theme: themeFromText(),
   });
 };
 
@@ -85,8 +94,9 @@ const handleMessage = async (message) => {
       return;
     }
 
-    await sendTelegramMessage(chatId, 'Generating today\'s LinkedIn drafts from @zroaix...');
-    await sendPackage({ chatId, force: text.includes('force') });
+    const theme = themeFromText(text);
+    await sendTelegramMessage(chatId, `Generating today's LinkedIn drafts from @zroaix with ${theme} card theme...`);
+    await sendPackage({ chatId, force: text.includes('force'), theme });
   }
 };
 

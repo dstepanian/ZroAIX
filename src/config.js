@@ -9,6 +9,7 @@ const config = {
   geminiModel: process.env.GEMINI_MODEL || 'gemini-2.5-flash',
   siteUrl: process.env.SITE_URL || 'zromek.de',
   channelHandle: process.env.CHANNEL_HANDLE || process.env.TELEGRAM_CHANNEL || '',
+  linkedinCardTheme: process.env.LINKEDIN_CARD_THEME || 'dark',
   digestMin: Number(process.env.DIGEST_MIN || 5),
   digestMax: Number(process.env.DIGEST_MAX || 6),
   // CLI flags

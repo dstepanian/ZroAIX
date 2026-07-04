@@ -44,6 +44,7 @@ TELEGRAM_BOT_TOKEN=123456:ABC-your-zroaixbot-token
 OWNER_CHAT_ID=123456789
 SOURCE_CHANNEL_USERNAME=zroaix
 GEMINI_API_KEY=your-gemini-key
+LINKEDIN_CARD_THEME=dark
 ```
 
 To get `OWNER_CHAT_ID`, open the private chat with `@zroaixbot`, press Start, run the bot
@@ -57,10 +58,25 @@ npm run linkedin:bot    # listens for private /generate_zroaix_linkedin commands
 npm run linkedin:once   # generates once and sends to OWNER_CHAT_ID
 ```
 
+Use `LINKEDIN_CARD_THEME=dark` or `LINKEDIN_CARD_THEME=light` for the default card
+style. You can also override per command:
+
+```bash
+node src/linkedinBot.js --sample --mock --print --theme=light
+node src/linkedinBot.js --sample --mock --print --theme=dark
+```
+
 Private bot command:
 
 ```text
 /generate_zroaix_linkedin
+```
+
+For a one-off theme from Telegram:
+
+```text
+/generate_zroaix_linkedin light
+/generate_zroaix_linkedin dark
 ```
 
 The expected private-chat output is:
