@@ -281,5 +281,58 @@
       "baidu/Unlimited-OCR",
       "deepseek-ai/DeepSeek-V4-Pro-DSpark"
     ]
+  },
+  {
+    "date": "2026-07-04",
+    "ts": 1783153366933,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության մոդելների և կիրառությունների զարգացումները, խոշոր տեխնոլոգիական ընկերությունների ռազմավարական քայլերը AI ոլորտում, ինչպես նաև նոր համագործակցություններ AI հետազոտությունների համար։",
+    "items": [
+      {
+        "headline": "Anthropic-ը մեկնարկում է դեղերի մշակման ծրագրեր",
+        "summary": "Anthropic-ը սկսում է դեղերի մշակման սեփական ծրագրերը՝ ուղղված այն հիվանդություններին, որոնք դեղագործական արդյունաբերությունը համարում է ոչ շահութաբեր։",
+        "source": 1,
+        "link": "https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Mistral-ը թողարկում է Leanstral 1.5 մոդելը",
+        "summary": "Mistral AI-ը թողարկել է Leanstral 1.5 բաց կոդով մոդելը, որը նախատեսված է Lean 4-ում ֆորմալ ստուգման համար և հայտնաբերել է հինգ անհայտ սխալ բաց կոդով պահոցներում։",
+        "source": 2,
+        "link": "https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Microsoft-ը մտնում է AI սուպեր հավելվածների մրցավազք",
+        "summary": "Microsoft-ը, ինչպես հաղորդվում է, նախատեսում է օգոստոսին միավորել իր Copilot հավելվածները մեկի մեջ և ներկայացնել նոր AutoPilot AI գործակալներ։",
+        "source": 7,
+        "link": "https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google DeepMind-ի և A24-ի համագործակցությունը",
+        "summary": "Google DeepMind-ը և A24-ը հայտարարել են հետազոտական համագործակցության մասին, որը նպատակ ունի ուսումնասիրել արհեստական բանականության կիրառումը ստեղծագործական գործընթացներում։",
+        "source": 16,
+        "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "Tesla-ն սահմանափակում է AI ծախսերը",
+        "summary": "Tesla-ն սահմանափակել է աշխատակիցների AI ծախսերը շաբաթական 200 դոլարով, ինչպես հաղորդվում է ներքին հուշագրում։",
+        "source": 22,
+        "link": "https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Leanstral 1.5",
+        "note": "բաց կոդով AI մոդել ֆորմալ ստուգման համար"
+      }
+    ],
+    "trending": [
+      "zai-org/GLM-5.2",
+      "baidu/Unlimited-OCR",
+      "deepseek-ai/DeepSeek-V4-Pro-DSpark"
+    ]
   }
 ]
