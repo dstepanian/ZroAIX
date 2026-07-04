@@ -16,9 +16,19 @@ const linkedinSchema = {
       type: 'object',
       properties: {
         headline: { type: 'string' },
-        bullets: { type: 'array', items: { type: 'string' } },
+        items: {
+          type: 'array',
+          items: {
+            type: 'object',
+            properties: {
+              title: { type: 'string' },
+              detail: { type: 'string' },
+            },
+            required: ['title', 'detail'],
+          },
+        },
       },
-      required: ['headline', 'bullets'],
+      required: ['headline', 'items'],
     },
   },
   required: ['professional', 'personal', 'firstComment', 'card'],
@@ -54,10 +64,12 @@ Rules:
 - The image/video card must be clean and readable.
 - "card.headline" must be a short takeaway, 2-5 words, max 34 characters.
 - "card.headline" must NOT include the date, "օրվա ամփոփում", "ամփոփում", or repeat the channel title.
-- "card.bullets" must contain exactly 3 original Armenian takeaway phrases.
-- Each card bullet must be max 42 characters.
-- Card bullets must not copy full source sentences. Rewrite them as short designed phrases.
-- Card bullets must not include labels like Signal, Impact, Action.
+- "card.items" must contain exactly 3 rows about the source post.
+- Each card item needs:
+  - "title": short Armenian topic, max 34 characters.
+  - "detail": small explanatory Armenian line, 55-85 characters.
+- Card text must not copy full source sentences. Rewrite it as designed card copy.
+- Card items must not include labels like Signal, Impact, Action.
 `.trim();
 
 const cleanLinkedInPost = (text = '') =>
@@ -117,12 +129,35 @@ const compactCardPhrase = (text = '', maxChars = 42) => {
   return picked.join(' ').trim() || cleaned.slice(0, maxChars).trim();
 };
 
+const cleanCardRows = (card = {}) => {
+  const rawItems = Array.isArray(card.items)
+    ? card.items
+    : (Array.isArray(card.bullets) ? card.bullets : []).map((item) => ({ title: item, detail: '' }));
+  const rows = rawItems
+    .map((item) => {
+      if (typeof item === 'string') {
+        return { title: compactCardPhrase(item, 34), detail: '' };
+      }
+      return {
+        title: compactCardPhrase(item?.title, 34),
+        detail: compactCardPhrase(item?.detail, 90),
+      };
+    })
+    .filter((item) => item.title || item.detail)
+    .slice(0, 3);
+
+  const fallback = [
+    { title: 'AI-ը մտնում է workflow', detail: 'Թիմերը կարող են փորձարկել ավտոմատացում փոքր քայլերով' },
+    { title: 'Գործնական արժեքը աճում է', detail: 'Նոր գործիքները մոտենում են ամենօրյա աշխատանքին' },
+    { title: 'Փորձարկելու պահն է', detail: 'Հայ tech թիմերի համար սա արագ սովորելու հնարավորություն է' },
+  ];
+  return [...rows, ...fallback].slice(0, 3);
+};
+
 const cleanCard = (card = {}) => ({
   headline: compactCardPhrase(stripCardHeadlineNoise(card.headline || 'AI փոփոխություն'), 34) || 'AI փոփոխություն',
-  bullets: (Array.isArray(card.bullets) ? card.bullets : [])
-    .map((item) => compactCardPhrase(item, 42))
-    .filter(Boolean)
-    .slice(0, 3),
+  bullets: cleanCardRows(card).map((item) => item.title),
+  items: cleanCardRows(card),
   date: yerevanDate(),
 });
 
@@ -153,10 +188,20 @@ export const buildMockLinkedInPackage = (post = sampleChannelPost()) => ({
   firstComment: FIRST_COMMENT,
   card: {
     headline: 'AI-ը դառնում է գործիք',
-    bullets: [
-      'Ավտոմատացումը մոտենում է թիմերին',
-      'Գործնական արժեքն աճում է',
-      'Փորձարկելու պահն է',
+    bullets: ['Ավտոմատացումը մոտենում է թիմերին', 'Գործնական արժեքն աճում է', 'Փորձարկելու պահն է'],
+    items: [
+      {
+        title: 'Ավտոմատացումը մոտենում է թիմերին',
+        detail: 'AI agent-ները արդեն օգտակար են փոքր աշխատանքային հոսքերում',
+      },
+      {
+        title: 'Գործնական արժեքն աճում է',
+        detail: 'Նոր գործիքները օգնում են արագացնել research եւ support-ը',
+      },
+      {
+        title: 'Փորձարկելու պահն է',
+        detail: 'Հայ tech թիմերը կարող են փոքր փորձերով հասկանալ արժեքը',
+      },
     ],
   },
 });
@@ -201,5 +246,7 @@ ${pkg.firstComment}
 
 Card:
 ${pkg.card.headline}
-${pkg.card.bullets.map((bullet) => `- ${bullet}`).join('\n')}
+${(pkg.card.items || (pkg.card.bullets || []).map((bullet) => ({ title: bullet, detail: '' })))
+  .map((item) => `- ${item.title}${item.detail ? `\n  ${item.detail}` : ''}`)
+  .join('\n')}
 `.trim();

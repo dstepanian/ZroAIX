@@ -100,16 +100,44 @@ const tspans = (lines, x, y, lineHeight, className, anchor = 'start') =>
     .map((line, idx) => `<tspan x="${x}" y="${y + idx * lineHeight}" text-anchor="${anchor}" class="${className}">${esc(line)}</tspan>`)
     .join('');
 
-const normalizedCardBullets = (bullets = [], fallback = ['Ավտոմատացումը մոտենում է թիմերին', 'Գործնական արժեքն աճում է', 'Փորձարկելու պահն է']) => {
-  const items = bullets.map((item) => String(item || '').trim()).filter(Boolean).slice(0, 3);
-  return [...items, ...fallback].slice(0, 3);
+const normalizedCardRows = (
+  items = [],
+  bullets = [],
+  fallback = [
+    {
+      title: 'AI-ը մտնում է workflow',
+      detail: 'Թիմերը կարող են փորձարկել ավտոմատացում փոքր քայլերով',
+    },
+    {
+      title: 'Գործնական արժեքը աճում է',
+      detail: 'Նոր գործիքները մոտենում են ամենօրյա աշխատանքին',
+    },
+    {
+      title: 'Փորձարկելու պահն է',
+      detail: 'Հայ tech թիմերի համար սա արագ սովորելու հնարավորություն է',
+    },
+  ]
+) => {
+  const source = items.length ? items : bullets.map((bullet) => ({ title: bullet, detail: '' }));
+  const rows = source
+    .map((item) => {
+      if (typeof item === 'string') return { title: item, detail: '' };
+      return {
+        title: String(item?.title || '').trim(),
+        detail: String(item?.detail || '').trim(),
+      };
+    })
+    .filter((item) => item.title || item.detail)
+    .slice(0, 3);
+  return [...rows, ...fallback].slice(0, 3);
 };
 
-const buildMonoLinkedInCardSvg = ({ headline = '', bullets = [], date = yerevanDate() } = {}) => {
+const buildMonoLinkedInCardSvg = ({ headline = '', bullets = [], items = [], date = yerevanDate() } = {}) => {
   const titleLines = wrapText(headline || 'AI-ը դառնում է գործիք', 23, 2);
-  const rows = normalizedCardBullets(bullets).map((bullet, idx) => ({
+  const rows = normalizedCardRows(items, bullets).map((item, idx) => ({
     number: String(idx + 1).padStart(2, '0'),
-    lines: wrapText(bullet, 36, 2),
+    titleLines: wrapText(item.title, 34, 1),
+    detailLines: wrapText(item.detail, 48, 2),
   }));
 
   return `
@@ -123,7 +151,8 @@ const buildMonoLinkedInCardSvg = ({ headline = '', bullets = [], date = yerevanD
     .date { fill: #737b82; font-size: 22px; font-weight: 850; }
     .headline { fill: #172026; font-size: 60px; font-weight: 900; }
     .rowNo { fill: #737b82; font-size: 28px; font-weight: 900; }
-    .rowText { fill: #172026; font-size: 31px; font-weight: 850; }
+    .rowTitle { fill: #172026; font-size: 29px; font-weight: 900; }
+    .rowDetail { fill: #596168; font-size: 23px; font-weight: 700; }
     .footerMain { fill: #737b82; font-size: 30px; font-weight: 900; }
     .footerSub { fill: #172026; font-size: 28px; font-weight: 900; }
   </style>
@@ -141,7 +170,8 @@ const buildMonoLinkedInCardSvg = ({ headline = '', bullets = [], date = yerevanD
       const y = 710 + idx * 138;
       return `
   <text x="194" y="${y + 32}" text-anchor="middle" class="mono rowNo">${row.number}</text>
-  <text>${tspans(row.lines, 270, y + 24, 37, 'rowText')}</text>
+  <text>${tspans(row.titleLines, 270, y + 18, 34, 'rowTitle')}</text>
+  <text>${tspans(row.detailLines, 270, y + 58, 27, 'rowDetail')}</text>
   <rect x="172" y="${y + 104}" width="736" height="2" fill="#d9d9d6"/>`;
     })
     .join('')}
@@ -151,11 +181,12 @@ const buildMonoLinkedInCardSvg = ({ headline = '', bullets = [], date = yerevanD
 </svg>`.trim();
 };
 
-const buildMonoAnimatedPosterSvg = ({ headline = '', bullets = [], date = yerevanDate() } = {}) => {
+const buildMonoAnimatedPosterSvg = ({ headline = '', bullets = [], items = [], date = yerevanDate() } = {}) => {
   const titleLines = wrapText(headline || 'AI-ը դառնում է գործիք', 21, 2);
-  const rows = normalizedCardBullets(bullets).map((bullet, idx) => ({
+  const rows = normalizedCardRows(items, bullets).map((item, idx) => ({
     number: String(idx + 1).padStart(2, '0'),
-    lines: wrapText(bullet, 24, 2),
+    titleLines: wrapText(item.title, 28, 2),
+    detailLines: wrapText(item.detail, 35, 2),
   }));
 
   return `
@@ -177,7 +208,8 @@ const buildMonoAnimatedPosterSvg = ({ headline = '', bullets = [], date = yereva
     .date{fill:#737b82;font-size:21px;font-weight:850}
     .headlineText{fill:#172026;font-size:56px;font-weight:900}
     .rowNo{fill:#737b82;font-size:25px;font-weight:900}
-    .rowText{fill:#172026;font-size:25px;font-weight:850}
+    .rowTitle{fill:#172026;font-size:24px;font-weight:900}
+    .rowDetail{fill:#596168;font-size:18px;font-weight:700}
     @keyframes markPop{0%,100%{transform:translate(406px,118px) scale(1)}50%{transform:translate(406px,118px) scale(1.035)}}
     @keyframes promptBlink{50%{opacity:.45}}
     @keyframes lineDraw{0%,10%,100%{transform:scaleX(.08);opacity:.35}30%,88%{transform:scaleX(1);opacity:1}}
@@ -201,24 +233,26 @@ const buildMonoAnimatedPosterSvg = ({ headline = '', bullets = [], date = yereva
 
   ${rows
     .map((row, idx) => {
-      const y = 655 + idx * 90;
+      const y = 570 + idx * 126;
       return `
   <g class="step-${idx + 1}" transform="translate(0 0)">
     <text x="210" y="${y + 28}" text-anchor="middle" class="mono rowNo">${row.number}</text>
-    <text class="sans">${tspans(row.lines, 300, y + 22, 30, 'rowText')}</text>
-    <rect x="172" y="${y + 68}" width="736" height="2" fill="#d9d9d6"/>
+    <text class="sans">${tspans(row.titleLines, 300, y + 20, 28, 'rowTitle')}</text>
+    <text class="sans">${tspans(row.detailLines, 300, y + 74, 22, 'rowDetail')}</text>
+    <rect x="172" y="${y + 116}" width="736" height="2" fill="#d9d9d6"/>
   </g>`;
     })
     .join('')}
 
-  <text class="mono footer-text" x="540" y="970" text-anchor="middle" font-size="29" fill="#737b82" font-weight="800">${esc(config.siteUrl)}</text>
-  <text class="sans footer-text" x="540" y="1016" text-anchor="middle" font-size="27" fill="#172026" font-weight="900">AI News | Armenian</text>
+  <text class="mono footer-text" x="540" y="990" text-anchor="middle" font-size="27" fill="#737b82" font-weight="800">${esc(config.siteUrl)}</text>
+  <text class="sans footer-text" x="540" y="1030" text-anchor="middle" font-size="25" fill="#172026" font-weight="900">AI News | Armenian</text>
 </svg>`.trim();
 };
 
-export const buildLinkedInCardSvg = ({ headline = '', bullets = [], date = yerevanDate() } = {}, options = {}) => {
+export const buildLinkedInCardSvg = (card = {}, options = {}) => {
+  const { headline = '', bullets = [], items = [], date = yerevanDate() } = card;
   const themeName = normalizeTheme(options.theme || config.linkedinCardTheme);
-  if (themeName === 'mono') return buildMonoLinkedInCardSvg({ headline, bullets, date });
+  if (themeName === 'mono') return buildMonoLinkedInCardSvg({ headline, bullets, items, date });
 
   const t = THEMES[themeName];
   const accents = themeAccents(themeName);
@@ -308,9 +342,10 @@ export const buildLinkedInCardSvg = ({ headline = '', bullets = [], date = yerev
 </svg>`.trim();
 };
 
-export const buildLinkedInAnimatedPosterSvg = ({ headline = '', bullets = [], date = yerevanDate() } = {}, options = {}) => {
+export const buildLinkedInAnimatedPosterSvg = (card = {}, options = {}) => {
+  const { headline = '', bullets = [], items = [], date = yerevanDate() } = card;
   const themeName = normalizeTheme(options.theme || config.linkedinCardTheme);
-  if (themeName === 'mono') return buildMonoAnimatedPosterSvg({ headline, bullets, date });
+  if (themeName === 'mono') return buildMonoAnimatedPosterSvg({ headline, bullets, items, date });
 
   const t = THEMES[themeName];
   const isDark = themeName === 'dark';
