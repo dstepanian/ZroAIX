@@ -284,8 +284,8 @@
   },
   {
     "date": "2026-07-04",
-    "ts": 1783153366933,
-    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության մոդելների և կիրառությունների զարգացումները, խոշոր տեխնոլոգիական ընկերությունների ռազմավարական քայլերը AI ոլորտում, ինչպես նաև նոր համագործակցություններ AI հետազոտությունների համար։",
+    "ts": 1783183966116,
+    "overview": "Այսօրվա նորությունները ընդգծում են արհեստական բանականության զարգացող ազդեցությունը տարբեր ոլորտների վրա՝ կորպորատիվ քաղաքականությունից և կրթությունից մինչև ստեղծագործական համայնքներ, ինչպես նաև քննարկումներ AI ինտերֆեյսների ապագա ուղղության շուրջ։",
     "items": [
       {
         "headline": "Anthropic-ը մեկնարկում է դեղերի մշակման ծրագրեր",
@@ -320,6 +320,41 @@
         "summary": "Tesla-ն սահմանափակել է աշխատակիցների AI ծախսերը շաբաթական 200 դոլարով, ինչպես հաղորդվում է ներքին հուշագրում։",
         "source": 22,
         "link": "https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Alibaba-ն արգելում է Claude Code-ը",
+        "summary": "Հաղորդվում է, որ Alibaba-ն իր աշխատակիցներին արգելել է օգտագործել Claude Code-ը՝ այն դասակարգելով որպես բարձր ռիսկային ծրագրակազմ։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Mistral AI-ի մրցակցային հավակնությունները",
+        "summary": "Mistral AI-ը, որը OpenAI-ի մրցակիցն է, զգալի ֆինանսավորում է ներգրավել՝ նպատակ ունենալով «առաջատար AI-ը հասանելի դարձնել բոլորին»։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Ֆանֆիքշն համայնքը AI-ի դեմ",
+        "summary": "Ֆանֆիքշն համայնքները փորձում են հայտնաբերել և արգելափակել այն հեղինակներին, ովքեր գեներատիվ AI են օգտագործում իրենց ստեղծագործություններում։",
+        "source": 9,
+        "link": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ի համահիմնադրի տեսլականը",
+        "summary": "OpenAI-ի համահիմնադիր Գրեգ Բրոքմանը կանխատեսում է «գրեթե առանց ինտերֆեյսի» ապագա, որտեղ ոչ ոք այլևս ծրագրակազմ չի սովորի, քանի որ ChatGPT-ի պլագինները ձախողվել են։",
+        "source": 10,
+        "link": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի թաքնված ուսումնական արժեքը",
+        "summary": "26,000 չինացի ուսանողների շրջանում անցկացված ուսումնասիրությունը ցույց է տվել, որ AI-ի օգտագործումը կարճաժամկետում բարձրացնում է գնահատականները, սակայն երկու տարվա ընթացքում քննությունների արդյունքները մինչև 24 տոկոսով վատթարանում են։",
+        "source": 11,
+        "link": "https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface/",
         "outlet": "The Decoder"
       }
     ],
