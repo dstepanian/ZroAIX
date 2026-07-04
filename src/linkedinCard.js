@@ -6,6 +6,8 @@ import { yerevanDate } from './format.js';
 
 const WIDTH = 1080;
 const HEIGHT = 1350;
+const POSTER_WIDTH = 1080;
+const POSTER_HEIGHT = 1080;
 
 const THEMES = {
   dark: {
@@ -168,6 +170,145 @@ export const buildLinkedInCardSvg = ({ headline = '', bullets = [], date = yerev
 </svg>`.trim();
 };
 
+export const buildLinkedInAnimatedPosterSvg = ({ headline = '', bullets = [], date = yerevanDate() } = {}, options = {}) => {
+  const themeName = normalizeTheme(options.theme || config.linkedinCardTheme);
+  const t = THEMES[themeName];
+  const isDark = themeName === 'dark';
+  const titleLines = wrapText(headline, 22, 2);
+  const insightRows = bullets.slice(0, 3).map((bullet, idx) => ({
+    label: ['Signal', 'Impact', 'Action'][idx],
+    lines: wrapText(bullet, 16, 2),
+    accent: ACCENTS[idx],
+  }));
+  while (insightRows.length < 3) {
+    const idx = insightRows.length;
+    insightRows.push({
+      label: ['Signal', 'Impact', 'Action'][idx],
+      lines: wrapText(['AI-ի կարեւոր միտում', 'Գործնական ազդեցություն', 'Հայ tech համայնքի հնարավորություն'][idx], 16, 2),
+      accent: ACCENTS[idx],
+    });
+  }
+
+  const bgStops = isDark
+    ? `
+      <stop offset="0" stop-color="#171c24"/>
+      <stop offset=".56" stop-color="#11161c"/>
+      <stop offset="1" stop-color="#19232c"/>`
+    : `
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".52" stop-color="#eef8f5"/>
+      <stop offset="1" stop-color="#f4f9ff"/>`;
+  const gridStroke = isDark ? '#ffffff' : '#10232c';
+  const tileFill = isDark ? '#11161c' : '#ffffff';
+  const tileFillOpacity = isDark ? '.86' : '.9';
+  const promptFill = isDark ? '#8ee6a8' : '#2563eb';
+
+  return `
+<svg xmlns="http://www.w3.org/2000/svg" width="${POSTER_WIDTH}" height="${POSTER_HEIGHT}" viewBox="0 0 ${POSTER_WIDTH} ${POSTER_HEIGHT}">
+  <defs>
+    <linearGradient id="poster-bg" x1="0" y1="0" x2="1" y2="1">${bgStops}
+    </linearGradient>
+    <linearGradient id="poster-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6df6"/>
+      <stop offset="1" stop-color="#12a84f"/>
+    </linearGradient>
+    <linearGradient id="poster-band-top" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f6df6" stop-opacity="${isDark ? '.24' : '.18'}"/>
+      <stop offset="1" stop-color="#12a84f" stop-opacity="${isDark ? '.18' : '.14'}"/>
+    </linearGradient>
+    <linearGradient id="poster-band-bottom" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ef6f8d" stop-opacity="${isDark ? '.18' : '.13'}"/>
+      <stop offset="1" stop-color="#2f6df6" stop-opacity="${isDark ? '.18' : '.13'}"/>
+    </linearGradient>
+    <filter id="poster-shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="${isDark ? '.26' : '.12'}"/>
+    </filter>
+    <style>
+      .mono{font-family:"JetBrains Mono","Consolas","Courier New",monospace}
+      .sans{font-family:"Noto Sans Armenian","Segoe UI",Arial,sans-serif}
+      .terminal-mark,.headline,.subline,.step-1,.step-2,.step-3{transform-box:fill-box;transform-origin:center}
+      .grid{animation:gridDrift 8s linear infinite}
+      .soft-band-top{animation:bandTop 5.8s ease-in-out infinite}
+      .soft-band-bottom{animation:bandBottom 6.4s ease-in-out infinite}
+      .frame{animation:framePulse 3.4s ease-in-out infinite}
+      .terminal-mark{animation:markPop 4.2s ease-in-out infinite}
+      .prompt{animation:promptBlink 1.1s steps(2,start) infinite}
+      .brand-line{transform-origin:548px 231.5px;animation:lineDraw 4.8s ease-in-out infinite}
+      .headline{animation:fadeRise 4.8s ease-in-out infinite}
+      .subline{animation:fadeRise 4.8s ease-in-out .18s infinite}
+      .step-1,.step-2,.step-3{animation:cardBreathe 6.4s ease-in-out infinite}
+      .step-1{animation-delay:.2s}
+      .step-2{animation-delay:1s}
+      .step-3{animation-delay:1.8s}
+      .footer-text{animation:footerPulse 4.8s ease-in-out infinite}
+      .date{fill:${t.muted};font-size:21px;font-weight:800}
+      .pill{fill:${t.text};font-size:20px;font-weight:800}
+      .tag{fill:#22ad58;font-size:20px;font-weight:900}
+      .headlineText{fill:${t.title};font-size:54px;font-weight:900}
+      .sublineText{fill:${t.muted};font-size:38px;font-weight:850}
+      .tileLabel{font-size:18px;font-weight:900;letter-spacing:1px}
+      .tileText{fill:${t.text};font-size:19px;font-weight:800}
+      @keyframes gridDrift{to{transform:translate(135px,135px)}}
+      @keyframes bandTop{50%{transform:translate(-22px,20px) rotate(-9deg);opacity:.78}}
+      @keyframes bandBottom{50%{transform:translate(24px,-26px) rotate(-11deg);opacity:.72}}
+      @keyframes framePulse{50%{stroke-opacity:${isDark ? '.28' : '.24'}}}
+      @keyframes markPop{0%,100%{transform:translate(406px,118px) scale(1)}50%{transform:translate(406px,118px) scale(1.035)}}
+      @keyframes promptBlink{50%{opacity:.45}}
+      @keyframes lineDraw{0%,10%,100%{transform:scaleX(.08);opacity:.35}30%,88%{transform:scaleX(1);opacity:1}}
+      @keyframes fadeRise{0%,12%,100%{opacity:0;transform:translateY(18px)}30%,88%{opacity:1;transform:translateY(0)}}
+      @keyframes cardBreathe{0%,100%{opacity:.88}22%,68%{opacity:1}}
+      @keyframes footerPulse{50%{opacity:.72}}
+      @media (prefers-reduced-motion:reduce){
+        .grid,.soft-band-top,.soft-band-bottom,.frame,.terminal-mark,.prompt,.brand-line,.headline,.subline,.step-1,.step-2,.step-3,.footer-text{animation:none}
+      }
+    </style>
+  </defs>
+
+  <rect width="${POSTER_WIDTH}" height="${POSTER_HEIGHT}" fill="url(#poster-bg)"/>
+  <path class="grid" d="M-135 0H1080M-135 135H1080M-135 270H1080M-135 405H1080M-135 540H1080M-135 675H1080M-135 810H1080M-135 945H1080M-135 1080H1080M0 -135V1080M135 -135V1080M270 -135V1080M405 -135V1080M540 -135V1080M675 -135V1080M810 -135V1080M945 -135V1080M1080 -135V1080"
+        stroke="${gridStroke}" stroke-opacity="${isDark ? '.055' : '.06'}" stroke-width="2"/>
+  <rect class="soft-band-top" x="468" y="8" width="760" height="190" rx="56" fill="url(#poster-band-top)" transform="rotate(-9 848 103)"/>
+  <rect class="soft-band-bottom" x="-230" y="828" width="820" height="210" rx="60" fill="url(#poster-band-bottom)" transform="rotate(-11 180 933)"/>
+  <rect class="frame" x="92" y="92" width="896" height="896" rx="46" fill="none" stroke="${t.frame}" stroke-opacity="${isDark ? '.18' : '.14'}" stroke-width="2"/>
+
+  <g class="terminal-mark" transform="translate(406 118)" filter="url(#poster-shadow)">
+    <rect width="116" height="116" rx="24" fill="${t.iconBg}" stroke="#2f6df6" stroke-opacity=".5" stroke-width="4"/>
+    <text x="27" y="75" class="mono prompt" font-size="50" fill="${promptFill}" font-weight="800">&gt;_</text>
+  </g>
+  <text class="mono" x="548" y="200" font-size="58" fill="${t.logoText}" font-weight="800">zroaix</text>
+  <rect class="brand-line" x="548" y="228" width="330" height="7" rx="4" fill="url(#poster-accent)"/>
+
+  <g transform="translate(172 286)" filter="url(#poster-shadow)">
+    <rect width="254" height="46" rx="14" fill="${t.pillBg}" fill-opacity="${isDark ? '.9' : '.84'}" stroke="#2f6df6" stroke-opacity=".46"/>
+    <circle cx="28" cy="23" r="6" fill="#2f6df6"/>
+    <text class="sans pill" x="48" y="30">AI digest</text>
+  </g>
+  <text x="540" y="318" text-anchor="middle" class="sans date">${esc(date)}</text>
+  <g transform="translate(746 286)" filter="url(#poster-shadow)">
+    <rect width="162" height="46" rx="14" fill="${t.pillBg}" fill-opacity="${isDark ? '.9' : '.76'}" stroke="#12a84f" stroke-opacity=".44"/>
+    <text class="mono tag" x="81" y="30" text-anchor="middle">#ZROAIX</text>
+  </g>
+
+  <text class="sans headline headlineText" x="540" y="424" text-anchor="middle">${tspans(titleLines, 540, 424, 64, 'headlineText', 'middle')}</text>
+  <text class="sans subline sublineText" x="540" y="${titleLines.length > 1 ? 574 : 540}" text-anchor="middle">What changed + why it matters</text>
+
+  ${insightRows
+    .map((row, idx) => {
+      const x = 172 + idx * 256;
+      return `
+  <g class="step-${idx + 1}" transform="translate(${x} 672)" filter="url(#poster-shadow)">
+    <rect width="224" height="112" rx="20" fill="${tileFill}" fill-opacity="${tileFillOpacity}" stroke="${row.accent}" stroke-width="2"/>
+    <text class="sans tileLabel" x="112" y="32" text-anchor="middle" fill="${row.accent}">${esc(row.label.toUpperCase())}</text>
+    <text class="sans">${tspans(row.lines, 112, 66, 24, 'tileText', 'middle')}</text>
+  </g>`;
+    })
+    .join('')}
+
+  <text class="mono footer-text" x="540" y="904" text-anchor="middle" font-size="30" fill="${t.muted}" font-weight="700">${esc(config.siteUrl)}</text>
+  <text class="sans footer-text" x="540" y="948" text-anchor="middle" font-size="27" fill="#22ad58" font-weight="800">AI News | Armenian</text>
+</svg>`.trim();
+};
+
 export const renderLinkedInCardPng = async (card, options = {}) =>
   sharp(Buffer.from(buildLinkedInCardSvg(card, options))).png().resize(WIDTH, HEIGHT).toBuffer();
 
@@ -175,5 +316,11 @@ export const writeLinkedInCardPng = async (card, filePath, options = {}) => {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   const buffer = await renderLinkedInCardPng(card, options);
   fs.writeFileSync(filePath, buffer);
+  return filePath;
+};
+
+export const writeLinkedInAnimatedPosterSvg = async (card, filePath, options = {}) => {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, buildLinkedInAnimatedPosterSvg(card, options));
   return filePath;
 };

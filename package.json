@@ -11,7 +11,9 @@
     "preview": "node src/index.js --dry --print",
     "linkedin:bot": "node src/linkedinBot.js",
     "linkedin:once": "node src/linkedinBot.js --once",
-    "linkedin:test": "node src/linkedinBot.js --sample --mock --print"
+    "linkedin:test": "node src/linkedinBot.js --sample --mock --print",
+    "linkedin:poster": "node src/linkedinBot.js --sample --mock --print --animated",
+    "linkedin:mp4": "node src/linkedinBot.js --sample --mock --print --mp4"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

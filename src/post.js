@@ -49,6 +49,35 @@ export const sendTelegramPhoto = async (chatId, photoBuffer, caption, filename =
   return data.result;
 };
 
+export const sendTelegramDocument = async (
+  chatId,
+  documentBuffer,
+  caption,
+  filename = 'document.svg',
+  { parseMode, contentType = 'application/octet-stream' } = {}
+) => {
+  if (!config.token) {
+    throw new Error('TELEGRAM_BOT_TOKEN missing');
+  }
+  if (!chatId) {
+    throw new Error('Telegram chat_id missing');
+  }
+
+  const form = new FormData();
+  form.append('chat_id', chatId);
+  if (caption) form.append('caption', caption);
+  if (parseMode) form.append('parse_mode', parseMode);
+  form.append('document', new Blob([documentBuffer], { type: contentType }), filename);
+
+  const res = await fetch(`https://api.telegram.org/bot${config.token}/sendDocument`, {
+    method: 'POST',
+    body: form,
+  });
+  const data = await res.json();
+  if (!data.ok) throw new Error(`Telegram error: ${data.description}`);
+  return data.result;
+};
+
 export const postPhotoToTelegram = async (photoBuffer, caption) => {
   if (!config.token || !config.channel) {
     throw new Error('TELEGRAM_BOT_TOKEN or TELEGRAM_CHANNEL missing');

@@ -54,6 +54,8 @@ Commands:
 
 ```bash
 npm run linkedin:test   # no Telegram/API send; writes out/zroaix-linkedin-card.png
+npm run linkedin:poster # no Telegram/API send; also writes out/zroaix-animated-poster.svg
+npm run linkedin:mp4    # no Telegram/API send; writes out/zroaix-animated-poster.mp4
 npm run linkedin:bot    # listens for private /generate_zroaix_linkedin commands
 npm run linkedin:once   # generates once and sends to OWNER_CHAT_ID
 ```
@@ -64,6 +66,8 @@ style. You can also override per command:
 ```bash
 node src/linkedinBot.js --sample --mock --print --theme=light
 node src/linkedinBot.js --sample --mock --print --theme=dark
+node src/linkedinBot.js --sample --mock --print --animated
+node src/linkedinBot.js --sample --mock --print --mp4
 ```
 
 Private bot command:
@@ -77,7 +81,17 @@ For a one-off theme from Telegram:
 ```text
 /generate_zroaix_linkedin light
 /generate_zroaix_linkedin dark
+/generate_zroaix_linkedin animated
+/generate_zroaix_linkedin mp4
 ```
+
+Add `animated`, `poster`, or `svg` to also receive a square `1080x1080` animated SVG
+poster in the same style as the zromek animated posts. Telegram photos flatten SVG
+animation, so the bot sends the animated poster as a document attachment.
+
+Add `mp4` or `video` to export the same animated poster as `out/zroaix-animated-poster.mp4`
+and receive it as a Telegram document. MP4 export requires `ffmpeg` on PATH, `FFMPEG_PATH`,
+or a local `ffmpeg-static` install.
 
 The expected private-chat output is:
 
@@ -85,6 +99,8 @@ The expected private-chat output is:
 2. LinkedIn draft version 2
 3. First comment with `https://t.me/zroaix`
 4. Attached PNG image card
+5. Optional animated SVG poster when requested
+6. Optional MP4 poster when requested
 
 Generated packages are cached in `linkedin-history.json` by source Telegram post id so the
 same channel post is not regenerated accidentally. Add `force` to the command if you want

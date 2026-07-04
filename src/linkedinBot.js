@@ -2,8 +2,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import config from './config.js';
 import { createLinkedInPackage, formatPackageForConsole } from './linkedinPackage.js';
-import { renderLinkedInCardPng, writeLinkedInCardPng } from './linkedinCard.js';
-import { sendTelegramMessage, sendTelegramPhoto } from './post.js';
+import {
+  buildLinkedInAnimatedPosterSvg,
+  renderLinkedInCardPng,
+  writeLinkedInAnimatedPosterSvg,
+  writeLinkedInCardPng,
+} from './linkedinCard.js';
+import { writeLinkedInAnimatedPosterMp4 } from './linkedinPosterVideo.js';
+import { sendTelegramDocument, sendTelegramMessage, sendTelegramPhoto } from './post.js';
 
 const args = new Set(process.argv.slice(2));
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -14,6 +20,8 @@ const themeFromText = (text = '') => {
   if (/\bdark\b/i.test(text)) return 'dark';
   return argValue('--theme') || config.linkedinCardTheme;
 };
+const wantsAnimatedPoster = (text = '') => args.has('--animated') || args.has('--poster') || /\b(animated|poster|svg)\b/i.test(text);
+const wantsPosterMp4 = (text = '') => args.has('--mp4') || /\b(mp4|video)\b/i.test(text);
 
 const telegramApi = async (method, body) => {
   if (!config.token) throw new Error('TELEGRAM_BOT_TOKEN missing');
@@ -27,7 +35,15 @@ const telegramApi = async (method, body) => {
   return data.result;
 };
 
-const sendPackage = async ({ chatId, force = false, sample = false, mock = false, theme = config.linkedinCardTheme }) => {
+const sendPackage = async ({
+  chatId,
+  force = false,
+  sample = false,
+  mock = false,
+  theme = config.linkedinCardTheme,
+  animatedPoster = false,
+  posterMp4 = false,
+}) => {
   const result = await createLinkedInPackage({ force, sample, mock });
   const { pkg, post, fromCache } = result;
   const png = await renderLinkedInCardPng(pkg.card, { theme });
@@ -37,6 +53,27 @@ const sendPackage = async ({ chatId, force = false, sample = false, mock = false
   await sendTelegramMessage(chatId, `LinkedIn draft 2:\n\n${pkg.personal}`);
   await sendTelegramMessage(chatId, `First comment:\n${pkg.firstComment}`);
   await sendTelegramPhoto(chatId, png, `ZroAIX LinkedIn card (${theme})\nSource: ${post.url}`, 'zroaix-linkedin-card.png');
+  if (animatedPoster) {
+    const svg = Buffer.from(buildLinkedInAnimatedPosterSvg(pkg.card, { theme }));
+    await sendTelegramDocument(
+      chatId,
+      svg,
+      `ZroAIX animated poster SVG (${theme})\nSource: ${post.url}`,
+      'zroaix-animated-poster.svg',
+      { contentType: 'image/svg+xml' }
+    );
+  }
+  if (posterMp4) {
+    const mp4Path = path.join(process.cwd(), 'out', 'zroaix-animated-poster.mp4');
+    await writeLinkedInAnimatedPosterMp4(pkg.card, mp4Path, { theme });
+    await sendTelegramDocument(
+      chatId,
+      fs.readFileSync(mp4Path),
+      `ZroAIX animated poster MP4 (${theme})\nSource: ${post.url}`,
+      'zroaix-animated-poster.mp4',
+      { contentType: 'video/mp4' }
+    );
+  }
   return result;
 };
 
@@ -48,11 +85,17 @@ const printPackage = async () => {
     save: !args.has('--mock'),
   });
   const outPath = path.join(process.cwd(), 'out', 'zroaix-linkedin-card.png');
+  const posterPath = path.join(process.cwd(), 'out', 'zroaix-animated-poster.svg');
+  const mp4Path = path.join(process.cwd(), 'out', 'zroaix-animated-poster.mp4');
   const theme = themeFromText();
   await writeLinkedInCardPng(result.pkg.card, outPath, { theme });
+  if (wantsAnimatedPoster()) await writeLinkedInAnimatedPosterSvg(result.pkg.card, posterPath, { theme });
+  if (wantsPosterMp4()) await writeLinkedInAnimatedPosterMp4(result.pkg.card, mp4Path, { theme });
   console.log(formatPackageForConsole(result));
   console.log(`\nTheme: ${theme}`);
   console.log(`PNG: ${outPath}`);
+  if (wantsAnimatedPoster()) console.log(`Animated SVG: ${posterPath}`);
+  if (wantsPosterMp4()) console.log(`MP4: ${mp4Path}`);
 };
 
 const runOnce = async () => {
@@ -65,6 +108,8 @@ const runOnce = async () => {
     sample: args.has('--sample'),
     mock: args.has('--mock'),
     theme: themeFromText(),
+    animatedPoster: wantsAnimatedPoster(),
+    posterMp4: wantsPosterMp4(),
   });
 };
 
@@ -95,8 +140,15 @@ const handleMessage = async (message) => {
     }
 
     const theme = themeFromText(text);
-    await sendTelegramMessage(chatId, `Generating today's LinkedIn drafts from @zroaix with ${theme} card theme...`);
-    await sendPackage({ chatId, force: text.includes('force'), theme });
+    const animatedPoster = wantsAnimatedPoster(text);
+    const posterMp4 = wantsPosterMp4(text);
+    await sendTelegramMessage(
+      chatId,
+      `Generating today's LinkedIn drafts from @zroaix with ${theme} card theme${animatedPoster ? ' and animated poster' : ''}${
+        posterMp4 ? ' and MP4 export' : ''
+      }...`
+    );
+    await sendPackage({ chatId, force: text.includes('force'), theme, animatedPoster, posterMp4 });
   }
 };
 
