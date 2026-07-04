@@ -11,6 +11,7 @@
     "preview": "node src/index.js --dry --print",
     "linkedin:bot": "node src/linkedinBot.js",
     "linkedin:once": "node src/linkedinBot.js --once",
+    "linkedin:once:mp4": "node src/linkedinBot.js --once --mp4",
     "linkedin:test": "node src/linkedinBot.js --sample --mock --print",
     "linkedin:poster": "node src/linkedinBot.js --sample --mock --print --animated",
     "linkedin:mp4": "node src/linkedinBot.js --sample --mock --print --mp4"

@@ -12,7 +12,7 @@ on:
 jobs:
   linkedin:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10 # MP4 frame rendering + ffmpeg encode needs a little more room
     permissions:
       contents: write # needed to commit linkedin-history.json back to the repo
     steps:
@@ -25,8 +25,12 @@ jobs:
 
       - run: npm ci
 
-      - name: Generate and send LinkedIn draft
-        run: npm run linkedin:once
+      # ffmpeg is pre-installed on ubuntu-latest runners; this just confirms it.
+      - name: Verify ffmpeg is available
+        run: ffmpeg -version | head -n 1
+
+      - name: Generate and send LinkedIn draft + MP4
+        run: npm run linkedin:once:mp4
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
