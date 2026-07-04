@@ -25,9 +25,9 @@ jobs:
 
       - run: npm ci
 
-      # ffmpeg is pre-installed on ubuntu-latest runners; this just confirms it.
-      - name: Verify ffmpeg is available
-        run: ffmpeg -version | head -n 1
+      # ffmpeg ships via the ffmpeg-static dependency; confirm the binary runs.
+      - name: Verify bundled ffmpeg
+        run: node -e "console.log(require('ffmpeg-static'))" | xargs -I{} {} -version | head -n 1
 
       - name: Generate and send LinkedIn draft + MP4
         run: npm run linkedin:once:mp4
