@@ -23,16 +23,16 @@ const pulse = (seconds, duration, delay = 0) => {
   const p = loop(seconds + delay, duration);
   return p < 0.5 ? ease(p * 2) : ease((1 - p) * 2);
 };
-const fadeRise = (seconds) => {
-  const p = loop(seconds, DEFAULT_DURATION_SECONDS);
-  if (p < 0.12 || p > 0.98) return { opacity: 0, y: 18 };
-  if (p < 0.3) {
-    const k = ease((p - 0.12) / 0.18);
-    return { opacity: k, y: 18 * (1 - k) };
-  }
-  if (p < 0.88) return { opacity: 1, y: 0 };
-  const k = ease((p - 0.88) / 0.1);
-  return { opacity: 1 - k, y: 18 * k };
+// Gentle blink that never fully disappears. The period divides the 4.8s loop so
+// the pulse wraps seamlessly; opacity oscillates between `min` and 1.
+const steadyBlink = (seconds, min = 0.6, period = 1.6) => min + (1 - min) * pulse(seconds, period);
+
+// Staggered entrance: each row slides up and fades in after the previous one,
+// then holds fully visible for the rest of the loop.
+const stepReveal = (seconds, index) => {
+  const start = 0.35 + index * 0.5;
+  const k = ease(clamp((seconds - start) / 0.6));
+  return { opacity: k, y: 22 * (1 - k) };
 };
 const lineDraw = (seconds) => {
   const p = loop(seconds, DEFAULT_DURATION_SECONDS);
@@ -52,10 +52,10 @@ const buildPosterFrameSvg = (card, options, seconds) => {
   const bottomBand = pulse(seconds, 6.4);
   const mark = 1 + pulse(seconds, 4.2) * 0.035;
   const line = lineDraw(seconds);
-  const text = fadeRise(seconds);
-  const subline = fadeRise(seconds - 0.18);
+  const headlineBlink = steadyBlink(seconds, 0.6, 1.6);
+  const sublineBlink = steadyBlink(seconds, 0.82, 1.6);
   const promptOpacity = loop(seconds, 1.1) < 0.5 ? 1 : 0.45;
-  const tileOpacity = [0.2, 1, 1.8].map((delay) => 0.88 + pulse(seconds - delay, 6.4) * 0.12);
+  const steps = [0, 1, 2].map((index) => stepReveal(seconds, index));
   const footerOpacity = 1 - pulse(seconds, 4.8) * 0.28;
   const topX = (-22 * topBand).toFixed(2);
   const topY = (20 * topBand).toFixed(2);
@@ -70,11 +70,11 @@ const buildPosterFrameSvg = (card, options, seconds) => {
       .terminal-mark{animation:none!important;transform:translate(406px,118px) scale(${mark.toFixed(4)})!important}
       .prompt{animation:none!important;opacity:${promptOpacity}!important}
       .brand-line{animation:none!important;transform:scaleX(${line.scale.toFixed(4)})!important;opacity:${line.opacity.toFixed(3)}!important}
-      .headline{animation:none!important;opacity:${text.opacity.toFixed(3)}!important;transform:translateY(${text.y.toFixed(2)}px)!important}
-      .subline{animation:none!important;opacity:${subline.opacity.toFixed(3)}!important;transform:translateY(${subline.y.toFixed(2)}px)!important}
-      .step-1{animation:none!important;opacity:${tileOpacity[0].toFixed(3)}!important}
-      .step-2{animation:none!important;opacity:${tileOpacity[1].toFixed(3)}!important}
-      .step-3{animation:none!important;opacity:${tileOpacity[2].toFixed(3)}!important}
+      .headline{animation:none!important;opacity:${headlineBlink.toFixed(3)}!important;transform:translateY(0)!important}
+      .subline{animation:none!important;opacity:${sublineBlink.toFixed(3)}!important;transform:translateY(0)!important}
+      .step-1{animation:none!important;opacity:${steps[0].opacity.toFixed(3)}!important;transform:translateY(${steps[0].y.toFixed(2)}px)!important}
+      .step-2{animation:none!important;opacity:${steps[1].opacity.toFixed(3)}!important;transform:translateY(${steps[1].y.toFixed(2)}px)!important}
+      .step-3{animation:none!important;opacity:${steps[2].opacity.toFixed(3)}!important;transform:translateY(${steps[2].y.toFixed(2)}px)!important}
       .footer-text{animation:none!important;opacity:${footerOpacity.toFixed(3)}!important}
 `;
 
