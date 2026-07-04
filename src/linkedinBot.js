@@ -64,7 +64,11 @@ const sendPackage = async ({
   await sendTelegramMessage(chatId, `LinkedIn draft 1:\n\n${pkg.professional}${cacheNote}`);
   await sendTelegramMessage(chatId, `LinkedIn draft 2:\n\n${pkg.personal}`);
   await sendTelegramMessage(chatId, `First comment:\n${pkg.firstComment}`);
-  await sendTelegramPhoto(chatId, png, `ZroAIX LinkedIn card (${theme})\nSource: ${post.url}`, 'zroaix-linkedin-card.png');
+  if (pkg.instagram) {
+    await sendTelegramMessage(chatId, `Instagram caption 1 (informative, HY + EN):\n\n${pkg.instagram.informative}`);
+    await sendTelegramMessage(chatId, `Instagram caption 2 (personal, HY + EN):\n\n${pkg.instagram.personal}`);
+  }
+  await sendTelegramPhoto(chatId, png, `ZroAIX card (${theme}) — square, works for LinkedIn + Instagram\nSource: ${post.url}`, 'zroaix-linkedin-card.png');
   if (animatedPoster) {
     const svg = Buffer.from(buildLinkedInAnimatedPosterSvg(pkg.card, { theme }));
     await sendTelegramDocument(

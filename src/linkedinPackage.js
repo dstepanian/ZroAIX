@@ -30,8 +30,31 @@ const linkedinSchema = {
       },
       required: ['headline', 'items'],
     },
+    instagram: {
+      type: 'object',
+      properties: {
+        informative: {
+          type: 'object',
+          properties: {
+            armenian: { type: 'string' },
+            english: { type: 'string' },
+          },
+          required: ['armenian', 'english'],
+        },
+        personal: {
+          type: 'object',
+          properties: {
+            armenian: { type: 'string' },
+            english: { type: 'string' },
+          },
+          required: ['armenian', 'english'],
+        },
+        hashtags: { type: 'array', items: { type: 'string' } },
+      },
+      required: ['informative', 'personal', 'hashtags'],
+    },
   },
-  required: ['professional', 'personal', 'firstComment', 'card'],
+  required: ['professional', 'personal', 'firstComment', 'card', 'instagram'],
 };
 
 const buildPrompt = (post) => `
@@ -70,6 +93,14 @@ Rules:
   - "detail": small explanatory Armenian line, 55-85 characters.
 - Card text must not copy full source sentences. Rewrite it as designed card copy.
 - Card items must not include labels like Signal, Impact, Action.
+
+Also create Instagram captions in the "instagram" object:
+- Two variants: "informative" (matches the professional post's tone) and "personal" (matches the personal post's tone).
+- Each variant has "armenian" and "english": the SAME message written fully in fluent Eastern Armenian AND in natural, idiomatic English. The English is a real rewrite for an international audience, not a word-for-word translation.
+- Each language version: strong hook on the first line, then 3-5 short lines, 300-700 characters.
+- Do NOT put hashtags inside "armenian" or "english" (they go only in "hashtags").
+- Do NOT put any URL inside the captions.
+- "hashtags": 6-8 relevant hashtags mixing English and Armenian/topic tags (for example #AI #ArmenianTech #ZroAIX). Each must start with # and contain no spaces.
 `.trim();
 
 const cleanLinkedInPost = (text = '') =>
@@ -186,6 +217,42 @@ export const buildMockLinkedInPackage = (post = sampleChannelPost()) => ({
     'Link-ը comment-ում։',
   ].join('\n'),
   firstComment: FIRST_COMMENT,
+  instagram: {
+    informative: [
+      'AI automation-ը արդեն փոքր թիմերի գործիք է։',
+      '',
+      'OpenAI-ի նոր քայլը ցույց է տալիս, որ agent-ները գնում են ամենօրյա workflow-ների կողմը։',
+      '',
+      'Հայ ուսանողների ու developers-ի համար սա արագ փորձարկելու առիթ է։',
+      '',
+      '· · ·',
+      '',
+      'AI automation is already a real tool for small teams.',
+      '',
+      "OpenAI's latest move shows agents are heading into everyday workflows, not just demos.",
+      '',
+      'For Armenian students and developers, this is a fast, low-cost way to experiment.',
+      '',
+      IG_LINK_NOTE,
+      '',
+      '#AI #ArmenianTech #ZroAIX #Automation #TechArmenia #ArtificialIntelligence',
+    ].join('\n'),
+    personal: [
+      'ZroAIX-ի համար նյութ հավաքելիս նորից համոզվեցի՝ AI-ի արժեքը ժամանակ խնայելն է։',
+      '',
+      'Փոքր թիմերը հիմա կարող են գաղափար փորձարկել առանց մեծ budget-ի։',
+      '',
+      '· · ·',
+      '',
+      'While gathering material for ZroAIX, I was reminded that AI’s real value is saving time.',
+      '',
+      'Small teams can now test an idea without a big budget.',
+      '',
+      IG_LINK_NOTE,
+      '',
+      '#AI #ArmenianTech #ZroAIX #BuildInPublic #TechArmenia #Startups',
+    ].join('\n'),
+  },
   card: {
     headline: 'AI-ը դառնում է գործիք',
     bullets: ['Ավտոմատացումը մոտենում է թիմերին', 'Գործնական արժեքն աճում է', 'Փորձարկելու պահն է'],
@@ -206,6 +273,48 @@ export const buildMockLinkedInPackage = (post = sampleChannelPost()) => ({
   },
 });
 
+const IG_LINK_NOTE = '🔗 Ամենօրյա AI ամփոփումներ հայերենով · Link in bio · t.me/zroaix';
+
+const tidyCaption = (text = '') =>
+  String(text)
+    .replace(/\r/g, '')
+    .replace(/[ \t]+\n/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+
+const cleanHashtags = (tags = [], max = 8) => {
+  const seen = new Set();
+  const out = [];
+  for (const raw of Array.isArray(tags) ? tags : []) {
+    const tag = String(raw).trim().replace(/\s+/g, '').replace(/^#*/, '#');
+    if (tag.length < 2) continue;
+    const key = tag.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(tag);
+    if (out.length >= max) break;
+  }
+  return out.length ? out : ['#AI', '#ArmenianTech', '#ZroAIX'];
+};
+
+// Armenian block first, then a divider, then the English rewrite, then the
+// "link in bio" note and the hashtag line — one bilingual Instagram caption.
+const buildInstagramCaption = (variant = {}, hashtags = []) =>
+  [
+    tidyCaption(variant.armenian),
+    '· · ·',
+    tidyCaption(variant.english),
+    IG_LINK_NOTE,
+    cleanHashtags(hashtags).join(' '),
+  ]
+    .filter(Boolean)
+    .join('\n\n');
+
+const normalizeInstagram = (instagram = {}) => ({
+  informative: buildInstagramCaption(instagram.informative, instagram.hashtags),
+  personal: buildInstagramCaption(instagram.personal, instagram.hashtags),
+});
+
 const normalizePackage = (post, parsed) => ({
   sourcePostId: post.id,
   sourceUrl: post.url,
@@ -214,6 +323,7 @@ const normalizePackage = (post, parsed) => ({
   personal: compactLinkedInPost(parsed.personal),
   firstComment: FIRST_COMMENT,
   card: cleanCard(parsed.card),
+  instagram: normalizeInstagram(parsed.instagram),
 });
 
 export const createLinkedInPackage = async ({ force = false, sample = false, mock = false, save = true } = {}) => {
@@ -249,4 +359,16 @@ ${pkg.card.headline}
 ${(pkg.card.items || (pkg.card.bullets || []).map((bullet) => ({ title: bullet, detail: '' })))
   .map((item) => `- ${item.title}${item.detail ? `\n  ${item.detail}` : ''}`)
   .join('\n')}
+${
+  pkg.instagram
+    ? `
+Instagram caption 1 (informative):
+
+${pkg.instagram.informative}
+
+Instagram caption 2 (personal):
+
+${pkg.instagram.personal}`
+    : ''
+}
 `.trim();
