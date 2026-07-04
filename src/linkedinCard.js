@@ -82,12 +82,20 @@ const tspans = (lines, x, y, lineHeight, className, anchor = 'start') =>
 export const buildLinkedInCardSvg = ({ headline = '', bullets = [], date = yerevanDate() } = {}, options = {}) => {
   const themeName = normalizeTheme(options.theme || config.linkedinCardTheme);
   const t = THEMES[themeName];
-  const titleLines = wrapText(headline, 18, 2);
-  const cards = [
-    ['Hook', 'clear reason'],
-    ['Trust', 'why it matters'],
-    ['CTA', 'easy next step'],
-  ];
+  const titleLines = wrapText(headline, 21, 3);
+  const insightRows = bullets.slice(0, 3).map((bullet, idx) => ({
+    label: ['Signal', 'Impact', 'Action'][idx],
+    lines: wrapText(bullet, 34, 2),
+    accent: ACCENTS[idx],
+  }));
+  while (insightRows.length < 3) {
+    const idx = insightRows.length;
+    insightRows.push({
+      label: ['Signal', 'Impact', 'Action'][idx],
+      lines: [['AI-ի կարեւոր միտում', 'Հայ tech համայնքի համար'][idx] || 'Կարճ գործնական takeaway'],
+      accent: ACCENTS[idx],
+    });
+  }
 
   return `
 <svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}">
@@ -106,54 +114,57 @@ export const buildLinkedInCardSvg = ({ headline = '', bullets = [], date = yerev
 
   <rect width="${WIDTH}" height="${HEIGHT}" fill="${t.bg}"/>
   <rect width="${WIDTH}" height="${HEIGHT}" fill="url(#grid)"/>
-  <path d="M 0 1080 L 610 956 Q 690 940 704 1022 L 754 1350 L 0 1350 Z" fill="${t.blobBlue}" opacity="${t.blobOpacity}"/>
-  <circle cx="864" cy="152" r="220" fill="${t.blobBlue}" opacity="${t.blobOpacity}"/>
-  <circle cx="900" cy="1150" r="265" fill="${t.blobGreen}" opacity="${t.blobOpacity}"/>
+  <path d="M 0 1090 L 640 964 Q 710 950 724 1028 L 768 1350 L 0 1350 Z" fill="${t.blobBlue}" opacity="${t.blobOpacity}"/>
+  <circle cx="876" cy="150" r="226" fill="${t.blobBlue}" opacity="${t.blobOpacity}"/>
+  <circle cx="902" cy="1140" r="275" fill="${t.blobGreen}" opacity="${t.blobOpacity}"/>
   <rect x="92" y="92" width="896" height="1166" rx="44" fill="none" stroke="${t.frame}" stroke-opacity="${t.frameOpacity}" stroke-width="2.2"/>
 
   <style>
     text { font-family: "DejaVu Sans", "Noto Sans Armenian", "Noto Sans", Arial, sans-serif; }
-    .logo { fill: ${t.logoText}; font-size: 54px; font-weight: 800; letter-spacing: 0; }
-    .terminal { fill: #8ee6a8; font-size: 56px; font-weight: 900; }
-    .terminalBlue { fill: #2f6df6; font-size: 56px; font-weight: 900; }
+    .logo { fill: ${t.logoText}; font-size: 56px; font-weight: 800; letter-spacing: 0; }
+    .terminal { fill: #8ee6a8; font-size: 58px; font-weight: 900; }
+    .terminalBlue { fill: #2f6df6; font-size: 58px; font-weight: 900; }
     .pill { fill: ${t.text}; font-size: 20px; font-weight: 800; }
     .tag { fill: #22ad58; font-size: 18px; font-weight: 900; }
     .date { fill: ${t.muted}; font-size: 21px; font-weight: 800; }
-    .headline { fill: ${t.title}; font-family: Georgia, "DejaVu Serif", serif; font-size: 54px; font-weight: 900; }
-    .formula { fill: ${t.text}; font-size: 38px; font-weight: 900; }
-    .cardTitle { fill: ${t.text}; font-size: 26px; font-weight: 900; }
-    .cardSub { fill: ${t.muted}; font-size: 18px; font-weight: 800; }
+    .headline { fill: ${t.title}; font-family: Georgia, "DejaVu Serif", serif; font-size: 56px; font-weight: 900; }
+    .formula { fill: ${t.text}; font-size: 31px; font-weight: 900; letter-spacing: 0.5px; }
+    .rowLabel { font-size: 18px; font-weight: 900; letter-spacing: 1px; }
+    .rowText { fill: ${t.text}; font-size: 25px; font-weight: 850; }
     .footerMain { fill: ${t.muted}; font-size: 30px; font-weight: 900; letter-spacing: 1px; }
     .footerSub { fill: #22ad58; font-size: 27px; font-weight: 900; }
   </style>
 
-  <rect x="405" y="118" width="118" height="118" rx="24" fill="${t.iconBg}" stroke="#5f86ff" stroke-width="4" filter="url(#softShadow)"/>
-  <text x="437" y="192" class="${themeName === 'dark' ? 'terminal' : 'terminalBlue'}">&gt;_</text>
-  <text x="552" y="192" class="logo">zroaix</text>
-  <rect x="548" y="216" width="330" height="7" rx="4" fill="url(#accentLine)"/>
+  <rect x="390" y="116" width="124" height="124" rx="25" fill="${t.iconBg}" stroke="#5f86ff" stroke-width="4" filter="url(#softShadow)"/>
+  <text x="424" y="194" class="${themeName === 'dark' ? 'terminal' : 'terminalBlue'}">&gt;_</text>
+  <text x="546" y="195" class="logo">zroaix</text>
+  <rect x="548" y="220" width="330" height="7" rx="4" fill="url(#accentLine)"/>
 
   <rect x="172" y="286" width="254" height="48" rx="14" fill="${t.pillBg}" stroke="#2f6df6" stroke-opacity="0.7"/>
   <circle cx="200" cy="310" r="6" fill="#4f83ff"/>
-  <text x="220" y="317" class="pill">AI insight</text>
+  <text x="220" y="317" class="pill">AI digest</text>
   <text x="540" y="320" text-anchor="middle" class="date">${esc(date)}</text>
   <rect x="746" y="286" width="162" height="48" rx="14" fill="${t.pillBg}" stroke="#61d29b" stroke-opacity="0.65"/>
   <text x="827" y="317" text-anchor="middle" class="tag">#ZROAIX</text>
 
-  <text>${tspans(titleLines, 540, 435, 74, 'headline', 'middle')}</text>
-  <text x="540" y="610" text-anchor="middle" class="formula">Hook + Context + Takeaway</text>
+  <text>${tspans(titleLines, 540, 415, 68, 'headline', 'middle')}</text>
+  <text x="540" y="640" text-anchor="middle" class="formula">What changed + why it matters</text>
 
-  ${cards
-    .map(([title, subtitle], idx) => {
-      const x = 172 + idx * 256;
+  ${insightRows
+    .map((row, idx) => {
+      const y = 704 + idx * 138;
       return `
-  <rect x="${x}" y="762" width="224" height="112" rx="18" fill="${t.cardBg}" stroke="${ACCENTS[idx]}" stroke-width="2"/>
-  <text x="${x + 112}" y="818" text-anchor="middle" class="cardTitle">${esc(title)}</text>
-  <text x="${x + 112}" y="850" text-anchor="middle" class="cardSub">${esc(subtitle)}</text>`;
+  <rect x="166" y="${y}" width="748" height="118" rx="22" fill="${t.cardBg}" stroke="${row.accent}" stroke-width="2.2" filter="url(#softShadow)"/>
+  <rect x="166" y="${y}" width="9" height="118" rx="5" fill="${row.accent}"/>
+  <circle cx="218" cy="${y + 59}" r="24" fill="${row.accent}"/>
+  <text x="218" y="${y + 68}" text-anchor="middle" style="fill: ${themeName === 'dark' ? '#081018' : '#ffffff'}; font-size: 24px; font-weight: 900;">${idx + 1}</text>
+  <text x="270" y="${y + 36}" class="rowLabel" style="fill: ${row.accent};">${esc(row.label.toUpperCase())}</text>
+  <text>${tspans(row.lines, 270, y + 73, 30, 'rowText')}</text>`;
     })
     .join('')}
 
-  <text x="540" y="1115" text-anchor="middle" class="footerMain">zromek.de</text>
-  <text x="540" y="1162" text-anchor="middle" class="footerSub">AI News | Armenian</text>
+  <text x="540" y="1160" text-anchor="middle" class="footerMain">zromek.de</text>
+  <text x="540" y="1207" text-anchor="middle" class="footerSub">AI News | Armenian</text>
 </svg>`.trim();
 };
 
