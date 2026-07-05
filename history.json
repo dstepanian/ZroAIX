@@ -369,5 +369,53 @@
       "baidu/Unlimited-OCR",
       "deepseek-ai/DeepSeek-V4-Pro-DSpark"
     ]
+  },
+  {
+    "date": "2026-07-05",
+    "ts": 1783240760353,
+    "overview": "Օրվա նորությունները ընդգծում են AI-ի գործնական կիրառման առաջընթացները և դրա էթիկական ու ծախսային հետևանքների շուրջ շարունակվող քննարկումները։ Բացի այդ, տեղի է ունենում նաև կարևոր տիեզերական առաքելություն։",
+    "items": [
+      {
+        "headline": "AI որոնողական գործակալների թերությունները",
+        "summary": "Նոր հետազոտությունը ցույց է տալիս, որ AI որոնողական գործակալները հաճախ ձախողվում են ոչ թե որոնման, այլ անորոշ հարցումների դեպքում պարզաբանումներ չխնդրելու պատճառով։",
+        "source": 1,
+        "link": "https://the-decoder.com/ai-search-agents-dont-fail-at-searching-they-fail-at-asking-the-right-questions-when-queries-get-ambiguous/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "sqlite-utils 4.0rc2-ը՝ Claude Fable-ի կողմից",
+        "summary": "sqlite-utils 4.0rc2 գործիքի նոր տարբերակը հիմնականում գրվել է Claude Fable AI-ի օգնությամբ՝ ցույց տալով AI-ի դերը ծրագրային ապահովման մշակման մեջ։",
+        "source": 2,
+        "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+        "outlet": "Simon Willison"
+      },
+      {
+        "headline": "NASA-ի արտակարգ առաքելությունը Swift-ի համար",
+        "summary": "NASA-ն արտակարգ առաքելություն է սկսել՝ փորձելով կանխել Swift Observatory-ի Երկիր ընկնելը, որի ուղեծիրը նվազել է արևային փոթորիկների պատճառով։",
+        "source": 7,
+        "link": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "pxpipe գործիքը նվազեցնում է AI ծախսերը",
+        "summary": "pxpipe բաց կոդով գործիքը թույլ է տալիս տեքստային հուշումները թաքցնել PNG պատկերներում՝ մինչև 70% կրճատելով Claude Code և Fable 5-ի թոքենների ծախսերը։",
+        "source": 8,
+        "link": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Midjourney-ն պահանջում է AI տվյալներ",
+        "summary": "Midjourney-ն դատական կարգով պահանջում է Հոլիվուդի ստուդիաներից բացահայտել իրենց AI օգտագործման մանրամասները՝ շարունակվող իրավական վեճի շրջանակներում։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "zai-org/GLM-5.2",
+      "baidu/Unlimited-OCR",
+      "nvidia/Qwen3.6-27B-NVFP4"
+    ]
   }
 ]
