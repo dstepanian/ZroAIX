@@ -372,8 +372,8 @@
   },
   {
     "date": "2026-07-05",
-    "ts": 1783240760353,
-    "overview": "Օրվա նորությունները ընդգծում են AI-ի գործնական կիրառման առաջընթացները և դրա էթիկական ու ծախսային հետևանքների շուրջ շարունակվող քննարկումները։ Բացի այդ, տեղի է ունենում նաև կարևոր տիեզերական առաքելություն։",
+    "ts": 1783270422582,
+    "overview": "Այսօրվա նորությունները շեշտում են AI-ի զարգացումները՝ սկսած նոր մոդելների հնարավորություններից մինչև դրանց կիրառումը տարբեր ոլորտներում։ Կարևորվում են նաև AI-ի հետ կապված էթիկական մարտահիրավերները և հասարակական ազդեցությունները։",
     "items": [
       {
         "headline": "AI որոնողական գործակալների թերությունները",
@@ -409,13 +409,53 @@
         "source": 9,
         "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Claude Code-ը հին խաղը տեղափոխեց iOS",
+        "summary": "Google Deepmind-ի ծրագրավորողը Anthropic-ի Claude Code-ի միջոցով 2003 թվականի Command & Conquer: Generals Zero Hour խաղը մի քանի ժամում տեղափոխել է iPhone և iPad։",
+        "source": 2,
+        "link": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Baidu-ի նոր OCR համակարգ",
+        "summary": "Baidu-ի «Unlimited OCR» համակարգը կարող է մշակել տասնյակ փաստաթղթերի էջեր մեկ անցումով՝ գերազանցելով նախորդ համակարգերի հնարավորությունները։",
+        "source": 3,
+        "link": "https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի վրա հիմնված մասնավոր դպրոցներ",
+        "summary": "ԱՄՆ-ի հարուստ ընտանիքներն ավելի ու ավելի են իրենց երեխաներին ուղարկում AI դպրոցներ, որոնք անհատականացված ուսուցում են առաջարկում՝ համատեղելով AI դասընթացները նախագծային սեմինարների հետ։",
+        "source": 9,
+        "link": "https://the-decoder.com/ai-private-schools-sell-wealthy-us-families-on-personalized-learning-over-traditional-education/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Mistral-ի գործադիր տնօրենի նախազգուշացումը",
+        "summary": "Mistral-ի հիմնադիր Արթուր Մենշը զգուշացնում է ընկերություններին փակ AI մոդելներին ապավինելուց՝ պնդելով, որ AI լաբորատորիաները պահպանում են հաճախորդների տվյալները և դրանք օգտագործում որպես մրցակիցներ։",
+        "source": 10,
+        "link": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Հոլիվուդը Seedance-ի շուրջ",
+        "summary": "Bytedance-ի AI տեսանյութերի Seedance գործիքը բաժանում է Հոլիվուդը, քանի որ Motion Picture Association-ը պահանջում է դրա արգելումը, մինչդեռ ստուդիաները գաղտնի օգտագործում են այն։",
+        "source": 11,
+        "link": "https://the-decoder.com/hollywood-wants-seedance-banned-and-reportedly-also-wants-to-keep-using-it/",
+        "outlet": "The Decoder"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Unlimited OCR",
+        "note": "Baidu-ի նոր օպտիկական նիշերի ճանաչման համակարգ"
+      }
+    ],
     "trending": [
       "zai-org/GLM-5.2",
       "baidu/Unlimited-OCR",
-      "nvidia/Qwen3.6-27B-NVFP4"
+      "InternScience/Agents-A1"
     ]
   }
 ]
