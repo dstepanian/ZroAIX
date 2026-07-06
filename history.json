@@ -457,5 +457,39 @@
       "baidu/Unlimited-OCR",
       "InternScience/Agents-A1"
     ]
+  },
+  {
+    "date": "2026-07-06",
+    "ts": 1783331656173,
+    "overview": "Այսօրվա նորությունները շոշափում են AI էկոհամակարգի տարբեր ասպեկտներ՝ սկսած մշակման գործիքների թարմացումներից մինչև դրա կիրառումը կրթության մեջ և հիմնարար ծառայությունների փոփոխությունները։",
+    "items": [
+      {
+        "headline": "Hugging Face Kernels-ի մեծ թարմացումներ",
+        "summary": "Hugging Face-ը հայտարարել է իր Kernels հարթակի զգալի թարմացումների մասին, որոնք նախատեսված են AI մոդելների մշակման և փորձարկման գործընթացները բարելավելու համար։",
+        "source": 3,
+        "link": "https://huggingface.co/blog/revamped-kernels",
+        "outlet": "Hugging Face"
+      },
+      {
+        "headline": "Հարուստ ընտանիքները AI-ին են վստահում երեխաների կրթությունը",
+        "summary": "ԱՄՆ-ի որոշ հարուստ ընտանիքներ դիմում են AI-ի վրա հիմնված կրթական ծրագրերի՝ իրենց երեխաներին սովորեցնելու համար՝ հակառակ AI-ի նկատմամբ հանրային անվստահությանը։",
+        "source": 4,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Amazon Mechanical Turk-ը դադարեցնում է նոր հաճախորդների ընդունումը",
+        "summary": "Amazon-ը հայտարարել է, որ դադարեցնում է նոր հաճախորդների ընդունումը Mechanical Turk քրաուդսորսինգի հարթակում, ինչը կարող է նշանավորել դրա մոտալուտ փակումը։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "zai-org/GLM-5.2",
+      "baidu/Unlimited-OCR",
+      "InternScience/Agents-A1"
+    ]
   }
 ]
