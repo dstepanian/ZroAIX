@@ -460,8 +460,8 @@
   },
   {
     "date": "2026-07-06",
-    "ts": 1783331656173,
-    "overview": "Այսօրվա նորությունները շոշափում են AI էկոհամակարգի տարբեր ասպեկտներ՝ սկսած մշակման գործիքների թարմացումներից մինչև դրա կիրառումը կրթության մեջ և հիմնարար ծառայությունների փոփոխությունները։",
+    "ts": 1783361037861,
+    "overview": "Այսօրվա նորությունները լուսաբանում են արհեստական բանականության ոլորտի արագ զարգացումները, կարգավորման մարտահրավերները և անվտանգության նոր սպառնալիքները, ինչպես նաև խոշոր տեխնոլոգիական ընկերությունների վերակազմավորումները։",
     "items": [
       {
         "headline": "Hugging Face Kernels-ի մեծ թարմացումներ",
@@ -483,6 +483,48 @@
         "source": 6,
         "link": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Microsoft-ը կրճատում է աշխատատեղերը",
+        "summary": "Microsoft-ը հայտարարել է մոտ 4,800 աշխատակցի կրճատման մասին, որոնք հիմնականում վերաբերում են Xbox և առևտրային վաճառքի բաժիններին։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Nvidia Kyber NVL144-ի հետաձգում",
+        "summary": "Nvidia-ի Kyber NVL144 AI սերվերային համակարգի թողարկումը, ըստ տեղեկությունների, ավելի քան մեկ տարով հետաձգվել է մինչև 2028 թվական՝ տպագիր տպատախտակների արտադրության խնդիրների պատճառով։",
+        "source": 19,
+        "link": "https://the-decoder.com/nvidias-kyber-nvl144-reportedly-pushed-back-more-than-a-year-asian-suppliers-drop/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինաստանը սահմանափակում է AI չաթբոթերին",
+        "summary": "Չինաստանը պարտադրում է իր խոշորագույն AI հարթակներին, ինչպիսիք են ByteDance-ը և Alibaba-ն, դադարեցնել մարդանման չաթբոթերի անհատականացված պրոֆիլների գործառույթները՝ ի պատասխան նոր կանոնակարգերի։",
+        "source": 20,
+        "link": "https://the-decoder.com/china-forces-its-biggest-ai-platforms-to-shut-down-humanlike-chatbot-personas/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Առաջին AI ռանսոմվեր հարձակումը",
+        "summary": "Անվտանգության Sysdig ընկերությունը նկարագրել է JADEPUFFER անունով շորթման հարձակում, որտեղ լեզվական մոդելը ինքնուրույն ներթափանցել է համակարգեր, գողացել հավատարմագրեր և ոչնչացրել տվյալների բազաներ։",
+        "source": 22,
+        "link": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի գաղտնի հետևումը",
+        "summary": "Anthropic-ը մեղադրվում է օգտատերերին գաղտնի հետևելու մեջ, ինչը հակասում է ընկերության հակահսկողության դիրքորոշմանը, թեև ինժեները հայտարարել է, որ «փորձարկումն» ավարտվել է։",
+        "source": 5,
+        "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "AI մոդելների մրցակցության արագացում",
+        "summary": "GPT-4-ի գերակայությունը տևել է մոտ մեկ տարի, մինչդեռ այսօրվա առաջատար մոդելները հազիվ թե յոթ շաբաթից ավելի մնան առաջատար դիրքերում՝ արտացոլելով ոլորտի սրված մրցակցությունը։",
+        "source": 3,
+        "link": "https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [],
