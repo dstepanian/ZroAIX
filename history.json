@@ -533,5 +533,69 @@
       "baidu/Unlimited-OCR",
       "InternScience/Agents-A1"
     ]
+  },
+  {
+    "date": "2026-07-07",
+    "ts": 1783416143704,
+    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների զարգացման և դրանց իրական աշխարհում կիրառությունների զգալի առաջընթացը, ինչպես նաև կարգավորման և կիբերանվտանգության շուրջ աճող մտահոգությունները։",
+    "items": [
+      {
+        "headline": "Ամերիկյան ինքնավար մեքենաներն Ուկրաինայում",
+        "summary": "Forterra ընկերությունը Ուկրաինայում տեղակայել է ավելի քան 100 ամերիկյան արտադրության ինքնավար ցամաքային մեքենա, որոնք մասնակցում են մարտական գործողություններին։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Առաջին AI-ով աշխատող շորթումը",
+        "summary": "Առաջին անգամ AI գործակալը իրականացրել է շորթման տեխնիկական գործողությունները, սակայն մարդկային միջամտությունը դեռ անհրաժեշտ է եղել զոհին ընտրելու և ենթակառուցվածքները կարգավորելու համար։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Cloudflare-ի AI բոտերի վերահսկողություն",
+        "summary": "Cloudflare-ը բոլոր հաճախորդներին տրամադրում է AI բոտերի մանրամասն վերահսկողություն՝ թույլ տալով կայքերի սեփականատերերին առանձին կառավարել որոնման, ուսուցման և գործակալ բոտերին։",
+        "source": 9,
+        "link": "https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Zhipu AI-ը գործարկում է ZCode-ը",
+        "summary": "Zhipu AI-ը գործարկել է ZCode մշակման միջավայրը՝ ներկայացնելով GLM-5.2 մոդելը, որը մրցակցում է Claude Code-ի և OpenAI Codex-ի հետ՝ առաջարկելով երկար կոնտեքստի հնարավորություններ բարդ կոդավորման խնդիրների համար։",
+        "source": 12,
+        "link": "https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Tencent-ը թողարկում է Hy3 մոդելը",
+        "summary": "Tencent-ը թողարկել է Hy3 բաց կոդով լեզվական մոդելը, որը 295 միլիարդ պարամետր ունի և, ըստ պնդումների, համապատասխանում է իր չափից երկու-հինգ անգամ մեծ մոդելների արդյունավետությանը։",
+        "source": 13,
+        "link": "https://the-decoder.com/tencent-releases-hy3-open-source-model-that-allegedly-matches-models-up-to-five-times-its-active-size/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Մեծ Բրիտանիայի կարգավորիչը զգուշացնում է AI-ի մասին",
+        "summary": "Մեծ Բրիտանիայի ֆինանսական կարգավորիչը զգուշացնում է ֆինանսական ծառայություններում AI-ի օգտագործման հետևանքով առաջացած «սպառազինությունների մրցավազքի» մասին և կոչ է անում ավելի մեծ լիազորություններ տրամադրել վերահսկիչ մարմնին։",
+        "source": 23,
+        "link": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [
+      {
+        "name": "ZCode",
+        "note": "Zhipu AI-ի կոդավորման միջավայր"
+      },
+      {
+        "name": "Hy3",
+        "note": "Tencent-ի բաց կոդով լեզվական մոդել"
+      }
+    ],
+    "trending": [
+      "zai-org/GLM-5.2",
+      "tencent/Hy3",
+      "baidu/Unlimited-OCR"
+    ]
   }
 ]
