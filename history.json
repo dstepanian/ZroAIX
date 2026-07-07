@@ -536,8 +536,8 @@
   },
   {
     "date": "2026-07-07",
-    "ts": 1783416143704,
-    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների զարգացման և դրանց իրական աշխարհում կիրառությունների զգալի առաջընթացը, ինչպես նաև կարգավորման և կիբերանվտանգության շուրջ աճող մտահոգությունները։",
+    "ts": 1783446664681,
+    "overview": "Այսօրվա AI նորությունները ներառում են արտադրանքի ընդլայնումներ, աշխարհաքաղաքական ռազմավարություններ և մրցակցային քայլեր։ Anthropic-ը իր AI գործակալը հասանելի է դարձրել բջջային սարքերում, մինչդեռ Չինաստանը քայլեր է ձեռնարկում իր AI տեխնոլոգիան վերահսկելու ուղղությամբ։",
     "items": [
       {
         "headline": "Ամերիկյան ինքնավար մեքենաներն Ուկրաինայում",
@@ -580,6 +580,48 @@
         "source": 23,
         "link": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Claude Cowork-ը հասանելի է բջջայինում",
+        "summary": "Anthropic-ի Claude Cowork AI հարթակն այժմ հասանելի է բջջային և վեբ տարբերակներով՝ ընդլայնելով օգտատերերի հասանելիությունը։",
+        "source": 2,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "DeepSeek-ը ստեղծում է սեփական AI չիպեր",
+        "summary": "Չինական DeepSeek ստարտափը նախատեսում է մշակել սեփական AI չիպեր՝ նվազեցնելու համար կախվածությունը Nvidia-ից և Huawei-ից՝ ի պատասխան ԱՄՆ արտահանման վերահսկողության։",
+        "source": 6,
+        "link": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Չինաստանը սահմանափակում է AI մոդելների արտահանումը",
+        "summary": "Չինական իշխանությունները դիտարկում են երկրի ամենահզոր AI մոդելների օտարերկրյա հասանելիության սահմանափակումը՝ AI-ն որպես ռազմավարական ակտիվ դիտարկելով։",
+        "source": 7,
+        "link": "https://the-decoder.com/china-eyes-export-curbs-on-its-top-ai-models-and-europe-is-caught-in-the-middle/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude-ի ներքին մտքերը բացահայտված են",
+        "summary": "Anthropic-ը հայտնաբերել է, որ Claude-ը մարզման ընթացքում ինքնուրույն զարգացրել է ներքին աշխատանքային հիշողություն, որը հնարավոր է կարդալ նոր Jacobian Lens գործիքի միջոցով։",
+        "source": 11,
+        "link": "https://the-decoder.com/claudes-hidden-inner-monologue-is-now-readable-thanks-to-anthropics-new-jacobian-lens/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Savi հավելվածը պաշտպանում է AI խարդախություններից",
+        "summary": "Savi ընկերությունը գործարկում է նոր հավելված iPhone-ի և Android-ի համար, որը նպատակ ունի պաշտպանել սպառողներին իրատեսական AI խարդախություններից, ինչպիսիք են փրկագին պահանջող առևանգողները։",
+        "source": 18,
+        "link": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը և Anthropic-ը՝ անվճար հաշվողական հզորություն",
+        "summary": "OpenAI-ը և Anthropic-ը միլիոնավոր դոլարների անվճար հաշվողական հզորություն են տրամադրում ստարտափներին՝ իրենց էկոհամակարգեր ներգրավելու համար։",
+        "source": 23,
+        "link": "https://the-decoder.com/openai-and-anthropic-are-giving-away-millions-in-computing-power-to-attract-startups/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -590,6 +632,14 @@
       {
         "name": "Hy3",
         "note": "Tencent-ի բաց կոդով լեզվական մոդել"
+      },
+      {
+        "name": "Claude Cowork",
+        "note": "Anthropic-ի AI գործակալի ընդլայնված հասանելիություն բջջային և վեբ տարբերակներով"
+      },
+      {
+        "name": "Savi app",
+        "note": "AI-ով աշխատող հավելված՝ AI խարդախություններից պաշտպանվելու համար"
       }
     ],
     "trending": [
