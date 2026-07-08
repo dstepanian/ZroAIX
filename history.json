@@ -650,8 +650,8 @@
   },
   {
     "date": "2026-07-08",
-    "ts": 1783498000902,
-    "overview": "Այսօրվա նորությունները շեշտում են AI մոդելների նոր թողարկումները և ընդլայնումները, ինչպես նաև արհեստական բանականության ապարատային ապահովման ոլորտում զգալի ներդրումները։ Խոշոր տեխնոլոգիական ընկերությունները նաև վերանայում են իրենց AI ռազմավարությունները՝ կենտրոնանալով ծախսերի կրճատման և սեփական մոդելների օգտագործման վրա, մինչդեռ ի հայտ են գալիս AI-ի չարաշահման նոր մտահոգություններ։",
+    "ts": 1783531112885,
+    "overview": "Օրվա նորությունները ընդգծում են AI-ի փոխազդեցության և մոդելների մշակման զգալի առաջընթացները, ինչպես նաև AI-ի հասարակական ազդեցության, մասնավորապես գաղտնիության և կարգավորող շրջանակների վերաբերյալ աճող մտահոգությունները։",
     "items": [
       {
         "headline": "OpenAI-ը գործարկում է GPT-5.6 մոդելը",
@@ -694,6 +694,48 @@
         "source": 32,
         "link": "https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը ներկայացրել է GPT-Live ձայնային մոդելը",
+        "summary": "OpenAI-ը ներկայացրել է GPT-Live-ը՝ ձայնային մոդելների նոր սերունդ, որն ապահովում է ավելի բնական մարդ-AI փոխազդեցություն և այժմ հասանելի է ChatGPT Voice-ում։",
+        "source": 26,
+        "link": "https://openai.com/index/introducing-gpt-live",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Prime Intellect-ը $130 մլն ֆինանսավորում է ստացել",
+        "summary": "Prime Intellect ստարտափը հավաքել է 130 միլիոն դոլար Series A փուլում՝ օգնելու ձեռնարկություններին ստեղծել իրենց սեփական AI գործակալական համակարգերը։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "MiniMax-ը կթողարկի 2.7 տրիլիոն պարամետրով մոդել",
+        "summary": "Չինական AI ստարտափ MiniMax-ը նախատեսում է այս տարի բաց կոդով թողարկել 2.7 տրիլիոն պարամետր ունեցող նոր լեզվական մոդել։",
+        "source": 15,
+        "link": "https://the-decoder.com/chinese-ai-startup-minimax-plans-to-open-source-a-2-7-trillion-parameter-model-later-this-year/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն գործարկել է Muse Image-ը՝ գաղտնիության խնդիրներով",
+        "summary": "Meta-ի Superintelligence Labs-ը թողարկել է Muse Image պատկերների ստեղծման մոդելը, որի Instagram-ի հանրային լուսանկարների օգտագործումը առանց համաձայնության հարցեր է բարձրացնում։",
+        "source": 20,
+        "link": "https://the-decoder.com/muse-image-is-technically-impressive-but-metas-use-of-instagram-photos-raises-questions/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն փորձարկում է AI ակնոցներ",
+        "summary": "Meta-ն փորձարկում է AI-ով աշխատող ակնոցների նախատիպեր՝ \"Super Sensing\" գործառույթով, որոնք տեսախցիկի և խոսափողի միջոցով գրանցում են կրողի ամբողջ օրը։",
+        "source": 19,
+        "link": "https://the-decoder.com/meta-tests-always-on-ai-glasses-that-capture-your-entire-day/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Ռոբոտաքսիների օրենքը կարող է արգելել Tesla-ն",
+        "summary": "Ավտոնոմ մեքենաների վերաբերյալ նոր օրենքը կարող է արգելել Tesla-ի մոտեցումը, որը հիմնված է միայն տեսախցիկների վրա՝ պահանջելով լրացուցիչ սենսորներ, ինչպիսիք են լիդարը և ռադարը։",
+        "source": 21,
+        "link": "https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
@@ -704,6 +746,10 @@
       {
         "name": "Muse Image",
         "note": "Meta-ի նոր AI պատկեր ստեղծող մոդել"
+      },
+      {
+        "name": "GPT-Live",
+        "note": "OpenAI-ի ձայնային մոդելների նոր սերունդ"
       }
     ],
     "trending": [
