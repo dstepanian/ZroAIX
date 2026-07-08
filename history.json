@@ -647,5 +647,69 @@
       "tencent/Hy3",
       "baidu/Unlimited-OCR"
     ]
+  },
+  {
+    "date": "2026-07-08",
+    "ts": 1783498000902,
+    "overview": "Այսօրվա նորությունները շեշտում են AI մոդելների նոր թողարկումները և ընդլայնումները, ինչպես նաև արհեստական բանականության ապարատային ապահովման ոլորտում զգալի ներդրումները։ Խոշոր տեխնոլոգիական ընկերությունները նաև վերանայում են իրենց AI ռազմավարությունները՝ կենտրոնանալով ծախսերի կրճատման և սեփական մոդելների օգտագործման վրա, մինչդեռ ի հայտ են գալիս AI-ի չարաշահման նոր մտահոգություններ։",
+    "items": [
+      {
+        "headline": "OpenAI-ը գործարկում է GPT-5.6 մոդելը",
+        "summary": "OpenAI-ը հինգշաբթի օրը գործարկում է GPT-5.6 մոդելը՝ ԱՄՆ կառավարության կողմից թողարկման արգելքը վերացնելուց և լրացուցիչ թեստավորումից հետո։",
+        "source": 1,
+        "link": "https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "SambaNova-ն 1 միլիարդ դոլար է հավաքել",
+        "summary": "AI չիպեր արտադրող SambaNova-ն հավաքել է 1 միլիարդ դոլար՝ գնահատվելով 11 միլիարդ դոլար, նախորդ մեգա-ֆինանսավորումից ընդամենը հինգ ամիս անց։",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Հաքերները AI գործիքներն օգտագործում են բոտնետների համար",
+        "summary": "Հաքերները կարող են օգտագործել 9 ամենատարածված AI գործիքները՝ զանգվածային բոտնետներ ստեղծելու համար՝ շահագործելով LLM-ների՝ «չգիտեմ» ասելու անկարողությունը։",
+        "source": 4,
+        "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Meta-ի Muse Image մոդելը նոր հնարավորություններ ունի",
+        "summary": "Meta-ի նոր Muse Image մոդելը կարող է այլ Instagram օգտատերերի ներառել AI-ով ստեղծված լուսանկարներում, ինչը մտահոգություններ է առաջացնում գաղտնության շուրջ։",
+        "source": 11,
+        "link": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Microsoft-ը հրաժարվում է արտաքին AI մոդելներից",
+        "summary": "Microsoft-ը Copilot-ի նման իր արտադրանքներում OpenAI-ի և Anthropic-ի AI մոդելները փոխարինում է իր սեփական MAI մոդելներով՝ ծախսերը կրճատելու համար։",
+        "source": 16,
+        "link": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Deepseek-ը ստեղծում է իր AI չիպը",
+        "summary": "Չինական Deepseek ստարտափը, ըստ Reuters-ի, մշակում է իր սեփական AI չիպը՝ միանալով AI ապարատային մրցավազքին։",
+        "source": 32,
+        "link": "https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "GPT-5.6",
+        "note": "OpenAI-ի նոր AI մոդել"
+      },
+      {
+        "name": "Muse Image",
+        "note": "Meta-ի նոր AI պատկեր ստեղծող մոդել"
+      }
+    ],
+    "trending": [
+      "tencent/Hy3",
+      "zai-org/GLM-5.2",
+      "baidu/Unlimited-OCR"
+    ]
   }
 ]
