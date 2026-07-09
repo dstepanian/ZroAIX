@@ -760,8 +760,8 @@
   },
   {
     "date": "2026-07-09",
-    "ts": 1783589266819,
-    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության մոդելների զարգացումները, ինչպես նաև դրանց կիրառման և կարգավորման շուրջ աճող քննարկումները։",
+    "ts": 1783619204433,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների և արտադրանքների զգալի առաջընթացը, ինչպես նաև AI-ի չարաշահման շուրջ աճող մտահոգությունները և AI շուկայում սրվող մրցակցությունը։",
     "items": [
       {
         "headline": "Grok 4.5-ի թողարկումը և մատչելիությունը",
@@ -804,6 +804,48 @@
         "source": 35,
         "link": "https://openai.com/index/government-national-security-partnerships",
         "outlet": "OpenAI"
+      },
+      {
+        "headline": "Meta-ն կսկսի AI չիպերի արտադրությունը",
+        "summary": "Meta ընկերությունը սեպտեմբերին կսկսի իր AI-ի համար նախատեսված չիպերի նորագույն տարբերակների արտադրությունը՝ նպատակ ունենալով նվազեցնել Nvidia-ի նման մատակարարներից GPU-ների վրա ծախսերը։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը թողարկում է GPT-5.6 և ChatGPT Work",
+        "summary": "OpenAI-ը հանրության համար թողարկել է իր GPT-5.6 մոդելը՝ ԱՄՆ կառավարության հավանությունից հետո, և ներկայացրել է նոր AI գործակալ՝ ChatGPT Work-ը։",
+        "source": 5,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Meta-ի Muse Spark 1.1 API-ն սրում է AI գների պատերազմը",
+        "summary": "Meta-ն մուտք է գործում AI API շուկա Muse Spark 1.1-ով՝ առաջարկելով գներ, որոնք զգալիորեն ցածր են OpenAI-ի և Anthropic-ի գներից՝ սրելով մրցակցությունը։",
+        "source": 6,
+        "link": "https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Databricks-ը GLM 5.2-ը դարձնում է կոդավորման հիմնական շարժիչ",
+        "summary": "Databricks-ը չինական բաց կոդով GLM 5.2 մոդելը դարձրել է իր լռելյայն կոդավորման շարժիչը՝ պարզելով, որ այն համապատասխանում է Anthropic-ի Opus 4.8-ի արդյունավետությանը՝ ավելի ցածր գնով։",
+        "source": 24,
+        "link": "https://the-decoder.com/databricks-makes-chinese-open-source-model-glm-5-2-its-default-coding-engine-after-it-matched-opus-at-lower-cost/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Grok-ի չարաշահման դեպք և դատական հայց",
+        "summary": "Դատական հայց է ներկայացվել X-ի դեմ՝ պնդելով, որ Grok AI-ն օգտագործվել է խորթ դստեր 7000 սեռական բնույթի պատկերներ ստեղծելու համար, որից հետո հանցագործը ինքնասպան է եղել։",
+        "source": 36,
+        "link": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "SpaceXAI-ը թողարկում է Grok 4.5-ը",
+        "summary": "Elon Musk-ի SpaceXAI ընկերությունը թողարկել է Grok 4.5-ի նորագույն տարբերակը՝ խոստանալով ավելի էժան և արդյունավետ այլընտրանք այլ հզոր AI մոդելների համար։",
+        "source": 37,
+        "link": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -814,6 +856,10 @@
       {
         "name": "GPT-Live-1",
         "note": "ChatGPT-ի բարելավված ձայնային ռեժիմը"
+      },
+      {
+        "name": "ChatGPT Work",
+        "note": "OpenAI-ի նոր AI գործակալ"
       }
     ],
     "trending": [
