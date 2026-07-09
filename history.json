@@ -757,5 +757,69 @@
       "zai-org/GLM-5.2",
       "baidu/Unlimited-OCR"
     ]
+  },
+  {
+    "date": "2026-07-09",
+    "ts": 1783589266819,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության մոդելների զարգացումները, ինչպես նաև դրանց կիրառման և կարգավորման շուրջ աճող քննարկումները։",
+    "items": [
+      {
+        "headline": "Grok 4.5-ի թողարկումը և մատչելիությունը",
+        "summary": "xAI-ը թողարկել է Grok 4.5 մոդելը, որը, չնայած որոշ չափանիշներով հետ է մնում մրցակիցներից, սակայն շատ ավելի մատչելի է։",
+        "source": 2,
+        "link": "https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ի «միշտ միացված» AI ակնոցները",
+        "summary": "Հաղորդվում է, որ Meta-ն աշխատում է «գերզգայուն» խելացի ակնոցների նախատիպերի վրա, որոնք կարող են շարունակաբար ձայնագրել և լուսանկարել։",
+        "source": 6,
+        "link": "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "ChatGPT-ի GPT-Live ձայնային ռեժիմի բարելավումը",
+        "summary": "OpenAI-ը ներկայացրել է ChatGPT-ի GPT-Live-1 ձայնային ռեժիմը, որը թույլ է տալիս միաժամանակ լսել և խոսել՝ բարելավելով խոսակցությունների բնականությունը։",
+        "source": 16,
+        "link": "https://the-decoder.com/chatgpt-can-now-listen-and-talk-at-the-same-time-making-ai-conversations-seem-more-human/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Mistral-ը մուտք է գործում ռոբոտաշինություն",
+        "summary": "Mistral-ը մուտք է գործում ռոբոտաշինության շուկա՝ Robostral Navigate 8B մոդելով, որը ռոբոտներին ուղղորդում է անհայտ միջավայրերում՝ օգտագործելով մեկ տեսախցիկ։",
+        "source": 20,
+        "link": "https://the-decoder.com/mistral-enters-robotics-with-robostral-navigate-an-8b-model-that-steers-robots-using-just-one-camera/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude Fable 5-ի առաջատար դիրքը չափանիշներում",
+        "summary": "Anthropic-ի Claude Fable 5 մոդելը գլխավորում է արդյունաբերության նոր չափանիշները ֆինանսների, իրավունքի և բժշկության ոլորտներում, սակայն բարձր գնով։",
+        "source": 30,
+        "link": "https://the-decoder.com/anthropics-claude-fable-5-dominates-new-industry-benchmarks-at-a-steep-premium/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի մոտեցումը կառավարական գործընկերություններին",
+        "summary": "OpenAI-ը հրապարակել է իր մոտեցումը կառավարական և ազգային անվտանգության գործընկերություններին՝ շեշտելով պատասխանատու AI-ի օգտագործումը և հանրային անվտանգությունը։",
+        "source": 35,
+        "link": "https://openai.com/index/government-national-security-partnerships",
+        "outlet": "OpenAI"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Grok 4.5",
+        "note": "xAI-ի նոր AI մոդելը՝ մատչելի գնով"
+      },
+      {
+        "name": "GPT-Live-1",
+        "note": "ChatGPT-ի բարելավված ձայնային ռեժիմը"
+      }
+    ],
+    "trending": [
+      "tencent/Hy3",
+      "zai-org/GLM-5.2",
+      "InternScience/Agents-A1"
+    ]
   }
 ]
