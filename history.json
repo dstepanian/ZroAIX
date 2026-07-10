@@ -867,5 +867,60 @@
       "zai-org/GLM-5.2",
       "InternScience/Agents-A1"
     ]
+  },
+  {
+    "date": "2026-07-10",
+    "ts": 1783674000530,
+    "overview": "Այսօրվա նորությունները հիմնականում կենտրոնացած են OpenAI-ի կողմից նոր մոդելների և արտադրանքների թողարկման, ինչպես նաև AI կարգավորման, հետազոտությունների և իրավական մարտահրավերների շուրջ։ Տեխնոլոգիական հսկաները շարունակում են ընդլայնել իրենց AI առաջարկները՝ միաժամանակ բախվելով էթիկական և իրավական հարցերի։",
+    "items": [
+      {
+        "headline": "OpenAI-ը թողարկում է GPT-5.6 և ChatGPT Work",
+        "summary": "OpenAI-ը թողարկել է իր նոր GPT-5.6 մոդելների ընտանիքը և ChatGPT Work գործակալային արտադրանքը, որը կարող է ինքնուրույն կառավարել բարդ աշխատանքային հոսքերը տարբեր հավելվածներում։",
+        "source": 27,
+        "link": "https://the-decoder.com/openai-pairs-its-gpt-5-6-public-rollout-with-chatgpt-work-a-new-agent-that-handles-entire-workflows/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Fidji Simo-ն հեռանում է OpenAI-ից",
+        "summary": "OpenAI-ի AGI բաժնի ղեկավար Fidji Simo-ն հեռանում է իր լրիվ դրույքի պաշտոնից՝ առողջական խնդիրների պատճառով՝ անցնելով մասնակի դրույքով խորհրդատուի դերին։",
+        "source": 6,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "NYT-ը մեղադրում է OpenAI-ին ապացույցներ թաքցնելու մեջ",
+        "summary": "New York Times-ը պնդում է, որ OpenAI-ը թաքցրել է գործիքներ և տվյալների հավաքածուներ, որոնք կարող էին բացահայտել հեղինակային իրավունքով պաշտպանված լրագրություն ChatGPT-ի արդյունքներում՝ սրելով դատական հայցը։",
+        "source": 21,
+        "link": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Meta-ն ներկայացնում է Muse Spark 1.1-ը",
+        "summary": "Meta-ն մուտք է գործում AI կոդավորման ոլորտ՝ ներկայացնելով Muse Spark 1.1-ը, որը նախատեսված է մեծ գործակալական ծանրաբեռնվածությունների, սխալների շտկման և կոդի միգրացիայի համար։",
+        "source": 20,
+        "link": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ի նոր հետազոտությունը LLM-ների մասին",
+        "summary": "Anthropic-ի հետազոտողները մշակել են մի տեխնիկա, որը թույլ է տվել նրանց աննախադեպ պատկերացում կազմել, թե ինչ է կատարվում լեզվական մեծ մոդելների ներսում, երբ դրանք պատասխանում են հարցերին կամ կատարում առաջադրանքներ։",
+        "source": 16,
+        "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Google-ը կբացահայտի AI-ով ստեղծված գովազդները",
+        "summary": "Google-ն այսուհետ կտեղեկացնի օգտատերերին, թե արդյոք Google Search-ում, Google Discover-ում և YouTube-ում ցուցադրվող գովազդները ստեղծվել կամ խմբագրվել են AI-ի միջոցով։",
+        "source": 18,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "tencent/Hy3",
+      "zai-org/GLM-5.2",
+      "InternScience/Agents-A1"
+    ]
   }
 ]
