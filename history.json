@@ -870,8 +870,8 @@
   },
   {
     "date": "2026-07-10",
-    "ts": 1783674000530,
-    "overview": "Այսօրվա նորությունները հիմնականում կենտրոնացած են OpenAI-ի կողմից նոր մոդելների և արտադրանքների թողարկման, ինչպես նաև AI կարգավորման, հետազոտությունների և իրավական մարտահրավերների շուրջ։ Տեխնոլոգիական հսկաները շարունակում են ընդլայնել իրենց AI առաջարկները՝ միաժամանակ բախվելով էթիկական և իրավական հարցերի։",
+    "ts": 1783705208645,
+    "overview": "Այսօրվա նորությունները կենտրոնացած են արհեստական բանականության նոր մոդելների թողարկումների, ոլորտի զգալի ֆինանսական զարգացումների և AI-ի շուրջ կարգավորող ու թափանցիկության ջանքերի վրա։",
     "items": [
       {
         "headline": "OpenAI-ը թողարկում է GPT-5.6 և ChatGPT Work",
@@ -914,9 +914,56 @@
         "source": 18,
         "link": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը թողարկում է GPT-5.6 մոդելների նոր ընտանիքը",
+        "summary": "OpenAI-ը թողարկել է GPT-5.6 մոդելների նոր ընտանիքը՝ Luna, Terra և Sol, որոնք բարելավումներ են խոստանում տարբեր ոլորտներում, ներառյալ կիբերանվտանգությունը, և Sol-ը գրեթե համընկնում է Claude Fable 5-ի արդյունքներին՝ մեկ երրորդ գնով։",
+        "source": 35,
+        "link": "https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "SK Hynix-ի պատմական IPO-ն Wall Street-ում",
+        "summary": "AI-ի բումի պայմաններում հիշողության չիպերի խոշորագույն մատակարարներից մեկը՝ SK Hynix-ը, Wall Street-ում իր դեբյուտի ժամանակ հավաքել է 26.5 միլիարդ դոլար՝ գերազանցելով Alibaba-ի ռեկորդը որպես օտարերկրյա ընկերության ամենամեծ դեբյուտը ԱՄՆ պատմության մեջ։",
+        "source": 1,
+        "link": "https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Tencent-ը ձգտում է ձեռք բերել Manus-ի մեծամասնական բաժնետոմսը",
+        "summary": "Tencent-ը բանակցություններ է վարում AI գործակալների ստարտափ Manus-ի մեծամասնական բաժնետոմսը գնելու շուրջ՝ 2 միլիարդ դոլար գնահատմամբ, այն բանից հետո, երբ Պեկինը արգելափակել էր Meta-ի ձեռքբերումը։",
+        "source": 5,
+        "link": "https://the-decoder.com/tencent-moves-to-buy-majority-stake-in-manus-after-beijing-forced-meta-to-unwind-its-2-billion-deal/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԵՄ-ն պահանջում է Meta-ից անջատել ավտոմատ նվագարկումը",
+        "summary": "Եվրոպական միությունը հայտարարել է Meta-ին, որ պետք է անջատի ավտոմատ նվագարկումը և անվերջ ոլորումը իր հարթակներում, հակառակ դեպքում սպառնում են զանգվածային տուգանքներ՝ համաձայն Թվային Ծառայությունների Ակտի։",
+        "source": 7,
+        "link": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը փակում է Atlas բրաուզերը",
+        "summary": "OpenAI-ը դադարեցնում է իր Atlas AI բրաուզերի գործունեությունը թողարկումից ընդամենը ութ ամիս անց՝ դրա հնարավորությունները ինտեգրելով ChatGPT-ի թարմացված Chrome ընդլայնման մեջ։",
+        "source": 15,
+        "link": "https://the-decoder.com/openai-kills-its-atlas-browser-after-just-eight-months-and-folds-everything-into-chatgpt/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը կբացահայտի AI-ով ստեղծված գովազդները",
+        "summary": "Google-ն այսուհետ կբացահայտի, թե որ գովազդներն են ստեղծվել արհեստական բանականության միջոցով, ինչը նախկինում պահանջվում էր միայն ընտրական գովազդների համար։",
+        "source": 34,
+        "link": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+        "outlet": "TechCrunch"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "GPT-5.6 family (Luna, Terra, Sol)",
+        "note": "OpenAI-ի նոր AI մոդելների ընտանիք"
+      }
+    ],
     "trending": [
       "tencent/Hy3",
       "zai-org/GLM-5.2",
