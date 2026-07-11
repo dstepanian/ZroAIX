@@ -972,8 +972,8 @@
   },
   {
     "date": "2026-07-11",
-    "ts": 1783755540483,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի կարևոր զարգացումները, ներառյալ խոշոր իրավական վեճերը, ինքնավար AI մոդելների առաջընթացը և AI-ի աճող փոխազդեցությունը տնտեսական քաղաքականության և ֆինանսների հետ։",
+    "ts": 1783788114203,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների հնարավորությունների և արտադրանքի ռազմավարությունների զգալի զարգացումները, ինչպես նաև AI-ի էթիկական օգտագործման և իրավական վեճերի հետ կապված նոր մարտահրավերները։",
     "items": [
       {
         "headline": "Apple-ը դատի է տվել OpenAI-ին",
@@ -1009,9 +1009,60 @@
         "source": 19,
         "link": "https://the-decoder.com/the-fed-wants-ai-investor-marc-andreessen-to-help-figure-out-if-ai-can-tame-inflation/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը ընդլայնում է ChatGPT-ի լսարանը",
+        "summary": "OpenAI-ը նոր աշխատակից է փնտրում՝ ChatGPT-ի ընտանիքների, խնամակալների և տարեցների համար նախատեսված հնարավորությունները զարգացնելու համար։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Չինաստանի Orca AI մոդելը ռոբոտաշինության համար",
+        "summary": "Պեկինի Արհեստական ինտելեկտի ակադեմիան թողարկել է Orca անունով աշխարհի մոդել, որը համապատասխանում է մասնագիտացված ռոբոտաշինական համակարգերին՝ առանց գործողությունների պիտակների վրա մարզվելու։",
+        "source": 8,
+        "link": "https://the-decoder.com/chinas-orca-world-model-matches-specialized-robotics-systems-without-ever-seeing-a-single-action-label/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ի Muse Spark 1.1-ը գերազանցում է GLM-5.2-ին",
+        "summary": "Meta-ի Muse Spark 1.1 մոդելը գերազանցել է GLM-5.2-ին կոդավորման առաջադրանքներում՝ ավելի ցածր արժեքով և զգալիորեն նվազեցված հալյուցինացիայի մակարդակով։",
+        "source": 9,
+        "link": "https://the-decoder.com/metas-muse-spark-1-1-outperforms-glm-5-2-in-coding-and-costs-slightly-less/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը խնդիրներ է ընդունում ChatGPT Work-ի հետ",
+        "summary": "OpenAI-ը խոստովանել է, որ ChatGPT Work-ի և GPT-5.6 Sol-ի գործարկման հետ կապված զգալի խնդիրներ կան, ներառյալ հաշվողական ռեսուրսների չափազանց մեծ օգտագործումը և օգտատերերի փորձի բարդությունները։",
+        "source": 10,
+        "link": "https://the-decoder.com/openai-admits-it-didnt-get-everything-quite-right-with-chatgpt-work-launch-and-scrambles-to-fix-ux-and-costs/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն անջատում է Instagram-ի AI deepfake ֆունկցիան",
+        "summary": "Հանրային հաշիվներից AI պատկերներ ստեղծելու Instagram-ի հնարավորությունը, որը թույլ էր տալիս օգտատերերին AI deepfake-ներ ստեղծել առանց հաշվի սեփականատիրոջ թույլտվության, Meta-ի կողմից անջատվել է բուռն արձագանքից հետո։",
+        "source": 13,
+        "link": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Apple-ը դատի է տալիս OpenAI-ին",
+        "summary": "Apple-ը դատի է տվել OpenAI-ին՝ մեղադրելով առևտրային գաղտնիքներ գողանալու մեջ, ինչը, ըստ Apple-ի, ուղղորդվել է OpenAI-ի բարձրաստիճան ղեկավարության կողմից։",
+        "source": 15,
+        "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+        "outlet": "TechCrunch"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Orca",
+        "note": "Ռոբոտաշինության համար նախատեսված նոր աշխարհի մոդել"
+      },
+      {
+        "name": "GPT-5.6 Sol",
+        "note": "OpenAI-ի նոր AI մոդել"
+      }
+    ],
     "trending": [
       "tencent/Hy3",
       "zai-org/GLM-5.2",
