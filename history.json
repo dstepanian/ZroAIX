@@ -969,5 +969,53 @@
       "zai-org/GLM-5.2",
       "InternScience/Agents-A1"
     ]
+  },
+  {
+    "date": "2026-07-11",
+    "ts": 1783755540483,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի կարևոր զարգացումները, ներառյալ խոշոր իրավական վեճերը, ինքնավար AI մոդելների առաջընթացը և AI-ի աճող փոխազդեցությունը տնտեսական քաղաքականության և ֆինանսների հետ։",
+    "items": [
+      {
+        "headline": "Apple-ը դատի է տվել OpenAI-ին",
+        "summary": "Apple-ը դատի է տվել OpenAI-ին՝ մեղադրելով առևտրային գաղտնիքներ գողանալու և աշխատակիցներին համակարգված կերպով գրավելու համար։",
+        "source": 2,
+        "link": "https://the-decoder.com/apple-sues-openai-for-allegedly-running-a-coordinated-campaign-to-steal-trade-secrets-through-poached-employees/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն հեռացրել է AI ֆունկցիան Instagram-ից",
+        "summary": "Meta-ն հեռացրել է Instagram-ի վիճահարույց AI ֆունկցիան՝ օգտատերերի բացասական արձագանքների պատճառով։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի GPT-5.6 Sol-ի ինքնավար ուսուցում",
+        "summary": "OpenAI-ի GPT-5.6 Sol մոդելը ինքնուրույն կերպով վերապատրաստել է ավելի փոքր Luna մոդելը՝ հիմնվելով «բավականին անորոշ հրահանգի» վրա։",
+        "source": 8,
+        "link": "https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "SK Hynix-ը հավաքել է 26.5 միլիարդ դոլար",
+        "summary": "AI չիպերի արտադրող SK Hynix-ը ԱՄՆ-ում իր օտարերկրյա IPO-ի միջոցով հավաքել է 26.5 միլիարդ դոլար՝ դառնալով պատմության մեջ ամենամեծը։",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Դաշնային պահուստը խորհրդատու է նշանակել",
+        "summary": "Դաշնային պահուստային համակարգի նախագահը AI ներդրող Մարկ Անդրիսենին նշանակել է խորհրդատու՝ ուսումնասիրելու AI-ի ազդեցությունը գնաճի վրա։",
+        "source": 19,
+        "link": "https://the-decoder.com/the-fed-wants-ai-investor-marc-andreessen-to-help-figure-out-if-ai-can-tame-inflation/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "tencent/Hy3",
+      "zai-org/GLM-5.2",
+      "InternScience/Agents-A1"
+    ]
   }
 ]
