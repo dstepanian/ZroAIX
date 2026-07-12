@@ -1071,8 +1071,8 @@
   },
   {
     "date": "2026-07-12",
-    "ts": 1783843068621,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի հնարավորությունների զգալի առաջընթացները, ներառյալ մաթեմատիկայի բնագավառում բեկումնային հայտնագործությունը և գործակալների հիշողության բարելավումը, ինչպես նաև ահաբեկչական խմբերի կողմից AI-ի չարաշահման վերաբերյալ լուրջ մտահոգությունները։ Բացի այդ, կան ուշագրավ զարգացումներ տեխնոլոգիական և զվարճանքի ոլորտներում։",
+    "ts": 1783874679276,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության զարգացումները՝ նոր գործառույթների ի հայտ գալով և դրա աճող ազդեցությունը հասարակության, կրթության և կորպորատիվ ֆինանսների վրա։",
     "items": [
       {
         "headline": "OpenAI-ի GPT-5.6 Sol Ultra-ն լուծել է մաթեմատիկական խնդիր",
@@ -1108,13 +1108,60 @@
         "source": 3,
         "link": "https://www.theverge.com/gadgets/964499/nopia-viral-synth-finished-price-release-demo",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "Apple-ի AI չիպերի ժառանգությունը",
+        "summary": "Apple-ի ինքնակառավարվող մեքենաների ծրագրի ձախողումը հանգեցրել է հզոր AI չիպերի մշակմանը, որոնք այժմ ընկերության հիմնական AI կատարողականի հիմքն են։",
+        "source": 2,
+        "link": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Claude Code-ի նոր բրաուզերը",
+        "summary": "Claude Code-ն այժմ ունի ներկառուցված բրաուզեր, որը թույլ է տալիս AI-ին ուղղակիորեն կարդալ, սեղմել և մուտքագրել տվյալներ արտաքին կայքերում։",
+        "source": 3,
+        "link": "https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Պայքար AI տվյալների կենտրոնների դեմ",
+        "summary": "ԱՄՆ-ում աճում է դիմադրությունը AI տվյալների կենտրոնների կառուցման ծրագրերի դեմ՝ շրջակա միջավայրի և տեղական ռեսուրսների վրա դրանց ազդեցության մտահոգությունների պատճառով։",
+        "source": 8,
+        "link": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը՝ Oracle-ի վարկային ռիսկ",
+        "summary": "S&P Global-ը նվազեցրել է Oracle-ի վարկային վարկանիշը՝ OpenAI-ի հետ կապված պայմանագրային պարտավորությունները համարելով ընկերության համար հիմնական վարկային ռիսկ։",
+        "source": 9,
+        "link": "https://the-decoder.com/sp-global-sees-openai-as-a-key-credit-risk-for-oracle-and-cuts-its-credit-rating/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն հեռացրեց Muse Image ֆունկցիան",
+        "summary": "Meta-ն հեռացրել է իր Muse Image մոդելի վիճահարույց գործառույթը, որը թույլ էր տալիս օգտատերերին ստեղծել Instagram-ի հանրային օգտատերերի AI պատկերներ՝ առանց նրանց համաձայնության։",
+        "source": 10,
+        "link": "https://the-decoder.com/meta-kills-muse-image-feature-that-let-anyone-generate-ai-photos-of-instagram-users-without-consent/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի ազդեցությունը ուսանողների գնահատականների վրա",
+        "summary": "Բրաունի համալսարանի պրոֆեսորի դասարանում ուսանողների միջին գնահատականները կտրուկ նվազել են 96-ից մինչև 48 տոկոս, երբ նրանք քննություն են հանձնել առանց AI-ի օգտագործման։",
+        "source": 13,
+        "link": "https://the-decoder.com/grades-dropped-from-96-to-48-percent-when-a-brown-professor-made-students-take-the-exam-without-ai/",
+        "outlet": "The Decoder"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Claude Code",
+        "note": "ներկառուցված բրաուզեր"
+      }
+    ],
     "trending": [
       "tencent/Hy3",
       "zai-org/GLM-5.2",
-      "InternScience/Agents-A1"
+      "bottlecapai/ThinkingCap-Qwen3.6-27B"
     ]
   }
 ]
