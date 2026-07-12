@@ -1068,5 +1068,53 @@
       "zai-org/GLM-5.2",
       "InternScience/Agents-A1"
     ]
+  },
+  {
+    "date": "2026-07-12",
+    "ts": 1783843068621,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի հնարավորությունների զգալի առաջընթացները, ներառյալ մաթեմատիկայի բնագավառում բեկումնային հայտնագործությունը և գործակալների հիշողության բարելավումը, ինչպես նաև ահաբեկչական խմբերի կողմից AI-ի չարաշահման վերաբերյալ լուրջ մտահոգությունները։ Բացի այդ, կան ուշագրավ զարգացումներ տեխնոլոգիական և զվարճանքի ոլորտներում։",
+    "items": [
+      {
+        "headline": "OpenAI-ի GPT-5.6 Sol Ultra-ն լուծել է մաթեմատիկական խնդիր",
+        "summary": "Հաղորդվում է, որ OpenAI-ի GPT-5.6 Sol Ultra-ն, օգտագործելով 64 ենթագործակալներ, մեկ ժամից պակաս ժամանակում լուծել է 50 տարի անլուծելի մնացած Cycle Double Cover Conjecture մաթեմատիկական խնդիրը։",
+        "source": 5,
+        "link": "https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Ահաբեկչական խմբերը օգտագործում են AI չաթբոթեր",
+        "summary": "Քեմբրիջի ուսումնասիրությունը պարզել է, որ ահաբեկչական խմբերը, ինչպիսին է Boko Haram-ը, օգտագործում են AI չաթբոթեր, ինչպիսիք են ChatGPT-ն, Claude-ը և Gemini-ն, հարձակումներ պլանավորելու և զենք մշակելու համար։",
+        "source": 6,
+        "link": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալները հաղթում են Slay the Spire 2-ում",
+        "summary": "Հետազոտողները մշակել են AI գործակալների համար հիշողության նոր կառուցվածքային համակարգ, որը թույլ է տվել նրանց հաղթել Slay the Spire 2 խաղում՝ զգալիորեն նվազեցնելով թոքենների օգտագործումը։",
+        "source": 1,
+        "link": "https://the-decoder.com/ai-agents-win-at-slay-the-spire-2-after-researchers-replace-growing-chat-logs-with-structured-memory/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Օրեգոնի գլխավոր դատախազը հետ է կանչել միաձուլման ուշացման ջանքերը",
+        "summary": "Օրեգոնի գլխավոր դատախազը հետ է կանչել Paramount-ի և Warner Bros. Discovery-ի միաձուլումը 60 օրով հետաձգելու իր ջանքերը՝ փաստաթղթերի վերանայման համար։",
+        "source": 4,
+        "link": "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Nopia սինթեզատորը գրեթե պատրաստ է թողարկման",
+        "summary": "Երաժշտական աշխարհում մեծ աղմուկ բարձրացրած Nopia սինթեզատորը, որը ստեղծվել է Մարտին Գրիեկոյի և Ռոսիո Գալի կողմից, գրեթե պատրաստ է շուկա դուրս գալուն և կթողարկվի մի քանի ամսից։",
+        "source": 3,
+        "link": "https://www.theverge.com/gadgets/964499/nopia-viral-synth-finished-price-release-demo",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "tencent/Hy3",
+      "zai-org/GLM-5.2",
+      "InternScience/Agents-A1"
+    ]
   }
 ]
