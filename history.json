@@ -1163,5 +1163,46 @@
       "zai-org/GLM-5.2",
       "bottlecapai/ThinkingCap-Qwen3.6-27B"
     ]
+  },
+  {
+    "date": "2026-07-13",
+    "ts": 1783932363289,
+    "overview": "Այսօրվա նորությունները լուսաբանում են AI շուկայի մրցակցությունը, AI-ի կիրառման իրական օրինակները, սոցիալական մեդիայում AI-ով ստեղծված բովանդակության որակի խնդիրները և AI-ի՝ աշխատատեղերի վրա ազդեցության շուրջ փոփոխվող տեսակետները:",
+    "items": [
+      {
+        "headline": "Anthropic-ը երկարացնում է Fable 5-ի անվճար մուտքը",
+        "summary": "Anthropic-ը երկարացրել է Claude Fable 5 մոդելի անվճար մուտքը բաժանորդների համար մինչև 2026 թվականի հուլիսի 19-ը՝ հավանաբար ի պատասխան OpenAI-ի GPT-5.6 Sol-ի և մրցակիցների գնային ճնշմանը։",
+        "source": 1,
+        "link": "https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "LinkedIn-ը՝ AI-ով ստեղծված բովանդակության առաջատար",
+        "summary": "Նոր ուսումնասիրության համաձայն՝ LinkedIn-ի երկարաձիգ գրառումների 41 տոկոսը ամբողջությամբ ստեղծված է AI-ի միջոցով՝ դարձնելով այն AI-ով ստեղծված բովանդակության առաջատար հարթակը։",
+        "source": 8,
+        "link": "https://the-decoder.com/linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-five-platforms/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude Cowork-ի հիմնական կիրառությունը",
+        "summary": "Anthropic-ի վերլուծությունը ցույց է տվել, որ Claude Cowork-ի օգտագործման մոտ կեսը ուղղված է գրասենյակային առօրյա, ձանձրալի աշխատանքներին, ինչպիսիք են հաշվետվությունների կազմումը կամ սլայդ շոուների ստեղծումը։",
+        "source": 13,
+        "link": "https://the-decoder.com/claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthropic-says/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Սեմ Ալթմանը փոխել է կարծիքը AI-ի աշխատատեղերի մասին",
+        "summary": "OpenAI-ի գործադիր տնօրեն Սեմ Ալթմանն այժմ «բավականին վստահ է», որ AI-ն ավելի շատ աշխատատեղեր է ստեղծել, քան վերացրել՝ նախկինում զանգվածային կրճատումների կանխատեսումներից հետո։",
+        "source": 14,
+        "link": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "tencent/Hy3",
+      "zai-org/GLM-5.2",
+      "bottlecapai/ThinkingCap-Qwen3.6-27B"
+    ]
   }
 ]
