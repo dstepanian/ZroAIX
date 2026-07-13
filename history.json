@@ -1166,8 +1166,8 @@
   },
   {
     "date": "2026-07-13",
-    "ts": 1783932363289,
-    "overview": "Այսօրվա նորությունները լուսաբանում են AI շուկայի մրցակցությունը, AI-ի կիրառման իրական օրինակները, սոցիալական մեդիայում AI-ով ստեղծված բովանդակության որակի խնդիրները և AI-ի՝ աշխատատեղերի վրա ազդեցության շուրջ փոփոխվող տեսակետները:",
+    "ts": 1783964898062,
+    "overview": "Այսօրվա նորությունները լուսաբանում են AI հետազոտությունների, արդյունաբերական մրցակցության և հասարակական ազդեցության զգալի զարգացումները։ Թողարկվում են նոր AI մոդելներ, մինչդեռ խոշոր տեխնոլոգիական ընկերությունները ներգրավված են իրավական վեճերի և AI-ի ապագայի շուրջ քննարկումների մեջ։",
     "items": [
       {
         "headline": "Anthropic-ը երկարացնում է Fable 5-ի անվճար մուտքը",
@@ -1196,9 +1196,56 @@
         "source": 14,
         "link": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Ռիչ Սաթոնը հիմնում է Oak Lab",
+        "summary": "Թյուրինգի մրցանակակիր Ռիչարդ Սաթոնը, ով ժամանակակից ուժեղացված ուսուցման համահիմնադիրն է, ստեղծել է Oak Lab ստարտափը՝ AI գործակալներ մշակելու համար, որոնք ինքնուրույն կսովորեն իրենց միջավայրից։",
+        "source": 2,
+        "link": "https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը դատի է տվել OpenAI-ին",
+        "summary": "Apple-ը դատական հայց է ներկայացրել OpenAI-ի դեմ՝ մեղադրելով նրան գաղտնի փաստաթղթեր գողանալու, սարքավորումների նախատիպեր լրտեսելու և իր վստահելի գործընկերներից մեկին խաբելու մեջ։",
+        "source": 3,
+        "link": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Նոբելյան դափնեկիրները զգուշացնում են AI-ի մասին",
+        "summary": "Ավելի քան 200 տնտեսագետ և AI հետազոտող, այդ թվում՝ 16 Նոբելյան դափնեկիր, կոչ են անում անհապաղ գործողություններ ձեռնարկել՝ նախապատրաստվելու AI-ի տնտեսական ազդեցությանը, որը կարող է գերազանցել Արդյունաբերական հեղափոխությանը։",
+        "source": 5,
+        "link": "https://the-decoder.com/nobel-laureates-and-ai-leaders-warn-the-window-to-prepare-for-ais-economic-impact-is-closing-fast/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի պաշտպանները կիրառում են prompt injection",
+        "summary": "Անվտանգության մասնագետներն այժմ կիրառում են prompt injection տեխնիկան, որը կոչվում է \"context bombing\", որպեսզի խաբեն հաքերային AI գործակալներին՝ անջատվելու մինչև վնաս պատճառելը։",
+        "source": 7,
+        "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Waze-ը ներդնում է AI գործառույթներ",
+        "summary": "Waze-ը ներկայացնում է AI-ի վրա հիմնված նոր գործառույթներ և անհատականացման թարմացումներ, որոնցից մի քանիսը սնուցվում են Google-ի Gemini AI օգնականով։",
+        "source": 11,
+        "link": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Գերմանական կոնսորցիումը թողարկում է Soofi S մոդելը",
+        "summary": "Գերմանական հետազոտական կոնսորցիումը թողարկել է Soofi S 30B-A3B բաց լեզվական մոդելը, որը մարզվել է Deutsche Telekom-ի ամպային ենթակառուցվածքի վրա և գերազանցում է չափորոշիչները ինչպես անգլերեն, այնպես էլ գերմաներեն լեզուներով։",
+        "source": 13,
+        "link": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+        "outlet": "The Decoder"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Soofi S 30B-A3B",
+        "note": "Բաց լեզվական մոդել"
+      }
+    ],
     "trending": [
       "tencent/Hy3",
       "zai-org/GLM-5.2",
