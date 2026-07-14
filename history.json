@@ -1251,5 +1251,69 @@
       "zai-org/GLM-5.2",
       "bottlecapai/ThinkingCap-Qwen3.6-27B"
     ]
+  },
+  {
+    "date": "2026-07-14",
+    "ts": 1784015130524,
+    "overview": "Այսօրվա նորությունները լուսաբանում են AI ոլորտի զգալի առաջընթացները և մարտահրավերները՝ սկսած նորարարական ստարտափների համար խոշոր ֆինանսավորումներից և AI-ով աշխատող նոր արտադրանքների թողարկումներից մինչև բարձր մակարդակի իրավական վեճեր և տվյալների օգտագործման էթիկայի շուրջ քննարկումներ ոլորտի առաջնորդների կողմից։",
+    "items": [
+      {
+        "headline": "PixVerse-ը ստացել է $439 մլն ֆինանսավորում",
+        "summary": "Տեսանյութեր ստեղծող PixVerse ստարտափը հավաքել է 439 միլիոն դոլարի ֆինանսավորում՝ գնահատվելով ավելի քան 2 միլիարդ դոլար, ինչը թույլ կտա ընդլայնել իր world model առաջարկը և հասնել նոր հաճախորդների։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Apple-ը թողարկել է iOS 27 հանրային բետան",
+        "summary": "Apple-ը թողարկել է iOS 27-ի և այլ հիմնական օպերացիոն համակարգերի հանրային բետա տարբերակները, որոնցում ներառված է Siri AI-ի նոր, բարելավված տարբերակը։",
+        "source": 14,
+        "link": "https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Apple-ը դատի է տվել OpenAI-ին",
+        "summary": "Apple-ը դատական հայց է ներկայացրել OpenAI-ի դեմ՝ մեղադրելով նրան առևտրային գաղտնիքներ գողանալու համար, որոնք, ըստ հայցի, նախկին աշխատակիցն օգտագործել է։",
+        "source": 18,
+        "link": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Նադելլան քննադատում է AI լաբորատորիաներին",
+        "summary": "Microsoft-ի գործադիր տնօրեն Սատյա Նադելլան քննադրել է OpenAI-ին և Anthropic-ին՝ հանրային տվյալների վրա մոդելներ մարզելու, բայց իրենց մոդելների թորումը (distillation) արգելելու համար։",
+        "source": 26,
+        "link": "https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը գործարկել է ATL Saathi-ն Հնդկաստանում",
+        "summary": "Google-ը և AIM-ը Հնդկաստանում գործարկել են ATL Saathi-ն՝ Gemini-ով աշխատող AI գործիք, որը նախատեսված է հնդիկ մանկավարժներին ռոբոտաշինության լաբորատորիաներում աջակցելու համար։",
+        "source": 27,
+        "link": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "Google-ը ներկայացրել է SensorFM մոդելը",
+        "summary": "Google Research-ը ներկայացրել է SensorFM-ը՝ հիմնարար մոդել, որը մարզվել է Fitbit և Pixel Watch օգտատերերի մեկ տրիլիոն րոպեից ավելի կրվող սենսորային տվյալների վրա՝ առողջության հետ կապված խնդիրների համար։",
+        "source": 30,
+        "link": "https://the-decoder.com/sensorfm/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "ATL Saathi",
+        "note": "Gemini-ով աշխատող AI գործիք"
+      },
+      {
+        "name": "SensorFM",
+        "note": "առողջապահական տվյալների հիմնարար AI մոդել"
+      }
+    ],
+    "trending": [
+      "tencent/Hy3",
+      "zai-org/GLM-5.2",
+      "conradlocke/krea2-identity-edit"
+    ]
   }
 ]
