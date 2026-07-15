@@ -1365,5 +1365,60 @@
       "zai-org/GLM-5.2",
       "conradlocke/krea2-identity-edit"
     ]
+  },
+  {
+    "date": "2026-07-15",
+    "ts": 1784101760170,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI արտադրանքի ռազմավարության, իրավական մարտահրավերների և կարգավորող գործողությունների զգալի զարգացումները: Խոշոր տեխնոլոգիական ընկերությունները նավարկում են նոր սահմաններ՝ սկսած սարքավորումների նորարարություններից մինչև տվյալների գաղտնիության խնդիրներ և AI կառավարման զարգացող լանդշաֆտը:",
+    "items": [
+      {
+        "headline": "OpenAI-ը նախատեսում է AI բարձրախոս",
+        "summary": "Հաղորդվում է, որ OpenAI-ը մտադիր է թողարկել իր առաջին սարքավորումը՝ առանց էկրանի խելացի բարձրախոս՝ նախատեսված որպես AI ուղեկից, որը «կենդանի» զգացողություն կհաղորդի։",
+        "source": 2,
+        "link": "https://the-decoder.com/openais-first-hardware-product-is-a-screenless-ai-speaker-designed-to-feel-alive/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը բացում է Android հավելվածների խանութները",
+        "summary": "Google-ը և Epic Games-ը համատեղ հետ են կանչել իրենց հայցը, ինչը նշանակում է, որ Google-ը ստիպված կլինի իր Android հարթակում թույլատրել երրորդ կողմի հավելվածների խանութներ։",
+        "source": 3,
+        "link": "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI հետազոտողը ստեղծում է AI ստարտափ",
+        "summary": "OpenAI-ի հետազոտող Մայլս Վանգը բանակցություններ է վարում 2 միլիարդ դոլար արժողությամբ AI դեղերի հայտնաբերման ստարտափ ստեղծելու շուրջ՝ ցույց տալով ներդրողների հետաքրքրությունը կյանքի գիտություններում AI-ի կիրառման նկատմամբ։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Grok-ը վերբեռնել է օգտատերերի կոդերը",
+        "summary": "Պարզվել է, որ SpaceXAI-ի Grok Build AI կոդավորման գործիքը վերբեռնում էր օգտատերերի ամբողջ կոդային բազաները Google Cloud՝ ներառյալ գաղտնի տվյալները, մինչև խնդրի հայտնաբերումը և գործիքի անջատումը։",
+        "source": 19,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը դատի է տրվել AI ուսուցման համար",
+        "summary": "Hachette-ը, Cengage-ը, Elsevier-ը և այլ հրատարակիչներ հայց են ներկայացրել՝ պնդելով, որ Google-ը իր AI-ն մարզել է հեղինակային իրավունքով պաշտպանված աշխատանքների վրա՝ առանց անհրաժեշտ թույլտվությունների։",
+        "source": 20,
+        "link": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Նյու Յորքը արգելում է տվյալների կենտրոնների կառուցումը",
+        "summary": "Նյու Յորք նահանգը մեկ տարով արգելել է տվյալների կենտրոնների կառուցումը, ինչը անհանգստություն է առաջացրել AI արդյունաբերության շրջանում և կարող է օրինակ ծառայել հակա-AI շարժման համար։",
+        "source": 32,
+        "link": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "zai-org/GLM-5.2",
+      "tencent/Hy3",
+      "conradlocke/krea2-identity-edit"
+    ]
   }
 ]
