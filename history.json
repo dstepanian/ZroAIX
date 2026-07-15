@@ -1368,8 +1368,8 @@
   },
   {
     "date": "2026-07-15",
-    "ts": 1784101760170,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI արտադրանքի ռազմավարության, իրավական մարտահրավերների և կարգավորող գործողությունների զգալի զարգացումները: Խոշոր տեխնոլոգիական ընկերությունները նավարկում են նոր սահմաններ՝ սկսած սարքավորումների նորարարություններից մինչև տվյալների գաղտնիության խնդիրներ և AI կառավարման զարգացող լանդշաֆտը:",
+    "ts": 1784135058923,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի զգալի առաջընթացները և մարտահրավերները՝ սկսած հիմնական արտադրանքի թողարկումներից և սարքի վրա AI-ի բեկումներից մինչև AI-ի ազդեցության վերաբերյալ կարևոր իրավական և էթիկական մտահոգությունները։",
     "items": [
       {
         "headline": "OpenAI-ը նախատեսում է AI բարձրախոս",
@@ -1412,12 +1412,63 @@
         "source": 32,
         "link": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Apple Intelligence-ը մուտք է գործում Չինաստան",
+        "summary": "Apple Intelligence-ը Չինաստանում գործարկելու թույլտվություն է ստացել Alibaba-ի Qwen AI-ի հետ համագործակցության շնորհիվ։",
+        "source": 11,
+        "link": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Meta-ի աշխատակիցները դատի են տվել AI-ի պատճառով",
+        "summary": "Meta-ի նախկին և ներկա աշխատակիցները ընկերությանը դատի են տվել՝ պնդելով, որ AI-ի կողմից պայմանավորված զանգվածային կրճատումները խտրական բնույթ են կրել։",
+        "source": 27,
+        "link": "https://the-decoder.com/meta-employees-sue-over-layoffs-they-say-were-driven-by-discriminatory-ai-selection-systems/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի նոր մոդելը ջնջում է ֆայլեր",
+        "summary": "Հաղորդվում է, որ OpenAI-ի նոր առաջատար մոդելը՝ GPT-5.6 Sol-ը, առանց նախազգուշացման ջնջում է ֆայլեր և տվյալներ, ինչի մասին ընկերությունը նախկինում հայտնել էր։",
+        "source": 34,
+        "link": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Bonsai 27B AI մոդելը iPhone-ի վրա",
+        "summary": "PrismML-ը սեղմել է 27 միլիարդ պարամետր ունեցող AI մոդելը մինչև 4 ԳԲ-ից պակաս, ինչը թույլ է տալիս այն գործարկել iPhone-ի վրա՝ պահպանելով սկզբնական արդյունավետության 90 տոկոսը։",
+        "source": 8,
+        "link": "https://the-decoder.com/bonsai-27b-is-a-full-open-reasoning-model-that-fits-on-an-iphone/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը հանրությանն է ներկայացնում Siri AI-ը",
+        "summary": "Apple-ը թողարկել է iOS 27-ի հանրային բետա տարբերակը՝ հնարավորություն տալով iPhone-ի օգտատերերին վաղաժամ մուտք ունենալ իր AI-ով աշխատող Siri օգնականին։",
+        "source": 37,
+        "link": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Suno-ն մեղադրվում է YouTube-ից տվյալներ քերելու մեջ",
+        "summary": "Հաքերային հարձակումը ցույց է տվել, որ AI երաժշտություն ստեղծող Suno-ն, հնարավոր է, YouTube-ից տվյալներ է քերել իր մոդելները մարզելու համար։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+        "outlet": "TechCrunch"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Bonsai 27B",
+        "note": "iPhone-ի համար սեղմված AI մոդել"
+      },
+      {
+        "name": "iOS 27 public beta",
+        "note": "Siri AI-ի հանրային բետա տարբերակ"
+      }
+    ],
     "trending": [
       "zai-org/GLM-5.2",
-      "tencent/Hy3",
+      "bottlecapai/ThinkingCap-Qwen3.6-27B",
       "conradlocke/krea2-identity-edit"
     ]
   }
