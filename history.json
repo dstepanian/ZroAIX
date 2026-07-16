@@ -1474,8 +1474,8 @@
   },
   {
     "date": "2026-07-16",
-    "ts": 1784188463202,
-    "overview": "Արհեստական բանականության ոլորտում այսօր նկատվում են ինչպես նորարարական հնարավորությունների ընդլայնում, այնպես էլ անվտանգության, կառավարման և շուկայական մրցակցության շուրջ կարևոր զարգացումներ։",
+    "ts": 1784221351794,
+    "overview": "Օրվա նորությունները կարևորում են խոշոր տեխնոլոգիական ընկերությունների դեմ AI-ի վերաբերյալ կարգավորող գործողությունները, ինչպես նաև AI մոդելների մշակման և անվտանգության ոլորտում նշանակալի առաջընթացները:",
     "items": [
       {
         "headline": "OpenAI-ի GPT-Red-ը բարելավում է AI անվտանգությունը",
@@ -1518,6 +1518,48 @@
         "source": 1,
         "link": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Գերմանիան Google-ի AI Overviews-ը դասում է մեդիա օրենքի տակ",
+        "summary": "Գերմանիայի մեդիա կարգավորող մարմինները Google-ի AI Overviews-ը և Perplexity-ն դասել են երկրի Պետական ​​մեդիա պայմանագրի տակ՝ նշելով, որ դրանք Google-ի սեփական բովանդակությունն են և ոչ թե չեզոք որոնման արդյունքներ։",
+        "source": 4,
+        "link": "https://the-decoder.com/germany-puts-googles-ai-overviews-and-perplexity-under-media-law-in-first-of-its-kind-ruling/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԵՄ-ն Google-ին պարտադրում է Android-ի հասանելիություն տրամադրել",
+        "summary": "Եվրոպական միությունը Google-ին հրամայել է իր AI մրցակիցներին ավելի մեծ հասանելիություն տրամադրել Android օպերացիոն համակարգին, որն ապահովում է միլիարդավոր սարքեր ամբողջ աշխարհում։",
+        "source": 1,
+        "link": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Apple Intelligence-ը հաստատվել է Չինաստանում",
+        "summary": "Apple Intelligence-ը հաստատվել է Չինաստանում գործարկելու համար՝ Alibaba-ի և Baidu-ի հետ համագործակցությամբ, ինչը կարևոր քայլ է Apple-ի AI հավակնությունների համար առանցքային շուկայում։",
+        "source": 25,
+        "link": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Thinking Machines Lab-ը թողարկում է Inkling մոդելը",
+        "summary": "Նախկին OpenAI-ի CTO Միրա Մուրատիի հիմնադրած Thinking Machines Lab-ը թողարկել է Inkling անունով բազմամոդալ բաց կշռային մոդել՝ 975 միլիարդ պարամետրերով։",
+        "source": 30,
+        "link": "https://the-decoder.com/ex-openai-cto-muratis-thinking-machines-drops-inkling-a-975b-parameter-model-that-leads-us-labs-but-trails-china/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը AI-ն օգտագործում է սեփական մոդելները հարձակվելու համար",
+        "summary": "OpenAI-ի ներքին GPT-Red մոդելը հաջող հարձակումներ է հայտնաբերում թեստային սցենարների 84 տոկոսում՝ ինքնախաղի միջոցով, ինչը զգալիորեն գերազանցում է մարդկային թիմերի արդյունքները։",
+        "source": 39,
+        "link": "https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Tesla-ի վարորդը անջատել է FSD-ն մահացու վթարից առաջ",
+        "summary": "Ազգային տրանսպորտային անվտանգության խորհուրդը հաստատել է, որ Tesla-ի վարորդը, ով մահացու վթարի է ենթարկվել Տեխասում, ձեռքով անջատել է Full Self-Driving (FSD) տեխնոլոգիան՝ 100 տոկոսով սեղմելով գազի ոտնակը։",
+        "source": 11,
+        "link": "https://www.theverge.com/transportation/966563/tesla-texas-crash-ntsb-investigation",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
