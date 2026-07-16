@@ -1471,5 +1471,69 @@
       "bottlecapai/ThinkingCap-Qwen3.6-27B",
       "conradlocke/krea2-identity-edit"
     ]
+  },
+  {
+    "date": "2026-07-16",
+    "ts": 1784188463202,
+    "overview": "Արհեստական բանականության ոլորտում այսօր նկատվում են ինչպես նորարարական հնարավորությունների ընդլայնում, այնպես էլ անվտանգության, կառավարման և շուկայական մրցակցության շուրջ կարևոր զարգացումներ։",
+    "items": [
+      {
+        "headline": "OpenAI-ի GPT-Red-ը բարելավում է AI անվտանգությունը",
+        "summary": "OpenAI-ը ներկայացրել է GPT-Red ավտոմատացված «կարմիր թիմի» համակարգը, որն օգտագործում է ինքնախաղ՝ բարելավելու AI-ի անվտանգությունը, հավասարեցումը և հրահանգների ներարկման դիմադրողականությունը։",
+        "source": 35,
+        "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "GPT-5.6 Sol-ը հերքել է վիճակագրական վարկած",
+        "summary": "Հաղորդվում է, որ OpenAI-ի GPT-5.6 Sol Pro մոդելը մոտ 90 րոպեում հերքել է 30-ամյա վիճակագրական վարկածը, որը մարդիկ չէին կարողացել լուծել։",
+        "source": 20,
+        "link": "https://the-decoder.com/gpt-5-6-sol-reportedly-disproves-a-30-year-old-statistics-conjecture-in-90-minutes-after-humans-couldnt-crack-it/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "xAI-ը դատի է տվել Grok-ի չարաշահման համար",
+        "summary": "Իլոն Մասկին պատկանող xAI ընկերությունը դատի է տվել Հարավային Կարոլինայի մի բնակչի՝ Grok AI չաթբոտն օգտագործելով երեխաների սեռական շահագործման նյութեր ստեղծելու համար։",
+        "source": 10,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "ԱՄՆ-ում AI անվտանգության առաջընթաց",
+        "summary": "OpenAI-ը ներկայացնում է «հակադարձ ֆեդերալիզմի» մոտեցում AI-ի կառավարմանը, որտեղ նահանգային օրենքներն օգնում են ստեղծել անվտանգ, ժողովրդավարական AI-ի ազգային շրջանակ։",
+        "source": 34,
+        "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Microsoft-ը մրցակցում է OpenAI-ի և Anthropic-ի հետ",
+        "summary": "Microsoft-ը, ըստ տեղեկությունների, վաճառքի մասնագետներին մարզում է՝ ներկայացնելու իր ներքին AI մոդելներն ավելի արդյունավետ և ծախսարդյունավետ, քան մրցակիցների մոդելները։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Applied Computing-ը ֆինանսավորում է ստացել",
+        "summary": "Applied Computing-ը ստացել է 20 միլիոն դոլար Series A ֆինանսավորում՝ նավթի, գազի և նավթաքիմիական արդյունաբերության համար հիմնարար AI մոդել ստեղծելու նպատակով։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "GPT-5.6",
+        "note": "OpenAI-ի առաջատար LLM-ի վերջին տարբերակը"
+      },
+      {
+        "name": "Inkling",
+        "note": "Thinking Machines-ի առաջին բաց AI մոդելը"
+      }
+    ],
+    "trending": [
+      "thinkingmachines/Inkling",
+      "zai-org/GLM-5.2",
+      "bottlecapai/ThinkingCap-Qwen3.6-27B"
+    ]
   }
 ]
