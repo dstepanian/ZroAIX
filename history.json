@@ -1577,5 +1577,69 @@
       "zai-org/GLM-5.2",
       "bottlecapai/ThinkingCap-Qwen3.6-27B"
     ]
+  },
+  {
+    "date": "2026-07-17",
+    "ts": 1784274705693,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս AI ոլորտի արագ զարգացումը՝ նոր մոդելների թողարկումներով և տեխնոլոգիայի աճող կիրառմամբ տարբեր ոլորտներում, սակայն միաժամանակ ընդգծում են կարգավորման, անվտանգության և էթիկական մարտահրավերները։",
+    "items": [
+      {
+        "headline": "ԵՄ-ն Google-ին պարտադրում է տվյալների փոխանակում",
+        "summary": "Եվրամիությունը պաշտոնապես կպարտադրի Google-ին կիսվել որոնման տվյալներով և բացել AI-ն Android-ի վրա՝ չնայած ընկերության մտահոգություններին օգտատերերի գաղտնիության և անվտանգության վերաբերյալ։",
+        "source": 5,
+        "link": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Kimi K3 մոդելը մրցում է առաջատար AI-ների հետ",
+        "summary": "Kimi-ն թողարկում է K3 բազմամոդալ բաց կշռային մոդելը, որն իր սեփական չափորոշիչներով մոտենում է Claude Fable 5-ին և GPT 5.6 Sol-ին՝ միաժամանակ ազդարարելով չինական էժան AI-ի դարաշրջանի ավարտը։",
+        "source": 11,
+        "link": "https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "xAI-ը դատի է տալիս Grok-ի օգտատերերին",
+        "summary": "xAI-ը դատական հայց է ներկայացրել Grok-ի օգտատերերի դեմ՝ մեղադրելով նրանց երեխաների սեռական շահագործման պատկերներ ստեղծելու մեջ, քանի որ չի կարող հերքել, որ Grok-ը կարող է ստեղծել նման բովանդակություն։",
+        "source": 7,
+        "link": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Google Vids-ը թույլ է տալիս ստեղծել AI տեսանյութեր",
+        "summary": "Google Vids-ն այժմ թույլ է տալիս օգտատերերին ստեղծել տեսանյութեր՝ օգտագործելով անհատականացված AI ավատարներ, որոնք ներկայացնում են իրենց թվային տարբերակը, ինչպես նաև Gemini Omni-ի միջոցով տեսանյութեր ստեղծելու և խմբագրելու գործիքներ։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Նյու Յորքի նահանգապետը AI է կիրառում",
+        "summary": "Նյու Յորքի նահանգապետ Քեթի Հոքուլը հայտարարել է, որ իր թիմը AI է օգտագործում նահանգի յուրաքանչյուր կանոն, կանոնակարգ և քաղաքականություն վերլուծելու համար՝ հնացած օրենսդրությունը ստուգելու նպատակով։",
+        "source": 18,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI գործակալների անվտանգության խնդիրներ",
+        "summary": "Ձեռնարկությունների ավելի քան 54%-ն արդեն իսկ AI գործակալների հետ կապված անվտանգության միջադեպ է ունեցել, և մեծ մասը դեռ թույլ է տալիս գործակալներին կիսել հավատարմագրերը, ինչը ցույց է տալիս անվտանգության բացը։",
+        "source": 14,
+        "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+        "outlet": "VentureBeat"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Kimi K3",
+        "note": "Բազմամոդալ բաց կշռային AI մոդել"
+      },
+      {
+        "name": "Google Vids",
+        "note": "Անհատականացված AI ավատարներով տեսանյութեր ստեղծելու հնարավորություն"
+      }
+    ],
+    "trending": [
+      "thinkingmachines/Inkling",
+      "zai-org/GLM-5.2",
+      "bottlecapai/ThinkingCap-Qwen3.6-27B"
+    ]
   }
 ]
