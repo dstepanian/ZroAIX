@@ -1580,8 +1580,8 @@
   },
   {
     "date": "2026-07-17",
-    "ts": 1784274705693,
-    "overview": "Այսօրվա նորությունները ցույց են տալիս AI ոլորտի արագ զարգացումը՝ նոր մոդելների թողարկումներով և տեխնոլոգիայի աճող կիրառմամբ տարբեր ոլորտներում, սակայն միաժամանակ ընդգծում են կարգավորման, անվտանգության և էթիկական մարտահրավերները։",
+    "ts": 1784307524917,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի աճող իրական աշխարհի ազդեցությունը՝ սկսած AI-ով ստեղծված բովանդակության դեմ կարգավորող գործողություններից և AI-ի քերծումը արգելափակելու արդյունաբերական ջանքերից, մինչև մարդանման ռոբոտների ներդրման շուրջ աշխատանքային վեճերը։ Կան նաև զգալի զարգացումներ AI ենթակառուցվածքների ներդրումներում և տեխնոլոգիական հսկաների կողմից արտադրանքի հիմնական թարմացումներ։",
     "items": [
       {
         "headline": "ԵՄ-ն Google-ին պարտադրում է տվյալների փոխանակում",
@@ -1624,6 +1624,48 @@
         "source": 14,
         "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
         "outlet": "VentureBeat"
+      },
+      {
+        "headline": "Սան Ֆրանցիսկոն պահանջում է հեռացնել nudify հավելվածները",
+        "summary": "Սան Ֆրանցիսկո քաղաքը հրամայել է Apple-ին և Google-ին իրենց հավելվածների խանութներից հեռացնել այն հավելվածները, որոնք օգտագործում են AI՝ մարդկանց մերկ պատկերներ ստեղծելու համար։",
+        "source": 2,
+        "link": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "NVIDIA NeMo Automodel-ը և Diffusers-ը՝ մոդելների մարզման համար",
+        "summary": "NVIDIA NeMo Automodel-ը և 🤗 Diffusers-ը թույլ են տալիս մասշտաբային կերպով մարզել վիդեո և պատկերային մոդելներ՝ զգալիորեն բարելավելով AI մոդելների մշակման գործընթացը։",
+        "source": 3,
+        "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+        "outlet": "Hugging Face"
+      },
+      {
+        "headline": "Patreon-ը արգելափակում է AI բոտերին",
+        "summary": "Patreon-ը սկսել է Cloudflare-ի հետ համագործակցել՝ արգելափակելու AI մոդելներ մարզող բոտերին, որոնք առանց թույլտվության քերծում են ստեղծողների բովանդակությունը՝ հեռանալով robots.txt-ի վրա հույս դնելուց։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI չիպերի ֆինանսավորումը հասնում է $400 միլիոնի",
+        "summary": "GPU ֆինանսավորողները $400 միլիոնի գործարքով անցնում են inference չիպերի ներդրումներին, ինչը ցույց է տալիս AI ենթակառուցվածքների գործարքների հաջորդ ալիքը։",
+        "source": 15,
+        "link": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Hyundai-ի աշխատակիցները գործադուլ են անում ռոբոտների պատճառով",
+        "summary": "Hyundai-ի ավտոմոբիլային գործարանի մարդկային աշխատողները գործադուլ են անում՝ մարդանման Atlas ռոբոտների ներդրման վերաբերյալ մտահոգությունների պատճառով, որոնք նախատեսվում է տեղակայել 2028 թվականից։",
+        "source": 25,
+        "link": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Google-ը վերանվանում է NotebookLM-ը Gemini Notebook",
+        "summary": "Google-ը վերանվանել է իր NotebookLM գործիքը Gemini Notebook և այն ավելի խորը ինտեգրում է իր էկոհամակարգում՝ առաջարկելով նոր հնարավորություններ, ինչպիսիք են ամպային համակարգիչը կոդ գրելու և գործարկելու համար։",
+        "source": 30,
+        "link": "https://the-decoder.com/google-rebrands-notebooklm-as-gemini-notebook-and-opens-its-search-app-to-third-party-integration/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -1634,6 +1676,14 @@
       {
         "name": "Google Vids",
         "note": "Անհատականացված AI ավատարներով տեսանյութեր ստեղծելու հնարավորություն"
+      },
+      {
+        "name": "Gemini Notebook",
+        "note": "Google-ի վերանվանված AI գրառումների գործիքը նոր հնարավորություններով"
+      },
+      {
+        "name": "Roblox AI-powered game-creation feature",
+        "note": "Roblox-ի նոր AI գործառույթը խաղեր ստեղծելու համար"
       }
     ],
     "trending": [
