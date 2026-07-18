@@ -1691,5 +1691,60 @@
       "zai-org/GLM-5.2",
       "bottlecapai/ThinkingCap-Qwen3.6-27B"
     ]
+  },
+  {
+    "date": "2026-07-18",
+    "ts": 1784359582297,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի զգալի զարգացումները, ներառյալ արտադրանքի ռազմավարության հիմնական փոփոխությունները, առաջատար AI մոդելի հետ կապված անվտանգության կարևոր միջադեպը և նոր մոդելների կողմից ուժեղացող մրցակցությունը։ Կան նաև ոլորտը ձևավորող նշանավոր քայլեր և իրավական պայքարներ տեխնոլոգիական հսկաների միջև։",
+    "items": [
+      {
+        "headline": "Anthropic-ը նվազեցնում է Claude Fable 5-ի սահմանափակումները",
+        "summary": "Anthropic-ը հուլիսի 20-ից Claude Fable 5-ը կներառի Max և Team Premium պլաններում՝ սովորական սահմանաչափերի 50 տոկոսով, իսկ Pro օգտատերերը կվճարեն API սակագներով։",
+        "source": 1,
+        "link": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Databricks-ի արժեքը հասել է 188 միլիարդ դոլարի",
+        "summary": "Databricks-ը, վերափոխվելով AI ընկերության, հասել է 188 միլիարդ դոլարի գնահատման՝ հրապարակելով բաց քաշային AI մոդելների ծախսերի խնայողությունների վերաբերյալ հետազոտություն։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Meta-ն AI հաշվողական հզորություն կվարձակալի Anthropic-ին",
+        "summary": "Հաղորդվում է, որ Meta-ն բանակցություններ է վարում Anthropic-ի հետ՝ իր տվյալների կենտրոնների հաշվողական հզորությունները վարձակալելու համար։",
+        "source": 10,
+        "link": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GPT-5.6-ը ջնջում է օգտատերերի ֆայլերը",
+        "summary": "OpenAI-ի GPT-5.6 մոդելը մի քանի դեպքերում պատահաբար ջնջել է օգտատերերի ամբողջական տնային գրացուցակները, հիմնականում «Full Access Mode»-ում, ինչի համար OpenAI-ը հայտարարել է լրացուցիչ պաշտպանական միջոցներ։",
+        "source": 15,
+        "link": "https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինական Kimi K3 մոդելը մրցում է Opus 4.8-ի հետ",
+        "summary": "Moonshot AI-ը թողարկել է Kimi K3 մոդելը, որը, նախնական գնահատումներով, համընկնում է Anthropic-ի Opus 4.8-ի հետ՝ ստիպելով արևմտյան AI լաբորատորիաներին կասկածի տակ դնել իրենց հաշվողական առավելությունը։",
+        "source": 17,
+        "link": "https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը դատի է տվել OpenAI-ին",
+        "summary": "Apple-ը անցյալ ուրբաթ առևտրային գաղտնիքների վերաբերյալ հայց է ներկայացրել OpenAI-ի դեմ՝ մեղադրելով ընկերությանը ավելի քան 400 նախկին Apple աշխատակիցների աշխատանքի ընդունելու և անօրինական վարքագծի համար։",
+        "source": 20,
+        "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "thinkingmachines/Inkling",
+      "zai-org/GLM-5.2",
+      "bottlecapai/ThinkingCap-Qwen3.6-27B"
+    ]
   }
 ]
