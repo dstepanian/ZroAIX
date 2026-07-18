@@ -1694,8 +1694,8 @@
   },
   {
     "date": "2026-07-18",
-    "ts": 1784359582297,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի զգալի զարգացումները, ներառյալ արտադրանքի ռազմավարության հիմնական փոփոխությունները, առաջատար AI մոդելի հետ կապված անվտանգության կարևոր միջադեպը և նոր մոդելների կողմից ուժեղացող մրցակցությունը։ Կան նաև ոլորտը ձևավորող նշանավոր քայլեր և իրավական պայքարներ տեխնոլոգիական հսկաների միջև։",
+    "ts": 1784392988329,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության ռազմավարական նշանակությունը համաշխարհային ասպարեզում, ինչպես նաև դրա արագ զարգացումը և կիրառումը պաշտպանության, առողջապահության և շրջակա միջավայրի մոնիտորինգի ոլորտներում։ Կարևորվում են նաև open-weight AI մոդելների կիբեր անվտանգության կարողությունների բարելավումները։",
     "items": [
       {
         "headline": "Anthropic-ը նվազեցնում է Claude Fable 5-ի սահմանափակումները",
@@ -1738,13 +1738,55 @@
         "source": 20,
         "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Չինաստանը ստեղծում է AI համագործակցության նոր կազմակերպություն",
+        "summary": "Չինաստանը հայտարարել է «Արհեստական բանականության համագործակցության համաշխարհային կազմակերպության» ստեղծման մասին՝ նպատակ ունենալով զարգացնել AI կառավարման զուգահեռ կառուցվածք՝ արևմտյան ազդեցությունից դուրս։",
+        "source": 9,
+        "link": "https://the-decoder.com/chinas-new-world-artificial-intelligence-cooperation-organization-is-president-xis-clearest-play-yet-for-a-parallel-ai-order/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Պենտագոնի նոր AI ռազմավարությունը",
+        "summary": "ԱՄՆ ռազմածովային ուժերը ստորագրել են նոր ռազմավարություն՝ տվյալներն ու AI-ն «զենքի վերածելու» և «AI-first» նավատորմ կառուցելու համար, որտեղ դանդաղ ընդունումն ավելի մեծ ռիսկ է համարվում, քան ոչ կատարյալ համապատասխանությունը։",
+        "source": 11,
+        "link": "https://the-decoder.com/the-pentagons-new-ai-playbook-treats-slow-adoption-as-a-bigger-risk-than-imperfect-alignment/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Open-weight AI մոդելների կիբեր կարողությունները",
+        "summary": "Բրիտանական AI անվտանգության ինստիտուտը զգուշացնում է, որ open-weight մոդելներն այժմ համապատասխանում են առաջատար փակ մոդելների կիբեր կարողություններին՝ ընդամենը չորս ամիս առաջվա մակարդակով և շատ ավելի ցածր արժեքով։",
+        "source": 10,
+        "link": "https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի դերը բժշկական թույլտվություններում",
+        "summary": "Կառավարությունը փորձնական ծրագիր է իրականացնում, որը AI է օգտագործում ապահովագրական ծածկույթի որոշումների համար՝ բարձրացնելով հարցեր դրա արդյունավետության և հնարավոր բացասական հետևանքների մասին։",
+        "source": 8,
+        "link": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Agility Robotics-ը ընդլայնվում է",
+        "summary": "Agility Robotics ընկերությունը նոր ուսումնական կենտրոն է բացում Ֆրեմոնտում, Կալիֆորնիա, իր Digit ռոբոտների համար՝ ընդլայնելով իր ներկայությունը ռոբոտաշինության ոլորտում։",
+        "source": 19,
+        "link": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ի աջակցությամբ արբանյակներ՝ հրդեհների համար",
+        "summary": "FireSat ծրագրի շրջանակներում արձակվել են Google-ի աջակցությամբ արբանյակներ՝ անտառային հրդեհներ հայտնաբերելու համար, որոնք կարող են բաց թողնել այլ արբանյակները։",
+        "source": 22,
+        "link": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
+        "outlet": "Ars Technica"
       }
     ],
     "releases": [],
     "trending": [
       "thinkingmachines/Inkling",
       "zai-org/GLM-5.2",
-      "bottlecapai/ThinkingCap-Qwen3.6-27B"
+      "conradlocke/krea2-identity-edit"
     ]
   }
 ]
