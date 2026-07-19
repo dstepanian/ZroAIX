@@ -1791,8 +1791,8 @@
   },
   {
     "date": "2026-07-19",
-    "ts": 1784447836667,
-    "overview": "Այսօրվա նորությունները ներառում են նոր AI մոդելների թողարկումներ և քննարկումներ արհեստական բանականության հնարավորությունների, անվտանգության և հասարակության վրա դրա ազդեցության շուրջ։",
+    "ts": 1784479411632,
+    "overview": "Այսօրվա նորությունները շեշտում են AI մոդելների շարունակական զարգացումը և նորարարական կիրառությունները, ինչպես նաև դրանց հնարավորությունների և սահմանափակումների ուսումնասիրությունը։ Միաժամանակ, նկատվում է AI-ի հասանելիության ընդլայնմանն ուղղված ջանքեր։",
     "items": [
       {
         "headline": "AI չաթբոթերի վտանգավոր ինքնավստահությունը բժշկության մեջ",
@@ -1828,12 +1828,51 @@
         "source": 11,
         "link": "https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "Alibaba-ն ներկայացրել է Qwen 3.8 մոդելը",
+        "summary": "Alibaba-ն թողարկել է Qwen 3.8 բազմամոդալ AI մոդելը՝ 2.4 տրիլիոն պարամետրերով, որը, ըստ Qwen թիմի, մրցակցում է առաջատար մոդելների հետ և զիջում է միայն Fable 5-ին։",
+        "source": 7,
+        "link": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google Deepmind-ի GenCeption-ը նոր մոտեցում է առաջարկում",
+        "summary": "Google Deepmind-ի GenCeption-ը վերաօգտագործում է վիդեո գեներատորները դասական տեսողական խնդիրների համար, ինչպիսիք են խորության գնահատումը և սեգմենտացիան, համապատասխանելով ժամանակակից համակարգերին՝ շատ ավելի քիչ ուսուցողական տվյալներով։",
+        "source": 10,
+        "link": "https://the-decoder.com/google-deepmind-argues-video-generators-already-contain-the-world-models-computer-vision-has-been-missing/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Moonshot-ի Kimi K3-ը գերազանցում է Fable 5-ին կոդի մեջ",
+        "summary": "Moonshot-ի Kimi K3-ը դարձել է առաջին չինական մոդելը, որը գլխավորել է Code Arena: Frontend վարկանիշները՝ զգալիորեն գերազանցելով Claude Fable 5-ին և GPT-5.6 Sol-ին, սակայն զիջում է բարդ մաթեմատիկայի հարցերում։",
+        "source": 11,
+        "link": "https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI տեքստի դետեկտորները դժվարանում են հայտնաբերել ոճը",
+        "summary": "Փորձարկումները ցույց են տվել, որ AI տեքստի դետեկտորները դժվարանում են հայտնաբերել լեզվական մոդելների կողմից հեղինակի ոճը ընդօրինակող տեքստերը, հատկապես գիտական գրությունների դեպքում։",
+        "source": 12,
+        "link": "https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Current AI-ը ստեղծում է AI-ի Համաշխարհային ցանց",
+        "summary": "Current AI շահույթ չհետապնդող կազմակերպությունը զգալի առաջընթաց է գրանցել AI-ի Համաշխարհային ցանցի ստեղծման գործում, որը նախատեսված է անվճար լինել բոլորի համար և հաշվի առնել տարբեր մշակույթներ։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
       {
         "name": "Kimi",
         "note": "Moonshot AI-ի նոր AI մոդել"
+      },
+      {
+        "name": "Qwen 3.8",
+        "note": "Alibaba-ի բազմամոդալ AI մոդել"
       }
     ],
     "trending": [
