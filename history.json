@@ -1788,5 +1788,58 @@
       "zai-org/GLM-5.2",
       "conradlocke/krea2-identity-edit"
     ]
+  },
+  {
+    "date": "2026-07-19",
+    "ts": 1784447836667,
+    "overview": "Այսօրվա նորությունները ներառում են նոր AI մոդելների թողարկումներ և քննարկումներ արհեստական բանականության հնարավորությունների, անվտանգության և հասարակության վրա դրա ազդեցության շուրջ։",
+    "items": [
+      {
+        "headline": "AI չաթբոթերի վտանգավոր ինքնավստահությունը բժշկության մեջ",
+        "summary": "Հետազոտությունը ցույց է տվել, որ AI չաթբոթերը կարող են վտանգավոր կերպով ինքնավստահ լինել սխալ ախտորոշումներ տալիս, հատկապես ռենտգենյան պատկերների վերլուծության ժամանակ։",
+        "source": 1,
+        "link": "https://the-decoder.com/ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Moonshot AI-ի Kimi մոդելի նոր տարբերակ",
+        "summary": "Չինական Moonshot AI ընկերությունը թողարկել է իր Kimi մոդելի նոր տարբերակը, ինչը մտահոգություններ է առաջացրել դրա ազդեցության վերաբերյալ։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Claude Code-ի տեխնիկական թարմացում",
+        "summary": "Claude Code-ն այժմ օգտագործում է Bun-ը, որը գրված է Rust լեզվով, ինչը տեխնիկական թարմացում է մոդելի ներքին ենթակառուցվածքում։",
+        "source": 3,
+        "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+        "outlet": "Simon Willison"
+      },
+      {
+        "headline": "Դեյվ Էգերսը ChatGPT-ի մասին",
+        "summary": "Հեղինակ Դեյվ Էգերսը OpenAI-ի աշխատակիցներին ասել է, որ ChatGPT-ն «լռեցնում է մի ամբողջ սերունդ», մտահոգություն հայտնելով դրա ստեղծագործական ազդեցության վերաբերյալ։",
+        "source": 4,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Դեմքի ճանաչման խելացի կողպեքների արդյունավետությունը",
+        "summary": "Դեմքի ճանաչման տեխնոլոգիայով աշխատող խելացի կողպեքները դարձել են արդյունավետ և հարմարավետ լուծում տների անվտանգության համար։",
+        "source": 11,
+        "link": "https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Kimi",
+        "note": "Moonshot AI-ի նոր AI մոդել"
+      }
+    ],
+    "trending": [
+      "thinkingmachines/Inkling",
+      "zai-org/GLM-5.2",
+      "conradlocke/krea2-identity-edit"
+    ]
   }
 ]
