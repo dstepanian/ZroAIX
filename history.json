@@ -1880,5 +1880,39 @@
       "zai-org/GLM-5.2",
       "conradlocke/krea2-identity-edit"
     ]
+  },
+  {
+    "date": "2026-07-20",
+    "ts": 1784536655284,
+    "overview": "Այսօրվա նորությունները շեշտում են AI մոդելների նկատմամբ մեծ պահանջարկը, տեխնոլոգիական ոլորտում ռազմավարական համագործակցությունները և AI առաջատար ընկերությունների համար հնարավոր իրավական մարտահրավերները։",
+    "items": [
+      {
+        "headline": "Kimi K3-ի բաժանորդագրության դադարեցում",
+        "summary": "Moonshot-ը ժամանակավորապես դադարեցրել է Kimi K3 մոդելի նոր բաժանորդագրությունները՝ GPU-ի պահանջարկի գերազանցման պատճառով։",
+        "source": 1,
+        "link": "https://the-decoder.com/moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-maxes-out-in-48-hours/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Jensen Huang-ի այցը Ճապոնիա",
+        "summary": "NVIDIA-ի գործադիր տնօրեն Jensen Huang-ը Ճապոնիայից հեռացել է համաձայնագրերով, որոնք ընդգրկում են երկրի ողջ տեխնոլոգիական էկոհամակարգը։",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Apple-ի հայցը OpenAI-ի դեմ",
+        "summary": "Քննարկվում է, թե արդյոք Apple-ի հայցը կարող է խոչընդոտել OpenAI-ի սարքավորումների արտադրության պլաններին։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "thinkingmachines/Inkling",
+      "baidu/Unlimited-OCR",
+      "zai-org/GLM-5.2"
+    ]
   }
 ]
