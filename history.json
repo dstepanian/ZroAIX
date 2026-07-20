@@ -1883,8 +1883,8 @@
   },
   {
     "date": "2026-07-20",
-    "ts": 1784536655284,
-    "overview": "Այսօրվա նորությունները շեշտում են AI մոդելների նկատմամբ մեծ պահանջարկը, տեխնոլոգիական ոլորտում ռազմավարական համագործակցությունները և AI առաջատար ընկերությունների համար հնարավոր իրավական մարտահրավերները։",
+    "ts": 1784567952498,
+    "overview": "Այսօրվա նորությունները ընդգծում են ուժեղ մրցակցությունը AI ոլորտում՝ սկսած սարքավորումների գերակայությունից մինչև մոդելների մշակում, ինչպես նաև AI էթիկայի և անվտանգության շուրջ աճող մտահոգությունները։",
     "items": [
       {
         "headline": "Kimi K3-ի բաժանորդագրության դադարեցում",
@@ -1906,9 +1906,60 @@
         "source": 6,
         "link": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "NVIDIA-ի դիրքերի թուլացումը AI չիպերի շուկայում",
+        "summary": "Microsoft-ը ընդլայնում է Azure-ի AI ենթակառուցվածքը AMD-ի նոր Helios հարթակով, ինչը կարող է մարտահրավեր նետել NVIDIA-ի GPU համակարգերին։",
+        "source": 2,
+        "link": "https://the-decoder.com/nvidias-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-and-anthropic-may-follow/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Hugging Face-ը ներկայացրել է Cosmos 3 Edge-ը",
+        "summary": "Hugging Face-ը ներկայացրել է Cosmos 3 Edge-ը՝ նոր մոդել, որի մասին մանրամասներ են հրապարակվել։",
+        "source": 6,
+        "link": "https://huggingface.co/blog/nvidia/cosmos3edge",
+        "outlet": "Hugging Face"
+      },
+      {
+        "headline": "YouTube-ի նոր քաղաքականությունը AI տեսանյութերի համար",
+        "summary": "YouTube-ը թարմացրել է իր դրամայնացման քաղաքականությունը՝ ավելի հստակ սահմանելով AI-ով ստեղծված և ցածրորակ տեսանյութերը, որոնք չեն կարող գովազդային եկամուտ բերել։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI գործակալի կողմից Hugging Face-ի ենթակառուցվածքի կոտրում",
+        "summary": "Hugging Face-ը հայտնել է իր արտադրական ենթակառուցվածքի մի մասի վրա հարձակման մասին, որը, ենթադրաբար, իրականացվել է ամբողջությամբ ինքնավար AI գործակալի համակարգի կողմից։",
+        "source": 13,
+        "link": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինական AI մոդելները մարտահրավեր են նետում ԱՄՆ-ին",
+        "summary": "Չինաստանի առաջատար AI ընկերությունները, ինչպիսիք են Moonshot-ը և Alibaba-ն, ներկայացրել են նոր մոդելներ, որոնք, իրենց պնդմամբ, կարող են մրցակցել OpenAI-ի և Anthropic-ի լավագույն մոդելների հետ՝ շատ ավելի ցածր գնով։",
+        "source": 17,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI-ի կողմից կողմնակալության հավանականությունը աշխատանքի ընդունման ժամանակ",
+        "summary": "Նոր հետազոտությունները ցույց են տալիս, որ AI-ն ավելի հավանական է, քան մարդիկ, կողմնակալություն դրսևորի աշխատանքի ընդունման գործընթացում՝ զարգացնելով իր սեփական կողմնակալությունները։",
+        "source": 19,
+        "link": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+        "outlet": "MIT Tech Review"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Cosmos 3 Edge",
+        "note": "Hugging Face-ի նոր AI մոդել"
+      },
+      {
+        "name": "Moonshot և Alibaba-ի նոր AI մոդելներ",
+        "note": "Չինական ընկերությունների մրցակցային AI մոդելներ"
+      }
+    ],
     "trending": [
       "thinkingmachines/Inkling",
       "baidu/Unlimited-OCR",
