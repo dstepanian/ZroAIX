@@ -1968,8 +1968,8 @@
   },
   {
     "date": "2026-07-21",
-    "ts": 1784621188068,
-    "overview": "Այսօրվա արհեստական բանականության նորությունները շեշտում են հեղինակային իրավունքի խախտման շուրջ իրավական պայքարները, AI սարքավորումների արդյունավետության զգալի առաջընթացները և AI մոդելների վերաբերյալ զարգացող աշխարհաքաղաքական ռազմավարությունները։ Բացի այդ, ի հայտ են գալիս AI-ի նոր ստեղծագործական կիրառություններ, ինչպես նաև շարունակվում է ուշադրությունը AI-ի անվտանգության և համահարթեցման վրա։",
+    "ts": 1784653587183,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների մշակման զգալի առաջընթացները՝ Google-ի և Alibaba-ի նոր թողարկումներով, ինչպես նաև արդյունաբերության կարևոր իրադարձությունները, ներառյալ AI հեղինակային իրավունքի խախտման համար զգալի իրավական կարգավորումը և AI ենթակառուցվածքների համար բազմամիլիարդանոց գործընկերությունը։ Երկրաբանաքաղաքական լարվածություն նույնպես առաջացավ՝ ԱՄՆ-ի կողմից չինական AI մոդելների դեմ պատժամիջոցներով։",
     "items": [
       {
         "headline": "Anthropic-ի հեղինակային իրավունքի համաձայնագիրը հաստատվել է",
@@ -2012,12 +2012,62 @@
         "source": 27,
         "link": "https://openai.com/index/safety-alignment-long-horizon-models",
         "outlet": "OpenAI"
+      },
+      {
+        "headline": "Google-ը ներկայացնում է Gemini 3.6 Flash մոդելը",
+        "summary": "Google-ը թողարկել է ավելի արագ և էժան Gemini 3.6 Flash մոդելը, մինչդեռ Gemini 3.5 Pro-ն դեռ փորձարկման փուլում է։",
+        "source": 3,
+        "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ի հեղինակային իրավունքի կարգավորումը հաստատվել է",
+        "summary": "Դաշնային դատավորը հաստատել է Anthropic-ի 1.5 միլիարդ դոլարի հաշտության համաձայնագիրը հեղինակների հետ, ովքեր մեղադրում էին ընկերությանը իրենց գրքերի վրա AI մոդելներ մարզելու մեջ։",
+        "source": 4,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "ԱՄՆ-ը պատժամիջոցներով է սպառնում չինական AI մոդելներին",
+        "summary": "ԱՄՆ ֆինանսների նախարարը հայտարարել է, որ Միացյալ Նահանգները կարող է պատժամիջոցներ կիրառել չինական բաց AI մոդելների նկատմամբ՝ մտավոր սեփականության գողության մեղադրանքներով։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Microsoft-ը և Mistral-ը բազմամիլիարդանոց գործարք են կնքել",
+        "summary": "Microsoft-ը և Mistral-ը ընդլայնում են իրենց ռազմավարական գործընկերությունը՝ բազմամիլիարդանոց գործարքով՝ Եվրոպայում AI ենթակառուցվածքներ կառուցելու համար։",
+        "source": 12,
+        "link": "https://the-decoder.com/microsoft-and-mistral-strike-multi-billion-dollar-deal-to-build-ai-infrastructure-across-europe/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Alibaba-ն ներկայացրել է Qwen-Image-3.0 պատկեր ստեղծողը",
+        "summary": "Alibaba-ի Qwen թիմը ներկայացրել է Qwen-Image-3.0 պատկեր ստեղծողը, որը կարող է ստեղծել բարդ դասավորություններ և ընթեռնելի տեքստեր մինչև տասը պիքսել չափի։",
+        "source": 8,
+        "link": "https://the-decoder.com/alibabas-qwen-image-3-0-renders-full-infographic-grids-and-readable-ten-pixel-text-in-a-single-pass/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը մշակում է նոր AI չիպ",
+        "summary": "Հաղորդվում է, որ Google-ի մայր ընկերություն Alphabet-ը աշխատում է նոր չիպի վրա, որը նախատեսված է իր Gemini մոդելների աշխատանքն ավելի արդյունավետ դարձնելու համար։",
+        "source": 29,
+        "link": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
       {
         "name": "X Android app",
         "note": "Վերակառուցված տարբերակը հասանելի է ամբողջ աշխարհում։"
+      },
+      {
+        "name": "Gemini 3.6 Flash",
+        "note": "Google-ի նոր, ավելի արագ և էժան AI մոդել"
+      },
+      {
+        "name": "Qwen-Image-3.0",
+        "note": "Alibaba-ի նոր պատկեր ստեղծող AI մոդել"
       }
     ],
     "trending": [
