@@ -1965,5 +1965,65 @@
       "baidu/Unlimited-OCR",
       "zai-org/GLM-5.2"
     ]
+  },
+  {
+    "date": "2026-07-21",
+    "ts": 1784621188068,
+    "overview": "Այսօրվա արհեստական բանականության նորությունները շեշտում են հեղինակային իրավունքի խախտման շուրջ իրավական պայքարները, AI սարքավորումների արդյունավետության զգալի առաջընթացները և AI մոդելների վերաբերյալ զարգացող աշխարհաքաղաքական ռազմավարությունները։ Բացի այդ, ի հայտ են գալիս AI-ի նոր ստեղծագործական կիրառություններ, ինչպես նաև շարունակվում է ուշադրությունը AI-ի անվտանգության և համահարթեցման վրա։",
+    "items": [
+      {
+        "headline": "Anthropic-ի հեղինակային իրավունքի համաձայնագիրը հաստատվել է",
+        "summary": "Anthropic-ի 1.5 միլիարդ դոլար արժողությամբ հեղինակային իրավունքի կարգավորման վերջնական հաստատումը լուծում է մեկ դատական գործ, սակայն չի լուծում AI մոդելների ուսուցման համար հեղինակային իրավունքով պաշտպանված աշխատանքների օգտագործման ավելի լայն խնդիրը։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Sony-ն դատի է տվել Udio-ին",
+        "summary": "Sony Music Entertainment-ը դատական հայց է ներկայացրել Udio AI երաժշտություն ստեղծողի դեմ՝ մեղադրելով նրան ավելի քան 30,000 երգերի հեղինակային իրավունքները խախտելու մեջ։",
+        "source": 3,
+        "link": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը մշակում է \"Frozen v2\" չիպը",
+        "summary": "Google-ը, ինչպես հաղորդվում է, մշակում է \"Frozen v2\" սերվերային չիպ, որը Gemini ճարտարապետությունը ներդնում է անմիջապես սարքավորման մեջ՝ արդյունավետության զգալի բարձրացման համար։",
+        "source": 16,
+        "link": "https://the-decoder.com/googles-frozen-v2-chip-reportedly-bakes-geminis-architecture-directly-into-silicon-for-efficiency-gains/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Թրամփի վարչակազմը թիրախավորում է չինական AI մոդելները",
+        "summary": "Ըստ տեղեկությունների՝ Թրամփի վարչակազմը քննարկում է չինական AI մոդելներին ուղղված միջոցառումներ, ներառյալ չինական լաբորատորիաները պատժամիջոցների ցուցակներում ներառելը և ԱՄՆ ընկերություններին անվտանգության խախտումների համար պատասխանատվության ենթարկելը։",
+        "source": 24,
+        "link": "https://the-decoder.com/trump-administration-reportedly-builds-a-slow-motion-ban-on-chinese-ai-models-through-sanctions-and-soft-pressure/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Neill Blomkamp-ը թողարկել է AI-ով ստեղծված կարճամետրաժ ֆիլմ",
+        "summary": "\"District 9\" ֆիլմի ռեժիսոր Neill Blomkamp-ը թողարկել է \"Nightborne\" անունով 13 րոպեանոց գիտաֆանտաստիկ սարսափ ֆիլմ, որն ամբողջությամբ ստեղծվել է Seedance 2.0 վիդեո մոդելի միջոցով։",
+        "source": 19,
+        "link": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը կիսվում է անվտանգության դասերով",
+        "summary": "OpenAI-ը կիսվել է երկարաժամկետ AI մոդելների ներդրումից քաղած դասերով՝ ընդգծելով անվտանգության նոր ռիսկերը, դիտարկված ձախողումները և կրկնվող ներդրման միջոցով բարելավված պաշտպանական միջոցները։",
+        "source": 27,
+        "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+        "outlet": "OpenAI"
+      }
+    ],
+    "releases": [
+      {
+        "name": "X Android app",
+        "note": "Վերակառուցված տարբերակը հասանելի է ամբողջ աշխարհում։"
+      }
+    ],
+    "trending": [
+      "thinkingmachines/Inkling",
+      "baidu/Unlimited-OCR",
+      "zai-org/GLM-5.2"
+    ]
   }
 ]
