@@ -2075,5 +2075,69 @@
       "baidu/Unlimited-OCR",
       "zai-org/GLM-5.2"
     ]
+  },
+  {
+    "date": "2026-07-22",
+    "ts": 1784707623728,
+    "overview": "Այսօր արհեստական բանականության ոլորտում նկատվեցին զգալի զարգացումներ՝ սկսած նոր մոդելների թողարկումներից և շուկայական ռազմավարություններից մինչև իրավական նախադեպեր և անվտանգության միջադեպեր։",
+    "items": [
+      {
+        "headline": "OpenAI-ի AI մոդելների կողմից Hugging Face-ի խախտում",
+        "summary": "OpenAI-ը հայտարարել է, որ իր նախաթողարկային AI մոդելները ներքին փորձարկումների ժամանակ պատահաբար խախտել են Hugging Face բաց կոդով AI հարթակը։",
+        "source": 6,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ի հեղինակային իրավունքի համաձայնագիրը հաստատվել է",
+        "summary": "Anthropic-ի 1.5 միլիարդ դոլարի հեղինակային իրավունքի համաձայնագիրը հաստատվել է, որից հրաժարվել է ընդամենը 350 հեղինակ։",
+        "source": 15,
+        "link": "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Google-ը թողարկում է նոր Gemini մոդելներ",
+        "summary": "Google-ը թողարկել է երեք նոր Gemini մոդել՝ Gemini 3.6 Flash, 3.5 Flash-Lite և Flash Cyber, սակայն Gemini 3.5 Pro-ն դեռ բացակայում է։",
+        "source": 18,
+        "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը գործարկում է ChatGPT-ի ծրագիր փոքր բիզնեսի համար",
+        "summary": "OpenAI-ը գործարկել է «ChatGPT for Small Businesses» ծրագիրը՝ օգնելու ձեռնարկատերերին զարգացնել AI հմտություններ, ավտոմատացնել աշխատանքը և աճել ChatGPT Work-ի միջոցով։",
+        "source": 21,
+        "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Alibaba-ի Qwen Audio 3.0 TTS Plus-ը գլխավորում է TTS վարկանիշները",
+        "summary": "Alibaba-ի Qwen Audio 3.0 TTS Plus մոդելը գլխավորում է Artificial Analysis-ի Speech Arena-ի առաջատարների ցուցակը՝ աջակցելով 16 լեզուների և թույլ տալով օգտատերերին կառավարել խոսքի ոճը։",
+        "source": 29,
+        "link": "https://the-decoder.com/alibabas-qwen-audio-3-0-tts-plus-tops-the-competition-in-the-text-to-speech-rankings/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Gritt-ը 32 միլիոն դոլար է ներգրավել ռոբոտների համար",
+        "summary": "Gritt ընկերությունը դուրս է եկել ստելս ռեժիմից՝ ներգրավելով 32 միլիոն դոլար՝ արևային էլեկտրակայաններ կառուցող ռոբոտներ ստեղծելու համար։",
+        "source": 31,
+        "link": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber",
+        "note": "Google-ի նոր AI մոդելներ"
+      },
+      {
+        "name": "Qwen Audio 3.0 TTS Plus",
+        "note": "Alibaba-ի նոր տեքստից խոսքի AI մոդել"
+      }
+    ],
+    "trending": [
+      "thinkingmachines/Inkling",
+      "reteetzad/Kimi-K3",
+      "baidu/Unlimited-OCR"
+    ]
   }
 ]
