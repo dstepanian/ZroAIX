@@ -2188,8 +2188,8 @@
   },
   {
     "date": "2026-07-23",
-    "ts": 1784794198528,
-    "overview": "Օրվա իրադարձությունները ընդգծում են AI ենթակառուցվածքների, իրավական շրջանակների և արդյունաբերության վերակազմավորման զգալի զարգացումները։ AI-ով աշխատող ռոբոտաշինության և տվյալների կենտրոնների խոշոր ներդրումները ցույց են տալիս տեխնոլոգիայի աճող մասշտաբները, մինչդեռ հեղինակային իրավունքի շուրջ նշանակալի համաձայնագիրը և առաջատար AI լաբորատորիաների հետ կապված անվտանգության միջադեպը ընդգծում են շարունակական մարտահրավերները և կարգավորման բարդությունները։",
+    "ts": 1784826528480,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության ոլորտի արագ զարգացումները՝ անվտանգության խոցելիություններից մինչև նոր ապրանքների թողարկումներ և ֆինանսական զգալի ներդրումներ։ Օրենսդիրները նաև քննարկում են AI համակարգերի կարգավորման նոր մոտեցումներ։",
     "items": [
       {
         "headline": "OpenAI-ի սխալը հանգեցրել է հաքերային հարձակման",
@@ -2232,17 +2232,67 @@
         "source": 11,
         "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի խոցելիությունը թույլ է տալիս չարամիտ գործակալներ",
+        "summary": "Zenity Labs-ը հայտնաբերել է AgentForger խոցելիությունը OpenAI-ի Agent Builder-ում, որը թույլ է տալիս մեկ կեղծված ChatGPT հղումով ստեղծել ինքնավար գործակալ՝ հարձակվողի հրահանգներով։",
+        "source": 2,
+        "link": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT Health-ը հասանելի է ԱՄՆ-ում",
+        "summary": "OpenAI-ը ChatGPT Health-ը հասանելի է դարձրել ԱՄՆ բոլոր օգտատերերին՝ թույլ տալով միացնել բժշկական գրառումները և առողջության հետևման տվյալները՝ ավելի անհատականացված պատկերացումներ ստանալու համար։",
+        "source": 29,
+        "link": "https://openai.com/index/health-in-chatgpt",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Google-ի բացասական դրամական հոսքը AI ծախսերի պատճառով",
+        "summary": "Google-ը գրանցել է իր առաջին բացասական դրամական հոսքի եռամսյակը՝ պայմանավորված արհեստական բանականության վրա կատարվող հսկայական ծախսերով։",
+        "source": 8,
+        "link": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Etched AI չիպային ստարտափը գնահատվում է $10.3 մլրդ",
+        "summary": "Etched արհեստական բանականության չիպեր արտադրող ստարտափը, որը ստեղծում է AI մոդելների արագացված աշխատանքի համար նախատեսված նոր չիպեր առանց GPU-ների, հասել է 10.3 միլիարդ դոլարի գնահատման։",
+        "source": 11,
+        "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ԱՄՆ-ում AI «անջատման անջատիչի» օրինագիծ է նախապատրաստվում",
+        "summary": "ԱՄՆ օրենսդիրները նախապատրաստում են «AI Kill Switch Act» օրինագիծը, որը կպահանջի AI ընկերություններից անջատել կամ սահմանափակել իրենց համակարգերը՝ Հայրենիքի անվտանգության դեպարտամենտի հրամանով։",
+        "source": 16,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Poolside-ը թողարկում է Laguna S 2.1 կոդավորման մոդելը",
+        "summary": "Poolside-ը թողարկել է Laguna S 2.1-ը՝ փոքր, բաց կոդով կոդավորման մոդել, որը գերազանցում է իր չափերով շատ ավելի մեծ մրցակիցներին։",
+        "source": 20,
+        "link": "https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
       {
         "name": "Cisco's open cybersecurity models",
         "note": "Անվտանգության համար նախատեսված նոր բաց կոդով AI մոդելներ"
+      },
+      {
+        "name": "ChatGPT Health",
+        "note": "ԱՄՆ օգտատերերի համար առողջապահական տվյալների ինտեգրման հնարավորություն"
+      },
+      {
+        "name": "Laguna S 2.1",
+        "note": "Փոքր, բաց կոդով կոդավորման մոդել"
       }
     ],
     "trending": [
-      "thinkingmachines/Inkling",
       "baidu/Unlimited-OCR",
+      "thinkingmachines/Inkling",
       "poolside/Laguna-S-2.1"
     ]
   }
