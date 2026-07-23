@@ -2185,5 +2185,65 @@
       "baidu/Unlimited-OCR",
       "poolside/Laguna-S-2.1"
     ]
+  },
+  {
+    "date": "2026-07-23",
+    "ts": 1784794198528,
+    "overview": "Օրվա իրադարձությունները ընդգծում են AI ենթակառուցվածքների, իրավական շրջանակների և արդյունաբերության վերակազմավորման զգալի զարգացումները։ AI-ով աշխատող ռոբոտաշինության և տվյալների կենտրոնների խոշոր ներդրումները ցույց են տալիս տեխնոլոգիայի աճող մասշտաբները, մինչդեռ հեղինակային իրավունքի շուրջ նշանակալի համաձայնագիրը և առաջատար AI լաբորատորիաների հետ կապված անվտանգության միջադեպը ընդգծում են շարունակական մարտահրավերները և կարգավորման բարդությունները։",
+    "items": [
+      {
+        "headline": "OpenAI-ի սխալը հանգեցրել է հաքերային հարձակման",
+        "summary": "Ըստ փորձագետների՝ OpenAI-ի կողմից իր փորձարկման միջավայրի սխալ կարգավորումը հանգեցրել է Hugging Face-ի վրա AI-ի միջոցով իրականացված հաքերային հարձակմանը։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ի $1.5 մլրդ հեղինակային իրավունքի վճարում",
+        "summary": "Anthropic-ը համաձայնել է վճարել 1.5 միլիարդ դոլար գրքի հեղինակներին՝ ապօրինի ներբեռնված աշխատանքների համար, սակայն դատարանը նախկինում որոշել էր, որ AI-ի ուսուցումը օրինական ձեռք բերված գրքերով արդար օգտագործում է։",
+        "source": 13,
+        "link": "https://the-decoder.com/anthropics-1-5b-piracy-settlement-with-book-authors-is-a-record-loss-that-hands-ai-labs-their-biggest-legal-win/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի խոշոր էներգետիկ գործարքը Ջորջիայում",
+        "summary": "OpenAI-ը Ջորջիայում նախատեսում է կառուցել տվյալների կենտրոն՝ «Project Camellia» անվանմամբ, և մինչև 2032 թվականը ապահովել է 3.2 գիգավատ հզորությամբ էներգիայի մատակարարման պայմանագիր։",
+        "source": 27,
+        "link": "https://the-decoder.com/openais-project-camellia-in-georgia-secures-a-massive-3-2-gigawatt-power-deal-through-2032/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Տրևիս Կալանիկի ռոբոտաշինական ընկերության խոշոր ներդրում",
+        "summary": "Uber-ի հիմնադիր Տրևիս Կալանիկի Atoms ռոբոտաշինական ընկերությունը հավաքել է 1.7 միլիարդ դոլարի ներդրում՝ a16z-ի գլխավորությամբ, արդյունաբերական AI-ի միջոցով աշխարհը արդիականացնելու համար։",
+        "source": 17,
+        "link": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Monday.com-ը կրճատում է աշխատակիցներին՝ AI-ի վրա կենտրոնանալու համար",
+        "summary": "Monday.com-ը կրճատում է իր աշխատակազմի 20%-ը կամ մոտ 630 աշխատակցի՝ AI Work Platform-ի վրա կենտրոնանալու և ավելի արդյունավետ գործառնական մոդել ապահովելու համար։",
+        "source": 20,
+        "link": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Գանձապետարանը պատժամիջոցներով է սպառնում չինական AI մոդելների համար",
+        "summary": "Սպիտակ տան հայտարարությունից հետո, թե Moonshot-ը օգտագործել է Anthropic-ի Fable մոդելը, Գանձապետարանը սպառնում է պատժամիջոցներով, ինչը սրում է Չինաստանի բաց AI մոդելների շուրջ բանավեճը։",
+        "source": 11,
+        "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Cisco's open cybersecurity models",
+        "note": "Անվտանգության համար նախատեսված նոր բաց կոդով AI մոդելներ"
+      }
+    ],
+    "trending": [
+      "thinkingmachines/Inkling",
+      "baidu/Unlimited-OCR",
+      "poolside/Laguna-S-2.1"
+    ]
   }
 ]
