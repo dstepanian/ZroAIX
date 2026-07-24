@@ -2298,8 +2298,8 @@
   },
   {
     "date": "2026-07-24",
-    "ts": 1784880353702,
-    "overview": "Այսօրվա նորությունները վկայում են արհեստական բանականության հնարավորությունների և արտադրանքի ինտեգրման շարունակական առաջընթացի մասին։ Միաժամանակ, խոշոր տեխնոլոգիական ընկերությունները կատարում են ռազմավարական քայլեր, իսկ կարգավորող մարմինները քննարկում են նոր քաղաքականություններ։",
+    "ts": 1784913597114,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների հնարավորությունների և արտադրանքի ինտեգրումների զգալի առաջընթացները, ինչպես նաև AI քաղաքականության, բաց կոդով մշակումների և անվտանգության շուրջ կարևոր քննարկումները։",
     "items": [
       {
         "headline": "AMD-ն մրցակցում է Nvidia-ի հետ",
@@ -2342,18 +2342,68 @@
         "source": 28,
         "link": "https://the-decoder.com/google-ceo-pichai-says-geminis-next-leap-depends-on-building-much-larger-base-models/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը թողարկում է Opus 5-ը",
+        "summary": "Anthropic-ը թողարկել է իր նոր Claude Opus 5 մոդելը, որը, ըստ ընկերության, մոտ է Claude Fable 5-ի հնարավորություններին և զգալիորեն ավելի լավ է բարդ կոդավորման առաջադրանքներում։",
+        "source": 2,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Meta AI-ն դառնում է օգնական",
+        "summary": "Meta-ն թարմացնում է իր AI չաթբոտը նոր արտադրողականության գործառույթներով, որոնք թույլ կտան Meta AI-ին օգտագարել օրացույցը իրադարձություններ պլանավորելու և ամենօրյա ամփոփագրեր ստեղծելու համար։",
+        "source": 3,
+        "link": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Microsoft-ը խթանում է բաց կոդով AI-ն",
+        "summary": "Microsoft-ը, Meta-ի, Nvidia-ի և ավելի քան 20 այլ ընկերությունների հետ միասին, հանդես է գալիս բաց կոդով AI մոդելների օգտին՝ նպատակ ունենալով ավելի շատ մոդելներ գործարկել Azure-ում և նվազեցնել կախվածությունը թանկարժեք OpenAI և Anthropic մոդելներից։",
+        "source": 4,
+        "link": "https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ-ը քննարկում է AI սահմանափակումներ",
+        "summary": "AI ընկերությունները, ներառյալ Nvidia-ն և Mistral-ը, կոչ են անում քաղաքականություն մշակողներին խուսափել բաց կոդով AI մոդելների լայն սահմանափակումներից, քանի որ Վաշինգտոնը քննարկում է չինական AI-ին արձագանքելու տարբերակները։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Գերմանական կոնսորցիումը թողարկում է Soofi S",
+        "summary": "Գերմանական կոնսորցիումը թողարկել է Soofi S անունով բաց կոդով 30B մոդելը, որը գերազանցում է չափորոշիչները ինչպես անգլերեն, այնպես էլ գերմաներեն լեզուներով, չնայած նախնական ուսուցման տվյալներում հայտնաբերված սխալին։",
+        "source": 17,
+        "link": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AegisAI-ը ստանում է 36 մլն դոլար",
+        "summary": "Նախկին Google-ի անվտանգության ղեկավարների կողմից հիմնադրված AegisAI ընկերությունը ստացել է 36 միլիոն դոլարի ֆինանսավորում՝ AI-ի վրա հիմնված spear phishing հարձակումները կանխելու համար։",
+        "source": 27,
+        "link": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
       {
         "name": "Flux 3",
         "note": "նոր մուլտիմոդալ հիմնարար մոդել է, որը ստեղծում է տեսանյութեր բնիկ ձայնով։"
+      },
+      {
+        "name": "Opus 5",
+        "note": "Anthropic-ի նոր AI մոդել"
+      },
+      {
+        "name": "Soofi S",
+        "note": "Գերմանական կոնսորցիումի բաց կոդով AI մոդել"
       }
     ],
     "trending": [
       "baidu/Unlimited-OCR",
-      "thinkingmachines/Inkling",
-      "poolside/Laguna-S-2.1"
+      "poolside/Laguna-S-2.1",
+      "thinkingmachines/Inkling"
     ]
   }
 ]
