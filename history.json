@@ -2295,5 +2295,65 @@
       "thinkingmachines/Inkling",
       "poolside/Laguna-S-2.1"
     ]
+  },
+  {
+    "date": "2026-07-24",
+    "ts": 1784880353702,
+    "overview": "Այսօրվա նորությունները վկայում են արհեստական բանականության հնարավորությունների և արտադրանքի ինտեգրման շարունակական առաջընթացի մասին։ Միաժամանակ, խոշոր տեխնոլոգիական ընկերությունները կատարում են ռազմավարական քայլեր, իսկ կարգավորող մարմինները քննարկում են նոր քաղաքականություններ։",
+    "items": [
+      {
+        "headline": "AMD-ն մրցակցում է Nvidia-ի հետ",
+        "summary": "AMD-ն մարտահրավեր է նետում Nvidia-ին իր նոր Helios AI rack-scale համակարգով, որը հաճախորդներին կմատակարարվի այս տարվա վերջին։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ChatGPT Health-ը հասանելի է ԱՄՆ-ում",
+        "summary": "OpenAI-ը ChatGPT Health-ը հասանելի է դարձնում ԱՄՆ բոլոր օգտատերերին՝ թույլ տալով միացնել բժշկական գրառումներն ու առողջության հետևման տվյալները չաթբոտին, պնդելով, որ իր մոդելները կարող են դատողություններ անել «կլինիցիստի մակարդակից ավելի լավ»։",
+        "source": 19,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI Kill Switch Act օրենքի նախագիծ",
+        "summary": "Նոր օրենքի նախագիծը թույլ կտա Ներքին անվտանգության նախարարության ղեկավարին որոշել, թե երբ պետք է անջատել անկառավարելի AI համակարգերը։",
+        "source": 8,
+        "link": "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Claude-ի ձայնային ռեժիմի թարմացում",
+        "summary": "Anthropic-ը թարմացրել է Claude-ի ձայնային ռեժիմը՝ այն հասանելի դարձնելով Opus և Sonnet մոդելների համար, ինչը թույլ է տալիս ավելի բարդ հրահանգներ կատարել։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Flux 3-ը ստեղծում է տեսանյութեր ձայնով",
+        "summary": "Black Forest Labs-ը թողարկել է Flux 3 մուլտիմոդալ հիմնարար մոդելը, որն առաջին անգամ կարող է ստեղծել տեսանյութեր բնիկ ձայնով մինչև 20 վայրկյան տևողությամբ։",
+        "source": 13,
+        "link": "https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ի ռազմավարությունը Gemini-ի համար",
+        "summary": "Google-ի գործադիր տնօրեն Սունդար Պիչայը հայտարարել է, որ Gemini-ի հաջորդ քայլը կախված է «շատ ավելի մեծ բազային մոդելների» ստեղծումից, և ընկերությունը սկսել է Gemini 4-ի մարզման հավակնոտ գործընթացը։",
+        "source": 28,
+        "link": "https://the-decoder.com/google-ceo-pichai-says-geminis-next-leap-depends-on-building-much-larger-base-models/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Flux 3",
+        "note": "նոր մուլտիմոդալ հիմնարար մոդել է, որը ստեղծում է տեսանյութեր բնիկ ձայնով։"
+      }
+    ],
+    "trending": [
+      "baidu/Unlimited-OCR",
+      "thinkingmachines/Inkling",
+      "poolside/Laguna-S-2.1"
+    ]
   }
 ]
