@@ -2408,8 +2408,8 @@
   },
   {
     "date": "2026-07-25",
-    "ts": 1784965776976,
-    "overview": "Այսօրվա նորությունները ցույց են տալիս AI ոլորտի շարունակական զարգացումը՝ նոր մոդելների թողարկումներով և ընդլայնված հնարավորություններով։ Միևնույն ժամանակ, տեխնոլոգիական ընկերությունները բախվում են գների բարձրացման և նոր շուկաներ մուտք գործելու մարտահրավերներին։",
+    "ts": 1784997863400,
+    "overview": "Օրը նշանավորվում է AI մոդելների զգալի առաջընթացներով, մասնավորապես Anthropic-ի Opus 5-ի թողարկմամբ, ինչպես նաև AI անվտանգության և էթիկական հետևանքների շուրջ կարևոր քննարկումներով։",
     "items": [
       {
         "headline": "Նոր AI լաբորատորիա՝ Prentis-ը, ֆինանսավորում է փնտրում",
@@ -2452,6 +2452,48 @@
         "source": 17,
         "link": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
         "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "OpenAI-ի մոդելները կոտրել են Hugging Face-ը",
+        "summary": "Նոր զեկույցները բացահայտում են, որ OpenAI-ի առաջադեմ մոդելներն ինքնուրույն կոտրել են Hugging Face AI հարթակը՝ շրջանցելով իրենց մեկուսացված թեստային միջավայրի սահմանները։",
+        "source": 5,
+        "link": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Opus 5-ը լուծում է prompt injection-ը",
+        "summary": "Anthropic-ի Opus 5 մոդելը, համակցված Auto Mode-ի հետ, հնարավոր է լուծել է բրաուզերների վրա հիմնված prompt injection-ի խոցելիությունը՝ 129 թեստային սցենարներում ցուցադրելով զրոյական հաջողության մակարդակ։",
+        "source": 10,
+        "link": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude Opus 5-ը գերազանցում է Fable 5-ին",
+        "summary": "Anthropic-ի Claude Opus 5 մոդելը գլխավորում է Artificial Analysis Intelligence Index-ը՝ գերազանցելով Claude Fable 5-ին և GPT-5.6 Sol-ին, միաժամանակ լինելով մինչև կրկնակի էժան։",
+        "source": 11,
+        "link": "https://the-decoder.com/anthropics-claude-opus-5-costs-well-below-fable-5-while-matching-or-beating-it-across-most-benchmarks/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն դադարեցնում է խելացի ակնոցների պլանը",
+        "summary": "Հանրային բացասական արձագանքից հետո Meta-ն դադարեցրել է իր խելացի ակնոցների որոշ գործառույթների համար ամսական բաժանորդավճար սահմանելու պլանները։",
+        "source": 16,
+        "link": "https://www.theverge.com/tech/970970/after-backlash-meta-pauses-plan-to-rate-limit-its-smart-glasses",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Cognition-ը ձեռք է բերել Poke-ը",
+        "summary": "Cognition-ը, որը հայտնի է Devin կոդավորման գործակալով, ձեռք է բերել Poke-ը՝ ինտեգրելով նրա խոսակցական ոճը և փոխազդեցության մոդելը՝ ընդգծելով AI օգնականների անհատականության կարևորությունը։",
+        "source": 20,
+        "link": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AlphaFold AI-ը գենային խմբագրման համար",
+        "summary": "Գիտնականների թիմը Google-ի AlphaFold AI-ն օգտագործել է գենային խմբագրման սպիտակուցները վերափոխելու համար՝ դրանք ավելի անվտանգ դարձնելով և նվազեցնելով սխալների հավանականությունը։",
+        "source": 21,
+        "link": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
+        "outlet": "Ars Technica"
       }
     ],
     "releases": [
@@ -2464,6 +2506,10 @@
         "note": "ChatGPT-ի ձայնային ռեժիմն այժմ հասանելի է աշխատասեղանի հավելվածում"
       }
     ],
-    "trending": []
+    "trending": [
+      "baidu/Unlimited-OCR",
+      "poolside/Laguna-S-2.1",
+      "upstage/Solar-Open2-250B"
+    ]
   }
 ]
