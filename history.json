@@ -2405,5 +2405,65 @@
       "poolside/Laguna-S-2.1",
       "thinkingmachines/Inkling"
     ]
+  },
+  {
+    "date": "2026-07-25",
+    "ts": 1784965776976,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս AI ոլորտի շարունակական զարգացումը՝ նոր մոդելների թողարկումներով և ընդլայնված հնարավորություններով։ Միևնույն ժամանակ, տեխնոլոգիական ընկերությունները բախվում են գների բարձրացման և նոր շուկաներ մուտք գործելու մարտահրավերներին։",
+    "items": [
+      {
+        "headline": "Նոր AI լաբորատորիա՝ Prentis-ը, ֆինանսավորում է փնտրում",
+        "summary": "Ռեյդ Հոֆմանի և Մարկ Փինկուսի համահիմնադրած Prentis նոր AI լաբորատորիան բանակցություններ է վարում 100 միլիոն դոլար ներգրավելու շուրջ՝ ավտոմատացված համակարգչային առաջադրանքների վրա կենտրոնանալով։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Qualcomm-ը բարձրացնում է իր գները",
+        "summary": "Qualcomm-ը հայտարարել է, որ սեպտեմբերի 1-ից սկսած իր արտադրանքի գները կբարձրացնի երկնիշ տոկոսով՝ պատճառաբանելով մատակարարների աճող ծախսերը։",
+        "source": 8,
+        "link": "https://www.theverge.com/gadgets/970910/qualcomm-raising-prices-bloomberg",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ը թողարկում է Claude Opus 5-ը",
+        "summary": "Anthropic-ը թողարկել է իր նոր առաջատար Claude Opus 5 մոդելը, որը, ըստ ընկերության, գրեթե Fable 5-ի արդյունավետությունն է ապահովում՝ կոդավորման և գիտելիքի աշխատանքի բարձր ցուցանիշներով, բայց ավելի ցածր գնով։",
+        "source": 10,
+        "link": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Midjourney-ը ձեռք է բերել Co-Star հավելվածը",
+        "summary": "AI լաբորատորիա Midjourney-ը ձեռք է բերել Co-Star անհատականացված աստղագուշակության հավելվածը՝ ընդլայնելով իր գործունեության շրջանակը պատկերների և տեսանյութերի ստեղծումից դուրս։",
+        "source": 20,
+        "link": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ChatGPT-ի ձայնային ռեժիմը հասանելի է աշխատասեղանի հավելվածում",
+        "summary": "OpenAI-ի ChatGPT-ի նոր ձայնային ռեժիմն այժմ հասանելի է աշխատասեղանի հավելվածում՝ թույլ տալով օգտատերերին կատարել առաջադրանքներ և կառավարել գործակալներին։",
+        "source": 23,
+        "link": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Օրգանների պահպանման բեկումնային նվաճում",
+        "summary": "Հետազոտողները զգալի առաջընթաց են գրանցել օրգանները մարմնից դուրս կենդանի պահելու գործում՝ սառեցված երիկամներ հաջողությամբ փոխպատվաստելով խոզերին, ինչը կարող է լուծել դոնոր օրգանների պակասի խնդիրը։",
+        "source": 17,
+        "link": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
+        "outlet": "MIT Tech Review"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Claude Opus 5",
+        "note": "Anthropic-ի նոր առաջատար AI մոդելը"
+      },
+      {
+        "name": "ChatGPT Voice on desktop",
+        "note": "ChatGPT-ի ձայնային ռեժիմն այժմ հասանելի է աշխատասեղանի հավելվածում"
+      }
+    ],
+    "trending": []
   }
 ]
