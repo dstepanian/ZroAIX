@@ -2511,5 +2511,53 @@
       "poolside/Laguna-S-2.1",
       "upstage/Solar-Open2-250B"
     ]
+  },
+  {
+    "date": "2026-07-26",
+    "ts": 1785053184241,
+    "overview": "Արհեստական բանականության ազդեցությունը շարունակում է ձևավորել քաղաքականությունը, կրթությունը և աշխատաշուկան, միաժամանակ մարտահրավերներ ստեղծելով ենթակառուցվածքների համար։",
+    "items": [
+      {
+        "headline": "ԱՄՆ-ի քաղաքականությունը չինական AI մոդելների վերաբերյալ",
+        "summary": "Հաղորդվում է, որ ԱՄՆ-ը նախընտրում է ընտրովի արգելքներ սահմանել չինական բաց կոդով AI մոդելների վրա՝ անվտանգության նկատառումներից ելնելով, այլ ոչ թե համատարած սահմանափակումներ։",
+        "source": 1,
+        "link": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Կրթական համակարգի փոփոխություններ AI-ի պատճառով",
+        "summary": "Համակարգչային գիտության ոլորտի մանկավարժների հարցումը ցույց է տվել, որ 68%-ն արդեն փոխել է իրենց քննությունները AI-ի պատճառով՝ անցնելով բանավոր քննությունների և նախագծային աշխատանքների։",
+        "source": 2,
+        "link": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Monday.com-ը AI-ի պատճառով կրճատումների մասին",
+        "summary": "Monday.com-ը դարձել է հերթական տեխնոլոգիական ընկերությունը, որը AI-ն է մեղադրում աշխատատեղերի կրճատման համար՝ միանալով այս տարի նման հայտարարություններ արած ավելի քան 20 այլ ընկերությունների։",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Գրադարանների «Խուսափել AI-ից» սեմինարները",
+        "summary": "Երկրի տարբեր գրադարաններում «Խուսափել AI-ից» թեմայով սեմինարները աննախադեպ պահանջարկ են առաջացրել այն մարդկանց շրջանում, ովքեր հոգնել են մեծ տեխնոլոգիական ընկերություններից։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI տվյալների կենտրոնների էներգիայի խնդիրը",
+        "summary": "Հյուսիսային Վիրջինիայում էլեկտրահաղորդման գծի անկումը բացահայտել է AI տվյալների կենտրոնների աճող խնդիրը՝ կապված ցանցի խափանումներին արձագանքելու հետ։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "baidu/Unlimited-OCR",
+      "poolside/Laguna-S-2.1",
+      "upstage/Solar-Open2-250B"
+    ]
   }
 ]
