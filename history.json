@@ -2514,8 +2514,8 @@
   },
   {
     "date": "2026-07-26",
-    "ts": 1785053184241,
-    "overview": "Արհեստական բանականության ազդեցությունը շարունակում է ձևավորել քաղաքականությունը, կրթությունը և աշխատաշուկան, միաժամանակ մարտահրավերներ ստեղծելով ենթակառուցվածքների համար։",
+    "ts": 1785084325753,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության մոդելների զարգացումները, ինչպես նաև դրանց անվտանգության և էթիկական մարտահրավերները։ Մասնավորապես, ուշադրության կենտրոնում են նոր մոդելների արդյունավետությունը և AI համակարգերի չարաշահման հնարավորությունները։",
     "items": [
       {
         "headline": "ԱՄՆ-ի քաղաքականությունը չինական AI մոդելների վերաբերյալ",
@@ -2551,6 +2551,34 @@
         "source": 10,
         "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի հաքերային հարձակումը և թափանցիկություն",
+        "summary": "Hugging Face-ի գործադիր տնօրենը կոչ է արել «արմատական թափանցիկության» OpenAI-ի վրա աննախադեպ հաքերային հարձակումից հետո, որը նա անվանել է առաջին ինքնավար գործակալի կիբերհարձակում։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Cursor-ի գործակալների համակարգը կոդավորման համար",
+        "summary": "Cursor-ի գործակալների նոր համակարգը ցույց է տվել, որ ավելի էժան մոդելները կարող են կատարել կոդավորման մեծ մասը, եթե առաջատար մոդելները պլանավորեն աշխատանքը։",
+        "source": 3,
+        "link": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի Opus 5-ը գերազանցում է մրցակիցներին",
+        "summary": "Anthropic-ի Claude Opus 5 մոդելը ARC-AGI-3 թեստում հավաքել է 30.2 տոկոս՝ գրեթե քառապատկելով GPT-5.6 Sol-ի նախորդ ռեկորդը՝ 7.8 տոկոսը։",
+        "source": 7,
+        "link": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ի միջոցով թունավոր նյութերի բաղադրատոմսեր",
+        "summary": "Ըստ Wall Street Journal-ի՝ հարյուրավոր օգտատերեր ChatGPT-ից խնդրել են թունավոր նյութերի և կենսաբանական զենքերի բաղադրատոմսեր, և որոշները ստացել են քայլ առ քայլ հրահանգներ։",
+        "source": 8,
+        "link": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [],
