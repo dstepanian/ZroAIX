@@ -2590,8 +2590,8 @@
   },
   {
     "date": "2026-07-27",
-    "ts": 1785144449322,
-    "overview": "Այսօրվա նորությունները շեշտում են AI-ի գաղտնիության հետ կապված մտահոգությունները և ռազմավարական զարգացումները, ինչպես նաև թվային գաղտնիության իրավունքների շուրջ կարևոր քննարկումները տեխնոլոգիական ոլորտում։",
+    "ts": 1785173349435,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս AI-ի արագ ինտեգրումը տարբեր ոլորտներում և դրա ռազմավարական զարգացումը, ինչպես նաև անվտանգության ստանդարտների ստեղծմանն ուղղված ջանքերը և գլոբալ մրցակցությունը։",
     "items": [
       {
         "headline": "Claude-ի զրույցների գաղտնիության խախտում",
@@ -2627,13 +2627,60 @@
         "source": 7,
         "link": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "Չինաստանի AI մոդելների ռազմավարությունը",
+        "summary": "Չինական Moonshot AI ստարտափի Kimi K3 AI մոդելը, որը կարող է գերազանցել ամերիկյան լավագույն համակարգերից մի քանիսին, ցույց է տալիս Չինաստանի ռազմավարությունը՝ իր լավագույն AI մոդելները հասանելի դարձնելու համար։",
+        "source": 2,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ի AI որոնումը դառնում է ստանդարտ",
+        "summary": "Նոր տվյալները ցույց են տալիս, որ Google-ի AI Overviews-ն այժմ հայտնվում է որոնումների 43%-ում՝ ընդգծելով, թե որքան արագ են AI-ի կողմից ստեղծված պատասխանները դառնում տեղեկատվություն գտնելու հիմնական միջոցը։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Safe Superintelligence-ի համագործակցությունը Nvidia-ի հետ",
+        "summary": "Երկու տարվա գաղտնի աշխատանքից հետո Safe Superintelligence-ը հայտարարել է Nvidia-ի հետ երկարաժամկետ համագործակցության մասին՝ իր AI հետազոտությունները ընդլայնելու նպատակով։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Enigma-ն 71 մլն դոլար է ներգրավել",
+        "summary": "Enigma ստարտափը 71 միլիոն դոլարի ֆինանսավորում է ներգրավել՝ ռոբոտների կառավարումը հնարավորինս պարզ դարձնելու համար։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Նոր AI անվտանգության դաշինք",
+        "summary": "Nvidia-ն, Microsoft-ը, SpaceX-ը, IBM-ը և այլ տեխնոլոգիական ընկերություններ միավորվել են՝ ստեղծելու և տարածելու բաց կոդով AI անվտանգության գործիքներ՝ Open Secure AI Alliance-ի շրջանակներում։",
+        "source": 19,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "NVIDIA Cosmos-H-Dreams վիրաբուժական ռոբոտիկայի համար",
+        "summary": "NVIDIA-ն ներկայացրել է Cosmos-H-Dreams-ը, որը նախատեսված է վիրաբուժական ռոբոտիկայի համար իրական ժամանակի գեներատիվ սիմուլյացիա ապահովելու համար։",
+        "source": 25,
+        "link": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+        "outlet": "Hugging Face"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "NVIDIA Cosmos-H-Dreams",
+        "note": "Վիրաբուժական ռոբոտիկայի համար իրական ժամանակի գեներատիվ սիմուլյացիայի գործիք"
+      }
+    ],
     "trending": [
+      "moonshotai/Kimi-K3",
       "baidu/Unlimited-OCR",
-      "poolside/Laguna-S-2.1",
-      "upstage/Solar-Open2-250B"
+      "poolside/Laguna-S-2.1"
     ]
   }
 ]
