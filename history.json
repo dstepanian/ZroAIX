@@ -2587,5 +2587,53 @@
       "poolside/Laguna-S-2.1",
       "upstage/Solar-Open2-250B"
     ]
+  },
+  {
+    "date": "2026-07-27",
+    "ts": 1785144449322,
+    "overview": "Այսօրվա նորությունները շեշտում են AI-ի գաղտնիության հետ կապված մտահոգությունները և ռազմավարական զարգացումները, ինչպես նաև թվային գաղտնիության իրավունքների շուրջ կարևոր քննարկումները տեխնոլոգիական ոլորտում։",
+    "items": [
+      {
+        "headline": "Claude-ի զրույցների գաղտնիության խախտում",
+        "summary": "Հաղորդվում է, որ Anthropic-ի Claude չաթբոտի հետ կիսված զրույցները կարճ ժամանակով հայտնվել են Google որոնման արդյունքներում՝ noindex թեգի բացակայության պատճառով, ինչը նման է OpenAI-ի նախորդ տարվա սխալին։",
+        "source": 1,
+        "link": "https://the-decoder.com/shared-claude-chats-were-reportedly-showing-up-in-search-engines/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինական AI-ի շուրջ խուճապը",
+        "summary": "Վերլուծվել է, թե ինչու է Moonshot AI-ի Kimi-ն խուճապ առաջացրել Սիլիկոնային հովտում և Ուոլ Սթրիթում՝ ընդգծելով չինական AI-ի աճող մրցակցությունը։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Ուղեղային ալիքները ֆիզիկական AI-ի համար",
+        "summary": "Հետազոտողները քննարկում են ուղեղային ալիքների ընթերցումները որպես ֆիզիկական AI մոդելների զարգացման հաջորդ քայլ՝ ավանդական տվյալների հավաքագրման մեթոդներից բացի։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Apple-ի խելացի ակնոցների գաղտնիություն",
+        "summary": "Apple-ը նախատեսում է իր առաջին խելացի ակնոցները ներկայացնել հաջորդ տարի՝ WWDC-ում, շեշտը դնելով գաղտնիության առանձնահատկությունների վրա՝ դրանք մրցակիցներից տարբերելու համար։",
+        "source": 5,
+        "link": "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Հեռախոսի ջնջման համար մեղադրանք ԱՄՆ-ում",
+        "summary": "ԱՄՆ-ը մեղադրանք է ներկայացրել քաղաքացուն՝ սահմանին իր հեռախոսը ջնջելու համար, երբ իշխանությունները փորձել են առգրավել այն, ինչը բարձրացնում է թվային գաղտնիության վերաբերյալ հարցեր։",
+        "source": 7,
+        "link": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "baidu/Unlimited-OCR",
+      "poolside/Laguna-S-2.1",
+      "upstage/Solar-Open2-250B"
+    ]
   }
 ]
