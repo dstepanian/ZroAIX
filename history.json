@@ -2685,8 +2685,8 @@
   },
   {
     "date": "2026-07-28",
-    "ts": 1785226385137,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI նոր մոդելների թողարկումները և խոշոր տեխնոլոգիական առաջնորդների քաղաքականության ու ռազմավարական քննարկումները։ Կա նաև նշանակալի զարգացում գլոբալ արբանյակային կապի ոլորտում։",
+    "ts": 1785259060746,
+    "overview": "Այսօրվա նորությունները ընդգծում են խոշոր տեխնոլոգիական ընկերությունների AI ռազմավարության զգալի փոփոխությունները, ինչպես նաև AI էթիկայի և ենթակառուցվածքային մարտահրավերների շուրջ կարևոր քննարկումները։",
     "items": [
       {
         "headline": "Moonshot AI-ը թողարկում է Kimi K3-ի բաց կշիռները",
@@ -2729,6 +2729,48 @@
         "source": 24,
         "link": "https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "Amazon-ը վերանայում է իր AI ռազմավարությունը",
+        "summary": "Հաղորդվում է, որ Amazon-ը կրճատում է իր Nova AI մոդելների մեծ մասի մշակումը՝ փոխարենը կենտրոնանալով նոր Frontier Model Research խմբի և աշնանը ներկայացվելիք հիմնարար մոդելի վրա։",
+        "source": 3,
+        "link": "https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Տվյալների կենտրոններին սպառնում են էլեկտրաէներգիայի անջատումներ",
+        "summary": "ԱՄՆ-ի ամենամեծ էլեկտրական ցանցի օպերատորները կարող են ժամանակավորապես անջատել տվյալների կենտրոնների էլեկտրամատակարարումը՝ խափանումները կանխելու համար, քանի որ դրանց կառուցման արագ տեմպերը լարում են էներգիայի արտադրությունը։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Nvidia-ն ներդրում է կատարում Սուցկևերի AI լաբորատորիայում",
+        "summary": "Nvidia-ն զգալի ներդրում է կատարում Իլյա Սուցկևերի Safe Superintelligence (SSI) AI լաբորատորիայում՝ հեռանալով Google-ի չիպերից։",
+        "source": 12,
+        "link": "https://the-decoder.com/nvidia-invests-in-ilya-sutskevers-ai-lab-shifting-ssi-away-from-google-chips/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Hugging Face-ը չի կանխում deepfake-ների ստեղծումը",
+        "summary": "Եվրոպական AI Forensics շահույթ չհետապնդող կազմակերպության զեկույցի համաձայն՝ Hugging Face հարթակը բավարար ջանքեր չի գործադրում՝ կանխելու իր հոսթինգում գտնվող AI մոդելների կողմից ոչ կամավոր սեքսուալացված deepfake-ների ստեղծումը։",
+        "source": 22,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Microsoft-ը գործարկում է նոր AI անվտանգության համակարգեր",
+        "summary": "Microsoft-ը ներկայացրել է իր առաջին AI անվտանգության մոդելը և նոր գործակալային կիբերանվտանգության համակարգը՝ ամրապնդելով իր AI կիբերանվտանգության առաջարկները։",
+        "source": 31,
+        "link": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը հաղթում է հեղինակային իրավունքի դատական գործում",
+        "summary": "Դելիի Բարձր դատարանը հեղինակային իրավունքի վերաբերյալ գործով հաղթանակ է շնորհել OpenAI-ին՝ մերժելով հնդկական ANI լրատվական գործակալության հայցը և AI մոդելների ուսուցումը դասելով մասնավոր օգտագործման շարքին։",
+        "source": 33,
+        "link": "https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -2739,6 +2781,14 @@
       {
         "name": "MAI-Cyber-1-Flash",
         "note": "կիբերանվտանգության AI մոդել"
+      },
+      {
+        "name": "Perplexity Personal Computer",
+        "note": "Windows-ի համար AI գործակալների համակարգ"
+      },
+      {
+        "name": "Microsoft AI Cybersecurity Model",
+        "note": "Microsoft-ի առաջին AI կիբերանվտանգության մոդելը և գործակալային համակարգը"
       }
     ],
     "trending": [
