@@ -2682,5 +2682,69 @@
       "baidu/Unlimited-OCR",
       "poolside/Laguna-S-2.1"
     ]
+  },
+  {
+    "date": "2026-07-28",
+    "ts": 1785226385137,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI նոր մոդելների թողարկումները և խոշոր տեխնոլոգիական առաջնորդների քաղաքականության ու ռազմավարական քննարկումները։ Կա նաև նշանակալի զարգացում գլոբալ արբանյակային կապի ոլորտում։",
+    "items": [
+      {
+        "headline": "Moonshot AI-ը թողարկում է Kimi K3-ի բաց կշիռները",
+        "summary": "Moonshot AI-ը թողարկել է Kimi K3 մոդելի կշիռները և իր ենթակառուցվածքի մի մասը դարձրել բաց կոդով՝ մրցակցելով արևմտյան առաջատար մոդելների հետ։",
+        "source": 12,
+        "link": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Microsoft-ը ներկայացնում է MAI-Cyber-1-Flash-ը",
+        "summary": "Microsoft-ը գործարկել է MAI-Cyber-1-Flash անվտանգության կոմպակտ մոդելը, որը CyberGym թեստում ցույց է տվել 96% արդյունք՝ նվազեցնելով ծախսերը։",
+        "source": 15,
+        "link": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ն արգելափակում է հեղինակի ոճի պատճենումը",
+        "summary": "ChatGPT-ն սկսել է արգելափակել հեղինակի ոճը ուղղակիորեն պատճենելու հարցումները, ինչը կարող է իրավական հետևանքներ ունենալ։",
+        "source": 21,
+        "link": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ի գործադիր տնօրենը՝ բաց մոդելների մասին",
+        "summary": "Anthropic-ի հիմնադիր և գործադիր տնօրեն Դարիո Ամոդեյը հայտարարել է, որ չի հակադրվում բաց կշիռներով մոդելներին, սակայն մտահոգված է Չինաստանի AI հնարավորություններով։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Նադելլան՝ AI-ի միակ մոդելին վստահելու մասին",
+        "summary": "Սատյա Նադելլան նշել է, որ այն ընկերությունները, որոնք ամբողջությամբ ապավինում են մեկ AI մոդելի, կամ չունեն AI ենթակառուցվածքի շերտ, կարող են դժվարությունների բախվել։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Amazon-ը նախատեսում է արբանյակային ցանց",
+        "summary": "Amazon-ը դիմել է FCC՝ 2028 թվականին գլոբալ արբանյակային բջջային հեռախոսակապի ցանց գործարկելու համար, որը կտրամադրի ձայնային, հաղորդագրությունների և տվյալների ծառայություններ։",
+        "source": 24,
+        "link": "https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Kimi K3",
+        "note": "բաց կշիռներով AI մոդել"
+      },
+      {
+        "name": "MAI-Cyber-1-Flash",
+        "note": "կիբերանվտանգության AI մոդել"
+      }
+    ],
+    "trending": [
+      "moonshotai/Kimi-K3",
+      "poolside/Laguna-S-2.1",
+      "baidu/Unlimited-OCR"
+    ]
   }
 ]
