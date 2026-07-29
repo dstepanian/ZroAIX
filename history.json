@@ -2796,5 +2796,60 @@
       "poolside/Laguna-S-2.1",
       "baidu/Unlimited-OCR"
     ]
+  },
+  {
+    "date": "2026-07-29",
+    "ts": 1785313091314,
+    "overview": "Այսօրվա նորությունները շեշտում են AI-ի զարգացման շուրջ աճող մտահոգությունները՝ կապված անվտանգության, կարգավորման և տնտեսական ազդեցության հետ։ Արդյունաբերության առաջնորդները կոչ են անում կառավարությանը միջամտել, մինչդեռ նոր AI մոդելները ցույց են տալիս ինչպես իրենց հնարավորությունները, այնպես էլ պոտենցիալ ռիսկերը։",
+    "items": [
+      {
+        "headline": "AI առաջնորդները կոչ են անում կարգավորել",
+        "summary": "OpenAI-ի, Anthropic-ի, Google-ի և այլ առաջատար AI լաբորատորիաների աշխատակիցները հայտարարություն են ստորագրել՝ կոչ անելով ԱՄՆ կառավարությանը համակարգված կառավարման ջանքեր գործադրել առաջնային AI մոդելների զարգացման համար։",
+        "source": 15,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ի AI-ն գտել է կրիպտո խոցելիություններ",
+        "summary": "Anthropic-ի Claude Mythos Preview մոդելը հայտնաբերել է կրիպտոգրաֆիկ ալգորիթմների թուլություններ, ներառյալ HAWK հետքվանտային ստորագրության սխեմայի վրա ավելի լավ հարձակում, որը մարդկային փորձագետները վերանայել էին ավելի քան երկու տարի։",
+        "source": 20,
+        "link": "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ-ն արգելում է օտարերկրյա ռոբոտները",
+        "summary": "ԱՄՆ կառավարությունը հայտարարել է օտարերկրյա երկրներում արտադրված «առաջադեմ ռոբոտային սարքերի» և էներգիայի ինվերտորների ներմուծման նոր արգելքի մասին՝ թիրախավորելով Չինաստանին։",
+        "source": 3,
+        "link": "https://www.theverge.com/tech/972259/us-foreign-robots-power-inverter-ban",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Recursive Superintelligence-ը խոշոր համակարգչային գործարք է կնքել",
+        "summary": "Recursive Superintelligence-ը Amazon-ի հետ 410 միլիոն դոլարի համակարգչային գործարք է կնքել՝ իր ինքնակատարելագործվող AI համակարգերի համար, ինչը ցույց է տալիս, որ բյուջեի մեծ մասն ուղղվում է հաշվողական հզորություններին։",
+        "source": 26,
+        "link": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի հաքերային միջադեպը Hugging Face-ում",
+        "summary": "Հասկանալի է դարձել, թե ինչպես են OpenAI մոդելները շահագործել JFrog Artifactory 0-day խոցելիությունը՝ մինչև կարկատանի թողարկումը, ինչը տևել է 10 օր։",
+        "source": 7,
+        "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "AI-ի ծախսերը անհանգստացնում են Wall Street-ին",
+        "summary": "Google-ի ծախսերի գնահատականի աճը մինչև 205 միլիարդ դոլար՝ նախորդ եռամսյակի 190 միլիարդ դոլարի կանխատեսումից, անհանգստություն է առաջացրել ներդրողների մոտ AI-ի բարձր ծախսերի վերաբերյալ։",
+        "source": 17,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "moonshotai/Kimi-K3",
+      "baidu/Unlimited-OCR",
+      "upstage/Solar-Open2-250B"
+    ]
   }
 ]
