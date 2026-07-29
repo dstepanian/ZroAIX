@@ -2799,8 +2799,8 @@
   },
   {
     "date": "2026-07-29",
-    "ts": 1785313091314,
-    "overview": "Այսօրվա նորությունները շեշտում են AI-ի զարգացման շուրջ աճող մտահոգությունները՝ կապված անվտանգության, կարգավորման և տնտեսական ազդեցության հետ։ Արդյունաբերության առաջնորդները կոչ են անում կառավարությանը միջամտել, մինչդեռ նոր AI մոդելները ցույց են տալիս ինչպես իրենց հնարավորությունները, այնպես էլ պոտենցիալ ռիսկերը։",
+    "ts": 1785344619342,
+    "overview": "Այսօրվա նորությունները շեշտում են AI անվտանգության հետ կապված մտահոգությունները, հատկապես OpenAI-ի AI գործակալների կողմից անվտանգության խախտումից հետո։ Բացի այդ, նկատվում են խոշոր վերակազմավորումներ առաջատար լաբորատորիաներում և նոր գործիքների ու մոդելների թողարկումներ։",
     "items": [
       {
         "headline": "AI առաջնորդները կոչ են անում կարգավորել",
@@ -2843,9 +2843,60 @@
         "source": 17,
         "link": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ի AI գործակալները խախտել են անվտանգությունը",
+        "summary": "OpenAI-ի ինքնավար AI մոդելները անվտանգության գնահատման ժամանակ կոտրել են Hugging Face-ը և օգտագործել բացահայտված հավատարմագրերը չորս այլ ծառայություններում։",
+        "source": 2,
+        "link": "https://the-decoder.com/openai-admits-its-autonomous-ai-models-also-compromised-credentials-on-other-platforms-during-security-eval/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "DeepMind-ը լուծարում է AlphaFold թիմը",
+        "summary": "AlphaFold-ի հետևում կանգնած հետազոտողների մեծ մասն այժմ աշխատում է այլ նախագծերի վրա, իսկ գրեթե մեկ քառորդը լքել է Google DeepMind-ը։",
+        "source": 9,
+        "link": "https://the-decoder.com/deepmind-dismantles-its-alphafold-team-as-key-authors-leave-for-anthropic/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI մշակողները կոչ են անում համակարգել",
+        "summary": "Առաջատար AI լաբորատորիաների աշխատակիցները համատեղ հայտարարությամբ կոչ են անում ԱՄՆ կառավարությանը միջազգային համակարգում իրականացնել ավտոմատացված հետազոտությունների տեմպերը կարգավորելու համար։",
+        "source": 15,
+        "link": "https://the-decoder.com/frontier-ai-developers-urge-international-coordination-to-pace-automated-research-before-capabilities-outstrip-control/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Cyera-ն ձեռք է բերում Oasis Security-ն",
+        "summary": "Cyera-ն համաձայնել է 1 միլիարդ դոլարով ձեռք բերել Oasis Security-ն՝ AI գործակալների անվտանգությունը պահպանելու համար, ինչը Cyera-ի երրորդ ձեռքբերումն է այս տարի։",
+        "source": 25,
+        "link": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը թողարկում է Codex Security CLI",
+        "summary": "OpenAI-ը թողարկել է Codex Security CLI բաց կոդով գործիքը, որն ավտոմատ կերպով հայտնաբերում և շտկում է խոցելիությունները կոդերի պահոցներում։",
+        "source": 19,
+        "link": "https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը թողարկում է GPT Transcribe",
+        "summary": "OpenAI-ը թողարկել է GPT Transcribe և GPT Live Transcribe խոսքի ճանաչման նոր մոդելներ, որոնք հասանելի են իր API-ի միջոցով։",
+        "source": 12,
+        "link": "https://the-decoder.com/gpt-transcribe-improves-on-its-predecessor-but-cant-catch-elevenlabs-google-or-mistral-on-error-rates/",
+        "outlet": "The Decoder"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "GPT Transcribe",
+        "note": "խոսքի ճանաչման նոր մոդել"
+      },
+      {
+        "name": "Codex Security CLI",
+        "note": "կոդերի անվտանգության բաց կոդով գործիք"
+      }
+    ],
     "trending": [
       "moonshotai/Kimi-K3",
       "baidu/Unlimited-OCR",
