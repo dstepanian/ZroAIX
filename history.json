@@ -2902,5 +2902,69 @@
       "baidu/Unlimited-OCR",
       "upstage/Solar-Open2-250B"
     ]
+  },
+  {
+    "date": "2026-07-30",
+    "ts": 1785398768005,
+    "overview": "Այսօրվա նորությունները ընդգծում են խոշոր տեխնոլոգիական ընկերությունների ուժեղացված ուշադրությունը արհեստական բանականության վրա՝ նոր արտադրանքի հայտարարություններով և ռազմավարական տեսլականներով, ինչպես նաև AI-ի հուսալիության և կարգավորման աճող դերի շուրջ մտահոգությունները:",
+    "items": [
+      {
+        "headline": "Microsoft-ը կթողարկի Copilot «սուպեր հավելված»",
+        "summary": "Microsoft-ը հաստատել է, որ այս տարի կթողարկի Copilot-ի «սուպեր հավելված», որը կմիավորի չաթի, կոդավորման և գործակալական հնարավորությունները ինչպես սպառողական, այնպես էլ առևտրային փորձի համար:",
+        "source": 6,
+        "link": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Մարկ Ցուկերբերգը կանխատեսում է AI գործակալների տարածում",
+        "summary": "Meta-ի գործադիր տնօրեն Մարկ Ցուկերբերգը կանխատեսում է, որ հինգ տարվա ընթացքում միլիարդավոր մարդիկ կունենան անձնական AI գործակալներ, քանի որ Meta-ն միլիարդներ է ներդնում AI ենթակառուցվածքներում և գործակալներում:",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ԱՄՆ կառավարությունը արգելել է օտարերկրյա ռոբոտները",
+        "summary": "ԱՄՆ կառավարությունը արգելել է «առաջադեմ ռոբոտային սարքերի» ներմուծումը, ինչը ներառում է նաև ռոբոտ-փոշեկուլները, ինչպիսիք են Roombas-ը, անվտանգության նկատառումներից ելնելով:",
+        "source": 24,
+        "link": "https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը թողարկել է Lyria 3.5 երաժշտական մոդելը",
+        "summary": "Google-ը թողարկել է Lyria 3.5 երաժշտություն ստեղծող նոր մոդելը, որն ինտեգրված է Google Flow Music-ում և թույլ է տալիս օգտատերերին խմբագրել առանձին երգերի հատվածներ:",
+        "source": 21,
+        "link": "https://the-decoder.com/googles-lyria-3-5-music-model-now-lets-users-edit-individual-track-sections-without-starting-over/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "PwC-ն մեղադրվում է AI-ով ստեղծված կեղծ զեկույցների համար",
+        "summary": "Ըստ GPTZero-ի, PwC Middle East-ը ենթադրաբար հրապարակել է AI-ով ստեղծված զեկույցներ, որոնք պարունակում են կեղծ կամ հորինված աղբյուրներ, ինչը ցույց է տալիս AI-ի հալյուցինացիաների խնդիրը մասնագիտական ոլորտում:",
+        "source": 27,
+        "link": "https://the-decoder.com/pwc-has-allegedly-published-ai-generated-reports-containing-false-or-fabricated-sources/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը ChatGPT-ն անվճար կտրամադրի գիտնականներին",
+        "summary": "OpenAI-ը 100,000 ակադեմիական հետազոտողների անվճար մուտք է տրամադրում ChatGPT-ի ամենաառաջադեմ AI մոդելներին՝ գիտական հետազոտությունները և համագործակցությունը արագացնելու համար:",
+        "source": 39,
+        "link": "https://openai.com/index/chatgpt-for-academic-researchers",
+        "outlet": "OpenAI"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Lyria 3.5",
+        "note": "Google-ի նոր երաժշտություն ստեղծող AI մոդել"
+      },
+      {
+        "name": "Pangram 4",
+        "note": "Նոր AI տեքստի հայտնաբերման մոդել"
+      }
+    ],
+    "trending": [
+      "moonshotai/Kimi-K3",
+      "baidu/Unlimited-OCR",
+      "poolside/Laguna-S-2.1"
+    ]
   }
 ]
