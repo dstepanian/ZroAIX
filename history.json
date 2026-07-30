@@ -2905,8 +2905,8 @@
   },
   {
     "date": "2026-07-30",
-    "ts": 1785398768005,
-    "overview": "Այսօրվա նորությունները ընդգծում են խոշոր տեխնոլոգիական ընկերությունների ուժեղացված ուշադրությունը արհեստական բանականության վրա՝ նոր արտադրանքի հայտարարություններով և ռազմավարական տեսլականներով, ինչպես նաև AI-ի հուսալիության և կարգավորման աճող դերի շուրջ մտահոգությունները:",
+    "ts": 1785431640088,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների և ռոբոտաշինության զգալի առաջընթացները, ինչպես նաև խոշոր տեխնոլոգիական ընկերությունների ռազմավարական փոփոխությունները և նոր կարգավորող միջոցառումները։",
     "items": [
       {
         "headline": "Microsoft-ը կթողարկի Copilot «սուպեր հավելված»",
@@ -2949,6 +2949,48 @@
         "source": 39,
         "link": "https://openai.com/index/chatgpt-for-academic-researchers",
         "outlet": "OpenAI"
+      },
+      {
+        "headline": "DeepMind-ը ներկայացրել է Gemini Robotics ER 2-ը",
+        "summary": "DeepMind-ը թողարկել է Gemini Robotics ER 2 մոդելը, որը բարելավում է ռոբոտների տեսանյութերի ընկալումը, առաջադրանքների համակարգումը և բազմառոբոտային համագործակցությունը։",
+        "source": 11,
+        "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "OpenAI-ը բարելավում է GPT-5.6-ի գին-արդյունավետությունը",
+        "summary": "OpenAI-ը հայտարարել է GPT-5.6 մոդելի գին-արդյունավետության բարելավման մասին՝ նվազեցնելով Luna և Terra տարբերակների գները և օգնելով ձեռնարկություններին ավելի արդյունավետ տեղակայել AI աշխատանքային հոսքերը։",
+        "source": 26,
+        "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "ԱՄՆ-ը արգելում է չինական ռոբոտների ներմուծումը",
+        "summary": "ԱՄՆ-ի Հաղորդակցության դաշնային հանձնաժողովը (FCC) արգելել է նոր չինական ռոբոտների և էներգիայի ինվերտորների ներմուծումը՝ ԱՄՆ-ի AI ենթակառուցվածքը օտարերկրյա սպառնալիքներից պաշտպանելու համար։",
+        "source": 23,
+        "link": "https://the-decoder.com/fcc-bans-new-chinese-robots-and-power-inverters-to-protect-us-ai-buildout-from-foreign-threats/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Okta-ն ձեռք է բերել AI անվտանգության Permiso ստարտափը",
+        "summary": "Okta-ն ձեռք է բերել AI անվտանգության Permiso ստարտափը մոտ 200 միլիոն դոլարով՝ ընդլայնելով իր հնարավորությունները ինքնության սպառնալիքների հայտնաբերման ոլորտում։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Microsoft AI-ը կենտրոնանում է մասնագիտացված մոդելների վրա",
+        "summary": "Microsoft AI-ի գործադիր տնօրեն Մուստաֆա Սուլեյմանը հայտարարել է, որ ընկերությունը կենտրոնանալու է էժան մասնագիտացված AI մոդելների վրա՝ ընդհանուր նշանակության թանկարժեք մոդելների փոխարեն։",
+        "source": 20,
+        "link": "https://the-decoder.com/microsoft-ai-bets-on-cheap-specialist-models-instead-of-chasing-the-frontier/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "LLM-ները խոցելի են հիմնարար թերության պատճառով",
+        "summary": "Հետազոտողների մի խումբ պնդում է, որ մեծ լեզվական մոդելները (LLM) հիմնարար թերության պատճառով անհնար է ամբողջությամբ պաշտպանել հաքերային հարձակումներից։",
+        "source": 25,
+        "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+        "outlet": "MIT Tech Review"
       }
     ],
     "releases": [
@@ -2959,6 +3001,14 @@
       {
         "name": "Pangram 4",
         "note": "Նոր AI տեքստի հայտնաբերման մոդել"
+      },
+      {
+        "name": "Gemini Robotics ER 2",
+        "note": "Ռոբոտաշինության նոր մոդել՝ տեսանյութերի ընկալման և համագործակցության համար"
+      },
+      {
+        "name": "GPT-5.6",
+        "note": "Բարելավված գին-արդյունավետությամբ AI մոդել"
       }
     ],
     "trending": [
