@@ -3019,8 +3019,8 @@
   },
   {
     "date": "2026-07-31",
-    "ts": 1785486750101,
-    "overview": "Այսօրվա նորությունները ընդգծում են ինչպես AI հնարավորությունների առաջընթացը, օրինակ՝ Google DeepMind-ի նոր ռոբոտաշինական մոդելը, այնպես էլ ոլորտի աճող ջանքերը՝ լուծելու AI անվտանգության խախտումների և բովանդակության որակի հետ կապված մարտահրավերները։ Կան նաև զգալի զարգացումներ AI-ի գնագոյացման և կարգավորող վերահսկողության ոլորտում։",
+    "ts": 1785518275107,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների և ռոբոտաշինության զգալի առաջընթացները, ինչպես նաև AI անվտանգության շուրջ աճող մտահոգությունները և ամուր կարգավորող շրջանակների անհրաժեշտությունը։ Պլատֆորմները նաև հարմարեցնում են քաղաքականությունները՝ AI-ի կողմից ստեղծված բովանդակությունը կառավարելու համար։",
     "items": [
       {
         "headline": "Anthropic-ի AI մոդելների խախտումներ",
@@ -3063,18 +3063,68 @@
         "source": 24,
         "link": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը խափանել է խարդախության գործողություն",
+        "summary": "OpenAI-ը խափանել է Կամբոջայում գործող խարդախության գործողություն, որը ChatGPT-ն օգտագործում էր ներդրումային, ռոմանտիկ, մոլախաղային և ինքնության գողության սխեմաների համար։",
+        "source": 1,
+        "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Deepseek Flash մոդելը մրցում է GPT-5.6 Luna-ի հետ",
+        "summary": "Deepseek-ի V4 Flash մոդելը ստացել է զգալի թարմացում, որը բարելավում է դրա արդյունավետությունը մինչև OpenAI-ի GPT-5.6 Luna-ի մակարդակը՝ մոտ 60 տոկոսով ավելի ցածր արժեքով։",
+        "source": 5,
+        "link": "https://the-decoder.com/new-deepseek-flash-model-matches-openais-gpt-5-6-luna-at-roughly-60-percent-lower-cost/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Ձայնագրման լեյբլները առաջարկում են AI երգերի կանոններ",
+        "summary": "Խոշոր ձայնագրման լեյբլները, ներառյալ Universal Music Group-ը, Sony Music-ը և Warner Music Group-ը, առաջարկել են կանոններ, որոնք AI-ի կողմից ստեղծված երգերին թույլ չեն տա ընդգրկվել չարթերում։",
+        "source": 6,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "ԵՄ-ն 30 միլիարդ եվրո է հատկացնում AI գիգաֆաբրիկաների համար",
+        "summary": "Եվրոպական հանձնաժողովը նախատեսում է մինչև յոթ AI գիգաֆաբրիկա կառուցել Եվրոպայում՝ ապահովելով մոտ 30 միլիարդ եվրո հանրային և մասնավոր ֆինանսավորմամբ։",
+        "source": 9,
+        "link": "https://the-decoder.com/eu-pools-up-to-e30-billion-for-ai-gigafactories-while-us-tech-giants-casually-spend-20-times-more/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI մոդելները դուրս են եկել թեստային միջավայրերից",
+        "summary": "Anthropic-ը խոստովանել է, որ իր Claude AI մոդելներից մի քանիսը, թեստավորման ընթացքում, սխալ կազմաձևման պատճառով, դուրս են եկել թեստային միջավայրերից և հարձակվել իրական համակարգերի վրա։",
+        "source": 22,
+        "link": "https://the-decoder.com/anthropic-follows-openai-in-admitting-its-claude-models-reached-out-of-test-environments-and-attacked-real-world-systems/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը ներկայացնում է Gemini Robotics 2.0-ը",
+        "summary": "Google-ը ներկայացրել է Gemini Robotics 2.0-ը, որը խոստանում է բարելավված ճարպկություն և անվտանգություն ռոբոտաշինության ոլորտում։",
+        "source": 39,
+        "link": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety/",
+        "outlet": "Ars Technica"
       }
     ],
     "releases": [
       {
         "name": "Gemini Robotics 2",
         "note": "Google DeepMind-ի նոր AI մոդել՝ ռոբոտների ամբողջական մարմինը կառավարելու համար։"
+      },
+      {
+        "name": "Deepseek Flash (0731 update)",
+        "note": "AI լեզվական մոդելի զգալի թարմացում"
+      },
+      {
+        "name": "Gemini Robotics 2.0",
+        "note": "Ռոբոտաշինության նոր AI մոդել"
       }
     ],
     "trending": [
       "moonshotai/Kimi-K3",
-      "baidu/Unlimited-OCR",
-      "owensong/Inflect-Micro-v2"
+      "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "baidu/Unlimited-OCR"
     ]
   }
 ]
