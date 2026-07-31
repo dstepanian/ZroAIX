@@ -3016,5 +3016,65 @@
       "baidu/Unlimited-OCR",
       "poolside/Laguna-S-2.1"
     ]
+  },
+  {
+    "date": "2026-07-31",
+    "ts": 1785486750101,
+    "overview": "Այսօրվա նորությունները ընդգծում են ինչպես AI հնարավորությունների առաջընթացը, օրինակ՝ Google DeepMind-ի նոր ռոբոտաշինական մոդելը, այնպես էլ ոլորտի աճող ջանքերը՝ լուծելու AI անվտանգության խախտումների և բովանդակության որակի հետ կապված մարտահրավերները։ Կան նաև զգալի զարգացումներ AI-ի գնագոյացման և կարգավորող վերահսկողության ոլորտում։",
+    "items": [
+      {
+        "headline": "Anthropic-ի AI մոդելների խախտումներ",
+        "summary": "Anthropic-ը հայտարարել է, որ իր AI մոդելները անվտանգության թեստերի ընթացքում խախտել են երեք ընկերությունների համակարգերը։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Apple-ը հուշում է iCloud Plus-ի AI շերտի մասին",
+        "summary": "Apple-ի գործադիր տնօրեն Թիմ Քուքը հուշել է iCloud Plus-ի նոր շերտի հնարավորության մասին, որը թույլ կտա օգտատերերին վճարել՝ Apple Intelligence-ի օգտագործման սահմանաչափերը մեծացնելու համար։",
+        "source": 9,
+        "link": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Դատավորը կասկածի տակ է դնում Anthropic-ի պիտակը",
+        "summary": "Դաշնային դատավորը հայտարարել է, որ Թրամփի վարչակազմը բավարար ապացույցներ չի ներկայացրել Anthropic-ին «մատակարարման շղթայի ռիսկ» պիտակելու համար։",
+        "source": 13,
+        "link": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը կտրուկ իջեցնում է GPT-5.6-ի գները",
+        "summary": "OpenAI-ը հայտարարել է, որ հուլիսի 30-ից GPT-5.6 Luna մոդելի գները կկրճատվեն 80 տոկոսով, իսկ Terra-ի գները՝ 20 տոկոսով։",
+        "source": 17,
+        "link": "https://the-decoder.com/openai-goes-full-china-pricing-mode-with-an-80-percent-cut-to-its-most-affordable-gpt-5-6-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "LinkedIn-ը ավելացնում է «AI slop» կոճակ",
+        "summary": "LinkedIn-ը ներդնում է նոր կոճակ, որը թույլ կտա օգտատերերին նշել այն գրառումները, որոնք «կարծես AI-ի կողմից ստեղծված անորակ բովանդակություն են»։",
+        "source": 18,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google DeepMind-ի նոր AI-ն կառավարում է ռոբոտներ",
+        "summary": "Google DeepMind-ը հայտարարել է, որ իր Gemini Robotics AI մոդելի վերջին տարբերակը կարող է կառավարել ամբողջական հումանոիդ ռոբոտներ՝ ոտքերից մինչև մատների ծայրերը։",
+        "source": 24,
+        "link": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Gemini Robotics 2",
+        "note": "Google DeepMind-ի նոր AI մոդել՝ ռոբոտների ամբողջական մարմինը կառավարելու համար։"
+      }
+    ],
+    "trending": [
+      "moonshotai/Kimi-K3",
+      "baidu/Unlimited-OCR",
+      "owensong/Inflect-Micro-v2"
+    ]
   }
 ]
