@@ -3129,8 +3129,8 @@
   },
   {
     "date": "2026-08-01",
-    "ts": 1785571305017,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների և հետազոտությունների զգալի առաջընթացները, ինչպես նաև աճող մտահոգությունները AI-ի անվտանգության, էթիկական չարաշահումների և ապատեղեկատվության տարածման ներուժի վերաբերյալ։",
+    "ts": 1785602801167,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս AI տեխնոլոգիաների արագ զարգացումը՝ մաթեմատիկական խնդիրների լուծումից մինչև նոր տեսանյութերի ստեղծման մոդելներ։ Սակայն, այս առաջընթացներին զուգահեռ, մեծանում են նաև մտահոգությունները AI-ի էթիկական օգտագործման, հեղինակային իրավունքների պաշտպանության և անվտանգության վերաբերյալ։",
     "items": [
       {
         "headline": "OpenAI-ի նոր մաթեմատիկական հետազոտություններ",
@@ -3173,12 +3173,58 @@
         "source": 34,
         "link": "https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը լուծում է մաթեմատիկական խնդիրներ",
+        "summary": "OpenAI-ի AI մոդելները շարունակում են լուծել չլուծված մաթեմատիկական խնդիրներ՝ առաջացնելով խառը զգացմունքներ մաթեմատիկոսների շրջանում, ովքեր մտահոգված են մաթեմատիկական մշակույթի հնարավոր ոչնչացմամբ։",
+        "source": 1,
+        "link": "https://the-decoder.com/ai-keeps-cracking-unsolved-math-problems-and-mathematicians-have-mixed-feelings/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ByteDance-ը թողարկել է Seedance 2.5-ը",
+        "summary": "ByteDance-ը թողարկել է Seedance 2.5 AI տեսանյութերի մոդելը, որը կարող է ստեղծել մինչև 30 վայրկյան տևողությամբ տեսահոլովակներ՝ ներկառուցված ձայնով։",
+        "source": 7,
+        "link": "https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Գերմանական դատարանը դատապարտել է Suno-ին",
+        "summary": "Մյունխենի դատարանը որոշել է, որ AI երաժշտություն ստեղծող Suno-ն խախտել է հեղինակային իրավունքները ինչպես մոդելի ուսուցման, այնպես էլ արդյունքների միջոցով՝ մերժելով արդար օգտագործման պաշտպանությունը։",
+        "source": 12,
+        "link": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Reddit-ի գործադիր տնօրենը կասկածի տակ է դնում Google AI Overviews-ը",
+        "summary": "Reddit-ի գործադիր տնօրենը կասկածի տակ է դնում Google-ի AI Overviews-ի արժեքը, քանի որ Reddit-ի բաժնետոմսերը նվազում են, և ընկերությունը դիտարկում է Google-ի հետ իր լիցենզավորման պայմանագիրը դադարեցնելու հնարավորությունը։",
+        "source": 10,
+        "link": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "AI-ով ստեղծված մերկ լուսանկարների սկանդալ",
+        "summary": "Պենսիլվանիայի ավագ դպրոցը պաշտպանում է իր լռությունը՝ կապված այն բանի հետ, որ տղաները AI-ի միջոցով 59 դասընկերուհիների մերկ լուսանկարներ են ստեղծել, ինչը բացահայտում է օրենքների բացերը։",
+        "source": 30,
+        "link": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Snapchat-ը փոխում է AI բովանդակության քաղաքականությունը",
+        "summary": "Snapchat-ը փոփոխել է իր առաջարկությունների համակարգերը՝ ապահովելու համար, որ միայն իրական մարդկանց կողմից ստեղծված տեսանյութերը որակվեն Spotlight առաջարկությունների համար՝ դիրքորոշում ընդունելով AI-ով ստեղծված բովանդակության դեմ։",
+        "source": 32,
+        "link": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
       {
         "name": "Inkling Small",
         "note": "Thinking Machines-ի նոր AI մոդել"
+      },
+      {
+        "name": "Seedance 2.5",
+        "note": "AI տեսանյութերի մոդել՝ ներկառուցված ձայնով"
       }
     ],
     "trending": [
