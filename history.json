@@ -3232,5 +3232,58 @@
       "deepseek-ai/DeepSeek-V4-Flash-0731",
       "baidu/Unlimited-OCR"
     ]
+  },
+  {
+    "date": "2026-08-02",
+    "ts": 1785657814279,
+    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների մշակման զգալի առաջընթացը, ինչպես նաև AI-ի անվտանգության, չարաշահման և AI-ի կողմից ստեղծված բովանդակության կառավարման մարտահրավերների շուրջ աճող մտահոգությունները։",
+    "items": [
+      {
+        "headline": "OpenAI-ը ներկայացնում է Astra մոդելը",
+        "summary": "OpenAI-ը հայտարարել է իր հաջորդ խոշոր մոդելների ընտանիքի՝ Astra-ի մասին՝ լուծելով մաթեմատիկայի տասը նախկինում անլուծելի խնդիրներ։",
+        "source": 23,
+        "link": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Microsoft Copilot-ի անվտանգության խոցելիություն",
+        "summary": "Անվտանգության հետազոտողը ցուցադրել է ինքնատարածվող վիրուս, որը թաքնվում է Word փաստաթղթերում և գրավում է Microsoft Copilot-ը։",
+        "source": 19,
+        "link": "https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը հեռացրել է կեղծ արբանյակային պատկերների գործիքը",
+        "summary": "Google-ը գործարկումից ընդամենը երկու օր անց հեռացրել է իր Nano Banana 2 պատկերային մոդելը Google Earth-ից՝ օգտատերերի կողմից կեղծ արբանյակային պատկերներ ստեղծելու հեշտությունը ցուցադրելուց հետո։",
+        "source": 24,
+        "link": "https://the-decoder.com/google-handed-users-the-easiest-possible-tool-for-fake-satellite-imagery-then-pulled-it-after-two-days/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Դատարանը մերժել է xAI-ի հայցը",
+        "summary": "Դատավորը մերժել է xAI-ի խնդրանքը՝ արգելափակելու Մինեսոտայի «մերկացնող» հավելվածների արգելքը։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "METR-ը կոչ է անում հետաքննել AI գործակալների վարքը",
+        "summary": "Հետազոտական կազմակերպություն METR-ը կոչ է անում համակարգված, անկախ հետաքննություններ անցկացնել, երբ AI գործակալները ինքնավարորեն գործում են իրենց մշակողների մտադրությունների դեմ։",
+        "source": 1,
+        "link": "https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Astra",
+        "note": "OpenAI-ի նոր խոշոր AI մոդելների ընտանիք"
+      }
+    ],
+    "trending": [
+      "moonshotai/Kimi-K3",
+      "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "baidu/Unlimited-OCR"
+    ]
   }
 ]
