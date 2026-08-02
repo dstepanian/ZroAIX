@@ -3235,8 +3235,8 @@
   },
   {
     "date": "2026-08-02",
-    "ts": 1785657814279,
-    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների մշակման զգալի առաջընթացը, ինչպես նաև AI-ի անվտանգության, չարաշահման և AI-ի կողմից ստեղծված բովանդակության կառավարման մարտահրավերների շուրջ աճող մտահոգությունները։",
+    "ts": 1785689113816,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի հնարավորությունների զգալի առաջընթացները, հատկապես գործակալների մշակման և ստեղծագործական սերնդի ոլորտներում, ինչպես նաև աճող արդյունաբերական մարտահրավերները՝ կապված AI-ի կողմից ստեղծված բովանդակության կառավարման և գոյություն ունեցող համակարգերի վրա դրա ազդեցության հետ:",
     "items": [
       {
         "headline": "OpenAI-ը ներկայացնում է Astra մոդելը",
@@ -3272,12 +3272,51 @@
         "source": 1,
         "link": "https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը ներկայացնում է Presence-ը ձեռնարկությունների համար",
+        "summary": "OpenAI-ի նոր Presence առաջարկը նպատակ ունի AI գործակալներին արտադրական պատրաստ դարձնել հաճախորդների սպասարկման և ներքին աշխատանքային հոսքերի համար:",
+        "source": 4,
+        "link": "https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta AI-ն օգտագործում է հիշողության գործակալ",
+        "summary": "Meta AI-ն օգտագործում է երկրորդ AI գործակալ՝ որպես հիշողության մարզիչ, որպեսզի AI գործակալները չմոռանան սխալները և չկրկնեն ձախողված քայլերը բարդ առաջադրանքների ժամանակ:",
+        "source": 6,
+        "link": "https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի ստեղծած զեկույցները խցանում են Apple-ի համակարգը",
+        "summary": "Apple-ի սխալների հայտնաբերման ծրագիրը խեղդվում է AI-ի կողմից ստեղծված կեղծ զեկույցներից, ինչի պատճառով իրական macOS խոցելիությունը չի հաղորդվել:",
+        "source": 7,
+        "link": "https://the-decoder.com/a-real-macos-flaw-worth-200k-went-unreported-because-apples-bug-bounty-inbox-was-full-of-ai-slop/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude Opus 5-ը ստեղծում է 3D խաղեր հուշումներից",
+        "summary": "Anthropic-ի Claude Opus 5-ը մեկ հուշումից ստեղծում է ամբողջական 3D խաղեր՝ երկրաչափությամբ, հյուսվածքներով, ֆիզիկայով և երաժշտությամբ, առանց արտաքին ակտիվների:",
+        "source": 10,
+        "link": "https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Snap-ը և LinkedIn-ը պայքարում են AI բովանդակության դեմ",
+        "summary": "Snap-ը արգելում է AI-ի կողմից ստեղծված տեսանյութերը Spotlight-ից, իսկ LinkedIn-ը ներդրել է «AI slop» հաղորդման կոճակ՝ պայքարելու ցածրորակ AI բովանդակության դեմ:",
+        "source": 11,
+        "link": "https://the-decoder.com/snap-and-linkedin-are-fighting-back-against-a-flood-of-low-quality-ai-content/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
       {
         "name": "Astra",
         "note": "OpenAI-ի նոր խոշոր AI մոդելների ընտանիք"
+      },
+      {
+        "name": "Claude Opus 5",
+        "note": "3D խաղեր ստեղծող AI մոդել"
       }
     ],
     "trending": [
