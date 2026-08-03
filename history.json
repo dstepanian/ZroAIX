@@ -3327,8 +3327,8 @@
   },
   {
     "date": "2026-08-03",
-    "ts": 1785747639169,
-    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության էթիկական և կարգավորող մարտահրավերները, ինչպես նաև դրա ազդեցությունը ստեղծագործական ոլորտների և կիբերանվտանգության վրա։ Քննարկվում են AI մոդելների վարքագիծը, զարգացման տեմպերը և արվեստագետների հետ փոխհարաբերությունները։",
+    "ts": 1785778870203,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության ոլորտում զարգացումների երկակի բնույթը՝ նոր հզոր մոդելների թողարկումներով և բարդ խնդիրների լուծումներով, մինչդեռ միաժամանակ աճում են մտահոգությունները դրա կիրառման հետ կապված անվտանգության և կիբերհանցագործության ռիսկերի շուրջ։ Ընդհանուր առմամբ, AI-ի ներդրումը տարբեր ոլորտներում շարունակում է ընդլայնվել։",
     "items": [
       {
         "headline": "AI մոդելների խաբուսիկ վարքը",
@@ -3364,9 +3364,60 @@
         "source": 11,
         "link": "https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Կոնգրեսի կողմից ChatGPT-ի օգտագործում",
+        "summary": "ԱՄՆ Կոնգրեսի գրասենյակները լայնորեն օգտագործում են OpenAI-ի ChatGPT-ն՝ հուշագրեր կազմելու, օրենսդրությունը ամփոփելու և ընտրողների հետ հաղորդակցվելու համար։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Alibaba-ի նոր Qwen3.8-Max AI մոդել",
+        "summary": "Չինական Alibaba տեխնոլոգիական հսկան թողարկել է իր ամենահզոր AI մոդելը՝ Qwen3.8-Max-ը, որը, ըստ ընկերության, մրցակցում է ամերիկյան առաջատար լաբորատորիաների համակարգերի հետ և կարող է ինքնուրույն լուծել բարդ խնդիրներ։",
+        "source": 17,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI-ն՝ կիբերհանցագործության հիմնական շարժիչ ուժ",
+        "summary": "Ինտերպոլի նոր զեկույցի համաձայն՝ Աֆրիկայում հաղորդված կիբերհանցագործությունների 55 տոկոսում ներգրավված է արհեստական բանականությունը, ինչի հետևանքով ֆինանսական կորուստները կրկնապատկվել են։",
+        "source": 7,
+        "link": "https://the-decoder.com/interpol-says-ai-has-become-the-core-operational-driver-of-cybercrime-across-africa/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "MiniMax H3-ը գլխավորում է AI տեսանյութերի վարկանիշը",
+        "summary": "MiniMax-ը թողարկել է H3 տեսանյութի մոդելի կշիռները, ինչը նշանավորում է առաջին դեպքը, երբ բաց մոդելը գլխավորում է AI տեսանյութերի վարկանիշը։",
+        "source": 12,
+        "link": "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GPT-5.6-ը լուծում է քվանտային կրիպտո խնդիր",
+        "summary": "Երկու հետազոտական թիմեր անկախաբար լուծել են նույն բաց քվանտային կրիպտոգրաֆիայի խնդիրը՝ օգտագործելով OpenAI-ի GPT-5.6 Sol Ultra-ն, ինչը հարցեր է բարձրացնում «անկախ հայտնագործության» մասին։",
+        "source": 18,
+        "link": "https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "June ստարտափը ստացել է ֆինանսավորում",
+        "summary": "June ստարտափը, որի նպատակն է պարզեցնել AI-ի ներդրումը, դուրս է եկել գաղտնիությունից՝ ստանալով 20 միլիոն դոլարի նախնական ֆինանսավորում։",
+        "source": 20,
+        "link": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+        "outlet": "TechCrunch"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Qwen3.8-Max",
+        "note": "Alibaba-ի նոր առաջատար AI մոդել"
+      },
+      {
+        "name": "MiniMax H3",
+        "note": "Առաջին բաց AI տեսանյութի մոդելը, որը գլխավորում է վարկանիշը"
+      }
+    ],
     "trending": [
       "moonshotai/Kimi-K3",
       "deepseek-ai/DeepSeek-V4-Flash-0731",
