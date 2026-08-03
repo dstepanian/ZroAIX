@@ -98,7 +98,7 @@ const layout = ({ title: t, description, canonical, head = '', body }) => `<!doc
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${attr(t)}</title>
 <meta name="description" content="${attr(description)}">
-<link rel="canonical" href="${attr(canonical)}">
+${config.googleVerification ? `<meta name="google-site-verification" content="${attr(config.googleVerification)}">\n` : ''}<link rel="canonical" href="${attr(canonical)}">
 <link rel="alternate" type="application/rss+xml" title="ZroAIX" href="${attr(absolute('feed.xml'))}">
 <link rel="icon" href="${attr(absolute('avatar.png'))}">
 <meta property="og:site_name" content="ZroAIX">

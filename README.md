@@ -177,8 +177,17 @@ Setup, once:
 1. **Settings → Pages → Source: GitHub Actions**.
 2. Optional repo *variable* `SITE_BASE_URL` (defaults to
    `https://dstepanian.github.io/ZroAIX`).
-3. Submit `https://<host>/sitemap.xml` in Google Search Console to get indexed
-   sooner than an organic crawl would.
+3. Google Search Console — add `https://dstepanian.github.io/ZroAIX/` as a
+   **URL prefix** property. A `github.io` path can't be verified by DNS, and an
+   uploaded HTML file wouldn't survive the next build, so use the **HTML tag**
+   method: paste the token into the repo variable `GOOGLE_SITE_VERIFICATION`,
+   re-run *Publish Digest Archive*, then press Verify and submit
+   `sitemap.xml`. That gets the archive indexed sooner than an organic crawl.
+
+Note that a project Pages site can't own the effective `robots.txt` — crawlers
+read `https://dstepanian.github.io/robots.txt`, which belongs to the user site.
+Ours is published for completeness; sitemap discovery goes through Search
+Console.
 
 `pages.yml` rebuilds after every successful **AI Digest** run, checking out the
 branch *after* the workflow commits `history.json`, so the new day is on the site

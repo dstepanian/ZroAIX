@@ -6,6 +6,16 @@ on:
   workflow_run:
     workflows: ['AI Digest']
     types: [completed]
+  # Editing the renderer would otherwise sit unpublished until the next digest.
+  # The path filter keeps the bot's twice-daily history.json commits out of it —
+  # those carry [skip ci] anyway, which is why the digest arrives via workflow_run.
+  push:
+    branches: [main]
+    paths:
+      - 'src/render.js'
+      - 'src/site.js'
+      - 'src/config.js'
+      - '.github/workflows/pages.yml'
   workflow_dispatch: {}
 
 permissions:
@@ -44,6 +54,7 @@ jobs:
         env:
           SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
           CHANNEL_HANDLE: ${{ vars.CHANNEL_HANDLE }}
+          GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

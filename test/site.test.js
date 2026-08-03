@@ -99,6 +99,10 @@ test('the index advertises every day as an ordered list', () => {
   assert.match(ld.mainEntity.itemListElement[1].url, /2026-07-03/);
 });
 
+test('no verification tag is emitted when no token is configured', () => {
+  assert.doesNotMatch(renderDigestPage(day), /google-site-verification/);
+});
+
 test('paths are ascii and derived from the calendar day', () => {
   assert.equal(digestPath(day), 'digest/2026-07-04.html');
 });
