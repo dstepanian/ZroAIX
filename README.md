@@ -145,6 +145,50 @@ days, and posts a "📅 Շաբաթվա ամփոփում" — the week's big arc 
 self-skips until at least 2 days of history exist. The daily workflow needs
 `contents: write` permission for the commit-back (already set).
 
+## Public archive (so Google can find the channel)
+
+`t.me` pages are a dead end for search, so every day recorded in `history.json` is
+also rendered as a static page and published to GitHub Pages — same approach as
+ZroJobs. No client-side JavaScript: a crawler sees the full Armenian digest in the
+HTML.
+
+```bash
+npm run site   # builds site/ from history.json (index, one page per day, sitemap, feed, robots)
+npm test       # renderer + structured-data tests
+```
+
+What gets published:
+
+| Path | Contents |
+|------|----------|
+| `index.html` | every archived day, newest first (`CollectionPage` + `ItemList`) |
+| `digest/YYYY-MM-DD.html` | one day: overview, stories with source links, releases, HF trending, prev/next |
+| `sitemap.xml`, `robots.txt` | crawl entry points, absolute URLs |
+| `feed.xml` | RSS 2.0 of the archive |
+
+Each day page carries [`BlogPosting`](https://developers.google.com/search/docs/appearance/structured-data/article)
+JSON-LD in Armenian (`inLanguage: hy`), with the day's stories as `mentions`
+credited to the outlet that reported them — we summarize, we don't claim the
+reporting. Canonical URLs, OG tags and the sitemap are absolute, so `SITE_BASE_URL`
+must match the real host exactly.
+
+Setup, once:
+
+1. **Settings → Pages → Source: GitHub Actions**.
+2. Optional repo *variable* `SITE_BASE_URL` (defaults to
+   `https://dstepanian.github.io/ZroAIX`).
+3. Submit `https://<host>/sitemap.xml` in Google Search Console to get indexed
+   sooner than an organic crawl would.
+
+`pages.yml` rebuilds after every successful **AI Digest** run, checking out the
+branch *after* the workflow commits `history.json`, so the new day is on the site
+minutes after it hits Telegram. It refuses to build from an empty `history.json`
+rather than deploy a site that would deindex every existing page.
+
+`history.json` keeps a year of days (`HISTORY_DAYS`, default 365). It is the
+archive's only source, so shortening it retires pages: a day that drops out 404s
+and gets deindexed.
+
 ## Structure
 
 | File | Role |
@@ -160,4 +204,6 @@ self-skips until at least 2 days of history exist. The daily workflow needs
 | `src/history.js` | append/load `history.json` (one entry per day) |
 | `src/index.js` | orchestrate the daily run |
 | `src/weekly.js` | orchestrate the Sunday weekly recap |
+| `src/render.js` | HTML + JSON-LD for the public archive |
+| `src/site.js` | build `site/` from `history.json` |
 | `src/linkedinBot.js` | private bot command for LinkedIn drafts |

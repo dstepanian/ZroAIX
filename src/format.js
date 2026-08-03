@@ -42,7 +42,15 @@ const yerevanRange = (startISO, endISO) => {
   return `${MONTHS_HY[am - 1]} ${ad} – ${MONTHS_HY[bm - 1]} ${bd}`;
 };
 
-const esc = (s = '') =>
+// Armenian long date from a YYYY-MM-DD history key, e.g. "հուլիսի 4, 2026".
+// The site renders past days, so it can't go through "today" like yerevanDate.
+const hyDate = (iso = '') => {
+  const [y, m, d] = iso.split('-').map(Number);
+  if (!MONTHS_HY[m - 1]) return iso;
+  return `${MONTHS_HY[m - 1]} ${d}, ${y}`;
+};
+
+export const esc = (s = '') =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 // Build the Telegram digest message (HTML parse mode).
@@ -130,4 +138,4 @@ export const formatWeekly = (history, { overview = '', highlights = [] }) => {
   return out.join('\n');
 };
 
-export { yerevanDate, yerevanISO };
+export { yerevanDate, yerevanISO, hyDate };

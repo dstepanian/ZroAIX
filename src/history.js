@@ -3,7 +3,10 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'history.json');
-const MAX_ENTRIES = 60; // ~2 months; weekly only needs the last 7
+// The weekly recap only needs the last 7 days, but history.json is also the
+// source of the public archive — a day that falls out of here is a page that
+// 404s and gets deindexed, so it holds a year.
+const MAX_ENTRIES = Number(process.env.HISTORY_DAYS || 365);
 
 export const loadHistory = () => {
   try {
