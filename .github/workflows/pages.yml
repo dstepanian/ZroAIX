@@ -29,8 +29,9 @@ concurrency:
 
 jobs:
   build:
-    # A failed digest run has nothing new to publish.
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    # A failed digest run has nothing new to publish; a push or a manual dispatch
+    # always does.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
