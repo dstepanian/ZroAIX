@@ -3426,8 +3426,8 @@
   },
   {
     "date": "2026-08-04",
-    "ts": 1785831421342,
-    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների զգալի առաջընթացները, նոր կարգավորող շրջանակները և AI-ի հասարակական ազդեցության ու էթիկական մարտահրավերների շուրջ շարունակվող քննարկումները։",
+    "ts": 1785864546473,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության աճող ազդեցությունը տարբեր ոլորտներում՝ լրագրությունից մինչև կրթություն և երաժշտություն, ինչպես նաև կարևոր զարգացումներ AI ենթակառուցվածքների կարգավորման և աշխարհաքաղաքական քննարկումների շուրջ։",
     "items": [
       {
         "headline": "Alibaba-ն ներկայացրել է Qwen3.8-Max մոդելը",
@@ -3470,13 +3470,60 @@
         "source": 6,
         "link": "https://openai.com/index/apple-is-getting-this-wrong",
         "outlet": "OpenAI"
+      },
+      {
+        "headline": "Պուլիցերյան մրցանակներում AI-ի կիրառման ռեկորդ",
+        "summary": "2026 թվականի Պուլիցերյան մրցանակաբաշխությանը ռեկորդային թվով՝ ութ հայտ ներկայացրածներ, այդ թվում՝ հինգ հաղթող, բացահայտել են AI-ի օգտագործումը իրենց աշխատանքներում։",
+        "source": 1,
+        "link": "https://the-decoder.com/this-years-pulitzer-prizes-saw-a-record-number-of-winners-disclose-ai-use/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Spotify-ը ընդլայնում է AI նախագիծը",
+        "summary": "Spotify-ը հայտարարել է, որ Merlin-ը, որը ներկայացնում է ավելի քան 30,000 անկախ լեյբլներ և դիստրիբյուտորներ, միացել է Universal Music Group-ին՝ աջակցելու իր առաջիկա AI-ով աշխատող ռեմիքսների և քավերների արտադրանքին։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Տեխասը ստուգումներ է պահանջում տվյալների կենտրոններից",
+        "summary": "Տեխաս նահանգը հայտարարել է տվյալների կենտրոնների նոր աուդիտի մասին, որը կարող է դանդաղեցնել նոր օբյեկտների հաստատումը՝ նահանգի էներգացանցին միանալու համար։",
+        "source": 9,
+        "link": "https://www.theverge.com/policy/975071/texas-data-center-audit",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "LFM2.5-2.6B-ի տեղակայումը տեղական գործակալների համար",
+        "summary": "Hugging Face-ը հայտարարել է LFM2.5-2.6B մոդելի տեղակայման մասին, որը թույլ է տալիս տեղական AI գործակալներին աշխատել ամենուր։",
+        "source": 17,
+        "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+        "outlet": "Hugging Face"
+      },
+      {
+        "headline": "Սիլիկոնային հովտի տարաձայնությունները չինական AI-ի շուրջ",
+        "summary": "Ըստ New York Times-ի, Սիլիկոնային հովտի ընկերությունների միջև բաց կոդով AI-ի շուրջ տարաձայնությունները հետաձգել են Սպիտակ տան կողմից չինական AI մոդելների արգելքների քննարկումը։",
+        "source": 20,
+        "link": "https://the-decoder.com/silicon-valleys-rift-over-open-source-pushes-back-contemplated-white-house-bans-on-chinese-ai/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի նոր գործիքներ կրթության համար",
+        "summary": "OpenAI-ը ներկայացրել է նոր կրթական պլագիններ ChatGPT Work-ի և Codex-ի համար, որոնք կօգնեն ուսուցիչներին և ուսանողներին սովորել, դասավանդել, հետազոտել և ստեղծել։",
+        "source": 25,
+        "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+        "outlet": "OpenAI"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "LFM2.5-2.6B",
+        "note": "Նոր մոդել տեղական AI գործակալների տեղակայման համար"
+      }
+    ],
     "trending": [
-      "moonshotai/Kimi-K3",
       "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "MiniMaxAI/MiniMax-H3"
+      "MiniMaxAI/MiniMax-H3",
+      "moonshotai/Kimi-K3"
     ]
   }
 ]
