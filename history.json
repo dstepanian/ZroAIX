@@ -3423,5 +3423,60 @@
       "deepseek-ai/DeepSeek-V4-Flash-0731",
       "MiniMaxAI/MiniMax-H3"
     ]
+  },
+  {
+    "date": "2026-08-04",
+    "ts": 1785831421342,
+    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների զգալի առաջընթացները, նոր կարգավորող շրջանակները և AI-ի հասարակական ազդեցության ու էթիկական մարտահրավերների շուրջ շարունակվող քննարկումները։",
+    "items": [
+      {
+        "headline": "Alibaba-ն ներկայացրել է Qwen3.8-Max մոդելը",
+        "summary": "Alibaba-ն թողարկել է իր նոր առաջատար Qwen3.8-Max մոդելը՝ 2.4 տրիլիոն պարամետրերով, որը նախատեսված է բարդ և երկարաժամկետ AI խնդիրներ լուծելու համար։",
+        "source": 28,
+        "link": "https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Ուկրաինական դրոնները ստացել են AI հնարավորություններ",
+        "summary": "ԱՄՆ ընկերության AI տեխնոլոգիան թույլ է տալիս Ուկրաինայի էժան կամիկաձե դրոններին ինքնուրույն հետևել թիրախներին՝ 100 միլիոն դոլարի գործարքի շրջանակներում։",
+        "source": 5,
+        "link": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Եվրոպայում ուժի մեջ են մտել AI կանոնները",
+        "summary": "Եվրոպական միության AI ակտի շրջանակներում ուժի մեջ են մտել նոր թափանցիկության պարտավորություններ, որոնք պահանջում են ընկերություններից բացահայտել AI-ի կողմից ստեղծված բովանդակությունը։",
+        "source": 15,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI-ով վերահսկվող քննությունը ձախողվել է",
+        "summary": "AI-ի կողմից վերահսկվող հեռակա քննությունը այնքան վատ է անցել, որ 58,000 ուսանող ստիպված են լինելու այն նորից հանձնել։",
+        "source": 12,
+        "link": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Palantir-ի CEO-ն AI ոլորտը «մարքսիստական» է անվանել",
+        "summary": "Palantir-ի գործադիր տնօրեն Ալեքս Կարպը, իր ընկերության հաջող եռամսյակից հետո, կրկին զգուշացրել է, որ AI լաբորատորիաները չափազանց անվստահելի են ձեռնարկությունների համար։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը պատասխանել է Apple-ի հայցին",
+        "summary": "OpenAI-ը հանդես է եկել հայտարարությամբ՝ անդրադառնալով Apple-ի անհիմն հայցին, ուղղելով իր աշխատակիցների վերաբերյալ պնդումները և ներկայացնելով իրադարձությունները փաստող հաղորդագրություններ։",
+        "source": 6,
+        "link": "https://openai.com/index/apple-is-getting-this-wrong",
+        "outlet": "OpenAI"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "moonshotai/Kimi-K3",
+      "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "MiniMaxAI/MiniMax-H3"
+    ]
   }
 ]
