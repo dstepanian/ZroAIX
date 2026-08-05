@@ -3525,5 +3525,60 @@
       "MiniMaxAI/MiniMax-H3",
       "moonshotai/Kimi-K3"
     ]
+  },
+  {
+    "date": "2026-08-05",
+    "ts": 1785917716696,
+    "overview": "Օրվա նորությունները շեշտում են AI ենթակառուցվածքների և հաշվողական հզորությունների զգալի ներդրումները, ինչպես նաև AI անվտանգության և կարգավորող մարտահրավերների շուրջ աճող մտահոգությունները։",
+    "items": [
+      {
+        "headline": "AMD-ի տվյալների կենտրոնների աճը",
+        "summary": "AI պահանջարկի շնորհիվ AMD-ի տվյալների կենտրոնների եկամուտը տարեկան կտրվածքով ավելի քան կրկնապատկվել է՝ հասնելով 6.7 միլիարդ դոլարի։",
+        "source": 8,
+        "link": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Տեխասը դադարեցնում է տվյալների կենտրոնների միացումները",
+        "summary": "Տեխասի նահանգապետը դադարեցրել է տվյալների կենտրոնների միացումները էներգացանցին՝ պահանջարկի ճնշող աճի պատճառով, չնայած նահանգը AI-ի «էպիկենտրոն» անվանելուն։",
+        "source": 10,
+        "link": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ը $10 միլիարդի համաձայնագիր է կնքել",
+        "summary": "Anthropic-ը 10 միլիարդ դոլարի հաշվողական հզորություն է ապահովել Volta Infra Holdings ամպային ստարտափից, որը հիմնադրվել է ընդամենը մի քանի ամիս առաջ։",
+        "source": 24,
+        "link": "https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Բաց կոդով AI մոդելների անվտանգության բացեր",
+        "summary": "SaferAI-ի նոր զեկույցը ցույց է տալիս, որ Z.ai-ի բաց կոդով GLM-5.2 մոդելը մոտենում է առաջատար AI հնարավորություններին՝ միաժամանակ չունենալով անվտանգության հիմնական մեղմացումներ։",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Nvidia-ի AI անվտանգության դաշինքի առաջընթացը",
+        "summary": "Nvidia-ի գլխավորած Open Secure AI Alliance-ը, որը ձևավորվել է մեկ շաբաթ առաջ և ընդգրկում է ավելի քան 120 ընկերություն, արդեն առաջարկություններ ունի AI գործակալներից պաշտպանվելու համար։",
+        "source": 15,
+        "link": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը պատասխանում է Apple-ի հայցին",
+        "summary": "OpenAI-ը հերքում է Apple-ի առևտրային գաղտնիքների հայցը՝ հրապարակելով iMessage զրույցներ, որոնք ցույց են տալիս, որ Apple-ի աշխատակիցները կապվել են իրենց նախկին գործընկերոջ հետ տեխնիկական օգնության համար։",
+        "source": 30,
+        "link": "https://the-decoder.com/openai-fires-back-at-apples-trade-secret-lawsuit-with-chat-logs-showing-apple-employees-kept-texting-their-former-colleague/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "MiniMaxAI/MiniMax-H3",
+      "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "moonshotai/Kimi-K3"
+    ]
   }
 ]
