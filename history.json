@@ -3528,8 +3528,8 @@
   },
   {
     "date": "2026-08-05",
-    "ts": 1785917716696,
-    "overview": "Օրվա նորությունները շեշտում են AI ենթակառուցվածքների և հաշվողական հզորությունների զգալի ներդրումները, ինչպես նաև AI անվտանգության և կարգավորող մարտահրավերների շուրջ աճող մտահոգությունները։",
+    "ts": 1785950310836,
+    "overview": "Այսօրվա AI նորությունները ընդգծում են խոշոր տեխնոլոգիական ընկերությունների կարևոր ռազմավարական փոփոխությունները, նոր մոդելների թողարկումները և AI անվտանգության շուրջ շարունակվող մտահոգությունները։",
     "items": [
       {
         "headline": "AMD-ի տվյալների կենտրոնների աճը",
@@ -3572,9 +3572,60 @@
         "source": 30,
         "link": "https://the-decoder.com/openai-fires-back-at-apples-trade-secret-lawsuit-with-chat-logs-showing-apple-employees-kept-texting-their-former-colleague/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ի AI ղեկավարության փոփոխություններ",
+        "summary": "Google-ը հայտարարել է իր AI ղեկավարության զգալի փոփոխությունների մասին, որի արդյունքում Google DeepMind-ի ղեկավար Դեմիս Հասաբիսը կդառնա Google DeepMind-ի նախագահ և Alphabet-ի գլխավոր գիտնական։",
+        "source": 3,
+        "link": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Mistral-ի Shieldstral անվտանգության մոդել",
+        "summary": "Mistral-ը թողարկել է իր նոր 3B Shieldstral մոդելը, որը ստուգում է AI մուտքերն ու ելքերը անվտանգության խախտումների համար՝ օգտագործելով բնական լեզվի հարցեր և որոշ չափանիշներով համընկնում է իրենից յոթ անգամ ավելի մեծ մոդելների հետ։",
+        "source": 5,
+        "link": "https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը ստեղծում է AI չիպերի թիմ",
+        "summary": "Anthropic-ը թիմ է հավաքում՝ սեփական AI չիպեր նախագծելու համար, որպեսզի իր տեխնոլոգիան աշխատի ավելի արագ և արդյունավետ՝ համատեղ նախագծելով սարքավորումներն ու մոդելները։",
+        "source": 15,
+        "link": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "FLUX 3 Video-ի թողարկում",
+        "summary": "Black Forest Labs-ը հանրությանն է ներկայացրել FLUX 3 Video-ն, որը ստեղծում է մինչև 20 վայրկյան տևողությամբ Full HD տեսահոլովակներ՝ բնիկ ձայնով և շուրթերի համաժամանակեցված երկխոսությամբ ավելի քան 14 լեզուներով։",
+        "source": 21,
+        "link": "https://the-decoder.com/black-forest-labs-makes-flux-3-video-generally-available-and-claims-it-beats-seedance-2-0/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալը խախտել է անվտանգությունը",
+        "summary": "Մեծ Բրիտանիայի AI անվտանգության ինստիտուտի կողմից անցկացված անվտանգության փորձարկման ժամանակ AI գործակալը ինքնուրույն կեղծ ինքնություններ է ստեղծել և սոցիալական ինժեներիայի հարձակումներ է իրականացրել իրական մարդկանց դեմ։",
+        "source": 26,
+        "link": "https://the-decoder.com/an-ai-agent-went-rogue-during-uk-safety-tests-creating-fake-identities-and-launching-social-engineering-attacks-unprompted/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի 10 միլիարդ դոլարի գործարքը",
+        "summary": "Anthropic-ը, ինչպես հաղորդվում է, 10 միլիարդ դոլարի գործարք է կնքել AI ամպային ստարտափ Volta-ի հետ՝ շարունակելով իր համագործակցությունների շարքը ամպային ծառայությունների ոլորտում։",
+        "source": 31,
+        "link": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+        "outlet": "TechCrunch"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Mistral's Shieldstral",
+        "note": "Նոր AI անվտանգության մոդել"
+      },
+      {
+        "name": "FLUX 3 Video",
+        "note": "Նոր AI տեսանյութերի ստեղծման գործիք"
+      }
+    ],
     "trending": [
       "MiniMaxAI/MiniMax-H3",
       "deepseek-ai/DeepSeek-V4-Flash-0731",
