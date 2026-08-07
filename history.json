@@ -3694,8 +3694,8 @@
   },
   {
     "date": "2026-08-07",
-    "ts": 1786085933329,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների առաջընթացը և դրանց ինտեգրումը տարբեր ապրանքների մեջ, ինչպես նաև կարևոր քննարկումներ AI էթիկայի, անվտանգության և խոշոր AI լաբորատորիաների ներսում առկա գործառնական մարտահրավերների շուրջ։",
+    "ts": 1786120835820,
+    "overview": "Այսօրվա նորությունները կարևորում են AI մոդելների մշակման և հետազոտությունների զգալի առաջընթացները, ինչպես նաև արդյունաբերական համագործակցությունները և կարգավորող գործողությունները՝ կապված AI-ի ազդեցության հետ:",
     "items": [
       {
         "headline": "OpenAI-ի GPT-5.6 Sol-ի բարելավումներ",
@@ -3780,6 +3780,48 @@
         "source": 33,
         "link": "https://the-decoder.com/openai-developer-warns-the-tireless-eagle-eyes-of-a-million-models-are-coming-for-your-exposed-api-keys-and-crypto-wallets/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Cloudflare-ը գործարկում է Kitesurf-ը",
+        "summary": "Cloudflare-ը ներկայացրել է Kitesurf-ը՝ ամպային հոսթինգով բրաուզեր, որը նախատեսված է AI գործակալների համար՝ նվազեցնելով հաշվողական հզորությունը ավտոմատացման առաջադրանքների համար:",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ByteDance-ը մարզում է AI մոդել",
+        "summary": "ByteDance-ը, TikTok-ի սեփականատերը, մարզում է մինչև տասը տրիլիոն պարամետր ունեցող արհեստական ​​ինտելեկտի մոդել՝ նպատակ ունենալով մրցակցել Anthropic-ի հետ և դառնալ Չինաստանի ամենամեծ մոդելը:",
+        "source": 13,
+        "link": "https://the-decoder.com/chinas-largest-ai-model-is-being-developed-at-bytedance/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ով նախագծված վիրուսներ",
+        "summary": "Սթենֆորդի և Arc Institute-ի գիտնականները արհեստական ​​ինտելեկտի միջոցով նախագծել են նոր վիրուսներ, որոնք լաբորատորիայում ոչնչացրել են բակտերիաները՝ նշանավորելով AI-ի կողմից նախագծված կյանքի ձևերի առաջին քայլը:",
+        "source": 14,
+        "link": "https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ին տուգանել են $942 միլիոնով",
+        "summary": "Նյու Մեքսիկոյի դատարանը Meta-ին պարտավորեցրել է վճարել լրացուցիչ 567 միլիոն դոլար՝ երեխաների անվտանգության գործով, ընդհանուր տուգանքը հասցնելով գրեթե 1 միլիարդ դոլարի՝ հանրային անհանգստություն առաջացնելու համար:",
+        "source": 20,
+        "link": "https://www.theverge.com/tech/976537/meta-new-mexico-cild-safety-fine-public-nuisance",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI գործակալների պլագինների նոր ստանդարտ",
+        "summary": "Amazon-ը, Microsoft-ը, OpenAI-ը և այլ ընկերություններ միավորվել են՝ ստեղծելու Agent Plugins-ի բաց ստանդարտը, որը սահմանում է AI գործակալների ընդլայնումների մեկ փաթեթի ձևաչափ:",
+        "source": 22,
+        "link": "https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ն անսահմանափակ չաթեր է առաջարկում",
+        "summary": "OpenAI-ը ChatGPT-ի անվճար օգտատերերի համար ներկայացրել է անսահմանափակ տեքստային չաթեր, ինչպես նաև նոր «մտածելու» կոճակ՝ բարդ հարցումների համար:",
+        "source": 30,
+        "link": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -3794,12 +3836,20 @@
       {
         "name": "Muse Spark 1.2",
         "note": "Meta-ի նոր AI մոդել"
+      },
+      {
+        "name": "Kitesurf",
+        "note": "AI գործակալների համար նախատեսված ամպային բրաուզեր"
+      },
+      {
+        "name": "ChatGPT Free Tier Unlimited Chats",
+        "note": "ChatGPT-ի անվճար տարբերակի համար անսահմանափակ տեքստային չաթեր"
       }
     ],
     "trending": [
       "MiniMaxAI/MiniMax-H3",
       "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "moonshotai/Kimi-K3"
+      "Comfy-Org/MiniMax-H3"
     ]
   }
 ]
