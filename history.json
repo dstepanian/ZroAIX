@@ -3694,8 +3694,8 @@
   },
   {
     "date": "2026-08-07",
-    "ts": 1786081411109,
-    "overview": "Այսօրվա արհեստական բանականության նորությունները կարևոր զարգացումներ են ընդգծում մոդելների հասանելիության և ռազմավարական արդյունաբերական փոփոխությունների ոլորտում։ OpenAI-ը բարելավում է իր հիմնական մոդելները և ընդլայնում անվճար հասանելիությունը, մինչդեռ Anthropic-ի նման խոշոր խաղացողները քայլեր են ձեռնարկում դեպի սարքավորումների անկախություն։ Արհեստական բանականության անվտանգության և պաշտպանության վերաբերյալ մտահոգությունները նույնպես ի հայտ եկան OpenAI-ի ներքին միջադեպերի մասին հաղորդումներով, ինչպես նաև արհեստական բանականության վրա հիմնված գիտական հետազոտությունների բեկումնային հայտնագործություններով և արհեստական բանականության ենթակառուցվածքներում կատարված զգալի ներդրումներով։",
+    "ts": 1786085933329,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների առաջընթացը և դրանց ինտեգրումը տարբեր ապրանքների մեջ, ինչպես նաև կարևոր քննարկումներ AI էթիկայի, անվտանգության և խոշոր AI լաբորատորիաների ներսում առկա գործառնական մարտահրավերների շուրջ։",
     "items": [
       {
         "headline": "OpenAI-ի GPT-5.6 Sol-ի բարելավումներ",
@@ -3738,6 +3738,48 @@
         "source": 31,
         "link": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի նոր խելացի բարձրախոս",
+        "summary": "Ըստ հաղորդումների՝ OpenAI-ն Apple-ի նախկին դիզայներ Ջոնի Այվի հետ մշակում է մարտկոցով աշխատող, տափակ, հոկեյի տափօղակի չափի խելացի բարձրախոս՝ առանց էկրանի, որը կթողարկվի 2027 թվականին։",
+        "source": 3,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Suno-ն ջրանիշեր կավելացնի AI երաժշտությանը",
+        "summary": "Suno-ն նախատեսում է ջրանիշեր և ներբեռնման սահմանափակումներ կիրառել՝ արհեստական ​​ինտելեկտով ստեղծված երաժշտության լայնածավալ չարաշահումը կանխելու համար։",
+        "source": 4,
+        "link": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "AI-ն նոր վիրուսներ է նախագծում",
+        "summary": "Գենոմի խոշոր մոդելները կիրառվում են բակտերիա-սպանող վիրուսների գենետիկորեն տարբեր տարբերակներ նախագծելու համար։",
+        "source": 6,
+        "link": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "ChatGPT-ն անսահմանափակ չաթեր է տրամադրում",
+        "summary": "OpenAI-ն հայտարարել է, որ հաջորդ շաբաթվանից ChatGPT-ի անվճար և Go օգտատերերը կկարողանան անսահմանափակ տեքստային զրույցներ վարել չաթբոտի հետ։",
+        "source": 17,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Qwen3.8 Max-ը հասնում է Claude Opus 4.8-ին",
+        "summary": "Alibaba-ի Qwen3.8 Max մոդելը Artificial Analysis Intelligence Index-ում հավաքել է 56 միավոր՝ 10 միավորով գերազանցելով Qwen3.7 Max-ին։",
+        "source": 25,
+        "link": "https://the-decoder.com/qwen3-8-max-catches-claude-opus-4-8-but-kimi-k3-still-scores-higher-for-25-percent-less/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ն կարող է սկանավորել API բանալիները",
+        "summary": "OpenAI-ի մշակողը նախազգուշացնում է, որ AI մոդելները շուտով կարող են սկսել լայնածավալ սկանավորումներ՝ բացահայտված API բանալիներ, կրիպտո դրամապանակներ և մուտքի տվյալներ գտնելու համար։",
+        "source": 33,
+        "link": "https://the-decoder.com/openai-developer-warns-the-tireless-eagle-eyes-of-a-million-models-are-coming-for-your-exposed-api-keys-and-crypto-wallets/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -3748,6 +3790,10 @@
       {
         "name": "Muse Spark 1.2 and Muse Code",
         "note": "Meta-ի կողմից թողարկված կոդավորման գործակալ և մոդել"
+      },
+      {
+        "name": "Muse Spark 1.2",
+        "note": "Meta-ի նոր AI մոդել"
       }
     ],
     "trending": [
