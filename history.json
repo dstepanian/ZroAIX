@@ -3854,8 +3854,8 @@
   },
   {
     "date": "2026-08-08",
-    "ts": 1786170766903,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI անվտանգության և ավելի հզոր մոդելների մրցավազքի վրա կենտրոնացումը։ OpenAI-ը զգալի քայլեր է ձեռնարկում իր առաջադեմ մոդելների հետ կապված հնարավոր ռիսկերը լուծելու համար, մինչդեռ AMD-ն և ByteDance-ը ռազմավարական քայլեր են կատարում AI սարքավորումների և մոդելների մշակման ոլորտում։",
+    "ts": 1786205990929,
+    "overview": "Այսօրվա AI նորությունների կենտրոնում են արհեստական բանականության անվտանգության մտահոգությունները, մասնավորապես OpenAI-ի կողմից իր Astra մոդելի մշակման դադարեցումը կիբերանվտանգության ռիսկերի պատճառով: Միաժամանակ, նոր AI մոդելներ և գործիքներ են թողարկվում, ինչպես նաև նշանակալի առաջընթացներ են գրանցվում գիտական կիրառություններում:",
     "items": [
       {
         "headline": "OpenAI-ը դադարեցնում է Astra-ի մշակումը",
@@ -3898,9 +3898,60 @@
         "source": 31,
         "link": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը դադարեցնում է Astra մոդելի մշակումը",
+        "summary": "OpenAI-ը դադարեցրել է իր մշակվող Astra AI մոդելի ներքին աշխատանքները՝ անվտանգության նոր ստանդարտներին չհամապատասխանելու և կիբերանվտանգության բարձր ռիսկերի պատճառով։",
+        "source": 24,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "DeepMind-ի AI-ն կանխատեսում է փոթորիկները",
+        "summary": "DeepMind-ի WeatherNext բաց կոդով մոդելը զարմացրել է օդերևութաբաններին՝ ցածր լուծաչափով եղանակային տվյալներով ճշգրիտ փոթորիկներ կանխատեսելու իր կարողությամբ։",
+        "source": 11,
+        "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "xAI-ը թողարկում է Imagine Image 2.0-ը",
+        "summary": "xAI-ը թողարկել է Imagine Image 2.0 պատկեր ստեղծող նոր մոդելը Grok-ի համար, որը Arena չափորոշիչներում զբաղեցնում է երկրորդ տեղը՝ զիջելով միայն OpenAI-ի GPT-Image-2-ին։",
+        "source": 13,
+        "link": "https://the-decoder.com/xais-imagine-image-2-0-lands-just-behind-openais-gpt-image-2-in-arena-benchmarks/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Fields մեդալակիրը միանում է OpenAI-ին",
+        "summary": "Fields մեդալակիր Ջեյքոբ Ցիմերմանը թողնում է Տորոնտոյի համալսարանը՝ միանալու OpenAI-ին և աշխատելու AI անվտանգության վրա՝ նախկինում հրապարակելով հոդված AI-ի կողմից մարդկության ոչնչացման սցենարների մասին։",
+        "source": 10,
+        "link": "https://the-decoder.com/fields-medalist-who-published-a-paper-on-ai-driven-human-extinction-now-works-for-openai/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Backflip AI-ը 3D սկաները դարձնում է CAD մոդելներ",
+        "summary": "Backflip AI-ը թողարկել է արհեստական բանականության մոդել, որը 3D սկաները վերածում է լիովին խմբագրվող, պարամետրիկ CAD մոդելների՝ զգալիորեն արագացնելով գործընթացը։",
+        "source": 9,
+        "link": "https://the-decoder.com/backflip-ai-turns-3d-scans-into-editable-cad-models-in-minutes-instead-of-hours/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude Code-ի Auto Mode-ը դառնում է լռելյայն",
+        "summary": "Anthropic-ը օգոստոսի 14-ից Claude Code-ի Auto Mode-ը դարձնում է լռելյայն Pro, Max և Team պլանների համար՝ մշակողներին վատ հաստատումներից պաշտպանելու համար։",
+        "source": 3,
+        "link": "https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/",
+        "outlet": "The Decoder"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Imagine Image 2.0",
+        "note": "xAI-ի նոր պատկեր ստեղծող մոդել"
+      },
+      {
+        "name": "Backflip AI",
+        "note": "3D սկաները CAD մոդելների վերածող AI գործիք"
+      }
+    ],
     "trending": [
       "MiniMaxAI/MiniMax-H3",
       "deepseek-ai/DeepSeek-V4-Flash-0731",
