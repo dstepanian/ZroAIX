@@ -3851,5 +3851,60 @@
       "deepseek-ai/DeepSeek-V4-Flash-0731",
       "Comfy-Org/MiniMax-H3"
     ]
+  },
+  {
+    "date": "2026-08-08",
+    "ts": 1786170766903,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI անվտանգության և ավելի հզոր մոդելների մրցավազքի վրա կենտրոնացումը։ OpenAI-ը զգալի քայլեր է ձեռնարկում իր առաջադեմ մոդելների հետ կապված հնարավոր ռիսկերը լուծելու համար, մինչդեռ AMD-ն և ByteDance-ը ռազմավարական քայլեր են կատարում AI սարքավորումների և մոդելների մշակման ոլորտում։",
+    "items": [
+      {
+        "headline": "OpenAI-ը դադարեցնում է Astra-ի մշակումը",
+        "summary": "OpenAI-ը հայտարարել է, որ դադարեցնում է իր Astra AI մոդելի մշակման ներքին աշխատանքները՝ անվտանգության նոր չափանիշներին չհամապատասխանելու պատճառով, քանի որ մոդելը հասել է «կրիտիկական կիբերանվտանգության շեմի»։",
+        "source": 24,
+        "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "AMD-ն ձեռք է բերում Taalas ստարտափը",
+        "summary": "AMD-ն ձեռք է բերել կանադական Taalas ստարտափը, որը մասնագիտանում է AI մոդելները անմիջապես սիլիցիումի մեջ ներդնելու գործում՝ արագացնելով դրանց աշխատանքը։",
+        "source": 13,
+        "link": "https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ByteDance-ը մարզում է հսկայական AI մոդել",
+        "summary": "TikTok-ի սեփականատեր ByteDance-ը մարզում է 10 տրիլիոն պարամետրերով AI մոդել՝ նպատակ ունենալով մրցակցել Anthropic-ի հետ։",
+        "source": 30,
+        "link": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ը թուլացնում է Fable 5-ի սահմանափակումները",
+        "summary": "Anthropic-ը մոտ 85 տոկոսով նվազեցրել է Fable 5-ի կենսաբանության անվտանգության զտիչների կեղծ դրական արդյունքները՝ պահպանելով սահմանափակումները վիրուսաբանության և թունաբանության նման զգայուն թեմաների համար։",
+        "source": 18,
+        "link": "https://the-decoder.com/anthropic-loosens-fable-5s-biology-restrictions-but-keeps-the-guardrails-on-for-virology-and-toxicology/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը թարմացնում է GPT-5.6 Sol-ը",
+        "summary": "OpenAI-ը թարմացրել է GPT-5.6 Sol-ը ChatGPT-ում՝ ավելի կենտրոնացված պատասխաններով և մտածողության կարգավորիչով, միաժամանակ սահմանափակելով անվճար օգտատերերին իր ամենաթույլ մոդելով՝ GPT-5.6 Luna-ով։",
+        "source": 33,
+        "link": "https://the-decoder.com/openai-improves-gpt-5-6-sol-in-chatgpt-and-restricts-free-users-to-its-weakest-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ին տուգանել են $567 մլն-ով",
+        "summary": "Նյու Մեքսիկոյի դատարանը Meta-ին պարտավորեցրել է վճարել լրացուցիչ 567 միլիոն դոլար՝ երեխաների անվտանգության գործով, ինչով ընդհանուր տուգանքը հասել է 942 միլիոն դոլարի։",
+        "source": 31,
+        "link": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "MiniMaxAI/MiniMax-H3",
+      "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "Comfy-Org/MiniMax-H3"
+    ]
   }
 ]
