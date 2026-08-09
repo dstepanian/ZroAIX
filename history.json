@@ -3957,5 +3957,53 @@
       "deepseek-ai/DeepSeek-V4-Flash-0731",
       "Comfy-Org/MiniMax-H3"
     ]
+  },
+  {
+    "date": "2026-08-09",
+    "ts": 1786257392262,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի զարգացումները և դրա շուրջ աճող մտահոգությունները՝ սկսած նոր ձեռքբերումներից և մոդելների հնարավորություններից մինչև շրջակա միջավայրի և անվտանգության վրա ունեցած նշանակալի ազդեցությունները։",
+    "items": [
+      {
+        "headline": "OpenAI-ը ձեռք է բերում NextSlide-ը",
+        "summary": "OpenAI-ը ձեռք է բերել NextSlide պրեզենտացիաների ստարտափը, որի թիմի անդամներն այժմ աշխատում են ChatGPT-ի վրա։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Amazon-ի տվյալների կենտրոնը՝ աղտոտող",
+        "summary": "Amazon-ի նախատեսվող տվյալների կենտրոնը Տեխասում կարող է դառնալ ԱՄՆ-ի կլիմայի ամենամեծ աղտոտողը՝ իր էլեկտրակայանի պատճառով։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI գործակալների էներգիայի սպառումը",
+        "summary": "Կլիմայագետի ուսումնասիրությունը ցույց է տվել, որ AI գործակալները մոտ 600 անգամ ավելի շատ էներգիա են սպառում, քան պարզ AI չաթի հարցումները։",
+        "source": 13,
+        "link": "https://the-decoder.com/ai-agents-use-roughly-600-times-more-energy-than-a-simple-chat-prompt/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI Astra-ի կիբերանվտանգության ռիսկը",
+        "summary": "OpenAI-ը հայտնել է, որ իր նոր Astra մոդելը կարող է հասնել կիբերանվտանգության ամենաբարձր ռիսկի մակարդակին, ինչի պատճառով դադարեցվել է դրա մշակման որոշ մաս։",
+        "source": 14,
+        "link": "https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI պատմությունները գերազանցում են մարդկայինին",
+        "summary": "Նոր ուսումնասիրությունը ցույց է տվել, որ ընթերցողները AI-ի կողմից ստեղծված կարճ պատմությունները ավելի բարձր են գնահատում, քան մարդկայինները, մինչև չիմանան, որ դրանք մեքենայի գրածներն են։",
+        "source": 8,
+        "link": "https://the-decoder.com/readers-rate-ai-generated-short-stories-higher-than-human-ones-until-they-learn-a-machine-wrote-them/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "MiniMaxAI/MiniMax-H3",
+      "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "Comfy-Org/MiniMax-H3"
+    ]
   }
 ]
