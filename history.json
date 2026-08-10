@@ -4052,8 +4052,8 @@
   },
   {
     "date": "2026-08-10",
-    "ts": 1786345671514,
-    "overview": "Այսօրվա նորությունները ընդգծում են զգալի ներդրումները AI սարքավորումների մեջ, AI մոդելների հնարավորությունների առաջընթացը և AI-ի սոցիալական ու իրավական ազդեցությունների շուրջ աճող մտահոգությունները։",
+    "ts": 1786380114505,
+    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների և հավելվածների զգալի առաջընթացները, ինչպես նաև AI քաղաքականության, անվտանգության խոցելիությունների և Meta-ի ու OpenAI-ի նման խոշոր խաղացողների ռազմավարական քայլերի շուրջ կարևոր քննարկումները։",
     "items": [
       {
         "headline": "400 մլն դոլարի ներդրում AI չիպերի մեջ",
@@ -4096,9 +4096,60 @@
         "source": 14,
         "link": "https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն ներկայացնում է Muse Glimmer AI մոդելը",
+        "summary": "Meta-ն թողարկել է իր նոր բաց կոդով Muse Glimmer AI մոդելը, որը ակնարկում է Մարկ Ցուկերբերգի անձնական գերխելքի տեսլականը։",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի նամակը Տեխասի նահանգապետին",
+        "summary": "OpenAI-ը նամակ է ուղարկել Տեխասի նահանգապետ Գրեգ Էբոթին՝ շարադրելով իր հանձնառությունը Տեխասում պատասխանատու AI ենթակառուցվածքի ստեղծմանը։",
+        "source": 8,
+        "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Նոր նյութեր՝ ավելի արդյունավետ չիպերի համար",
+        "summary": "Discovered Materials ընկերությունը 9 միլիոն դոլար է հավաքել՝ AI-ի միջոցով ավելի արդյունավետ չիպեր կառուցելու համար նոր նյութեր գտնելու համար։",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Ford-ի նոր AI օգնականը",
+        "summary": "Ford-ը ներկայացնում է նոր AI-ով աշխատող օգնական, որը կարող է պատասխանել Ford կամ Lincoln մեքենաների մասին հարցերին, ինչպիսիք են վառելիքի մակարդակը կամ անվադողերի ճնշումը։",
+        "source": 19,
+        "link": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը ձեռք է բերում NextSlide-ը",
+        "summary": "OpenAI-ը ձեռք է բերել NextSlide ստարտափը՝ AI-ի կողմից ստեղծված շնորհանդեսները ChatGPT-ում ինտեգրելու համար։",
+        "source": 21,
+        "link": "https://the-decoder.com/openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Atlassian AI գործակալի խոցելիությունը",
+        "summary": "Անվտանգության PromptArmor ընկերությունը ցույց է տվել, թե ինչպես PDF ֆայլում թաքնված տեքստը կարող է օգտագործվել Atlassian-ի AI գործակալ Rovo-ի միջոցով զգայուն տվյալներ գողանալու համար։",
+        "source": 25,
+        "link": "https://the-decoder.com/hidden-text-in-a-pdf-is-enough-to-steal-sensitive-data-through-atlassians-ai-agent-rovo/",
+        "outlet": "The Decoder"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Muse Glimmer",
+        "note": "Meta-ի նոր բաց կոդով AI մոդել"
+      },
+      {
+        "name": "Ford AI assistant",
+        "note": "Ford-ի նոր AI-ով աշխատող օգնական"
+      }
+    ],
     "trending": [
       "MiniMaxAI/MiniMax-H3",
       "deepseek-ai/DeepSeek-V4-Flash-0731",
