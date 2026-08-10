@@ -4049,5 +4049,60 @@
       "deepseek-ai/DeepSeek-V4-Flash-0731",
       "Comfy-Org/MiniMax-H3"
     ]
+  },
+  {
+    "date": "2026-08-10",
+    "ts": 1786345671514,
+    "overview": "Այսօրվա նորությունները ընդգծում են զգալի ներդրումները AI սարքավորումների մեջ, AI մոդելների հնարավորությունների առաջընթացը և AI-ի սոցիալական ու իրավական ազդեցությունների շուրջ աճող մտահոգությունները։",
+    "items": [
+      {
+        "headline": "400 մլն դոլարի ներդրում AI չիպերի մեջ",
+        "summary": "Հեջ-ֆոնդ Situational Awareness-ը 400 միլիոն դոլար է ներդրել AI չիպեր արտադրող Source Foundry ստարտափում։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Claude Code-ի ավտոմատ ռեժիմը լռելյայն կդառնա",
+        "summary": "Anthropic-ը Claude Code-ի ավտոմատ ռեժիմը լռելյայն կդարձնի, ինչը կնվազեցնի մարդկային վերահսկողության անհրաժեշտությունը ծրագրավորման ժամանակ։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Tesla Autopilot-ի հետ կապված վթար",
+        "summary": "San Francisco 49ers-ի մարզիչ Քայլ Շանահանը հայտարարել է, որ իր Tesla-ն Autopilot ռեժիմում է եղել, երբ նա վթարի է ենթարկվել։",
+        "source": 9,
+        "link": "https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI դետեկտորները անվստահություն են ստեղծում",
+        "summary": "AI դետեկտորները նոր դարաշրջան են ստեղծում, որը բնութագրվում է անվստահության աճով։",
+        "source": 12,
+        "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI-ի ազդեցությունը բրիտանական դատարանների վրա",
+        "summary": "AI-ի կիրառումը զգալիորեն ավելացրել է Մեծ Բրիտանիայի աշխատանքային դատարանների հայցերի թիվը, որոնցից շատերը գրվել են ChatGPT-ի կամ Grok-ի միջոցով։",
+        "source": 13,
+        "link": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ի DiffusionGemma նոր մոդելը",
+        "summary": "Google DeepMind-ը ներկայացրել է DiffusionGemma-ն, որը Gemma 4-ը վերածում է դիֆուզիոն մոդելի՝ օգտագործելով սկզբնական ուսուցման բյուջեի 10 տոկոսից պակաս։",
+        "source": 14,
+        "link": "https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "MiniMaxAI/MiniMax-H3",
+      "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "Comfy-Org/MiniMax-H3"
+    ]
   }
 ]
