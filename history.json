@@ -4158,8 +4158,8 @@
   },
   {
     "date": "2026-08-11",
-    "ts": 1786430722720,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների զարգացման և խոշոր տեխնոլոգիական ընկերությունների ռազմավարական փոփոխությունները։ OpenAI-ը զգալի ֆինանսավորում է ստացել և թողարկել նոր կիբերանվտանգության մոդել, մինչդեռ Meta-ն շեշտը դրել է բաց մոդելների և նոր ռազմավարության վրա։",
+    "ts": 1786466746433,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների մշակման և կիրառման զգալի առաջընթացները, ինչպես նաև առաջատար AI ընկերությունների կողմից ենթակառուցվածքների ներդրումների և քաղաքականության մշակման հիմնական ռազմավարական քայլերը։",
     "items": [
       {
         "headline": "OpenAI-ը ավարտել է աշխատակիցների բաժնետոմսերի առաջարկը",
@@ -4202,12 +4202,58 @@
         "source": 18,
         "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
         "outlet": "Hugging Face"
+      },
+      {
+        "headline": "NVIDIA-ն թողարկում է Nemotron 3.5 Lightning",
+        "summary": "NVIDIA-ն ներկայացրել է Nemotron 3.5 Lightning բաց կշռային մոդելը, որն իր 3.6 միլիարդ պարամետրերով առաջնահերթություն է տալիս արագությանը և համապատասխանում է OpenAI-ի gpt-oss-120b-ին՝ չորս անգամ ավելի փոքր լինելով։",
+        "source": 3,
+        "link": "https://the-decoder.com/nvidias-open-weight-nemotron-3-5-lightning-prioritizes-speed-over-maximum-intelligence/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը 9.1 միլիարդ դոլարի գործարք է կնքել",
+        "summary": "Anthropic-ը 9.1 միլիարդ դոլարի արժողությամբ տվյալների կենտրոնի վարձակալության պայմանագիր է կնքել Bitcoin մայնինգով զբաղվող Riot Platforms-ի հետ Տեխասում՝ ընդլայնելով իր ենթակառուցվածքները։",
+        "source": 17,
+        "link": "https://the-decoder.com/anthropic-signs-9-1-billion-data-center-deal-with-bitcoin-miner-riot-platforms/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը ջրային նշաններ կդնի Claude-ի արդյունքներին",
+        "summary": "Anthropic-ը պարտավորվել է Claude-ի կողմից ստեղծված բոլոր տեքստերում և պատկերներում ներդնել անտեսանելի, մեքենայական ընթերցման ենթակա ջրային նշաններ՝ AI թափանցիկության եվրոպական կանոններին համապատասխանելու համար։",
+        "source": 21,
+        "link": "https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը գործարկում է GPT-5.6-Cyber մոդելը",
+        "summary": "OpenAI-ը գործարկել է GPT-5.6-Cyber մոդելը՝ կիբերանվտանգության պաշտպաններին օգնելու համար հայտնաբերել խոցելիություններ նախքան հարձակվողները, ինչը արդեն բացահայտել է Chrome-ի երկու անհայտ խոցելիություն։",
+        "source": 31,
+        "link": "https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ում գովազդի փորձարկումներ են սկսվել",
+        "summary": "OpenAI-ը սկսում է գովազդների փորձարկումներ ChatGPT-ում՝ աջակցելու անվճար մուտքին՝ պահպանելով հստակ պիտակավորումը, պատասխանների անկախությունը, ուժեղ գաղտնիության պաշտպանությունը և օգտատերերի վերահսկողությունը։",
+        "source": 19,
+        "link": "https://openai.com/index/testing-ads-in-chatgpt",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "AI-ն հայտնաբերել է Zoom-ի խոցելիություն",
+        "summary": "Zoom-ը շտկել է անվտանգության լուրջ խոցելիություն, որը հայտնաբերվել է հետազոտողների կողմից՝ օգտագործելով 20-ից պակաս AI հուշումներ, ինչը թույլ էր տալիս հարձակվողին կոտրել ցանկացած սարք հանդիպման ժամանակ։",
+        "source": 4,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
       {
         "name": "GPT-5.6-Cyber",
         "note": "OpenAI-ի նոր կիբերանվտանգության AI մոդել"
+      },
+      {
+        "name": "Nemotron 3.5 Lightning",
+        "note": "NVIDIA-ի նոր բաց կշռային AI մոդել"
       }
     ],
     "trending": [
