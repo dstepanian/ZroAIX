@@ -4264,8 +4264,8 @@
   },
   {
     "date": "2026-08-12",
-    "ts": 1786518374427,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI արտադրանքների ընդունման զգալի աճը (Gemini-ի 1 միլիարդ օգտատերերի հասնելը), AI արդյունաբերության ներսում խոշոր ֆինանսական տեղաշարժերը (OpenAI-ի բաժնետոմսերի հետգնումը, River AI-ի հսկայական ֆինանսավորումը, NVIDIA-ի ենթակառուցվածքների ֆինանսավորումը) և AI անվտանգության ու հասանելիության կարևոր զարգացումները (LLM API-ների խոցելիությունները, ChatGPT Linux հավելվածը):",
+    "ts": 1786553118628,
+    "overview": "Այսօրվա նորությունները լուսաբանում են AI ոլորտի զարգացող լանդշաֆտը, ներառյալ խոշոր խաղացողների շուկայական դիրքերը, նոր մոդելների մշակումները և էթիկական մտահոգությունները: Google-ի Gemini-ի շուրջ հակասական տվյալներ կան՝ մինչ շուկայական մասնաբաժնի կորուստ է արձանագրվում, հավելվածը հասել է 1 միլիարդ օգտատերերի։",
     "items": [
       {
         "headline": "Google Gemini-ն հասել է 1 միլիարդ օգտատերերի",
@@ -4308,6 +4308,48 @@
         "source": 6,
         "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Gemini-ի շուկայական մասնաբաժնի կորուստ",
+        "summary": "Նոր տվյալների համաձայն՝ Google-ի Gemini-ն կորցնում է AI շուկայական մասնաբաժինը՝ զիջելով ChatGPT-ին և Claude-ին։",
+        "source": 6,
+        "link": "https://the-decoder.com/googles-gemini-is-losing-market-share-to-chatgpt-and-claude-according-to-new-market-data/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Gemini հավելվածը հասել է 1 միլիարդ օգտատերերի",
+        "summary": "Google-ի Gemini հավելվածը հասել է 1 միլիարդ օգտատերերի, ընդ որում օգտատերերի 63%-ը շփվում է օգնականի հետ ձայնային գործառույթի միջոցով։",
+        "source": 35,
+        "link": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի COO-ն հեռանում է պաշտոնից",
+        "summary": "OpenAI-ի երկարամյա գործառնական տնօրեն (COO) Բրեդ Լայթքափը հեռանում է ընկերությունից՝ «նոր բան սկսելու» համար։",
+        "source": 37,
+        "link": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Nvidia-ի Nemotron 4-ը կհասնի տրիլիոն պարամետրի",
+        "summary": "Nvidia-ն աշխատում է Nemotron 4 նոր բաց կշռային մոդելի վրա, որը նպատակ ունի հասնել մեկ տրիլիոն պարամետրի՝ մրցակցելով աշխարհի լավագույն հասանելի մոդելների հետ։",
+        "source": 23,
+        "link": "https://the-decoder.com/nvidias-nemotron-4-aims-for-one-trillion-parameters-a-scale-chinese-labs-already-surpassed/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "DeepMind-ը ներկայացնում է SL2T մոդելը",
+        "summary": "DeepMind-ը ներկայացրել է sign-language-to-text (SL2T) մոդելը, որը նախատեսված է խուլ և լսողության խնդիրներ ունեցող օգտատերերի համար ժեստերի լեզվի նոր գործառույթներ ապահովելու համար։",
+        "source": 14,
+        "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "AI ընկերությունները կասկածվում են հազվագյուտ գրքեր ոչնչացնելու մեջ",
+        "summary": "Գրքավաճառները կասկածում են, որ AI ընկերությունները գաղտնիորեն մեծ քանակությամբ հազվագյուտ գրքեր են գնում, իսկ հետո ոչնչացնում դրանք։",
+        "source": 8,
+        "link": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
+        "outlet": "Ars Technica"
       }
     ],
     "releases": [
@@ -4318,12 +4360,16 @@
       {
         "name": "Daybreak models",
         "note": "OpenAI-ի կիբերանվտանգության մոդելները հասանելի են AWS-ում"
+      },
+      {
+        "name": "SL2T",
+        "note": "DeepMind-ի նոր մոդել՝ ժեստերի լեզվի համար"
       }
     ],
     "trending": [
-      "MiniMaxAI/MiniMax-H3",
       "meta-models/Muse-Glimmer-30B",
-      "deepseek-ai/DeepSeek-V4-Flash-0731"
+      "MiniMaxAI/MiniMax-H3",
+      "larryvrh/MiniMax-H3-Turbo-Lora"
     ]
   }
 ]
