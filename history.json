@@ -4261,5 +4261,69 @@
       "meta-models/Muse-Glimmer-30B",
       "deepseek-ai/DeepSeek-V4-Flash-0731"
     ]
+  },
+  {
+    "date": "2026-08-12",
+    "ts": 1786518374427,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI արտադրանքների ընդունման զգալի աճը (Gemini-ի 1 միլիարդ օգտատերերի հասնելը), AI արդյունաբերության ներսում խոշոր ֆինանսական տեղաշարժերը (OpenAI-ի բաժնետոմսերի հետգնումը, River AI-ի հսկայական ֆինանսավորումը, NVIDIA-ի ենթակառուցվածքների ֆինանսավորումը) և AI անվտանգության ու հասանելիության կարևոր զարգացումները (LLM API-ների խոցելիությունները, ChatGPT Linux հավելվածը):",
+    "items": [
+      {
+        "headline": "Google Gemini-ն հասել է 1 միլիարդ օգտատերերի",
+        "summary": "Google-ի Gemini հավելվածը դարձել է ընկերության ամենաարագ աճող արտադրանքը՝ հասնելով 1 միլիարդ օգտատերերի։",
+        "source": 5,
+        "link": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը հետ է գնել 7 միլիարդ դոլարի բաժնետոմսեր",
+        "summary": "OpenAI-ը ավարտել է 7 միլիարդ դոլարի բաժնետոմսերի հետգնումը՝ թույլ տալով ներկա և նախկին աշխատակիցներին վաճառել բաժնետոմսեր՝ ընկերության 852 միլիարդ դոլար գնահատմամբ։",
+        "source": 8,
+        "link": "https://the-decoder.com/openai-lets-employees-cash-out-another-7-billion-in-stock/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "River AI-ը ստացել է 1.1 միլիարդ դոլարի ֆինանսավորում",
+        "summary": "xAI-ի համահիմնադիր Իգոր Բաբուշկինի կողմից հիմնադրված River AI ստարտափը ստացել է 1.1 միլիարդ դոլարի ֆինանսավորում՝ անձնական AI գործակալների իր տեսլականի համար։",
+        "source": 11,
+        "link": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "LLM API-ների խոցելիություն է հայտնաբերվել",
+        "summary": "Անվտանգության հետազոտողները խոցելիություն են հայտնաբերել OpenAI-ի, Anthropic-ի և Google-ի API-ներում, որը թույլ է տալիս արդյունահանել տրամաբանության հետքեր և գաղտնաբառեր։",
+        "source": 12,
+        "link": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "NVIDIA-ն ապահովում է 500 միլիարդ դոլարի AI ֆինանսավորում",
+        "summary": "NVIDIA-ն համագործակցում է խոշոր ֆինանսական հաստատությունների հետ՝ մոբիլիզացնելու ավելի քան 500 միլիարդ դոլար AI ենթակառուցվածքների համար՝ երաշխավորելով իր չիպերի մնացորդային արժեքի մինչև 25 տոկոսը։",
+        "source": 21,
+        "link": "https://the-decoder.com/nvidia-guarantees-its-own-chips-value-to-unlock-500-billion-in-ai-infrastructure-financing/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ի աշխատասեղանի հավելվածը Linux-ի համար",
+        "summary": "OpenAI-ը թողարկել է ChatGPT-ի հատուկ աշխատասեղանի հավելված Linux օպերացիոն համակարգերի համար։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "ChatGPT desktop app for Linux",
+        "note": "OpenAI-ի նոր հավելվածը Linux օգտատերերի համար"
+      },
+      {
+        "name": "Daybreak models",
+        "note": "OpenAI-ի կիբերանվտանգության մոդելները հասանելի են AWS-ում"
+      }
+    ],
+    "trending": [
+      "MiniMaxAI/MiniMax-H3",
+      "meta-models/Muse-Glimmer-30B",
+      "deepseek-ai/DeepSeek-V4-Flash-0731"
+    ]
   }
 ]
