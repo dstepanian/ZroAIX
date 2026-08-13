@@ -4371,5 +4371,69 @@
       "MiniMaxAI/MiniMax-H3",
       "larryvrh/MiniMax-H3-Turbo-Lora"
     ]
+  },
+  {
+    "date": "2026-08-13",
+    "ts": 1786605021710,
+    "overview": "Այսօրվա տեխնոլոգիական նորությունները շեշտում են AI մոդելների մրցակցային զարգացումները և զգալի ներդրումները ոլորտում։ Բացի այդ, կարևոր քայլեր են արվում օգտատերերի տվյալների գաղտնիության և AI անվտանգության ապահովման ուղղությամբ։",
+    "items": [
+      {
+        "headline": "xAI-ի Grok 4.6-ը մրցում է OpenAI-ի մոդելների հետ",
+        "summary": "xAI-ի Grok 4.6 մոդելը, ըստ Artificial Analysis Intelligence Index-ի, հավասարվել է OpenAI-ի լավագույն մոդելին՝ GPT-5.6 Sol-ին, և առաջարկում է ավելի ցածր գին։",
+        "source": 14,
+        "link": "https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Cognition AI ստարտափը բարձրացնում է գնահատումը",
+        "summary": "AI կոդավորման Cognition ստարտափը, ինչպես հաղորդվում է, բանակցություններ է վարում 40 միլիարդ դոլար գնահատմամբ նոր ներդրումներ ներգրավելու շուրջ՝ նախորդ 26 միլիարդ դոլարից ընդամենը մի քանի ամիս անց։",
+        "source": 15,
+        "link": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Thrive Holdings-ը 2 միլիարդ դոլար է ներգրավում",
+        "summary": "OpenAI-ի կողմից աջակցվող Thrive Holdings ընկերությունը 2 միլիարդ դոլարի նոր ֆինանսավորում է ներգրավել 12 միլիարդ դոլար գնահատմամբ՝ SoftBank-ի և այլ ներդրողների կողմից՝ ձեռնարկություններում AI ներդնելու համար։",
+        "source": 18,
+        "link": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ը ներկայացնում է Pixel 11 շարքը և Gemini-ի նոր հնարավորություններ",
+        "summary": "Google-ը ներկայացրել է Pixel 11 սմարթֆոնների շարքը, Pixel Watch 5-ը, Pixel Tag-ը և Gemini-ի բազմաթիվ նոր հնարավորություններ իր Made by Google 2026 միջոցառմանը։",
+        "source": 33,
+        "link": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Twitch-ի օգտատերերը կարող են հրաժարվել AI ուսուցումից",
+        "summary": "Twitch-ի օգտատերերն այժմ կարող են հրաժարվել իրենց բովանդակությունը Amazon-ի գեներատիվ AI մոդելների ուսուցման համար օգտագործելուց։",
+        "source": 8,
+        "link": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Հետազոտողները կարող են վերականգնել LLM հրահանգները",
+        "summary": "Հետազոտողները մշակել են հակադարձ լեզվական մոդել, որը գրեթե կատարյալ ճշգրտությամբ վերականգնում է LLM-ի ելքային տեքստից սկզբնական հրահանգը՝ առանց մոդելի կշիռներին հասանելիության։",
+        "source": 19,
+        "link": "https://the-decoder.com/researchers-can-now-reverse-engineer-llm-prompts-from-output-text-with-near-perfect-accuracy/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Grok 4.6",
+        "note": "xAI-ի նոր AI լեզվական մոդել"
+      },
+      {
+        "name": "Google Pixel 11 Series",
+        "note": "Google-ի նոր սմարթֆոնների շարք"
+      }
+    ],
+    "trending": [
+      "meta-models/Muse-Glimmer-30B",
+      "MiniMaxAI/MiniMax-H3",
+      "Qwen/Qwen3.8-2.4T-A95B"
+    ]
   }
 ]
