@@ -4374,8 +4374,8 @@
   },
   {
     "date": "2026-08-13",
-    "ts": 1786605021710,
-    "overview": "Այսօրվա տեխնոլոգիական նորությունները շեշտում են AI մոդելների մրցակցային զարգացումները և զգալի ներդրումները ոլորտում։ Բացի այդ, կարևոր քայլեր են արվում օգտատերերի տվյալների գաղտնիության և AI անվտանգության ապահովման ուղղությամբ։",
+    "ts": 1786639436312,
+    "overview": "Օրվա նորությունները կարևոր զարգացումներ են ընդգծում AI մոդելների և արտադրանքի գործառույթների ոլորտում, ինչպես նաև քննարկումներ AI էթիկայի, անվտանգության և շուկայական դինամիկայի շուրջ։",
     "items": [
       {
         "headline": "xAI-ի Grok 4.6-ը մրցում է OpenAI-ի մոդելների հետ",
@@ -4418,6 +4418,48 @@
         "source": 19,
         "link": "https://the-decoder.com/researchers-can-now-reverse-engineer-llm-prompts-from-output-text-with-near-perfect-accuracy/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Deepseek-ը թողարկում է V4 Pro-ն",
+        "summary": "Deepseek-ը թողարկել է իր առաջատար V4 Pro մոդելը փորձարկման փուլից դուրս և բաց կոդով հասանելի դարձրել իր Harness v0.1 գործակալի ծրագրակազմը՝ միաժամանակ բարձրացնելով API-ի գները։",
+        "source": 2,
+        "link": "https://the-decoder.com/deepseek-launches-an-improved-v4-pro-model-raises-api-prices-and-makes-its-agent-software-open-source/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "WhatsApp-ի խարդախությունների հայտնաբերում",
+        "summary": "Meta-ն WhatsApp-ում ներդնում է կամընտիր Scam Alert գործառույթ, որն օգտագործում է սարքի վրա հիմնված մեքենայական ուսուցում՝ կասկածելի հաղորդագրությունները նշելու համար։",
+        "source": 4,
+        "link": "https://www.theverge.com/tech/979654/meta-whatsapp-scam-message-detection",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Microsoft-ը միավորում է Copilot հավելվածները",
+        "summary": "Microsoft-ը պարզեցնում է Copilot-ը՝ միավորելով իր սպառողական և բիզնես հավելվածները և դադարեցնելով որոշ AI-ով ստեղծված գործառույթներ։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ի հնարավոր արժեքը",
+        "summary": "Արագ եկամուտների աճը հույս է ներշնչում, որ Claude-ի ստեղծող Anthropic-ի IPO-ն կարող է դառնալ պատմության մեջ ամենամեծ ցուցակագրումը՝ հասնելով 2 տրիլիոն դոլարի արժեքի։",
+        "source": 16,
+        "link": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Տվյալների արտահոսք AI փաթեթից",
+        "summary": "Տերաբայթերով հավատարմագրեր են արտահոսել զանգվածային մատակարարման շղթայի հարձակման արդյունքում, որի ընթացքում տվյալները քերվել և արտահանվել են վտանգված AI փաթեթի 2,500 օգտատերերից։",
+        "source": 29,
+        "link": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Twitch-ի տվյալների օգտագործումը AI-ի համար",
+        "summary": "Amazon-ը լռելյայն կօգտագործի Twitch-ի հեռարձակողների բովանդակությունը AI մոդելների մարզման համար, եթե նրանք չհրաժարվեն այդ տարբերակից։",
+        "source": 30,
+        "link": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -4428,6 +4470,14 @@
       {
         "name": "Google Pixel 11 Series",
         "note": "Google-ի նոր սմարթֆոնների շարք"
+      },
+      {
+        "name": "Deepseek V4 Pro",
+        "note": "AI մոդելի նոր տարբերակ"
+      },
+      {
+        "name": "Deepseek Harness v0.1",
+        "note": "Բաց կոդով գործակալի ծրագրակազմ"
       }
     ],
     "trending": [
