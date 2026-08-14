@@ -4485,5 +4485,69 @@
       "MiniMaxAI/MiniMax-H3",
       "Qwen/Qwen3.8-2.4T-A95B"
     ]
+  },
+  {
+    "date": "2026-08-14",
+    "ts": 1786691206746,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների զգալի առաջընթացները, քանի որ Google-ը և OpenAI-ը թողարկում են ավելի արագ և հզոր տարբերակներ՝ AI ոլորտում զգալի ներդրումների հետ մեկտեղ: Միաժամանակ, կարգավորող և իրավական գործողությունները շարունակում են ձևավորել տեխնոլոգիական լանդշաֆտը:",
+    "items": [
+      {
+        "headline": "ԱՄՆ-ը սահմանում է նոր մաքսատուրքեր դրոնների վրա",
+        "summary": "ԱՄՆ նախագահ Դոնալդ Թրամփը հայտարարել է 100 տոկոսանոց մաքսատուրքեր բազմաթիվ ներկրվող դրոնների և ինքնաթիռների մասերի վրա։",
+        "source": 1,
+        "link": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Դատարանը Google-ին պարտադրել է հեշտացնել հավելվածների տեղադրումը",
+        "summary": "Դատավոր Ջեյմս Դոնատոն Google-ին հրամայել է հեշտացնել մրցակից հավելվածների խանութների տեղադրումը Android սարքերում՝ ընդունելով, որ ընկերությունը անօրինական մենաշնորհ ունի։",
+        "source": 4,
+        "link": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Databricks-ը 5 միլիարդ դոլարի ֆինանսավորում է ստացել",
+        "summary": "Databricks-ը 5 միլիարդ դոլարի ֆինանսավորում է ներգրավել 190 միլիարդ դոլար գնահատմամբ, ինչը ցույց է տալիս AI ոլորտում ներդրողների մեծ հետաքրքրությունը։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ը թողարկել է Gemini 3.7 Flash մոդելը",
+        "summary": "Google-ը թողարկել է Gemini 3.7 Flash մոդելը, որը նախորդից 50%-ով ավելի էժան է և զգալի բարելավումներ ունի կոդավորման և AI գործակալների համար։",
+        "source": 19,
+        "link": "https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը ներկայացրել է GPT-5.6 Sol-ի Ultrafast ռեժիմը",
+        "summary": "OpenAI-ը ներկայացրել է GPT-5.6 Sol-ի Ultrafast ռեժիմի նախադիտումը, որը մոդելն աշխատեցնում է մինչև 14 անգամ ավելի արագ՝ ուղղված ձեռնարկությունների օգտատերերին։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "IBM-ը համագործակցում է OpenAI-ի հետ",
+        "summary": "IBM-ը համագործակցում է OpenAI-ի հետ՝ նպատակ ունենալով տասնյակ հազարավոր խորհրդատուների վերապատրաստել և հավաստագրել OpenAI-ի տեխնոլոգիաների վերաբերյալ՝ ձեռնարկությունների համար AI-ի զարգացումը խթանելու համար։",
+        "source": 17,
+        "link": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Gemini 3.7 Flash",
+        "note": "Google-ի նոր AI մոդել"
+      },
+      {
+        "name": "Suno Studio 2.0",
+        "note": "AI երաժշտական հարթակի նոր տարբերակ"
+      }
+    ],
+    "trending": [
+      "meta-models/Muse-Glimmer-30B",
+      "MiniMaxAI/MiniMax-H3",
+      "Qwen/Qwen3.8-2.4T-A95B"
+    ]
   }
 ]
