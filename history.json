@@ -4488,8 +4488,8 @@
   },
   {
     "date": "2026-08-14",
-    "ts": 1786691206746,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների զգալի առաջընթացները, քանի որ Google-ը և OpenAI-ը թողարկում են ավելի արագ և հզոր տարբերակներ՝ AI ոլորտում զգալի ներդրումների հետ մեկտեղ: Միաժամանակ, կարգավորող և իրավական գործողությունները շարունակում են ձևավորել տեխնոլոգիական լանդշաֆտը:",
+    "ts": 1786725564664,
+    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների արդյունավետության զգալի բարելավումները և նոր թողարկումները, ինչպես նաև աճող մրցակցությունը և ռազմավարական գործընկերությունները համաշխարհային AI ոլորտում։",
     "items": [
       {
         "headline": "ԱՄՆ-ը սահմանում է նոր մաքսատուրքեր դրոնների վրա",
@@ -4532,6 +4532,48 @@
         "source": 17,
         "link": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI ինքնավար հետազոտության ուսումնասիրություն",
+        "summary": "Նոր ուսումնասիրությունը հակասում է Anthropic-ի և OpenAI-ի պնդումներին, թե ինքնավար AI հետազոտությունը մոտ է, քանի որ փորձարկված մոդելները չեն կարողացել բավարար որակի հետազոտական աշխատանքներ գրել։",
+        "source": 2,
+        "link": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի և Anthropic-ի գների պատերազմ",
+        "summary": "OpenAI-ը և Anthropic-ը գների պատերազմի մեջ են մտել՝ թողարկելով ավելի էժան մոդելներ՝ ի պատասխան չինական AI մրցակիցների աճող մարտահրավերների։",
+        "source": 6,
+        "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը գործարկում է Ultrafast ռեժիմը",
+        "summary": "OpenAI-ը գործարկում է GPT-5.6 Sol-ի համար «Ultrafast» նոր ռեժիմը, որն ապահովում է մինչև 750 թոքեն/վրկ արագություն՝ օգտագործելով Cerebras-ի սարքավորումները։",
+        "source": 7,
+        "link": "https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Zhipu AI-ը թողարկում է GLM-5.3",
+        "summary": "Zhipu AI-ը թողարկել է GLM-5.3 մոդելը, որը, ըստ իրենց չափորոշիչների, ամենահզոր բաց կոդով կոդավորման մոդելն է՝ 50 տոկոս բարելավումով նախորդի նկատմամբ։",
+        "source": 15,
+        "link": "https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը AI մոդել է մարզել Չինաստանի համար",
+        "summary": "Հաղորդվում է, որ Apple-ը Alibaba-ի հետ համատեղ մարզել է հատուկ AI մոդել Չինաստանի շուկայի համար՝ նշանավորելով հազվագյուտ անդրսահմանային գործընկերություն։",
+        "source": 16,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը ներկայացնում է Gemini 3.7 Flash",
+        "summary": "Google-ը ներկայացրել է Gemini 3.7 Flash մոդելը, որը զգալի բարելավումներ ունի նախորդ տարբերակի համեմատ՝ թողարկվելով ընդամենը երեք շաբաթ անց։",
+        "source": 35,
+        "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+        "outlet": "DeepMind"
       }
     ],
     "releases": [
@@ -4542,11 +4584,15 @@
       {
         "name": "Suno Studio 2.0",
         "note": "AI երաժշտական հարթակի նոր տարբերակ"
+      },
+      {
+        "name": "GLM-5.3",
+        "note": "Zhipu AI-ի նոր բաց կոդով կոդավորման AI մոդել"
       }
     ],
     "trending": [
+      "Qwen/Qwen3.8-27B",
       "meta-models/Muse-Glimmer-30B",
-      "MiniMaxAI/MiniMax-H3",
       "Qwen/Qwen3.8-2.4T-A95B"
     ]
   }
