@@ -4598,8 +4598,8 @@
   },
   {
     "date": "2026-08-15",
-    "ts": 1786774766340,
-    "overview": "Օրվա նորությունները ընդգծում են ինչպես AI մոդելների և գործիքների առաջընթացը, այնպես էլ դրանց ավելի լայն հետևանքները արդյունաբերության և հասարակության համար։",
+    "ts": 1786810290783,
+    "overview": "Այսօրվա նորությունները լուսաբանում են արհեստական բանականության ֆինանսական դինամիկան, էթիկական մարտահարցերը դատական գործերում և ստեղծագործական ոլորտներում, ինչպես նաև ռոբոտաշինության ոլորտում դրա կիրառման և ընկալման հնարավորությունների զարգացումները։",
     "items": [
       {
         "headline": "Alibaba-ն թողարկել է Qwen 3.8 մոդելները",
@@ -4635,6 +4635,41 @@
         "source": 20,
         "link": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Nvidia-ի և OpenAI-ի ֆինանսական փոփոխություններ",
+        "summary": "Nvidia-ն կրճատել է իր երաշխիքը OpenAI-ի տվյալների կենտրոնի համար, մինչդեռ Anthropic-ի եկամուտները զգալիորեն աճել են մեկ եռամսյակում։",
+        "source": 1,
+        "link": "https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI հրահանգներ դատական փաստաթղթերում",
+        "summary": "Կոնեկտիկուտի դատարանում հայցվորը փորձել է անտեսանելի AI հրահանգներ ներդնել դատական փաստաթղթերում՝ ավտոմատացված վերանայման համակարգի վրա ազդելու համար։",
+        "source": 12,
+        "link": "https://the-decoder.com/plaintiff-hid-invisible-ai-instructions-in-court-filings-to-secretly-influence-automated-review/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "World Labs-ի նոր ռոբոտների ուսուցման համակարգ",
+        "summary": "AI պիոներ Ֆեյ-Ֆեյ Լիի World Labs ստարտափը ներկայացրել է սիմուլյացիոն շարժիչ, որը ռոբոտների կառավարիչներին մարզում է վիրտուալ միջավայրերում՝ մեկ իրական առաջադրանքից ստեղծելով հազարավոր տարբերակներ։",
+        "source": 13,
+        "link": "https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ով ստեղծված գրքեր Amazon-ում",
+        "summary": "AI-ով ստեղծված գրքերը հեղեղում են Amazon-ի ինքնահրատարակված կատալոգը՝ կազմելով դրա 20 տոկոսը, ինչը նվազեցնում է մարդկային հեղինակների վաճառքները։",
+        "source": 10,
+        "link": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI մոդելների տեսողական ընկալման թույլ կատարում",
+        "summary": "Նոր PerceptionBench չափորոշիչը հաստատում է, որ AI մոդելները դեռևս թույլ են կատարում տեսողական ընկալման առաջադրանքները, ընդ որում ոչ մի առաջատար մոդել չի հասնում 60 տոկոս ճշգրտության։",
+        "source": 15,
+        "link": "https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
