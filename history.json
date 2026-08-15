@@ -4595,5 +4595,62 @@
       "meta-models/Muse-Glimmer-30B",
       "Qwen/Qwen3.8-2.4T-A95B"
     ]
+  },
+  {
+    "date": "2026-08-15",
+    "ts": 1786774766340,
+    "overview": "Օրվա նորությունները ընդգծում են ինչպես AI մոդելների և գործիքների առաջընթացը, այնպես էլ դրանց ավելի լայն հետևանքները արդյունաբերության և հասարակության համար։",
+    "items": [
+      {
+        "headline": "Alibaba-ն թողարկել է Qwen 3.8 մոդելները",
+        "summary": "Alibaba-ի Qwen թիմը թողարկել է Qwen 3.8 բաց կշռային մոդելները Apache 2.0 լիցենզիայի ներքո, որոնք նախատեսված են գերազանցելու նախորդ մոդելներին կոդավորման և գրասենյակային առաջադրանքներում։",
+        "source": 12,
+        "link": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը ներկայացրել է ջրանիշի API",
+        "summary": "Anthropic-ը շուտով կառաջարկի ջրանիշի հայտնաբերման API, որը թույլ կտա երրորդ կողմերին ստուգել՝ արդյոք տեքստը գրվել է Claude-ի կողմից։",
+        "source": 5,
+        "link": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի Computer History-ն՝ նոր հիշողություն",
+        "summary": "OpenAI-ի Computer History-ն Mac համակարգիչների վրա գրանցում է սեղմումները և ստեղնաշարի հարվածները՝ դրանք վերածելով ChatGPT-ի և Codex-ի համար որոնելի ժամանակացույցի։",
+        "source": 14,
+        "link": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը թույլ է տալիս հեռացնել ջրանիշերը",
+        "summary": "Google-ն այժմ թույլ կտա օգտատերերին հեռացնել տեսանելի ջրանիշերը AI գործիքներով ստեղծված պատկերներից, տեսանյութերից և երաժշտությունից։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Բնական գազի գները և AI տվյալների կենտրոնները",
+        "summary": "Բնական գազի գները կարող են եռապատկվել ԱՄՆ-ի որոշ շրջաններում, ինչը կարող է հսկայական ծախսեր առաջացնել hyperscaler-ների համար՝ իրենց AI տվյալների կենտրոնները սնուցելու համար։",
+        "source": 20,
+        "link": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Qwen 3.8",
+        "note": "Alibaba-ի նոր բաց կոդով AI մոդել"
+      },
+      {
+        "name": "Anthropic watermark detection API",
+        "note": "Claude-ի տեքստերը հայտնաբերելու գործիք"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "meta-models/Muse-Glimmer-30B",
+      "Qwen/Qwen3.8-2.4T-A95B"
+    ]
   }
 ]
