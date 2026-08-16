@@ -4690,8 +4690,8 @@
   },
   {
     "date": "2026-08-16",
-    "ts": 1786861269130,
-    "overview": "Այսօրվա նորությունները շեշտում են AI գործիքների զարգացումը և դրանց աճող ազդեցությունը աշխատուժի վրա, ինչպես նաև կարևորում են AI-ի անվտանգության և չարաշահման հետ կապված մտահոգությունները։ Բացի այդ, արձանագրվել են AI ոլորտում խոշոր ձեռքբերումներ։",
+    "ts": 1786896733549,
+    "overview": "Այսօրվա նորությունները շեշտում են AI տեխնոլոգիաների զարգացումները և դրանց հետ կապված անվտանգության ու էթիկական մարտահրավերները։ Խոշոր ընկերությունները բախվում են ներքին վերակազմավորումների և անվտանգության բացթողումների հետ՝ միաժամանակ բացահայտելով AI մոդելների նոր հնարավորություններն ու սահմանափակումները։",
     "items": [
       {
         "headline": "Նոր հարթակ՝ AI մոդելների թեստավորման համար",
@@ -4727,6 +4727,41 @@
         "source": 9,
         "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Մաթեմատիկոսները LLM-ների ստեղծագործականության մասին",
+        "summary": "Երկու հայտնի մաթեմատիկոսներ պնդում են, որ մեծ լեզվական մոդելները (LLM) լավ են համատեղում հայտնի մեթոդները, սակայն բացակայում է նրանց մոտ նոր մաթեմատիկական գաղափարների ինտուիցիան։",
+        "source": 1,
+        "link": "https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ի նոր գործառույթը հետևում է օգտատերերին",
+        "summary": "ChatGPT-ի macOS աշխատասեղանի հավելվածի նոր Computer History գործառույթը հետևում է օգտատերերի սեղմումներին և ստեղնաշարի հարվածներին՝ դրանք վերածելով ուսուցման տվյալների։",
+        "source": 3,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI մոդելների ինքնաարտացոլման ազդեցությունը",
+        "summary": "Google-ի հետազոտողների մասնակցությամբ ուսումնասիրությունը ցույց է տվել, որ երբ չաթբոթերին արգելվում է գիտակցություն պնդել, դա փոխում է նրանց դիրքորոշումը կենդանիների իրավունքների, կրոնի և կյանքի բավարարվածության վերաբերյալ։",
+        "source": 5,
+        "link": "https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը լուծարել է AI ռիսկերի թիմը",
+        "summary": "OpenAI-ը լուծարել է իր «Preparedness» թիմը, որը գնահատում էր ընկերության AI մոդելների կողմից առաջացող աղետալի ռիսկերը, և դրա աշխատանքը բաշխվել է այլ խմբերի միջև։",
+        "source": 6,
+        "link": "https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի կենսազենքի զտիչը անգործուն է եղել",
+        "summary": "Anthropic-ը բացահայտել է, որ իր ներքին զտիչ համակարգը կենսաբանական և քիմիական զենքերի ռիսկերի համար գրեթե մեկ տարի անգործուն է եղել՝ այդ ընթացքում բացահայտելով մոտ 133 միլիոն հարցում։",
+        "source": 7,
+        "link": "https://the-decoder.com/anthropics-bio-weapons-filter-was-down-for-nearly-a-year-exposing-133-million-requests/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
