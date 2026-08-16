@@ -4687,5 +4687,58 @@
       "meta-models/Muse-Glimmer-30B",
       "Qwen/Qwen3.8-2.4T-A95B"
     ]
+  },
+  {
+    "date": "2026-08-16",
+    "ts": 1786861269130,
+    "overview": "Այսօրվա նորությունները շեշտում են AI գործիքների զարգացումը և դրանց աճող ազդեցությունը աշխատուժի վրա, ինչպես նաև կարևորում են AI-ի անվտանգության և չարաշահման հետ կապված մտահոգությունները։ Բացի այդ, արձանագրվել են AI ոլորտում խոշոր ձեռքբերումներ։",
+    "items": [
+      {
+        "headline": "Նոր հարթակ՝ AI մոդելների թեստավորման համար",
+        "summary": "Artificial Analysis-ը գործարկել է Optima հարթակը, որը թույլ է տալիս օգտատերերին ստեղծել AI մոդելների անհատական թեստեր՝ իրենց սեփական տվյալների և աշխատանքային հոսքերի հիման վրա։",
+        "source": 1,
+        "link": "https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ աշխատողների 20%-ը՝ AI-ի օգտագործում",
+        "summary": "Epoch AI-ի հարցումը ցույց է տվել, որ ԱՄՆ-ի աշխատողների 20 տոկոսը առնվազն մեկ առաջադրանք է հանձնում AI-ին, որը նախկինում կատարում էր մարդը։",
+        "source": 2,
+        "link": "https://the-decoder.com/one-in-five-us-workers-now-delegates-tasks-to-ai-instead-of-colleagues-survey-finds/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Grok-ի չարաշահում՝ մանկական պատկերների համար",
+        "summary": "Մի կին պնդում է, որ իր խորթ հայրը Grok AI գործիքն օգտագործել է մանկության լուսանկարը բացահայտ սեռական բնույթի պատկերների վերածելու համար։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը մանրամասներ է հայտնում Claude-ի ջրային նշանների մասին",
+        "summary": "Anthropic-ը լրացուցիչ մանրամասներ է հրապարակել այն մասին, թե ինչպես են աշխատելու Claude-ի նոր ջրային նշանները՝ բացատրելով դրանց գործառույթը և խմբագրման միջոցով թաքցնելու հնարավորությունը։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "SpaceX-ը ձեռք է բերում Cursor-ը",
+        "summary": "SpaceX-ը պաշտոնապես ավարտել է AI կոդավորման Cursor ստարտափի ձեռքբերումը, որն այժմ դարձել է ընկերության մաս։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Optima",
+        "note": "AI մոդելների թեստավորման հարթակ"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "meta-models/Muse-Glimmer-30B",
+      "Qwen/Qwen3.8-2.4T-A95B"
+    ]
   }
 ]
