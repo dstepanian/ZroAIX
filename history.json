@@ -4775,5 +4775,53 @@
       "meta-models/Muse-Glimmer-30B",
       "Qwen/Qwen3.8-2.4T-A95B"
     ]
+  },
+  {
+    "date": "2026-08-17",
+    "ts": 1786948284806,
+    "overview": "Այսօրվա նորությունները ընդգծում են արհեստական բանականության ոլորտում անվտանգության և վստահության շուրջ աճող մտահոգությունները, ինչպես նաև խոշոր ֆինանսական գործարքները։",
+    "items": [
+      {
+        "headline": "OpenAI-ը լուծարել է պատրաստվածության թիմը",
+        "summary": "Ըստ Financial Times-ի՝ OpenAI-ը նախորդ ամսվա վերջին լուծարել է իր պատրաստվածության թիմը, որի խնդիրն էր գնահատել մոդելների լուրջ ռիսկերը և մշակել դրանք մեղմելու ուղիներ։",
+        "source": 3,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Stripe-ը կձեռք բերի OpenRouter-ը",
+        "summary": "Հաղորդվում է, որ Stripe-ը պատրաստվում է ձեռք բերել AI դարպասի ստարտափ OpenRouter-ը 7 միլիարդ դոլարից ավելի գումարով։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI-ի դեմ արձագանքը վստահության ճգնաժամ է",
+        "summary": "Anthropic-ի գործադիր տնօրեն Դարիո Ամոդեյը հայտարարել է, որ արհեստական բանականության դեմ արձագանքը հիմնարարապես վստահության ճգնաժամ է։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Qwen 3.8 27B մոդելի առանձնահատկությունները",
+        "summary": "Qwen 3.8 27B արհեստական բանականության մոդելը գերազանց է, սակայն լռելյայնորեն հակված է չափազանց շատ մտածելու խնդիրների շուրջ։",
+        "source": 2,
+        "link": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+        "outlet": "Simon Willison"
+      },
+      {
+        "headline": "Արհեստական բանականության ռիսկերը",
+        "summary": "Այսօրվա զարգացումները ցույց են տալիս, որ անկառավարելի արհեստական բանականության (rogue AI) հնարավորությունները այլևս միայն գիտաֆանտաստիկա չեն, ինչը ընդգծում է անվտանգության հարցերի կարևորությունը։",
+        "source": 10,
+        "link": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "meta-models/Muse-Glimmer-30B",
+      "Qwen/Qwen3.8-2.4T-A95B"
+    ]
   }
 ]
