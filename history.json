@@ -4778,8 +4778,8 @@
   },
   {
     "date": "2026-08-17",
-    "ts": 1786948284806,
-    "overview": "Այսօրվա նորությունները ընդգծում են արհեստական բանականության ոլորտում անվտանգության և վստահության շուրջ աճող մտահոգությունները, ինչպես նաև խոշոր ֆինանսական գործարքները։",
+    "ts": 1786983255218,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտում կատարվող զգալի ներդրումները և ենթակառուցվածքների զարգացումը, ինչպես նաև շարունակվող քննարկումները AI-ի էթիկայի և թափանցիկության շուրջ։",
     "items": [
       {
         "headline": "OpenAI-ը լուծարել է պատրաստվածության թիմը",
@@ -4815,6 +4815,48 @@
         "source": 10,
         "link": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը ռեկորդային տվյալների կենտրոնի վարձակալություն է ստորագրել",
+        "summary": "OpenAI-ը Օհայոյում 20-ամյա պայմանագիր է կնքել 8 գիգավատ հզորությամբ տվյալների կենտրոնի վարձակալության համար, որին Nvidia-ն աջակցում է մինչև 105 միլիարդ դոլարով՝ դառնալով չիպերի բացառիկ մատակարարը։",
+        "source": 7,
+        "link": "https://the-decoder.com/openai-signs-record-ohio-data-center-lease-with-nvidia-backing-up-to-105-billion/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ն ներդրում է կատարում SoftBank-ի տվյալների կենտրոնում",
+        "summary": "Nvidia-ն 1.5 միլիարդ դոլար է ներդնում SoftBank-ի տվյալների կենտրոնների մշակողի մեջ, որը կապահովի OpenAI-ի տվյալների կենտրոնի համար անհրաժեշտ չիպերը։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Stripe-ը ձեռք է բերում OpenRouter-ը 7 միլիարդ դոլարով",
+        "summary": "Ըստ հաղորդումների՝ Stripe-ը ավելի քան 7 միլիարդ դոլարով ձեռք է բերում AI ստարտափ OpenRouter-ը, որն առաջարկում է մուտք դեպի ավելի քան 400 AI մոդել։",
+        "source": 20,
+        "link": "https://the-decoder.com/stripe-is-reportedly-acquiring-ai-startup-openrouter-for-more-than-7-billion/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Wispr-ը 280 միլիոն դոլարի ֆինանսավորում է ստացել",
+        "summary": "Wispr AI ընկերությունը 280 միլիոն դոլարի ֆինանսավորում է ստացել՝ հասնելով 2 միլիարդ դոլարի գնահատման, քանի որ այն ընդլայնում է իր գործունեությունը դիկտացիայից դուրս։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը ջրանշաններ է ավելացնում Claude-ի արդյունքներին",
+        "summary": "Anthropic-ը ջրանշաններ է ավելացնում Claude-ի կողմից ստեղծված տեքստերին՝ դրանք հայտնաբերելի դարձնելու համար, սակայն քննադատները կասկածի տակ են դնում բառերի ընտրության վրա դրա ազդեցությունը։",
+        "source": 12,
+        "link": "https://the-decoder.com/anthropic-watermarks-claudes-output-but-critics-question-the-tradeoffs/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Amazon-ը ոչնչացնում է հազվագյուտ գրքերը AI ուսուցման համար",
+        "summary": "AirTag-ի միջոցով պարզվել է, որ Amazon-ը մեծ քանակությամբ տպագիր գրքեր է գնում, սկանավորում դրանք որպես AI ուսուցման տվյալներ և ոչնչացնում գործընթացում։",
+        "source": 4,
+        "link": "https://the-decoder.com/airtag-reveals-how-amazon-destroys-rare-books-for-ai-training/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [],
