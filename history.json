@@ -4868,8 +4868,8 @@
   },
   {
     "date": "2026-08-18",
-    "ts": 1787034223456,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի զգալի ֆինանսական աճը, խոշոր հարթակների կողմից AI-ով աշխատող նոր արտադրանքի գործառույթները, ինչպես նաև AI էթիկայի և քաղաքականության ու հանրային քննարկումների վրա դրա աճող ազդեցության շուրջ կարևոր քննարկումները։",
+    "ts": 1787069917888,
+    "overview": "Այսօրվա նորությունները ներառում են նոր AI արտադրանքների թողարկումներ՝ անվտանգության շեշտադրմամբ, AI ընկերությունների զգալի ֆինանսական աճ, ինչպես նաև ուժեղացված ուշադրություն AI-ի էթիկական, անվտանգության և կարգավորման հարցերի նկատմամբ։",
     "items": [
       {
         "headline": "Anthropic-ի եկամուտների աճ",
@@ -4912,9 +4912,60 @@
         "source": 25,
         "link": "https://the-decoder.com/ai-and-data-centers-have-leapfrogged-israel-racism-and-crypto-as-us-campaign-topics/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը թողարկում է ChatGPT դեռահասների համար",
+        "summary": "OpenAI-ը ներկայացրել է ChatGPT-ի նոր տարբերակը՝ նախատեսված 13-ից 17 տարեկան օգտատերերի համար, որն ունի անվտանգության ուժեղացված պաշտպանություն և ծնողական վերահսկողություն։",
+        "source": 21,
+        "link": "https://openai.com/index/chatgpt-for-teens",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Anthropic-ի գործադիր տնօրենը AI-ի կենտրոնացման մասին",
+        "summary": "Anthropic-ի գործադիր տնօրեն Դարիո Ամոդեյը հայտարարել է, որ AI-ն իր բնույթով կենտրոնացնող է, իսկ բաց մոդելները պարզապես իշխանությունը փոխանցում են նրանց, ովքեր տիրապետում են չիպերին։",
+        "source": 8,
+        "link": "https://the-decoder.com/anthropic-ceo-says-ai-centralizes-by-nature-and-open-models-just-shift-power-to-whoever-owns-the-chips/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Microsoft Copilot-ի անվտանգության խոցելիություն",
+        "summary": "Microsoft Copilot-ը բացահայտել է գաղտնի մուտքային պարամետր, որը թույլ է տվել հաքերներին գողանալ գաղտնաբառեր, երբ թիրախը սեղմել է հղման վրա։",
+        "source": 9,
+        "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Արդարադատության նախարարությունը հետաքննում է Andreessen Horowitz-ին",
+        "summary": "ԱՄՆ Արդարադատության նախարարությունը հակամենաշնորհային հետաքննություն է սկսել Andreessen Horowitz-ի նկատմամբ՝ մրցակցող AI տվյալների ընկերությունների խորհուրդներում նրա գործընկերների մասնակցության պատճառով։",
+        "source": 17,
+        "link": "https://the-decoder.com/doj-probes-andreessen-horowitz-over-partners-sitting-on-competing-ai-boards/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի եկամուտը յոթ անգամ աճել է",
+        "summary": "Anthropic-ի տարեկան եկամուտը հասել է 65 միլիարդ դոլարի՝ մեկ տարվա ընթացքում աճելով յոթ անգամ, ինչը հաղորդում է Bloomberg-ը։",
+        "source": 28,
+        "link": "https://the-decoder.com/anthropic-increases-revenue-sevenfold-hits-annualized-rate-above-65-billion/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Amazon-ը հազվագյուտ գրքեր է ոչնչացնում AI-ի համար",
+        "summary": "Թաքնված Airtag-ը բացահայտել է, որ Amazon-ը ոչնչացնում է հազվագյուտ գրքեր՝ դրանք AI մոդելների ուսուցման համար օգտագործելու նպատակով։",
+        "source": 34,
+        "link": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
+        "outlet": "Ars Technica"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "ChatGPT for Teens",
+        "note": "OpenAI-ի նոր տարբերակը դեռահասների համար"
+      },
+      {
+        "name": "Warp Factories",
+        "note": "AI ծրագրային ապահովման գործարանների համար նախատեսված նոր համակարգ"
+      }
+    ],
     "trending": [
       "Qwen/Qwen3.8-27B",
       "Qwen/Qwen3.8-2.4T-A95B",
