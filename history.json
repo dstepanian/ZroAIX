@@ -4865,5 +4865,60 @@
       "meta-models/Muse-Glimmer-30B",
       "Qwen/Qwen3.8-2.4T-A95B"
     ]
+  },
+  {
+    "date": "2026-08-18",
+    "ts": 1787034223456,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի զգալի ֆինանսական աճը, խոշոր հարթակների կողմից AI-ով աշխատող նոր արտադրանքի գործառույթները, ինչպես նաև AI էթիկայի և քաղաքականության ու հանրային քննարկումների վրա դրա աճող ազդեցության շուրջ կարևոր քննարկումները։",
+    "items": [
+      {
+        "headline": "Anthropic-ի եկամուտների աճ",
+        "summary": "AI մոդելներ մշակող Anthropic ընկերության տարեկան եկամուտը երկու ամսում ավելացել է 18 միլիարդ դոլարով՝ հասնելով 65 միլիարդ դոլարի։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Reddit-ը գրառումները վերածում է տեսանյութերի",
+        "summary": "Reddit-ը փորձարկում է նոր գործառույթ, որը AI-ի միջոցով տեքստային գրառումները և մեկնաբանությունները վերածում է ձայնային տեսանյութերի։",
+        "source": 3,
+        "link": "https://www.theverge.com/tech/981289/reddit-ai-text-video-posts",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Flock-ի համար նոր փոփոխություններ",
+        "summary": "Flock ոստիկանական տեխնոլոգիաների ընկերությունը, որը հայտնի է ԱՄՆ-ում ավտոմեքենաների համարների ճանաչման 120,000 սարքերով, հայտարարել է իր հարթակի փոփոխությունների մասին՝ ուղղված գաղտնիության պաշտպանությանը։",
+        "source": 9,
+        "link": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Amazon-ը ոչնչացնում է հազվագյուտ գրքեր",
+        "summary": "Amazon-ը ոչնչացնում է հազվագյուտ գրքեր՝ դրանք օգտագործելով AI մոդելների ուսուցման համար, քանի որ այդ գրքերը արժեքավոր են LLM-ների համար։",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Groq-ը ներգրավել է 350 միլիոն դոլար",
+        "summary": "Groq-ը ներգրավել է 350 միլիոն դոլար՝ 3.5 միլիարդ դոլար գնահատմամբ, քանի որ նախկին AI չիպեր արտադրողը անցնում է neocloud բիզնեսի և ընդլայնում իր NVIDIA-ով աշխատող տվյալների կենտրոնները։",
+        "source": 17,
+        "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI-ը ԱՄՆ քարոզարշավի թեմա",
+        "summary": "AI-ը և տվյալների կենտրոնները դարձել են ԱՄՆ ընտրական քարոզարշավների կարևորագույն թեմաներից մեկը՝ առաջ անցնելով Իսրայելից, ռասիզմից և կրիպտոարժույթներից։",
+        "source": 25,
+        "link": "https://the-decoder.com/ai-and-data-centers-have-leapfrogged-israel-racism-and-crypto-as-us-campaign-topics/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "Qwen/Qwen3.8-2.4T-A95B",
+      "Lightricks/LTX-2.5"
+    ]
   }
 ]
