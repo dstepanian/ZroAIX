@@ -4974,8 +4974,8 @@
   },
   {
     "date": "2026-08-19",
-    "ts": 1787120680555,
-    "overview": "Այսօրվա նորությունները կարևորում են AI ոլորտի զգալի առաջընթացները և քննարկումները՝ կենտրոնանալով հիմնարար տեխնոլոգիաների, անվտանգության արձանագրությունների և կարգավորող ազդեցությունների վրա։ Նկատելի է նաև AI ֆինանսավորման և կոնկրետ ժողովրդագրական խմբերի համար նախատեսված արտադրանքի մշակման ակտիվություն։",
+    "ts": 1787156423294,
+    "overview": "Արհեստական բանականության ոլորտում այսօր նկատվում է ինչպես նորարարական արտադրանքների և ծառայությունների ընդլայնում, այնպես էլ կարևոր զարգացումներ են գրանցվում ենթակառուցվածքների, մրցակցության և կառավարման ոլորտներում։ Բացի այդ, շարունակում են արծարծվել AI-ի էթիկական օգտագործման և անվտանգության հետ կապված հարցերը։",
     "items": [
       {
         "headline": "Mojo-ն դարձել է բաց կոդով",
@@ -5018,18 +5018,64 @@
         "source": 20,
         "link": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Meta-ի գովազդները խորը կեղծիքներով",
+        "summary": "Հաղորդվում է, որ Meta-ն գովազդել է մի հավելված, որը խոստանում էր կանանց մերկացնող խորը կեղծիքներ ստեղծել, ընդ որում, մեկ գովազդում օգտագործվել է ԱՄՆ քաղաքական գործչի նմանակող պոռնոգրաֆիկ տեսանյութ։",
+        "source": 6,
+        "link": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "TerraPower-ի միջուկային ռեակտորը AI-ի համար",
+        "summary": "TerraPower-ի միջուկային էներգիայի կայանը ռազմավարական առավելություն ունի մրցակիցների նկատմամբ՝ հատկապես AI տվյալների կենտրոնների համար էներգիա ապահովելու հարցում։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Amazon Alexa+-ն անվճար Fire TV-ում",
+        "summary": "Amazon-ն իր AI-ով աշխատող Alexa+ օգնականն անվճար է դարձնում ԱՄՆ-ում բոլոր համատեղելի Fire TV սարքերի համար՝ ավտոմատ կերպով թարմացնելով օգտատերերին՝ անկախ Prime բաժանորդագրությունից։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Չինաստանը թույլ է տալիս Nvidia H200 չիպերի ներմուծում",
+        "summary": "Չինաստանը թույլ է տալիս Nvidia-ի H200 չիպերի փոքր խմբաքանակների մուտքը մայրցամաք՝ օգնելու ներքին AI ընկերություններին պահպանել տեմպերը ԱՄՆ-ի հետ մրցավազքում։",
+        "source": 13,
+        "link": "https://the-decoder.com/china-lets-nvidias-h200-chips-trickle-onto-the-mainland-to-help-its-ai-firms-keep-pace-with-the-us/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը գերազանցում է OpenAI-ին եկամուտներով",
+        "summary": "Anthropic-ն առաջին անգամ գերազանցել է OpenAI-ին եկամուտների ցուցանիշով՝ արհեստական բանականության ոլորտի մրցավազքում։",
+        "source": 18,
+        "link": "https://the-decoder.com/anthropic-passes-openai-on-revenue-for-the-first-time/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Replit-ը ընդլայնում է ծրագրային ապահովման ստեղծումը GPT-5.6 Luna-ով",
+        "summary": "Replit-ը ներկայացնում է Free Mode-ը, որն աշխատում է GPT-5.6 Luna-ով, ինչը թույլ է տալիս ցանկացած մարդու գաղափարները վերածել աշխատող ծրագրային ապահովման՝ առանց թոքենների արժեքի մասին անհանգստանալու։",
+        "source": 26,
+        "link": "https://openai.com/index/replit",
+        "outlet": "OpenAI"
       }
     ],
     "releases": [
       {
         "name": "Mojo",
         "note": "Բաց կոդով ծրագրավորման լեզու AI մշակման համար"
+      },
+      {
+        "name": "GPT-5.6 Luna",
+        "note": "Replit-ի Free Mode-ի հիմքում ընկած AI մոդել"
       }
     ],
     "trending": [
       "Qwen/Qwen3.8-27B",
-      "Qwen/Qwen3.8-2.4T-A95B",
-      "MiniMaxAI/MiniMax-Music3"
+      "MiniMaxAI/MiniMax-Music3",
+      "Qwen/Qwen3.8-2.4T-A95B"
     ]
   }
 ]
