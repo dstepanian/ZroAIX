@@ -4971,5 +4971,65 @@
       "Qwen/Qwen3.8-2.4T-A95B",
       "Lightricks/LTX-2.5"
     ]
+  },
+  {
+    "date": "2026-08-19",
+    "ts": 1787120680555,
+    "overview": "Այսօրվա նորությունները կարևորում են AI ոլորտի զգալի առաջընթացները և քննարկումները՝ կենտրոնանալով հիմնարար տեխնոլոգիաների, անվտանգության արձանագրությունների և կարգավորող ազդեցությունների վրա։ Նկատելի է նաև AI ֆինանսավորման և կոնկրետ ժողովրդագրական խմբերի համար նախատեսված արտադրանքի մշակման ակտիվություն։",
+    "items": [
+      {
+        "headline": "Mojo-ն դարձել է բաց կոդով",
+        "summary": "Mojo ծրագրավորման լեզուն, որը նախատեսված է արհեստական բանականության մշակման համար, այժմ հասանելի է որպես բաց կոդով նախագիծ՝ ընդլայնելով դրա կիրառման հնարավորությունները։",
+        "source": 3,
+        "link": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+        "outlet": "Simon Willison"
+      },
+      {
+        "headline": "OpenAI-ը դանդաղեցնում է մոդելների մշակումը",
+        "summary": "OpenAI-ը հայտարարել է, որ դանդաղեցնում է AI մոդելների մշակումը՝ կիբերանվտանգության աճող ռիսկերի պատճառով, հատկապես Astra մոդելի հետ կապված հնարավոր վտանգների պատճառով։",
+        "source": 8,
+        "link": "https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Etched-ի գնահատումը կրկնապատկվել է",
+        "summary": "AI կլաստերային համակարգեր մատակարարող Etched ստարտափի գնահատումը մեկ ամսվա ընթացքում կրկնապատկվել է՝ հասնելով 21 միլիարդ դոլարի՝ Jane Street-ի կողմից իր առաջին համակարգի տեղադրումից հետո։",
+        "source": 13,
+        "link": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Apple-ը փոխում է App Store-ի կանոնները ԵՄ-ում",
+        "summary": "Apple-ը վերանայում է App Store-ի կանոնները Եվրոպական միությունում՝ լուծելու Եվրոպական հանձնաժողովի հետ առկա տարաձայնությունները բիզնես պայմանների և այլընտրանքային բաշխման վերաբերյալ։",
+        "source": 15,
+        "link": "https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI-ը գերազանցում է բժիշկներին",
+        "summary": "Բժշկական ամսագիր JAMA-ում հրապարակված հոդվածում նշվում է, որ ինքնավար AI-ն շուտով կգերազանցի բժիշկ-AI թիմերին բժշկական դատողությունների հարցում, և զգուշացվում է կարգավորումներում մարդկային միջամտությունը պարտադրելուց։",
+        "source": 25,
+        "link": "https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ի անվտանգ տարբերակը դեռահասների համար",
+        "summary": "OpenAI-ը թողարկել է ChatGPT-ի նոր տարբերակ՝ նախատեսված դեռահասների համար, որն ունի տարիքային համապատասխան անվտանգության միջոցներ, ծնողական վերահսկողություն և ուսումնական գործիքներ։",
+        "source": 20,
+        "link": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Mojo",
+        "note": "Բաց կոդով ծրագրավորման լեզու AI մշակման համար"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "Qwen/Qwen3.8-2.4T-A95B",
+      "MiniMaxAI/MiniMax-Music3"
+    ]
   }
 ]
