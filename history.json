@@ -5080,8 +5080,8 @@
   },
   {
     "date": "2026-08-20",
-    "ts": 1787207134453,
-    "overview": "Այսօրվա AI նորությունները ներառում են նոր արտադրանքների թողարկումներ, գաղտնիության բարելավումներ և կարևոր հետազոտություններ, ինչպես նաև անվտանգության լուրջ նախազգուշացումներ և զարգացման ռազմավարության փոփոխություններ։",
+    "ts": 1787242886620,
+    "overview": "Այսօրվա նորությունները լուսաբանում են արհեստական բանականության կիրառման զարգացումները ինքնավար տրանսպորտի և ռոբոտաշինության ոլորտներում, ինչպես նաև կարևոր քննարկումներ են ծավալվում դրա ազդեցության շուրջ մաթեմատիկայի, գաղտնիության և գլոբալ մրցակցության համատեքստում։",
     "items": [
       {
         "headline": "Stripe-ը ձեռք է բերում OpenRouter-ը",
@@ -5124,18 +5124,68 @@
         "source": 31,
         "link": "https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Tesla Robotaxis-ը լիովին անվերահսկելի է",
+        "summary": "Ինչպես հաղորդվում է, Tesla Robotaxis-ը Օսթինում սկսել է գործել առանց մարդկային անվտանգության վերահսկողների՝ նախքան Cybercab-ի գործարկումը։",
+        "source": 6,
+        "link": "https://www.theverge.com/transportation/982759/tesla-robotaxi-unsupervised-austin-robotaxi-tracker",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Չինաստանը հասել է Արևմտյան AI-ի մակարդակին",
+        "summary": "Վերլուծությունները ցույց են տալիս, որ Kimi K3 և GLM-5.3 մոդելներով Չինաստանը մոտեցել է ԱՄՆ-ի լավագույույն AI մոդելներին՝ մարտահրավեր նետելով Արևմուտքի առաջատար դիրքին։",
+        "source": 7,
+        "link": "https://the-decoder.com/frontier-radar-4-china-has-caught-up-so-whats-left-of-the-western-ai-lead/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GEN-1.5-ը ռոբոտներին նոր խնդիրներ է սովորեցնում",
+        "summary": "Generalist AI ստարտափը ներկայացրել է GEN-1.5 AI մոդելը, որը ռոբոտներին սովորեցնում է նոր խնդիրներ մեկ ցուցադրությունից հետո։",
+        "source": 16,
+        "link": "https://the-decoder.com/gen-1-5-generalist-ai-teaches-robots-new-tasks-from-a-single-demo/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ը կարող է մաթեմատիկայի ճգնաժամ առաջացնել",
+        "summary": "Թյուրինգի մրցանակակիր Թերենս Թաոն զգուշացնում է, որ AI-ը կարող է մաթեմատիկան հասցնել ճգնաժամի, որը համեմատելի է 1900-ականների հիմնարար տեղաշարժերի հետ։",
+        "source": 26,
+        "link": "https://the-decoder.com/terence-tao-says-ai-could-trigger-maths-biggest-crisis-since-godel/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը նոր անվտանգության համակարգ է ստեղծում",
+        "summary": "OpenAI-ը նախատեսում է կորպորատիվ հաճախորդներին առաջարկել իր ամենաառաջադեմ AI մոդելները՝ առանց նրանց տվյալները պահելու, միաժամանակ հայտնաբերելով չարաշահումները։",
+        "source": 27,
+        "link": "https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Cognition-ի գործադիր տնօրենը հերքում է SpaceX-ի ձեռքբերումը",
+        "summary": "Cognition-ի գործադիր տնօրենը հերքել է այն հաղորդումները, թե SpaceX-ը փորձել է ձեռք բերել AI կոդավորման ստարտափը։",
+        "source": 33,
+        "link": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
       {
         "name": "Meta AI Mac app",
         "note": "Meta AI չաթբոտի նոր հավելված Mac-ի համար"
+      },
+      {
+        "name": "GEN-1.5",
+        "note": "Ռոբոտներին նոր խնդիրներ սովորեցնող AI մոդել"
+      },
+      {
+        "name": "Google Search and Gemini AI study tools",
+        "note": "Ուսումնական նոր գործիքներ Google Search-ում և Gemini-ում"
       }
     ],
     "trending": [
       "Qwen/Qwen3.8-27B",
       "MiniMaxAI/MiniMax-Music3",
-      "deepseek-ai/DeepSeek-V4-Pro-0813"
+      "Lightricks/LTX-2.5"
     ]
   }
 ]
