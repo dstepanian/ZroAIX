@@ -5077,5 +5077,65 @@
       "MiniMaxAI/MiniMax-Music3",
       "Qwen/Qwen3.8-2.4T-A95B"
     ]
+  },
+  {
+    "date": "2026-08-20",
+    "ts": 1787207134453,
+    "overview": "Այսօրվա AI նորությունները ներառում են նոր արտադրանքների թողարկումներ, գաղտնիության բարելավումներ և կարևոր հետազոտություններ, ինչպես նաև անվտանգության լուրջ նախազգուշացումներ և զարգացման ռազմավարության փոփոխություններ։",
+    "items": [
+      {
+        "headline": "Stripe-ը ձեռք է բերում OpenRouter-ը",
+        "summary": "Վճարումների հսկա Stripe-ը ձեռք է բերել OpenRouter ստարտափը, որը AI մոդելների միջև հուշումներ է ուղղորդում, ինչը կարևոր քայլ է AI ենթակառուցվածքի համար։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը զրոյական տվյալների պահպանում է առաջարկում",
+        "summary": "OpenAI-ը հաստատում է Zero Data Retention-ի առաջարկը իր API հաճախորդների համար՝ ապահովելով տվյալների գաղտնիությունը առաջադեմ AI մոդելների դեպքում։",
+        "source": 14,
+        "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "AI-ն օգտագործվում է արդյունաբերական համակարգերի դեմ",
+        "summary": "ԱՄՆ գործակալությունները նախազգուշացնում են, որ հարձակվողներն օգտագործում են AI՝ արդյունաբերական կառավարման համակարգերի, մասնավորապես Siemens S7 կարգավորիչների համար շահագործման սցենարներ ստեղծելու համար։",
+        "source": 15,
+        "link": "https://the-decoder.com/attackers-are-using-ai-to-build-exploits-for-industrial-control-systems-u-s-agencies-warn/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը դանդաղեցնում է AI զարգացումը",
+        "summary": "OpenAI-ը հայտարարել է, որ դանդաղեցնում է AI-ի զարգացման տեմպերը՝ անվտանգությունն ու պաշտպանական մեխանիզմներն ուժեղացնելու նպատակով։",
+        "source": 22,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Meta AI-ն Mac հավելված է ստանում",
+        "summary": "Meta-ն թողարկում է Meta AI չաթբոտի համար նախատեսված նոր Mac հավելված, որը կարող է բովանդակություն ստեղծել և առաջարկություններ անել՝ հիմնվելով էկրանի վրա տեսածի վրա։",
+        "source": 24,
+        "link": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ի Claude-ը սպիտակուցներ է նախագծում",
+        "summary": "Anthropic-ը ցույց է տվել, որ իր Claude մոդելները կարող են ինքնուրույն նախագծել փոքր սպիտակուցներ, ինչը կարևոր քայլ է դեղերի վաղ զարգացման գործում։",
+        "source": 31,
+        "link": "https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Meta AI Mac app",
+        "note": "Meta AI չաթբոտի նոր հավելված Mac-ի համար"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "MiniMaxAI/MiniMax-Music3",
+      "deepseek-ai/DeepSeek-V4-Pro-0813"
+    ]
   }
 ]
