@@ -5190,8 +5190,8 @@
   },
   {
     "date": "2026-08-21",
-    "ts": 1787293569074,
-    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության շարունակական ընդլայնումը տարբեր ոլորտներում՝ ձեռնարկությունների լուծումներից մինչև ստեղծագործական գործիքներ և տնտեսական մոդելներ։ Ընդգծվում են նաև ոլորտի մարտահրավերները, ինչպիսիք են անվտանգությունը և բովանդակության ստեղծողների վրա ազդեցությունը։",
+    "ts": 1787329183424,
+    "overview": "Այսօրվա նորությունները ընդգծում են արհեստական բանականության ոլորտի զգալի փոփոխությունները, ներառյալ խոշոր ձեռքբերումները, ռազմավարական սարքավորումների մշակումները և ԱԲ-ի աճող աշխարհաքաղաքական հետևանքները։ Նոր ԱԲ-ով աշխատող գործառույթները նաև ընդլայնում են իրենց հասանելիությունը առօրյա հավելվածներում։",
     "items": [
       {
         "headline": "AI տվյալների շուկայի արագ աճ",
@@ -5234,6 +5234,48 @@
         "source": 37,
         "link": "https://the-decoder.com/china-now-has-its-own-ai-circular-financing-scheme/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "NVIDIA-ն ձեռք է բերում Poolside-ը 6 միլիարդ դոլարով",
+        "summary": "NVIDIA-ն 6 միլիարդ դոլարով ձեռք է բերել Poolside ստարտափի «Model Factory» ծրագրակազմը և 109 աշխատակից։",
+        "source": 23,
+        "link": "https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ-ը պահանջում է ընտրել ԱԲ մրցավազքում",
+        "summary": "Ըստ Reuters-ի՝ ԱՄՆ-ը նախագիծ է մշակում՝ պարտադրելու գործընկեր երկրներին ընտրություն կատարել Վաշինգտոնի և Պեկինի միջև արհեստական բանականության մրցավազքում։",
+        "source": 2,
+        "link": "https://the-decoder.com/us-wants-to-force-partner-countries-to-choose-between-washington-and-beijing-in-the-ai-race/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Waymo-ն ստեղծում է սեփական չիպը",
+        "summary": "Waymo-ն մշակել է իր սեփական չիպը իր ռոբոտ-տաքսիների համար՝ նվազեցնելով իր կախվածությունը NVIDIA-ից։",
+        "source": 15,
+        "link": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Վեբ էջերի մեկ երրորդը գրվել է ԱԲ-ի կողմից",
+        "summary": "Հետազոտության համաձայն՝ ChatGPT-ի գործարկումից ի վեր հրապարակված վեբ էջերի մեկ երրորդը գրվել է արհեստական բանականության կողմից։",
+        "source": 36,
+        "link": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ChatGPT-ն հաղորդագրություններ կուղարկի Apple Messages-ով",
+        "summary": "ChatGPT-ն այժմ կարող է հաղորդագրություններ ուղարկել Apple Messages-ի նոր plug-in-ի միջոցով։",
+        "source": 29,
+        "link": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google Discover-ը կունենա ԱԲ չաթբոտի հարմարեցված հոսք",
+        "summary": "Google Discover-ը շուտով թույլ կտա օգտատերերին հարմարեցնել իրենց հոսքը՝ օգտագործելով ԱԲ չաթբոտի կարգավորումները։",
+        "source": 30,
+        "link": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
@@ -5244,6 +5286,14 @@
       {
         "name": "Ramp Router",
         "note": "AI մոդելների երթուղղման նոր ծառայություն"
+      },
+      {
+        "name": "Router",
+        "note": "Ramp-ի նոր ԱԲ մոդելների երթուղավորման ծառայություն"
+      },
+      {
+        "name": "ChatGPT Apple Messages plug-in",
+        "note": "ChatGPT-ի նոր plug-in Apple Messages-ի համար"
       }
     ],
     "trending": [
