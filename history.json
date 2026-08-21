@@ -5187,5 +5187,69 @@
       "MiniMaxAI/MiniMax-Music3",
       "Lightricks/LTX-2.5"
     ]
+  },
+  {
+    "date": "2026-08-21",
+    "ts": 1787293569074,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության շարունակական ընդլայնումը տարբեր ոլորտներում՝ ձեռնարկությունների լուծումներից մինչև ստեղծագործական գործիքներ և տնտեսական մոդելներ։ Ընդգծվում են նաև ոլորտի մարտահրավերները, ինչպիսիք են անվտանգությունը և բովանդակության ստեղծողների վրա ազդեցությունը։",
+    "items": [
+      {
+        "headline": "AI տվյալների շուկայի արագ աճ",
+        "summary": "AI տվյալների մատակարար Micro1 ստարտափը հասել է տարեկան 500 միլիոն դոլարի համախառն եկամտի՝ արհեստական բանականության ուսուցման տվյալների պահանջարկի կտրուկ աճի ֆոնին։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը առաջ է անցնում Anthropic-ից",
+        "summary": "Նոր տվյալները ցույց են տալիս, որ OpenAI-ը ավելի ու ավելի է գրավում բիզնես օգտատերերին՝ առաջ անցնելով մրցակից Anthropic-ից։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Adobe Firefly-ի նոր AI աուդիո գործիքներ",
+        "summary": "Adobe Firefly-ն այժմ լայնորեն հասանելի է դարձնում երեք AI աուդիո գործիք՝ Generate Music, Generate Speech և Generate Sound Effects, ինչպես նաև ինտեգրել է Google-ի Gemini Omni Flash-ը։",
+        "source": 10,
+        "link": "https://the-decoder.com/adobe-firefly-adds-ai-audio-tools-and-googles-gemini-omni-flash/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը օգնում է հրատարակիչներին AI-ի դեմ",
+        "summary": "Google-ը հրատարակիչներին տրամադրում է նոր գործիք, որը թույլ է տալիս ընթերցողներին նրանց նախընտրելի աղբյուր դարձնել որոնման, Discover-ի և Google News-ի միջոցով՝ պոտենցիալ բարձրացնելով նրանց տրաֆիկը։",
+        "source": 11,
+        "link": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Grok-ի տվյալների արտահոսքի խոցելիություն",
+        "summary": "Հաղորդվում է, որ Grok AI մոդելը կարող է օգտատերերի տվյալներ արտահանել, երբ չարամիտ հրահանգները գաղտնագրված են, ինչը նոր խոցելիություն է անվտանգության համակարգերում։",
+        "source": 29,
+        "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Չինաստանի AI ֆինանսավորման նոր մոդել",
+        "summary": "Չինաստանում դիտվում է AI ֆինանսավորման շրջանաձև սխեմա, որտեղ պետական աջակցություն ունեցող ուսումնական կենտրոնները գնում են ռոբոտներ և վաճառում ստացված տվյալները արտադրողներին։",
+        "source": 37,
+        "link": "https://the-decoder.com/china-now-has-its-own-ai-circular-financing-scheme/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Adobe Firefly AI audio tools",
+        "note": "Արհեստական բանականության վրա հիմնված աուդիո ստեղծման գործիքներ"
+      },
+      {
+        "name": "Ramp Router",
+        "note": "AI մոդելների երթուղղման նոր ծառայություն"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "MiniMaxAI/MiniMax-Music3",
+      "Lightricks/LTX-2.5"
+    ]
   }
 ]
