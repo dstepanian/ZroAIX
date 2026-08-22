@@ -5304,8 +5304,8 @@
   },
   {
     "date": "2026-08-22",
-    "ts": 1787379616519,
-    "overview": "Այսօրվա նորությունները կարևորում են AI մոդելների նոր թողարկումները և արդյունաբերության ֆինանսական ու քաղաքականության զգալի փոփոխությունները։ Խոշոր տեխնոլոգիական ընկերությունները նաև հարմարեցնում են իրենց ռազմավարությունները և ներդրումները AI ոլորտում։",
+    "ts": 1787415072306,
+    "overview": "Այսօրվա նորությունները ներկայացնում են AI հետազոտությունների և կիրառությունների զարգացումները, ինչպես նաև անվտանգության և էթիկայի հետ կապված մարտահրավերները։ Նկատելի են նաև ենթակառուցվածքների զարգացմանն ուղղված կարևոր քայլերը։",
     "items": [
       {
         "headline": "Deepseek-ը թողարկել է նոր տեսողական մոդել",
@@ -5348,17 +5348,67 @@
         "source": 32,
         "link": "https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Առաջատար AI լաբորատորիաների անվտանգության բացեր",
+        "summary": "Նոր ուսումնասիրությունը ցույց է տալիս, որ առաջատար AI լաբորատորիաները քիչ հրապարակային փաստաթղթավորված պլաններ ունեն անկառավարելի մոդելները զսպելու համար, ինչը հարցեր է բարձրացնում պատրաստվածության վերաբերյալ։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI մոդելները պետք է հաշվի առնեն մարդկային համոզմունքները",
+        "summary": "Նոր հետազոտությունը ցույց է տալիս, որ ներկայիս համաշխարհային մոդելները, որոնք անտեսում են մարդկային համոզմունքները, մտադրությունները և զգացմունքները, սխալ գործողություններ են կանխատեսում։",
+        "source": 8,
+        "link": "https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Netflix-ը փորձարկում է լեզվական մոդելը առաջարկությունների համար",
+        "summary": "Netflix-ը փորձարկել է GenRec անունով ներքին լեզվական մոդելը՝ որպես իր առաջարկությունների համակարգի այլընտրանք և ավելի լավ արդյունքներ է ստացել։",
+        "source": 10,
+        "link": "https://the-decoder.com/netflix-tests-language-model-as-alternative-to-hand-built-recommendation-logic/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի Opus 4.6 մոդելի անվտանգության խնդիրներ",
+        "summary": "TechCrunch-ի կողմից անցկացված թեստերը ցույց են տվել, որ Anthropic-ի Claude մոդելները, չնայած սահմանափակումներին, կարող են ստեղծել սեռական բնույթի բովանդակություն։",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Nvidia-ն համագործակցում է տվյալների կենտրոնի մշակողի հետ",
+        "summary": "Nvidia-ն շարունակում է ներդրումներ կատարել տվյալների կենտրոնների զարգացման մեջ՝ համագործակցելով Cloverleaf-ի հետ, քանի որ AI տվյալների կենտրոնները մեծ եկամուտներ են բերում ընկերությանը։",
+        "source": 13,
+        "link": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ի Claude Mythos 5-ը կիբերպաշտպանության մեջ",
+        "summary": "Anthropic-ն իր Claude Mythos 5 ամենահզոր մոդելն օգտագործում է կիբերպաշտպանության համար՝ իր Claude Security սկաների միջոցով խոցելիություններ հայտնաբերելու և շտկումներ առաջարկելու համար։",
+        "source": 18,
+        "link": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
       {
         "name": "Deepseek V4-Flash-Vision-Exp",
         "note": "նոր փորձնական մուլտիմոդալ AI մոդել"
+      },
+      {
+        "name": "RayNeo AI glasses",
+        "note": "Նոր AI ակնոցներ առանց տեսախցիկի, որոնք կենտրոնացած են տեքստային ցուցադրումների վրա։"
+      },
+      {
+        "name": "Claude Security",
+        "note": "Կիբերանվտանգության սկաներ, որն աշխատում է Claude Mythos 5 մոդելի վրա։"
       }
     ],
     "trending": [
       "Qwen/Qwen3.8-27B",
-      "MiniMaxAI/MiniMax-Music3",
+      "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
       "Lightricks/LTX-2.5"
     ]
   }
