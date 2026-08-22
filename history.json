@@ -5301,5 +5301,65 @@
       "MiniMaxAI/MiniMax-Music3",
       "Lightricks/LTX-2.5"
     ]
+  },
+  {
+    "date": "2026-08-22",
+    "ts": 1787379616519,
+    "overview": "Այսօրվա նորությունները կարևորում են AI մոդելների նոր թողարկումները և արդյունաբերության ֆինանսական ու քաղաքականության զգալի փոփոխությունները։ Խոշոր տեխնոլոգիական ընկերությունները նաև հարմարեցնում են իրենց ռազմավարությունները և ներդրումները AI ոլորտում։",
+    "items": [
+      {
+        "headline": "Deepseek-ը թողարկել է նոր տեսողական մոդել",
+        "summary": "Deepseek-ը թողարկել է V4-Flash-Vision-Exp փորձնական մուլտիմոդալ մոդելը, որն իր գործակալական չափորոշիչներով մրցում է Opus 4.8-ի հետ։",
+        "source": 9,
+        "link": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի եկամուտների աճը GPT-5.6 Sol-ի շնորհիվ",
+        "summary": "OpenAI-ը հայտնել է եկամուտների 35 տոկոս աճի մասին այս եռամսյակում՝ GPT-5.6 Sol-ի գործարկումից հետո, ինչով առաջ է անցել Anthropic-ից։",
+        "source": 31,
+        "link": "https://the-decoder.com/gpt-5-6-sol-drives-openais-revenue-surge-as-it-regains-ground-on-anthropic/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը փոխում է տվյալների պահպանման քաղաքականությունը",
+        "summary": "Anthropic-ը մեղմացնում է իր տվյալների պահպանման քաղաքականությունը՝ թույլ տալով ձեռնարկությունների հաճախորդներին պահպանել իրենց տվյալները։",
+        "source": 27,
+        "link": "https://the-decoder.com/anthropic-changes-data-retention-policy-after-enterprise-pushback/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն հարյուր միլիոններ է ծախսում Microsoft AI-ի վրա",
+        "summary": "Bloomberg-ի տվյալներով՝ Meta-ն դարձել է Microsoft-ի AI ծառայությունների խոշորագույն հաճախորդներից մեկը՝ ծախսելով հարյուր միլիոնավոր դոլարներ։",
+        "source": 26,
+        "link": "https://the-decoder.com/meta-spends-hundreds-of-millions-on-microsofts-ai-services/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը կրճատում է Vision Pro և Siri թիմերը",
+        "summary": "Apple-ը կրճատում է Vision Pro-ի խաղային և ընկղմվող բովանդակության թիմերի, ինչպես նաև Siri-ի անձնակազմի ավելի քան 200 աշխատակիցների։",
+        "source": 6,
+        "link": "https://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "GPT-Image-2-ն այժմ ստեղծում է թափանցիկ ֆոնով պատկերներ",
+        "summary": "OpenAI-ը GPT-Image-2-ի համար ներկայացնում է թափանցիկ ֆոնի աջակցություն իր API-ի միջոցով, ինչը թույլ է տալիս ստեղծել պատկերներ առանց ֆոնի։",
+        "source": 32,
+        "link": "https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Deepseek V4-Flash-Vision-Exp",
+        "note": "նոր փորձնական մուլտիմոդալ AI մոդել"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "MiniMaxAI/MiniMax-Music3",
+      "Lightricks/LTX-2.5"
+    ]
   }
 ]
