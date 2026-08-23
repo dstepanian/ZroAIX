@@ -5411,5 +5411,65 @@
       "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
       "Lightricks/LTX-2.5"
     ]
+  },
+  {
+    "date": "2026-08-23",
+    "ts": 1787466114192,
+    "overview": "Այսօրվա նորությունները ընդգծում են արհեստական բանականության ոլորտում զգալի առաջընթացները և քննադատական գնահատականները, ինչպես նաև նշանակալի զարգացումները տեխնոլոգիական ավելի լայն արդյունաբերության մեջ։",
+    "items": [
+      {
+        "headline": "Նոր AI գործակալ Faraday-ը գերազանցում է մրցակիցներին",
+        "summary": "DeepMind-ի նախկին աշխատակիցների կողմից հիմնադրված Inherent լաբորատորիան թողարկել է Faraday AI գործակալը, որը, ըստ հայտարարության, գերազանցում է Anthropic-ին և OpenAI-ին հետազոտություններ կրկնօրինակելու հարցում։",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը կոչ է անում ուժեղացնել AI օրենքը",
+        "summary": "OpenAI-ը կոչ է անում Կալիֆորնիային ուժեղացնել SB 53 արհեստական բանականության անվտանգության օրինագիծը, որին ընկերությունը նախկինում դեմ էր։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Amazon-ը բարձրացնում է Echo և Kindle-ի գները",
+        "summary": "Amazon-ը մինչև 60 տոկոսով բարձրացրել է Echo, Fire TV և Kindle ապրանքների գները՝ պատճառաբանելով հիշողության և պահեստավորման բաղադրիչների ծախսերի զգալի աճը։",
+        "source": 9,
+        "link": "https://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Ուսումնասիրություն AI գործակալների «հմտությունների» մասին",
+        "summary": "Փրինսթոնի և Կալիֆորնիայի համալսարանների հետազոտողների ուսումնասիրությունը բացահայտել է, որ AI գործակալների «հմտությունները» հիմնականում բարելավվում են կառուցվածքային աշխատանքային հոսքերի միջոցով, այլ ոչ թե լրացուցիչ գիտելիքներով։",
+        "source": 11,
+        "link": "https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "RayNeo-ի նոր AI ակնոցները",
+        "summary": "RayNeo-ն թողարկում է նոր AI ակնոցներ՝ առանց տեսախցիկի կամ բարձրախոսների, որոնք կենտրոնացած են տեքստային ծածկույթների վրա։",
+        "source": 13,
+        "link": "https://the-decoder.com/rayneos-new-ai-glasses-skip-the-camera-focus-on-text-overlays/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI անվտանգության թեստերի թերությունները",
+        "summary": "Միացյալ Թագավորության AI անվտանգության ինստիտուտի հետազոտողները հոգեբանական մեթոդներով բացահայտել են լեզվական մոդելների անվտանգության հանրաճանաչ չափորոշիչների լուրջ թերությունները։",
+        "source": 14,
+        "link": "https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Faraday",
+        "note": "Նոր AI գործակալ հետազոտություններ կրկնօրինակելու համար"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "Lightricks/LTX-2.5"
+    ]
   }
 ]
