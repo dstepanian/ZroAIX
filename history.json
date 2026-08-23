@@ -5414,8 +5414,8 @@
   },
   {
     "date": "2026-08-23",
-    "ts": 1787466114192,
-    "overview": "Այսօրվա նորությունները ընդգծում են արհեստական բանականության ոլորտում զգալի առաջընթացները և քննադատական գնահատականները, ինչպես նաև նշանակալի զարգացումները տեխնոլոգիական ավելի լայն արդյունաբերության մեջ։",
+    "ts": 1787501532456,
+    "overview": "Այսօրվա նորությունները լուսաբանում են AI ոլորտի զարգացումները՝ ընդգրկելով հեղինակային իրավունքի հետ կապված իրավական մարտահրավերները, AI-ի ինքնավար օգտագործման աճը և շուկայական դինամիկան, ինչպես նաև մատակարարման շղթայի խնդիրները։",
     "items": [
       {
         "headline": "Նոր AI գործակալ Faraday-ը գերազանցում է մրցակիցներին",
@@ -5457,6 +5457,41 @@
         "summary": "Միացյալ Թագավորության AI անվտանգության ինստիտուտի հետազոտողները հոգեբանական մեթոդներով բացահայտել են լեզվական մոդելների անվտանգության հանրաճանաչ չափորոշիչների լուրջ թերությունները։",
         "source": 14,
         "link": "https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Հեղինակային իրավունքի խնդիրները AI մոդելների համար",
+        "summary": "Շատ հեղինակների գրքեր օգտագործվել են AI մոդելների մարզման համար՝ առանց նրանց գիտության կամ համաձայնության, ինչը բարձրացնում է իրավական բարդ հարցեր։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Հարվարդի AI ավատարները ուսուցման մեջ",
+        "summary": "Հարվարդի բիզնես դպրոցի նոր Foundry ծրագիրն առաջարկում է AI ավատարներ, որոնք հետադարձ կապ են տրամադրում ուսանողներին պրակտիկայի և խորհրդի ժամանակ։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI-ը դառնում է AI-ի խոշորագույն հաճախորդը",
+        "summary": "OpenRouter հարթակում AI գործակալների կողմից թոքենների օգտագործումը աճել է 14 անգամ՝ գերազանցելով մարդկային օգտագործումը և ցույց տալով AI-ի ինքնավար աշխատանքի աճող միտումը։",
+        "source": 5,
+        "link": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia AI սերվերների գների աճ",
+        "summary": "Հաղորդվում է, որ Nvidia-ի AI սերվերների գները բարձրացել են մոտ 15 տոկոսով՝ Samsung-ի, SK Hynix-ի և Micron-ի DRAM հիշողության շարունակական պակասի պատճառով։",
+        "source": 7,
+        "link": "https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude թոքենների մոխրագույն շուկան Չինաստանում",
+        "summary": "Չնայած Anthropic-ի խիստ մուտքի վերահսկողությանը, Չինաստանում Claude թոքենները վաճառվում են մոխրագույն շուկայում՝ իջեցված գներով՝ շրջանցելով արտահանման վերահսկողությունը։",
+        "source": 8,
+        "link": "https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/",
         "outlet": "The Decoder"
       }
     ],
