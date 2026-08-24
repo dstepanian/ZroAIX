@@ -5506,5 +5506,58 @@
       "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
       "Lightricks/LTX-2.5"
     ]
+  },
+  {
+    "date": "2026-08-24",
+    "ts": 1787553286727,
+    "overview": "Այսօրվա նորությունները լուսաբանում են AI-ի զարգացող դերը արդյունաբերության և հասարակության մեջ՝ ընդգծելով ինչպես նոր մոդելների ի հայտ գալը, այնպես էլ էթիկական մարտահրավերները և դրա ազդեցությունը աշխատանքի և հետազոտությունների վրա։ Ուշադրության կենտրոնում են նաև AI մոդելների ընդունման դժվարությունները և հսկողության տեխնոլոգիաների շուրջ հանրային մտահոգությունները։",
+    "items": [
+      {
+        "headline": "Anthropic-ի մոդելի օգտատերերի պակաս",
+        "summary": "Anthropic-ի լավագույն AI մոդելը դժվարանում է օգտատերեր ներգրավել, քանի որ ավելի էժան գործիքներն ավելի մեծ պահանջարկ ունեն։",
+        "source": 1,
+        "link": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+        "outlet": "Simon Willison"
+      },
+      {
+        "headline": "Խորհրդավոր Ox Alpha AI մոդել",
+        "summary": "Ox Alpha անունով խորհրդավոր նոր AI մոդելը շահարկումների ալիք է բարձրացրել ինտերնետում։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Flock Safety-ի դեմ աճող դժգոհություն",
+        "summary": "Flock Safety հսկողության ընկերության գործադիր տնօրենը կոչ է անում «փոխզիջման», քանի որ ընկերությունը բախվում է իր հսկողության տեխնոլոգիայի չարաշահման վերաբերյալ աճող դժգոհության։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI-ը հեռացնում է աշխատակցի",
+        "summary": "Andon Labs-ի AI գործակալ Luna-ն առաջին անգամ աշխատանքից ազատել է մարդկային աշխատակցի Սան Ֆրանցիսկոյի խանութում, սակայն դրա համար անհրաժեշտ է եղել օպերատորների հստակ միջամտությունը։",
+        "source": 8,
+        "link": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի ազդեցությունը գիտնականների վրա",
+        "summary": "Նոր տեսական ուսումնասիրությունը պնդում է, որ AI-ն կարող է ստիպել գիտնականներին ավելի շատ աշխատել՝ ավելի վատ արդյունքներով, այլ ոչ թե ավելի քիչ աշխատել՝ ավելի լավ արդյունքներով։",
+        "source": 10,
+        "link": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Ox Alpha",
+        "note": "Խորհրդավոր նոր AI մոդել"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "Lightricks/LTX-2.5"
+    ]
   }
 ]
