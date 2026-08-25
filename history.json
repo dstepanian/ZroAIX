@@ -5602,5 +5602,65 @@
       "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
       "Lightricks/LTX-2.5"
     ]
+  },
+  {
+    "date": "2026-08-25",
+    "ts": 1787639258994,
+    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների և սարքավորումների զգալի առաջընթացը, ինչպես նաև AI-ի սոցիալական ազդեցության և էթիկական հետևանքների շուրջ աճող մտահոգությունները։",
+    "items": [
+      {
+        "headline": "OpenAI-ը թողարկում է GPT-5.6-ը Kiro-ում",
+        "summary": "OpenAI-ը թողարկել է GPT-5.6 մոդելը Kiro-ում՝ մշակողների համար բարելավված գին-կատարողականությամբ ծրագրային ապահովում ստեղծելու համար։",
+        "source": 24,
+        "link": "https://openai.com/index/gpt-5-6-in-kiro",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Cerebras-ը ներկայացնում է CS-4 արագացուցիչը",
+        "summary": "Cerebras-ը ներկայացրել է իր CS-4 AI արագացուցիչը, որը նույն չիպի վրա կրկնապատկում է կատարողականությունը։",
+        "source": 26,
+        "link": "https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ը ամենաշատը հարվածում է սկզբնական աշխատատեղերին",
+        "summary": "Սթենֆորդի համալսարանի ուսումնասիրությունը ցույց է տվել, որ AI-ն ամենաշատն է ազդում սկզբնական մակարդակի աշխատատեղերի վրա՝ AI-ի ազդեցության տակ գտնվող ոլորտներում երիտասարդների զբաղվածությունը նվազել է 19%-ով։",
+        "source": 4,
+        "link": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "AI չաթբոթերը կապում են հակաաբորտային կայքերի հետ",
+        "summary": "Հետաքննությունը պարզել է, որ AI չաթբոթերը հաճախ հղի օգտատերերին կապում են հակաաբորտային կազմակերպությունների կայքերի հետ՝ առանց դրանց դիրքորոշումը բացահայտելու։",
+        "source": 27,
+        "link": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ի մենեջերը մեղադրվում է AI սերվերների մաքսանենգության մեջ",
+        "summary": "Nvidia-ի ավագ մենեջերին մեղադրանք է առաջադրվել Supermicro-ի հետ համագործակցելով AI սերվերները Չինաստան մաքսանենգ ճանապարհով տեղափոխելու սխեմայի համար։",
+        "source": 12,
+        "link": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "General Intuition-ը $6B գնահատմամբ ֆինանսավորում է ստանում",
+        "summary": "General Intuition AI ստարտափը, որը զարգացնում է ընդհանրացված AI գործակալների համար հիմնարար մոդելներ, բանակցություններ է վարում $6 միլիարդ գնահատմամբ ֆինանսավորում ներգրավելու շուրջ։",
+        "source": 15,
+        "link": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "GPT-5.6",
+        "note": "OpenAI-ի նոր AI մոդել մշակողների համար"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "ornith-ai/Ornith-1.5-35B-A3B"
+    ]
   }
 ]
