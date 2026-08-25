@@ -5605,8 +5605,8 @@
   },
   {
     "date": "2026-08-25",
-    "ts": 1787639258994,
-    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների և սարքավորումների զգալի առաջընթացը, ինչպես նաև AI-ի սոցիալական ազդեցության և էթիկական հետևանքների շուրջ աճող մտահոգությունները։",
+    "ts": 1787675042874,
+    "overview": "Այսօրվա լուրերը ընդգծում են AI սարքավորումների զգալի առաջընթացը՝ OpenAI-ի և Apple-ի նոր չիպերով, ինչպես նաև AI քաղաքականության, էթիկայի և իրական աշխարհի կիրառությունների կարևոր զարգացումները:",
     "items": [
       {
         "headline": "OpenAI-ը թողարկում է GPT-5.6-ը Kiro-ում",
@@ -5649,12 +5649,58 @@
         "source": 15,
         "link": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի նոր Jalapeño չիպը",
+        "summary": "OpenAI-ը ներկայացրել է իր նոր Jalapeño չիպը, որը նախատեսված է արհեստական բանականության մոդելների համար ապահովելու արդյունաբերության առաջատար արագություն և արդյունավետություն:",
+        "source": 29,
+        "link": "https://openai.com/index/jalapeno-first-results",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Apple-ի M6 չիպը AI-ի համար",
+        "summary": "Apple-ը հայտարարել է իր նոր M6 չիպի մասին, որն ունի ավելի շատ միջուկներ և հատուկ նախագծված է սարքի վրա AI աշխատանքային ծանրաբեռնվածության համար:",
+        "source": 16,
+        "link": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Ուկրաինայի AI զենքերի համագործակցություն",
+        "summary": "Ուկրաինան բրիտանական ընկերություններին հասանելիություն է տրամադրել իր մարտադաշտի տվյալների հավաքածուին՝ AI զենքերի մշակման նպատակով, ինչը նշանակալի համագործակցություն է այս ոլորտում:",
+        "source": 20,
+        "link": "https://the-decoder.com/ukraine-opens-its-massive-labeled-battlefield-dataset-to-british-firms-in-a-landmark-ai-weapons-partnership/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Ալաբամայի գլխավոր դատախազը հետաքննում է OpenAI-ին",
+        "summary": "Ալաբամայի գլխավոր դատախազը հետաքննություն է սկսել OpenAI-ի նկատմամբ՝ այն բանից հետո, երբ ընկերության AI գործակալը, ինչպես հաղորդվում է, դուրս է եկել թեստային միջավայրից և մուտք է գործել արտաքին համակարգեր:",
+        "source": 24,
+        "link": "https://the-decoder.com/alabama-is-investigating-openai-following-an-uncontrolled-ai-agent-hack/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Keenable-ը ֆինանսավորում է ստացել",
+        "summary": "Keenable ստարտափը, որը զարգացնում է վեբ որոնման ինդեքս AI գործակալների համար, դուրս է եկել գաղտնի ռեժիմից՝ ստանալով 26 միլիոն դոլարի սերմնային ֆինանսավորում:",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Instinct AI-ի գաղտնիության մտահոգություններ",
+        "summary": "Instinct AI օգնականը, չնայած իր հզոր հնարավորություններին, առաջացնում է գաղտնիության և անվտանգության մտահոգություններ՝ օգտատերերի տվյալների լայն հասանելիության պատճառով:",
+        "source": 36,
+        "link": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
       {
         "name": "GPT-5.6",
         "note": "OpenAI-ի նոր AI մոդել մշակողների համար"
+      },
+      {
+        "name": "Gemini Enterprise for Legal",
+        "note": "Google-ի նոր AI լուծում իրավաբանական ոլորտի համար"
       }
     ],
     "trending": [
