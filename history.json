@@ -5711,8 +5711,8 @@
   },
   {
     "date": "2026-08-26",
-    "ts": 1787725696576,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի արագ զարգացումը՝ նորարարական չիպերի և հատուկ սարքավորումների ստեղծումից մինչև արհեստական բանականության կիրառումը տարբեր ոլորտներում։ Միաժամանակ, շարունակում են ի հայտ գալ AI-ի չարաշահման և կիբերանվտանգության հետ կապված մտահոգությունները։",
+    "ts": 1787762489854,
+    "overview": "Այսօրվա նորությունները ներառում են արհեստական բանականության նոր մոդելների թողարկումներ, ինչպես նաև ոլորտի առաջատարների կողմից AI-ի ռիսկերի վերաբերյալ նախազգուշացումներ։ Կարևոր են նաև խոշոր տեխնոլոգիական ընկերությունների կարգավորող և ներքին զարգացումները։",
     "items": [
       {
         "headline": "OpenAI-ի նոր Jalapeño չիպը գերազանցում է Nvidia-ին",
@@ -5755,13 +5755,64 @@
         "source": 36,
         "link": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Alibaba-ի նոր Qwen3.8-Flash-Next մոդելը",
+        "summary": "Alibaba-ի Qwen թիմը թողարկել է Qwen3.8-Flash-Next արհեստական բանականության մոդելը, որը նպատակ ունի ապահովելու «առավելագույն ծախսարդյունավետություն»։",
+        "source": 5,
+        "link": "https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "IBM-ը թողարկում է Granite 4.2 մոդելները",
+        "summary": "IBM-ը թողարկել է իր Granite 4.2 լեզվական մոդելների ընտանիքը՝ ներկառուցված գործակալական հնարավորություններով, որոնք հասանելի են Apache 2.0 լիցենզիայի ներքո։",
+        "source": 28,
+        "link": "https://the-decoder.com/ibm-drops-open-weight-granite-4-2-family-with-built-in-agentic-capabilities-under-apache-2-0/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Բիլ Գեյթսը նախազգուշացնում է AI-ի վտանգների մասին",
+        "summary": "Բիլ Գեյթսը զգուշացրել է, որ արհեստական բանականությունն ավելի վտանգավոր է, քան տեխնոլոգիական արդյունաբերությունը պատրաստ է ընդունել՝ մատնանշելով զանգվածային գործազրկության և կենսաահաբեկչության հնարավորությունները։",
+        "source": 27,
+        "link": "https://the-decoder.com/bill-gates-warns-ai-is-more-dangerous-than-the-tech-industry-will-admit/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Ուկրաինացի օրենսդիրների deepfake տեսանյութեր",
+        "summary": "Պրոկրեմլյան Telegram ալիքները տարածում են AI-ով ստեղծված deepfake տեսանյութեր, որոնցում ուկրաինացի երկու օրենսդիրներ, իբր, կոչ են անում խաղաղ բանակցությունների։",
+        "source": 20,
+        "link": "https://the-decoder.com/pro-kremlin-deepfakes-put-surrender-rhetoric-in-the-mouths-of-ukrainian-lawmakers/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն սահմանափակում է դեռահասների օգտագործումը",
+        "summary": "Meta-ն համաձայնել է խիստ սահմանափակումներ կիրառել դեռահաս օգտատերերի նկատմամբ՝ պետական գլխավոր դատախազների հետ խոշոր դատական հայցի կարգավորման շրջանակներում։",
+        "source": 14,
+        "link": "https://www.theverge.com/policy/985032/meta-state-ag-kids-online-safety-settlement",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ից հեռանում է բարձրաստիճան ղեկավար",
+        "summary": "OpenAI-ից հեռացել է տվյալների կենտրոնների բարձրաստիճան ղեկավարը, ինչը շարունակում է ընկերությունից բարձրաստիճան անձանց հեռանալու միտումը։",
+        "source": 35,
+        "link": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+        "outlet": "TechCrunch"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Qwen3.8-Flash-Next",
+        "note": "Alibaba-ի նոր արհեստական բանականության մոդել"
+      },
+      {
+        "name": "Granite 4.2",
+        "note": "IBM-ի բաց կոդով լեզվական մոդելների ընտանիք"
+      }
+    ],
     "trending": [
+      "Qwen/Qwen3.8-Flash-Next",
       "Qwen/Qwen3.8-27B",
-      "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-      "ornith-ai/Ornith-1.5-35B-A3B"
+      "OBLITERATUS/Qwen3.8-27B-OBLITERATED"
     ]
   }
 ]
