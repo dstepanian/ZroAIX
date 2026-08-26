@@ -5708,5 +5708,60 @@
       "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
       "ornith-ai/Ornith-1.5-35B-A3B"
     ]
+  },
+  {
+    "date": "2026-08-26",
+    "ts": 1787725696576,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի արագ զարգացումը՝ նորարարական չիպերի և հատուկ սարքավորումների ստեղծումից մինչև արհեստական բանականության կիրառումը տարբեր ոլորտներում։ Միաժամանակ, շարունակում են ի հայտ գալ AI-ի չարաշահման և կիբերանվտանգության հետ կապված մտահոգությունները։",
+    "items": [
+      {
+        "headline": "OpenAI-ի նոր Jalapeño չիպը գերազանցում է Nvidia-ին",
+        "summary": "OpenAI-ը ներկայացրել է իր առաջին ներքին մշակման Jalapeño ինֆերենցիոն չիպը, որը SemiAnalysis-ի թեստերով գերազանցում է Nvidia-ի Blackwell-ին և նույնիսկ Rubin-ին արտադրողականությամբ և էներգաարդյունավետությամբ։",
+        "source": 24,
+        "link": "https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Stability AI-ը 76 միլիոն դոլարի նոր ֆինանսավորում է ստացել",
+        "summary": "Stable Diffusion պատկերների գեներատորի ստեղծող Stability AI ընկերությունը հավաքել է 76 միլիոն դոլարի նոր ֆինանսավորում՝ ընդհանուր գումարը հասցնելով 232 միլիոն դոլարի։",
+        "source": 20,
+        "link": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ը գործարկում է Gemini-ը իրավաբանական ոլորտի համար",
+        "summary": "Google-ը գործարկել է Gemini Enterprise for Legal AI լուծումը իրավաբանական ոլորտի համար, որը MCP կոնեկտորների միջոցով միանում է iManage, DocuSign և Everlaw համակարգերին՝ ավտոմատացնելու պայմանագրերի վերանայումը և հետազոտությունները։",
+        "source": 30,
+        "link": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործիքները կրկնապատկել են չինական կիբերհարձակումները",
+        "summary": "Թայվանական TeamT5 անվտանգության ընկերությունը զգուշացնում է, որ չինական պետական աջակցություն ունեցող հաքերային խմբերը կրկնապատկել են իրենց հարձակումները՝ DeepSeek-ի նման AI մոդելներ օգտագործելով շահագործման կոդեր գրելու և ցանցեր սկանավորելու համար։",
+        "source": 40,
+        "link": "https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Ռոբոտաշինական Generalist ստարտափի արժեքը հասել է 3 միլիարդ դոլարի",
+        "summary": "Ռոբոտաշինական Generalist ստարտափը, որը զբաղվում է ֆիզիկական AI-ով, հասել է 3 միլիարդ դոլարի գնահատման՝ ստանալով 200 միլիոն դոլարի լրացուցիչ ֆինանսավորում։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Apple-ի նոր համակարգիչները նախատեսված են տեղական AI մշակման համար",
+        "summary": "Apple-ը թողարկել է իր նոր աշխատասեղանի համակարգիչները, որոնք հատուկ նախագծված են տեղական AI մշակման համար՝ հաշվի առնելով այն, թե ինչպես են մշակողները միացնում Mac-երը AI առաջադրանքների համար։",
+        "source": 36,
+        "link": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "Qwen/Qwen3.8-27B",
+      "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "ornith-ai/Ornith-1.5-35B-A3B"
+    ]
   }
 ]
