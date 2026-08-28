@@ -5878,5 +5878,60 @@
       "zai-org/GLM-5.3-Flash",
       "Qwen/Qwen3.8-27B"
     ]
+  },
+  {
+    "date": "2026-08-28",
+    "ts": 1787939459189,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության արագ զարգացումը՝ նոր հնարավորություններով և արտադրանքներով, ինչպես նաև դրա հետ կապված էթիկական, անվտանգության և կարգավորման մարտահրավերները։ Խոշոր ընկերությունները շարունակում են ընդլայնել իրենց ազդեցությունը՝ միաժամանակ բախվելով իրավական և անվտանգության մտահոգություններին։",
+    "items": [
+      {
+        "headline": "NVIDIA-ը ձեռք է բերում Hugging Face-ը",
+        "summary": "Ըստ զեկույցի՝ NVIDIA-ն պատրաստվում է 13 միլիարդ դոլարով ձեռք բերել AI մոդելների պահոց Hugging Face-ը՝ ամրապնդելով իր դիրքերը բաց AI մոդելների ենթակառուցվածքում։",
+        "source": 25,
+        "link": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "xAI-ին մեղադրում են Grok-ի ուսուցման համար",
+        "summary": "Հայցի համաձայն՝ Իլոն Մասկի xAI ընկերությունը Grok մոդելները մարզելու համար օգտագործել է երեխաների պոռնոգրաֆիա, ինչը լուրջ էթիկական և իրավական մտահոգություններ է առաջացնում։",
+        "source": 24,
+        "link": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը փորձարկում է «Մշտական ռեժիմ» AI գործակալների համար",
+        "summary": "OpenAI-ը փորձարկում է Codex AI գործակալի «Մշտական ռեժիմը», որը թույլ կտա գործակալներին անորոշ ժամանակով ակտիվ մնալ և ինքնուրույն նոր խնդիրներ ստեղծել։",
+        "source": 15,
+        "link": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը նոր ստանդարտ է ներկայացնում AI գործակալների համար",
+        "summary": "Anthropic-ը ներկայացրել է սարքավորումների նոր ստանդարտ, որը թույլ է տալիս AI գործակալներին կառավարել ֆիզիկական աշխարհի սարքերը՝ հնարավորություն տալով դրանց փոխազդել միմյանց հետ։",
+        "source": 22,
+        "link": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը և 100+ ընկերություններ զգուշացնում են AI կիբերհարձակումների մասին",
+        "summary": "OpenAI-ը, Microsoft-ը, Google-ը և ավելի քան 100 այլ ընկերություններ համատեղ նամակով զգուշացրել են կրիտիկական ենթակառուցվածքների վրա AI-ով աշխատող կիբերհարձակումների սպառնալիքի մասին և կոչ արել անհապաղ գործողություններ ձեռնարկել։",
+        "source": 30,
+        "link": "https://the-decoder.com/openai-rallies-100-companies-to-sign-open-letter-warning-ai-powered-cyberattacks-on-critical-infrastructure-are-imminent/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Դատարանը ապօրինի է ճանաչել Anthropic-ի սև ցուցակում ներառումը",
+        "summary": "ԱՄՆ դաշնային դատարանը որոշել է, որ Պենտագոնը ապօրինի է դասակարգել Anthropic-ին որպես մատակարարման շղթայի ռիսկ՝ ընկերությանը հաղթանակ շնորհելով կառավարության դեմ իր հայցում։",
+        "source": 12,
+        "link": "https://the-decoder.com/u-s-court-rules-pentagons-blacklisting-of-anthropic-was-unlawful/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "Qwen/Qwen3.8-Flash-Next",
+      "zai-org/GLM-5.3-Flash",
+      "zai-org/GLM-5.3"
+    ]
   }
 ]
