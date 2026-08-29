@@ -5936,8 +5936,8 @@
   },
   {
     "date": "2026-08-29",
-    "ts": 1788004531295,
-    "overview": "AI ոլորտում շարունակվում են նշանակալի զարգացումները՝ ներառելով նորարարական հետազոտություններ, AI-ի ինտեգրումը հիմնական արտադրանքներին, ինչպես նաև մեծ ներդրումներ են կատարվում ենթակառուցվածքներում։ Միաժամանակ, ոլորտը բախվում է իրավական և կարգավորող մարտահրավերների։",
+    "ts": 1788029954107,
+    "overview": "Այսօրվա նորությունները շեշտում են AI-ի աճող ազդեցությունը տարբեր ոլորտների վրա, ներառյալ մտավոր սեփականության իրավունքների շուրջ իրավական մարտահրավերները և աշխատաշուկայի փոփոխությունները։ Բացի այդ, արդյունաբերության առաջատարները շարունակում են զարգացնել AI տեխնոլոգիաները և ռազմավարությունները։",
     "items": [
       {
         "headline": "LAION-ը թողարկել է տեսանյութերի նոր տվյալների բազա",
@@ -5980,6 +5980,41 @@
         "source": 11,
         "link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Sony Music-ը և Warner-ը դատի են տվել Anthropic-ին",
+        "summary": "Sony Music-ը և Warner Chappell-ը դատի են տվել Anthropic-ին՝ մեղադրելով մտավոր սեփականության գողության մեջ և պահանջելով մինչև 150,000 դոլար յուրաքանչյուր հեղինակային իրավունքով պաշտպանված աշխատանքի համար։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը դադարեցրել է Cursor-ի հետ համագործակցությունը",
+        "summary": "OpenAI-ը դադարեցրել է AI կոդավորման գործիք Cursor-ի հետ համագործակցությունը SpaceX-ի կողմից ընկերության ձեռքբերումից հետո՝ վկայակոչելով Իլոն Մասկի պայմանագրերը խախտելու նախկին դեպքերը։",
+        "source": 6,
+        "link": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինաստանում AI-ն դուրս է մղում դերասաններին",
+        "summary": "Չինաստանի զվարճանքի արդյունաբերությունում AI-ով ստեղծված տեսանյութերը դուրս են մղում դերասաններին և լայվստրիմերներին, ընդ որում 2026 թվականի առաջին եռամսյակում թողարկված կարճ դրամաների 95%-ը ստեղծվել է AI-ի միջոցով։",
+        "source": 7,
+        "link": "https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ի AI առավելությունը ընդլայնվում է",
+        "summary": "Nvidia-ի AI առավելությունը դուրս է գալիս GPU-ներից՝ տվյալների կենտրոնների նոր սերնդի համակարգերի արդյունավետությունը բարձրացնելով ավելի խելացի տրաֆիկի կառավարման միջոցով։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ի WikiSkill-ը բարելավում է AI գործակալներին",
+        "summary": "Google Research-ը ներկայացրել է WikiSkill շրջանակը, որը AI գործակալներին տրամադրում է մշտական գիտելիքների բազա՝ թույլ տալով նրանց սովորել անցյալի սխալներից և հաջողություններից։",
+        "source": 10,
+        "link": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [],
