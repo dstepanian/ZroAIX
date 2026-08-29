@@ -5933,5 +5933,60 @@
       "zai-org/GLM-5.3-Flash",
       "zai-org/GLM-5.3"
     ]
+  },
+  {
+    "date": "2026-08-29",
+    "ts": 1788004531295,
+    "overview": "AI ոլորտում շարունակվում են նշանակալի զարգացումները՝ ներառելով նորարարական հետազոտություններ, AI-ի ինտեգրումը հիմնական արտադրանքներին, ինչպես նաև մեծ ներդրումներ են կատարվում ենթակառուցվածքներում։ Միաժամանակ, ոլորտը բախվում է իրավական և կարգավորող մարտահրավերների։",
+    "items": [
+      {
+        "headline": "LAION-ը թողարկել է տեսանյութերի նոր տվյալների բազա",
+        "summary": "LAION-ը թողարկել է Big Video Dataset (BVD) անունով հսկայական բաց տեսանյութերի տվյալների բազա՝ 80 միլիոն տեսանյութերով և 10 միլիոն ժամ տևողությամբ, որը նախատեսված է AI հետազոտությունների համար։",
+        "source": 1,
+        "link": "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը ներկայացնում է Model Hardware Standard-ը",
+        "summary": "Anthropic-ը ներկայացրել է Model Hardware Standard (MHS) նախագիծը, որը AI գործակալներին միասնական ինտերֆեյս է տրամադրում ֆիզիկական սարքերի, ինչպիսիք են ռոբոտային թևերը և լաբորատոր գործիքները, հետ փոխազդելու համար։",
+        "source": 2,
+        "link": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը խորացնում է AI ինտեգրումը որոնման մեջ",
+        "summary": "Google-ն այժմ որոշ որոնումների համար ավտոմատ կերպով ընդլայնում է իր AI որոնման ամփոփագրերը արդյունքների էջի վերևում՝ ավելի ներքև մղելով հղումների ավանդական ցուցակը։",
+        "source": 4,
+        "link": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Neocloud Lambda-ն 1 միլիարդ դոլար է ներգրավել",
+        "summary": "Neocloud Lambda-ն 1 միլիարդ դոլարի մասնավոր պարտք է ներգրավել Nvidia AI չիպեր գնելու և դրանք Microsoft-ին վարձակալությամբ տրամադրելու համար՝ ընդգծելով AI ոլորտի բարձր ծախսերը։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը ցուցադրում է ինքնակատարելագործվող AI",
+        "summary": "Anthropic-ի հետազոտողները ցուցադրել են ինքնակատարելագործվող AI համակարգեր, որոնք կարողացել են բարելավել իրենց կատարողականը 10 տարբեր չափորոշիչներով՝ առանց ընդհանուր արդյունավետությունը նվազեցնելու։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Դատարանը ապօրինի է ճանաչել Anthropic-ի սև ցուցակը",
+        "summary": "Դաշնային դատավորը ապօրինի է ճանաչել Թրամփի վարչակազմի կողմից Anthropic-ին «մատակարարման շղթայի ռիսկ» պիտակավորելը, քանի որ ընկերությունը հրաժարվել էր աջակցել մահացու ինքնավար պատերազմին և զանգվածային հսկողությանը։",
+        "source": 11,
+        "link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "Qwen/Qwen3.8-Flash-Next",
+      "zai-org/GLM-5.3-Flash",
+      "zai-org/GLM-5.3"
+    ]
   }
 ]
