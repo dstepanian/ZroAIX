@@ -6026,8 +6026,8 @@
   },
   {
     "date": "2026-08-30",
-    "ts": 1788087144562,
-    "overview": "AI ոլորտում շարունակվում են իրավական մարտահրավերները հեղինակային իրավունքի շուրջ, մինչդեռ հետազոտությունները բացահայտում են AI-ի հնարավորություններն ու սահմանափակումները։ Օրվա նորությունները նաև ընդգծում են AI-ի ազդեցությունը կրթության և արվեստի վրա։",
+    "ts": 1788116088786,
+    "overview": "Այսօրվա նորությունները կենտրոնանում են արհեստական բանականության ազդեցության վրա աշխատուժի վրա, AI հսկողության շուրջ քաղաքականության փոփոխությունների և ռոբոտաշինության զարգացումների վրա։",
     "items": [
       {
         "headline": "AI գործակալների ժամանակի ընկալումը",
@@ -6063,6 +6063,41 @@
         "source": 13,
         "link": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "Թեքսասը դադարեցնում է Flock AI տեսախցիկների ֆինանսավորումը",
+        "summary": "Թեքսասի նահանգապետ Գրեգ Էբոթը դադարեցրել է նահանգային ֆինանսավորումը Flock-ի AI հսկողության տեսախցիկների համար՝ աճող դժգոհության ֆոնին։",
+        "source": 3,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI-ի նկատմամբ աշխատակիցների տրամադրությունները վատանում են",
+        "summary": "Glassdoor-ի ակնարկների վերլուծությունը ցույց է տվել, որ աշխատակիցների շրջանում AI-ի վերաբերյալ դրական մեկնաբանությունները 2019 թվականից ի վեր նվազել են 81-ից մինչև 43 տոկոս։",
+        "source": 5,
+        "link": "https://the-decoder.com/ai-sentiment-is-turning-sour-as-employee-reviews-reveal-growing-frustration-across-the-workforce/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինաստանի մարդանման ռոբոտները առաջընթաց են գրանցում",
+        "summary": "Չինաստանում մարդանման ռոբոտները մրցում են տարբեր միջոցառումներում՝ ցուցադրելով զգալի առաջընթաց ռոբոտաշինության ոլորտում։",
+        "source": 7,
+        "link": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Meta-ն ռոբոտներ է ներդնում տվյալների կենտրոններում",
+        "summary": "Meta-ն փորձարկում է ռոբոտներին տվյալների կենտրոններում այնպիսի առաջադրանքներ կատարելու համար, որոնք կարող են իրականացվել տեխնիկների կողմից։",
+        "source": 9,
+        "link": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ը փոխում է Claude Code-ի օգտագործման սահմանաչափերը",
+        "summary": "Anthropic-ը փաստացիորեն կրճատում է Claude Code-ի շաբաթական օգտագործման սահմանաչափերը 17 տոկոսով, քանի որ ժամանակավոր 50 տոկոսանոց աճը կփոխարինվի մշտական 25 տոկոսանոց աճով։",
+        "source": 10,
+        "link": "https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [],
