@@ -6023,5 +6023,53 @@
       "zai-org/GLM-5.3-Flash",
       "zai-org/GLM-5.3"
     ]
+  },
+  {
+    "date": "2026-08-30",
+    "ts": 1788087144562,
+    "overview": "AI ոլորտում շարունակվում են իրավական մարտահրավերները հեղինակային իրավունքի շուրջ, մինչդեռ հետազոտությունները բացահայտում են AI-ի հնարավորություններն ու սահմանափակումները։ Օրվա նորությունները նաև ընդգծում են AI-ի ազդեցությունը կրթության և արվեստի վրա։",
+    "items": [
+      {
+        "headline": "AI գործակալների ժամանակի ընկալումը",
+        "summary": "Նոր ուսումնասիրությունը ցույց է տվել, որ Claude Code-ը և Codex-ը, որոնք AI կոդավորման օգնականներ են, չունեն ժամանակի զգացում և համակարգված կերպով գերագնահատում են առաջադրանքների տևողությունը։",
+        "source": 1,
+        "link": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի ազդեցությունը ուսանողների գնահատականների վրա",
+        "summary": "Փորձարկումները ցույց են տվել, որ GPT-4o-ն զգալիորեն բարձրացրել է ուսանողների գնահատականները մարքեթինգային առաջադրանքների համար, սակայն չի ստուգվել, թե արդյոք նրանք իրականում ինչ-որ բան սովորել են։",
+        "source": 2,
+        "link": "https://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Sony-ն և Warner-ը դատի են տվել Anthropic-ին",
+        "summary": "Sony Music-ը, Warner Music-ը և այլ հրատարակիչներ դատի են տվել Anthropic-ին՝ մեղադրելով ընկերությանը տասնյակ հազարավոր հեղինակային իրավունքով պաշտպանված երաժշտական ստեղծագործություններն առանց թույլտվության Claude-ը մարզելու համար օգտագործելու մեջ։",
+        "source": 4,
+        "link": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Վենչուրային կապիտալի ռազմավարությունը AI-ում",
+        "summary": "Նախկինում a16z-ի ղեկավար Վիջայ Պանդեն քննարկել է, թե ինչու է կենսաբանությունը վերածվում ինժեներական գիտության, և ինչպես բաց, ընդհանուր տվյալների հավաքածուները կարող են AI-ի միջոցով բժշկությունը փոխակերպել։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Երաժիշտները որսում են AI խաբեբաներին",
+        "summary": "Երաժիշտները սկսել են որսալ AI-ի միջոցով ստեղծված երաժշտություն տարածող խաբեբաներին, քանի որ աուդիո-կենտրոնացված գեներատիվ գործիքների զարգացման հետ ինտերնետը լցվում է մարդկային արվեստագետների աշխատանքից ալգորիթմորեն ստացված ստեղծագործություններով։",
+        "source": 13,
+        "link": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "Qwen/Qwen3.8-Flash-Next",
+      "zai-org/GLM-5.3-Flash",
+      "zai-org/GLM-5.3"
+    ]
   }
 ]
