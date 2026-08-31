@@ -6159,5 +6159,60 @@
       "zai-org/GLM-5.3-Flash",
       "zai-org/GLM-5.3"
     ]
+  },
+  {
+    "date": "2026-09-01",
+    "ts": 1788210748477,
+    "overview": "Օրվա նորությունները կարևորում են AI ոլորտի զգալի առաջընթացներն ու մարտահրավերները՝ սկսած նոր կարգավորող շրջանակներից և խոշոր ֆինանսական ձեռքբերումներից մինչև ռազմավարական ներդրումներ և շուկայի կայունության մասին նախազգուշացումներ։",
+    "items": [
+      {
+        "headline": "Պենտագոնը ներդնում է AI գործիքներ",
+        "summary": "Պենտագոնն իր AI գործիքների կենտրոնական պորտալում ավելացրել է OpenAI-ի ChatGPT-ի և SpaceXAI-ի Grok-ի տարբերակները՝ Google-ի Gemini-ի կողքին։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Անգլիայի Բանկը զգուշացնում է AI-ի ռիսկերից",
+        "summary": "Անգլիայի Բանկի ղեկավարը զգուշացրել է G20-ի ֆինանսների նախարարներին AI-ի չափազանցված գնահատումների և շուկաներում աճող լծակների մասին, որոնք կարող են հրահրել հաջորդ ֆինանսական ճգնաժամը։",
+        "source": 6,
+        "link": "https://the-decoder.com/bank-of-england-chief-warns-that-inflated-ai-valuations-and-rising-leverage-could-trigger-the-next-financial-crisis/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինաստանը արտադրում է HBM3E չիպեր",
+        "summary": "Չինաստանի առաջատար հիշողության արտադրող ChangXin Memory Technologies (CXMT)-ն առաջին անգամ փոքր քանակությամբ արտադրում է HBM3E չիպեր՝ նվազեցնելով AI հիշողության բացը։",
+        "source": 17,
+        "link": "https://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ն ներդրում է անում MediaTek-ում",
+        "summary": "Nvidia-ն 3.5 միլիարդ դոլար է ներդրել թայվանական չիպերի արտադրող MediaTek-ում՝ ցույց տալով իր ռազմավարությունը Big Tech-ի AI չիպերի ստեղծմանը դիմակայելու համար։",
+        "source": 18,
+        "link": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ChatGPT-ն ԵՄ-ում կկարգավորվի խիստ",
+        "summary": "ԵՄ հանձնաժողովն առաջին անգամ ChatGPT-ն դասակարգում է որպես շատ խոշոր որոնողական համակարգ՝ Digital Services Act-ի ներքո, ինչը ենթադրում է ավելի խիստ վերահսկողություն։",
+        "source": 19,
+        "link": "https://the-decoder.com/chatgpt-now-faces-stricter-eu-oversight-as-a-very-large-search-engine/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի գովազդային եկամուտը հասնում է $1B-ի",
+        "summary": "OpenAI-ի ChatGPT-ի գովազդային բիզնեսը հասել է տարեկան 1 միլիարդ դոլարի եկամտի՝ ընդլայնելով AI-ի հասանելիությունը անվճար և մատչելի տարբերակների միջոցով։",
+        "source": 27,
+        "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+        "outlet": "OpenAI"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "Qwen/Qwen3.8-Flash-Next",
+      "zai-org/GLM-5.3-Flash",
+      "zai-org/GLM-5.3"
+    ]
   }
 ]
