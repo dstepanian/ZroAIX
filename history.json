@@ -6106,5 +6106,58 @@
       "zai-org/GLM-5.3-Flash",
       "zai-org/GLM-5.3"
     ]
+  },
+  {
+    "date": "2026-08-31",
+    "ts": 1788177879100,
+    "overview": "Այսօրվա նորությունները շեշտում են AI տեխնոլոգիաների շարունակական զարգացումը և դրանց կիրառումը տարբեր ոլորտներում, ինչպես նաև կարևոր ենթակառուցվածքային ներդրումները։",
+    "items": [
+      {
+        "headline": "OpenClaw 2.0-ի թողարկումը",
+        "summary": "OpenClaw Foundation-ը թողարկել է իր բաց կոդով AI հարթակի 2.0 տարբերակը՝ ներկայացնելով պարզեցված կարգավորում, վերակառուցված բրաուզերի հավելված և բազմախաղացող նիստեր։",
+        "source": 1,
+        "link": "https://the-decoder.com/openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI լաբորատորիաները գնում են Mac mini-ներ",
+        "summary": "Ըստ The Information-ի՝ OpenAI-ը և մրցակից AI լաբորատորիաները, ներառյալ Anthropic-ը, ձեռք են բերում տասնյակ հազարավոր Mac mini-ներ և Mac Studio-ներ՝ համակարգչային գործակալներ մարզելու համար։",
+        "source": 3,
+        "link": "https://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ-ի և Չինաստանի մրցակցությունը անօդաչուների շուկայում",
+        "summary": "Միացյալ Նահանգները խոչընդոտներ է ստեղծում օտարերկրյա արտադրության անօդաչու թռչող սարքերի և ռոբոտների համար, սակայն Չինաստանի մասշտաբները թույլ են տալիս շուկային տեղափոխվել այլ վայրեր։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Steam-ի տվյալների հսկայական արտահոսք",
+        "summary": "Ավելի քան 12 տերաբայթ տվյալներ, որոնք պարունակում են 2003-ից մինչև 2013 թվականներին Steam-ում վերբեռնված բոլոր խաղերի կառուցվածքները, արտահոսել են՝ ներառելով չեղարկված Half-Life 2: Episode 3-ի նյութեր։",
+        "source": 7,
+        "link": "https://www.theverge.com/games/986552/12tb-steam-leak-half-life-2-episode-3",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Caterpillar-ը AI-ն կիրառում է հանքարդյունաբերության մեջ",
+        "summary": "Caterpillar-ը, որը տասնամյակներ շարունակ ավտոմատացված մեքենաներ է կիրառել հեռավոր հանքարդյունաբերական վայրերում, այժմ այդ փորձը տեղափոխում է AI-ի ներդրման ոլորտ։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "OpenClaw 2.0",
+        "note": "բաց կոդով AI հարթակի նոր տարբերակ"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-Flash-Next",
+      "zai-org/GLM-5.3-Flash",
+      "zai-org/GLM-5.3"
+    ]
   }
 ]
