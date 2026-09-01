@@ -6162,8 +6162,8 @@
   },
   {
     "date": "2026-09-01",
-    "ts": 1788259445273,
-    "overview": "Այսօրվա տվյալներով՝ արհեստական բանականության ոլորտում նկատվում է զգալի ակտիվություն՝ OpenAI-ի եկամուտների աճից մինչև նոր կարգավորումներ Եվրոպական միությունում, ինչպես նաև AI-ի կիրառման նոր ուղղություններ՝ ոստիկանության համար նախատեսված գործիքներից մինչև գյուղատնտեսության մեջ օգտագործվող միկրոօրգանիզմներ:",
+    "ts": 1788289088558,
+    "overview": "Օրվա նորությունները ընդգծում են AI-ի հնարավորությունների և կիրառությունների զգալի առաջընթացը, ինչպես նաև AI-ի էթիկայի և իրավական մարտահրավերների շուրջ կարևոր քննարկումները։",
     "items": [
       {
         "headline": "Պենտագոնը ներդնում է AI գործիքներ",
@@ -6248,9 +6248,60 @@
         "source": 4,
         "link": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
         "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Apple-ը մեղադրում է OpenAI-ին ապացույցներ ոչնչացնելու մեջ",
+        "summary": "Apple-ը դատարանում պնդում է, որ OpenAI-ն ակտիվորեն ոչնչացնում է ապացույցներ իրենց միջև ընթացող իրավական վեճի շրջանակներում։",
+        "source": 2,
+        "link": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google AI որոնման կողմնակալություն",
+        "summary": "Ըստ AlgorithmWatch-ի զեկույցի, Google-ի AI որոնումը նախկինում տվել է խտրական խորհուրդներ որոշակի ազգությունների վերաբերյալ և դեռևս նշում է մարդկանց Facebook-ից։",
+        "source": 25,
+        "link": "https://the-decoder.com/googles-ai-search-dropped-its-emergency-call-advice-over-nationalities-but-still-flags-people-from-facebook/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Runway-ը ներկայացրել է Solaris AI համակարգը",
+        "summary": "AI ընկերություն Runway-ը ներկայացրել է Solaris-ը՝ նոր AI համակարգ, որն իրական ժամանակում ստեղծում է ծրագրային ապահովման ինտերֆեյսներ։",
+        "source": 24,
+        "link": "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "DeepMind-ը բարելավում է Gemini-ի տեսանյութերի ընկալումը",
+        "summary": "Google DeepMind-ը ներկայացրել է Gemini-ի գործակալական տեսանյութերի ընկալման նոր հնարավորություններ, որոնք թույլ են տալիս ավելի խորը վերլուծել տեսողական տվյալները։",
+        "source": 5,
+        "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "ChatGPT Health-ի ինտեգրումը Epic-ի հետ",
+        "summary": "OpenAI-ն հայտարարել է, որ ChatGPT Health-ն այժմ ինտեգրվում է Epic-ի հետ՝ թույլ տալով բժիշկներին մուտք գործել հիվանդների տվյալները։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Empirik-ը ստացել է 21 մլն դոլարի ֆինանսավորում",
+        "summary": "Sequoia-ի կողմից ինկուբացված Empirik ստարտափը գործարկվել է 21 միլիոն դոլարի ֆինանսավորմամբ՝ կանխատեսելու ենթակառուցվածքների խափանումները։",
+        "source": 13,
+        "link": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
+        "outlet": "TechCrunch"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Google Pics",
+        "note": "AI-ի վրա հիմնված դիզայնի գործիք"
+      },
+      {
+        "name": "Runway Solaris",
+        "note": "իրական ժամանակում ինտերֆեյսներ ստեղծող AI համակարգ"
+      }
+    ],
     "trending": [
       "Qwen/Qwen3.8-Flash-Next",
       "zai-org/GLM-5.3-Flash",
