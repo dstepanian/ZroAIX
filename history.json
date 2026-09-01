@@ -6162,8 +6162,8 @@
   },
   {
     "date": "2026-09-01",
-    "ts": 1788210748477,
-    "overview": "Օրվա նորությունները կարևորում են AI ոլորտի զգալի առաջընթացներն ու մարտահրավերները՝ սկսած նոր կարգավորող շրջանակներից և խոշոր ֆինանսական ձեռքբերումներից մինչև ռազմավարական ներդրումներ և շուկայի կայունության մասին նախազգուշացումներ։",
+    "ts": 1788259445273,
+    "overview": "Այսօրվա տվյալներով՝ արհեստական բանականության ոլորտում նկատվում է զգալի ակտիվություն՝ OpenAI-ի եկամուտների աճից մինչև նոր կարգավորումներ Եվրոպական միությունում, ինչպես նաև AI-ի կիրառման նոր ուղղություններ՝ ոստիկանության համար նախատեսված գործիքներից մինչև գյուղատնտեսության մեջ օգտագործվող միկրոօրգանիզմներ:",
     "items": [
       {
         "headline": "Պենտագոնը ներդնում է AI գործիքներ",
@@ -6206,6 +6206,48 @@
         "source": 27,
         "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
         "outlet": "OpenAI"
+      },
+      {
+        "headline": "OpenAI-ի եկամուտները գերազանցում են 1 միլիարդ դոլարը",
+        "summary": "OpenAI-ի գովազդային բիզնեսը հասել է տարեկան 1 միլիարդ դոլարի եկամտի, ինչը վկայում է նրանց ChatGPT հարթակի հաջողության մասին:",
+        "source": 21,
+        "link": "https://the-decoder.com/openai-says-its-chatgpt-ad-business-hits-a-1-billion-annual-run-rate/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ն առաջարկում է վճարում ըստ արդյունքի",
+        "summary": "OpenAI-ն սկսել է որոշ խոշոր հաճախորդներին առաջարկել վճարել միայն այն դեպքում, երբ AI-ն հաջողությամբ կատարի առաջադրանքը, ինչը փոփոխություն է դեպի արդյունքի վրա հիմնված գնագոյացում:",
+        "source": 22,
+        "link": "https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Instagram-ը սահմանափակում է AI պրոֆիլների հասանելիությունը",
+        "summary": "Instagram-ը սահմանափակումներ է մտցնում չհայտարարագրված AI պրոֆիլների համար՝ օգտատերերի մտահոգությունները հաշվի առնելով AI-ի և իրական մարդկանց տարբերակելու վերաբերյալ:",
+        "source": 13,
+        "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ChatGPT-ն ու Reddit-ը կենթարկվեն ԵՄ խիստ կանոններին",
+        "summary": "ChatGPT-ն և Reddit-ը կհամապատասխանեն Եվրոպական միության ամենախիստ առցանց անվտանգության կանոններին՝ կապված իրենց արագ աճի հետ:",
+        "source": 23,
+        "link": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Blue Voice-ը մշակում է AI գործիք ոստիկանների համար",
+        "summary": "Blue Voice-ը, որը հիմնադրվել է Հարվարդի իրավաբանական դպրոցի նախկին ուսանողի կողմից, $6 միլիոն ներդրում է ստացել՝ ոստիկանների համար AI գործիք մշակելու համար, որը կենտրոնացած է հատուկ օրենքների և արձանագրությունների վրա:",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Արդյունավետ միկրոօրգանիզմները կարող են օգնել գյուղատնտեսությանը",
+        "summary": "Մշակվում են ինժեներական միկրոօրգանիզմներ, որոնք կարող են օգնել բարձրացնել բերքատվությունը և նվազեցնել պարարտանյութերի օգտագործումը, ինչը նշանակալի քայլ է գլոբալ պարենային ապահովության համար:",
+        "source": 4,
+        "link": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
+        "outlet": "MIT Tech Review"
       }
     ],
     "releases": [],
