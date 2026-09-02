@@ -6310,8 +6310,8 @@
   },
   {
     "date": "2026-09-02",
-    "ts": 1788343692285,
-    "overview": "Այսօրվա նորությունները նշանավորվում են AI մոդելների և դրանց կիրառությունների զգալի առաջընթացներով, ինչպես նաև AI-ի անվտանգության, էթիկայի և շուկայի աճի շուրջ կարևոր քննարկումներով։ Նոր մոդելներն ավելի արդյունավետ ու բազմակողմանի են դառնում, մինչդեռ ընկերություններն ուսումնասիրում են նոր ոլորտներ և անդրադառնում կարգավորող մարմինների մտահոգություններին։",
+    "ts": 1788375826851,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների թողարկման զգալի առաջընթացները Google-ի և Anthropic-ի նման խոշոր ընկերություններից, ինչպես նաև AI-ի անվտանգության և կարգավորող շրջանակների շուրջ աճող քննարկումները, հատկապես հեղինակային իրավունքի և ռազմական կիրառման վերաբերյալ։",
     "items": [
       {
         "headline": "Google Gemini-ի նոր վիդեո վերլուծություն",
@@ -6354,18 +6354,64 @@
         "source": 37,
         "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
         "outlet": "OpenAI"
+      },
+      {
+        "headline": "ԱՄՆ Արդարադատության նախարարությունը՝ AI ուսուցման մասին",
+        "summary": "ԱՄՆ Արդարադատության նախարարությունը հանդես է եկել հօգուտ արդար օգտագործման սկզբունքի՝ հեղինակային իրավունքով պաշտպանված նյութերով AI մոդելների ուսուցման հարցում՝ The New York Times-ի դեմ հայցի շրջանակներում։",
+        "source": 3,
+        "link": "https://the-decoder.com/us-department-of-justice-backs-fair-use-for-ai-training-in-landmark-copyright-case/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը թողարկում է Gemini 3.8 Flash-ը",
+        "summary": "Google-ը թողարկել է Gemini 3.8 Flash մոդելը, որը վերջին վեց շաբաթվա ընթացքում ընկերության երրորդ Flash մոդելն է։",
+        "source": 4,
+        "link": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Մտահոգություններ OpenAI-ի Astra մոդելի շուրջ",
+        "summary": "Հետազոտողները մտահոգություն են հայտնում OpenAI-ի առաջիկա Astra AI մոդելի անվտանգության վերաբերյալ՝ նախազգուշացնելով, որ այն կարող է լինել «AI անվտանգության համար ամենավատ զարգացումը մինչ օրս»։",
+        "source": 13,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "ԱՄՆ զինվորականները կիրառում են AI մոդելներ",
+        "summary": "Պենտագոնն ընդլայնում է իր GenAI.mil AI հարթակը՝ ավելացնելով OpenAI-ի ChatGPT Mil-ը և xAI-ի Grok for Government-ը։",
+        "source": 25,
+        "link": "https://the-decoder.com/us-military-adds-chatgpt-and-grok-to-ai-platform-genai-mil/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "World Labs-ը ներկայացնում է Atlas AI մոդելը",
+        "summary": "World Labs-ը, որի համահիմնադիրն է AI հետազոտող Fei-Fei Li-ն, ներկայացրել է Atlas-ը՝ մի մոդել, որը մի քանի լուսանկարներից ստեղծում, վերակառուցում և մոդելավորում է 3D աշխարհներ։",
+        "source": 32,
+        "link": "https://the-decoder.com/world-labs-unveils-atlas-a-single-ai-model-that-generates-reconstructs-and-simulates-3d-worlds-from-just-a-few-photos/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը թողարկում է Claude Fable 5.1-ը",
+        "summary": "Anthropic-ը թողարկել է Claude Fable 5.1-ը, որն իր ամենաարդյունավետ AI մոդելն է՝ խոստանալով բարելավված կոդավորում և հետազոտական հնարավորություններ մինչև 45 տոկոսով ավելի ցածր գնով։",
+        "source": 40,
+        "link": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
       {
         "name": "Claude Fable 5.1",
         "note": "Anthropic-ի նոր AI մոդել"
+      },
+      {
+        "name": "Gemini 3.8 Flash",
+        "note": "Google-ի նոր AI մոդել"
       }
     ],
     "trending": [
-      "Qwen/Qwen3.8-Flash-Next",
+      "zai-org/GLM-5.3",
       "zai-org/GLM-5.3-Flash",
-      "zai-org/GLM-5.3"
+      "Qwen/Qwen3.8-Flash-Next"
     ]
   }
 ]
