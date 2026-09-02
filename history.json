@@ -6307,5 +6307,65 @@
       "zai-org/GLM-5.3-Flash",
       "zai-org/GLM-5.3"
     ]
+  },
+  {
+    "date": "2026-09-02",
+    "ts": 1788343692285,
+    "overview": "Այսօրվա նորությունները նշանավորվում են AI մոդելների և դրանց կիրառությունների զգալի առաջընթացներով, ինչպես նաև AI-ի անվտանգության, էթիկայի և շուկայի աճի շուրջ կարևոր քննարկումներով։ Նոր մոդելներն ավելի արդյունավետ ու բազմակողմանի են դառնում, մինչդեռ ընկերություններն ուսումնասիրում են նոր ոլորտներ և անդրադառնում կարգավորող մարմինների մտահոգություններին։",
+    "items": [
+      {
+        "headline": "Google Gemini-ի նոր վիդեո վերլուծություն",
+        "summary": "Google-ը Gemini 3.7 Flash, 3.6 Flash և 3.5 Flash-Lite մոդելներին ավելացրել է գործակալների վրա հիմնված վիդեո վերլուծություն, որը մինչև 88 տոկոսով կրճատում է թոքենների օգտագործումը՝ միաժամանակ բարելավելով ճշգրտությունը։",
+        "source": 5,
+        "link": "https://the-decoder.com/google-geminis-new-agent-based-video-analysis-cuts-token-usage-by-up-to-88-percent/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AfterQuery-ն դարձել է Y Combinator-ի ամենաարագ յունիքորնը",
+        "summary": "AI մոդելների ուսուցման AfterQuery ստարտափը, ինչպես հաղորդվում է, ներգրավել է ֆինանսավորման նոր փուլ, որի արդյունքում նրա արժեքը հասել է 3.2 միլիարդ դոլարի՝ դառնալով Y Combinator-ի ամենաարագ յունիքորնը։",
+        "source": 11,
+        "link": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը թողարկել է Claude Fable 5.1-ը",
+        "summary": "Anthropic-ը թողարկել է իր նոր Claude Fable 5.1 AI մոդելը, որն ապահովում է ավելի լավ կատարողականություն և գործակալական աշխատանքի համար մինչև 45 տոկոսով ավելի էժան է։",
+        "source": 12,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ը բացում է Claude AI տեքստի հայտնաբերումը",
+        "summary": "Anthropic-ը գործարկում է API, որը թույլ է տալիս կարգավորող մարմիններին, լրատվամիջոցներին և հետազոտողներին ստուգել, թե արդյոք տեքստը կրում է Claude-ի թվային ջրային նշանը։",
+        "source": 18,
+        "link": "https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը ներկայացրել է AI դիզայնի գործիք",
+        "summary": "Google-ը ներկայացրել է Google Pics անունով նոր AI գործիք, որը մրցակցում է Canva-ի և Adobe-ի հետ՝ թույլ տալով օգտատերերին ստեղծել դիզայն՝ հրահանգներ տալու միջոցով։",
+        "source": 24,
+        "link": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ChatGPT-ն այժմ հասանելի է առողջապահության համար",
+        "summary": "ChatGPT-ն այժմ կարող է միանալ առողջապահական տվյալներին, ինչը թույլ է տալիս կլինիցիստներին ապահով կերպով մուտք գործել հիվանդի համատեքստը, բժշկական հետազոտությունները և այլ տեղեկություններ։",
+        "source": 37,
+        "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+        "outlet": "OpenAI"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Claude Fable 5.1",
+        "note": "Anthropic-ի նոր AI մոդել"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-Flash-Next",
+      "zai-org/GLM-5.3-Flash",
+      "zai-org/GLM-5.3"
+    ]
   }
 ]
