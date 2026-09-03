@@ -6416,8 +6416,8 @@
   },
   {
     "date": "2026-09-03",
-    "ts": 1788430757938,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI ենթակառուցվածքների և քաղաքականության զգալի զարգացումները, ներառյալ AI ամպային հաշվարկների համար խոշոր ֆինանսավորումը և AI մոդելների ուսուցման վերաբերյալ կառավարության կարևոր դիրքորոշումները: Բացի այդ, թողարկվում են նոր AI մոդելներ, մինչդեռ անվտանգության մտահոգությունները և իրավական մարտահրավերները շարունակում են ձևավորել ոլորտը:",
+    "ts": 1788461879805,
+    "overview": "Այսօրվա AI և տեխնոլոգիական նորությունները նշանավորվել են նոր խոշոր AI մոդելների թողարկումներով և արդյունաբերությունը ձևավորող ձեռքբերումներով: Ոլորտի առաջատարները շարունակում են ընդլայնել AI-ի հնարավորությունները՝ միաժամանակ բախվելով ենթակառուցվածքային մարտահրավերների և ծառայությունների ընդհատումների։",
     "items": [
       {
         "headline": "Anthropic-ը $35 միլիարդի գործարք է կնքել",
@@ -6460,12 +6460,62 @@
         "source": 37,
         "link": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը ներկայացրել է Astra մոդելը",
+        "summary": "OpenAI-ը թողարկել է իր նոր Astra մոդելը՝ պնդելով, որ այն նոր սահմաններ է բացում համակարգչային և բրաուզերի օգտագործման մեջ՝ անզուգական արագությամբ, ճշգրտությամբ և անվտանգությամբ։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ը թողարկել է WeatherNext 3-ը",
+        "summary": "Google-ը ներկայացրել է WeatherNext 3-ը՝ իր ամենաառաջադեմ և ճշգրիտ գլոբալ եղանակային AI մոդելը, որը կսկսի ինտեգրվել Google Search-ի, Google Maps-ի և Gemini-ի եղանակային տեղեկատվությանը։",
+        "source": 17,
+        "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "Nvidia-ն ձեռք է բերում Hugging Face-ը",
+        "summary": "Nvidia-ն մոտ 12.9 միլիարդ դոլարով ձեռք է բերում Hugging Face-ը՝ բաց AI մոդելների կենտրոնական հարթակը, որն օգտագործում են ավելի քան 18 միլիոն ծրագրավորողներ և 200,000 ընկերություններ։",
+        "source": 19,
+        "link": "https://the-decoder.com/nvidia-buys-the-front-door-to-open-ai-as-closed-labs-increasingly-design-their-own-silicon/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Սեմ Ալթմանը զգուշացնում է AI ենթակառուցվածքի մասին",
+        "summary": "OpenAI-ի գործադիր տնօրեն Սեմ Ալթմանը զգուշացրել է հաշվողական հզորությունների կառուցման «անտանելի անմտության» մասին՝ նշելով, որ շատ Neocloud մատակարարներ հայտարարում են հսկայական հզորությունների մասին՝ առանց դրանք հիմնավորող հաճախորդների։",
+        "source": 26,
+        "link": "https://the-decoder.com/openai-ceo-sam-altman-warns-of-unsustainable-silliness-in-compute-buildout/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն թողարկել է Muse Spark 1.3-ը",
+        "summary": "Meta-ն թողարկել է Muse Spark 1.3-ը՝ իր շարքի չորրորդ մոդելը հինգ ամսվա ընթացքում, որը զգալի առաջընթաց է գրանցել գործակալական չափորոշիչներում և առաջարկում է մրցակցային գին։",
+        "source": 27,
+        "link": "https://the-decoder.com/meta-closes-in-on-the-top-with-muse-spark-1-3-and-undercuts-rivals-on-price/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI մոդելների համընկնող անջատում",
+        "summary": "ChatGPT-ն, Claude-ը, Grok-ը և Gemini-ն գրեթե միաժամանակ ենթարկվել են ծառայությունների ընդհատումների՝ առաջացնելով հազվագյուտ համընկնող անջատում չորս խոշոր AI մոդելների համար։",
+        "source": 5,
+        "link": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
+        "outlet": "Ars Technica"
       }
     ],
     "releases": [
       {
         "name": "Anker MindBase",
         "note": "AI-ով աշխատող խելացի տան կենտրոն"
+      },
+      {
+        "name": "Astra",
+        "note": "OpenAI-ի նոր հզոր AI մոդել"
+      },
+      {
+        "name": "WeatherNext 3",
+        "note": "Google-ի առաջադեմ գլոբալ եղանակային AI մոդել"
       }
     ],
     "trending": [
