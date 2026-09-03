@@ -6413,5 +6413,65 @@
       "zai-org/GLM-5.3-Flash",
       "Qwen/Qwen3.8-Flash-Next"
     ]
+  },
+  {
+    "date": "2026-09-03",
+    "ts": 1788430757938,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI ենթակառուցվածքների և քաղաքականության զգալի զարգացումները, ներառյալ AI ամպային հաշվարկների համար խոշոր ֆինանսավորումը և AI մոդելների ուսուցման վերաբերյալ կառավարության կարևոր դիրքորոշումները: Բացի այդ, թողարկվում են նոր AI մոդելներ, մինչդեռ անվտանգության մտահոգությունները և իրավական մարտահրավերները շարունակում են ձևավորել ոլորտը:",
+    "items": [
+      {
+        "headline": "Anthropic-ը $35 միլիարդի գործարք է կնքել",
+        "summary": "Anthropic-ը $35 միլիարդի ամպային հաշվարկների գործարք է կնքել Nvidia-ի կողմից աջակցվող Lambda ամպային մատակարարի հետ՝ Claude-ի ենթակառուցվածքները ընդլայնելու համար:",
+        "source": 4,
+        "link": "https://the-decoder.com/anthropic-ramps-up-claude-infrastructure-with-35-billion-lambda-deal/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի Astra մոդելի անվտանգության մտահոգություններ",
+        "summary": "OpenAI-ի նոր Astra մոդելը, որը կօգտագործի «կրկնվող խորություն» տեխնիկան, անվտանգության փորձագետների մտահոգությունն է առաջացրել՝ այն դասելով որպես «կրիտիկական» կիբեր հնարավորություններով առաջին համակարգ:",
+        "source": 17,
+        "link": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ԱՄՆ կառավարությունը աջակցում է OpenAI-ին",
+        "summary": "ԱՄՆ կառավարությունը պաշտպանել է OpenAI-ի դիրքորոշումը՝ LLM-ների ուսուցման համար հեղինակային իրավունքով պաշտպանված նյութերի օգտագործման հարցում՝ նշելով AI արդյունաբերության զարգացման շահագրգռվածությունը:",
+        "source": 21,
+        "link": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ը ներկայացնում է Gemini 3.8 Flash-ը",
+        "summary": "Google-ը թողարկել է Gemini 3.8 Flash-ը, որը վեց շաբաթվա ընթացքում երրորդ Flash մոդելն է և որոշ գործակալական կոդավորման չափանիշներով համընկնում է Claude Opus 5-ի հետ՝ ավելի ցածր գնով:",
+        "source": 22,
+        "link": "https://the-decoder.com/gemini-3-8-flash-is-googles-third-budget-model-in-six-weeks-while-frontier-models-remain-mia/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "HiddenLayer-ը $100 միլիոն է ստացել",
+        "summary": "HiddenLayer-ը $100 միլիոն է հավաքել ֆինանսավորման արդյունքում, քանի որ ձեռնարկությունները շտապում են ապահովել իրենց AI համակարգերի տեղակայումները՝ ընդգծելով AI անվտանգության աճող պահանջարկը:",
+        "source": 28,
+        "link": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի դեմ նոր հայցեր",
+        "summary": "Edelson PC իրավաբանական ընկերությունը ևս 30 նոր հայց է ներկայացրել OpenAI-ի դեմ՝ կապված Tumbler Ridge-ի հրաձգության հետ՝ ընդլայնելով մեղադրանքները մինչև հանցակցության և անվանելով Քրիս Լեհանին, թեև ապացույցները դեռ հաստատված չեն:",
+        "source": 37,
+        "link": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Anker MindBase",
+        "note": "AI-ով աշխատող խելացի տան կենտրոն"
+      }
+    ],
+    "trending": [
+      "zai-org/GLM-5.3",
+      "Qwen/Qwen3.8-Flash-Next",
+      "zai-org/GLM-5.3-Flash"
+    ]
   }
 ]
