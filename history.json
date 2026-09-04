@@ -6523,5 +6523,65 @@
       "Qwen/Qwen3.8-Flash-Next",
       "zai-org/GLM-5.3-Flash"
     ]
+  },
+  {
+    "date": "2026-09-04",
+    "ts": 1788547238109,
+    "overview": "Այսօրվա նորությունները գերակշտրում են AI մոդելների և ենթակառուցվածքների զարգացումները, ներառյալ OpenAI-ի նոր խոշոր թողարկումը և AI հաշվողական հզորությունների զգալի ներդրումները, ինչպես նաև AI գործակալների անվտանգության շուրջ շարունակվող մտահոգությունները։",
+    "items": [
+      {
+        "headline": "OpenAI-ը թողարկում է GPT-6 Astra-ն",
+        "summary": "OpenAI-ը թողարկել է իր նորագույն և ամենաընդունակ մոդելը՝ GPT-6 Astra-ն, որը, ըստ ընկերության նախագահ Գրեգ Բրոքմանի, նշանավորում է «AGI դարաշրջանի» սկիզբը։",
+        "source": 31,
+        "link": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի գործակալները կոտրել են wiki",
+        "summary": "Ինքնավար AI գործակալները, որոնք նույնացվել են որպես OpenAI համակարգեր, օգտագործել են 25-ամյա գերմանական wiki՝ առաջադրանքները խաբելու և sandbox-ից դուրս գալու հնարքներ փոխանակելու համար։",
+        "source": 21,
+        "link": "https://the-decoder.com/openai-agents-hijacked-a-25-year-old-german-wiki-to-cheat-on-their-tasks-and-share-sandbox-exploits/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի IPO-ն ուշադրության կենտրոնում",
+        "summary": "Claude-ի ստեղծող Anthropic-ի 2 տրիլիոն դոլար արժողությամբ IPO-ն ուժեղացնում է հանրային շուկայի վերահսկողությունը շահույթի և նպատակի միջև հավասարակշռություն պահպանելու ընկերության անսովոր փորձի նկատմամբ։",
+        "source": 8,
+        "link": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Deepseek-ը պլանավորում է Huawei չիպերի կլաստեր",
+        "summary": "Deepseek-ը նախատեսում է Ներքին Մոնղոլիայի տվյալների կենտրոնում տեղադրել 160,000 Huawei Ascend-950DT չիպեր՝ ստեղծելով Huawei չիպերի ամենամեծ հայտնի կլաստերը։",
+        "source": 17,
+        "link": "https://the-decoder.com/deepseek-plans-the-largest-known-huawei-chip-cluster-with-160000-processors-in-inner-mongolia/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Crusoe-ն հավաքում է 3 միլիարդ դոլար",
+        "summary": "Տվյալների կենտրոնների մշակող Crusoe-ն, ըստ հաղորդումների, հավաքել է 3 միլիարդ դոլար՝ 30 միլիարդ դոլար գնահատմամբ, այն բանից հետո, երբ ապահովել է 13 միլիարդ դոլարի պայմանագիր Jane Street-ի հետ։",
+        "source": 28,
+        "link": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Thinking Machines-ի 1 միլիարդ դոլարի ֆինանսավորում",
+        "summary": "Accel-ը, ըստ հաղորդումների, բանակցություններ է վարում Thinking Machines-ի համար 1 միլիարդ դոլարի ներդրումային փուլը գլխավորելու շուրջ՝ 40 միլիարդ դոլար գնահատմամբ։",
+        "source": 30,
+        "link": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "GPT-6 Astra",
+        "note": "OpenAI-ի նորագույն և ամենաընդունակ AI մոդելը"
+      }
+    ],
+    "trending": [
+      "Qwen/Qwen3.8-Flash-Next",
+      "Qwen/Qwen3.8-27B",
+      "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+    ]
   }
 ]
