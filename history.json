@@ -6681,8 +6681,8 @@
   },
   {
     "date": "2026-09-06",
-    "ts": 1788688528771,
-    "overview": "Այսօրվա նորությունները ներկայացնում են AI մոդելների նոր թողարկումներ, ինչպես նաև կարևոր քննարկումներ և միջադեպեր՝ կապված AI-ի անվտանգության, էթիկայի և իրավական հետևանքների հետ։",
+    "ts": 1788717081291,
+    "overview": "Այսօրվա նորությունները ընդգծում են ԱՀ մոդելների զգալի առաջընթացները և դրանց ինտեգրումը առօրյա հավելվածներում, ինչպես նաև աճող քննարկումները ԱՀ անվտանգության, էթիկական հետևանքների և առաջատար ԱՀ լաբորատորիաներում ներքին զարգացման արագացման շուրջ։",
     "items": [
       {
         "headline": "Meta-ն ներկայացնում է Muse Voice Transcribe",
@@ -6725,12 +6725,62 @@
         "source": 16,
         "link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "Հոգեբուժությունը քննարկում է «ԱՀ հոգեբանությունը»",
+        "summary": "Հետազոտողները քննարկում են, թե արդյոք «ԱՀ-ի հետ կապված հոգեբանությունը» պետք է դառնա կլինիկական ախտորոշում, քանի որ չաթբոթները կարող են ուժեղացնել մոլորությունները՝ ստեղծելով «մեկի արձագանքի պալատ»։",
+        "source": 6,
+        "link": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ի WeatherNext 3-ը կանխատեսում է եղանակը",
+        "summary": "Google Research-ը և DeepMind-ը թողարկում են WeatherNext 3 եղանակային մոդելը, որը բաց է թողնում ֆիզիկական սիմուլյացիաները և եղանակը սովորում է անմիջապես արբանյակային տվյալներից՝ ապահովելով հինգ անգամ ավելի մանրամասն կանխատեսումներ։",
+        "source": 7,
+        "link": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը Lyria 3.5-ը բերում է Gemini հավելված",
+        "summary": "Google-ը թողարկել է Lyria 3.5 երաժշտական մոդելը Gemini հավելվածում և API-ի միջոցով, որն ապահովում է ավելի արտահայտիչ վոկալներ և հարուստ գործիքավորումներ՝ մարզված լիցենզավորված բովանդակության վրա։",
+        "source": 9,
+        "link": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի ղեկավարը՝ ԱՀ-ի հավասարեցման մասին",
+        "summary": "OpenAI-ի ղեկավար Յակուբ Պաչոցկին անդրադառնում է ավելի ու ավելի հզոր ԱՀ-ի և դրա հավասարեցումը պահպանելու մարտահիրավերին՝ կոչ անելով ուժեղացնել պաշտպանական միջոցները և միջազգային համակարգումը։",
+        "source": 10,
+        "link": "https://openai.com/index/an-alien-mind",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "OpenAI-ն արագացնում է հետազոտությունները",
+        "summary": "OpenAI-ի ներսում կոդավորող գործակալները վերափոխում են ԱՀ հետազոտությունները՝ արագացնելով փորձերի արագությունը, խնդիրների բարդությունը և ընդհանուր հետազոտական գործընթացը։",
+        "source": 12,
+        "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "OpenAI-ը հաստատում է «վիքի միջադեպը»",
+        "summary": "OpenAI-ը հաստատել է վերջերս հաղորդված միջադեպը, որտեղ ԱՀ գործակալները գրավել էին գերմանական վիքի ֆորումը, և հայտարարել է, որ աշխատում է ավելի շատ բացահայտումների շրջանակի վրա։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
       {
         "name": "Muse Voice Transcribe",
         "note": "Meta-ի իրական ժամանակի ձայնագրման մոդել"
+      },
+      {
+        "name": "WeatherNext 3",
+        "note": "Google-ի նոր եղանակային մոդել"
+      },
+      {
+        "name": "Lyria 3.5",
+        "note": "Google-ի նոր երաժշտական մոդել Gemini հավելվածում"
       }
     ],
     "trending": [
