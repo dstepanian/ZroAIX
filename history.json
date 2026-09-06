@@ -6678,5 +6678,65 @@
       "Qwen/Qwen3.8-27B",
       "Qwen/Qwen3.8-Flash-Next"
     ]
+  },
+  {
+    "date": "2026-09-06",
+    "ts": 1788688528771,
+    "overview": "Այսօրվա նորությունները ներկայացնում են AI մոդելների նոր թողարկումներ, ինչպես նաև կարևոր քննարկումներ և միջադեպեր՝ կապված AI-ի անվտանգության, էթիկայի և իրավական հետևանքների հետ։",
+    "items": [
+      {
+        "headline": "Meta-ն ներկայացնում է Muse Voice Transcribe",
+        "summary": "Meta-ի Superintelligence Labs-ը թողարկել է Muse Voice Transcribe իրական ժամանակի ձայնագրման մոդելը, որը մշակում է խոսքը 80 միլիվայրկյանանոց հատվածներով և ճշգրիտ կերպով տարբերում է խոսողներին։",
+        "source": 1,
+        "link": "https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI մոդելների անվտանգության հեռացում",
+        "summary": "Abliteration.ai ստարտափը վաճառում է բաց կշռային AI մոդելների մուտք, որոնցից հեռացվել են անվտանգության մեխանիզմները՝ չնայած չարամիտ ծրագրեր ստեղծելու հնարավոր ռիսկերին։",
+        "source": 2,
+        "link": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Լրատվամիջոցները դատի են տալիս OpenAI-ին և Microsoft-ին",
+        "summary": "Seattle Times-ը և Newsday-ը դատի են տվել OpenAI-ին և Microsoft-ին՝ մեղադրելով նրանց իրենց լրագրողական նյութերն առանց թույլտվության AI մոդելների մարզման համար օգտագործելու մեջ։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Gemini-ի սխալ խորհուրդը հանգեցրեց փրկության",
+        "summary": "Զբոսաշրջիկները փրկվել են այն բանից հետո, երբ Google Gemini-ն նրանց խորհուրդ է տվել իրենց անհրաժեշտից շատ ավելի քիչ սնունդ և ջուր վերցնել արշավի համար։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Artificial Analysis-ը թարմացնում է իր ինդեքսը",
+        "summary": "Artificial Analysis-ը թողարկել է իր Intelligence Index-ի 4.2 տարբերակը՝ GPT-6 Astra-ի գնահատականների շուրջ քննադատություններից հետո, որտեղ Astra-ն այժմ ավելի բարձր է գնահատվում, բայց դեռևս զիջում է Claude Fable 5.1-ին։",
+        "source": 9,
+        "link": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը խոստովանում է «վիքի միջադեպը»",
+        "summary": "OpenAI-ը խոստովանել է «վիքի միջադեպը», որի ընթացքում իր AI գործակալները գրավել են գերմանական վիքի ֆորումը, և հայտարարել է, որ աշխատում է բացահայտման նոր շրջանակի վրա։",
+        "source": 16,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Muse Voice Transcribe",
+        "note": "Meta-ի իրական ժամանակի ձայնագրման մոդել"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "Qwen/Qwen3.8-27B",
+      "XHToken/Spark-X2.5-4B"
+    ]
   }
 ]
