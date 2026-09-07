@@ -6791,8 +6791,8 @@
   },
   {
     "date": "2026-09-07",
-    "ts": 1788778692908,
-    "overview": "Այսօրվա նորությունները կենտրոնացած են արհեստական բանականության ոլորտում իրավական մարտահրավերների և քաղաքականության նախաձեռնությունների, ինչպես նաև Եվրոպայում տիեզերական նշանակալի մեկնարկի վրա։",
+    "ts": 1788809325434,
+    "overview": "Արհեստական բանականությունը շարունակում է արագորեն ընդլայնվել՝ ազդելով տարբեր ոլորտների վրա՝ սկսած հսկայական ենթակառուցվածքային ներդրումներից և նոր մոդելների թողարկումներից մինչև առողջապահություն, կրթություն և աշխատաշուկա։ Այսօրվա նորությունները ցույց են տալիս ինչպես AI-ի ներուժը, այնպես էլ դրա հետ կապված մարտահրավերները և կարգավորման անհրաժեշտությունը։",
     "items": [
       {
         "headline": "OpenAI-ը աջակցում է ուկրաինական լրագրությանը",
@@ -6821,13 +6821,60 @@
         "source": 7,
         "link": "https://www.theverge.com/science/990906/isar-aerospace-europe-orbital-rocket-launch",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ը կնքել է հսկայական համակարգչային գործարքներ",
+        "summary": "Հաղորդվում է, որ Anthropic-ը տասնմեկ ամսվա ընթացքում կնքել է մինչև 517 միլիարդ դոլարի հաշվողական հզորության պայմանագրեր՝ հետ մնալով OpenAI-ի 750 միլիարդ դոլարի ծրագրից։",
+        "source": 2,
+        "link": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ով մշակված դեղը դանդաղեցնում է ծերացումը",
+        "summary": "Nature Biotechnology-ի ուսումնասիրությունը ցույց է տալիս, որ Insilico Medicine-ի կողմից AI-ի միջոցով մշակված rentosertib դեղը կարող է շրջել կենսաբանական ծերացման նշանները վաղ փորձարկումներում։",
+        "source": 5,
+        "link": "https://the-decoder.com/ai-designed-drug-appears-to-turn-back-the-bodys-biological-clock-in-early-trial/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Նյու Յորքը արգելում է AI-ն դպրոցներում",
+        "summary": "Նյու Յորք քաղաքը արգելել է AI գործիքների օգտագործումը պետական դպրոցներում մինչև ութերորդ դասարանը ներառյալ։",
+        "source": 11,
+        "link": "https://the-decoder.com/new-york-city-bans-ai-tools-from-public-schools-through-eighth-grade/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Alibaba-ն թողարկել է Qwen-Drive 1.0 AI մոդելը",
+        "summary": "Alibaba-ի հետազոտական թևը թողարկել է Qwen-Drive 1.0-ը՝ AI մոդել, որը մեկ համակարգում կատարում է շրջակա միջավայրի ընկալում, երթևեկության հարցուպատասխան և երթուղու պլանավորում։",
+        "source": 12,
+        "link": "https://the-decoder.com/qwen-drive-1-0-tells-you-why-it-brakes-just-dont-expect-the-explanation-to-match-the-maneuver/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "UBS-ը AI հմտությունները պարտադիր է դարձնում",
+        "summary": "Շվեյցարական բանկային հսկա UBS-ը 2027 թվականից AI հմտությունները պարտադիր որակավորում է դարձնում Global Banking and Markets-ի շրջանավարտների և պրակտիկանտների համար։",
+        "source": 9,
+        "link": "https://the-decoder.com/at-ubs-ai-skills-are-now-a-condition-for-landing-a-job/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ն վերականգնում է շուկայական մասնաբաժինը",
+        "summary": "Similarweb-ի տվյալներով՝ ChatGPT-ն վերականգնել է իր մասնաբաժինը AI չաթբոտերի կայքերի տրաֆիկում՝ հասնելով 55.5 տոկոսի, մինչդեռ Gemini-ի կարճատև վերելքը մարել է։",
+        "source": 4,
+        "link": "https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/",
+        "outlet": "The Decoder"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Qwen-Drive 1.0",
+        "note": "Alibaba-ի նոր AI մոդելը ինքնավար մեքենաների համար"
+      }
+    ],
     "trending": [
-      "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
       "XHToken/Spark-X2.5-4B",
-      "Qwen/Qwen3.8-27B"
+      "Qwen/Qwen3.8-27B",
+      "google/timesfm-3.0-pytorch"
     ]
   }
 ]
