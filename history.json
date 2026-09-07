@@ -6788,5 +6788,46 @@
       "Qwen/Qwen3.8-27B",
       "XHToken/Spark-X2.5-4B"
     ]
+  },
+  {
+    "date": "2026-09-07",
+    "ts": 1788778692908,
+    "overview": "Այսօրվա նորությունները կենտրոնացած են արհեստական բանականության ոլորտում իրավական մարտահրավերների և քաղաքականության նախաձեռնությունների, ինչպես նաև Եվրոպայում տիեզերական նշանակալի մեկնարկի վրա։",
+    "items": [
+      {
+        "headline": "OpenAI-ը աջակցում է ուկրաինական լրագրությանը",
+        "summary": "OpenAI-ը, AIRPPU-ի և WAN-IFRA-ի հետ համատեղ, գործարկել է AI ծրագիր՝ ուկրաինական լրատվական կազմակերպություններին աջակցելու համար։",
+        "source": 2,
+        "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Լրատվամիջոցները դատի են տվել OpenAI-ին և Microsoft-ին",
+        "summary": "The Seattle Times-ը և Newsday-ը դատի են տվել OpenAI-ին և Microsoft-ին՝ հեղինակային իրավունքի խախտման համար։",
+        "source": 4,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Հեղինակները դժգոհ են Anthropic-ի համաձայնագրից",
+        "summary": "Հեղինակները պնդում են, որ հրատարակիչները փորձում են ավելի շատ բաժին ստանալ Anthropic-ի հետ հաշտության համաձայնագրի վճարումներից։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Եվրոպայի առաջին առևտրային ուղեծրային հրթիռը",
+        "summary": "Գերմանական Isar Aerospace ընկերությունը հաջողությամբ արձակել է Եվրոպայի առաջին ամբողջովին առևտրային ուղեծրային հրթիռը։",
+        "source": 7,
+        "link": "https://www.theverge.com/science/990906/isar-aerospace-europe-orbital-rocket-launch",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "XHToken/Spark-X2.5-4B",
+      "Qwen/Qwen3.8-27B"
+    ]
   }
 ]
