@@ -6876,5 +6876,53 @@
       "Qwen/Qwen3.8-27B",
       "google/timesfm-3.0-pytorch"
     ]
+  },
+  {
+    "date": "2026-09-08",
+    "ts": 1788862745373,
+    "overview": "Այսօրվա տեխնոլոգիական նորությունները կենտրոնացած են արհեստական ​​ինտելեկտի ոլորտում զգալի ներդրումների և զարգացումների վրա, ինչպես նաև AI-ի ազդեցության վրա տարբեր ոլորտներում, ներառյալ ակադեմիական գրությունը:",
+    "items": [
+      {
+        "headline": "Mistral AI-ն հավաքել է 3 միլիարդ եվրո՝ եվրոպական տեխնոլոգիական ֆինանսավորման ամենամեծ փուլը",
+        "summary": "Mistral AI-ն, երեք տարի գործելուց հետո, փակել է Series D ֆինանսավորման 3 միլիարդ եվրո փուլը՝ գնահատելով իրեն ավելի քան 21 միլիարդ եվրո, ինչը դարձել է Եվրոպայում տեխնոլոգիական ոլորտի երբևէ եղած ամենամեծ ֆինանսավորումը:",
+        "source": 1,
+        "link": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ն հայտնում է AI «հետազոտական ​​ստաժյորների» մասին և զգուշացնում սեփական տեմպերի վերաբերյալ",
+        "summary": "OpenAI-ն զեկուցում է, որ իր հետազոտական ​​AI գործակալներն արդեն մարդու մեկ աշխատանքային օրվա համար կատարում են 3.1 աշխատանքային օրվա ծավալ, սակայն գլխավոր գիտնական Յակուբ Պաչոցկին զգուշացնում է, որ ոչ մի լաբորատորիա դեռ չունի բավարար վերահսկողություն՝ մասշտաբային զարգացումը անվտանգ պահելու համար:",
+        "source": 15,
+        "link": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GPT-6 Astra-ն առանց մարդու օգնության հաղթահարել է Portal խաղը",
+        "summary": "GPT-6 Astra-ն, առանց մարդու որևէ օգնության, մոտ 24 ժամվա ընթացքում ինքնուրույն հաղթահարել է Portal հանելուկային խաղը:",
+        "source": 10,
+        "link": "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ն ոչնչացրել է Նայրոբիի ամբողջ ակադեմիական գրության արդյունաբերությունը",
+        "summary": "Քենիայում ChatGPT-ն ոչնչացրել է ակադեմիական աշխատություններ գրելու բիզնես մոդելը՝ օտարերկրյա ուսանողների համար:",
+        "source": 14,
+        "link": "https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Xiaomi-ի նոր ծալվող հեռախոսը՝ ավելի հզոր, քան Samsung-ի մրցակիցները",
+        "summary": "Xiaomi-ն թողարկել է իր նոր ծալվող հեռախոսը՝ 18 Fold, որը, ըստ ականատեսների, ունի ավելի բարձր տեխնիկական բնութագրեր, քան Samsung-ի Galaxy Z Fold 8-ը:",
+        "source": 2,
+        "link": "https://www.theverge.com/tech/991008/xiaomi-18-fold-hands-on-impressions-specs-wide",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "XHToken/Spark-X2.5-4B",
+      "Qwen/Qwen3.8-27B",
+      "google/timesfm-3.0-pytorch"
+    ]
   }
 ]
