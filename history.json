@@ -6879,8 +6879,8 @@
   },
   {
     "date": "2026-09-08",
-    "ts": 1788862745373,
-    "overview": "Այսօրվա տեխնոլոգիական նորությունները կենտրոնացած են արհեստական ​​ինտելեկտի ոլորտում զգալի ներդրումների և զարգացումների վրա, ինչպես նաև AI-ի ազդեցության վրա տարբեր ոլորտներում, ներառյալ ակադեմիական գրությունը:",
+    "ts": 1788894408409,
+    "overview": "Այսօրվա նորությունները ներառում են AI-ի զարգացումներ՝ սկսած նոր մոդելների և գիտական բացահայտումների թողարկումից մինչև ոլորտի խոշոր ֆինանսավորումներ։ Միաժամանակ, օրակարգում են նաև էթիկական մարտահրավերները և ընկերությունների միջև մրցակցային վեճերը։",
     "items": [
       {
         "headline": "Mistral AI-ն հավաքել է 3 միլիարդ եվրո՝ եվրոպական տեխնոլոգիական ֆինանսավորման ամենամեծ փուլը",
@@ -6916,13 +6916,57 @@
         "source": 2,
         "link": "https://www.theverge.com/tech/991008/xiaomi-18-fold-hands-on-impressions-specs-wide",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ի շուրջ վեճ մաթեմատիկական խնդրի համար",
+        "summary": "Մաթեմատիկոս Թրիստան Բաքմասթերը պնդում է, որ OpenAI-ի հետազոտողը ճնշում է գործադրել իր վրա՝ Navier-Stokes հավասարումների լուծման վերաբերյալ համատեղ հոդվածից Anthropic-ի համահեղինակին հեռացնելու համար, մինչդեռ OpenAI-ն հայտարարել է խնդրի AI-ի միջոցով լուծման մասին։",
+        "source": 3,
+        "link": "https://the-decoder.com/openai-researcher-allegedly-pressured-mathematician-to-drop-anthropic-co-author-from-math-breakthrough-paper/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Mistral-ը 3 միլիարդ եվրո ներդրում է ներգրավել",
+        "summary": "Ֆրանսիական AI լաբորատորիա Mistral-ը Series D փուլում ներգրավել է 3 միլիարդ եվրո՝ հասնելով 21 միլիարդ եվրո գնահատման, ինչը ընդգծում է «ինքնիշխան AI»-ի աճող կարևորությունը։",
+        "source": 18,
+        "link": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "DeepMind-ը ներկայացրել է AlphaGenome Atlas-ը",
+        "summary": "DeepMind-ը ստեղծել է AlphaGenome Atlas-ը՝ մարդկային գենոմում 9 միլիարդ մեկ տառանոց ԴՆԹ-ի տարբերակների մոլեկուլային ազդեցությունները կանխատեսող քարտեզ։",
+        "source": 20,
+        "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "Meta-ի գովազդները խթանել են AI-ով մերկացնող հավելվածներ",
+        "summary": "Ars Technica-ի հաղորդմամբ՝ Meta-ն դանդաղ է արձագանքել այն գովազդները հեռացնելուն, որոնք խթանում էին AI-ի միջոցով իրական դեռահասների Instagram-ի լուսանկարները մերկացնող հավելվածներ։",
+        "source": 1,
+        "link": "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "ChatGPT Images 2.5-ի ներկայացումը",
+        "summary": "OpenAI-ը ներկայացրել է ChatGPT Images 2.5-ը, որն օգնում է գաղափարները, էսքիզները և հղումային լուսանկարները վերածել ավելի անհատականացված և մշակված պատկերների։",
+        "source": 25,
+        "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+        "outlet": "OpenAI"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "ChatGPT Images 2.5",
+        "note": "պատկերների ստեղծման գործիք"
+      },
+      {
+        "name": "AlphaGenome Atlas",
+        "note": "մարդկային գենոմի կանխատեսող քարտեզ"
+      }
+    ],
     "trending": [
       "XHToken/Spark-X2.5-4B",
       "Qwen/Qwen3.8-27B",
-      "google/timesfm-3.0-pytorch"
+      "openbmb/MiniCPM5-2B"
     ]
   }
 ]
