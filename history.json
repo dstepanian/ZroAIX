@@ -6968,5 +6968,65 @@
       "Qwen/Qwen3.8-27B",
       "openbmb/MiniCPM5-2B"
     ]
+  },
+  {
+    "date": "2026-09-09",
+    "ts": 1788949169323,
+    "overview": "Այսօրվա նորությունները շեշտում են AI ոլորտի արագ զարգացումը՝ նոր արտադրանքների թողարկումներով և հետազոտական առաջընթացներով։ Սակայն, միաժամանակ, աճում են անվտանգության և էթիկայի հետ կապված մտահոգությունները, ինչպես նաև իրավական վեճերը։",
+    "items": [
+      {
+        "headline": "Anthropic-ի մասնագետի զգուշացումը AI-ի մասին",
+        "summary": "Anthropic-ի անվտանգության ավագ հետազոտողը հայտարարել է, որ արհեստական բանականությունը մինչև տասնամյակի վերջ կարող է մարդկությանը ոչնչացնելու ավելի քան 10 տոկոս հավանականություն ունենալ։",
+        "source": 1,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Cognition-ի գնահատումը հասնում է $48 միլիարդի",
+        "summary": "AI կոդավորման Cognition ստարտափի գնահատումը հասել է 48 միլիարդ դոլարի՝ ազդարարելով ներդրողների մեծ վստահությունը ոլորտի նկատմամբ։",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի մաթեմատիկական խնդրի շուրջ վեճ",
+        "summary": "OpenAI-ը հայտարարել է Նավիե-Ստոքսի խնդրի լուծումը գտնելու մասին, սակայն այս հայտարարության շուրջ բուռն վեճեր են ծագել։",
+        "source": 13,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "ChatGPT Images 2.5-ը Sketch գործիքով",
+        "summary": "OpenAI-ը ներկայացրել է ChatGPT Images 2.5-ը, որը ներառում է Sketch նոր գործառույթը՝ թույլ տալով օգտատերերին նկարներ ստեղծել իրենց էսքիզների հիման վրա։",
+        "source": 16,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Meta-ն ներկայացնում է Muse AI գործակալը",
+        "summary": "Meta-ն թողարկել է Muse անունով անձնական AI գործակալը՝ նպատակ ունենալով արհեստական բանականությունը հասանելի դարձնել լայն զանգվածներին։",
+        "source": 18,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ի դեմ դատական հայց",
+        "summary": "Claude-ի բաժանորդների մի խումբ դատական հայց է ներկայացրել Anthropic-ի դեմ՝ պնդելով, որ ընկերությունը մոլորեցրել է նրանց բաժանորդագրությունների առավելությունների վերաբերյալ։",
+        "source": 21,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Meta Muse",
+        "note": "Meta-ի նոր անձնական AI գործակալը"
+      }
+    ],
+    "trending": [
+      "XHToken/Spark-X2.5-4B",
+      "openbmb/MiniCPM5-2B",
+      "Qwen/Qwen3.8-27B"
+    ]
   }
 ]
