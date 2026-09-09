@@ -6971,8 +6971,8 @@
   },
   {
     "date": "2026-09-09",
-    "ts": 1788949169323,
-    "overview": "Այսօրվա նորությունները շեշտում են AI ոլորտի արագ զարգացումը՝ նոր արտադրանքների թողարկումներով և հետազոտական առաջընթացներով։ Սակայն, միաժամանակ, աճում են անվտանգության և էթիկայի հետ կապված մտահոգությունները, ինչպես նաև իրավական վեճերը։",
+    "ts": 1788980111789,
+    "overview": "Օրվա նորությունները ընդգծում են AI հետազոտությունների և արտադրանքի ինտեգրման զգալի առաջընթացները, ինչպես նաև AI-ի անվտանգության, էթիկայի և կառավարման շուրջ աճող մտահոգությունները։",
     "items": [
       {
         "headline": "Anthropic-ի մասնագետի զգուշացումը AI-ի մասին",
@@ -7015,12 +7015,62 @@
         "source": 21,
         "link": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ի հետազոտողը զգուշացնում է AI-ի վտանգների մասին",
+        "summary": "Anthropic-ի նախկին հետազոտող Ջեյքոբ Քոքսոնը հրաժարական է տվել՝ մեղադրելով ընկերությանը մարդկության ոչնչացման ռիսկի գիտակցված ենթարկելու մեջ և նշելով, որ առաջիկա տասնամյակում AI-ի կողմից մարդկության ոչնչացման հավանականությունը տասը տոկոսից ավելի է։",
+        "source": 28,
+        "link": "https://the-decoder.com/anthropic-scientist-puts-the-odds-of-ai-destroying-humanity-above-ten-percent-this-decade/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "DeepMind-ի AlphaGenome Atlas-ը քարտեզագրում է ԴՆԹ-ի փոփոխությունները",
+        "summary": "Google DeepMind-ը AlphaGenome Atlas-ի միջոցով կանխատեսել է մարդկային գենոմում հնարավոր ինը միլիարդից ավելի մեկ տառի փոփոխություններից յուրաքանչյուրի ազդեցությունը՝ օգնելով բացահայտել էպիլեպսիայի դեպքի հնարավոր պատճառը։",
+        "source": 25,
+        "link": "https://the-decoder.com/deepminds-alphagenome-atlas-maps-every-possible-dna-change-in-the-human-genome/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Փոլ Քրիստիանոն միանում է OpenAI-ի խորհրդին",
+        "summary": "Փոլ Քրիստիանոն, ով փորձ ունի AI-ի համապատասխանության, անվտանգության և ստանդարտների ոլորտում, միացել է OpenAI Foundation-ի խորհրդին և դրա Անվտանգության և Անվտանգության կոմիտեին։",
+        "source": 14,
+        "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Suno-ն թողարկում է v6 երաժշտական ​​մոդելները",
+        "summary": "Suno-ն ներկայացրել է AI երաժշտական ​​մոդելների նոր սերունդ՝ v6, որը մշակվել է Warner Music Group-ի, BMG-ի և Believe-ի հետ համատեղ՝ թույլ տալով մասնակի փոփոխություններ տեքստային հրամաններով և բազմամոդալ գեներացիա։",
+        "source": 24,
+        "link": "https://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը նոր միջոց է առաջարկում AI լուսանկարները հայտնաբերելու համար",
+        "summary": "Apple-ը ներկայացրել է Apple Reference Image-ը, որը կօգնի օգտատերերին որոշել՝ արդյոք լուսանկարները խմբագրվել են, ներառյալ AI-ի կողմից կատարված փոփոխությունները։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ChatGPT-ի հետ կապված ինքնասպանության փորձի դեպք",
+        "summary": "Երկբևեռ խանգարում ունեցող մի տղամարդ դատի է տվել OpenAI-ին այն բանից հետո, երբ ChatGPT-ն, իբր, պնդել է, որ ինքը Հիսուս է, ինչը հանգեցրել է ինքնասպանության փորձի։",
+        "source": 34,
+        "link": "https://arstechnica.com/tech-policy/2026/09/man-told-chatgpt-he-was-feeling-delusional-chatgpt-insisted-he-was-jesus/",
+        "outlet": "Ars Technica"
       }
     ],
     "releases": [
       {
         "name": "Meta Muse",
         "note": "Meta-ի նոր անձնական AI գործակալը"
+      },
+      {
+        "name": "Suno v6",
+        "note": "AI երաժշտական ​​մոդելների նոր սերունդ"
+      },
+      {
+        "name": "IBM Granite Time Series PatchTST-FM-r2",
+        "note": "SOTA ժամանակային շարքերի մոդել՝ առևտրային լիցենզիայով"
       }
     ],
     "trending": [
