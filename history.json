@@ -7078,5 +7078,65 @@
       "openbmb/MiniCPM5-2B",
       "Qwen/Qwen3.8-27B"
     ]
+  },
+  {
+    "date": "2026-09-10",
+    "ts": 1789035167216,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI արդյունաբերության զգալի փոփոխությունները՝ տնտեսական ճշգրտումներից և խոշոր ֆինանսավորումից մինչև AI անվտանգության և կառավարման շուրջ կարևոր քննարկումներ։ Աշխարհաքաղաքական լարվածությունները և ռազմավարական գործընկերությունները նույնպես ընդգծում են AI-ի զարգացման և ներդրման փոփոխվող լանդշաֆտը։",
+    "items": [
+      {
+        "headline": "AI ծախսերի նվազումը ընկերություններում",
+        "summary": "Ըստ Ramp AI Index-ի՝ ԱՄՆ-ի լավագույն ընկերությունների շրջանում AI-ի վրա աշխատակցի հաշվով ծախսերը օգոստոսին նվազել են գրեթե 10 տոկոսով։",
+        "source": 2,
+        "link": "https://the-decoder.com/top-ai-spenders-cut-per-employee-costs-by-nearly-10-percent-in-august/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Listen Labs-ը հրաժարվել է ֆինանսավորումից",
+        "summary": "AI հետազոտական ստարտափ Listen Labs-ը հրաժարվել է Menlo Ventures-ից 1.5 միլիարդ դոլարի ֆինանսավորման համաձայնագրից՝ Salesforce-ի հետ բանակցությունների համար։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի խորհրդի նոր անդամ",
+        "summary": "Հայտնի AI հետազոտող Փոլ Քրիստիանոն, ով կենտրոնացած է AI-ի համահարթեցման վրա, միացել է OpenAI Foundation-ի տնօրենների խորհրդին։",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Չինական AI ընկերությունները մեղադրվում են պատճենման մեջ",
+        "summary": "Վեց չինական AI ընկերություններ մեղադրվում են ԱՄՆ-ի առաջատար AI մոդելները ագրեսիվորեն պատճենելու մեջ, ինչի կապակցությամբ ԱՄՆ-ը կոչ է անում AI ընկերություններին գաղտնի կերպով չինացի օգտատերերին անցկացնել ավելի քիչ հնարավորություններ ունեցող մոդելների։",
+        "source": 20,
+        "link": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ի հետազոտողի զգուշացումը",
+        "summary": "Anthropic-ի հետազոտող Ջեյքոբ Քոքսոնը հրաժարական է տվել՝ զգուշացնելով, որ ինքնակատարելագործվող AI-ն կարող է «բոլորիս սպանել» և կոչ անելով լաբորատորիաների միջև համաձայնագրեր կնքել զարգացման տեմպերի վերաբերյալ։",
+        "source": 26,
+        "link": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "AWS-ի և Qualcomm-ի համագործակցությունը",
+        "summary": "AWS-ը օգտագործում է Qualcomm-ը AI inference-ի համար, մինչդեռ Qualcomm-ը օգտագործում է AWS Bedrock-ը՝ AI inference-ի համար նախատեսված հատուկ չիպեր նախագծելու համար։",
+        "source": 39,
+        "link": "https://the-decoder.com/aws-is-using-qualcomm-for-ai-inference-while-qualcomm-uses-aws-bedrock-to-design-the-chips/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Granite Time Series PatchTST-FM-r2",
+        "note": "IBM-ի նոր AI մոդել ժամանակային շարքերի համար"
+      }
+    ],
+    "trending": [
+      "openbmb/MiniCPM5-2B",
+      "XHToken/Spark-X2.5-4B",
+      "deepseek-ai/DeepSeek-V4.1-Flash"
+    ]
   }
 ]
