@@ -7081,8 +7081,8 @@
   },
   {
     "date": "2026-09-10",
-    "ts": 1789035167216,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI արդյունաբերության զգալի փոփոխությունները՝ տնտեսական ճշգրտումներից և խոշոր ֆինանսավորումից մինչև AI անվտանգության և կառավարման շուրջ կարևոր քննարկումներ։ Աշխարհաքաղաքական լարվածությունները և ռազմավարական գործընկերությունները նույնպես ընդգծում են AI-ի զարգացման և ներդրման փոփոխվող լանդշաֆտը։",
+    "ts": 1789066098111,
+    "overview": "Այսօրվա նորությունները ընդգծում են արհեստական բանականության ոլորտի արագ զարգացումը՝ նոր մոդելների և ապրանքների թողարկումներով, ինչպես նաև խոշոր համագործակցություններով, որոնք ընդլայնում են AI-ի կիրառումը տարբեր ոլորտներում։",
     "items": [
       {
         "headline": "AI ծախսերի նվազումը ընկերություններում",
@@ -7125,18 +7125,68 @@
         "source": 39,
         "link": "https://the-decoder.com/aws-is-using-qualcomm-for-ai-inference-while-qualcomm-uses-aws-bedrock-to-design-the-chips/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը թողարկում է GPT-Live-1 API-ը",
+        "summary": "OpenAI-ը մշակողների համար թողարկել է GPT-Live-1 API-ը, որը թույլ է տալիս ստեղծել միաժամանակ խոսող և լսող հավելվածներ՝ զգալիորեն բարելավելով փոխազդեցության արդյունավետությունը։",
+        "source": 3,
+        "link": "https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Deepseek-ը ներկայացնում է V4.1-Flash մոդելը",
+        "summary": "Deepseek-ը թողարկել է V4.1-Flash բազմամոդալ մոդելը՝ 552 միլիարդ պարամետրերով, որը զգալիորեն նվազեցնում է հիշողության պահանջները AI գործակալների համար և գերազանցում է մրցակիցներին կոդավորման թեստերում։",
+        "source": 23,
+        "link": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն ներկայացնում է Muse AI գործակալը",
+        "summary": "Meta-ն ներկայացրել է Muse AI գործակալը, որը WhatsApp-ի միջոցով կարող է օգնել օգտատերերին գնումների, էլեկտրոնային նամակների և ճանապարհորդությունների պլանավորման հարցում՝ ներառելով վճարման հնարավորություններ։",
+        "source": 24,
+        "link": "https://the-decoder.com/muse-can-shop-write-emails-and-negotiate-prices-for-users-all-through-whatsapp/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI երաժշտական հարթակ Universal Music-ից",
+        "summary": "Universal Music Group-ը ElevenLabs-ի հետ համագործակցությամբ գործարկում է նոր AI-ով աշխատող հարթակ, որը թույլ կտա օգտատերերին ստեղծել երգերի ռեմիքսներ և նոր տարբերակներ՝ օգտագործելով լիցենզավորված երաժշտական կատալոգը։",
+        "source": 10,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Nvidia-ն և Palantir-ը համագործակցում են AI-ի համար",
+        "summary": "Nvidia-ն և Palantir-ը համատեղ ուժեր են ներդնում արհեստական բանականության միջոցով մատակարարման շղթաների կառավարման համար՝ սկսելով Nvidia-ի սեփական լայնածավալ գործառնություններից։",
+        "source": 25,
+        "link": "https://the-decoder.com/nvidia-and-palantir-team-up-to-run-supply-chains-with-ai-starting-with-nvidias-own-million-part-operation/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT ֆինանսական ծառայությունների համար",
+        "summary": "OpenAI-ը ներկայացրել է ChatGPT-ն ֆինանսական ծառայությունների համար, որը համատեղում է ներկառուցված ֆինանսական տվյալները և GPT-6 Astra-ն՝ հետազոտությունների, մոդելավորման և հաճախորդների համար նյութեր ստեղծելու համար։",
+        "source": 33,
+        "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+        "outlet": "OpenAI"
       }
     ],
     "releases": [
       {
         "name": "Granite Time Series PatchTST-FM-r2",
         "note": "IBM-ի նոր AI մոդել ժամանակային շարքերի համար"
+      },
+      {
+        "name": "GPT-Live-1",
+        "note": "OpenAI-ի նոր API-ը երկկողմանի ձայնային փոխազդեցությունների համար"
+      },
+      {
+        "name": "Deepseek V4.1-Flash",
+        "note": "Նոր բազմամոդալ մոդել՝ հիշողության ցածր պահանջներով"
       }
     ],
     "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash",
       "openbmb/MiniCPM5-2B",
-      "XHToken/Spark-X2.5-4B",
-      "deepseek-ai/DeepSeek-V4.1-Flash"
+      "XHToken/Spark-X2.5-4B"
     ]
   }
 ]
