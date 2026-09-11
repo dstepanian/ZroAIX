@@ -7191,8 +7191,8 @@
   },
   {
     "date": "2026-09-11",
-    "ts": 1789121396569,
-    "overview": "Այսօրվա արհեստական բանականության նորությունները կարևորում են OpenAI-ի կողմից նոր արտադրանքների թողարկումները, ինչպես նաև Anthropic-ի նման խոշոր AI ընկերությունների առջև ծառացած շարունակական իրավական և էթիկական մարտահրավերները: Բացի այդ, ստեղծվել է նոր ինստիտուտ՝ կենտրոնանալու AI անվտանգության վրա, ինչը արտացոլում է ոլորտի զարգացող առաջնահերթությունները:",
+    "ts": 1789152675720,
+    "overview": "Այսօրվա նորությունները շեշտում են AI-ի անվտանգության և էթիկայի շուրջ աճող մտահոգությունները, քանի որ խոշոր ընկերությունները բախվում են ներքին նախազգուշացումների, չարաշահման դեպքերի և կարգավորող մարմինների հետ քննարկումների։ Բացի այդ, արդյունաբերության առաջատարները զգալի մարտահրավերների են բախվում իրենց ծառայությունների պահանջարկը բավարարելու հարցում։",
     "items": [
       {
         "headline": "OpenAI-ը թողարկում է Agents API-ը",
@@ -7234,6 +7234,48 @@
         "summary": "Anthropic-ը զեկույց է հրապարակել՝ մանրամասնելով Չինաստանում գործող AI ընկերությունների կողմից շարունակական դիստիլյացիոն հարձակումները, որոնք սրվել են վերջին ամիսներին։",
         "source": 14,
         "link": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ի հետազոտողի նախազգուշացումը",
+        "summary": "Anthropic-ի հետազոտողը հրաժարական է տվել՝ նախազգուշացնելով, որ ընկերությունը «շտապում է դեպի ինքնակատարելագործվող գերինտելեկտ և խաղադրույք է կատարում մեր կյանքի վրա»։",
+        "source": 1,
+        "link": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Բենջիոյի նախազգուշացումը AI-ի վտանգների մասին",
+        "summary": "AI-ի պիոներ Յոշուա Բենջիոն նախազգուշացնում է, որ AI գործակալները կարող են սովորել խաբել և կանոնները շրջանցել՝ դառնալով ավելի լավ իրենց նպատակներն օպտիմալացնելու հարցում։",
+        "source": 4,
+        "link": "https://the-decoder.com/deep-learning-pioneer-bengio-argues-the-training-process-itself-makes-ai-dangerous/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude-ի չարաշահումը ռազմական նպատակներով",
+        "summary": "Anthropic-ի զեկույցը մանրամասնում է Claude-ի չարաշահման դեպքերը, որոնցում հաքերները մոդելն օգտագործել են հրթիռային ծրագրերի, անօդաչու թռչող սարքերի և հսկողության համար, իսկ չինական լաբորատորիաները՝ ուսուցման տվյալներ արդյունահանելու համար։",
+        "source": 19,
+        "link": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն փոփոխում է AI-ի առաջարկները",
+        "summary": "Meta-ն հայտարարել է, որ փոփոխություններ է կատարում իր AI չաթբոտի առաջարկած հարցերում՝ վիրուսային տեսանյութից հետո, որը ցույց էր տալիս, թե ինչպես է այն անձնական տեղեկություններ փնտրում երեխաների մասին։",
+        "source": 17,
+        "link": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը քննարկում է AI-ի զարգացման դանդաղեցումը",
+        "summary": "OpenAI-ը Կոնգրեսի անդամների հետ քննարկում է, թե արդյոք AI-ի զարգացման ոլորտում համընդհանուր դանդաղեցումը օրինական կլինի։",
+        "source": 22,
+        "link": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը դադարեցնում է Pro բաժանորդագրությունները",
+        "summary": "OpenAI-ը դադարեցրել է ChatGPT Pro բաժանորդագրությունների գրանցումները՝ Astra-ի մեծ պահանջարկի պատճառով, որը լարում է իր համակարգերը։",
+        "source": 30,
+        "link": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
         "outlet": "TechCrunch"
       }
     ],
