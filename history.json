@@ -7188,5 +7188,69 @@
       "openbmb/MiniCPM5-2B",
       "XHToken/Spark-X2.5-4B"
     ]
+  },
+  {
+    "date": "2026-09-11",
+    "ts": 1789121396569,
+    "overview": "Այսօրվա արհեստական բանականության նորությունները կարևորում են OpenAI-ի կողմից նոր արտադրանքների թողարկումները, ինչպես նաև Anthropic-ի նման խոշոր AI ընկերությունների առջև ծառացած շարունակական իրավական և էթիկական մարտահրավերները: Բացի այդ, ստեղծվել է նոր ինստիտուտ՝ կենտրոնանալու AI անվտանգության վրա, ինչը արտացոլում է ոլորտի զարգացող առաջնահերթությունները:",
+    "items": [
+      {
+        "headline": "OpenAI-ը թողարկում է Agents API-ը",
+        "summary": "OpenAI-ը հանրային բետա տարբերակով թողարկում է իր Agents API-ը, որը մշակողներին հնարավորություն է տալիս ստեղծել ամպային գործակալներ, որոնք ինքնավար կերպով աշխատում են ժամերով և կատարում առաջադրանքներ։",
+        "source": 6,
+        "link": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT Work-ի նոր Data գործակալը",
+        "summary": "OpenAI-ը ներկայացրել է Data գործակալը ChatGPT Work-ում, որը թույլ է տալիս օգտատերերին բնական լեզվի միջոցով միացնել ընկերության տվյալները, բացահայտել պատկերացումներ և ստեղծել ինտերակտիվ վահանակներ։",
+        "source": 29,
+        "link": "https://openai.com/index/put-data-to-work",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Anthropic-ի հեղինակային իրավունքի վեճը",
+        "summary": "Anthropic-ի 1.5 միլիարդ դոլարի հեղինակային իրավունքի հաշվարկը քաոսի մեջ է հայտնվել, քանի որ հեղինակներն ու հրատարակիչները վիճում են, թե ով պետք է ստանա գումարը։",
+        "source": 5,
+        "link": "https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ի ակնկալվող աճը",
+        "summary": "Nvidia-ի գործադիր տնօրեն Ջենսեն Հուանգը հայտարարել է, որ ընկերությունն ակնկալում է 70% աճ հաջորդ տարի՝ շնորհիվ իր լայն ներկայության տարբեր ոլորտներում։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Նոր ինստիտուտ AI անվտանգության համար",
+        "summary": "Ֆիլդսի մեդալակիր Յակոբ Ցիմերմանը հայտարարել է Մաթեմատիկական AI Անվտանգության Ինստիտուտի (MAISI) հիմնադրման մասին, որի նպատակն է ապացուցել AI-ի անվտանգությունը։",
+        "source": 3,
+        "link": "https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը մանրամասնում է AI հարձակումները",
+        "summary": "Anthropic-ը զեկույց է հրապարակել՝ մանրամասնելով Չինաստանում գործող AI ընկերությունների կողմից շարունակական դիստիլյացիոն հարձակումները, որոնք սրվել են վերջին ամիսներին։",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Agents API",
+        "note": "OpenAI-ի նոր API մշակողների համար"
+      },
+      {
+        "name": "Data agent in ChatGPT Work",
+        "note": "ChatGPT Work-ի նոր գործակալ տվյալների վերլուծության համար"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash",
+      "openbmb/MiniCPM5-2B",
+      "XHToken/Spark-X2.5-4B"
+    ]
   }
 ]
