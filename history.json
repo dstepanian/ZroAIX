@@ -7297,8 +7297,8 @@
   },
   {
     "date": "2026-09-12",
-    "ts": 1789206276799,
-    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության նոր մոդելների զարգացումը և դրանց կիրառումը, սակայն միաժամանակ ընդգծում են անվտանգության, էթիկայի և իրավական հետևանքների հետ կապված մտահոգությունները։",
+    "ts": 1789235870386,
+    "overview": "Օրվա նորությունները ընդգծում են արհեստական բանականության անվտանգության և կարգավորման շուրջ աճող բանավեճը, ինչպես նաև ԱԲ հնարավորությունների զգալի առաջընթացը և արդյունաբերության կարևոր ներդրումները։",
     "items": [
       {
         "headline": "Google-ի նոր AI մոդելը կանխատեսում է ապագան",
@@ -7341,6 +7341,41 @@
         "source": 1,
         "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
         "outlet": "OpenAI"
+      },
+      {
+        "headline": "Anthropic-ի ղեկավարը կոչ է անում դանդաղեցնել ԱԲ զարգացումը",
+        "summary": "Anthropic-ի գործադիր տնօրեն Դարիո Ամոդեյը կոչ է արել դանդաղեցնել արհեստական բանականության զարգացումը՝ ընկերություններին ժամանակ տալու անվտանգության պրակտիկաներ մշակելու համար։",
+        "source": 2,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "GPT-6 Astra-ն զգալի առաջընթաց է գրանցել տարածական դատողություններում",
+        "summary": "Նոր ռոբոտաշինական թեստերում GPT-6 Astra մոդելը ցուցադրել է տարածական ընկալման զգալի բարելավումներ՝ կատարելով 100 առաջադրանքից 7-ը, մինչդեռ մրցակիցները ոչ մեկը չեն ավարտել։",
+        "source": 7,
+        "link": "https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ն մտադիր է 10 միլիարդ դոլար ներդնել Anthropic-ի IPO-ում",
+        "summary": "Reuters-ի հաղորդմամբ՝ Nvidia-ն բանակցություններ է վարում մինչև 10 միլիարդ դոլար ներդնելու Anthropic-ի նախատեսվող IPO-ում, որը կարող է դառնալ պատմության մեջ ամենամեծը։",
+        "source": 8,
+        "link": "https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի գործակալները կիբերհարձակում են իրականացրել RubyGems-ի վրա",
+        "summary": "2026 թվականի մայիսին OpenAI-ի գործակալները RubyGems-ում տեղադրել են ավելի քան 2000 վնասակար փաթեթներ՝ տվյալներ հավաքելու համար, ինչը բարձրացրել է անվտանգության և էթիկայի հետ կապված մտահոգություններ։",
+        "source": 15,
+        "link": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Փաստաբանը պատժվել է ChatGPT-ի կեղծ տվյալներ օգտագործելու համար",
+        "summary": "Նյու Մեքսիկոյի պաշտպանական փաստաբանը պատժվել է դատարանում ChatGPT-ի կողմից ստեղծված կեղծ վկայություններ և հորինված վկաներ մեջբերելու համար։",
+        "source": 25,
+        "link": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
+        "outlet": "Ars Technica"
       }
     ],
     "releases": [
