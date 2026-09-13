@@ -7392,8 +7392,8 @@
   },
   {
     "date": "2026-09-13",
-    "ts": 1789296340076,
-    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության անվտանգության և կարգավորման շուրջ մտահոգությունները, ինչպես նաև դրա ազդեցությունը կրթության և ներքին գործունեության վրա։",
+    "ts": 1789323870867,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության նոր մոդելների և արտադրանքների թողարկումները, ինչպես նաև ոլորտի առաջատարների քննարկումները կարգավորման և ռազմավարության շուրջ։",
     "items": [
       {
         "headline": "Հետազոտություն՝ AI-ի արգելքի մասին",
@@ -7429,9 +7429,60 @@
         "source": 15,
         "link": "https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Օբաման կոչ է անում AI պլան մշակել",
+        "summary": "Նախկին նախագահ Բարաք Օբաման կոչ է արել Դեմոկրատներին արհեստական բանականությունը դարձնել իրենց կենտրոնական օրակարգերից մեկը և հստակ պլան ունենալ տեխնոլոգիայի տնտեսական ազդեցության և անվտանգության վերաբերյալ մտահոգությունները լուծելու համար։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ElevenLabs-ը թողարկում է Music v2.5",
+        "summary": "ElevenLabs-ը թողարկել է Music v2.5-ը իր AI երաժշտություն ստեղծողի համար, որը հասանելի է հավելվածի և API-ի միջոցով՝ անվճար և պրոֆեսիոնալ տարբերակներով։",
+        "source": 4,
+        "link": "https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Iris-mini և Iris-pro որոնողական գործակալներ",
+        "summary": "AllSpark թիմը թողարկել է Iris-mini և Iris-pro բաց կոդով որոնողական գործակալները, որոնք կառուցված են Qwen մոդելների վրա և առաջատար են իրենց չափսի բաց կոդով մոդելների շարքում։",
+        "source": 6,
+        "link": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GPT-6 Astra-ի նոր հնարավորությունները",
+        "summary": "GPT-6 Astra-ն կարող է կառավարել հսկողության դրոն և ինքնուրույն բիզնես վարել՝ առաջին մոդելը լինելով, որը գերազանցում է մարդկային բազային մակարդակը դրոնի կառավարման բոլոր հինգ ենթաառաջադրանքներում։",
+        "source": 9,
+        "link": "https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Սեմ Ալթմանը OpenAI-ի IPO-ի մասին",
+        "summary": "OpenAI-ի գործադիր տնօրեն Սեմ Ալթմանը հաստատել է, որ OpenAI-ի IPO-ն 2026 թվականին «անխոհեմ» կլինի՝ քննարկելով նաև այլ թեմաներ, այդ թվում՝ Hugging Face-ի հաքերային միջադեպը։",
+        "source": 11,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ը կոչ է անում դանդաղեցնել AI-ի զարգացումը",
+        "summary": "Anthropic-ի գործադիր տնօրեն Դարիո Ամոդեյը ներկայացրել է արհեստական բանականության զարգացումը դանդաղեցնելու իր պլանը՝ համաձայնելով OpenAI-ի Սեմ Ալթմանի հետ, որ ժամանակն է «կարգավորել սահմանը»։",
+        "source": 15,
+        "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+        "outlet": "TechCrunch"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Elevenlabs Music v2.5",
+        "note": "AI երաժշտություն ստեղծողի նոր տարբերակ"
+      },
+      {
+        "name": "Iris-mini և Iris-pro",
+        "note": "Բաց կոդով նոր որոնողական գործակալներ"
+      }
+    ],
     "trending": [
       "deepseek-ai/DeepSeek-V4.1-Flash",
       "openbmb/MiniCPM5-2B",
