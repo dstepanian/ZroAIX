@@ -7488,5 +7488,58 @@
       "openbmb/MiniCPM5-2B",
       "Edge0/Edge0-35B-A3B-preview"
     ]
+  },
+  {
+    "date": "2026-09-14",
+    "ts": 1789384248534,
+    "overview": "Այսօրվա նորությունները կենտրոնացած են արհեստական բանականության զարգացման տեմպերի և կարգավորման շուրջ բանավեճերի, ինչպես նաև տեխնոլոգիական ոլորտի կարևոր թողարկումների և տվյալների գաղտնիության խնդիրների վրա։",
+    "items": [
+      {
+        "headline": "Sam Altman-ը կոչ է անում դանդաղեցնել AI-ի զարգացումը",
+        "summary": "OpenAI-ի գործադիր տնօրեն Սեմ Ալթմանը կոչ է անում դանդաղեցնել արհեստական բանականության զարգացման տեմպերը, սակայն խոստանում է, որ արագ առաջընթացը կշարունակվի՝ նշելով նաև հնարավոր համատեղ ինքնակարգավորման քննարկումներ այլ ընկերությունների հետ։",
+        "source": 1,
+        "link": "https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Թրամփը և Ջոնսոնը քննադատում են AI-ի զգուշացումները",
+        "summary": "Դոնալդ Թրամփը և Ներկայացուցիչների պալատի խոսնակ Մայք Ջոնսոնը կարծում են, որ AI արդյունաբերության ղեկավարները չափազանցված են արձագանքում արհեստական բանականության զարգացման հետ կապված մտահոգություններին։",
+        "source": 4,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Waymo ռոբոտաքսին ոստիկանություն է կանչել ուղևորների վրա",
+        "summary": "Սան Ֆրանցիսկոյում Waymo ռոբոտաքսին կանգ է առել և ոստիկանություն կանչել իր ուղևորների վրա, որոնք անչափահասներ էին և ունեին AR-ոճի անօրինական զենք։",
+        "source": 8,
+        "link": "https://www.theverge.com/transportation/994405/waymo-pulls-over-calls-cops-on-riders-with-a-ghost-gun",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Ավտոմեքենաները վաճառում են ձեր տվյալները",
+        "summary": "Ավտոմեքենաները վաճառում են օգտատերերի տվյալները, ինչը հանգեցրել է Առևտրի դաշնային հանձնաժողովի կողմից General Motors-ի նկատմամբ աննախադեպ տուգանքի։",
+        "source": 10,
+        "link": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Apple-ը ներկայացրել է նոր հեռախոսներ",
+        "summary": "Apple-ը ներկայացրել է իր նոր հեռախոսները, ինչը նշանավորում է նոր տեխնոլոգիական սեզոնի սկիզբը։",
+        "source": 11,
+        "link": "https://www.theverge.com/tech/994218/apple-iphone-18-pro-airpods-5-meta-muse-ai-sony-headphones",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [
+      {
+        "name": "new iPhones",
+        "note": "Apple-ի նոր սմարթֆոնների թողարկում"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash",
+      "Edge0/Edge0-35B-A3B-preview",
+      "openbmb/MiniCPM5-2B"
+    ]
   }
 ]
