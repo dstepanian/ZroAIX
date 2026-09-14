@@ -7541,5 +7541,62 @@
       "Edge0/Edge0-35B-A3B-preview",
       "openbmb/MiniCPM5-2B"
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "ts": 1789416043385,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI արտադրանքի ինտեգրման զգալի զարգացումները (Apple-ի Siri AI), շարունակվող իրավական և էթիկական մարտահրավերները (OpenAI-ի դատական հայցը և տվյալների մշակումը), ինչպես նաև AI անվտանգության և կարգավորման շուրջ զարգացող գլոբալ քննարկումները։",
+    "items": [
+      {
+        "headline": "Apple-ը թողարկում է iOS 27-ը և macOS 27-ը Siri AI-ով",
+        "summary": "Apple-ը թողարկել է iOS 27-ը, macOS Golden Gate 27-ը, watchOS 27-ը և iPadOS 27-ը, որոնց հիմնական նորամուծությունը Siri AI-ի ամբողջական վերափոխումն է։",
+        "source": 12,
+        "link": "https://www.theverge.com/news/994756/apple-ios-27-launch-iphone-siri-ai-update",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը շարունակում է պայքարել Մասկի հակամենաշնորհային հայցի դեմ",
+        "summary": "Ի տարբերություն Apple-ի, OpenAI-ը շարունակում է պայքարել Իլոն Մասկի հակամենաշնորհային հայցի դեմ, որը մեղադրում է ընկերությանը իր սկզբնական առաքելությունից շեղվելու մեջ։",
+        "source": 2,
+        "link": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը վերլուծում է ChatGPT-ի զրույցները",
+        "summary": "404 Media-ի զեկույցի համաձայն՝ OpenAI-ը հարյուրավոր պայմանագրային աշխատողների է ներգրավում ChatGPT-ի իրական զրույցները կարդալու և գնահատելու համար՝ մոդելների վարքագիծը բարելավելու նպատակով։",
+        "source": 9,
+        "link": "https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Microsoft-ը հրապարակել է AI-ի վարքագծի կանոնագիրք",
+        "summary": "Microsoft-ը հրապարակել է իր MAI մոդելների վարքագծի կանոնագիրքը, որն առաջնահերթություն է տալիս մարդկային վերահսկողությանը և մոդելների համար մերժում է արհեստական ներքին կյանքի կամ գիտակցության ցանկացած պնդում։",
+        "source": 22,
+        "link": "https://the-decoder.com/microsofts-ai-rulebook-readable-thinking-no-inner-life-and-definitely-no-rights/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինաստանը մերժում է ԱՄՆ-ի AI անվտանգության նախազգուշացումները",
+        "summary": "Չինաստանը կտրականապես մերժել է ԱՄՆ-ի AI առաջնորդների, այդ թվում՝ Anthropic-ի գործադիր տնօրեն Ամոդեյի կողմից արհեստական բանականության ռիսկերի վերաբերյալ նախազգուշացումները՝ դրանք անվանելով «վախեցնող քարոզչություն»։",
+        "source": 31,
+        "link": "https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "iOS 27",
+        "note": "Apple-ի օպերացիոն համակարգի թարմացում Siri AI-ի վերափոխումով"
+      },
+      {
+        "name": "macOS Golden Gate 27",
+        "note": "Apple-ի օպերացիոն համակարգի թարմացում Siri AI-ի ինտեգրումով"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash",
+      "Edge0/Edge0-35B-A3B-preview",
+      "openbmb/MiniCPM5-2B"
+    ]
   }
 ]
