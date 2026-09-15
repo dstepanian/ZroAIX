@@ -7544,8 +7544,8 @@
   },
   {
     "date": "2026-09-15",
-    "ts": 1789416043385,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI արտադրանքի ինտեգրման զգալի զարգացումները (Apple-ի Siri AI), շարունակվող իրավական և էթիկական մարտահրավերները (OpenAI-ի դատական հայցը և տվյալների մշակումը), ինչպես նաև AI անվտանգության և կարգավորման շուրջ զարգացող գլոբալ քննարկումները։",
+    "ts": 1789468709656,
+    "overview": "Այսօրվա նորությունները կարևոր զարգացումներ են ընդգծում AI ոլորտում, ներառյալ արտադրանքի խոշոր թողարկումներն ու թարմացումները, ռազմավարական ձեռքբերումները և AI-ի զարգացման տեմպերի ու էթիկական ուղեցույցների շուրջ շարունակվող բանավեճերը։",
     "items": [
       {
         "headline": "Apple-ը թողարկում է iOS 27-ը և macOS 27-ը Siri AI-ով",
@@ -7581,6 +7581,41 @@
         "source": 31,
         "link": "https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը ներկայացրել է նորացված Siri-ն",
+        "summary": "Apple-ը թողարկել է իր նորացված Siri AI-ն՝ հիմնված Google-ի Gemini մոդելների վրա, որը հասանելի է iOS 27-ի հետ, սակայն առայժմ ոչ ԵՄ երկրներում։",
+        "source": 1,
+        "link": "https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի զարգացման դանդաղեցման բանավեճ",
+        "summary": "OpenAI-ի, Anthropic-ի և Google-ի կողմից AI-ի զարգացումը դանդաղեցնելու առաջարկը, որը հիմնավորվում է անվտանգության մտահոգություններով, քննադատության է արժանացել որպես մրցակիցներին շուկայից դուրս մղելու փորձ։",
+        "source": 3,
+        "link": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը ձեռք է բերել Glass Imaging-ը",
+        "summary": "Ըստ հաղորդումների՝ OpenAI-ը 300 միլիոն դոլարով ձեռք է բերել սմարթֆոնների տեսախցիկներ արտադրող Glass Imaging ընկերությունը։",
+        "source": 15,
+        "link": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Microsoft-ի նոր AI վարքականոն",
+        "summary": "Microsoft-ը ներկայացրել է AI-ի նոր վարքականոն, որը մոդելներին հրահանգում է չկոտրել համակարգերը կամ չխաբել մարդկանց՝ շեշտելով մարդկանց աջակցելը, այլ ոչ թե նրանց փոխարինելը։",
+        "source": 26,
+        "link": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը նպատակադրում է Nasdaq-ի ցուցակագրում",
+        "summary": "Anthropic-ը ներդրողներին հայտնել է, որ նպատակադրում է Nasdaq-ում ցուցակագրում՝ նախորդ երկու եռամսյակներում շահույթ ստանալուց հետո։",
+        "source": 29,
+        "link": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -7591,6 +7626,10 @@
       {
         "name": "macOS Golden Gate 27",
         "note": "Apple-ի օպերացիոն համակարգի թարմացում Siri AI-ի ինտեգրումով"
+      },
+      {
+        "name": "Siri AI",
+        "note": "Apple-ի նորացված ձայնային օգնականը, որն աշխատում է Google Gemini մոդելներով"
       }
     ],
     "trending": [
