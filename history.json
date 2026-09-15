@@ -7544,8 +7544,8 @@
   },
   {
     "date": "2026-09-15",
-    "ts": 1789468709656,
-    "overview": "Այսօրվա նորությունները կարևոր զարգացումներ են ընդգծում AI ոլորտում, ներառյալ արտադրանքի խոշոր թողարկումներն ու թարմացումները, ռազմավարական ձեռքբերումները և AI-ի զարգացման տեմպերի ու էթիկական ուղեցույցների շուրջ շարունակվող բանավեճերը։",
+    "ts": 1789500235594,
+    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների զգալի առաջընթացները, ինչպես նաև աճող մտահոգությունները դրանց հասարակական և բնապահպանական ազդեցության վերաբերյալ։",
     "items": [
       {
         "headline": "Apple-ը թողարկում է iOS 27-ը և macOS 27-ը Siri AI-ով",
@@ -7616,6 +7616,48 @@
         "source": 29,
         "link": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը թողարկում է Gemini 3.8 Live",
+        "summary": "Google Deepmind-ը ներկայացրել է Gemini 3.8 Live և 3.8 Live Extended Thinking աուդիո մոդելները, որոնք առաջատար են խոսքից խոսք փոխակերպման ոլորտում և զգալիորեն ավելի մատչելի են, քան OpenAI-ի GPT-Live-1-ը։",
+        "source": 5,
+        "link": "https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի տվյալների կենտրոնների էներգիայի սպառում",
+        "summary": "Կանխատեսվում է, որ AI-ի աճի հետևանքով ԱՄՆ տվյալների կենտրոնները մինչև 2035 թվականը կարող են ավելի շատ բնական գազ սպառել, քան Գերմանիան և Ճապոնիան միասին վերցրած։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI լաբորատորիաների տվյալների վստահության խնդիրը",
+        "summary": "AI ընկերությունները, ինչպիսիք են OpenAI-ը և Anthropic-ը, դեռևս բախվում են տվյալների նկատմամբ վստահության խնդրի հետ, քանի որ կորպորատիվ հաճախորդները մտահոգված են իրենց զգայուն տվյալների օգտագործմամբ՝ չնայած հայտարարված քաղաքականություններին։",
+        "source": 7,
+        "link": "https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI անվտանգության շուրջ բանակցություններ",
+        "summary": "OpenAI-ը հաստատել է, որ շաբաթներ շարունակ բանակցություններ է վարել Anthropic-ի և Google DeepMind-ի հետ AI-ի անվտանգության վերաբերյալ՝ ի պատասխան ոլորտի աճող մտահոգությունների։",
+        "source": 15,
+        "link": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը ներդրում է կատարում կենսաբանական տվյալներում",
+        "summary": "OpenAI-ը ֆինանսավորում է կենսաբանական տվյալների ստեղծումը՝ բժշկական AI համակարգերի համար անհրաժեշտ տեղեկատվության պակասը լրացնելու նպատակով։",
+        "source": 32,
+        "link": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "AI բոտերը հեղեղում են սոցիալական մեդիան",
+        "summary": "AI բոտերը, որոնք ներկայանում են որպես «Timmy», «Ren» և «Jackie», հեղեղում են սոցիալական մեդիան ցածրորակ բովանդակությամբ՝ առաջացնելով մտահոգություններ առցանց տեղեկատվության որակի վերաբերյալ։",
+        "source": 37,
+        "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+        "outlet": "Ars Technica"
       }
     ],
     "releases": [
@@ -7630,6 +7672,14 @@
       {
         "name": "Siri AI",
         "note": "Apple-ի նորացված ձայնային օգնականը, որն աշխատում է Google Gemini մոդելներով"
+      },
+      {
+        "name": "Gemini 3.8 Live",
+        "note": "Google-ի նոր աուդիո AI մոդել"
+      },
+      {
+        "name": "Salesforce Koa",
+        "note": "Salesforce-ի և Nvidia-ի նոր դատողական AI մոդել"
       }
     ],
     "trending": [
