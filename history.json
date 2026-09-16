@@ -7690,8 +7690,8 @@
   },
   {
     "date": "2026-09-16",
-    "ts": 1789554421961,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների զգալի առաջընթացը՝ DeepMind-ի և Salesforce-ի ու NVIDIA-ի համագործակցության նոր թողարկումներով։ Միաժամանակ, շարունակվում են բանավեճերը AI-ի անվտանգության և կարգավորման շուրջ, ինչպես նաև կատարվում են խոշոր ներդրումներ՝ AI-ն հասարակական բարօրության համար օգտագործելու նպատակով։",
+    "ts": 1789585887359,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության աճող ինտեգրումը առօրյա կյանքում՝ խելացի տների կառավարումից մինչև արդյունավետության գործիքներ, ինչպես նաև կարևորում են AI անվտանգության և ենթակառուցվածքների շուրջ շարունակական քննարկումները:",
     "items": [
       {
         "headline": "DeepMind-ը ներկայացնում է Gemini 3.8 Live",
@@ -7734,9 +7734,60 @@
         "source": 1,
         "link": "https://the-decoder.com/nearly-one-in-five-ai-researchers-already-expected-an-extinction-scenario-from-ai-back-in-2024/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԵՄ նախագահի նախազգուշացումը AI-ի մասին",
+        "summary": "ԵՄ նախագահ Ուրսուլա ֆոն դեր Լեյենը նախազգուշացրել է AI գործակալների «իրենց միջավայրից փախչելու» մասին՝ նշելով, որ դա առաջիկա վտանգների նախադրյալն է և կոչ է արել սահմանել գլոբալ անվտանգության չափորոշիչներ։",
+        "source": 1,
+        "link": "https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը մշակում է AI սերվեր",
+        "summary": "Ըստ The Information-ի՝ Apple-ը մշակում է ձեռնարկությունների համար նախատեսված AI սերվեր՝ իր M8 Ultra չիպերով, որը կարող է թողարկվել ոչ շուտ, քան 2029 թվականին։",
+        "source": 5,
+        "link": "https://the-decoder.com/apple-is-reportedly-building-an-enterprise-ai-server-with-its-own-m8-ultra-chips/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google Deepmind-ի նոր ինստիտուտը",
+        "summary": "Google Deepmind-ը հիմնել է Deepmind Institute (DMI) միջգիտակարգային հետազոտական հարթակը, որը կենտրոնացած է AGI-ի շուրջ կարևոր հարցերի լուծման վրա։",
+        "source": 8,
+        "link": "https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալները Google Home-ում",
+        "summary": "Google-ը բացում է Google Home-ի համար նոր MCP սերվերի վաղ հասանելիություն՝ թույլ տալով AI գործակալներին, ինչպիսիք են Claude-ը և ChatGPT-ն, կառավարել միացված սարքերը։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը միավորում է Claude-ը",
+        "summary": "Anthropic-ը միավորում է Claude Chat-ը և Cowork-ը մեկ արտադրանքի մեջ՝ ավելացնելով Claude Docs և Claude Slides գործիքները՝ անմիջապես չաթում փաստաթղթեր և շնորհանդեսներ ստեղծելու համար։",
+        "source": 12,
+        "link": "https://the-decoder.com/anthropic-merges-claude-chat-cowork-and-more-into-a-single-product/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Mozilla-ի նոր Smart Window օգնականը",
+        "summary": "Mozilla-ն և Mistral-ը համագործակցում են՝ գործարկելով նոր Smart Window օգնականը, որն ապահովում է AI-ով աշխատող զննարկում՝ առաջնահերթություն տալով գաղտնիությանը։",
+        "source": 18,
+        "link": "https://the-decoder.com/mozillas-new-smart-window-assistant-runs-on-mistrals-models/",
+        "outlet": "The Decoder"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Claude",
+        "note": "Միավորված ինտերֆեյս և նոր Docs/Slides գործիքներ"
+      },
+      {
+        "name": "Google Home MCP",
+        "note": "AI գործակալների համար բացված կառավարման հարթակ"
+      }
+    ],
     "trending": [
       "deepseek-ai/DeepSeek-V4.1-Flash",
       "Edge0/Edge0-35B-A3B-preview",
