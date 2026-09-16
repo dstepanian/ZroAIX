@@ -7687,5 +7687,60 @@
       "Edge0/Edge0-35B-A3B-preview",
       "openbmb/MiniCPM5-2B"
     ]
+  },
+  {
+    "date": "2026-09-16",
+    "ts": 1789554421961,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների զգալի առաջընթացը՝ DeepMind-ի և Salesforce-ի ու NVIDIA-ի համագործակցության նոր թողարկումներով։ Միաժամանակ, շարունակվում են բանավեճերը AI-ի անվտանգության և կարգավորման շուրջ, ինչպես նաև կատարվում են խոշոր ներդրումներ՝ AI-ն հասարակական բարօրության համար օգտագործելու նպատակով։",
+    "items": [
+      {
+        "headline": "DeepMind-ը ներկայացնում է Gemini 3.8 Live",
+        "summary": "DeepMind-ը ներկայացրել է իր նոր Gemini 3.8 Live և 3.8 Live Extended Thinking մոդելները, որոնք ընդլայնում են AI-ի հնարավորությունները։",
+        "source": 18,
+        "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "Salesforce Koa-ն՝ նոր AI մոդել",
+        "summary": "Salesforce-ը և NVIDIA-ն թողարկել են Salesforce Koa-ն՝ նոր մտածողության մոդել, որը հիմնված է NVIDIA-ի Nemotron-ի վրա և նախատեսված է վաճառքի, մարքեթինգի և հաճախորդների աջակցության համար։",
+        "source": 32,
+        "link": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Ջենսեն Հուանգը AI կարգավորման մասին",
+        "summary": "NVIDIA-ի Ջենսեն Հուանգը հայտարարել է, որ AI-ն պարզապես ապարատային և ծրագրային ապահովում է, և դրա անվտանգությունը կարող է ապահովվել յուրաքանչյուր արտադրողի կողմից՝ առանց լրացուցիչ կարգավորման անհրաժեշտության։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Բիլ Գեյթսի խոշոր ներդրումը AI-ում",
+        "summary": "Բիլ Գեյթսի հիմնադրամը երկու տարվա ընթացքում մեկ միլիարդ դոլար է ներդնում՝ AI գործիքները առողջապահության, կրթության և գյուղատնտեսության ոլորտներում ավելի լայնորեն հասանելի դարձնելու համար։",
+        "source": 26,
+        "link": "https://the-decoder.com/after-warning-ai-is-too-dangerous-bill-gates-bets-a-billion-on-its-upside/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Agility Robotics-ի Digit 5 ռոբոտը",
+        "summary": "Agility Robotics-ը ներկայացրել է Digit 5 մարդանման ռոբոտը, որը կարող է աշխատել մարդկանց կողքին՝ առանց անվտանգության արգելապատնեշների անհրաժեշտության։",
+        "source": 29,
+        "link": "https://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի վերացման սցենարի մտավախություններ",
+        "summary": "2024 թվականին անցկացված հարցման համաձայն՝ AI առաջատար հետազոտողների գրեթե մեկ հինգերորդը արդեն ակնկալում էր AI-ի կողմից վերացման սցենարի հավանականություն։",
+        "source": 1,
+        "link": "https://the-decoder.com/nearly-one-in-five-ai-researchers-already-expected-an-extinction-scenario-from-ai-back-in-2024/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash",
+      "Edge0/Edge0-35B-A3B-preview",
+      "openbmb/MiniCPM5-2B"
+    ]
   }
 ]
