@@ -7793,5 +7793,69 @@
       "Edge0/Edge0-35B-A3B-preview",
       "openbmb/MiniCPM5-2B"
     ]
+  },
+  {
+    "date": "2026-09-17",
+    "ts": 1789641388524,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության շարունակական ընդլայնումը և ինտեգրումը տարբեր ոլորտներում՝ սկսած նոր մոդելների և ապրանքների թողարկումից մինչև կարևոր ենթակառուցվածքային և կարգավորող զարգացումներ։ Ընկերությունները կենտրոնանում են ինչպես AI-ի հնարավորությունների ընդլայնման, այնպես էլ դրա անվտանգության և էթիկական կիրառման վրա։",
+    "items": [
+      {
+        "headline": "Apple-ը նախատեսում է AI սերվերներ",
+        "summary": "Հաղորդվում է, որ Apple-ը նախատեսում է ստեղծել AI-ի համար նախատեսված սերվերներ՝ հագեցած M-series Ultra չիպերով, որոնք կարող են դառնալ ընկերության առաջին ձեռնարկատիրական սերվերները տասնամյակների ընթացքում։",
+        "source": 13,
+        "link": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Google-ը բացում է Smart Home-ը AI գործակալների համար",
+        "summary": "Google-ը թույլ է տալիս երրորդ կողմի AI գործակալներին, ներառյալ Claude-ին և Open Claw-ին, մուտք գործել և կառավարել իր Smart Home սարքերը՝ օգտագործելով Model Context Protocol-ը։",
+        "source": 24,
+        "link": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "GPT-6 Astra-ն վերծանում է նացիստական հաղորդագրություն",
+        "summary": "Bloomberg-ի մշակողը պնդում է, որ OpenAI-ի GPT-6 Astra-ի միջոցով տասը ժամում վերծանել է 83-ամյա Enigma հաղորդագրություն, որը մինչ այդ անլուծելի էր մնացել։",
+        "source": 3,
+        "link": "https://the-decoder.com/openais-gpt-6-astra-decrypts-a-nazi-radio-message-in-ten-hours-that-went-unsolved-for-83-years/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI լաբորատորիաները ցանկանում են անկախ գնահատողներ",
+        "summary": "Anthropic-ը և OpenAI-ը մտադիր են անկախ անվտանգության գնահատողներ ներգրավել իրենց AI լաբորատորիաներում, ինչը հետազոտողները ողջունում են, սակայն զգուշացնում են, որ արդյունավետ վերահսկողությունը պահանջում է թափանցիկություն և անկախություն։",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Նոր AI մոդել՝ առանց տեքստի ստեղծման",
+        "summary": "OpenAI-ի նախկին հետազոտողի կողմից հիմնադրված TypeSafe AI-ը թողարկում է Jev անունով AI մոդել, որը տեքստ չի ստեղծում, այլ ապահովում է ծրագրային ապահովման դասակարգումներ՝ արագ արձագանքման ժամանակներով։",
+        "source": 29,
+        "link": "https://the-decoder.com/former-openai-researcher-builds-an-ai-model-that-judges-options-instead-of-writing-text/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը վերաիմաստավորում է գովազդը AI-ով",
+        "summary": "OpenAI-ը ներկայացնում է AI-ով աշխատող գովազդային նոր փորձառություններ, ներառյալ Sponsored Agents-ը և HubSpot-ի ու Shopify-ի հետ ինտեգրումները։",
+        "source": 38,
+        "link": "https://openai.com/index/reimagining-advertising-with-ai",
+        "outlet": "OpenAI"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Jev",
+        "note": "տեքստ չստեղծող AI մոդել"
+      },
+      {
+        "name": "Sponsored Agents",
+        "note": "OpenAI-ի AI-ով աշխատող գովազդային նոր գործիք"
+      }
+    ],
+    "trending": [
+      "Edge0/Edge0-35B-A3B-preview",
+      "deepseek-ai/DeepSeek-V4.1-Flash",
+      "Qwen/Qwen3.8-27B"
+    ]
   }
 ]
