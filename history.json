@@ -7906,8 +7906,8 @@
   },
   {
     "date": "2026-09-18",
-    "ts": 1789726358361,
-    "overview": "Օրվա նորությունները ընդգծում են AI ոլորտի զգալի առաջընթացները և աճող մտահոգությունները՝ սկսած նոր մոդելների հնարավորություններից և խոշոր ներդրումներից մինչև էթիկական բանավեճեր և միջազգային քաղաքականության քննարկումներ։",
+    "ts": 1789757035508,
+    "overview": "Այսօրվա նորությունները նշանավորվում են AI-ի կարգավորման զգալի քայլերով, նոր արտադրանքների թողարկումներով և AI-ի անվտանգության ու էթիկական հետևանքների շուրջ շարունակվող բանավեճերով, հատկապես ռազմական կիրառությունների և տվյալների օգտագործման վերաբերյալ։",
     "items": [
       {
         "headline": "ԱՄՆ-ի և Չինաստանի փորձագետները կոչ են անում արգելել AI-ի միջուկային զենքի կառավարումը",
@@ -7950,12 +7950,62 @@
         "source": 29,
         "link": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Կալիֆոռնիան պահանջում է AI-ի «անջատիչ»",
+        "summary": "Կալիֆոռնիայի նահանգապետ Գևին Նյուսոմը հրամանագիր է ստորագրել՝ պահանջելով անկախ աուդիտորներ AI լաբորատորիաներում և AI մոդելների համար «անջատիչի» ներդրում։",
+        "source": 4,
+        "link": "https://the-decoder.com/california-governor-newsom-signs-executive-order-demanding-kill-switch-for-ai-models/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude-ով կոտրել են OpenAI-ի համակարգերը",
+        "summary": "Անվտանգության հետազոտողները Anthropic-ի Claude մոդելներն օգտագործել են OpenAI-ի համակարգերում խոցելիություններ շահագործելու համար՝ մուտք գործելով աշխատակիցների հաշիվներ և ներքին կոդերի պահոց։",
+        "source": 25,
+        "link": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Մաթեմատիկոսները զգուշացնում են AI-ի ռիսկերի մասին",
+        "summary": "42 առաջատար մաթեմատիկոսներ, այդ թվում՝ Ֆիլդսի մեդալակիրներ Մարտին Հեյրերը և Պիտեր Շոլցեն, բաց նամակով զգուշացրել են AI-ի գոյաբանական ռիսկերի իրական և հրատապ լինելու մասին։",
+        "source": 30,
+        "link": "https://the-decoder.com/42-leading-mathematicians-warn-that-ai-existential-risk-is-real-and-urgent/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը մուտք է գործում իրավական շուկա",
+        "summary": "OpenAI-ը ներկայացրել է Astra for Law-ը՝ իր GPT-6 Astra մոդելի տարբերակը, որը նախատեսված է իրավական աշխատանքների համար։",
+        "source": 27,
+        "link": "https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "FAA-ն AI է ներդնում օդային երթևեկության համար",
+        "summary": "ԱՄՆ Դաշնային ավիացիոն վարչությունը (FAA) 875 միլիոն դոլար արժողությամբ AI-ի վրա հիմնված նոր ծրագիր է գործարկում՝ օդային երթևեկության կարգավորիչներին աջակցելու համար։",
+        "source": 38,
+        "link": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Դրոնները AI-ով ինքնավար կհարձակվեն",
+        "summary": "Փոքր AI մոդելները թույլ են տալիս դրոններին ինքնավար կերպով բացահայտել և հարձակվել մարտադաշտի թիրախների վրա։",
+        "source": 39,
+        "link": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/",
+        "outlet": "Ars Technica"
       }
     ],
     "releases": [
       {
         "name": "Lunacy Audio Nova",
         "note": "AI-ով աշխատող երաժշտական պլագիններ ստեղծելու և վաճառելու հարթակ"
+      },
+      {
+        "name": "Astra for Law",
+        "note": "OpenAI-ի նոր AI մոդելը իրավական աշխատանքների համար"
+      },
+      {
+        "name": "Google CC",
+        "note": "Google-ի AI գործակալը տնային տնտեսությունների կառավարման համար"
       }
     ],
     "trending": [
