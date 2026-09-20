@@ -8118,8 +8118,8 @@
   },
   {
     "date": "2026-09-20",
-    "ts": 1789899299272,
-    "overview": "Այսօրվա նորությունները ընդգծում են արհեստական բանականության աճող ազդեցությունը առօրյա կյանքի, քաղաքականության և արդյունաբերության վրա, ինչպես նաև նոր գործիքների և կարգավորումների շուրջ քննարկումները։",
+    "ts": 1789928521779,
+    "overview": "Արհեստական բանականության ոլորտում նկատվում են նոր մոդելների և գործիքների թողարկումներ, ինչպես նաև քննարկումներ քաղաքականության և կիբերանվտանգության շուրջ։",
     "items": [
       {
         "headline": "ԱՄՆ-ում AI-ի ամենօրյա օգտագործման աճ",
@@ -8162,17 +8162,56 @@
         "source": 19,
         "link": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Alibaba-ի նոր Qwen-Image-2.1 մոդելը",
+        "summary": "Alibaba-ի Qwen թիմը թողարկել է Qwen-Image-2.1 բաց կշռային մոդելը, որը պնդում է, որ գերազանցում է փակ մոդելներին պատկերների ստեղծման և խմբագրման հարցում՝ ընդամենը 7 միլիարդ պարամետրով։",
+        "source": 3,
+        "link": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Թրամփը առաջարկում է «AI ուժ» ստեղծել",
+        "summary": "Նախագահ Թրամփը հայտարարել է, որ ցանկանում է նշանակել «AI ցար»՝ ղեկավարելու նոր «AI ուժը», միաժամանակ հավաստիացնելով, որ իր վարչակազմը չի խոչընդոտի արդյունաբերության աճին։",
+        "source": 5,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Runway-ի իրական ժամանակի AI վիդեո ստեղծում",
+        "summary": "Runway-ը մտադիր է AI վիդեո ստեղծումը վերածել իրական ժամանակի հոսքի, որը օգտատերերը կկարողանան կառավարել հրահանգներով՝ առանց պատրաստի տեսահոլովակների սպասելու։",
+        "source": 12,
+        "link": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Սիմուլյացված ուսանողները օգնում են AI դաստիարակներին",
+        "summary": "Microsoft-ը և Իլինոյսի համալսարանը ստեղծել են StudentSim-ը՝ արհեստական բանականության դաստիարակներին արագ և ցածրարժեք հետադարձ կապ տրամադրելու համար՝ սիմուլյացիաների միջոցով վերարտադրելով ուսանողների իրատեսական սխալները։",
+        "source": 13,
+        "link": "https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Մարդիկ՝ կիբերանվտանգության ամենամեծ ռիսկը",
+        "summary": "Էներգետիկ համակարգերի համար արհեստական բանականության հնարավոր սպառնալիքներից առաջ, մարդիկ շարունակում են մնալ կիբերանվտանգության ամենամեծ ռիսկը, քանի որ համակարգերը խոցելի են հարձակումների նկատմամբ։",
+        "source": 10,
+        "link": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
       {
         "name": "Unity plugins for Claude Code and OpenAI Codex",
         "note": "AI գործակալների համար նախատեսված պաշտոնական պլագիններ"
+      },
+      {
+        "name": "Qwen-Image-2.1",
+        "note": "Alibaba-ի նոր բաց կշռային պատկեր ստեղծող մոդել"
       }
     ],
     "trending": [
-      "deepseek-ai/DeepSeek-V4.1-Flash",
       "convaiinnovations/laya",
+      "deepseek-ai/DeepSeek-V4.1-Flash",
       "XingChen-AGI/Xing4.0-29B-A4B"
     ]
   }
