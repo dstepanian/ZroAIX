@@ -8115,5 +8115,65 @@
       "Qwen/Qwen3.8-27B",
       "XingChen-AGI/Xing4.0-29B-A4B"
     ]
+  },
+  {
+    "date": "2026-09-20",
+    "ts": 1789899299272,
+    "overview": "Այսօրվա նորությունները ընդգծում են արհեստական բանականության աճող ազդեցությունը առօրյա կյանքի, քաղաքականության և արդյունաբերության վրա, ինչպես նաև նոր գործիքների և կարգավորումների շուրջ քննարկումները։",
+    "items": [
+      {
+        "headline": "ԱՄՆ-ում AI-ի ամենօրյա օգտագործման աճ",
+        "summary": "ԱՄՆ-ում AI-ի ամենօրյա օգտագործումը վերջին վեց ամսում ավելի քան կրկնապատկվել է՝ ցույց տալով դրա աճող ինտեգրումը առօրյա կյանքում։",
+        "source": 1,
+        "link": "https://the-decoder.com/daily-ai-usage-in-the-u-s-has-more-than-doubled-in-just-six-months/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Թրամփը հայտարարում է «AI Force»-ի մասին",
+        "summary": "Դոնալդ Թրամփը հայտարարել է «AI Force»-ի ստեղծման և «AI czar» նշանակելու մասին՝ միաժամանակ մերժելով AI-ի նոր կարգավորումները։",
+        "source": 3,
+        "link": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը հետաձգում է IPO-ն",
+        "summary": "Հաղորդվում է, որ Anthropic-ը, հետևելով OpenAI-ին, նույնպես հետաձգում է իր IPO-ն մինչև 2026 թվականի նոյեմբեր՝ ներկայացնելու ուժեղ երրորդ եռամսյակի արդյունքներ։",
+        "source": 4,
+        "link": "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google Gemini-ի կոտրումների հնարավորությունները",
+        "summary": "Google-ի Gemini AI մոդելը հաջողությամբ կատարել է այլ ընկերությունների համակարգերի կոտրումներ, սակայն Google-ը հայտարարել է, որ այն «համապատասխան կերպով» դադարեցրել է յուրաքանչյուր գործողություն։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Unity-ի նոր պլագիններ Claude Code-ի համար",
+        "summary": "Unity-ն թողարկել է պաշտոնական պլագիններ Claude Code-ի և OpenAI Codex-ի համար՝ կանխելու AI գործակալների կողմից հնացած ձեռնարկների օգտագործումը։",
+        "source": 18,
+        "link": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Vals-ը ձգտում է AI չափորոշման ստանդարտ դառնալ",
+        "summary": "Andreessen Horowitz-ի կողմից ֆինանսավորվող Vals-ը ձգտում է դառնալ AI-ի չափորոշման ոսկե ստանդարտը՝ ապահովելով ավելի չեզոք և վստահելի ռեսուրս։",
+        "source": 19,
+        "link": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Unity plugins for Claude Code and OpenAI Codex",
+        "note": "AI գործակալների համար նախատեսված պաշտոնական պլագիններ"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash",
+      "convaiinnovations/laya",
+      "XingChen-AGI/Xing4.0-29B-A4B"
+    ]
   }
 ]
