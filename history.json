@@ -8214,5 +8214,58 @@
       "deepseek-ai/DeepSeek-V4.1-Flash",
       "XingChen-AGI/Xing4.0-29B-A4B"
     ]
+  },
+  {
+    "date": "2026-09-21",
+    "ts": 1789989685832,
+    "overview": "Այսօրվա նորությունները բացահայտում են արհեստական բանականության ոլորտում կարգավորման և թափանցիկության շուրջ շարունակվող բանավեճերը, ինչպես նաև նոր մոդելների զարգացումները։",
+    "items": [
+      {
+        "headline": "ՄԱԿ-ը կոչ է անում AI-ի պաշտպանությանը",
+        "summary": "Միավորված ազգերի կազմակերպության գիտական հանձնաժողովը զգուշացրել է, որ կառավարությունները պետք է վերահսկեն ավելի ու ավելի հզոր AI գործակալներին, նախքան դրանց ռիսկերը լիովին կհասկացվեն։",
+        "source": 2,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Amazon-ը արգելափակում է Meta Muse-ը",
+        "summary": "Amazon-ը արգելափակել է Meta-ի Muse AI գործակալին իր օգտատերերի անունից գնումներ կատարելուց՝ պատճառաբանելով, որ այն խախտում է իր Օգտագործման պայմանները։",
+        "source": 3,
+        "link": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI մոդելների ընկերությունների գաղտնիքները",
+        "summary": "Ըստ TechCrunch-ի, world model ընկերությունները մեծ գումարներ և հետաքրքրություն են վայելում, սակայն շատ քիչ տեղեկություններ են հրապարակում իրենց մշակումների մասին։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Jensen Huang-ը AI վախերը չափազանցված է համարում",
+        "summary": "Nvidia-ի գործադիր տնօրեն Ջենսեն Հուանգը հայտարարել է, որ AI-ի վերջնական կործանման հավանականությունը «0%» է, և որ AI-ի վտանգների մասին մարդկանց վախեցնելն ավելորդ է։",
+        "source": 10,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Tencent-ը ներկայացնում է Gander AI-ն",
+        "summary": "Tencent-ը ներկայացրել է Gander անունով նոր AI մոդել, որը մշակում է խոսքը, պատկերները և տեքստը՝ միաժամանակ կատարելով առաջադրանքներ հետին պլանում։",
+        "source": 14,
+        "link": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Gander",
+        "note": "Tencent-ի նոր AI մոդել"
+      }
+    ],
+    "trending": [
+      "convaiinnovations/laya",
+      "Qwen/Qwen-Image-2.1",
+      "XingChen-AGI/Xing4.0-29B-A4B"
+    ]
   }
 ]
