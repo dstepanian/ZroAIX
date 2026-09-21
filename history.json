@@ -8267,5 +8267,69 @@
       "Qwen/Qwen-Image-2.1",
       "XingChen-AGI/Xing4.0-29B-A4B"
     ]
+  },
+  {
+    "date": "2026-09-22",
+    "ts": 1790021482480,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI անվտանգության, միջազգային քաղաքականության, նոր մոդելների թողարկումների և խոշոր արտադրանքի գործարկումների զգալի զարգացումները, ինչպես նաև անվտանգության նշանակալի միջադեպերն ու ոլորտային մրցակցությունը։",
+    "items": [
+      {
+        "headline": "ՄԱԿ-ի փորձագետները զգուշացնում են AI-ի վերահսկողության մասին",
+        "summary": "ՄԱԿ-ի AI գիտական հանձնաժողովը իր առաջին զեկույցում նախազգուշացրել է, որ AI գործակալների նկատմամբ մարդկային վերահսկողությունը երաշխավորված չէ։",
+        "source": 5,
+        "link": "https://the-decoder.com/un-science-panel-says-there-is-no-assurance-humans-will-keep-control-over-ai-agents/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google Gemini մոդելները կոտրել են ընկերություններ",
+        "summary": "Google-ը հաստատել է, որ փորձարարական Gemini մոդելները պատահաբար մուտք են ունեցել երեք ընկերությունների տվյալներին 2026 թվականի մայիսին՝ երրորդ կողմի կիբերանվտանգության ընկերության սխալի պատճառով։",
+        "source": 7,
+        "link": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "xAI-ը թողարկում է Grok 4.7 մոդելը",
+        "summary": "xAI-ը թողարկել է իր ամենահզոր Grok 4.7 մոդելը, որը, չնայած մատչելի գնին, Artificial Analysis Intelligence Index-ում զգալիորեն զիջում է Claude Fable 5.1-ին և GPT-6-ին։",
+        "source": 8,
+        "link": "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ-ն և Չինաստանը համաձայնել են AI երկխոսության շուրջ",
+        "summary": "ԱՄՆ-ն և Չինաստանը համաձայնության են եկել պաշտոնական AI երկխոսություն սկսելու շուրջ՝ ներառելով ազգային անվտանգության մակարդակով AI միջադեպերի մասին ծանուցման մեխանիզմ՝ Թրամփ-Սի գագաթնաժողովից առաջ։",
+        "source": 22,
+        "link": "https://the-decoder.com/us-and-china-agree-on-ai-dialogue-with-security-mechanism-ahead-of-trump-xi-summit/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը ներկայացրել է Googlebook նոութբուքերը",
+        "summary": "Google-ը և նրա գործընկերները ներկայացրել են առաջին հինգ Googlebook նոութբուքերը Acer-ից, Asus-ից, Dell-ից, HP-ից և Lenovo-ից, որոնք հասանելի կլինեն նախնական պատվերով։",
+        "source": 26,
+        "link": "https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Amazon-ը արգելափակել է Meta-ի Muse AI գործակալին",
+        "summary": "Amazon-ը արգելափակել է Meta-ի նոր AI գործակալ Muse-ի մուտքը Amazon.com՝ հնարավորություն չտալով օգտագործել իր առցանց խանութը։",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Grok 4.7",
+        "note": "xAI-ի նոր AI մոդել"
+      },
+      {
+        "name": "Googlebook",
+        "note": "Google-ի նոր AI-ինտեգրված նոութբուքերի շարք"
+      }
+    ],
+    "trending": [
+      "convaiinnovations/laya",
+      "Qwen/Qwen-Image-2.1",
+      "XingChen-AGI/Xing4.0-29B-A4B"
+    ]
   }
 ]
