@@ -8270,8 +8270,8 @@
   },
   {
     "date": "2026-09-22",
-    "ts": 1790021482480,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI անվտանգության, միջազգային քաղաքականության, նոր մոդելների թողարկումների և խոշոր արտադրանքի գործարկումների զգալի զարգացումները, ինչպես նաև անվտանգության նշանակալի միջադեպերն ու ոլորտային մրցակցությունը։",
+    "ts": 1790073078856,
+    "overview": "Օրվա նորությունները ընդգծում են AI-ի զգալի առաջընթացները, ներառյալ նոր արտադրանքների գործարկումները և հետազոտական նախաձեռնությունները, ինչպես նաև աճող կարգավորող և ֆինանսական զարգացումները։",
     "items": [
       {
         "headline": "ՄԱԿ-ի փորձագետները զգուշացնում են AI-ի վերահսկողության մասին",
@@ -8314,6 +8314,48 @@
         "source": 3,
         "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Կալիֆոռնիան խստացնում է AI տվյալների կենտրոնների կանոնները",
+        "summary": "Կալիֆոռնիայի նահանգապետ Գևին Նյուսոմը ստորագրել է յոթ օրինագիծ, որոնք ուղղված են AI տվյալների կենտրոնների էներգիայի և ջրի օգտագործման կանոնների խստացմանը՝ կանխելու համար կոմունալ ծախսերը բնակիչների վրա բարդելը։",
+        "source": 11,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "SoftBank-ը 11 միլիարդ դոլար է ներգրավում OpenAI-ի համար",
+        "summary": "SoftBank-ը նախատեսում է ավելի քան 11 միլիարդ դոլար փոխառել ներդրողներից ռիսկային պարտատոմսերի միջոցով՝ ֆինանսավորելու OpenAI-ում իր բաժնեմասի հերթական վճարումը։",
+        "source": 24,
+        "link": "https://the-decoder.com/softbank-to-borrow-over-11-billion-in-risky-bonds-for-openai-stake/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Թրամփը հայտարարում է «AI Force»-ի ստեղծման մասին",
+        "summary": "Նախագահ Թրամփը մերժել է AI-ի զարգացումը դանդաղեցնելու կոչերը և փոխարենը հայտարարել է «AI Force» անունով նոր ուժի ստեղծման մասին՝ առանց մանրամասներ հաղորդելու դրա գործառույթների մասին։",
+        "source": 20,
+        "link": "https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը մաթեմատիկայի խորհրդատվական խումբ է ստեղծում",
+        "summary": "OpenAI-ը համագործակցում է Մաթեմատիկայի և Արհեստական ​​ինտելեկտի անկախ խորհրդատվական խմբի հետ՝ առաջացող AI արդյունքների վերանայումն ու հաղորդակցությունը ղեկավարելու համար։",
+        "source": 36,
+        "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "ByteDance-ը գործարկում է Dramagic AI հարթակը",
+        "summary": "ByteDance-ը գործարկել է Dramagic-ը՝ արհեստական ​​ինտելեկտի հարթակ, որը կառավարում է կարճ դրամաների արտադրության ողջ շղթան՝ սցենարից մինչև տեսանյութի նախադիտում։",
+        "source": 19,
+        "link": "https://the-decoder.com/bytedance-launches-dramagic-a-full-pipeline-ai-platform-for-producing-short-dramas-from-script-to-screen/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը կենսաբանական լաբորատորիա է ստեղծում",
+        "summary": "Anthropic-ը ստեղծում է իր սեփական կենսաբանական լաբորատորիան՝ AI-ի վրա հիմնված դեղերի մշակումը համակարգչային սիմուլյացիաներից դուրս մղելու համար, որտեղ Claude-ը կուղղորդի ռոբոտներին դեղերի փորձարկումներում։",
+        "source": 2,
+        "link": "https://the-decoder.com/anthropic-is-setting-up-a-biology-lab-where-claude-guides-robots-through-drug-experiments/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -8324,6 +8366,10 @@
       {
         "name": "Googlebook",
         "note": "Google-ի նոր AI-ինտեգրված նոութբուքերի շարք"
+      },
+      {
+        "name": "Dramagic",
+        "note": "ByteDance-ի AI հարթակ կարճ դրամաների արտադրության համար"
       }
     ],
     "trending": [
