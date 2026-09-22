@@ -8270,8 +8270,8 @@
   },
   {
     "date": "2026-09-22",
-    "ts": 1790073078856,
-    "overview": "Օրվա նորությունները ընդգծում են AI-ի զգալի առաջընթացները, ներառյալ նոր արտադրանքների գործարկումները և հետազոտական նախաձեռնությունները, ինչպես նաև աճող կարգավորող և ֆինանսական զարգացումները։",
+    "ts": 1790105095884,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների զգալի առաջընթացները, քանի որ OpenAI-ը և Anthropic-ը թողարկել են նոր տարբերակներ։ Կարևորվում են նաև AI-ի ավելի լայն ազդեցությունները, ներառյալ ինքնակատարելագործվող AI-ի վերաբերյալ քաղաքականության քննարկումները և տաղանդների զարգացմանն ուղղված արդյունաբերական ջանքերը։",
     "items": [
       {
         "headline": "ՄԱԿ-ի փորձագետները զգուշացնում են AI-ի վերահսկողության մասին",
@@ -8356,6 +8356,48 @@
         "source": 2,
         "link": "https://the-decoder.com/anthropic-is-setting-up-a-biology-lab-where-claude-guides-robots-through-drug-experiments/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը ներկայացրել է GPT-6 Sol և Luna մոդելները",
+        "summary": "OpenAI-ը գործարկել է իր նոր GPT-6 Sol և Luna մոդելները, որոնք նախատեսված են առօրյա աշխատանքում առաջնակարգ ինտելեկտ կիրառելու համար՝ հնարավորությունների և արժեքի տարբեր հավասարակշռությամբ։",
+        "source": 4,
+        "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Anthropic-ը թողարկել է Claude Opus 5.5-ը",
+        "summary": "Anthropic-ը գործարկել է Claude Opus 5.5 մոդելը, որը համապատասխանում է Claude Fable 5.1-ի արդյունավետությանը, սակայն 40 տոկոսով ավելի էժան է և ունի ուժեղացված կիբերանվտանգության պաշտպանություն։",
+        "source": 6,
+        "link": "https://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "a16z-ը գործարկում է նոր ակադեմիա",
+        "summary": "Վենչուրային կապիտալի Andreessen Horowitz (a16z) ընկերությունը ստեղծում է «ակադեմիա»՝ որպես երիտասարդների համար Silicon Valley-ում ստարտափներ հիմնելու կամ միանալու ուղի՝ Palantir-ի, Google-ի և Meta-ի հետ համագործակցությամբ։",
+        "source": 9,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը կոչ է անում AI ստանդարտներ սահմանել",
+        "summary": "OpenAI-ը կոչ է անում սահմանել միջազգային ստանդարտներ արհեստական ինտելեկտի ինքնակատարելագործման համար, որպեսզի ապահովվի մարդկային վերահսկողությունը և կանխվի անվերահսկելի զարգացումը։",
+        "source": 15,
+        "link": "https://the-decoder.com/openai-calls-for-international-standards-on-ai-that-could-improve-itself/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Toyota-ն աշխատակիցներին կվարժեցնի ռոբոտների համար",
+        "summary": "Toyota-ն իր աշխատակիցներին հանձնարարել է մարզել հումանոիդ ռոբոտներին՝ արտադրության մեջ դրանց ներդրման համար, սակայն հայտարարում է, որ դրանք չեն փոխարինի մարդկանց։",
+        "source": 7,
+        "link": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Nscale-ի IPO-ն կփորձարկի AI շուկան",
+        "summary": "Բրիտանական AI տվյալների կենտրոնների մշակող Nscale-ի IPO-ն կփորձարկի Wall Street-ի ախորժակը կենտրոնացված AI ներդրումների նկատմամբ, քանի որ ընկերության եկամտի մեծ մասը կախված է Microsoft-ից և Anthropic-ից։",
+        "source": 28,
+        "link": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -8370,6 +8412,14 @@
       {
         "name": "Dramagic",
         "note": "ByteDance-ի AI հարթակ կարճ դրամաների արտադրության համար"
+      },
+      {
+        "name": "GPT-6 Sol և Luna",
+        "note": "OpenAI-ի նոր առաջնակարգ AI մոդելներ"
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "note": "Anthropic-ի նոր AI մոդել՝ բարելավված արդյունավետությամբ և ցածր արժեքով"
       }
     ],
     "trending": [
