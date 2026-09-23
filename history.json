@@ -8427,5 +8427,69 @@
       "Qwen/Qwen-Image-2.1",
       "XingChen-AGI/Xing4.0-29B-A4B"
     ]
+  },
+  {
+    "date": "2026-09-23",
+    "ts": 1790159359849,
+    "overview": "Այսօրվա նորությունները կարևորում են AI մոդելների մրցակցային թողարկումները և գների իջեցումները, ինչպես նաև արհեստական բանականության ոլորտում զգալի ներդրումները և նոր սարքավորումների մշակումները։ Միաժամանակ, ուշադրության կենտրոնում են AI-ի անվտանգության, անվտանգության խախտումների և իրավական հետևանքների հետ կապված հարցերը։",
+    "items": [
+      {
+        "headline": "OpenAI-ի դեմ հայց՝ ChatGPT-ի օգտագործման համար",
+        "summary": "Բրիտանական Կոլումբիան դատի է տվել OpenAI-ին՝ պահանջելով փոխհատուցել նոր դպրոցի կառուցման ծախսերը այն բանից հետո, երբ ChatGPT-ն օգտագործվել է հրաձգության մեջ։",
+        "source": 21,
+        "link": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Microsoft-ը խափանել է AI-ով հարթակ",
+        "summary": "Microsoft-ը խափանել է EvilTokens անունով AI-ի աջակցությամբ գործող հարթակը, որը հնարավորություն էր տալիս արագ և հեշտությամբ կատարել զանգվածային կոմպրոմիսներ՝ վտանգելով 12,000 հաշիվ։",
+        "source": 19,
+        "link": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Snorkel AI-ի արժեքը եռապատկվել է",
+        "summary": "Snorkel AI ստարտափի արժեքը եռապատկվել է՝ հասնելով 3.5 միլիարդ դոլարի, քանի որ AI-ի ուսուցման տվյալների պահանջարկը կտրուկ աճում է։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Qualcomm-ը ներկայացրել է նոր AI չիպեր",
+        "summary": "Qualcomm-ը ներկայացրել է երկու նոր սմարթֆոնի չիպ, որոնք մեծ շեշտադրում են կատարում AI հնարավորությունների վրա, ընդ որում լավագույն չիպը կարող է տեղական մակարդակով գործարկել 30B mixture-of-expert մոդել։",
+        "source": 15,
+        "link": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի GPT-6 Sol և Luna մոդելներ",
+        "summary": "OpenAI-ը թողարկել է GPT-6 Sol և Luna մոդելները, որոնք նախորդների կատարողականությունն ապահովում են կիսով չափ ցածր գնով, սակայն անկախ վերլուծությունները նշում են, որ իրական ինտելեկտի զգալի աճ չկա։",
+        "source": 14,
+        "link": "https://the-decoder.com/openais-gpt-6-sol-and-luna-cut-prices-in-half-but-barely-move-the-needle-on-performance/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը թողարկում է Opus 5.5",
+        "summary": "Anthropic-ը թողարկել է Opus 5.5 մոդելը՝ ավելի ցածր գներով և Fable-ի մակարդակի կատարողականությամբ, որը ընկերության կողմից համարվում է մինչ օրս փորձարկված ամենաուժեղ մոդելը։",
+        "source": 29,
+        "link": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "GPT-6 Sol and Luna",
+        "note": "OpenAI-ի նոր AI մոդելներ"
+      },
+      {
+        "name": "Opus 5.5",
+        "note": "Anthropic-ի նոր AI մոդել"
+      }
+    ],
+    "trending": [
+      "convaiinnovations/laya",
+      "Qwen/Qwen-Image-2.1",
+      "XingChen-AGI/Xing4.0-29B-A4B"
+    ]
   }
 ]
