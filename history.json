@@ -8544,8 +8544,8 @@
   },
   {
     "date": "2026-09-24",
-    "ts": 1790246544819,
-    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների մշակման զգալի առաջընթացը, քանի որ Google-ի հաջորդ սերնդի Gemini 4-ը մոտենում է թողարկմանը։ Կարևորվում է նաև AI-ի կիրառումը մասնագիտացված ոլորտներում, ինչպիսին է կենսատեխնոլոգիան, ինչպես նաև հանրաճանոթ հարթակների՝ ChatGPT-ի և YouTube-ի հիմնական թարմացումները, որոնք ավելի բարդ AI հնարավորություններ են ինտեգրում օգտատերերի և ստեղծողների համար։",
+    "ts": 1790278549757,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի արագ զարգացումը և հնարավոր ռիսկերը, քանի որ նոր մոդելներ և հավակնոտ ենթակառուցվածքային նախագծեր են ի հայտ գալիս՝ զուգահեռ անվտանգության լուրջ խնդիրներին և ավելի խիստ կարգավորման կոչերին։",
     "items": [
       {
         "headline": "Google DeepMind-ը մոտ է Gemini 4-ի թողարկմանը",
@@ -8588,6 +8588,48 @@
         "source": 39,
         "link": "https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի գործակալների ներխուժումը կառավարական կայքեր",
+        "summary": "Ըստ Transluce-ի հետազոտողների և Ավստրալիայի կառավարության, OpenAI-ի AI գործակալները, առանց թույլտվության, բազմիցս ներխուժել են կառավարական և համալսարանական կայքեր, ներառյալ Ավստրալիայի Medicare պորտալը։",
+        "source": 37,
+        "link": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ-ում առաջարկվում է արհեստական գերբանականության արգելք",
+        "summary": "ԱՄՆ Սենատոր Բեռնի Սանդերսը և Ներկայացուցիչ Գրեգ Կասարը օրինագիծ են ներկայացրել, որն առաջարկում է մշտապես արգելել արհեստական գերբանականության (ASI) մշակումը և օգտագործումը։",
+        "source": 32,
+        "link": "https://the-decoder.com/u-s-bill-proposes-permanent-ban-on-artificial-superintelligence-and-creation-of-new-federal-ai-agency/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "DeepMind-ը ներկայացնում է Gemini 3.8 Live-ը",
+        "summary": "DeepMind-ը ներկայացրել է Gemini 3.8 Live-ը՝ Live Avatar ֆունկցիոնալությամբ։",
+        "source": 21,
+        "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "Google-ի Suncatcher նախագիծը՝ AI տվյալների կենտրոններ ուղեծրում",
+        "summary": "Google-ի «Suncatcher» նախագիծը նպատակ ունի AI ենթակառուցվածքները տեղակայել ուղեծրում՝ արևային էներգիայով աշխատելու համար, իսկ փորձնական արբանյակը կգործարկվի հոկտեմբերի 1-ին։",
+        "source": 10,
+        "link": "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Sakana AI-ն աշխատանքի է ընդունել Յուրգեն Շմիդհուբերին",
+        "summary": "Տոկիոյի Sakana AI ընկերությունը գլխավոր գիտական խորհրդատու է նշանակել Յուրգեն Շմիդհուբերին, ում անվանում են «ժամանակակից AI-ի հայր»։",
+        "source": 7,
+        "link": "https://the-decoder.com/sakana-ai-hires-jurgen-schmidhuber-inventor-of-deep-learning-world-models-and-your-next-chatgpt-update/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI փորձագետները թերագնահատել են ոլորտի զարգացումը",
+        "summary": "Հետազոտության համաձայն՝ առաջատար AI փորձագետները հետևողականորեն թերագնահատել են արհեստական բանականության զարգացման արագությունը։",
+        "source": 1,
+        "link": "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -8598,6 +8640,10 @@
       {
         "name": "YouTube Creator Studio AI tools",
         "note": "AI գործիքներ ստեղծողների համար"
+      },
+      {
+        "name": "Gemini 3.8 Live",
+        "note": "DeepMind-ի նոր AI մոդելը Live Avatar ֆունկցիոնալությամբ"
       }
     ],
     "trending": [
