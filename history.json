@@ -8541,5 +8541,69 @@
       "Qwen/Qwen-Image-2.1",
       "XingChen-AGI/Xing4.0-29B-A4B"
     ]
+  },
+  {
+    "date": "2026-09-24",
+    "ts": 1790246544819,
+    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների մշակման զգալի առաջընթացը, քանի որ Google-ի հաջորդ սերնդի Gemini 4-ը մոտենում է թողարկմանը։ Կարևորվում է նաև AI-ի կիրառումը մասնագիտացված ոլորտներում, ինչպիսին է կենսատեխնոլոգիան, ինչպես նաև հանրաճանոթ հարթակների՝ ChatGPT-ի և YouTube-ի հիմնական թարմացումները, որոնք ավելի բարդ AI հնարավորություններ են ինտեգրում օգտատերերի և ստեղծողների համար։",
+    "items": [
+      {
+        "headline": "Google DeepMind-ը մոտ է Gemini 4-ի թողարկմանը",
+        "summary": "Google DeepMind-ի նոր ղեկավարի խոսքերով՝ ընկերությունը մոտ է Gemini 4 AI մոդելի թողարկմանը, որը ներկայումս գտնվում է կատարելագործման փուլում։",
+        "source": 2,
+        "link": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ի կենսաբանական լաբորատորիան հայտնաբերել է կարևոր բան",
+        "summary": "Anthropic-ը հայտարարել է, որ իր նոր կենսաբանական լաբորատորիան արդեն զգալի հայտնագործություններ է արել, ընդգծելով, որ Claude AI-ն դեռևս չի օգտագործվում լաբորատորիայում առանց մարդկային վերահսկողության։",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Enveda-ն 311 մլն դոլար է ներգրավել AI դեղերի համար",
+        "summary": "AI կենսատեխնոլոգիական Enveda ընկերությունը 311 միլիոն դոլարի ֆինանսավորում է ստացել՝ բնական ծագում ունեցող AI դեղամիջոցները կլինիկական փորձարկումներին մոտեցնելու համար։",
+        "source": 19,
+        "link": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ChatGPT բջջային հավելվածը ստանում է ձայնային գործառույթներ",
+        "summary": "ChatGPT բջջային հավելվածի Pro և Plus օգտատերերը այժմ կարող են օգտագործել Work ներդիրը՝ ձայնի միջոցով գործակալական առաջադրանքներ կատարելու համար։",
+        "source": 24,
+        "link": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "YouTube-ը AI գործիքներ է ավելացնում Creator Studio-ին",
+        "summary": "YouTube-ը Creator Studio-ին ավելացնում է AI գործիքներ, ներառյալ սցենարների մարզումը, խելացի մանրապատկերները և Gemini-ի վրա հիմնված խմբագրման օգնականը։",
+        "source": 26,
+        "link": "https://the-decoder.com/youtube-adds-ai-tools-to-creator-studio-with-script-coaching-smart-thumbnails-and-gemini-editing/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Basecamp Research-ը 140 մլն դոլար է ներգրավել",
+        "summary": "Basecamp Research AI ստարտափը 140 միլիոն դոլար է ներգրավել՝ օգտագործելով էվոլյուցիոն տվյալներ՝ AI մոդելներ մարզելու համար՝ նոր հակաբիոտիկներ և բջջային թերապիաներ մշակելու նպատակով։",
+        "source": 39,
+        "link": "https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "ChatGPT mobile app agentic features",
+        "note": "Ձայնային գործակալական հնարավորություններ"
+      },
+      {
+        "name": "YouTube Creator Studio AI tools",
+        "note": "AI գործիքներ ստեղծողների համար"
+      }
+    ],
+    "trending": [
+      "convaiinnovations/laya",
+      "Qwen/Qwen-Image-2.1",
+      "XingChen-AGI/Xing4.0-29B-A4B"
+    ]
   }
 ]
