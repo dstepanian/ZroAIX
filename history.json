@@ -8654,8 +8654,8 @@
   },
   {
     "date": "2026-09-25",
-    "ts": 1790333162380,
-    "overview": "Այսօրվա նորությունները վկայում են AI ենթակառուցվածքների ֆինանսավորման, կարգավորող վերահսկողության և նոր արտադրանքների գործարկման զգալի զարգացումների մասին, ինչպես նաև AI գործակալների վարքագծի և կառավարական կիրառությունների շուրջ ծագող մտահոգությունների մասին:",
+    "ts": 1790365234175,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության ոլորտում շարունակվող մեծ ներդրումները և ենթակառուցվածքների զարգացումը, ինչպես նաև կարգավորող և իրավական մարտահրավերների աճը: Միաժամանակ, խոշոր տեխնոլոգիական ընկերությունները ներկայացնում են նոր AI գործառույթներ, իսկ AI-ի անվտանգության և էթիկայի շուրջ բանավեճերը մնում են օրակարգում:",
     "items": [
       {
         "headline": "Anthropic-ը Akamai-ի հետ 11.6 միլիարդ դոլարի գործարք է կնքել",
@@ -8698,12 +8698,62 @@
         "source": 31,
         "link": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ը և Akamai-ի ամպային գործարքը",
+        "summary": "Anthropic-ը պարտավորվել է յոթ տարվա ընթացքում 11.6 միլիարդ դոլար վճարել Akamai-ի ամպային ենթակառուցվածքների համար՝ հնարավոր բաժնետոմսերի փոխանակմամբ:",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Պենտագոնի որոշումը Anthropic-ի վերաբերյալ",
+        "summary": "Դաշնային վերաքննիչ դատարանը հաստատել է Պենտագոնի որոշումը՝ Anthropic-ին զինվորական պայմանագրերից զրկելու վերաբերյալ՝ անվտանգության ռիսկերի պատճառով:",
+        "source": 5,
+        "link": "https://the-decoder.com/pentagon-was-right-to-slap-anthropic-with-a-security-supply-chain-risk-label-federal-court-says/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nscale-ը 3.36 միլիարդ դոլարի ֆինանսավորում է ստացել",
+        "summary": "Բրիտանական AI neocloud Nscale ընկերությունը, մինչ ԱՄՆ-ում IPO-ն, ապահովել է 3.36 միլիարդ դոլարի փոխարկելի ֆինանսավորում՝ իր AI տվյալների կենտրոնների կառուցման համար:",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google Deepmind-ի հետազոտողի հրաժարականը",
+        "summary": "Google Deepmind-ի հետազոտող Ռոբերտ Օ'Քալահանը հրաժարական է տվել՝ հայտարարելով, որ գերխելացի AI-ի արագ ստեղծումը «բնորոշ անպատասխանատու է»:",
+        "source": 10,
+        "link": "https://the-decoder.com/another-google-deepmind-researcher-quits-says-building-superintelligent-ai-soon-is-inherently-irresponsible/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Sony-ն և UMG-ն կրկին դատի են տվել Suno-ին",
+        "summary": "Sony-ն և Universal Music Group-ը կրկին դատի են տվել Suno-ին՝ պնդելով, որ նրա նոր v6 մոդելը դեռևս խախտում է իրենց հեղինակային իրավունքները:",
+        "source": 22,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google Gemini-ի «Call for Me» գործառույթը",
+        "summary": "Google-ը փորձարկում է «Call for Me» գործառույթը, որը թույլ է տալիս Gemini-ին օգտատիրոջ անունից զանգահարել ընկերություններին:",
+        "source": 34,
+        "link": "https://the-decoder.com/googles-call-for-me-lets-gemini-phone-businesses-for-you/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
       {
         "name": "FLUX 3 Action",
         "note": "Ռոբոտաշինության համար նախատեսված բաց AI մոդել"
+      },
+      {
+        "name": "Autopilot",
+        "note": "Microsoft Copilot-ի նոր AI գործակալ"
+      },
+      {
+        "name": "Call for Me",
+        "note": "Google Gemini-ի նոր գործառույթ"
       }
     ],
     "trending": [
