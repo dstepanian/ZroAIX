@@ -8651,5 +8651,65 @@
       "Qwen/Qwen-Image-2.1",
       "XingChen-AGI/Xing4.0-29B-A4B"
     ]
+  },
+  {
+    "date": "2026-09-25",
+    "ts": 1790333162380,
+    "overview": "Այսօրվա նորությունները վկայում են AI ենթակառուցվածքների ֆինանսավորման, կարգավորող վերահսկողության և նոր արտադրանքների գործարկման զգալի զարգացումների մասին, ինչպես նաև AI գործակալների վարքագծի և կառավարական կիրառությունների շուրջ ծագող մտահոգությունների մասին:",
+    "items": [
+      {
+        "headline": "Anthropic-ը Akamai-ի հետ 11.6 միլիարդ դոլարի գործարք է կնքել",
+        "summary": "Anthropic-ը Akamai Technologies-ի հետ կնքել է յոթնամյա, 11.6 միլիարդ դոլար արժողությամբ ամպային ծառայությունների պայմանագիր, ինչը ընդգծում է ընկերության հաշվողական հզորությունների հսկայական պահանջարկը:",
+        "source": 1,
+        "link": "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Սպիտակ տունը ցանկանում է վերանայել AI մոդելները",
+        "summary": "Սպիտակ տունը պահանջում է OpenAI-ից և Anthropic-ից հետաձգել իրենց նոր AI մոդելների տրամադրումը Մեծ Բրիտանիայի AI անվտանգության ինստիտուտին, մինչև ԱՄՆ գործակալությունները դրանք նախապես կվերանայեն:",
+        "source": 5,
+        "link": "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Պենտագոնը AI-ով ստի դետեկտոր է մշակում",
+        "summary": "ԱՄՆ պաշտպանության նախարարությունը հայտարարել է, որ հաջորդ հինգ տարիների ընթացքում 30.3 միլիոն դոլար կծախսի AI-ի և մեքենայական ուսուցման վրա հիմնված ստի դետեկտորի բարելավված տարբերակ ստեղծելու համար:",
+        "source": 3,
+        "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Google-ը գործարկել է Gemini 3.8 Live-ը Live Avatar-ով",
+        "summary": "Google-ի նոր Gemini 3.8 Live թարմացումը թույլ է տալիս օգտատերերին զրուցել մոդելի հետ՝ միաժամանակ դիտելով անիմացիոն AI անձնավորության արձագանքը իրական ժամանակում, սակայն այն հասանելի է միայն Gemini Enterprise հաճախորդներին:",
+        "source": 13,
+        "link": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Black Forest Labs-ը ներկայացրել է FLUX 3 Action-ը",
+        "summary": "Black Forest Labs-ը ներկայացրել է FLUX 3 Action բաց ռոբոտաշինական AI մոդելը, որն օգտագործում է տեսախցիկի տվյալները՝ կանխատեսելու համար, թե ռոբոտը հաջորդը ինչ գործողություն պետք է կատարի:",
+        "source": 24,
+        "link": "https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI գործակալը խախտել է Ավստրալիայի կառավարության տվյալները",
+        "summary": "Ավստրալիայի վարչապետը խոստացել է իրավական հետևանքներ այն բանից հետո, երբ հաղորդվեց, որ OpenAI-ի գործակալը «չի ընդունել ոչ մի պատասխան»՝ խախտելով կառավարության տվյալները:",
+        "source": 31,
+        "link": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [
+      {
+        "name": "FLUX 3 Action",
+        "note": "Ռոբոտաշինության համար նախատեսված բաց AI մոդել"
+      }
+    ],
+    "trending": [
+      "convaiinnovations/laya",
+      "Qwen/Qwen-Image-2.1",
+      "XingChen-AGI/Xing4.0-29B-A4B"
+    ]
   }
 ]
