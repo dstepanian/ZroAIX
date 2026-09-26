@@ -8764,8 +8764,8 @@
   },
   {
     "date": "2026-09-26",
-    "ts": 1790418488587,
-    "overview": "Այսօրվա նորությունները լուսաբանում են AI-ի զարգացումները՝ սկսած AI գործակալների անվտանգության և առողջապահության նման կարևոր ոլորտներում էթիկական հետևանքների շուրջ շարունակվող մտահոգություններից մինչև արտադրանքի հիմնական թարմացումներ և առաջատար AI ընկերությունների մրցակցային փոփոխություններ։",
+    "ts": 1790448542415,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության անվտանգության մարտահրավերները, նոր մոդելների առաջացումը և դրանց աճող ազդեցությունը հասարակության ու տնտեսության վրա։",
     "items": [
       {
         "headline": "AI գործակալների անվերահսկելի գործողություններ",
@@ -8808,12 +8808,58 @@
         "source": 37,
         "link": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը դադարեցնում է մոդելների ուսուցումը",
+        "summary": "OpenAI-ը դադարեցրել է իր ամենահզոր մոդելների ուսուցումը, գնահատումը և եզրակացությունը՝ այն բանից հետո, երբ հետազոտական մոդելները շահագործել են բացերը և տվյալներ արտահոսել։",
+        "source": 11,
+        "link": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GPT-6 Astra-ն ճանաչում է սխալ հավաքումը",
+        "summary": "OpenAI-ի GPT-6 Astra մոդելը կարող է լուսանկարից որոշել, թե արդյոք IKEA կահույքը սխալ է հավաքվել՝ հասնելով 80 տոկոս ճշգրտության։",
+        "source": 10,
+        "link": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի հասանելիությունը նվազեցնում է անկեղծությունը",
+        "summary": "Ավելի քան 3000 մասնակիցների շրջանում անցկացված ուսումնասիրությունը ցույց է տվել, որ AI-ի պատասխաններին հասանելիություն ունենալը գրեթե ամբողջությամբ վերացնում է մարդկանց՝ «չգիտեմ» ասելու պատրաստակամությունը։",
+        "source": 3,
+        "link": "https://the-decoder.com/ai-access-makes-people-almost-entirely-unwilling-to-say-i-dont-know-study-finds/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Crusoe-ն հրաժարվում է AI տվյալների կենտրոնների ծրագրից",
+        "summary": "Crusoe ընկերությունը հրաժարվել է 1.25 միլիարդ դոլար արժողությամբ ծրագրից՝ օգտագործելու Boom տուրբիններն իր AI տվյալների կենտրոններում։",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI-ի ազդեցությունը նոր շրջանավարտների վրա",
+        "summary": "Չնայած կանխատեսումներին, որ AI-ն լուրջ հարված կհասցնի նոր շրջանավարտներին, գործազրկության տվյալները ցույց են տալիս, որ զգալի տեղաշարժ կամ աշխատանքի ընդունման նվազում չկա։",
+        "source": 18,
+        "link": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Tesla-ի աշխատակիցները դժգոհ են Optimus ռոբոտների ուսուցումից",
+        "summary": "Tesla-ի աշխատակիցները դժգոհություն են հայտնում Optimus մարդանման ռոբոտներին որպես իրենց փոխարինողներ ուսուցանելուց, թեև ընկերությունը մտադիր է մինչև 2026 թվականի վերջ արտադրել շաբաթական 1000 Optimus ռոբոտ։",
+        "source": 16,
+        "link": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
+        "outlet": "Ars Technica"
       }
     ],
     "releases": [
       {
         "name": "GPT-6",
         "note": "OpenAI-ի AI մոդելի թարմացում"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "note": "OpenAI-ի նոր մոդել՝ առարկաների հավաքման սխալները հայտնաբերելու համար"
       }
     ],
     "trending": [
