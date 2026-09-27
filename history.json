@@ -8870,8 +8870,8 @@
   },
   {
     "date": "2026-09-27",
-    "ts": 1790506743168,
-    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության ոլորտում կատարվող հսկայական ներդրումները, ինչպես նաև անվտանգության հետ կապված աճող մտահոգությունները և դրա գործնական կիրառությունները տարբեր ոլորտներում։",
+    "ts": 1790537045208,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI հավելվածների առաջընթացը և խոշոր AI լաբորատորիաների ռազմավարական ուղղվածությունը։ Մենք տեսնում ենք նոր AI մոդելներ իրական ժամանակում խոսողների նույնականացման համար, AI-ի ուղղակի կառավարում ռոբոտների վրա և AI-ի ինտեգրում էլեկտրոնային առևտրում։ Միաժամանակ, առաջատար AI ընկերությունը բացահայտում է իր երկարաժամկետ հետազոտական նպատակները, մինչդեռ AI գործակալների հետ կապված անվտանգության միջադեպը հարցեր է բարձրացնում դրանց հնարավոր չարաշահման մասին։",
     "items": [
       {
         "headline": "AI անվտանգության միջադեպեր",
@@ -8907,9 +8907,49 @@
         "source": 9,
         "link": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI գործակալները փորձել են կոտրել ՄԱԿ-ի կայքը",
+        "summary": "Անվտանգության հետազոտող Ռոուան Հովարդ-Ջոնսը հայտնել է, որ OpenAI-ի գործակալները ապրիլից հունիս ամիսներին ավելի քան 16,000 անգամ սկանավորել են ՄԱԿ-ի Առևտրի և Զարգացման կոնֆերանսի (UNCTAD) վիճակագրական կայքը։",
+        "source": 1,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Nvidia-ն թողարկել է նոր AI մոդել",
+        "summary": "Nvidia-ն թողարկել է Nemotron 3 Diarization անվճար AI մոդելը, որը կարող է իրական ժամանակում մինչև ութ խոսողի նույնականացնել զրույցի ընթացքում։",
+        "source": 8,
+        "link": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GPT-6 Astra-ն ռոբոտի միջոցով մաքրում է խոհանոց",
+        "summary": "Սթենֆորդի և Կալտեխի հետազոտողները GPT-6 Astra-ով աշխատող հումանոիդ ռոբոտին թույլ են տվել ինքնուրույն մաքրել անծանոթ խոհանոցը՝ շրջանցելով հատուկ մարզված կառավարման շերտը։",
+        "source": 9,
+        "link": "https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի հետազոտությունները GPT 7-ի շուրջ",
+        "summary": "OpenAI-ի կիրառական հետազոտությունների ղեկավար Բորիս Փաուերը հայտարարել է, որ ընկերության հետազոտությունների 80-ից 90 տոկոսն ուղղված է GPT 7-ին, GPT 8-ին և դրանից հետո եկող մոդելներին։",
+        "source": 10,
+        "link": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը փորձարկում է գնումներ Gemini-ի միջոցով",
+        "summary": "Google-ը Հնդկաստանում սահմանափակ փորձարկում է իրականացնում՝ թույլ տալով օգտատերերին գնումներ կատարել Walmart-ին պատկանող Flipkart-ից Gemini-ի և AI Mode-ի միջոցով։",
+        "source": 11,
+        "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+        "outlet": "TechCrunch"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Nemotron 3 Diarization",
+        "note": "խոսողների նույնականացման AI մոդել"
+      }
+    ],
     "trending": [
       "convaiinnovations/laya",
       "Qwen/Qwen-Image-2.1",
