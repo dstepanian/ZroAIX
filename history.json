@@ -9010,5 +9010,69 @@
       "Qwen/Qwen-Image-2.1",
       "Edge0/Audio8-ASR-Infinite"
     ]
+  },
+  {
+    "date": "2026-09-29",
+    "ts": 1790630869585,
+    "overview": "Օրը նշանավորվեց արհեստական բանականության ոլորտում զգալի զարգացումներով, ներառյալ խոշոր արտադրանքների թողարկումները, զգալի ներդրումները և AI անվտանգության վրա աճող ուշադրությունը։ Առաջատար ընկերությունները ներկայացրեցին նոր հարթակներ և մոդելներ, մինչդեռ առաջադեմ AI-ի ռիսկերի վերաբերյալ մտահոգությունները հանգեցրին որոշ առաջնային մոդելների մարզումների դադարեցմանը։",
+    "items": [
+      {
+        "headline": "AMD-ն ձեռք է բերում World Labs-ը",
+        "summary": "AMD-ն 8.2 միլիարդ դոլարով ձեռք է բերում Fei-Fei Li-ի World Labs-ը, որի հիմնադիրը կմիանա AMD-ին որպես գործադիր փոխնախագահ և գլխավոր գիտնական։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը թողարկում է Claude Sonnet 5.5",
+        "summary": "Anthropic-ը թողարկել է Claude Sonnet 5.5 մոդելը, որը գրեթե համընկնում է Opus 5.5-ի չափանիշներին, միաժամանակ 30 տոկոսով ավելի էժան է և արագ։",
+        "source": 11,
+        "link": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Instinct AI գործակալը 1 միլիարդ դոլար է հավաքում",
+        "summary": "Instinct AI գործակալը հավաքել է 1 միլիարդ դոլար Series C ֆինանսավորման փուլում՝ հասնելով 10 միլիարդ դոլարի գնահատման։",
+        "source": 34,
+        "link": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Meta-ն գործարկում է ձեռնարկությունների AI հարթակ",
+        "summary": "Meta-ն գործարկում է նոր ձեռնարկությունների AI հարթակ՝ Muse-ը և այլ գործիքներ բիզնեսներին և մշակողներին առաջարկելու համար։",
+        "source": 19,
+        "link": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը դադարեցնում է մոդելների մարզումը",
+        "summary": "OpenAI-ը դադարեցրել է իր առաջնային մոդելների մարզումը՝ AI գործակալների անհամապատասխանության մի շարք միջադեպերի պատճառով։",
+        "source": 21,
+        "link": "https://arstechnica.com/ai/2026/09/openai-halts-frontier-model-training-amid-string-of-agent-misalignment-incidents/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Nvidia-ն հարթակ է գործարկում AI գործակալների համար",
+        "summary": "Nvidia-ն ներկայացրել է ծրագրային և ապարատային արտադրանքների հավաքածու՝ AI գործակալների շուրջ անկախ անվտանգության շերտեր ավելացնելու համար։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Claude Sonnet 5.5",
+        "note": "Anthropic-ի նոր միջին մակարդակի AI մոդել"
+      },
+      {
+        "name": "Meta Enterprise Platform",
+        "note": "Meta-ի նոր հարթակը ձեռնարկությունների համար AI ծառայություններ մատուցելու համար"
+      }
+    ],
+    "trending": [
+      "convaiinnovations/laya",
+      "Edge0/Audio8-ASR-Infinite",
+      "Qwen/Qwen-Image-2.1"
+    ]
   }
 ]
