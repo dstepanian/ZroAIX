@@ -8955,5 +8955,60 @@
       "Qwen/Qwen-Image-2.1",
       "XingChen-AGI/Xing4.0-29B-A4B"
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "ts": 1790597808116,
+    "overview": "Այսօրվա նորությունները շեշտում են AI-ի քաղաքականության և անվտանգության ոլորտում զարգացումները, ինչպես նաև AI մոդելների մշակման գործընթացի վերաբերյալ պատկերացումները։ Օրակարգում է նաև SpaceX-ի կողմից Starlink V3 արբանյակների արձակումը։",
+    "items": [
+      {
+        "headline": "SpaceX-ը պատրաստվում է Starlink V3-ի արձակմանը",
+        "summary": "SpaceX-ը պատրաստվում է արձակել իր առաջին Starlink V3 արբանյակները Starship հրթիռով՝ փորձելով այն առաջին անգամ տեղակայել Երկրի ուղեծրում։",
+        "source": 2,
+        "link": "https://www.theverge.com/science/1001259/spacex-starlink-satellites-starship-amazon-leo",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Չինաստանում AI-ի հեղինակային իրավունքի նախադեպ",
+        "summary": "Չինաստանի Ուհան քաղաքի դատարանն առաջին անգամ հաշվի է առել AI-ի արտադրության ծախսերը, ներառյալ թոքենների օգտագործումը և լիցենզավորման վճարները, հեղինակային իրավունքի խախտման համար վնասի հատուցման հաշվարկում։",
+        "source": 4,
+        "link": "https://the-decoder.com/a-wuhan-court-just-made-ai-production-costs-a-legal-factor-in-copyright-infringement-cases/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալների պատասխանատվության հարցը",
+        "summary": "MIT Technology Review-ը քննարկում է AI գործակալների կողմից իրականացված կիբերհարձակումների դեպքում պատասխանատվության հարցը։",
+        "source": 6,
+        "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Anthropic-ի CEO-ն հանդիպում է Թրամփի հետ",
+        "summary": "Anthropic-ի գործադիր տնօրեն Դարիո Ամոդեյը նախատեսում է մեկ առ մեկ հանդիպել նախագահ Թրամփի հետ, ինչը նրանց առաջին անձնական հանդիպումն է։",
+        "source": 13,
+        "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI գործակալների դերը մոդելների մշակման մեջ",
+        "summary": "Հետազոտությունը ցույց է տվել, որ AI գործակալները կատարում են մոդելների մշակման աշխատանքների մինչև 55%-ը, սակայն մարդիկ դեռևս կայացնում են վերջնական որոշումների ավելի քան 85%-ը։",
+        "source": 17,
+        "link": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի վետերանները հող են գնում AI-ի ռիսկերից",
+        "summary": "Ըստ Wall Street Journal-ի՝ Anthropic-ի որոշ վետերան աշխատակիցներ հեռավոր հողատարածքներ են գնում ԱՄՆ-ում՝ որպես ապաստան՝ AI-ի հնարավոր անցանկալի զարգացումների դեպքում։",
+        "source": 18,
+        "link": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "convaiinnovations/laya",
+      "Qwen/Qwen-Image-2.1",
+      "Edge0/Audio8-ASR-Infinite"
+    ]
   }
 ]
