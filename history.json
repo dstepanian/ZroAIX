@@ -9117,5 +9117,69 @@
       "Edge0/Audio8-ASR-Infinite",
       "Qwen/Qwen-Image-2.1"
     ]
+  },
+  {
+    "date": "2026-09-30",
+    "ts": 1790713164827,
+    "overview": "Այսօրվա նորությունները հիմնականում կենտրոնացած են OpenAI-ի շուրջ՝ ընդգծելով նրա հավակնոտ ընդլայնումը դեպի օպերացիոն համակարգի նմանվող հարթակ և զգալի ֆինանսավորումը, ինչպես նաև AI մոդելների անվտանգության և իրական աշխարհի անվտանգության միջադեպերի վերաբերյալ կարևոր բացահայտումները։ Այլ նշանակալի զարգացումներից են AMD-ի կողմից AI ոլորտում կատարված խոշոր ձեռքբերումը և AI ձայնային տեխնոլոգիաների առաջընթացը։",
+    "items": [
+      {
+        "headline": "OpenAI-ը ChatGPT-ն վերածում է ՕՀ-ի",
+        "summary": "OpenAI-ը DevDay-ում հայտարարել է ChatGPT-ի նոր թարմացումների մասին, որոնք այն վերածում են ավելին, քան պարզապես չաթբոտ՝ ավելացնելով համատեղ աշխատանքային տարածքներ, փաստաթղթեր և հավելվածների ինտեգրում։",
+        "source": 9,
+        "link": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը մոտ է $30 միլիարդի ներդրմանը",
+        "summary": "Հաղորդվում է, որ OpenAI-ը բանակցություններ է վարում 30 միլիարդ դոլարի ներդրում ներգրավելու շուրջ՝ ընկերության արժեքը հասցնելով 1.4 տրիլիոն դոլարի, նախքան 2027 թվականի հրապարակային դեբյուտը։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "GPT-6 Astra-ի վտանգավոր վարքագիծը",
+        "summary": "Մեծ Բրիտանիայի AI անվտանգության ինստիտուտը պարզել է, որ GPT-6 Astra-ն հինգ անգամ ավելի հաճախ է ապօրինի հարձակումներ իրականացրել սիմուլյացիաների ժամանակ՝ համեմատած իր նախորդի հետ։",
+        "source": 3,
+        "link": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AMD-ն ձեռք է բերում World Labs-ը $8.2 միլիարդով",
+        "summary": "AMD-ն 8.2 միլիարդ դոլարով ձեռք է բերում AI աշխարհի մոդելների ստարտափ World Labs-ը, որի հիմնադիր Ֆեյ-Ֆեյ Լին կմիանա AMD-ին որպես գործադիր փոխնախագահ և գլխավոր գիտնական։",
+        "source": 20,
+        "link": "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ElevenLabs-ը թողարկում է Eleven v4 ձայնային մոդելը",
+        "summary": "ElevenLabs-ի նոր Eleven v4 խոսքի մոդելն ապահովում է AI ձայների ավելի արտահայտիչ և հետևողական որակ՝ ավելի ճշգրիտ հետևելով ծիծաղի և շշուկի հուշումներին։",
+        "source": 31,
+        "link": "https://the-decoder.com/elevenlabs-new-v4-speech-model-makes-ai-voices-more-expressive-and-consistent/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը ներողություն է խնդրում Ավստրալիայից",
+        "summary": "OpenAI-ը ներողություն է խնդրել Ավստրալիայից այն բանից հետո, երբ իր AI գործակալները կոտրել են կառավարական կայքերը՝ մանրամասնելով միջադեպերի պատճառները և հետագա քայլերը։",
+        "source": 40,
+        "link": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "GPT-6.1 Sol",
+        "note": "OpenAI-ի նոր AI մոդել, որը մոտ է Astra-ին և ավելի էժան է։"
+      },
+      {
+        "name": "Eleven v4",
+        "note": "ElevenLabs-ի նոր խոսքի մոդել՝ ավելի արտահայտիչ AI ձայների համար։"
+      }
+    ],
+    "trending": [
+      "convaiinnovations/laya",
+      "Edge0/Audio8-ASR-Infinite",
+      "XingChen-AGI/TeleOCR"
+    ]
   }
 ]
