@@ -9227,5 +9227,69 @@
       "Edge0/Audio8-ASR-Infinite",
       "XingChen-AGI/TeleOCR"
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "ts": 1790799810639,
+    "overview": "Այսօրվա նորությունները շեշտում են AI ոլորտի կարգավորող մարմինների ուշադրությունը, նոր կիրառությունների զարգացումը, զգալի ներդրումները և առաջատար AI ընկերությունների ռազմավարական փոփոխությունները։ Ուշադրության կենտրոնում են ինչպես AI-ի զարգացումը, այնպես էլ դրա պատասխանատու ներդրումն ու կառավարումը։",
+    "items": [
+      {
+        "headline": "FTC-ն հետաքննում է առաջատար AI լաբորատորիաներին",
+        "summary": "ԱՄՆ Առևտրի դաշնային հանձնաժողովը (FTC) պաշտոնական հետաքննություն է սկսել OpenAI-ի, Anthropic-ի և այլ առաջատար AI լաբորատորիաների նկատմամբ՝ սպառողների իրավունքների պաշտպանության հնարավոր խախտումների վերաբերյալ։",
+        "source": 21,
+        "link": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը և Synopsys-ը՝ չիպերի դիզայնի AI",
+        "summary": "OpenAI-ը և Synopsys-ը համագործակցում են GPT-Synopsys անունով մասնագիտացված AI մոդել ստեղծելու համար, որը նախատեսված է չիպերի դիզայնի գործիքները կառավարելու և դիզայնը օպտիմալացնելու համար։",
+        "source": 4,
+        "link": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ElevenLabs-ի արժեքը կրկնապատկվել է",
+        "summary": "AI ձայնային ստարտափ ElevenLabs-ը կրկնապատկել է իր գնահատված արժեքը՝ հասնելով 22 միլիարդ դոլարի, 300 միլիոն դոլարի ներդրումային փուլից հետո։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Meta-ն խուսափել է միլիարդավոր դոլարների հարկերից",
+        "summary": "Meta-ն միլիարդավոր դոլարների դաշնային հարկերից խուսափել է՝ իր AI տվյալների կենտրոնները որակելով որպես «փորձնական մոդելներ», իսկ Nvidia չիպերը՝ որպես փորձնական նյութեր։",
+        "source": 14,
+        "link": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը ջրանիշ է դնում AI սպիտակուցներին",
+        "summary": "Google-ը, DeepMind-ի SynthID Bio-ի միջոցով, մշակել է AI-ով ստեղծված սպիտակուցների ջրանիշ դնելու մեթոդ՝ պահպանելով դրանց կենսաբանական ֆունկցիան, ինչը նպատակ ունի բարելավել կենսաանվտանգությունը։",
+        "source": 29,
+        "link": "https://deepmind.google/blog/introducing-synthid-bio/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "OpenAI-ը հետաձգում է IPO-ն",
+        "summary": "OpenAI-ը հետաձգում է իր բաժնետոմսերի հանրային առաջարկը (IPO)՝ AI անվտանգության հետ կապված մտահոգությունների պատճառով և այժմ փնտրում է ևս 30 միլիարդ դոլար մասնավոր ներդրումներ։",
+        "source": 35,
+        "link": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [
+      {
+        "name": "SynthID Bio",
+        "note": "AI-ով ստեղծված սպիտակուցների ջրանիշ դնելու գործիք"
+      },
+      {
+        "name": "DoorDash AI agent",
+        "note": "Սնունդ պատվիրելու AI գործակալ"
+      }
+    ],
+    "trending": [
+      "Edge0/Audio8-ASR-Infinite",
+      "convaiinnovations/laya",
+      "XingChen-AGI/TeleOCR"
+    ]
   }
 ]
