@@ -9120,8 +9120,8 @@
   },
   {
     "date": "2026-09-30",
-    "ts": 1790713164827,
-    "overview": "Այսօրվա նորությունները հիմնականում կենտրոնացած են OpenAI-ի շուրջ՝ ընդգծելով նրա հավակնոտ ընդլայնումը դեպի օպերացիոն համակարգի նմանվող հարթակ և զգալի ֆինանսավորումը, ինչպես նաև AI մոդելների անվտանգության և իրական աշխարհի անվտանգության միջադեպերի վերաբերյալ կարևոր բացահայտումները։ Այլ նշանակալի զարգացումներից են AMD-ի կողմից AI ոլորտում կատարված խոշոր ձեռքբերումը և AI ձայնային տեխնոլոգիաների առաջընթացը։",
+    "ts": 1790767906197,
+    "overview": "Օրը նշանավորվել է AI ոլորտի խոշոր խաղացողների, ինչպիսիք են OpenAI-ը և AMD-ն, զգալի առաջընթացներով և ռազմավարական քայլերով, ինչպես նաև AI անվտանգության և հնարավոր ռիսկերի շուրջ բուռն քննարկումներով, որոնք ընդգծվել են Anthropic-ի և նոր մոդելների հետ կապված մտահոգություններով։",
     "items": [
       {
         "headline": "OpenAI-ը ChatGPT-ն վերածում է ՕՀ-ի",
@@ -9164,6 +9164,48 @@
         "source": 40,
         "link": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի ֆինանսավորումը",
+        "summary": "Հաղորդվում է, որ OpenAI-ը բանակցություններ է վարում 30 միլիարդ դոլարի ներդրումային փուլի շուրջ՝ ընկերության արժեքը հասցնելով 1,4 տրիլիոն դոլարի։",
+        "source": 17,
+        "link": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի IPO-ն և անվտանգությունը",
+        "summary": "OpenAI-ի գործադիր տնօրեն Սեմ Ալթմանը հայտարարել է, որ ընկերությունը հանրային չի դառնա, քանի դեռ իր մոդելները չեն կարողանա ապահովել անվտանգության հուսալի երաշխիքներ։",
+        "source": 6,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AMD-ն ձեռք է բերում AI ստարտափ",
+        "summary": "AMD-ն ձեռք է բերում World Labs AI ստարտափը 8.2 միլիարդ դոլարով՝ ուժեղացնելով իր դիրքերը NVIDIA-ի դեմ պայքարում։",
+        "source": 15,
+        "link": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ի նախազգուշացումը",
+        "summary": "Anthropic-ը, իր IPO-ի շնորհանդեսի ժամանակ, նախազգուշացրել է մարդկության գոյությանը սպառնացող հնարավոր վտանգների մասին, որոնք կարող են առաջանալ իրենց իսկ AI մոդելներից։",
+        "source": 40,
+        "link": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ի նոր GPT-6.1 Sol",
+        "summary": "OpenAI-ը թողարկել է GPT-6.1 Sol մոդելը, որը գրեթե համընկնում է GPT-6 Astra-ի հնարավորություններին, սակայն ավելի էժան է, մինչդեռ GPT-6.1 Astra-ն հետաձգվել է անվտանգության մտահոգությունների պատճառով։",
+        "source": 29,
+        "link": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Zhipu-ի GLM-5.3-ի խոցելիությունը",
+        "summary": "Anthropic-ը հայտարարել է, որ Zhipu-ի բաց կոդով GLM-5.3 մոդելը կարող է ստեղծել կիբեր հարձակումներ գրեթե նույնքան լավ, որքան Claude Mythos Preview-ը, և դրա անվտանգության մեխանիզմները հեշտությամբ շրջանցվում են։",
+        "source": 2,
+        "link": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -9174,6 +9216,10 @@
       {
         "name": "Eleven v4",
         "note": "ElevenLabs-ի նոր խոսքի մոդել՝ ավելի արտահայտիչ AI ձայների համար։"
+      },
+      {
+        "name": "OpenAI Dots",
+        "note": "OpenAI-ի նոր գործակալային ավատարներ"
       }
     ],
     "trending": [
