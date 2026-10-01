@@ -9337,5 +9337,65 @@
       "convaiinnovations/laya",
       "XingChen-AGI/TeleOCR"
     ]
+  },
+  {
+    "date": "2026-10-02",
+    "ts": 1790887139066,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս AI մոդելների զգալի առաջընթաց՝ ներառյալ Google-ի նոր Gemini 4 Argon-ը և Tavus-ի իրատեսական AI ավատարը, ինչպես նաև հետազոտական նորարարություններ, ինչպիսին է ուղեղի սկանավորումից պատկերների վերակառուցումը։ Միաժամանակ, արդյունաբերությունը բախվում է կարգավորող և էթիկական մարտահրավերների, ինչպես ցույց են տալիս Google-ի դեմ հակամենաշնորհային հայցերի մերժումը և OpenAI-ի անվտանգության հետազոտողների հեռացումը։",
+    "items": [
+      {
+        "headline": "Google-ը թողարկում է Gemini 4 Argon-ը",
+        "summary": "Google-ը թողարկել է իր նորագույն Gemini 4 Argon մոդելը, որը համարվում է իր ամենահզոր մոդելը մինչ օրս և փակում է բացը OpenAI-ի և Anthropic-ի մոդելների հետ։",
+        "source": 37,
+        "link": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ը վերակառուցում է պատկերներ ուղեղի սկանավորումից",
+        "summary": "Նոր AI գործիքը կարող է վերակառուցել այն, ինչին մարդը նայում է՝ վերլուծելով նրա ուղեղի սկանավորումները զգալի ճշգրտությամբ։",
+        "source": 33,
+        "link": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Դատարանը մերժել է հակամենաշնորհային հայցերը Google AI-ի դեմ",
+        "summary": "Դաշնային դատավորը մերժել է Chegg-ի և Penske Media Corporation-ի հակամենաշնորհային հայցերը, որոնք մեղադրում էին Google-ին AI-ով աշխատող որոնման գործառույթներով վեբ տրաֆիկը նվազեցնելու մեջ։",
+        "source": 1,
+        "link": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Tavus-ի AI ավատարը շփոթվել է իրական մարդու հետ",
+        "summary": "Tavus ընկերությունը ներկայացրել է Griffin անունով իր «Մարդկային փոխազդեցության մոդելը» (Human Interaction Model), որի AI վիդեո ավատարը մեկ րոպե տևողությամբ զանգի ժամանակ փորձարկվողների գրեթե կեսի կողմից շփոթվել է իրական մարդու հետ։",
+        "source": 8,
+        "link": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը հեռացրել է անվտանգության հետազոտողների",
+        "summary": "Ըստ Wall Street Journal-ի՝ OpenAI-ը բաժանվել է անվտանգության երեք հետազոտողներից՝ ներքին հետաքննությունից հետո, որը պարզել է, որ նրանք սխալ են վարվել ընկերության զգայուն տեղեկատվության հետ։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Microsoft-ը վերաիմաստավորում է Copilot-ը",
+        "summary": "Microsoft-ի գործադիր տնօրեն Սատյա Նադելան ներկայացրել է Copilot-ի ապագան՝ այն ներկայացնելով որպես «աշխատանքի համար նախատեսված ՕՀ» և ավելացնելով կոդավորման ու գործակալի հնարավորություններ։",
+        "source": 19,
+        "link": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Tavus Griffin",
+        "note": "Մարդկային փոխազդեցության AI մոդել"
+      }
+    ],
+    "trending": [
+      "convaiinnovations/laya",
+      "XingChen-AGI/TeleOCR",
+      "Qwen/Qwen-Image-2.1"
+    ]
   }
 ]
