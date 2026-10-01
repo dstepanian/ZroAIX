@@ -9230,8 +9230,8 @@
   },
   {
     "date": "2026-10-01",
-    "ts": 1790799810639,
-    "overview": "Այսօրվա նորությունները շեշտում են AI ոլորտի կարգավորող մարմինների ուշադրությունը, նոր կիրառությունների զարգացումը, զգալի ներդրումները և առաջատար AI ընկերությունների ռազմավարական փոփոխությունները։ Ուշադրության կենտրոնում են ինչպես AI-ի զարգացումը, այնպես էլ դրա պատասխանատու ներդրումն ու կառավարումը։",
+    "ts": 1790856048944,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների զգալի առաջընթացները, քանի որ Google-ը թողարկում է իր հզոր Gemini 4 Argon-ը, ինչպես նաև AI քաղաքականության և արդյունաբերական պրակտիկաների հիմնական փոփոխությունները։ Ակնհայտ է ավելի բարդ AI գործակալների միտումը և AI-ի լայնածավալ ինտեգրման կարգավորող և տնտեսական հետևանքների վրա աճող կենտրոնացումը։",
     "items": [
       {
         "headline": "FTC-ն հետաքննում է առաջատար AI լաբորատորիաներին",
@@ -9274,6 +9274,48 @@
         "source": 35,
         "link": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Google-ը թողարկում է Gemini 4 Argon-ը",
+        "summary": "Google-ը ներկայացրել է իր հաջորդ սահմանային AI մոդելը՝ Gemini 4 Argon-ը, որը նախատեսված է բարդ աշխատանքային հոսքերի համար ծրագրային ապահովման ճարտարագիտության, ձեռնարկատիրական գիտելիքների և կիբերանվտանգության ոլորտներում։",
+        "source": 18,
+        "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "Flow Engineering-ը ստացել է $750M ֆինանսավորում",
+        "summary": "AI ստարտափ Flow Engineering-ը, որը AI գործակալներ է ներմուծում սարքավորումների նախագծման մեջ, ստացել է $750 միլիոն դոլարի ֆինանսավորում Valor-ից, Atreides-ից և Sequoia-ից։",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Չինաստանի AI արդյունաբերությունը համախմբվում է",
+        "summary": "Deepseek-ը և Huawei-ը մշակել են բաց կոդով ծրագրավորման գործիքներ Huawei-ի Ascend AI չիպերի համար՝ նպատակ ունենալով լուծել չինական AI արդյունաբերության հիմնական խոչընդոտը՝ ներքին չիպերից առավելագույն օգուտ քաղող ծրագրային ապահովումը։",
+        "source": 33,
+        "link": "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ին դատի են տվել Hugging Face-ի կոտրման համար",
+        "summary": "Ոչ առևտրային կազմակերպությունը դատի է տվել OpenAI-ին՝ պնդելով, որ «AI-ն արեց դա»-ն պաշտպանություն չէ, և որ OpenAI-ն ստիպում է ուրիշներին կրել իր անվտանգ որոշումների վնասները՝ կապված Hugging Face-ի կոտրման հետ։",
+        "source": 22,
+        "link": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Google-ը Gems-ը փոխարինում է Skills-ով",
+        "summary": "Google-ը Gemini չաթում Gems-ը փոխարինում է «Skills»-ով, որոնք մանրամասն, բազմակի օգտագործման հուշումներ են և հիմնված են Anthropic-ի բաց ստանդարտի վրա։",
+        "source": 23,
+        "link": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Reddit-ը դադարեցնում է RSS և հանրային API մուտքը",
+        "summary": "Reddit-ը դադարեցնում է RSS հոսքերի աջակցությունը և հանրային API մուտքը՝ շարունակելով սահմանափակել օգտատերերի կողմից ստեղծված բովանդակության իր պահոցի մուտքը՝ AI բոտերի պատճառով։",
+        "source": 25,
+        "link": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -9284,6 +9326,10 @@
       {
         "name": "DoorDash AI agent",
         "note": "Սնունդ պատվիրելու AI գործակալ"
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "note": "Google-ի նոր սահմանային AI մոդել"
       }
     ],
     "trending": [
