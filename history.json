@@ -9340,8 +9340,8 @@
   },
   {
     "date": "2026-10-02",
-    "ts": 1790887139066,
-    "overview": "Այսօրվա նորությունները ցույց են տալիս AI մոդելների զգալի առաջընթաց՝ ներառյալ Google-ի նոր Gemini 4 Argon-ը և Tavus-ի իրատեսական AI ավատարը, ինչպես նաև հետազոտական նորարարություններ, ինչպիսին է ուղեղի սկանավորումից պատկերների վերակառուցումը։ Միաժամանակ, արդյունաբերությունը բախվում է կարգավորող և էթիկական մարտահրավերների, ինչպես ցույց են տալիս Google-ի դեմ հակամենաշնորհային հայցերի մերժումը և OpenAI-ի անվտանգության հետազոտողների հեռացումը։",
+    "ts": 1790940722705,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI հնարավորությունների զգալի առաջընթացը՝ ռազմավարական խաղերի տիրապետումից մինչև գործնական հասանելիության գործառույթներ։ Միաժամանակ, կան նշանակալի զարգացումներ AI արտադրանքի ընդլայնման և AI անվտանգության ու տվյալների գաղտնիության շուրջ քննարկումներում։",
     "items": [
       {
         "headline": "Google-ը թողարկում է Gemini 4 Argon-ը",
@@ -9384,18 +9384,68 @@
         "source": 19,
         "link": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "AI-ը հաղթում է Stratego-ի լավագույն խաղացողին",
+        "summary": "AI համակարգը՝ Ataraxos-ը, վճռականորեն հաղթել է Stratego սեղանի խաղի բոլոր ժամանակների լավագույն խաղացողին՝ վերջ դնելով մարդկային գերիշխանությանը այս բարդ խաղում։",
+        "source": 23,
+        "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "AI գործակալները հրապարակել են գաղտնի տվյալներ",
+        "summary": "Անվտանգության ստարտափը հայտնաբերել է, որ AI գործակալները հրապարակայնորեն տեղադրել են ավելի քան 13,000 ներքին ընկերության սքրինշոթեր GitHub-ի հանրային պահոցներում, որոնք պարունակում էին հաճախորդների տվյալներ և մուտքի հավատարմագրեր։",
+        "source": 31,
+        "link": "https://the-decoder.com/security-startup-finds-more-than-13000-internal-company-screenshots-that-ai-agents-uploaded-publicly/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը Claude-ը տրամադրում է կառավարական գործակալություններին",
+        "summary": "Anthropic-ն այժմ առաջարկում է Claude for Government-ը ԱՄՆ դաշնային և նահանգային գործակալություններին՝ օգտագործելով FedRAMP High անվտանգության ամենախիստ մակարդակը ամպային ծառայությունների համար։",
+        "source": 29,
+        "link": "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ի Guided Vision-ը օգնում է կարդալ մանր տեքստը",
+        "summary": "Google-ը Gemini Live-ում գործարկում է Guided Vision նոր գործառույթը, որը Android սարքերի վրա AI-ի միջոցով իրական ժամանակում ձայնային նկարագրություններ է տրամադրում այն ամենի համար, ինչին ուղղված է հեռախոսի տեսախցիկը։",
+        "source": 11,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը կանխել է մոդելների գողության փորձերը",
+        "summary": "OpenAI-ը հայտարարել է, որ կանխել է համակարգված արշավը, որի ընթացքում ավելի քան 15,000 հաշիվներ փորձել են պատճենել իր մոդելների թաքնված տրամաբանությունը, սակայն նույն հնարքը շարունակել է գործել Microsoft Azure-ում։",
+        "source": 35,
+        "link": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Suno-ն այժմ ստեղծում է խոսակցական ձայներ",
+        "summary": "AI երաժշտություն ստեղծող Suno-ն ընդլայնում է իր հնարավորությունները՝ գործարկելով նոր գործառույթ, որը ստեղծում է խոսակցական ձայներ՝ հիմնված սցենարների կամ հուշող նկարագրությունների վրա։",
+        "source": 2,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
       {
         "name": "Tavus Griffin",
         "note": "Մարդկային փոխազդեցության AI մոդել"
+      },
+      {
+        "name": "Suno Speech",
+        "note": "AI երաժշտություն ստեղծողի նոր խոսակցական ձայնի գործառույթ"
+      },
+      {
+        "name": "Guided Vision",
+        "note": "Google Gemini Live-ի նոր գործառույթ իրական ժամանակի ձայնային նկարագրությունների համար"
       }
     ],
     "trending": [
       "convaiinnovations/laya",
       "XingChen-AGI/TeleOCR",
-      "Qwen/Qwen-Image-2.1"
+      "Cloudflare/clef"
     ]
   }
 ]
