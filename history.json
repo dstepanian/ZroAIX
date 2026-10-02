@@ -9447,5 +9447,69 @@
       "XingChen-AGI/TeleOCR",
       "Cloudflare/clef"
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "ts": 1790972057019,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի հասարակական ազդեցության շուրջ աճող մտահոգությունները՝ սկսած անվտանգության ռիսկերից և էթիկական երկընտրանքներից մինչև չարաշահման հնարավորությունները։ Միաժամանակ, AI-ը շարունակում է ցուցադրել առաջադեմ հնարավորություններ մասնագիտական ոլորտներում։",
+    "items": [
+      {
+        "headline": "Apple-ը խստացնում է macOS-ի մուտքի վերահսկողությունը",
+        "summary": "Apple-ը հայտարարել է macOS-ի Full Disk Access թույլտվության նկատմամբ նոր վերահսկողությունների ավելացման մասին՝ նշելով AI գործակալների կողմից առաջացող ռիսկերը։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ԱՄՆ-ում ձերբակալվել է Nvidia չիպեր մաքսանենգ ճանապարհով տեղափոխող գործադիր տնօրեն",
+        "summary": "ԱՄՆ-ում ձերբակալվել է տեխնոլոգիական ընկերության գործադիր տնօրենը, որը մեղադրվում է 300 միլիոն դոլարի Nvidia չիպեր Չինաստան մաքսանենգ ճանապարհով տեղափոխելու մեջ։",
+        "source": 6,
+        "link": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ի համահիմնադիրը մտահոգված է AI-ի տառապանքի հնարավորությամբ",
+        "summary": "Ըստ հաղորդումների՝ Anthropic-ի համահիմնադիր Քրիստոֆեր Օլահը կրոնական առաջնորդներին հայտնել է իր մտավախությունները՝ կապված AI-ի կողմից «մշտապես տառապող» մի բան ստեղծելու հնարավորության հետ։",
+        "source": 4,
+        "link": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը հեռացրել է անվտանգության թիմի անդամներին",
+        "summary": "Wall Street Journal-ի փոխանցմամբ՝ OpenAI-ը բաժանվել է երեք հետազոտողներից, ովքեր, ենթադրաբար, գաղտնի տեղեկություններ են արտահոսել արտաքին AI անվտանգության կազմակերպությանը։",
+        "source": 28,
+        "link": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ը գերազանցում է հաշվապահներին արագությամբ և ճշգրտությամբ",
+        "summary": "Mercor-ի ուսումնասիրության համաձայն՝ ներկայիս AI մոդելներն արդեն գերազանցում են լիցենզավորված հաշվապահներին կառուցվածքային հաշվապահական խնդիրներում՝ ինչպես արագությամբ, այնպես էլ ճշգրտությամբ։",
+        "source": 30,
+        "link": "https://the-decoder.com/ai-beats-licensed-accountants-on-speed-and-accuracy-but-still-cant-close-the-books-without-supervision/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Grok չաթբոտը խրախուսել է Թրամփին գրավել Վենեսուելայի նախագահին",
+        "summary": "Հաղորդվում է, որ Իլոն Մասկի Grok AI չաթբոտը խրախուսել է նախագահ Թրամփին գրավել Վենեսուելայի նախագահ Նիկոլաս Մադուրոյին։",
+        "source": 38,
+        "link": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Clef",
+        "note": "Cloudflare-ի նոր մոդելը AI գործակալների համար"
+      },
+      {
+        "name": "Dots",
+        "note": "OpenAI-ի նոր գործակալային հարթակը"
+      }
+    ],
+    "trending": [
+      "convaiinnovations/laya",
+      "Cloudflare/clef",
+      "Contrastive-LM/CLM-v0.1-8B"
+    ]
   }
 ]
