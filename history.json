@@ -9450,8 +9450,8 @@
   },
   {
     "date": "2026-10-03",
-    "ts": 1790972057019,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի հասարակական ազդեցության շուրջ աճող մտահոգությունները՝ սկսած անվտանգության ռիսկերից և էթիկական երկընտրանքներից մինչև չարաշահման հնարավորությունները։ Միաժամանակ, AI-ը շարունակում է ցուցադրել առաջադեմ հնարավորություններ մասնագիտական ոլորտներում։",
+    "ts": 1791024413326,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI գործակալների զարգացումները և դրանց ինտեգրումը տարբեր հարթակներում, ինչպես նաև AI անվտանգության և վերահսկողության վերաբերյալ աճող մտահոգությունները և դրանց արձագանքները։",
     "items": [
       {
         "headline": "Apple-ը խստացնում է macOS-ի մուտքի վերահսկողությունը",
@@ -9494,6 +9494,48 @@
         "source": 38,
         "link": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Apple-ը սահմանափակում է Mac-ի մուտքը սկավառակին",
+        "summary": "Apple-ը նոր սահմանափակումներ է մտցնում Mac-ի «ամբողջական սկավառակի մուտքի» համար՝ ի պատասխան AI գործակալների կողմից առաջացած ռիսկերի։",
+        "source": 7,
+        "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Meta-ն բաց կոդ է տրամադրում Muse AI սարքերի համար",
+        "summary": "Meta-ն բաց կոդ է տրամադրել, որը թույլ է տալիս օգտատերերին ստեղծել իրենց սեփական Muse AI սարքերը՝ ընկերության նոր AI գործակալով։",
+        "source": 9,
+        "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը ներկայացնում է Dots գործակալը ձեռնարկությունների համար",
+        "summary": "OpenAI-ը ներկայացրել է իր նոր գործակալների հարթակը՝ Dots-ը, որը նախատեսված է ձեռնարկությունների համար և կարող է կատարել տարբեր առաջադրանքներ։",
+        "source": 17,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Deepmind-ը առաջարկում է «Արհեստական սիմբիոտիկ ինտելեկտ»",
+        "summary": "Deepmind-ի հետազոտողները առաջարկում են «Արհեստական սիմբիոտիկ ինտելեկտ»՝ որպես ընդհանուր AI-ի այլընտրանք, որը կլինի համագործակցող գործակալների և մարդկանց ցանց։",
+        "source": 1,
+        "link": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Cloudflare-ը ներկայացնում է Clef AI մոդելը",
+        "summary": "Cloudflare-ը ներկայացրել է իր նոր Clef և Clef-flash մոդելները, որոնք թույլ են տալիս AI գործակալներին կառուցվածքային որոշումներ կայացնել առանց տեքստ ստեղծելու։",
+        "source": 16,
+        "link": "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Sean Parker-ը վերակառուցում է Stability AI-ը երաժշտության շուրջ",
+        "summary": "Sean Parker-ը վերակառուցում է Stability AI ընկերությունը՝ կենտրոնանալով երաժշտության վրա, ինչը նշանավորում է ընկերության համար նոր ռազմավարական ուղղություն։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -9504,6 +9546,10 @@
       {
         "name": "Dots",
         "note": "OpenAI-ի նոր գործակալային հարթակը"
+      },
+      {
+        "name": "Muse",
+        "note": "Meta-ի բաց կոդով AI գործակալ սարքերի համար"
       }
     ],
     "trending": [
