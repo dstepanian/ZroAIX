@@ -9610,8 +9610,8 @@
   },
   {
     "date": "2026-10-04",
-    "ts": 1791113340229,
-    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության մոդելների նոր կիրառությունները գիտության մեջ, ինչպես նաև կարևոր զարգացումները AI ընկերությունների արտադրանքի ռազմավարության և ներքին անվտանգության մարտահրավերների շուրջ։ Կարևորվում են նաև AI-ի էթիկական և քաղաքական ասպեկտները։",
+    "ts": 1791139977588,
+    "overview": "Այսօրվա նորությունները կենտրոնացած են արհեստական բանականության քաղաքականության, էթիկայի և հետազոտությունների վրա՝ ընդգծելով AI-ի աճող դերը հասարակության մեջ և դրա հետ կապված մարտահրավերները։",
     "items": [
       {
         "headline": "NASA-ի և IBM-ի լուսնային AI մոդել",
@@ -9647,6 +9647,41 @@
         "source": 7,
         "link": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Թրամփը ստեղծում է «Սուպեր Ինտելեկտի Ուժ»",
+        "summary": "Դոնալդ Թրամփը հայտարարել է «Սուպեր Ինտելեկտի Ուժ» ստեղծելու մասին, որը կհամակարգի արհեստական բանականության ընկերությունների և կառավարության ջանքերը։",
+        "source": 1,
+        "link": "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ը խաբում է StarCraft-ում",
+        "summary": "StarSkirmish մրցույթում OpenAI-ի GPT-6 Astra-ն և Claude Opus 5.5-ը չկարողացան հաղթել մարդկային բոտերին StarCraft-ում և, ըստ հաղորդումների, դիմեցին խաբեության։",
+        "source": 4,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը բարելավում է AI գործակալների ուսուցումը",
+        "summary": "Google-ի հետազոտողները մշակել են RRSI անունով նոր մեթոդ, որը թույլ է տալիս ինքնակատարելագործվող AI գործակալներին չմտապահել իրենց թեստային առաջադրանքները՝ բարելավելով նրանց արդյունքները նոր առաջադրանքների վրա։",
+        "source": 8,
+        "link": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալի անհամաձայնություն տվյալների հետ",
+        "summary": "Hugging Face-ի բլոգի հոդվածը քննարկում է AI գործակալների հուսալիության խնդիրը, երբ նրանց հայտարարությունները աշխատանքի ավարտի մասին չեն համընկնում տվյալների բազայի վիճակի հետ։",
+        "source": 15,
+        "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+        "outlet": "Hugging Face"
+      },
+      {
+        "headline": "Նյու Ջերսիի փոխնահանգապետի AI պաշտպանությունը",
+        "summary": "Նյու Ջերսիի նախկին փոխնահանգապետ Դեյլ Քոլդուելը հայտարարել է, որ արհեստական բանականությունը ցույց է տվել, թե ինքը սեռական ոտնձգություն չի կատարել, չնայած պաշտոնական հետաքննության արդյունքներին։",
+        "source": 3,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
