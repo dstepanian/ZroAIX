@@ -9607,5 +9607,58 @@
       "Cloudflare/clef",
       "Lightricks/LTX-2.5"
     ]
+  },
+  {
+    "date": "2026-10-04",
+    "ts": 1791113340229,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության մոդելների նոր կիրառությունները գիտության մեջ, ինչպես նաև կարևոր զարգացումները AI ընկերությունների արտադրանքի ռազմավարության և ներքին անվտանգության մարտահրավերների շուրջ։ Կարևորվում են նաև AI-ի էթիկական և քաղաքական ասպեկտները։",
+    "items": [
+      {
+        "headline": "NASA-ի և IBM-ի լուսնային AI մոդել",
+        "summary": "NASA-ն և IBM-ը թողարկել են Lunar Foundation Model-ը՝ բաց կոդով AI մոդել լուսնային գիտության համար, որը մարզվել է 17 տարվա տվյալների հիման վրա և նվազեցնում է բևեռային սառույցի կանխատեսման սխալը մինչև 22 տոկոսով։",
+        "source": 1,
+        "link": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինական AI մոդելների քաղաքական կողմնորոշում",
+        "summary": "Aleph Alpha-ի ուսումնասիրությունը ցույց է տվել, որ չինական AI մոդելները հաճախ հետևում են պետական գծին քաղաքականապես զգայուն հարցերում կամ հրաժարվում են պատասխանել դրանց։",
+        "source": 2,
+        "link": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google Gemini-ի նոր սակագնային պլաններ",
+        "summary": "Google-ը 2026 թվականի հոկտեմբերից կսահմանափակի Gemini մոդելների անվճար հասանելիությունը՝ Flash-Lite-ը թողնելով անվճար օգտատերերի համար, իսկ Flash-ը և Pro-ն՝ բաժանորդների։",
+        "source": 3,
+        "link": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի անվտանգության աշխատակցի հրաժարականը",
+        "summary": "OpenAI-ի անվտանգության աշխատակից Դեյվիդ Ռոբինսոնը հրաժարական է տվել՝ պնդելով, որ ընկերության «մշակույթը խաթարված է» և մտահոգություններ է բարձրացրել AI-ի անվտանգության շուրջ։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Սեմ Ալթմանը զգուշացնում է AI-ի մասին",
+        "summary": "OpenAI-ի գործադիր տնօրեն Սեմ Ալթմանը զգուշացնում է AI մոդելներին կրոնական ուժ վերագրելուց՝ այն անվանելով «իրական անվտանգության խնդիր»։",
+        "source": 7,
+        "link": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Lunar Foundation Model",
+        "note": "NASA-ի և IBM-ի բաց կոդով AI մոդել լուսնային գիտության համար"
+      }
+    ],
+    "trending": [
+      "Cloudflare/clef",
+      "convaiinnovations/laya",
+      "Lightricks/LTX-2.5"
+    ]
   }
 ]
