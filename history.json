@@ -9695,5 +9695,46 @@
       "convaiinnovations/laya",
       "Lightricks/LTX-2.5"
     ]
+  },
+  {
+    "date": "2026-10-05",
+    "ts": 1791204995495,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի ընդլայնվող ինտեգրումը առօրյա հարթակներում և դրա բազմակողմանի ազդեցությունը՝ մոնետիզացիայի ռազմավարություններից մինչև կրթական մարտահրավերներ և գործառնական խնդիրներ։ AI-ի անվտանգության շուրջ քաղաքական քննարկումները նույնպես շարունակում են թափ հավաքել։",
+    "items": [
+      {
+        "headline": "OpenAI-ը գովազդ է ներդնում ChatGPT-ում",
+        "summary": "OpenAI-ը ներկայացրել է նոր տեսողական գովազդային ձևաչափ ChatGPT-ում՝ ընդլայնելով գովազդատուների համար չափման գործիքներն ու համագործակցությունները։",
+        "source": 8,
+        "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "AI-ը քայքայում է կրթական փորձը",
+        "summary": "MIT-ի փորձագիտական հանձնաժողովը զգուշացնում է, որ AI-ն քայքայում է քոլեջի փորձի առանցքային մասերը, ինչպիսիք են ուսանողների և դասախոսների միջև վստահությունը։",
+        "source": 5,
+        "link": "https://the-decoder.com/ai-is-eroding-office-hours-study-groups-and-the-trust-between-faculty-and-students-mit-report-finds/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը սառեցրել է բագերի որսի ծրագիրը",
+        "summary": "Google-ը սառեցրել է իր բաց կոդով բագերի որսի ծրագիրը՝ AI-ի կողմից ստեղծված հայտերի զգալի աճի պատճառով։",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Թրամփը ներկայացրել է AI անվտանգության խումբ",
+        "summary": "Դոնալդ Թրամփը ներկայացրել է նոր «Գերբանականության ուժ» աշխատանքային խումբ՝ ի պատասխան AI-ի անվտանգության շուրջ բանավեճերի։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "Cloudflare/clef",
+      "convaiinnovations/laya",
+      "Aleph-Alpha/Kolibri-1"
+    ]
   }
 ]
