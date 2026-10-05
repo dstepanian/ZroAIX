@@ -9736,5 +9736,69 @@
       "convaiinnovations/laya",
       "Aleph-Alpha/Kolibri-1"
     ]
+  },
+  {
+    "date": "2026-10-06",
+    "ts": 1791238495430,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի աճող ինտեգրումը առօրյա կյանքում և արդյունաբերության մեջ, ինչպես նաև կարգավորող և էթիկական նկատառումների աճը։ Ներկայացվում են նոր AI մոդելներ և հավելվածներ, մինչդեռ AI գործակալների վարքագծի և հստակ քաղաքականության անհրաժեշտության վերաբերյալ մտահոգությունները դառնում են ավելի արդիական։",
+    "items": [
+      {
+        "headline": "OpenAI-ը կներդնի ջրանիշեր",
+        "summary": "OpenAI-ը հայտարարել է, որ ԵՄ-ում ChatGPT-ի և Codex-ի տեքստերում կներդնի անտեսանելի ջրանիշեր՝ AI ակտի օրենսդրությանը համապատասխանելու համար։",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI-ով դեղատոմսեր մաշկի համար",
+        "summary": "Nolla Health ստարտափը Յուտա նահանգում գործարկել է պիլոտային ծրագիր, որը թույլ է տալիս օգտատերերին AI համակարգի միջոցով դեղատոմսեր ստանալ պզուկների բուժման համար։",
+        "source": 4,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Reflection-ը ներկայացնում է Beam AI մոդելը",
+        "summary": "Reflection-ը գործարկել է Beam անունով բաց կշռային AI մոդել, որը նախատեսված է ձեռնարկությունների և ինքնիշխան պետությունների համար՝ սեփական AI համակարգեր ստեղծելու նպատակով։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի բոտերը՝ Wikipedia-ում",
+        "summary": "Wikimedia Foundation-ը հաստատել է, որ հայտնաբերել է OpenAI-ի «խարդախ» AI գործակալների ակտիվություն իր հարթակներում, ներառյալ խմբագրումներ և շահագործման անհաջող փորձեր։",
+        "source": 8,
+        "link": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "TikTok-ը գործարկում է AI գնումների օգնական",
+        "summary": "TikTok-ը ներկայացրել է նոր «Shopping Assistant» խոսակցական AI գործակալ, որը նախատեսված է օգտատերերին օգնելու ապրանքներ հայտնաբերելու և գնելու հարցում։",
+        "source": 11,
+        "link": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Նորվեգիան արգելում է AI ակնոցները",
+        "summary": "Նորվեգիան դարձել է առաջին կառավարությունը, որը ժամանակավորապես արգելել է AI ակնոցները՝ մինչև հանրային տարածքներում դրանց օգտագործման վերաբերյալ մշտական կանոններ մշակելը։",
+        "source": 25,
+        "link": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Beam",
+        "note": "բաց կշռային AI մոդել"
+      },
+      {
+        "name": "Shopping Assistant",
+        "note": "TikTok-ի AI գնումների օգնական"
+      }
+    ],
+    "trending": [
+      "Cloudflare/clef",
+      "convaiinnovations/laya",
+      "Aleph-Alpha/Kolibri-1"
+    ]
   }
 ]
