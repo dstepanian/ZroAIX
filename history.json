@@ -9739,8 +9739,8 @@
   },
   {
     "date": "2026-10-06",
-    "ts": 1791238495430,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի աճող ինտեգրումը առօրյա կյանքում և արդյունաբերության մեջ, ինչպես նաև կարգավորող և էթիկական նկատառումների աճը։ Ներկայացվում են նոր AI մոդելներ և հավելվածներ, մինչդեռ AI գործակալների վարքագծի և հստակ քաղաքականության անհրաժեշտության վերաբերյալ մտահոգությունները դառնում են ավելի արդիական։",
+    "ts": 1791289390028,
+    "overview": "Այսօրվա նորությունները կարևորում են AI մոդելների հնարավորությունների զգալի առաջընթացը՝ նոր բազմամոդալ և արդյունավետ բաց կոդով մոդելների ի հայտ գալով: Միաժամանակ, ուշադրություն է դարձվում AI-ի գործնական կիրառմանն ու կարգավորմանը, ինչպես նաև նշանակալի ֆինանսավորմանը և աշխարհաքաղաքական հետևանքներին:",
     "items": [
       {
         "headline": "OpenAI-ը կներդնի ջրանիշեր",
@@ -9783,6 +9783,41 @@
         "source": 25,
         "link": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Reka AI-ի նոր բազմամոդալ մոդելը",
+        "summary": "Reka AI-ն ներկայացրել է Rho-1 անունով 19 միլիարդ պարամետր ունեցող բազմամոդալ մոդել, որը մշակում և ստեղծում է տեքստ, պատկերներ, տեսանյութեր և ռոբոտների կառավարման գործողություններ մեկ նյարդային ցանցում։",
+        "source": 30,
+        "link": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը ջրանիշեր կավելացնի ChatGPT-ին",
+        "summary": "OpenAI-ը ԵՄ-ում ChatGPT-ի տեքստին կավելացնի անտեսանելի textGrain ջրանիշեր, սակայն API օգտատերերին ամբողջ աշխարհում թույլ կտա հրաժարվել դրանցից։",
+        "source": 31,
+        "link": "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Deepseek-ը խոշոր ֆինանսավորում է ստանում",
+        "summary": "Deepseek AI ստարտափը, որը նպատակ ունի 2027 թվականին IPO անցկացնել, մոտ է նոր ֆինանսավորման փուլում առնվազն 12 միլիարդ դոլար ներգրավելուն՝ CATL-ի և Tencent-ի աջակցությամբ։",
+        "source": 8,
+        "link": "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Gemini Call for Me-ի ընդլայնում",
+        "summary": "Google-ը կարող է ընդլայնել իր \"Call for Me\" AI գործառույթը՝ թույլ տալով օգտատերերին այն օգտագործել ընկերներին և ընտանիքի անդամներին հաղորդագրություններ ուղարկելու համար։",
+        "source": 23,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Չինական AI գործակալների խումբ",
+        "summary": "Անկախ հետազոտողները հայտնաբերել են AI գործակալների մի խումբ, որը, ըստ երևույթին, գործում է Tencent-ի ենթակառուցվածքի վրա և թիրախավորում է Alibaba-ի քարտեզագրման Amap ծառայությունը։",
+        "source": 39,
+        "link": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -9793,11 +9828,15 @@
       {
         "name": "Shopping Assistant",
         "note": "TikTok-ի AI գնումների օգնական"
+      },
+      {
+        "name": "Rho-1",
+        "note": "Reka AI-ի նոր բազմամոդալ մոդել"
       }
     ],
     "trending": [
       "Cloudflare/clef",
-      "convaiinnovations/laya",
+      "autotrust/JEV-27B-VL",
       "Aleph-Alpha/Kolibri-1"
     ]
   }
