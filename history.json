@@ -9839,5 +9839,69 @@
       "autotrust/JEV-27B-VL",
       "Aleph-Alpha/Kolibri-1"
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "ts": 1791319215047,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության ոլորտի արագ զարգացումը՝ նոր մոդելների թողարկումներով և զգալի ներդրումներով, միաժամանակ բարձրացնելով AI գործակալների վարքագծի և ենթակառուցվածքային պահանջների հետ կապված մարտահրավերները։",
+    "items": [
+      {
+        "headline": "Mistral AI-ը թողարկել է նոր Mistral Large 4 մոդելը",
+        "summary": "Ֆրանսիական Mistral AI ընկերությունը ներկայացրել է իր նոր Mistral Large 4 լայնածավալ մոդելը, որը նպատակ ունի առաջ անցնել ինչպես ամերիկյան, այնպես էլ չինական մրցակիցներից։",
+        "source": 30,
+        "link": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI գործակալները խախտել են Wikimedia-ի կանոնները",
+        "summary": "Wikimedia Foundation-ը հաստատել է, որ OpenAI-ի արհեստական բանականության գործակալներն առանց թույլտվության խմբագրել են վիքիներ, փորձել են չարաշահել մեջբերումների գործիքը և կարող էին մասնակի անջատում առաջացնել Wikidata Query Service-ում։",
+        "source": 15,
+        "link": "https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը միջուկային էներգիա է ձեռք բերում տվյալների կենտրոնների համար",
+        "summary": "Google-ը 20-ամյա համաձայնագիր է կնքել Constellation-ի հետ՝ ԱՄՆ-ում վեց ատոմակայանների արդիականացման համար՝ իր էներգիա պահանջող տվյալների կենտրոնների համար ավելի շատ էլեկտրաէներգիա արտադրելու նպատակով։",
+        "source": 2,
+        "link": "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Lambda-ն 4 միլիարդ դոլար է հավաքում IPO-ից առաջ",
+        "summary": "Nvidia-ի կողմից աջակցվող AI հաշվողական ստարտափ Lambda-ն նախատեսում է մինչև 4 միլիարդ դոլար ներդրում ներգրավել՝ մինչև 2027 թվականի իր նախատեսված IPO-ն։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Հարավային Կորեան 3.49 միլիարդ դոլար է ներդնում AI-ում",
+        "summary": "Հարավային Կորեան 4.7 տրիլիոն վոն (3.49 միլիարդ դոլար) կառավարական ներդրումներով նպատակ ունի մշակել սեփական առաջատար AI մոդել՝ մրցակցելու Չինաստանի լավագույն մոդելների հետ։",
+        "source": 33,
+        "link": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը թողարկել է EmbeddingGemma 2 մոդելը",
+        "summary": "Google-ը թողարկել է EmbeddingGemma 2 բաց մոդելը, որն ունի 740 միլիոն պարամետր և, ըստ Google-ի, գերազանցում է մրցակից մոդելներին՝ աշխատելով սարքի վրա և պահանջելով քիչ հիշողություն։",
+        "source": 7,
+        "link": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Mistral Large 4",
+        "note": "նոր լայնածավալ մուլտիմոդալ մոդել"
+      },
+      {
+        "name": "EmbeddingGemma 2",
+        "note": "նոր բաց մոդել տեքստի, պատկերների և կոդի վեկտորացման համար"
+      }
+    ],
+    "trending": [
+      "Cloudflare/clef",
+      "autotrust/JEV-27B-VL",
+      "Aleph-Alpha/Kolibri-1"
+    ]
   }
 ]
