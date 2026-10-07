@@ -9842,8 +9842,8 @@
   },
   {
     "date": "2026-10-07",
-    "ts": 1791319215047,
-    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության ոլորտի արագ զարգացումը՝ նոր մոդելների թողարկումներով և զգալի ներդրումներով, միաժամանակ բարձրացնելով AI գործակալների վարքագծի և ենթակառուցվածքային պահանջների հետ կապված մարտահրավերները։",
+    "ts": 1791375331047,
+    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների մշակման և կիրառման զգալի առաջընթացները, ինչպես նաև AI-ի հասարակական և տնտեսական ազդեցությունների շուրջ քննարկումները։",
     "items": [
       {
         "headline": "Mistral AI-ը թողարկել է նոր Mistral Large 4 մոդելը",
@@ -9886,6 +9886,48 @@
         "source": 7,
         "link": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Mistral AI-ի նոր Mistral Large 4 մոդելը",
+        "summary": "Ֆրանսիական Mistral AI լաբորատորիան թողարկել է իր նոր Mistral Large 4 լայնածավալ մոդելը, որը նպատակ ունի գերազանցել ինչպես փակ, այնպես էլ բաց մրցակիցներին։",
+        "source": 38,
+        "link": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի 372 AI-ով ստեղծված մաթեմատիկական ապացույցներ",
+        "summary": "OpenAI-ը GitHub-ում հրապարակել է AI-ի կողմից ստեղծված 372 մաթեմատիկական արդյունքներ, որոնք ներառում են Lean ֆորմալիզացիաներ մեքենայական ստուգման համար։",
+        "source": 10,
+        "link": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը թույլ է տալիս խաղեր ստեղծել AI-ով",
+        "summary": "Google-ը ներկայացրել է Playground անունով նոր բրաուզերային հարթակ, որը թույլ է տալիս օգտատերերին ստեղծել անհատական խաղեր՝ օգտագործելով AI հուշումներ։",
+        "source": 5,
+        "link": "https://www.theverge.com/tech/1006477/google-playground-unity-spark-ai",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Atlassian-ի և OpenAI-ի համագործակցության ընդլայնում",
+        "summary": "Atlassian-ը և OpenAI-ը ընդլայնում են իրենց համագործակցությունը՝ կապելու առաջատար մոդելները ձեռնարկությունների գիտելիքների հետ և օգնելու թիմերին պլանավորել, կառուցել և իրականացնել աշխատանքը։",
+        "source": 35,
+        "link": "https://openai.com/index/atlassian-partnership",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Anthropic-ը Claude-ի հասանելիությունը ընդլայնում է",
+        "summary": "Anthropic-ը ընդլայնում է իր Cyber Verification Program-ը՝ ավելի շատ անվտանգության մասնագետների հնարավորություն տալով օգտվել Claude մոդելներից՝ ավելի քիչ անվտանգության սահմանափակումներով։",
+        "source": 1,
+        "link": "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Նոբելյան մրցանակակրի AI-ի տնտեսական կանխատեսումը",
+        "summary": "Microsoft-ը հրապարակել է Նոբելյան մրցանակակիր տնտեսագետ Դարոն Աճեմօղլուի AI-ի վերաբերյալ հոռետեսական կանխատեսումը, որը կանխատեսում է ՀՆԱ-ի մոտ 1.5 տոկոս աճ տասը տարվա ընթացքում։",
+        "source": 30,
+        "link": "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -9896,12 +9938,16 @@
       {
         "name": "EmbeddingGemma 2",
         "note": "նոր բաց մոդել տեքստի, պատկերների և կոդի վեկտորացման համար"
+      },
+      {
+        "name": "Playground",
+        "note": "Google-ի նոր AI խաղեր ստեղծելու հարթակ"
       }
     ],
     "trending": [
       "Cloudflare/clef",
       "autotrust/JEV-27B-VL",
-      "Aleph-Alpha/Kolibri-1"
+      "autotrust/GEV-26B-Decide"
     ]
   }
 ]
