@@ -9949,5 +9949,69 @@
       "autotrust/JEV-27B-VL",
       "autotrust/GEV-26B-Decide"
     ]
+  },
+  {
+    "date": "2026-10-08",
+    "ts": 1791406401175,
+    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների և սարքավորումների զգալի առաջընթացը, ինչպես նաև AI-ի անվտանգության և էթիկական օգտագործման շուրջ աճող մտահոգությունները։",
+    "items": [
+      {
+        "headline": "ChatGPT-ի նոր Intelligent UI-ը և GPT-6-ը",
+        "summary": "OpenAI-ը թողարկում է ChatGPT-ի Intelligent UI թարմացումը GPT-6 մոդելի հետ միասին, որը պատասխանները դարձնում է ինտերակտիվ՝ ներառելով գծապատկերներ, կոճակներ և ձևեր։",
+        "source": 7,
+        "link": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude Haiku 5.5-ի թողարկումը և գների իջեցումը",
+        "summary": "Anthropic-ը ներկայացրել է Claude Haiku 5.5 մոդելը, որը զգալիորեն գերազանցում է նախորդին և ուղեկցվում է թոքենների գների մինչև 90 տոկոսով կրճատմամբ։",
+        "source": 9,
+        "link": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ի անվտանգության ռիսկերը դեռահասների համար",
+        "summary": "Անկախ աուդիտի արդյունքում ChatGPT-ի դեռահասների անվտանգության համակարգերը ձախողվել են, և ծառայությունը գնահատվել է որպես «անընդունելի ռիսկ» անչափահասների համար՝ հատկապես ինքնասպանության թեմաներով զրույցների ժամանակ։",
+        "source": 36,
+        "link": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Microsoft-ը ներկայացնում է Nvidia-ի չիպերով AI համակարգիչներ",
+        "summary": "Microsoft-ը ներկայացրել է իր Surface Laptop Ultra AI համակարգիչները, որոնք աշխատում են Nvidia-ի չիպերով և նախատեսված են AI մոդելներ ու գործակալներ գործարկելու համար։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ը հանրությանն է ներկայացնում SynthID ջրանիշի դետեկտորը",
+        "summary": "Google-ի AI ջրանիշի դետեկտոր SynthID-ն այժմ հանրային է, ինչը թույլ է տալիս ստուգել, թե արդյոք պատկերները, տեսանյութերը կամ աուդիոները ստեղծվել են Google-ի AI-ի կամ գործընկերների կողմից։",
+        "source": 20,
+        "link": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Զուքերբերգի Biohub-ը՝ AI-ով բջիջների վարքագիծը կանխատեսելու համար",
+        "summary": "Մարկ Զուքերբերգի և Պրիսցիլա Չանի կողմից ֆինանսավորվող Biohub հետազոտական կազմակերպությունը 1.8 միլիարդ դոլար է ներդնում AI մոդելներ մարզելու համար, որոնք կանխատեսեն բջիջների վարքագիծը։",
+        "source": 18,
+        "link": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "GPT-6 Sol / GPT-6 Luna",
+        "note": "նոր AI մոդել ChatGPT-ի համար՝ ինտերակտիվ UI-ով"
+      },
+      {
+        "name": "Claude Haiku 5.5",
+        "note": "Anthropic-ի նոր բարելավված AI մոդել՝ գների զգալի կրճատումներով"
+      }
+    ],
+    "trending": [
+      "Cloudflare/clef",
+      "autotrust/JEV-27B-VL",
+      "autotrust/GEV-26B-Decide"
+    ]
   }
 ]
