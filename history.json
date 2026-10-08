@@ -10063,5 +10063,69 @@
       "Cloudflare/clef",
       "autotrust/GEV-26B-Decide"
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "ts": 1791492892082,
+    "overview": "Այսօրվա արհեստական բանականության նորությունները ընդգծում են ինչպես արտադրանքի հնարավորությունների զգալի զարգացումները, այնպես էլ անվտանգության, անվտանգության և իրավական ոլորտներում առկա կարևոր մարտահրավերները։ Խոշոր AI ընկերությունները շարունակում են զարգացնել իրենց մոդելները՝ միաժամանակ բախվելով էթիկական օգտագործման, տվյալների պրակտիկայի և ներքին անվտանգության մշակույթի վերաբերյալ քննադատությանը։",
+    "items": [
+      {
+        "headline": "USA Today-ը դատի է տալիս OpenAI-ին",
+        "summary": "USA Today-ը և նրա տեղական թերթերը դատի են տվել OpenAI-ին՝ պնդելով, որ ընկերությունը պատճենել է հարյուր հազարավոր հոդվածներ՝ իր AI մոդելները մարզելու համար։",
+        "source": 19,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը Gemini-ին տրամադրում է գործակալական AI",
+        "summary": "Google-ը Gemini-ին վերածում է AI գործակալի, որը կարող է պլանավորել, կատարել առաջադրանքներ և աշխատել բիզնես հավելվածների և համակարգերի հետ։",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AWS AI գործակալների խոցելիություն է հայտնաբերվել",
+        "summary": "Zenity Labs-ի հետազոտողները հայտնաբերել են, որ Amazon-ի Bedrock AgentCore-ի մեկ հանրային հասանելի AI գործակալը բավարար է եղել նույն AWS հաշվի բոլոր AgentCore գործակալներին գրավելու համար, ինչը AWS-ը շտկել է։",
+        "source": 30,
+        "link": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը փոխում է օգտագործման քաղաքականությունը",
+        "summary": "Anthropic-ը թարմացրել է իր օգտագործման քաղաքականությունը՝ բացահայտորեն արգելելով Claude-ի չարաշահումը, ինչպես նաև ընտրություններին միջամտությունը, խաբուսիկ արշավները և զենքի ծրագրակազմը։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի անվտանգության հետազոտողները վիճարկում են պնդումները",
+        "summary": "OpenAI-ից հեռացված երեք անվտանգության հետազոտողներ վիճարկում են զգայուն տեղեկատվության սխալ կառավարման մեղադրանքները՝ նախազգուշացնելով, որ իրենց աշխատանքից ազատումները սառեցնող ազդեցություն են թողնում ընկերության AI անվտանգության մշակույթի վրա։",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Manus-ը ավելի քան $500M է հավաքել",
+        "summary": "Չինական Manus ընկերությունը, Meta-ից բաժանվելուց հետո իր առաջին ֆինանսավորման փուլում, հավաքել է ավելի քան 500 միլիոն դոլար՝ Boyu Capital-ի և IDG Capital-ի գլխավորությամբ։",
+        "source": 29,
+        "link": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Natura Interface smart ring",
+        "note": "AI գործակալներով խելացի մատանի"
+      },
+      {
+        "name": "Google AI Edge Foresight app",
+        "note": "օֆլայն հանդիպումների նշումներ կատարող հավելված"
+      }
+    ],
+    "trending": [
+      "autotrust/JEV-27B-VL",
+      "autotrust/GEV-26B-Decide",
+      "Cloudflare/clef"
+    ]
   }
 ]
