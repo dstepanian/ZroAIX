@@ -9952,8 +9952,8 @@
   },
   {
     "date": "2026-10-08",
-    "ts": 1791406401175,
-    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների և սարքավորումների զգալի առաջընթացը, ինչպես նաև AI-ի անվտանգության և էթիկական օգտագործման շուրջ աճող մտահոգությունները։",
+    "ts": 1791462335649,
+    "overview": "Այսօրվա տեխնոլոգիական նորությունների հիմնական թեմաներն են արհեստական ​​ինտելեկտի (AI) նոր մոդելների և գործիքների թողարկումը, ինչպես նաև դրանց կիրառումը տարբեր ոլորտներում, ներառյալ արդյունաբերությունը և խաղերի մշակումը։ Նշվում է նաև AI-ի հետ կապված անվտանգության և էթիկայի հարցերը։",
     "items": [
       {
         "headline": "ChatGPT-ի նոր Intelligent UI-ը և GPT-6-ը",
@@ -9996,6 +9996,48 @@
         "source": 18,
         "link": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ն թողարկում է ChatGPT-ի նոր՝ ավելի տեսողական տարբերակը",
+        "summary": "OpenAI-ն թողարկել է ChatGPT-ի նոր՝ «Intelligent UI» թարմացումը, որը թույլ է տալիս չաթ-բոտին պատասխանները ներկայացնել ոչ միայն տեքստով, այլև ինտերակտիվ պատկերներով, գծապատկերներով և կոճակներով։",
+        "source": 20,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը Gemini-ի միջոցով հասանելի է դարձնում խաղերի ստեղծումը",
+        "summary": "Google-ը ներկայացրել է Playground հարթակը, որը Gemini AI-ի հիման վրա թույլ է տալիս օգտատերերին առանց ծրագրավորման հմտությունների ստեղծել խաղեր՝ օգտագործելով տեքստային հրահանգներ։",
+        "source": 32,
+        "link": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Mistral-ի նոր «Le Chonk» մոդելը մրցակցում է լավագույն AI-ների հետ",
+        "summary": "Mistral AI-ն հայտարարել է իր նոր «Le Chonk» մոդելի մասին, որը, ըստ ընկերության, կարող է մրցակցել լավագույն փակ (closed-weight) AI մոդելների հետ՝ մնալով բաց (open-weight)։",
+        "source": 37,
+        "link": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Microsoft-ը ներկայացնում է նոր AI-համատեղելի սարքավորումներ և Windows-ի փոփոխություններ",
+        "summary": "Microsoft-ը ներկայացրել է իր նոր սարքավորումները, որոնք օպտիմալացված են արհեստական ​​ինտելեկտի համար, ինչպես նաև Windows օպերացիոն համակարգում կատարված փոփոխություններ, որոնք կբարելավեն AI-ի ինտեգրումը։",
+        "source": 10,
+        "link": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Նոր AI գործիքներ՝ երեխաների սեռական բռնության նյութեր պարունակող գովազդները հայտնաբերելու համար",
+        "summary": "Meta-ն ներդրել է նոր AI գործիքներ, որոնք կօգնեն հայտնաբերել գովազդները, որոնք, թեև կարող են նորմալ թվալ, իրականում օգտատերերին տանել դեպի վնասակար բովանդակություն։",
+        "source": 28,
+        "link": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI-ով հնարավոր է դարձել բանկային համակարգերի մեծածավալ հաքերային հարձակումները",
+        "summary": "Ըստ CrowdStrike-ի, AI-ով աշխատող հաքերային գործիքները, ինչպիսին է ARTEX-ը, հնարավորություն են տվել մեկ անձի հաջողությամբ ներխուժել մի քանի Հարավային Կորեայի բանկեր և գողանալ հազարավոր հաճախորդների տվյալներ։",
+        "source": 7,
+        "link": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -10006,11 +10048,19 @@
       {
         "name": "Claude Haiku 5.5",
         "note": "Anthropic-ի նոր բարելավված AI մոդել՝ գների զգալի կրճատումներով"
+      },
+      {
+        "name": "ChatGPT",
+        "note": "«Intelligent UI» թարմացում՝ ինտերակտիվ պատկերներով"
+      },
+      {
+        "name": "Le Chonk",
+        "note": "Mistral AI-ի նոր բաց մոդել"
       }
     ],
     "trending": [
-      "Cloudflare/clef",
       "autotrust/JEV-27B-VL",
+      "Cloudflare/clef",
       "autotrust/GEV-26B-Decide"
     ]
   }
