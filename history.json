@@ -10066,8 +10066,8 @@
   },
   {
     "date": "2026-10-09",
-    "ts": 1791492892082,
-    "overview": "Այսօրվա արհեստական բանականության նորությունները ընդգծում են ինչպես արտադրանքի հնարավորությունների զգալի զարգացումները, այնպես էլ անվտանգության, անվտանգության և իրավական ոլորտներում առկա կարևոր մարտահրավերները։ Խոշոր AI ընկերությունները շարունակում են զարգացնել իրենց մոդելները՝ միաժամանակ բախվելով էթիկական օգտագործման, տվյալների պրակտիկայի և ներքին անվտանգության մշակույթի վերաբերյալ քննադատությանը։",
+    "ts": 1791548082947,
+    "overview": "Այսօրվա նորությունները ընդգծում են արհեստական բանականության ոլորտի ինչպես ընդլայնվող հնարավորությունները, այնպես էլ աճող մարտահրավերները: Մինչ նոր AI հավելվածները ցուցադրում են զգալի գիտական և արտադրողականության առաջընթաց, շարունակում են ի հայտ գալ մտահոգություններ անվտանգության, էթիկական օգտագործման և հիմնական խաղացողների ֆինանսական կայունության վերաբերյալ:",
     "items": [
       {
         "headline": "USA Today-ը դատի է տալիս OpenAI-ին",
@@ -10110,6 +10110,48 @@
         "source": 29,
         "link": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի անվտանգության ճգնաժամը",
+        "summary": "OpenAI-ը հեռացրել է երեք անվտանգության հետազոտողների, ովքեր մասնակցել են Hugging Face-ի հաքերային հարձակման հետաքննությանը, ինչը մտահոգություններ է առաջացրել ընկերության անվտանգության մշակույթի վերաբերյալ։",
+        "source": 1,
+        "link": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude Science-ը ստեղծել է երկնքի ուլտրամանուշակագույն քարտեզ",
+        "summary": "Աստղաֆիզիկոս Բրայս Մենարը Anthropic-ի Claude Science-ի օգնությամբ առաջին անգամ ամբողջությամբ քարտեզագրել է երկինքը ուլտրամանուշակագույն լույսով՝ օգտագործելով AI գործակալներին տվյալների մշակման համար։",
+        "source": 3,
+        "link": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը բացահայտել է ռուսական և իրանական ազդեցության գործողություններ",
+        "summary": "OpenAI-ը բացահայտել է ռուսական և իրանական ազդեցության գործողություններ, որոնք կեղծ լուրեր էին տարածում իրական լրատվամիջոցներում, և արգելափակել է դրանց հետ կապված հաշիվները։",
+        "source": 7,
+        "link": "https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի եկամուտները ավելի ցածր են",
+        "summary": "Հաղորդվում է, որ OpenAI-ի տարեկան եկամուտը զգալիորեն ցածր է նախկինում կանխատեսված 70 միլիարդ դոլարից, ինչը ցույց է տալիս ֆինանսական կանխատեսումների շտկում։",
+        "source": 27,
+        "link": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Մաթեմատիկոսները կոչ են անում բոյկոտել OpenAI-ը",
+        "summary": "Մաթեմատիկոսները կոչ են անում բոյկոտել OpenAI-ը այն բանից հետո, երբ ընկերությունը հրապարակել է ավելի քան 700 AI-ի կողմից ստեղծված մաթեմատիկական ձեռագրեր, որոնցից մի քանիսը հետագայում հետ են կանչվել սխալների պատճառով։",
+        "source": 28,
+        "link": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի ազդեցությունը Ethereum-ի անվտանգության վրա",
+        "summary": "Ethereum-ի հետազոտողները քննարկում են, թե որքան արագ AI-ի մաթեմատիկական բեկումները կարող են խաթարել դրամապանակների անվտանգության սխեմաները՝ կոչ անելով արդյունաբերությանը պատրաստվել «բունկերային ռեժիմի»։",
+        "source": 36,
+        "link": "https://the-decoder.com/ai-math-breakthroughs-have-ethereum-researchers-debating-how-fast-wallet-security-could-collapse/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -10120,12 +10162,20 @@
       {
         "name": "Google AI Edge Foresight app",
         "note": "օֆլայն հանդիպումների նշումներ կատարող հավելված"
+      },
+      {
+        "name": "Claude Dashboards",
+        "note": "Տվյալների աղբյուրներից իրական ժամանակի վահանակներ ստեղծելու հնարավորություն։"
+      },
+      {
+        "name": "Claude Motion",
+        "note": "Տեքստային հուշումներից անիմացիոն բացատրական տեսանյութեր ստեղծելու հնարավորություն։"
       }
     ],
     "trending": [
       "autotrust/JEV-27B-VL",
       "autotrust/GEV-26B-Decide",
-      "Cloudflare/clef"
+      "google/embeddinggemma-2"
     ]
   }
 ]
