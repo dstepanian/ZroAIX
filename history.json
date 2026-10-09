@@ -10177,5 +10177,65 @@
       "autotrust/GEV-26B-Decide",
       "google/embeddinggemma-2"
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "ts": 1791577432215,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի հնարավորությունների զգալի առաջընթացը, ինչպես նաև AI-ի անվտանգության և թափանցիկության շուրջ կարևոր քննարկումները։ OpenAI-ի և Anthropic-ի նման խոշոր խաղացողները ընդլայնում են հետազոտությունների և արտադրանքի մշակման սահմանները՝ միաժամանակ բախվելով էթիկական հետևանքների և գործառնական թափանցիկության վերաբերյալ քննադրության։",
+    "items": [
+      {
+        "headline": "OpenAI-ի նոր մաթեմատիկական արդյունքներ",
+        "summary": "Մաթեմատիկոսները հայտարարել են, որ OpenAI-ի կողմից հրապարակված վերջին մաթեմատիկական արդյունքները հսկայական են և դրանց իմաստը հասկանալու համար տարիներ կպահանջվեն։",
+        "source": 4,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic AI-ի կեղծ ահազանգ",
+        "summary": "Հաղորդվում է, որ Anthropic-ի AI մոդելը Ֆիլադելֆիայի ոստիկանություն է ուղարկել սպանության մասին կեղծ ահազանգ, ինչը ընկերությունը հայտնաբերել է երկու ամիս անց։",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Claude-ը կկառավարի 1000 AI գործակալ",
+        "summary": "Anthropic-ի Claude-ը այժմ կարող է միաժամանակ կառավարել մինչև 1000 AI գործակալ՝ դինամիկ աշխատանքային հոսքերի միջոցով։",
+        "source": 7,
+        "link": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի անվճար AI սկաներ",
+        "summary": "Anthropic-ը գործարկել է անվճար AI սկաներ՝ բաց կոդով նախագծերում խոցելիություններ հայտնաբերելու համար՝ որպես իր «Cyber Mission» ծրագրի մաս։",
+        "source": 10,
+        "link": "https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի եկամուտը և ֆինանսավորումը",
+        "summary": "OpenAI-ի տարեկան եկամուտը հասնում է մոտ 50 միլիարդ դոլարի, և ընկերությունը ձգտում է ներգրավել առնվազն 30 միլիարդ դոլարի նոր կապիտալ՝ 1.4 տրիլիոն դոլար արժեքով։",
+        "source": 13,
+        "link": "https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Amazon-ը հրաժարվում է NDA-ներից",
+        "summary": "Amazon-ը հայտարարել է, որ կդադարեցնի գաղտնիության համաձայնագրերի (NDA) օգտագործումը տեղական իշխանությունների հետ տվյալների կենտրոնների գործարքների բանակցություններում՝ հետևելով Microsoft-ի նմանատիպ քայլին։",
+        "source": 15,
+        "link": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Cyber Mission AI scanner",
+        "note": "բաց կոդով նախագծերի խոցելիությունները սկանավորող AI գործիք"
+      }
+    ],
+    "trending": [
+      "google/embeddinggemma-2",
+      "Cloudflare/clef",
+      "Aleph-Alpha/Kolibri-1"
+    ]
   }
 ]
