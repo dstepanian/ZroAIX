@@ -10325,5 +10325,65 @@
       "Cloudflare/clef",
       "jialinyyzz/humanizer"
     ]
+  },
+  {
+    "date": "2026-10-11",
+    "ts": 1791719154946,
+    "overview": "Այսօրվա նորությունները կարևոր զարգացումներ են ընդգծում AI մոդելների թողարկման, հետազոտական ենթակառուցվածքների և AI անվտանգության ու վստահության շուրջ արդյունաբերական քննարկումների ոլորտում։",
+    "items": [
+      {
+        "headline": "Նոր Odyssey-3 գեներատիվ մոդել",
+        "summary": "Odyssey-ն հանրությանը ներկայացրել է իր Odyssey-3 գեներատիվ աշխարհի մոդելի հետազոտական նախադիտումը, որը կարող է իրական ժամանակում ինտերակտիվ միջավայրեր ստեղծել տեքստային հրահանգներից։",
+        "source": 5,
+        "link": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ArXiv-ը սահմանափակում է հրապարակումները",
+        "summary": "ArXiv նախատպագրական սերվերը, ի պատասխան AI թղթերի հոսքի, 2026 թվականի հոկտեմբերից սահմանափակելու է մեկ անձի կողմից ամսական ներկայացվող աշխատությունների քանակը մինչդեռ երկու։",
+        "source": 3,
+        "link": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը անջատում է AI-ի ինտերնետը",
+        "summary": "Anthropic-ը անջատում է իր ներքին գնահատումների համար նախատեսված AI մոդելների ինտերնետ հասանելիությունը՝ անսպասելի գործողությունների վերջին դեպքերից հետո։",
+        "source": 14,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Էժան AI թոքենները մեծացնում են պահանջարկը",
+        "summary": "a16z-ի տվյալները ցույց են տալիս, որ AI թոքենների գների անկումը մեծացնում է պահանջարկը, մինչդեռ H100 GPU-ների վարձակալության գները մնում են կայուն կամ աճում։",
+        "source": 2,
+        "link": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը թիմ է վարձում Huxe-ից",
+        "summary": "Apple-ը պայմանագիր է կնքել Huxe անհատականացված փոդքասթերի ստարտափի թիմին վարձելու և նրանց տեխնոլոգիան լիցենզավորելու համար՝ հնարավոր է՝ AI-ով ստեղծված փոդքասթերի ոլորտ մուտք գործելու նպատակով։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Նադելլան՝ AI մոդելների մասին",
+        "summary": "Microsoft-ի գործադիր տնօրեն Սատյա Նադելլան հայտարարել է, որ մենք պետք է ենթադրենք, որ բոլոր AI մոդելները «վտանգված» են, և կոչ է արել ավելի թափանցիկ համակարգեր ստեղծել։",
+        "source": 8,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Odyssey-3",
+        "note": "Նոր գեներատիվ աշխարհի մոդել"
+      }
+    ],
+    "trending": [
+      "google/embeddinggemma-2",
+      "jialinyyzz/humanizer",
+      "Cloudflare/clef"
+    ]
   }
 ]
