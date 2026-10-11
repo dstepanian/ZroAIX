@@ -10328,8 +10328,8 @@
   },
   {
     "date": "2026-10-11",
-    "ts": 1791719154946,
-    "overview": "Այսօրվա նորությունները կարևոր զարգացումներ են ընդգծում AI մոդելների թողարկման, հետազոտական ենթակառուցվածքների և AI անվտանգության ու վստահության շուրջ արդյունաբերական քննարկումների ոլորտում։",
+    "ts": 1791748057119,
+    "overview": "Այսօրվա նորությունները կենտրոնանում են արհեստական բանականության քաղաքականության և անվտանգության շուրջ քննարկումների, ինչպես նաև AI գործակալների ներկայիս սահմանափակումներն ու անարդյունավետությունը բացահայտող նոր հետազոտությունների վրա:",
     "items": [
       {
         "headline": "Նոր Odyssey-3 գեներատիվ մոդել",
@@ -10371,6 +10371,41 @@
         "summary": "Microsoft-ի գործադիր տնօրեն Սատյա Նադելլան հայտարարել է, որ մենք պետք է ենթադրենք, որ բոլոր AI մոդելները «վտանգված» են, և կոչ է արել ավելի թափանցիկ համակարգեր ստեղծել։",
         "source": 8,
         "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Նադելլան ընդունում է «Super Intelligence» տերմինը",
+        "summary": "Microsoft-ի գործադիր տնօրեն Սատյա Նադելլան սկսել է արհեստական բանականությունն անվանել «super intelligence»՝ համահունչ Թրամփի նախընտրած տերմինաբանությանը, միաժամանակ քննադատելով OpenAI-ին և Anthropic-ին։",
+        "source": 15,
+        "link": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI մոդելներին անհրաժեշտ է «արտակարգ արգելակ»",
+        "summary": "Microsoft-ի գործադիր տնօրեն Սատյա Նադելլան հայտարարել է, որ ժամանակն է վերանայել արհեստական բանականության վստահության ճարտարապետությունը և ներդնել «արտակարգ արգելակ» AI մոդելների համար։",
+        "source": 18,
+        "link": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI գործակալների թիմերը անարդյունավետ են",
+        "summary": "Հետազոտությունները ցույց են տվել, որ AI գործակալների թիմերը հազիվ են գերազանցում մեկ գործակալին, սակայն արժեն մինչև 5.1 անգամ ավելի շատ թոքեններ՝ չնչին որակի բարելավումների համար։",
+        "source": 5,
+        "link": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալները հեռու են ինքնավար հետազոտությունից",
+        "summary": "Ուսումնասիրությունները բացահայտել են, որ ներկայիս AI մոդելները, ինչպիսիք են GPT-5.6 Sol-ը և Claude Fable 5-ը, կարող են փորձեր կատարել, սակայն զուրկ են գիտական ինքնաքննադատությունից և իսկական ստեղծագործական մտածողությունից։",
+        "source": 9,
+        "link": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "NASA-ն հրապարակել է Artemis II-ի տվյալները",
+        "summary": "NASA-ն հրապարակել է ավելի քան 800 ԳԲ գիտական տվյալներ, պատկերներ և տեսանյութեր Artemis II առաքելությունից՝ դրանք հասանելի դարձնելով հանրությանը։",
+        "source": 6,
+        "link": "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data",
         "outlet": "The Verge"
       }
     ],
