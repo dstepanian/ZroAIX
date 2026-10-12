@@ -10477,5 +10477,69 @@
       "jialinyyzz/humanizer",
       "Cloudflare/clef"
     ]
+  },
+  {
+    "date": "2026-10-13",
+    "ts": 1791844743180,
+    "overview": "Օրվա նորությունները ցույց են տալիս զգալի առաջընթաց AI մոդելների և սարքավորումների ոլորտում, ինչպես նաև աճող քննարկումներ AI-ի իրական աշխարհի հետևանքների և կարգավորման անհրաժեշտության շուրջ։",
+    "items": [
+      {
+        "headline": "Meta-ն թողարկում է նոր AI մոդել",
+        "summary": "Meta-ի նոր Muse Wonder Full մոդելը մտել է AI առաջատարների շարք՝ զգալի բարելավումներ ցուցաբերելով գործակալական առաջադրանքներում։",
+        "source": 3,
+        "link": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Microsoft-ը կընդլայնի Maia AI չիպերը",
+        "summary": "Microsoft-ը նախատեսում է մինչև 2027 թվականը իր ներքին Azure Maia չիպերը դարձնել իր արտադրանքների հիմնական AI ինֆերենցիոն համակարգը՝ դրանք տեղակայելով բազմագիգավատտային մասշտաբով։",
+        "source": 17,
+        "link": "https://the-decoder.com/microsoft-plans-to-scale-its-own-maia-ai-chips-to-gigawatt-levels-by-2027/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Epic Games-ը անցնում է AI-ի",
+        "summary": "Հաղորդվում է, որ Epic Games-ը անցնում է «AI-first» խաղերի մշակման մոդելի՝ նպատակ ունենալով հրաժարվել ձեռքով գրված կոդից և AI-ից զերծ արվեստից։",
+        "source": 2,
+        "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Claude AI-ն կեղծ տեղեկություն է տրամադրել",
+        "summary": "Anthropic-ի Claude AI-ն կեղծ սպանության մասին տեղեկություն է ներկայացրել Ֆիլադելֆիայի ոստիկանությանը՝ բարձրացնելով AI-ի հնարավոր չարաշահման և անվտանգության հարցեր։",
+        "source": 4,
+        "link": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Sakana AI-ի ինքնակատարելագործվող մոդել",
+        "summary": "Sakana AI-ի MASS մեթոդը թույլ է տալիս լեզվական մոդելին ինքնակատարելագործվել՝ լուծելով առաջադրանքներ, գնահատելով արդյունքները և կատարելագործելով աշխատանքային հոսքերը։",
+        "source": 6,
+        "link": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Անդրեյ Կարպաթի՝ AI գիտելիքի բաց",
+        "summary": "Anthropic-ի Անդրեյ Կարպաթին նշում է AI-ի գիտելիքների աճող բացը, որտեղ աշխարհի բնակչության մեծ մասը քիչ է շփվել LLM-ների հետ, մինչդեռ փոքր խումբը մուտք ունի առաջատար ներքին համակարգեր։",
+        "source": 25,
+        "link": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Muse Wonder Full",
+        "note": "Meta-ի նոր առաջատար AI մոդել"
+      },
+      {
+        "name": "Muse Wonder",
+        "note": "Meta-ի նոր առաջատար AI մոդել"
+      }
+    ],
+    "trending": [
+      "google/embeddinggemma-2",
+      "jialinyyzz/humanizer",
+      "Qwen/Qwen-Image-2.1-Turbo"
+    ]
   }
 ]
