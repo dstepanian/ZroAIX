@@ -10420,5 +10420,62 @@
       "jialinyyzz/humanizer",
       "Cloudflare/clef"
     ]
+  },
+  {
+    "date": "2026-10-12",
+    "ts": 1791812907507,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI հետազոտությունների և սարքավորումների զգալի առաջընթացները, ինչպես նաև AI քաղաքականության և արդյունաբերության ֆինանսավորման կարևոր զարգացումները։ Ուշադրություն է դարձվում նաև աշխատուժի վրա ավտոմատացման աճող մասշտաբային ազդեցությանը։",
+    "items": [
+      {
+        "headline": "Սպիտակ տունը վերականգնում է Մեծ Բրիտանիայի AI անվտանգության ինստիտուտի մուտքը",
+        "summary": "Սպիտակ տունը չեղարկել է իր նախկին որոշումը՝ վերականգնելով Մեծ Բրիտանիայի AI անվտանգության ինստիտուտի վաղ մուտքը Anthropic-ի, Google DeepMind-ի և OpenAI-ի առաջատար AI մոդելներին։",
+        "source": 1,
+        "link": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Microsoft-ը ներկայացնում է նոր AI չիպ",
+        "summary": "Microsoft-ը ներկայացրել է իր երրորդ սերնդի Maia 300 ներքին AI չիպը, որը նախատեսված է դառնալու ընկերության AI աշխատանքային ծանրաբեռնվածության հիմնական համակարգը և նվազեցնելու կախվածությունը NVIDIA-ի GPU-ներից։",
+        "source": 5,
+        "link": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google Deepmind-ի AlphaProof Nexus-ը լուծել է մաթեմատիկական խնդիրներ",
+        "summary": "Google Deepmind-ի AlphaProof Nexus-ը լուծել է տասնյակ բաց մաթեմատիկական խնդիրներ, ներառյալ ինը Erdős խնդիր, որոնցից երկուսը անլուծելի էին 56 տարի, և դրանց արդյունքները ենթարկվել են փորձագիտական գնահատման։",
+        "source": 13,
+        "link": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Նախկին Plaud-ի ղեկավարը 26 միլիոն դոլար է հավաքել AI հավելվածի համար",
+        "summary": "Plaud-ի նախկին ղեկավարը 26 միլիոն դոլար է հավաքել Ambi անունով AI հավելվածի համար, որը նախատեսված է iPhone-ի, Mac-ի և Apple Watch-ի համար՝ թույլ տալով ֆոնային ձայնագրում։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Amazon-ն ունի ավելի քան 1 միլիոն ռոբոտ աշխատող",
+        "summary": "Amazon-ը, որը երկրորդ խոշորագույն կորպորատիվ գործատուն է, մեծ ներդրումներ է կատարել ռոբոտ աշխատողների մեջ՝ իր գործունեությունը ընդլայնելու համար, և այժմ ունի ավելի քան 1 միլիոն ռոբոտ։",
+        "source": 8,
+        "link": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Maia 300",
+        "note": "Microsoft-ի նոր AI չիպ"
+      },
+      {
+        "name": "AlphaProof Nexus",
+        "note": "Google Deepmind-ի մաթեմատիկական խնդիրներ լուծող AI համակարգ"
+      }
+    ],
+    "trending": [
+      "google/embeddinggemma-2",
+      "jialinyyzz/humanizer",
+      "Cloudflare/clef"
+    ]
   }
 ]
