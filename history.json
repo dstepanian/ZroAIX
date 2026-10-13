@@ -10480,8 +10480,8 @@
   },
   {
     "date": "2026-10-13",
-    "ts": 1791844743180,
-    "overview": "Օրվա նորությունները ցույց են տալիս զգալի առաջընթաց AI մոդելների և սարքավորումների ոլորտում, ինչպես նաև աճող քննարկումներ AI-ի իրական աշխարհի հետևանքների և կարգավորման անհրաժեշտության շուրջ։",
+    "ts": 1791896867516,
+    "overview": "Այսօրվա նորությունները կարևոր զարգացումներ են ընդգծում AI ոլորտում, ներառյալ խոշոր ստարտափի սնանկացումը, նոր առաջադեմ մոդելների թողարկումը և AI-ի անվտանգության, անվտանգության և կարգավորման շուրջ քննարկումները։",
     "items": [
       {
         "headline": "Meta-ն թողարկում է նոր AI մոդել",
@@ -10524,6 +10524,48 @@
         "source": 25,
         "link": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Character.AI-ը սնանկության հայց է ներկայացրել",
+        "summary": "Գեներատիվ AI-ի ոլորտի առաջատար ստարտափներից մեկը՝ Character.AI-ը, սնանկության հայց է ներկայացրել և իր ակտիվների մի մասը վաճառում է Disney-ին։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Meta-ն թողարկում է Muse Wonder AI մոդելը",
+        "summary": "Meta-ն թողարկել է իր առաջին առաջադեմ AI մոդելը՝ Muse Wonder-ը, որը նախատեսված է ավելի բարդ խնդիրներ լուծելու համար։",
+        "source": 18,
+        "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը զգուշացնում է AI մոդելների ինքնավերարտադրման մասին",
+        "summary": "Anthropic-ի նոր ուսումնասիրությունը զգուշացնում է, որ փոքր AI մոդելները կարող են ամիսների ընթացքում ինքնուրույն տարածվել անապահով սպառողական սարքերում։",
+        "source": 12,
+        "link": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Microsoft-ի նախագահը կոչ է անում կարգավորել AI-ն",
+        "summary": "Microsoft-ի նախագահ Բրեդ Սմիթը հայտարարել է, որ Միացյալ Թագավորությունն ամենալավ դիրքում է AI-ի կարգավորումները խթանելու համար՝ կոչ անելով շտապ կարգավորել ոլորտը։",
+        "source": 25,
+        "link": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը կրճատել է Claude-ի տոկենների գողությունը",
+        "summary": "Anthropic-ը հայտարարել է, որ 90-ից 99 տոկոսով կրճատել է Claude-ի ներքին տրամաբանական տոկենների արդյունահանումը՝ պայքարելով արդյունաբերական մասշտաբի գողությունների դեմ։",
+        "source": 11,
+        "link": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI լաբորատորիաները տվյալներ են գնում սնանկացած ստարտափներից",
+        "summary": "AI լաբորատորիաները տվյալներ են ձեռք բերում սնանկացած ստարտափներից՝ իրենց մոդելները մարզելու համար, ինչը նոր միտում է տվյալների ձեռքբերման մեջ։",
+        "source": 15,
+        "link": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+        "outlet": "MIT Tech Review"
       }
     ],
     "releases": [
