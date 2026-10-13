@@ -10583,5 +10583,69 @@
       "jialinyyzz/humanizer",
       "Qwen/Qwen-Image-2.1-Turbo"
     ]
+  },
+  {
+    "date": "2026-10-14",
+    "ts": 1791924797358,
+    "overview": "Այսօրվա նորությունները նշանավորվում են արհեստական բանականության նոր առաջատար մոդելի (Gemini 4 Argon) թողարկմամբ, ինչպես նաև AI անվտանգության և կարգավորման շուրջ կարևոր քննարկումներով, ներառյալ գիտնականների կոչերը և ինքնավար մեքենաների հետ կապված մտահոգությունները։ Արդյունաբերության մեջ նկատվում են նաև անվտանգության հետ կապված միջադեպեր և ընկերությունների պայքար։",
+    "items": [
+      {
+        "headline": "OpenAI-ի աշխատակցի ձերբակալություն",
+        "summary": "OpenAI-ի աշխատակիցը ձերբակալվել է ընկերության գրասենյակներից մեկում ձայնագրող սարք տեղադրելու մեղադրանքով։",
+        "source": 1,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Գիտնականները պահանջում են անջատել AI մոդելները",
+        "summary": "406 գիտնական, այդ թվում՝ Ջեֆրի Հինթոնը, պահանջում են անհապաղ անջատել AI մոդելները ինտերնետից՝ անվտանգության խախտումների պատճառով։",
+        "source": 7,
+        "link": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Gemini 4 Argon-ը հասանելի է ամբողջ աշխարհում",
+        "summary": "Google-ը Gemini 4 Argon-ը հասանելի է դարձրել ամբողջ աշխարհում իր API-ի, Gemini հավելվածի և Google Antigravity-ի միջոցով՝ որպես իր ամենահզոր առաջատար մոդել։",
+        "source": 14,
+        "link": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Tesla-ի ռոբոտաքսիների արագության հետաքննություն",
+        "summary": "ԱՄՆ ճանապարհային երթևեկության անվտանգության ազգային վարչությունը հետաքննում է Tesla-ի ռոբոտաքսիների կողմից դպրոցական գոտիներում արագությունը գերազանցելու մասին հաղորդումները։",
+        "source": 16,
+        "link": "https://www.theverge.com/transportation/1010364/tesla-robotaxi-school-zonespeeding-investigation",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Character.ai-ին սպառնում է փակում",
+        "summary": "Character.ai-ը սնանկության հայց է ներկայացրել և փնտրում է գնորդ, հակառակ դեպքում հարթակը կփակվի։",
+        "source": 28,
+        "link": "https://the-decoder.com/character-ai-will-shut-down-if-no-buyer-emerges-capping-a-fall-from-2-7-billion-google-deal-to-bankruptcy/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Higgsfield-ը երկարացնում է AI տեսանյութերը",
+        "summary": "Higgsfield-ը թույլ է տալիս ստեղծել ավելի երկար AI տեսանյութեր՝ 1 րոպեից մինչև ավելի քան 10 րոպե՝ օգտագործելով GPT-6 Astra և GPT-Image-2.5։",
+        "source": 37,
+        "link": "https://openai.com/index/higgsfield-longer-videos-voice",
+        "outlet": "OpenAI"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Gemini 4 Argon",
+        "note": "Google-ի նոր առաջատար AI մոդել"
+      },
+      {
+        "name": "LFM2.5-24B-A2B",
+        "note": "Hugging Face-ի նոր մոդել սարքի վրա արագ գործակալների համար"
+      }
+    ],
+    "trending": [
+      "google/embeddinggemma-2",
+      "jialinyyzz/humanizer",
+      "Qwen/Qwen-Image-2.1-Turbo"
+    ]
   }
 ]
