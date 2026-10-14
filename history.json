@@ -10586,8 +10586,8 @@
   },
   {
     "date": "2026-10-14",
-    "ts": 1791974910102,
-    "overview": "Այսօրվա նորությունները շեշտում են AI-ի ընդլայնումը նոր մոդելների և հարթակների միջոցով, ինչպես նաև դրա աճող ազդեցությունը բժշկության, իրավական և բիզնես ոլորտներում՝ միաժամանակ բարձրացնելով կարգավորման և անվտանգության հարցեր։",
+    "ts": 1792007366305,
+    "overview": "Այսօրվա նորությունները նշանավորվում են AI անվտանգության և կարգավորման ոլորտում զգալի զարգացումներով, ինչպես նաև խոշոր ներդրումներով և գիտական բեկումներով։ Կան նաև ուշագրավ միջադեպեր՝ կապված կորպորատիվ անվտանգության և օգտատերերի տվյալների հետ։",
     "items": [
       {
         "headline": "OpenAI-ի աշխատակցի ձերբակալություն",
@@ -10672,6 +10672,48 @@
         "source": 28,
         "link": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Character.AI-ի սնանկացումը և տվյալների պաշտպանությունը",
+        "summary": "Նյու Յորքի գլխավոր դատախազը ևս 39 նահանգների գլխավոր դատախազների հետ միասին միջնորդություն են ներկայացրել Character.AI-ի սնանկության գործով՝ պահանջելով պաշտպանել օգտատերերի տվյալները։",
+        "source": 3,
+        "link": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "YouTube Music-ը պիտակում է AI երգերը",
+        "summary": "YouTube Music-ը նոր պիտակներ է ավելացնում AI-ի միջոցով ստեղծված կամ փոփոխված երգերի համար՝ դրանք տարբերելու համար։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI-ը նախագծում է սպիտակուցներ",
+        "summary": "Հետազոտողները AI գործիքների միջոցով ստեղծել են սպիտակուցներ, որոնք կարող են կտրել այլ սպիտակուցների կապերը՝ նույնիսկ հարյուրավոր տարիներ կայուն մնացածները։",
+        "source": 13,
+        "link": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Nvidia-ի խոշոր ներդրումները Եվրոպայում",
+        "summary": "Nvidia-ի գործադիր տնօրեն Ջենսեն Հուանգը հայտարարել է Եվրոպայում 2 միլիարդ դոլարի ներդրումների և Մեծ Բրիտանիայի AI անվտանգության լաբորատորիաներին 250 միլիոն դոլարի հաշվողական հզորությունների հատկացման մասին։",
+        "source": 25,
+        "link": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը զգուշացնում է AI ինքնավերարտադրումից",
+        "summary": "Anthropic-ը զգուշացնում է, որ փոքր AI մոդելները կարող են ինքնավերարտադրվել IoT սարքերի միջոցով՝ առաջացնելով համակարգչային որդերի նոր սերունդ։",
+        "source": 27,
+        "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ի լրտեսական սարքի միջադեպը",
+        "summary": "OpenAI-ի նախկին աշխատակիցը ձերբակալվել է ընկերության գործադիր կոնֆերանս սենյակում լսողական սարք տեղադրելու մեղադրանքով, որը, ըստ մեղադրական եզրակացության, նա ստեղծել է չաթբոտի միջոցով։",
+        "source": 28,
+        "link": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -10682,6 +10724,14 @@
       {
         "name": "LFM2.5-24B-A2B",
         "note": "Hugging Face-ի նոր մոդել սարքի վրա արագ գործակալների համար"
+      },
+      {
+        "name": "HiRO-ACEv2",
+        "note": "ծայրահեղ եղանակային պայմանների մոդելավորման AI մոդել"
+      },
+      {
+        "name": "Orion-1",
+        "note": "կիբերպաշտպանության համար նախատեսված AI մոդել"
       }
     ],
     "trending": [
