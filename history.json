@@ -10586,8 +10586,8 @@
   },
   {
     "date": "2026-10-14",
-    "ts": 1791924797358,
-    "overview": "Այսօրվա նորությունները նշանավորվում են արհեստական բանականության նոր առաջատար մոդելի (Gemini 4 Argon) թողարկմամբ, ինչպես նաև AI անվտանգության և կարգավորման շուրջ կարևոր քննարկումներով, ներառյալ գիտնականների կոչերը և ինքնավար մեքենաների հետ կապված մտահոգությունները։ Արդյունաբերության մեջ նկատվում են նաև անվտանգության հետ կապված միջադեպեր և ընկերությունների պայքար։",
+    "ts": 1791974910102,
+    "overview": "Այսօրվա նորությունները շեշտում են AI-ի ընդլայնումը նոր մոդելների և հարթակների միջոցով, ինչպես նաև դրա աճող ազդեցությունը բժշկության, իրավական և բիզնես ոլորտներում՝ միաժամանակ բարձրացնելով կարգավորման և անվտանգության հարցեր։",
     "items": [
       {
         "headline": "OpenAI-ի աշխատակցի ձերբակալություն",
@@ -10630,6 +10630,48 @@
         "source": 37,
         "link": "https://openai.com/index/higgsfield-longer-videos-voice",
         "outlet": "OpenAI"
+      },
+      {
+        "headline": "Տեսողությունը վերականգնող չիպի իմպլանտացիա",
+        "summary": "Science Corporation-ը հաջողությամբ իմպլանտացրել է տեսողությունը վերականգնող իր չիպը Stargardt հիվանդությամբ տառապող առաջին պացիենտին։",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի հավաքագրման գրառումները դատարանում",
+        "summary": "Դաշնային դատավորը հրամայել է OpenAI-ին տրամադրել իր աշխատակիցների հավաքագրման գրառումները Apple-ի հետ առևտրային գաղտնիքների գործով։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Disney-ը հետաքրքրված է Character.AI-ով",
+        "summary": "Disney-ը, ըստ հաղորդումների, 20 միլիոն դոլար է առաջարկում Character.AI-ի չաթբոտի տեխնոլոգիայի համար, որը նախկինում կապված է եղել վիճահարույց դեպքերի հետ։",
+        "source": 18,
+        "link": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "LFM2.5-24B-A2B մոդելի թողարկում",
+        "summary": "Hugging Face-ը ներկայացրել է LFM2.5-24B-A2B մոդելը, որը թույլ է տալիս արագ և անձնական գործակալներ գործարկել սարքերի վրա։",
+        "source": 24,
+        "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+        "outlet": "Hugging Face"
+      },
+      {
+        "headline": "Անձնական AI հավելվածներ Google Play-ում",
+        "summary": "Google Play-ն այժմ թույլ է տալիս ցանկացածին ստեղծել և օգտագործել անձնական, AI-ով ստեղծված հավելվածներ Android սարքերի վրա։",
+        "source": 26,
+        "link": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Gemini 4 Argon-ի ներդրումը սկսվել է",
+        "summary": "Gemini 4 Argon մոդելը սկսում է ներդրվել Gemini հավելվածում և Antigravity-ում, հասանելի լինելով բաժանորդագրված օգտատերերին։",
+        "source": 28,
+        "link": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+        "outlet": "Ars Technica"
       }
     ],
     "releases": [
