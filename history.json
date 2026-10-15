@@ -10742,8 +10742,8 @@
   },
   {
     "date": "2026-10-15",
-    "ts": 1792060267419,
-    "overview": "Այսօրվա նորությունները լուսաբանում են արհեստական բանականության ոլորտի զարգացումները, ներառյալ ընկերությունների ֆինանսական ցուցանիշները, կարգավորող մարմինների մարտահրավերները և AI մոդելների անվտանգության շուրջ քննարկումները։",
+    "ts": 1792092787086,
+    "overview": "Այսօրվա նորությունները գերակշռում են AI մոդելների մի քանի նշանակալի թողարկումներով այնպիսի խոշոր խաղացողներից, ինչպիսիք են Meta-ն, Google-ը և Nvidia-ն, ինչպես նաև նոր կիրառություններով ռոբոտաշինության և ինքնավար վարման ոլորտներում։ Բացի այդ, կարգավորող մարմիններն ուժեղացնում են վերահսկողությունը առաջատար AI ընկերությունների նկատմամբ։",
     "items": [
       {
         "headline": "Anthropic-ի եկամուտը և IPO-ն",
@@ -10786,9 +10786,56 @@
         "source": 36,
         "link": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Meta-ն թողարկել է Muse Spark Open մոդելը",
+        "summary": "Meta-ն ներկայացրել է Muse Spark Open բաց կշռային, բազմամոդալ AI մոդելը՝ 816 միլիարդ պարամետրերով, որը մշակում է տեքստ, պատկերներ, տեսանյութ և ձայն։",
+        "source": 3,
+        "link": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Volvo-ն կօգտագործի Nvidia-ի AI տեխնոլոգիան",
+        "summary": "Volvo-ն մինչև 2030 թվականը նախատեսում է գործարկել առանց ձեռքերի, կետից կետ վարելու համակարգ՝ հիմնված Nvidia-ի նորագույն AI տեխնոլոգիայի վրա։",
+        "source": 7,
+        "link": "https://www.theverge.com/transportation/1011653/volvo-nvidia-autonomous-driving-level-2-hands-free-urban",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "FLUX 3 Image Klein՝ նոր բաց պատկերային մոդել",
+        "summary": "Black Forest Labs-ը թողարկել է FLUX 3 Image Klein 5.6 միլիարդ պարամետրերով բաց կշռային պատկերային մոդելը, որն աշխատում է սպառողական GPU-ների վրա՝ ընդամենը 8 ԳԲ VRAM-ով։",
+        "source": 11,
+        "link": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը ներկայացրել է Gemini 4 Argon-ը ռոբոտների համար",
+        "summary": "Google-ի Gemini 4 Argon-ը նոր AI մոդել է, որը նախատեսված է ռոբոտներին կառավարելու, լուսանկարներից կամ էսքիզներից սիմուլյացիաներ ստեղծելու և ուսուցողական տեսանյութերը գնահատելու համար։",
+        "source": 12,
+        "link": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ն թողարկել է Nemotron 3.5 Super VL մոդելը",
+        "summary": "Nvidia-ն թողարկում է Nemotron 3.5 Super VL բաց բազմամոդալ մոդելը՝ 120 միլիարդ պարամետրերով, որը նախատեսված է ձեռնարկությունների AI գործակալների անդադար աշխատանքի համար։",
+        "source": 14,
+        "link": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "FTC-ն հետաքննում է Anthropic-ին և OpenAI-ին",
+        "summary": "ԱՄՆ Առևտրի դաշնային հանձնաժողովը (FTC) հետաքննում է առաջատար AI ընկերություններ Anthropic-ին և OpenAI-ին՝ կապված արհեստական բանականության հետ կապված հնարավոր մտահոգությունների հետ։",
+        "source": 19,
+        "link": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+        "outlet": "Ars Technica"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Muse Spark Open",
+        "note": "Meta-ի բաց կշռային բազմամոդալ AI մոդել"
+      }
+    ],
     "trending": [
       "google/embeddinggemma-2",
       "jialinyyzz/humanizer",
