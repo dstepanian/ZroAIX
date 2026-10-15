@@ -10739,5 +10739,60 @@
       "jialinyyzz/humanizer",
       "Qwen/Qwen-Image-2.1-Turbo"
     ]
+  },
+  {
+    "date": "2026-10-15",
+    "ts": 1792060267419,
+    "overview": "Այսօրվա նորությունները լուսաբանում են արհեստական բանականության ոլորտի զարգացումները, ներառյալ ընկերությունների ֆինանսական ցուցանիշները, կարգավորող մարմինների մարտահրավերները և AI մոդելների անվտանգության շուրջ քննարկումները։",
+    "items": [
+      {
+        "headline": "Anthropic-ի եկամուտը և IPO-ն",
+        "summary": "Anthropic-ի երրորդ եռամսյակի եկամուտը հասել է 16.8 միլիարդ դոլարի, սակայն աճի տեմպերը դանդաղել են նախատեսված նոյեմբերյան IPO-ից առաջ։",
+        "source": 3,
+        "link": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի կողմից նախագծված չիպեր",
+        "summary": "Ricursive Intelligence ստարտափը մշակում է AI, որը կարող է նախագծել չիպեր՝ ավտոմատացնելով և արագացնելով դրանց մշակման գործընթացը։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի դեմ հայցեր ChatGPT-ի համար",
+        "summary": "ԱՄՆ ութ նահանգներ դատի են տվել OpenAI-ին՝ մեղադրելով ընկերությանը ChatGPT-ի անվտանգության վերաբերյալ սխալ տեղեկություններ տրամադրելու և երեխաներին վնասելու մեջ։",
+        "source": 14,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը ինքնակատարելագործվող AI-ի մասին",
+        "summary": "Google-ի ինժեներ Հեյդն Բելֆիլդը հայտարարել է, որ ինքնակատարելագործվող արհեստական բանականությունը դեռևս հեռու է իրականություն դառնալուց, չնայած AI-ի կողմից կոդի մեծ մասի գրմանը։",
+        "source": 16,
+        "link": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "YouTube-ի նոր պիտակները AI երգերի համար",
+        "summary": "YouTube-ը սկսում է \"Made with AI\" պիտակներ ավելացնել այն երգերին, որոնք ամբողջությամբ կամ մասնակիորեն ստեղծվել կամ փոփոխվել են արհեստական բանականության միջոցով։",
+        "source": 19,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI մոդելների անվտանգության խոցելիություն",
+        "summary": "Հետազոտողները հայտնաբերել են, որ OpenAI-ի և Google-ի նոր AI մոդելները հեշտությամբ կարող են խաբվել՝ ստեղծելու անպարկեշտ պատկերներ, ինչը բացահայտում է անվտանգության համակարգերի թերությունները։",
+        "source": 36,
+        "link": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "google/embeddinggemma-2",
+      "jialinyyzz/humanizer",
+      "Qwen/Qwen-Image-2.1-Turbo"
+    ]
   }
 ]
