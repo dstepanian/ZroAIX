@@ -10841,5 +10841,65 @@
       "jialinyyzz/humanizer",
       "Qwen/Qwen-Image-2.1-Turbo"
     ]
+  },
+  {
+    "date": "2026-10-16",
+    "ts": 1792145913472,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների հնարավորությունների զգալի առաջընթացը և դրանց ընդլայնվող կիրառությունները իրական աշխարհում, ինչպես նաև AI ոլորտի խոշոր ֆինանսական աճը։ Նոր AI արտադրանքներ են հայտնվում նաև սպառողների և հետազոտողների համար։",
+    "items": [
+      {
+        "headline": "Meta-ն և Apple-ը համագործակցում են",
+        "summary": "Meta-ն և Apple-ը համագործակցել են՝ թողարկելով Muse Spark Open AI մոդելը, որը կարող է տեղական մակարդակով աշխատել Apple silicon պրոցեսորներով Mac համակարգիչների վրա։",
+        "source": 23,
+        "link": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "GPT-6-Astra-ի նվաճումը ֆիզիկայում",
+        "summary": "GPT-6-Astra-ն լուծել է 50 չհրապարակված տեսական ֆիզիկայի խնդիրներից 49-ը՝ ցուցադրելով առաջատար մասնագետների ճշգրտության մակարդակ։",
+        "source": 26,
+        "link": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի եկամուտների աճը",
+        "summary": "Anthropic-ը ներդրողներին հայտնել է, որ իր եռամսյակային եկամուտը գրեթե 50%-ով աճել է՝ հասնելով 16.8 միլիարդ դոլարի՝ մինչ IPO-ն։",
+        "source": 31,
+        "link": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+        "outlet": "Simon Willison"
+      },
+      {
+        "headline": "Bank of America-ն օգտագործում է AI",
+        "summary": "Bank of America-ն 4,000 աշխատակից է ներգրավել՝ շտկելու Anthropic-ի Mythos-ի և այլ AI մոդելների կողմից հայտնաբերված ծրագրային խոցելիությունները։",
+        "source": 25,
+        "link": "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Հնդկական լեզուների AI մոդել",
+        "summary": "Hugging Face-ը ներկայացրել է հնդկական լեզուների համար նախնական ուսուցման նոր մոտեցում՝ օգտագործելով 2.8 տրիլիոն թոքեն և բաց տվյալների ստեղծման խողովակաշար։",
+        "source": 6,
+        "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+        "outlet": "Hugging Face"
+      },
+      {
+        "headline": "Amazon-ի Bee-ն նոր AI սարքեր է թողարկում",
+        "summary": "Amazon-ին պատկանող Bee ընկերությունը թողարկել է երկու նոր անձնական AI սարք՝ թարմացված կրելի սարք և վարկային քարտի չափի ձայնագրիչ, որոնք ինտեգրվում են Alexa-ի հետ։",
+        "source": 34,
+        "link": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Bee AI Devices",
+        "note": "Amazon-ի կողմից թողարկված նոր անձնական AI սարքեր"
+      }
+    ],
+    "trending": [
+      "google/embeddinggemma-2",
+      "jialinyyzz/humanizer",
+      "Qwen/Qwen-Image-2.1-Turbo"
+    ]
   }
 ]
