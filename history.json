@@ -10901,5 +10901,65 @@
       "jialinyyzz/humanizer",
       "Qwen/Qwen-Image-2.1-Turbo"
     ]
+  },
+  {
+    "date": "2026-10-17",
+    "ts": 1792230712901,
+    "overview": "Այսօրվա նորությունները ներառում են AI մոդելների նշանակալի առաջընթացներ և նոր հնարավորություններ, ինչպես նաև ուշադրության կենտրոնում են AI-ի կարգավորումները, էթիկան և անվտանգության հետ կապված մտահոգությունները։ Մասնավորապես, նկատվում է կառավարությունների կողմից AI տեխնոլոգիաների արտահանման վերահսկողության խստացում և հարթակների կողմից AI-ի չարաշահումը կանխելու քայլեր։",
+    "items": [
+      {
+        "headline": "Չինաստանը կսահմանափակի AI տեխնոլոգիաների արտահանումը",
+        "summary": "Չինաստանը նախատեսում է խստացնել 23 հիմնական AI տեխնոլոգիաների, ներառյալ մոդելների կշիռների և ելակետային կոդի արտահանման վերահսկողությունը։",
+        "source": 15,
+        "link": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը արգելում է AI «մերկացնող» հավելվածները",
+        "summary": "Apple-ի App Store-ի կանոններն այժմ ավելի հստակորեն արգելում են այն հավելվածները, որոնք AI գործիքների միջոցով ստեղծում են մարդկանց ինտիմ պատկերներ՝ առանց նրանց համաձայնության։",
+        "source": 3,
+        "link": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը ներկայացնում է Gemini 4 Argon մոդելը",
+        "summary": "Google Deepmind-ի Gemini 4 Argon մոդելը ARC-AGI-3 թեստում հավաքել է 97.5 տոկոս՝ դառնալով երկրորդ լաբորատորիան OpenAI-ից հետո, որը հատել է 95 տոկոսի շեմը։",
+        "source": 24,
+        "link": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ն դառնում է Chrome-ի լիարժեք օգնական",
+        "summary": "OpenAI-ի թարմացված Chrome ընդլայնումը թույլ է տալիս ChatGPT-ին մուտք գործել բաց ներդիրներ, ամփոփել բովանդակությունը և օգտագործել «Computer Use» ռեժիմը՝ ձևաթղթեր լրացնելու կամ ապրանքներ համեմատելու համար։",
+        "source": 12,
+        "link": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Դատախազը ձերբակալվել է AI CSAM արտադրելու համար",
+        "summary": "Discord-ի օգտատերը, ով նշել էր AI-ով ստեղծված մանկական սեռական շահագործման նյութեր (CSAM), հանգեցրել է Նյու Ջերսիի գլխավոր դատախազի տեղակալի ձերբակալությանը։",
+        "source": 9,
+        "link": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Replit-ը դադարեցնում է համագործակցությունը Anthropic-ի հետ",
+        "summary": "Replit-ի գործադիր տնօրենը հայտարարել է, որ ընկերությունը դադարեցնում է համագործակցությունը Anthropic-ի հետ՝ ծախսերի և այլ պատճառներով։",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "ChatGPT Chrome assistant",
+        "note": "ChatGPT-ի Chrome ընդլայնում՝ բրաուզերի հետ աշխատելու համար"
+      }
+    ],
+    "trending": [
+      "google/embeddinggemma-2",
+      "jialinyyzz/humanizer",
+      "openbmb/MiniCPM-V-4.7-35B-A3B"
+    ]
   }
 ]
