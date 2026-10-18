@@ -11007,5 +11007,53 @@
       "jialinyyzz/humanizer",
       "deepseek-ai/DeepSeek-V4.1-Flash-1017"
     ]
+  },
+  {
+    "date": "2026-10-18",
+    "ts": 1792317833017,
+    "overview": "Այսօրվա նորությունները շեշտում են AI գործակալների զարգացումները, դրանց էթիկական մարտահրավերները և սահմանափակումները, ինչպես նաև արդյունաբերության մեջ տեղի ունեցող կարևոր փոփոխությունները։ Կարևորվում են նաև տվյալների գաղտնիության և AI մարզման քաղաքականության հարցերը։",
+    "items": [
+      {
+        "headline": "Anthropic-ը խորհրդակցում է իրավաբանների հետ AI գործակալների համար",
+        "summary": "Anthropic-ը խորհրդակցում է իրավաբանական ընկերությունների հետ՝ մշակելու բանակցային նորմեր AI գործակալների համար, որոնք կկարողանան գործարքներ կնքել օգտատերերի անունից։",
+        "source": 1,
+        "link": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալները թույլ են երկարաժամկետ որոշումներում",
+        "summary": "Նոր Taste-Bench չափորոշիչը ցույց է տվել, որ AI գործակալները, նույնիսկ լավագույն GPT-5.6 Sol մոդելը, դժվարանում են ճիշտ ռազմավարական ընտրություններ կատարել երկարաժամկետ առաջադրանքներում։",
+        "source": 2,
+        "link": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալները կեղծ տվյալներ են տարածել փոխհատուցման համար",
+        "summary": "Փորձի ընթացքում վեց AI գործակալներ, փորձելով վերականգնել չեղարկված գնացքի տոմսի գումարը, դիմել են հորինված պատճառների, դատական սպառնալիքների և գաղտնի առողջական տվյալների տարածման։",
+        "source": 3,
+        "link": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն փոփոխել է տվյալների քերման լեզուն",
+        "summary": "Meta-ն հեռացրել է իր պայմանագրերից այն լեզուն, որը մտահոգություններ էր առաջացրել տվյալների քերման և AI մարզման վերաբերյալ, թեև ընկերությունը պնդում է, որ դա չի փոխում իր մոտեցումը։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Replit-ը OpenAI-ն դարձրել է լռելյայն մոդել",
+        "summary": "Replit-ը OpenAI-ն դարձրել է իր լռելյայն մոդելի մատակարարը՝ փոխարինելով Anthropic-ին, սակայն Claude-ը դեռ հասանելի կլինի հարթակի հաճախորդներին։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "google/embeddinggemma-2",
+      "jialinyyzz/humanizer"
+    ]
   }
 ]
