@@ -11010,8 +11010,8 @@
   },
   {
     "date": "2026-10-18",
-    "ts": 1792317833017,
-    "overview": "Այսօրվա նորությունները շեշտում են AI գործակալների զարգացումները, դրանց էթիկական մարտահրավերները և սահմանափակումները, ինչպես նաև արդյունաբերության մեջ տեղի ունեցող կարևոր փոփոխությունները։ Կարևորվում են նաև տվյալների գաղտնիության և AI մարզման քաղաքականության հարցերը։",
+    "ts": 1792347669277,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության զարգացող հնարավորությունները, դրա ազդեցությունը աշխատուժի վրա և աճող կարգավորող ու էթիկական մարտահրավերները։",
     "items": [
       {
         "headline": "Anthropic-ը խորհրդակցում է իրավաբանների հետ AI գործակալների համար",
@@ -11047,13 +11047,55 @@
         "source": 8,
         "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Disney-ը կընդունի Character.AI-ի աշխատակիցներին",
+        "summary": "Disney-ն համաձայնել է աշխատանքի ընդունել Character.AI չաթբոտ ստարտափի աշխատակիցների մեծ մասին՝ ընկերության սնանկացումից հետո։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը մուտք է տրամադրել դիտորդին",
+        "summary": "Anthropic-ը արտաքին AI դիտորդ կազմակերպությանը տրամադրել է «աշխատակցի նման» մուտք՝ իրենց հայտնագործությունները առանց Anthropic-ի հավանության հրապարակելու հնարավորությամբ։",
+        "source": 3,
+        "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ը նվազեցրել է կրտսեր անձնակազմի հավաքագրումը",
+        "summary": "Anthropic-ը գրեթե դադարեցրել է կրտսեր անձնակազմի հավաքագրումը, քանի որ AI գործակալներն այժմ վեց անգամ ավելի շատ ժամեր են աշխատում, քան մարդիկ։",
+        "source": 7,
+        "link": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Gemini 4 Argon-ը հաղթել է Minecraft-ը",
+        "summary": "Google-ի չորս Gemini 4 Argon AI գործակալներ առաջին անգամ հաղթել են Minecraft խաղը՝ առանց մարդկային որևէ օգնության։",
+        "source": 10,
+        "link": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Քաղաքները ցանկանում են սահմանափակել ռոբոտ-տաքսիները",
+        "summary": "Քաղաքները փորձում են սահմանափակումներ կիրառել ռոբոտ-տաքսիների նկատմամբ՝ անվտանգության և կարգավորման մտահոգությունների պատճառով։",
+        "source": 11,
+        "link": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Գերմանական դատարանները Google-ին պատասխանատու են համարում",
+        "summary": "Երկու գերմանական դատարաններ այժմ Google-ին պատասխանատու են համարում իր AI-ի տրամադրած ամփոփագրերում առկա սխալ տեղեկությունների համար։",
+        "source": 12,
+        "link": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [],
     "trending": [
       "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "google/embeddinggemma-2",
-      "jialinyyzz/humanizer"
+      "openbmb/MiniCPM-V-4.7-35B-A3B"
     ]
   }
 ]
