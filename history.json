@@ -11138,5 +11138,69 @@
       "openbmb/MiniCPM-V-4.7-35B-A3B",
       "fishaudio/drama-3"
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "ts": 1792442844581,
+    "overview": "Օրը նշանավորվում է AI մոդելների և ենթակառուցվածքների զգալի առաջընթացներով, ինչպես նաև AI-ի հասարակական ազդեցության և անվտանգության շուրջ աճող մտահոգություններով։ Amazon-ը և Nvidia-ն ուժեղացնում են մրցակցությունը AI չիպերի շուկայում, մինչդեռ Anthropic-ի նման ընկերությունները լուծում են աշխատանքի ապագայի հարցերը։",
+    "items": [
+      {
+        "headline": "OpenAI-ի նախկին աշխատակցի լրտեսության մեղադրանք",
+        "summary": "ՀԴԲ-ն հայտարարել է, որ OpenAI-ի նախկին աշխատակիցը, ում մեղադրում են լրտեսության մեջ, ունեցել է «Սաուդյան կառավարության փաստաթղթեր» անունով թղթապանակ, և ԱՄՆ-ը մտավախություն ունի, որ Սաուդյան Արաբիայի կառավարությունը կօգնի նրան խուսափել մեղադրանքներից։",
+        "source": 1,
+        "link": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Amazon-ը մրցակցում է Nvidia-ի հետ TorchNeuron-ով",
+        "summary": "Amazon-ը ներկայացրել է TorchNeuron մշակողի նոր գործիք՝ նպատակ ունենալով թուլացնել Nvidia-ի դիրքերը PyTorch էկոհամակարգում և խրախուսել ծրագրավորողներին օգտագործել իր այլընտրանքային չիպերը։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Tenstorrent-ը հասել է $6.2 միլիարդի գնահատման",
+        "summary": "Nvidia-ի մրցակից Tenstorrent-ը հավաքել է $1.5 միլիարդ՝ պահպանելու իր անկախությունը և ընդլայնելու բաց կշռային AI չիպերի արտադրությունը՝ հասնելով $6.2 միլիարդի գնահատման։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "MiniMax M3.1 Flash-ը նվազեցնում է AI-ի արժեքը",
+        "summary": "MiniMax-ը թողարկել է M3.1 Flash մոդելը, որը զգալիորեն բարելավում է կատարողականությունը նախորդ տարբերակի համեմատ՝ միաժամանակ կիսով չափ նվազեցնելով արժեքը և խորացնելով Չինաստանի AI գների մրցակցությունը։",
+        "source": 9,
+        "link": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ն նոր բաց մոդելներ է թողարկում",
+        "summary": "Nvidia-ն ներկայացրել է նոր բաց մոդելներ՝ նախատեսված ձեռնարկությունների և անհատական համակարգիչների վրա AI գործակալներ գործարկելու համար՝ շեշտը դնելով տվյալների կենտրոններում և սարքերում սեփական մոդելների օգտագործման վրա։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը հիմնադրում է հիմնադրամ AI-ից տուժած աշխատողների համար",
+        "summary": "Anthropic-ը նախատեսում է իր բաժնետոմսերի հինգ տոկոսը հատկացնել նոր հանրային բարիքի հիմնադրամին, որը կուսումնասիրի AI-ի պատճառով աշխատանքը կորցնելու վտանգի տակ գտնվող աշխատողներին ուղղակի վճարումներ կատարելու հնարավորությունը։",
+        "source": 29,
+        "link": "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "TorchNeuron",
+        "note": "Amazon-ի նոր մշակողի գործիք AI չիպերի համար"
+      },
+      {
+        "name": "MiniMax M3.1 Flash",
+        "note": "Չինական նոր AI մոդել՝ բարելավված արդյունավետությամբ"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "openbmb/MiniCPM-V-4.7-35B-A3B",
+      "black-forest-labs/flux-3-image-klein-comfy"
+    ]
   }
 ]
