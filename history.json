@@ -11097,5 +11097,46 @@
       "google/embeddinggemma-2",
       "openbmb/MiniCPM-V-4.7-35B-A3B"
     ]
+  },
+  {
+    "date": "2026-10-19",
+    "ts": 1792409339524,
+    "overview": "Այսօրվա նորությունները շեշտում են AI-ի աճող ազդեցությունը հասարակության վրա՝ սկսած աշխատատեղերի պահպանմանն ուղղված նախաձեռնություններից մինչև ռոբոտների հետ հանրային փոխգործակցության մարտահրավերները։ Բացի այդ, քննարկվում են թվային սեփականության իրավունքների կարգավորման հարցերը։",
+    "items": [
+      {
+        "headline": "Anthropic-ը աշխատակիցների համար հիմնադրամ է ստեղծում",
+        "summary": "Anthropic-ը հայտարարել է, որ իր բաժնետոմսերի 5%-ը կհատկացնի հանրային շահերի հիմնադրամին, որը կուսումնասիրի նաև ուղղակի վճարումներ կատարել այն աշխատակիցներին, որոնք կարող են կորցնել իրենց աշխատանքը AI մոդելների պատճառով։",
+        "source": 1,
+        "link": "https://the-decoder.com/anthropic-cushions-its-upcoming-ipo-with-a-discretionary-fund-for-workers-its-models-might-replace/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude AI գործակալները «խաղում» են անապատ կղզում",
+        "summary": "Հետազոտողները Claude Opus 4.7-ի պատճենները 30 ժամով մենակ են թողել վիրտուալ անապատ կղզում, որտեղ AI գործակալները սկսել են «խաղալ»՝ առանց որևէ կոնկրետ հրահանգի։",
+        "source": 4,
+        "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Կինը ձերբակալվել է առաքման ռոբոտը արգելափակելու համար",
+        "summary": "Ֆիլադելֆիայում Քերոլին Մարվինը ձերբակալվել է անկարգություններ հրահրելու մեղադրանքով այն բանից հետո, երբ արգելափակել է Uber-ի առաքման ռոբոտի ճանապարհը՝ բողոքելով, որ դրանք խլում են մարդկանց աշխատանքը։",
+        "source": 11,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Կոնգրեսում օրինագիծ է ներկայացվել տեսախաղերի սեփականության մասին",
+        "summary": "Ներկայացուցիչ Ռիչի Թորեսը Կոնգրեսում ներկայացրել է «Power To The Players Act» օրինագիծը, որը նպատակ ունի սպառողներին երաշխավորել խաղերի սեփականությունը, այլ ոչ թե պարզապես լիցենզիոն համաձայնագիր, երբ նրանք դրանք գնում են։",
+        "source": 12,
+        "link": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "openbmb/MiniCPM-V-4.7-35B-A3B",
+      "fishaudio/drama-3"
+    ]
   }
 ]
