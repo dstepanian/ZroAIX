@@ -11141,8 +11141,8 @@
   },
   {
     "date": "2026-10-20",
-    "ts": 1792442844581,
-    "overview": "Օրը նշանավորվում է AI մոդելների և ենթակառուցվածքների զգալի առաջընթացներով, ինչպես նաև AI-ի հասարակական ազդեցության և անվտանգության շուրջ աճող մտահոգություններով։ Amazon-ը և Nvidia-ն ուժեղացնում են մրցակցությունը AI չիպերի շուկայում, մինչդեռ Anthropic-ի նման ընկերությունները լուծում են աշխատանքի ապագայի հարցերը։",
+    "ts": 1792492506075,
+    "overview": "Այսօրվա նորությունները կարևորում են AI ենթակառուցվածքների զարգացումները, ներառյալ հաշվողական հզորությունների խոշոր ներդրումները և կիսահաղորդիչների արտադրության ընդլայնումը, ինչպես նաև AI անվտանգության և ամպային շուկայի ֆինանսական կայունության շուրջ աճող մտահոգությունները։ Բացի այդ, շարունակում են հայտնվել նոր AI մոդելներ և առկա մոդելների բարելավված հնարավորություններ։",
     "items": [
       {
         "headline": "OpenAI-ի նախկին աշխատակցի լրտեսության մեղադրանք",
@@ -11185,6 +11185,48 @@
         "source": 29,
         "link": "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Samsung-ը կառուցում է կիսահաղորդիչների հսկայական կենտրոն",
+        "summary": "Samsung-ը Հարավային Կորեայում կառուցում է կիսահաղորդիչների արտադրության հսկայական համալիր՝ բավարարելու AI մոդելների համար անհրաժեշտ հիշողության չիպերի աճող պահանջարկը։",
+        "source": 2,
+        "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Anthropic-ը բանակցում է $45 միլիարդի գործարքի շուրջ",
+        "summary": "Հաղորդվում է, որ Anthropic-ը Nscale-ի հետ բանակցում է 45 միլիարդ դոլարի հաշվողական հզորությունների ձեռքբերման նոր գործարքի շուրջ, ինչը կլինի նրա հերթական խոշոր ներդրումը։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Microsoft-ը AI գործակալներին համարում է ներքին սպառնալիք",
+        "summary": "Microsoft-ը զգուշացնում է, որ AI գործակալները կարող են ներքին սպառնալիք լինել ձեռնարկությունների համար, քանի որ «սահմանային մոդելներին չի կարելի վստահել»։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Kling AI-ը թողարկել է 4.0 տարբերակը",
+        "summary": "Kling AI-ը թողարկել է իր վիդեո գեներատորի 4.0 տարբերակը՝ 30 վայրկյան տևողությամբ տեսահոլովակների, ստերեո ձայնի և բազմալեզու շրթունքների համաժամացման աջակցությամբ։",
+        "source": 20,
+        "link": "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը բարելավում է ChatGPT-ի կոդավորումը",
+        "summary": "OpenAI-ը բարելավում է ChatGPT-ի կոդավորման հնարավորությունները ցածր ռեսուրսներով ծրագրավորման լեզուներում՝ նոր գնահատումներով ծրագրային ապահովման ճարտարագիտության, SQLite-ի և COBOL-ի միգրացիայի համար։",
+        "source": 31,
+        "link": "https://openai.com/index/low-resource-programming-languages",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Սպասվում է նեոամպային շուկայի վերադասավորում",
+        "summary": "Ըստ արդյունաբերության ղեկավարների՝ հարյուրավոր AI ամպային ծառայություններ մատուցողներից միայն յոթից տասը կգոյատևեն, ինչի արդյունքում Nvidia-ն ամենաշատը կկորցնի։",
+        "source": 32,
+        "link": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -11195,12 +11237,16 @@
       {
         "name": "MiniMax M3.1 Flash",
         "note": "Չինական նոր AI մոդել՝ բարելավված արդյունավետությամբ"
+      },
+      {
+        "name": "Kling AI 4.0",
+        "note": "վիդեո գեներատորի նոր տարբերակ"
       }
     ],
     "trending": [
       "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "openbmb/MiniCPM-V-4.7-35B-A3B",
-      "black-forest-labs/flux-3-image-klein-comfy"
+      "black-forest-labs/flux-3-image-klein-comfy",
+      "fishaudio/drama-3"
     ]
   }
 ]
