@@ -11141,8 +11141,8 @@
   },
   {
     "date": "2026-10-20",
-    "ts": 1792492506075,
-    "overview": "Այսօրվա նորությունները կարևորում են AI ենթակառուցվածքների զարգացումները, ներառյալ հաշվողական հզորությունների խոշոր ներդրումները և կիսահաղորդիչների արտադրության ընդլայնումը, ինչպես նաև AI անվտանգության և ամպային շուկայի ֆինանսական կայունության շուրջ աճող մտահոգությունները։ Բացի այդ, շարունակում են հայտնվել նոր AI մոդելներ և առկա մոդելների բարելավված հնարավորություններ։",
+    "ts": 1792525382280,
+    "overview": "Օրվա նորությունները ընդգծում են արհեստական բանականության մոդելների հնարավորությունների և արտադրանքի թողարկումների զգալի առաջընթացը, ինչպես նաև կարևոր քննարկումները ԱԲ անվտանգության, գաղտնիության և ազգային անվտանգության հետևանքների շուրջ։",
     "items": [
       {
         "headline": "OpenAI-ի նախկին աշխատակցի լրտեսության մեղադրանք",
@@ -11227,6 +11227,48 @@
         "source": 32,
         "link": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ-ը արգելում է DeepSeek AI-ն դաշնային գործակալություններում",
+        "summary": "ԱՄՆ-ը դաշնային քաղաքացիական գործակալություններին հրամայել է իրենց համակարգերից հեռացնել չինական DeepSeek AI արտադրանքները և դրանց տեխնոլոգիայով ստեղծված երրորդ կողմի ծառայությունները՝ վկայակոչելով ազգային անվտանգության մտահոգությունները։",
+        "source": 29,
+        "link": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Elevenlabs-ը թողարկում է նոր խոսք-խոսք մոդելներ",
+        "summary": "Elevenlabs-ը թողարկել է իր երկու նոր Eleven Realtime խոսք-խոսք մոդելները, որոնք նախատեսված են իրական ժամանակի AI խոսակցությունների համար՝ համատեղելով արագությունն ու ճշգրտությունը։",
+        "source": 4,
+        "link": "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Mistral AI-ը գործարկում է Voxtral 3 ձայնային գործակալը",
+        "summary": "Mistral AI-ը գործարկել է Voxtral 3-ը՝ լեզվական մոդելների նոր ընտանիք, որը ստեղծվել է իրական ժամանակի ձայնային գործակալների համար և աջակցում է ավելի քան 50 լեզուների։",
+        "source": 18,
+        "link": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Բանակի կիբեր հրամանատարությունը մշակում է AI կիբերզենքեր",
+        "summary": "Բանակի կիբեր հրամանատարությունը մշակում է AI գործակալներ, որոնք կարող են տարածվել այլ ցանցերում՝ համակարգչային որդերի նման և «չեզոքացնել» թիրախները՝ ըստ ներքին փաստաթղթերի։",
+        "source": 32,
+        "link": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն դադարեցնում է Muse-ի կիսվելու հնարավորությունը",
+        "summary": "Meta-ն դադարեցրել է Muse-ի կիսվելու հնարավորությունը այն բանից հետո, երբ հետազոտողները հայտնաբերել են, որ AI օգնականի հետ զրույցների URL-ները հանրային հասանելի են համացանցում։",
+        "source": 14,
+        "link": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը և Amazon-ը մրցակցում են NVIDIA-ի հետ",
+        "summary": "Google-ը միացել է Amazon-ին՝ թողարկելով մշակողների գործիք, որը PyTorch օգտատերերին հնարավորություն է տալիս հեշտությամբ տեղափոխել իրենց հավելվածները NVIDIA GPU-ներից։",
+        "source": 9,
+        "link": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -11241,6 +11283,14 @@
       {
         "name": "Kling AI 4.0",
         "note": "վիդեո գեներատորի նոր տարբերակ"
+      },
+      {
+        "name": "Eleven Realtime",
+        "note": "Elevenlabs-ի նոր խոսք-խոսք մոդելներ"
+      },
+      {
+        "name": "Voxtral 3",
+        "note": "Mistral AI-ի իրական ժամանակի ձայնային գործակալների համակարգ"
       }
     ],
     "trending": [
