@@ -11298,5 +11298,69 @@
       "black-forest-labs/flux-3-image-klein-comfy",
       "fishaudio/drama-3"
     ]
+  },
+  {
+    "date": "2026-10-21",
+    "ts": 1792579628245,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի հնարավորությունների զգալի առաջընթացը և դրա աճող ազդեցությունը տարբեր ոլորտներում՝ կենսատեխնոլոգիայից և գիտական հայտնագործություններից մինչև բիզնես և քաղաքականության քննարկումներ։",
+    "items": [
+      {
+        "headline": "OpenAI-ը ձեռք է բերում Orchestra Bio-ն",
+        "summary": "OpenAI-ը ձեռք է բերել Orchestra Bio ստարտափը՝ նպատակ ունենալով իր Rosalind կենսագիտական AI հարթակի միջոցով արագացնել դեղերի մշակման գործընթացը։",
+        "source": 10,
+        "link": "https://the-decoder.com/openai-acquires-orchestra-bio-to-build-ai-agents-that-speed-up-drug-development/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GPT-6-ի բարելավումներ հին լեզուների համար",
+        "summary": "OpenAI-ը հայտարարել է, որ իր GPT-6 մոդելները զգալիորեն բարելավվել են հին ծրագրավորման լեզուների՝ ինչպիսիք են COBOL-ը և Fortran-ը, հետ աշխատելու հարցում՝ հասնելով մինչև 97.9% ճշգրտության COBOL-ի միգրացիայի համար։",
+        "source": 40,
+        "link": "https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Deepseek-ը բաց կոդ է դարձնում DeepInfer-ը",
+        "summary": "Deepseek-ը բաց կոդ է դարձրել DeepInfer արագացված ինֆերենցիայի շարժիչը, որն ապահովում է իր ամենաարագ և ամենաէժան AI մոդելների աշխատանքը՝ նվազեցնելով հաշվողական ծախսերը։",
+        "source": 33,
+        "link": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude-ը պայքարում է կարիճի խայթոցների դեմ",
+        "summary": "Anthropic-ի Claude AI-ն ինքնուրույն մշակել է սպիտակուցային կապողներ, որոնք ուղղված են կարիճի մահացու նեյրոտոքսիններին, որոնցից երկուսը լաբորատոր փորձարկումներում ցույց են տվել շատ ամուր կապ Cn2 տոքսինի հետ։",
+        "source": 9,
+        "link": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Սեմ Ալթմանի առաջարկները AI անվտանգության համար",
+        "summary": "Ըստ հաղորդումների՝ OpenAI-ի գործադիր տնօրեն Սեմ Ալթմանը ներքին շնորհանդեսում ներկայացրել է AI-ի անվտանգության երեք հնարավոր սցենար, ներառյալ միջազգային վերահսկող մարմնի ստեղծումը կամ խոշոր լաբորատորիաների միաձուլումը։",
+        "source": 39,
+        "link": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "SpaceX-ի եկամուտների աճը AI-ի շնորհիվ",
+        "summary": "SpaceX-ը հայտարարել է, որ իր երրորդ եռամսյակի եկամուտները հասել են 14.6 միլիարդ դոլարի՝ 161 տոկոս աճով նախորդ տարվա համեմատ, ինչը պայմանավորված է իր Super Intelligence (SI) սեգմենտի զգալի աճով։",
+        "source": 28,
+        "link": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [
+      {
+        "name": "GPT-6",
+        "note": "Բարելավված հնարավորություններ հին ծրագրավորման լեզուների համար"
+      },
+      {
+        "name": "DeepInfer",
+        "note": "Բաց կոդով ինֆերենցիայի շարժիչ"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "black-forest-labs/flux-3-image-klein-comfy",
+      "fishaudio/drama-3"
+    ]
   }
 ]
