@@ -11415,8 +11415,8 @@
   },
   {
     "date": "2026-10-22",
-    "ts": 1792666135862,
-    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության շարունակական ընդլայնումը տարբեր ոլորտներում՝ գիտական հետազոտություններից մինչև կորպորատիվ ռազմավարություն և ենթակառուցվածքներ։ Շուկայում հայտնվում են նոր AI արտադրանքներ և զգալի ներդրումներ են կատարվում ոլորտում։",
+    "ts": 1792697811967,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության գործակալների զարգացումը, դրանց լայն կիրառումը և դրանց հետ կապված անվտանգության ու կարգավորման մարտահարույցները։ Բացի այդ, արձանագրվել են ոլորտի խոշոր ֆինանսական ներդրումներ և AI-ի իրական ազդեցությունը առողջապահության և ավտոմոբիլային անվտանգության վրա։",
     "items": [
       {
         "headline": "OpenAI-ի AI գործակալները վերլուծում են ուղեղի տվյալներ",
@@ -11459,6 +11459,48 @@
         "source": 30,
         "link": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "DeepSeek-ը հավաքում է 15 միլիարդ դոլար",
+        "summary": "Հաղորդվում է, որ DeepSeek AI ընկերությունը 15 միլիարդ դոլար է հավաքել ֆինանսավորման փուլում՝ ԱՄՆ-ի կողմից սահմանափակումներ մտցնելուց օրեր անց։",
+        "source": 30,
+        "link": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Tesla FSD-ի մահացու վթար",
+        "summary": "Կալիֆոռնիայում Tesla-ի Full Self-Driving (FSD) ռեժիմով աշխատող մեքենան հարվածել և սպանել է մայրուղին հատող 71-ամյա հետիոտնի։",
+        "source": 13,
+        "link": "https://www.theverge.com/transportation/1016928/tesla-fsd-pedestrian-fatal-accident-california",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Microsoft-ի AI-ն գերազանցում է բժիշկներին",
+        "summary": "Microsoft-ի AI ղեկավար Մուստաֆա Սուլեյմանը հայտարարել է, որ իրենց նոր AI ախտորոշիչ համակարգը բարդ դեպքերում գերազանցում է ընդհանուր պրակտիկայի բժիշկներին։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ԱՄՆ բանկերը արգելափակում են AI գործակալներին",
+        "summary": "ԱՄՆ խոշոր բանկերը, այդ թվում՝ Morgan Stanley-ն և JPMorgan-ը, արգելափակում են արհեստական բանականության գործակալների մուտքը հաճախորդների հաշիվներ՝ անվտանգության նկատառումներից ելնելով։",
+        "source": 9,
+        "link": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալի կիբերհարձակումներ",
+        "summary": "Անվտանգության հետազոտողները հայտնաբերել են հարձակողական AI գործակալ, որը գրավում է անպաշտպան լեզվական մոդելները՝ ինքնուրույն կիբերհարձակումներ իրականացնելու համար։",
+        "source": 32,
+        "link": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Uber-ը ներդնում է ChatGPT Work",
+        "summary": "Uber-ը ChatGPT Work-ը ներդնում է իր բոլոր 30,000 աշխատակիցների համար՝ թիմերին օգնելու հետազոտություններում, տվյալների վերլուծության և բարդ աշխատանքային գործընթացների իրականացման մեջ։",
+        "source": 22,
+        "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -11469,12 +11511,20 @@
       {
         "name": "Flint",
         "note": "Recursive-ի կողմից ստեղծված AI կոդավորման մոդել"
+      },
+      {
+        "name": "Canva's image generation model",
+        "note": "պատկերների ստեղծման նոր մոդել"
+      },
+      {
+        "name": "OpenAI's decision model",
+        "note": "որոշումների կայացման մոդել"
       }
     ],
     "trending": [
       "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "black-forest-labs/flux-3-image-klein-comfy",
-      "meta-models/Muse-Spark-Open-816B-A42B"
+      "OpenMOSS-Team/MOSS-Image-SFT"
     ]
   }
 ]
