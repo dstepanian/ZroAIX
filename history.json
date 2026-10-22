@@ -11412,5 +11412,69 @@
       "black-forest-labs/flux-3-image-klein-comfy",
       "meta-models/Muse-Spark-Open-816B-A42B"
     ]
+  },
+  {
+    "date": "2026-10-22",
+    "ts": 1792666135862,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության շարունակական ընդլայնումը տարբեր ոլորտներում՝ գիտական հետազոտություններից մինչև կորպորատիվ ռազմավարություն և ենթակառուցվածքներ։ Շուկայում հայտնվում են նոր AI արտադրանքներ և զգալի ներդրումներ են կատարվում ոլորտում։",
+    "items": [
+      {
+        "headline": "OpenAI-ի AI գործակալները վերլուծում են ուղեղի տվյալներ",
+        "summary": "OpenAI-ի գործակալները PerturbAI-ի և Scripps Research-ի հետ համատեղ ընդամենը 32 րոպեում վերլուծել են մկան ուղեղի միլիոնավոր բջիջների կենսաբանական տվյալները, ինչը մարդկանց համար ամիսներ կպահանջեր։",
+        "source": 1,
+        "link": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը գործարկում է Claude Duet-ը",
+        "summary": "Anthropic-ը ներկայացրել է Claude Duet-ը՝ նախաձեռնող AI գործակալ, որն ինքնուրույն է կատարում առաջադրանքները, նույնիսկ երբ օգտատերը անցանց է, և միանում է ավելի քան 6,000 ծառայությունների։",
+        "source": 5,
+        "link": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն նոր բաժնետոմսեր է թողարկում AI-ի համար",
+        "summary": "Meta-ն հայտարարել է նոր դասի բաժնետոմսերի թողարկման մասին՝ ֆինանսավորելու իր AI նախաձեռնությունները, ինչպես նաև հնարավոր ձեռքբերումները և աշխատակիցների փոխհատուցումը։",
+        "source": 11,
+        "link": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Recursive-ը թողարկում է Flint կոդավորման մոդելը",
+        "summary": "Recursive ստարտափը թողարկել է Flint անվճար, դյուրակիր համակարգչի համար նախատեսված կոդավորման մոդել, որը հիմնականում ստեղծվել է իր իսկ AI հետազոտական համակարգի կողմից։",
+        "source": 18,
+        "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ի AI մոդելները հասանելի կլինեն Google Cloud-ում",
+        "summary": "OpenAI-ի վերջին AI մոդելները, ներառյալ GPT 6.1 Astra-ն, Sol-ը և Luna-ն, առաջիկա շաբաթներին հասանելի կդառնան Google Cloud-ում՝ ընդլայնելով դրանց հասանելիությունը։",
+        "source": 24,
+        "link": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Blacksmith-ը դառնում է «միաեղջյուր» ընկերություն",
+        "summary": "Blacksmith պլատֆորմը, որը թույլ է տալիս ընկերություններին ավելի արդյունավետ կերպով ստեղծել և փորձարկել AI կոդ, Sequoia-ի կողմից ղեկավարվող Series C փուլից հետո գնահատվել է 1 միլիարդ դոլար։",
+        "source": 30,
+        "link": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Claude Duet",
+        "note": "Anthropic-ի նոր AI գործակալ"
+      },
+      {
+        "name": "Flint",
+        "note": "Recursive-ի կողմից ստեղծված AI կոդավորման մոդել"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "black-forest-labs/flux-3-image-klein-comfy",
+      "meta-models/Muse-Spark-Open-816B-A42B"
+    ]
   }
 ]
