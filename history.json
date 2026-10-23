@@ -11526,5 +11526,69 @@
       "black-forest-labs/flux-3-image-klein-comfy",
       "OpenMOSS-Team/MOSS-Image-SFT"
     ]
+  },
+  {
+    "date": "2026-10-23",
+    "ts": 1792752032694,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների և ենթակառուցվածքների զգալի առաջընթացները, ինչպես նաև խոշոր ֆինանսավորումը առաջատար AI ընկերությունների համար։ Նկատելի է նաև AI գործակալների չարամիտ օգտագործման մասին զեկույցը կիբերանվտանգության ոլորտում։",
+    "items": [
+      {
+        "headline": "OpenAI-ը հավաքում է մինչև $30 միլիարդ",
+        "summary": "OpenAI-ը մոտ է մինչև 30 միլիարդ դոլարի նոր ֆինանսավորման փուլի ավարտին, սակայն նվազեցրել է իր գնահատման թիրախը։",
+        "source": 2,
+        "link": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Canva-ն թողարկում է իր առաջին AI պատկերային մոդելը",
+        "summary": "Canva-ն ներկայացրել է իր առաջին AI պատկերային գեներացման մոդելը՝ Canva Craft-ը, որը նախագծում է պլանավորում մինչև պատկերներ ստեղծելը՝ ապահովելով ավելի մեծ ճշգրտություն և վերահսկողություն։",
+        "source": 12,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը հասանելի է դարձնում Decisions API-ն",
+        "summary": "OpenAI-ը լայնորեն հասանելի է դարձնում իր Decisions API-ն՝ նպատակ ունենալով մրցակցել որոշումների կայացման մոդելների շուկայում։",
+        "source": 21,
+        "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ը ներկայացնում է Agent Compute Engine-ը",
+        "summary": "Google-ը ներկայացրել է Agent Compute Engine-ը՝ runtime միջավայր, որը նախատեսված է AI գործակալների համար և ապահովում է յուրաքանչյուր Gemini գործակալի համար սարքաշինական մեկուսացված միկրո վիրտուալ մեքենա։",
+        "source": 26,
+        "link": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինացի հաքերները AI գործակալներով լրտեսել են ընկերություններ",
+        "summary": "Microsoft-ը հայտնել է, որ Չինաստանի հետ կապված հաքերները, օգտագործելով AI գործակալներ, կոտրել են ConnectWise-ը և լրտեսել հազարավոր ընկերությունների։",
+        "source": 27,
+        "link": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Recursive-ը թողարկում է Flint լեզվական մոդելը",
+        "summary": "AI ստարտափ Recursive-ը ներկայացրել է Flint-ը՝ 40 միլիարդ պարամետր ունեցող լեզվական մոդել՝ տեղական կոդավորման համար, որը մշակվել է իրենց AI համակարգի միջոցով։",
+        "source": 33,
+        "link": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Canva Craft",
+        "note": "Canva-ի առաջին AI պատկերային մոդելը"
+      },
+      {
+        "name": "Decisions API",
+        "note": "OpenAI-ի որոշումների կայացման API-ն"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "black-forest-labs/flux-3-image-klein-comfy",
+      "RecursiveSI/flint"
+    ]
   }
 ]
