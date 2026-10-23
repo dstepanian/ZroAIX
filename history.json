@@ -11529,8 +11529,8 @@
   },
   {
     "date": "2026-10-23",
-    "ts": 1792752032694,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների և ենթակառուցվածքների զգալի առաջընթացները, ինչպես նաև խոշոր ֆինանսավորումը առաջատար AI ընկերությունների համար։ Նկատելի է նաև AI գործակալների չարամիտ օգտագործման մասին զեկույցը կիբերանվտանգության ոլորտում։",
+    "ts": 1792784283212,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի անվտանգության և կարգավորման զգալի զարգացումները, քանի որ OpenAI-ը բախվում է մոնիթորինգի բացերի հետ կապված մտահոգությունների, իսկ նրա գործադիր տնօրենը զգուշացնում է AI-ի ապագայի մասին։ Բացի այդ, կան նշանակալի առաջընթացներ AI մոդելների հնարավորությունների և առաջատար AI ընկերությունների համար խոշոր ֆինանսավորման ոլորտում։",
     "items": [
       {
         "headline": "OpenAI-ը հավաքում է մինչև $30 միլիարդ",
@@ -11573,6 +11573,48 @@
         "source": 33,
         "link": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի անվտանգության աուդիտում՝ բացեր",
+        "summary": "Արտաքին աուդիտորները OpenAI-ի AI գործակալների ներքին մոնիթորինգի համակարգում զգալի բացեր են հայտնաբերել, որոնց պատճառով GPT-5.5 դասի մոդելների տրաֆիկի մինչև 25 տոկոսը մնացել է անվերահսկելի։",
+        "source": 3,
+        "link": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Սեմ Ալթմանը զգուշացնում է AI-ի մասին",
+        "summary": "OpenAI-ի գործադիր տնօրեն Սեմ Ալթմանը հայտարարել է, որ առաջադեմ AI-ն անխուսափելիորեն դուրս կգա իր սահմաններից, և միայն ճիշտ համադրումը կարող է փրկել մարդկությանը։",
+        "source": 13,
+        "link": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Kimi K3.1 Pro-ն մոտենում է Claude Opus 5.5-ին",
+        "summary": "Moonshot AI-ի Kimi K3.1 Pro չինական AI մոդելը Artificial Analysis Intelligence Index-ում հավաքել է 55 միավոր՝ մոտենալով Anthropic-ի Claude Opus 5.5-ին և զբաղեցնելով չորրորդ տեղը։",
+        "source": 2,
+        "link": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն հետաձգում է AI-ի համար նոր պայմանները",
+        "summary": "Meta-ն հետաձգում է իր նոր բիզնես պայմանների կիրառումը այն բանից հետո, երբ հրատարակիչները մտահոգություն են հայտնել, որ դրանք կարող են թույլ տալ ընկերությանը օգտագործել լրատվական կայքերը AI-ի ուսուցման համար։",
+        "source": 16,
+        "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը նոր ֆինանսավորում է ներգրավում",
+        "summary": "OpenAI-ը նախատեսում է ներգրավել 30 միլիարդ դոլարի նոր ֆինանսավորում՝ հասնելով 1.25 տրիլիոն դոլարի գնահատման, ինչը նախորդում է ընկերության IPO-ին։",
+        "source": 29,
+        "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Starshield-ի սահմանափակումները Ուկրաինայում",
+        "summary": "SpaceX-ի Starshield ծառայությունը, որն օգտագործվում է ուկրաինական բանակի կողմից, սահմանափակվել է, ինչի հետևանքով բարձր արագությամբ շարժվող տերմինալները կորցրել են ծառայության հասանելիությունը՝ խոչընդոտելով ռուսական անօդաչու թռչող սարքերի դեմ պայքարին։",
+        "source": 5,
+        "link": "https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
@@ -11583,6 +11625,10 @@
       {
         "name": "Decisions API",
         "note": "OpenAI-ի որոշումների կայացման API-ն"
+      },
+      {
+        "name": "Kimi K3.1 Pro",
+        "note": "Moonshot AI-ի նոր AI մոդելը"
       }
     ],
     "trending": [
