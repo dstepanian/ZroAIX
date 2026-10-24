@@ -11636,5 +11636,60 @@
       "black-forest-labs/flux-3-image-klein-comfy",
       "RecursiveSI/flint"
     ]
+  },
+  {
+    "date": "2026-10-24",
+    "ts": 1792835845121,
+    "overview": "Այսօրվա նորությունները կարևոր փոփոխություններ են արտացոլում AI մոդելների անվտանգության և գաղտնիության ոլորտում, ինչպես նաև նոր AI գործիքների և հնարավորությունների զարգացում։ OpenAI-ը և Google-ը հայտարարել են քաղաքականության փոփոխությունների մասին, մինչդեռ Anthropic-ը և Canva-ն ներկայացրել են AI-ի նորարարություններ։",
+    "items": [
+      {
+        "headline": "OpenAI-ը դադարեցնում է մոդելների ինտերնետային ուսուցումը",
+        "summary": "OpenAI-ը այժմ իր ամենաառաջադեմ AI մոդելները մարզում է առանց ինտերնետ հասանելիության՝ անվտանգության ռիսկերը նվազեցնելու համար։",
+        "source": 6,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը կարող է օգտագործել Gmail-ի տվյալները գովազդի համար",
+        "summary": "Google-ը թարմացրել է իր գաղտնիության քաղաքականությունը՝ նշելով, որ կարող է օգտագործել Gmail-ի և Google Photos-ի տվյալները անհատականացված գովազդի համար։",
+        "source": 18,
+        "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ի նոր AI մոդելը գերազանցում է Mythos 5.1-ին",
+        "summary": "Anthropic-ը հայտարարում է, որ ունի ներքին AI մոդել, որը գերազանցում է Mythos 5.1-ին ինչպես հնարավորություններով, այնպես էլ անվտանգության համապատասխանությամբ։",
+        "source": 14,
+        "link": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Canva-ն գործարկում է իր առաջին պատկերային AI մոդելը՝ Craft-ը",
+        "summary": "Դիզայնի հարթակ Canva-ն թողարկել է Canva Craft-ը՝ իր առաջին ներքին պատկերների ստեղծման AI մոդելը։",
+        "source": 22,
+        "link": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude-ը ավտոմատ կերպով ստուգում է կոդի անվտանգությունը",
+        "summary": "Anthropic-ի Claude մոդելն այժմ կարող է ավտոմատ կերպով ստեղծել մաթեմատիկական ապացույցներ՝ առկա կոդի ճշտությունը հաստատելու համար՝ հայտնաբերելով նաև սխալներ։",
+        "source": 23,
+        "link": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Intel-ը թույլտվություն է ստացել օտարերկրյա ռոբոտների համար",
+        "summary": "Intel-ը բացառություն է ստացել ԱՄՆ-ի արգելքից՝ օտարերկրյա արտադրության ռոբոտների օգտագործման համար՝ դրանք համարելով կարևոր ԱՄՆ չիպերի արտադրության համար։",
+        "source": 15,
+        "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "RecursiveSI/flint",
+      "black-forest-labs/flux-3-image-klein-comfy"
+    ]
   }
 ]
