@@ -11738,5 +11738,69 @@
       "RecursiveSI/flint",
       "black-forest-labs/flux-3-image-klein-comfy"
     ]
+  },
+  {
+    "date": "2026-10-25",
+    "ts": 1792923624940,
+    "overview": "Օրվա նորությունները կարևորում են AI գործիքների և մոդելների զարգացումները, ինչպես նաև կարգավորող մարմինների ուշադրության աճը և առաջատար AI ընկերությունների միջև շուկայական սուր մրցակցությունը։",
+    "items": [
+      {
+        "headline": "Nvidia-ն ներկայացրել է Flora-ն",
+        "summary": "Nvidia-ն բաց կոդով Flora տվյալների շարժիչ է թողարկել, որը ռոբոտների տեսանյութերի պիտակավորումը 125 անգամ ավելի էժան է դարձնում՝ համեմատած GPT-6 Astra-ի հետ։",
+        "source": 1,
+        "link": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի նոր մոտեցումը AI գործակալներում",
+        "summary": "Anthropic-ը հայտարարել է, որ AI մոդելների բարդության մշակման կարողությունների շնորհիվ մեկ AI գործակալն այժմ կարող է գերազանցել բազմաթիվ ենթագործակալների։",
+        "source": 3,
+        "link": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը զեղչեր է առաջարկում Anthropic-ի հաճախորդներին",
+        "summary": "OpenAI-ը զգալի զեղչեր է առաջարկում Anthropic-ի խոշոր հաճախորդներին՝ նպատակ ունենալով գրավել նրանց և ընդլայնել իր շուկայական մասնաբաժինը։",
+        "source": 5,
+        "link": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenMobile-2-ը բաց կոդով սմարթֆոնների գործակալ է",
+        "summary": "OpenMobile-2-ի հետազոտողները ցույց են տվել, որ բաց կոդով սմարթֆոնների գործակալները կարող են մրցակցել սեփական մոդելների հետ՝ մարզվելով բազմաթիվ տարբեր հավելվածների վրա։",
+        "source": 6,
+        "link": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Փենսիլվանիան պահանջում է AI-ով ստեղծված գովազդի պիտակավորում",
+        "summary": "Փենսիլվանիայի նահանգապետ Ջոշ Շապիրոն օրենք է ստորագրել, որը պահանջում է պիտակավորել արհեստական ​​ինտելեկտով զգալիորեն փոփոխված կամ ստեղծված բոլոր գովազդները։",
+        "source": 9,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Block-ի նոր ձայնային մոդելը",
+        "summary": "Block ընկերությունը ներկայացրել է նոր ձայնային մոդել, որը չափազանց մարդկային է հնչում և կարող է աշխատել տեղական մակարդակով MacBook M4 Max-ի վրա։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Flora",
+        "note": "Nvidia-ի բաց կոդով տվյալների շարժիչ ռոբոտների տեսանյութերի պիտակավորման համար"
+      },
+      {
+        "name": "Block voice model",
+        "note": "Block-ի նոր, մարդկային հնչողությամբ ձայնային մոդել"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "RecursiveSI/flint",
+      "black-forest-labs/flux-3-image-klein-comfy"
+    ]
   }
 ]
