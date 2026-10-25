@@ -11741,8 +11741,8 @@
   },
   {
     "date": "2026-10-25",
-    "ts": 1792923624940,
-    "overview": "Օրվա նորությունները կարևորում են AI գործիքների և մոդելների զարգացումները, ինչպես նաև կարգավորող մարմինների ուշադրության աճը և առաջատար AI ընկերությունների միջև շուկայական սուր մրցակցությունը։",
+    "ts": 1792953394277,
+    "overview": "Այսօրվա նորությունները լուսաբանում են արհեստական բանականության լայնածավալ ազդեցությունը տարբեր ոլորտների վրա՝ սկսած տնտեսական հատուցումից մինչև համայնքային քաղաքականություն և ապագա կանխատեսումներ։ Ընդգծվում են ինչպես դրական, այնպես էլ բացասական կողմերը և դրա շուրջ աճող բանավեճերը։",
     "items": [
       {
         "headline": "Nvidia-ն ներկայացրել է Flora-ն",
@@ -11785,6 +11785,41 @@
         "source": 10,
         "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Արհեստական բանականության ֆինանսական հատուցում",
+        "summary": "Ըստ Apollo-ի տնտեսագետի՝ չնայած զանգվածային ներդրումներին, արհեստական բանականությունը տեխնոլոգիական ոլորտից դուրս ընկերությունների համար զրոյական ֆինանսական հատուցում է ապահովել։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "r/opensource-ը արգելում է AI նախագծերը",
+        "summary": "r/opensource համայնքի մոդերատորները նոր կանոններ են հրապարակել, որոնք արգելում են արհեստական բանականություն օգտագործող կամ դրա համար նախատեսված նախագծերը։",
+        "source": 5,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ի AI որոնման ազդեցությունը հրատարակչության վրա",
+        "summary": "Google-ի արհեստական բանականության վրա հիմնված որոնման փոփոխությունները խաթարել են առցանց հրատարակչության ոլորտը, որը երկար ժամանակ կախված է եղել Google-ից։",
+        "source": 6,
+        "link": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Ինքնակատարելագործվող AI-ի կանխատեսումը 2027թ.",
+        "summary": "Anthropic-ի համահիմնադիր Ջեք Քլարկը ինքնակատարելագործվող արհեստական բանականության հայտնվելու իր կանխատեսումը տեղափոխել է 2027 թվական՝ հաշվի առնելով AI մոդելների արագ զարգացումը։",
+        "source": 7,
+        "link": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Էրիկ Շմիդտը քննադրում է AI ընկերություններին",
+        "summary": "Google-ի նախկին գործադիր տնօրեն Էրիկ Շմիդտը OpenAI-ին և Anthropic-ին անվանել է ժամանակակից գաղութային առևտրային ընկերություններ՝ ընդգծելով ԱՄՆ-ի և Չինաստանի՝ որպես AI կայսրությունների դերը։",
+        "source": 8,
+        "link": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
