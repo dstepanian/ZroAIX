@@ -11837,5 +11837,53 @@
       "RecursiveSI/flint",
       "black-forest-labs/flux-3-image-klein-comfy"
     ]
+  },
+  {
+    "date": "2026-10-26",
+    "ts": 1793015423164,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության և ռոբոտաշինության ոլորտներում կատարվող խոշոր ներդրումները, ինչպես նաև AI-ի կիրառությունների ընդլայնումը և դրա հասարակական ազդեցության շուրջ քննարկումները:",
+    "items": [
+      {
+        "headline": "Ուոլ Սթրիթի թրեյդերների AI ներդրումներ",
+        "summary": "Ուոլ Սթրիթի բարձր հաճախականության թրեյդերները, ինչպիսիք են Jane Street-ը և Hudson River Trading-ը, ակտիվորեն կառուցում են տվյալների կենտրոններ և աջակցում չիպերի ստարտափներին՝ արհեստական բանականության ոլորտում առաջատար դիրքերը պահպանելու համար:",
+        "source": 2,
+        "link": "https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Toyota-ի խոշոր ներդրումը ռոբոտաշինության մեջ",
+        "summary": "Toyota-ն տարեկան 6.4 միլիարդ դոլար է ներդնում մարդանման ռոբոտների և գործարանային ավտոմատացման մեջ՝ նպատակ ունենալով դառնալ համաշխարհային ռոբոտաշինական ընկերություն:",
+        "source": 3,
+        "link": "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Քաղաքը դիմադրում է Flock հսկողությանը",
+        "summary": "Արևմտյան Վիրջինիայի Հանթինգթոն քաղաքի բնակիչները դիմադրություն են ցույց տվել Flock AI տեսահսկման համակարգերի տեղադրմանը՝ բարձրացնելով գաղտնիության և քաղաքացիական ազատությունների վերաբերյալ մտահոգություններ:",
+        "source": 1,
+        "link": "https://www.theverge.com/features/1017836/flock-huntington-west-virginia-surveillance-ballot-measure",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Grok-ը ներկայացրեց AI-ով ստեղծված «Odyssey»-ը",
+        "summary": "Grok-ը հրապարակել է իր AI-ով ստեղծված «Odyssey»-ի առաջին յոթ րոպեն, որի կադրերը, ըստ հաղորդումների, բավարար են, եթե արվեստ կամ ոգեշնչում չեք փնտրում:",
+        "source": 5,
+        "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI կրվող սարքերի նոր միտումներ",
+        "summary": "Շուկայում ի հայտ են գալիս նոր AI կրվող սարքեր և գաջեթներ, ինչպիսիք են Muse Charm-ը, Bee-ն և Plaud-ը, որոնք ընդգծում են արհեստական բանականության ինտեգրումը առօրյա տեխնոլոգիաներին:",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "RecursiveSI/flint",
+      "XHToken/Spark-X2.6-4B"
+    ]
   }
 ]
