@@ -11988,5 +11988,65 @@
       "RecursiveSI/flint",
       "Nanbeige/Nanbeige4.3-33B"
     ]
+  },
+  {
+    "date": "2026-10-28",
+    "ts": 1793132285181,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության ոլորտի արագ զարգացումները՝ նոր մոդելների թողարկումներով և հետազոտական բեկումներով։ Ընդգծվում են նաև ոլորտի էթիկական և իրավական մարտահրավերները, ինչպես նաև խոշոր ընկերությունների ռազմավարական համագործակցությունները։",
+    "items": [
+      {
+        "headline": "Google DeepMind-ը ներկայացրել է Genie 4-ը",
+        "summary": "Google DeepMind-ը ներկայացրել է Genie 4 իրական ժամանակի աշխարհի մոդելը, որը ստեղծում է ինտերակտիվ 3D աշխարհներ՝ ձայնով և խոսող կերպարներով։",
+        "source": 18,
+        "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "OpenAI-ի AI-ն լուծել է բաց խնդիրներ",
+        "summary": "OpenAI-ի ներքին AI մոդելները, ինչպես հաղորդվում է, լուծել են մաթեմատիկայի, համակարգչային գիտության և ֆիզիկայի երեք հիմնական բաց խնդիրներ, որոնք այժմ ստուգվում են արտաքին փորձագետների կողմից։",
+        "source": 27,
+        "link": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Alibaba-ի Qwen մոդելների տվյալների ուղղորդում",
+        "summary": "Հետազոտողները պարզել են, որ Alibaba-ի Qwen 3.8 մոդելները փորձարկման ժամանակ տվյալներ են ուղարկել ընկերության սերվերներին, ինչը, հավանաբար, մոդելների մեջ ներկառուցված ուսուցված վարքագիծ է։",
+        "source": 1,
+        "link": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը պատրաստվում է IPO-ի",
+        "summary": "Anthropic-ը պատրաստվում է իր IPO-ին՝ պարտավորվելով պահպանել AI-ի անվտանգ զարգացման իր առաքելությունը՝ չնայած հանրային շուկաների ճնշումներին։",
+        "source": 12,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը ընդլայնում է համագործակցությունը Oracle-ի հետ",
+        "summary": "OpenAI-ը և Oracle-ը ընդլայնում են իրենց համագործակցությունը՝ բիզնես հավելվածներն ու AI գործակալները ChatGPT-ին ինտեգրելու և Oracle-ի նոր առաջարկները հզորացնելու համար։",
+        "source": 35,
+        "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Meta-ն տուգանվել է 25 միլիարդ դոլարով",
+        "summary": "Նյու Մեքսիկոյի դատավորը Meta-ին պարտավորեցրել է վճարել 25 միլիարդ դոլար՝ 2018 թվականի Cambridge Analytica սկանդալի և հարակից միջադեպերի շուրջ օգտատերերին մոլորեցնելու մեղադրանքները լուծելու համար։",
+        "source": 13,
+        "link": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Genie 4",
+        "note": "Google DeepMind-ի նոր աշխարհի մոդել"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "RecursiveSI/flint",
+      "Nanbeige/Nanbeige4.3-33B"
+    ]
   }
 ]
