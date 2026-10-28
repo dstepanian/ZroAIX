@@ -12083,5 +12083,69 @@
       "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "Nanbeige/Nanbeige4.3-33B"
     ]
+  },
+  {
+    "date": "2026-10-29",
+    "ts": 1793219995440,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության մոդելների շարունակական զարգացումը և դրանց ինտեգրումը տարբեր հարթակներում, ինչպես նաև AI-ի աճող ազդեցությունը բիզնեսի և օգտատերերի անվտանգության վրա։",
+    "items": [
+      {
+        "headline": "Google-ը թողարկում է Gemini 4 Carbon-ը",
+        "summary": "Google-ը ներկայացրել է իր նորագույն սահմանային մոդելը՝ Gemini 4 Carbon-ը, որն առաջարկում է զգալի բարելավումներ կոդավորման, գործակալական խնդիրների և կիբերանվտանգության ոլորտներում։",
+        "source": 4,
+        "link": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "NVIDIA-ն թողարկում է Nemotron 3.5 Transcribe-ը",
+        "summary": "NVIDIA-ն թողարկել է Nemotron 3.5 Transcribe բաց խոսքի ճանաչման մոդելը, որը համատեղում է տառադարձումը, թարգմանությունը և խոսողի ճանաչումը՝ առաջատար լինելով մի քանի չափորոշիչներում։",
+        "source": 25,
+        "link": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը բացում է Android-ը AI գործակալների համար",
+        "summary": "Google-ը Android Studio-ն բացում է երրորդ կողմի AI գործակալների համար՝ ներկայացնելով նոր Gemini API-ներ, որոնք թույլ կտան բիզնեսներին իրենց ծառայություններն ինտեգրել Google-ի AI փորձառություններին։",
+        "source": 20,
+        "link": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը և ServiceNow-ը ընդլայնում են համագործակցությունը",
+        "summary": "OpenAI-ը և ServiceNow-ը ընդլայնում են իրենց համագործակցությունը՝ OpenAI մոդելներն ու գործակալներն ինտեգրելու ServiceNow-ի աշխատանքային հոսքերին և ServiceNow-ի աշխատանքային հոսքերը ChatGPT-ին ու Codex-ին։",
+        "source": 31,
+        "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Google-ի AI ներդրումները խթանում են որոնումները",
+        "summary": "Google-ի մայր ընկերություն Alphabet-ը հայտնել է, որ իր AI ներդրումները նպաստում են որոնումների զգալի աճին՝ վերջին հինգ տարվա ընթացքում գրանցելով ամենաբարձր տարեկան աճի տեմպը։",
+        "source": 1,
+        "link": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Բանկերը զգուշացնում են AI օգնականների մասին",
+        "summary": "Bank of America-ն հաճախորդներին հորդորում է չկիսվել իրենց բանկային գաղտնաբառերով AI օգնականների հետ՝ հիշեցնելով, որ օգտատերերը պատասխանատու են իրենց AI գործակալների մուտքի հետևանքով առաջացած ցանկացած գործունեության համար։",
+        "source": 40,
+        "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Gemini 4 Carbon",
+        "note": "Google-ի նոր սահմանային AI մոդել"
+      },
+      {
+        "name": "Nemotron 3.5 Transcribe",
+        "note": "NVIDIA-ի բաց խոսքի ճանաչման մոդել"
+      }
+    ],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "RecursiveSI/flint",
+      "Nanbeige/Nanbeige4.3-33B"
+    ]
   }
 ]
