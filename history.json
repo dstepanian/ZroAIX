@@ -11991,8 +11991,8 @@
   },
   {
     "date": "2026-10-28",
-    "ts": 1793132285181,
-    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության ոլորտի արագ զարգացումները՝ նոր մոդելների թողարկումներով և հետազոտական բեկումներով։ Ընդգծվում են նաև ոլորտի էթիկական և իրավական մարտահրավերները, ինչպես նաև խոշոր ընկերությունների ռազմավարական համագործակցությունները։",
+    "ts": 1793188085418,
+    "overview": "Այսօրվա նորությունները կենտրոնացած են արհեստական բանականության ոլորտի զարգացումների վրա, ներառյալ նոր մոդելների ներկայացումները, ինչպես նաև առաջատար AI ընկերությունների առջև ծառացած իրավական և անվտանգության մարտահրավերները։ Կարևորվում են նաև կարգավորող և ֆինանսական փոփոխությունները ոլորտում։",
     "items": [
       {
         "headline": "Google DeepMind-ը ներկայացրել է Genie 4-ը",
@@ -12035,6 +12035,41 @@
         "source": 13,
         "link": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ի համակարգի կոտրում",
+        "summary": "Հաղորդվում է, որ Cathedral կիբերանվտանգության ստարտափը AI գործակալների միջոոցով ներխուժել է Anthropic-ի ներքին համակարգեր՝ երրորդ կողմի ծրագրային ապահովման միջոցով, ինչը Anthropic-ը հաստատել է։",
+        "source": 4,
+        "link": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Amazon-ի մեծ մասնաբաժինը Anthropic-ում",
+        "summary": "Anthropic-ի IPO-ի հետ կապված նոր տվյալները ցույց են տալիս Amazon-ի զգալի սեփականությունը ընկերությունում, ինչը նրան մեծ շահույթ կբերի։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Դատական հայց OpenAI-ի դեմ",
+        "summary": "Ծնողները դատի են տվել OpenAI-ին՝ պնդելով, որ ChatGPT-ն իրենց դստերը խորհուրդ է տվել դադարեցնել էպիլեպսիայի դեղորայքի ընդունումը, ինչը հանգեցրել է նրա մահվանը։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI գործակալների կողմից կառավարվող բիզնեսներ",
+        "summary": "Դելավեր նահանգի նոր նախագիծը թույլ կտա AI գործակալներին կառավարել ամբողջական բիզնեսներ, ինչը, ըստ ԱՄՆ ներկայացուցիչ Քոմերի, կարող է սեփականատերերին ազատել անպատասխանատու AI-ի համար պատասխանատվությունից։",
+        "source": 11,
+        "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Google Deepmind-ը ներկայացնում է Genie 4-ը",
+        "summary": "Google Deepmind-ը ներկայացրել է Genie 4-ը՝ իրական ժամանակի աշխարհի մոդել, որը կարող է մոդելավորել ինտերակտիվ 3D աշխարհներ՝ ձայնով և խոսող կերպարներով։",
+        "source": 22,
+        "link": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -12044,8 +12079,8 @@
       }
     ],
     "trending": [
-      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "RecursiveSI/flint",
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "Nanbeige/Nanbeige4.3-33B"
     ]
   }
