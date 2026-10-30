@@ -12196,8 +12196,8 @@
   },
   {
     "date": "2026-10-30",
-    "ts": 1793306635568,
-    "overview": "Օրվա նորությունները ընդգծում են AI-ի աճող ազդեցությունը տարբեր ոլորտների վրա՝ սկսած նոր մոդելների թողարկումներից և խոշոր ձեռքբերումներից մինչև կարգավորող մարմինների վերահսկողություն և հաստատված բիզնես մոդելների փոփոխություններ։",
+    "ts": 1793360984066,
+    "overview": "Այսօրվա նորությունները կարևոր զարգացումներ են արձանագրել AI ոլորտում՝ ներառելով նոր մոդելների թողարկումներ, հեղինակային իրավունքի և AI-ի ազդեցության շուրջ քննարկումներ, ինչպես նաև խոշոր տեխնոլոգիական ընկերությունների ռազմավարական ներդրումներ։ Այս ամենը ցույց է տալիս արհեստական բանականության աճող դերը տարբեր ոլորտներում և դրա շուրջ ձևավորվող կարգավորումները։",
     "items": [
       {
         "headline": "Mistral-ը թողարկում է «Le Chonk» մոդելը",
@@ -12240,6 +12240,41 @@
         "source": 22,
         "link": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Mistral-ը թողարկել է նոր AI մոդել",
+        "summary": "Mistral AI-ը հրապարակել է իր տրիլիոն պարամետրերով նոր AI մոդելի կշիռները, որը նախատեսված է կիբերանվտանգության ոլորտի համար՝ կազմակերպություններին տրամադրելով իրենց պաշտպանությունը վերահսկելու ավելի մեծ հնարավորություն։",
+        "source": 22,
+        "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Wikipedia-ն նախազգուշացնում է AI հեղինակային իրավունքի մասին",
+        "summary": "Wikimedia Foundation-ը զգուշացնում է, որ AI-ի հեղինակային իրավունքի վերաբերյալ սխալ դատական որոշումը կարող է սպառնալիք ստեղծել բաց վեբի համար՝ պաշտպանելով մեծ լեզվական մոդելների (LLM) ուսուցումը հեղինակային իրավունքով պաշտպանված նյութերի վրա, բայց ոչ այդ նյութերը վերարտադրող չաթբոթերին։",
+        "source": 3,
+        "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI գործակալների ազդեցությունը փորձագետների վրա",
+        "summary": "Anthropic-ի ուսումնասիրությունը ցույց է տվել, որ փորձագետները մինչև 86 տոկոսով հետևել են AI գործակալի պատահական կարծիքներին և հավատացել, որ այդ եզրակացություններն իրենցն են։",
+        "source": 16,
+        "link": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AWS-ը ձգտում է դառնալ $1 տրիլիոնանոց բիզնես",
+        "summary": "Amazon-ի գործադիր տնօրենը հայտարարել է, որ AWS-ը նպատակ ունի դառնալ $1 տրիլիոն եկամուտ ունեցող բիզնես՝ դառնալով AI ամպային հաշվարկների առաջատարը, ինչը պահանջելու է զգալի ներդրումներ։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ի AI ռեժիմը չի ավելացնում Reddit-ի տրաֆիկը",
+        "summary": "Reddit-ի գործադիր տնօրեն Սթիվ Հաֆմանը հայտարարել է, որ Google-ի AI-ով աշխատող որոնման ռեժիմները չեն ավելացնում իրենց հարթակի տրաֆիկը, ինչը արձագանքում է այլ կայքերի և հրատարակիչների առջև ծառացած խնդիրներին։",
+        "source": 10,
+        "link": "https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
@@ -12250,12 +12285,16 @@
       {
         "name": "Style Sketch",
         "note": "Meta-ի նոր AI նորաձևության հավելված"
+      },
+      {
+        "name": "Mistral",
+        "note": "Նոր տրիլիոն պարամետրերով AI մոդել կիբերանվտանգության համար"
       }
     ],
     "trending": [
       "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "Nanbeige/Nanbeige4.3-33B",
-      "RecursiveSI/flint"
+      "LiquidAI/LFM3-1.7B"
     ]
   }
 ]
