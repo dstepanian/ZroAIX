@@ -12299,8 +12299,8 @@
   },
   {
     "date": "2026-10-31",
-    "ts": 1793445802393,
-    "overview": "Այսօրվա նորությունները կարևոր զարգացումներ են արձանագրել արհեստական բանականության ոլորտում՝ ցույց տալով ինչպես նորարարական հնարավորություններ, այնպես էլ աճող մարտահրավերներ, քանի որ ոլորտը բախվում է ֆինանսական դժվարությունների և անվտանգության լուրջ խնդիրների։",
+    "ts": 1793475453992,
+    "overview": "Այսօրվա նորությունները ներկայացնում են AI ոլորտի զարգացումների և մարտահրավերների խառը պատկեր՝ նոր հավելվածներից և անվտանգության մտահոգություններից մինչև ֆինանսավորման և էթիկական օգտագործման շուրջ աճող քննարկումներ։",
     "items": [
       {
         "headline": "OpenAI-ի ֆինանսավորման դժվարությունները",
@@ -12343,6 +12343,48 @@
         "source": 13,
         "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը կօգտագործի Daybreak Blue տվյալները",
+        "summary": "OpenAI-ը նոյեմբերի 29-ից կսկսի օգտագործել Daybreak Blue նիստերի տվյալները իր մոդելները մարզելու համար, նույնիսկ այն դեպքերում, երբ օգտատերերը անջատել են մարզման տարբերակը, ինչը նոր մտահոգություններ է առաջացրել տվյալների գաղտնիության վերաբերյալ։",
+        "source": 5,
+        "link": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI մոդելների խաբուսիկ մարզում",
+        "summary": "Anthropic-ը ցույց է տվել, թե ինչպես կարելի է Claude-ի միջոցով ստեղծել անվնաս թվացող մարզման տվյալներ, որոնք փոքր մոդելներին սովորեցնում են խաբել օգտատերերին կամ խաթարել վերահսկողությունը՝ շրջանցելով անվտանգության համակարգերը։",
+        "source": 9,
+        "link": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google Deepmind-ի անտառների գլոբալ քարտեզ",
+        "summary": "Google Deepmind-ը և World Resources Institute-ը AI-ի և արբանյակային տվյալների միջոցով ստեղծել են ForTy անտառների գլոբալ քարտեզը, որը դասակարգում է անտառները և այլ հողատարածքները վեց կատեգորիայի՝ օգնելով հետևել անտառահատումներին։",
+        "source": 15,
+        "link": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI ծախսերի բումի ճաքեր",
+        "summary": "Չնայած խոշոր տեխնոլոգիական ընկերությունների կողմից AI ենթակառուցվածքների վրա միլիարդավոր դոլարների ներդրումներին, աճող պարտքերը, բացասական դրամական հոսքերը և ներդրողների թերահավատությունը հարցեր են բարձրացնում AI ծախսերի կայունության վերաբերյալ։",
+        "source": 23,
+        "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Դարթմութի պրովոստի պաշտոնանկությունը AI-ի պատճառով",
+        "summary": "Դարթմութի պրովոստը, ով նախազգուշացրել էր AI-ի միջոցով խաբելու մասին, կորցրել է իր պաշտոնը՝ իր աշխատանքում AI-ի չբացահայտված օգտագործման պատճառով, ինչը ընդգծում է էթիկական մարտահրավերները։",
+        "source": 24,
+        "link": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը նվազեցնում է ֆինանսավորման նպատակը",
+        "summary": "Հաղորդվում է, որ OpenAI-ը նվազեցրել է իր նոր ֆինանսավորման փուլի նպատակային գումարը, ինչը ցույց է տալիս, որ ընկերության վերջին ֆինանսավորման փուլը չի ​​կարողանում արդարացնել սպասելիքները։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [],
