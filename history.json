@@ -12296,5 +12296,60 @@
       "Nanbeige/Nanbeige4.3-33B",
       "LiquidAI/LFM3-1.7B"
     ]
+  },
+  {
+    "date": "2026-10-31",
+    "ts": 1793445802393,
+    "overview": "Այսօրվա նորությունները կարևոր զարգացումներ են արձանագրել արհեստական բանականության ոլորտում՝ ցույց տալով ինչպես նորարարական հնարավորություններ, այնպես էլ աճող մարտահրավերներ, քանի որ ոլորտը բախվում է ֆինանսական դժվարությունների և անվտանգության լուրջ խնդիրների։",
+    "items": [
+      {
+        "headline": "OpenAI-ի ֆինանսավորման դժվարությունները",
+        "summary": "OpenAI-ը իր վերջին ֆինանսավորման փուլում հավաքել է ընդամենը 11 միլիարդ դոլար՝ թիրախավորված 30 միլիարդ դոլարից պակաս, ինչը վկայում է խոշոր ներդրողների կողմից AI-ի նկատմամբ հետաքրքրության նվազման մասին։",
+        "source": 3,
+        "link": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude-ի ինքնավար վիրահատությունը մկան վրա",
+        "summary": "Claude AI մոդելը ինքնուրույն ընտրել է գենային թերապիա և վիրահատություն կատարել էպիլեպտիկ մկան ուղեղի վրա՝ առանց մարդու միջամտության, ինչը առաջին դեպքն է, երբ AI գործակալը ինքնավարորեն բուժում է ընտրել և կիրառել կենդանի կաթնասունի վրա։",
+        "source": 18,
+        "link": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GLM 5.3-ը ստեղծել է Firefox-ի շահագործումներ",
+        "summary": "Epoch AI-ի հետազոտողները հայտարարել են, որ GLM 5.3 բաց կոդով AI մոդելը 48 ժամից էլ քիչ ժամանակում ինքնուրույն ստեղծել է Firefox-ի շահագործման ամբողջական շղթաներ՝ առանց մարդու միջամտության։",
+        "source": 39,
+        "link": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI ընկերությունները աջակցում են քերման արգելքին",
+        "summary": "OpenAI-ը, Google-ը, Microsoft-ը և Anthropic-ը հայտարարել են, որ կընդունեն նոր ստանդարտ, որը հրատարակիչներին թույլ կտա արգելել իրենց բովանդակության քերումը (scraping) AI համակարգերի կողմից։",
+        "source": 17,
+        "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Apple Intelligence-ը մուտք է գործում Չինաստան",
+        "summary": "Apple-ը հայտարարել է, որ Apple Intelligence-ը Չինաստանում կգործարկվի iOS 27.3-ի հետ միասին, սկզբում բետա տարբերակով նոյեմբերի 4-ին, իսկ ամբողջական թողարկումը նախատեսված է դեկտեմբերին։",
+        "source": 6,
+        "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ի ընդլայնման անվտանգության խախտում",
+        "summary": "Anthropic-ի Claude Code ընդլայնումը Cursor-ի շուկայում մոտ 12 ժամ վտանգված է եղել, ինչի հետևանքով մինչև 5000 օգտատերերի տվյալների գողության և հեռակա մուտքի փորձեր են արվել։",
+        "source": 13,
+        "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "Nanbeige/Nanbeige4.3-33B",
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "LiquidAI/LFM3-1.7B"
+    ]
   }
 ]
