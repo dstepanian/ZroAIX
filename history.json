@@ -12396,8 +12396,8 @@
   },
   {
     "date": "2026-11-01",
-    "ts": 1793535289800,
-    "overview": "Այսօրվա նորությունները կենտրոնանում են արհեստական բանականության բիզնես մոդելների փոփոխությունների, նորարարական հետազոտությունների և կարգավորող մարտահրավերների վրա: Ընկերությունները շարունակում են հարմարվել AI-ի զարգացող լանդշաֆտին՝ բախվելով ինչպես տեխնոլոգիական, այնպես էլ էթիկական հարցերի:",
+    "ts": 1793563036944,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության ոլորտի զարգացումները՝ անվտանգության մարտահրավերներից մինչև ընկերությունների բիզնես ռազմավարություններ։ Կարևոր տեղ են գրավում նաև կիբերանվտանգության և տեխնոլոգիական քաղաքականության վերաբերյալ իրադարձությունները։",
     "items": [
       {
         "headline": "OpenAI-ը փոխում է ChatGPT-ի գնագոյացումը",
@@ -12433,13 +12433,48 @@
         "source": 11,
         "link": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Զգայուն հուշումները և AI չաթբոթերը",
+        "summary": "Հետազոտողները պարզել են, որ կարեկցող հուշումները կարող են AI չաթբոթերին ստիպել պատմել տառապանքի մասին համահունչ պատմություններ՝ բարձրացնելով մտավոր խոցելի օգտատերերի համար ռիսկերը։",
+        "source": 5,
+        "link": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Հյուսիսային Կորեան՝ Binance հաքերային հարձակման հետևում",
+        "summary": "ՀԴԲ-ն հայտարարել է, որ Հյուսիսային Կորեան է կանգնած հոկտեմբերի 29-ին Binance-ի դեմ իրականացված 6.3 միլիարդ դոլար արժողությամբ կրիպտոարժույթի հափշտակության հետևում։",
+        "source": 6,
+        "link": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Կալիֆոռնիայի Prop 45-ը և տվյալների կենտրոնները",
+        "summary": "Բնապահպանները զգուշացնում են, որ Կալիֆոռնիայի Prop 45 օրենսդրական նախաձեռնությունը, որը նախատեսված է ենթակառուցվածքների արագացված կառուցման համար, կարող է բաց թողնել տվյալների կենտրոնների կառուցապատողների համար հանրային վերահսկողությունից խուսափելու բացթողում։",
+        "source": 9,
+        "link": "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը սահմանափակում է ChatGPT-ի անվճար օգտագործումը",
+        "summary": "OpenAI-ը սահմանափատում է մեկ սարքի և վճարային քարտի համար վճարովի ChatGPT հաշիվների քանակը՝ օգտատերերին դրդելով ավելի թանկ բաժանորդագրությունների։",
+        "source": 11,
+        "link": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT հաշիվների գրավում",
+        "summary": "Հաղորդվում է, որ հնարավոր է եղել գրավել ChatGPT հաշիվները, ինչը մտահոգություններ է առաջացնում հարթակի անվտանգության վերաբերյալ։",
+        "source": 12,
+        "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+        "outlet": "Simon Willison"
       }
     ],
     "releases": [],
     "trending": [
-      "Nanbeige/Nanbeige4.3-33B",
       "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "LiquidAI/LFM3-1.7B"
+      "LiquidAI/LFM3-1.7B",
+      "Nanbeige/Nanbeige4.3-33B"
     ]
   }
 ]
