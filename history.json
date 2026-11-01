@@ -12393,5 +12393,53 @@
       "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "LiquidAI/LFM3-1.7B"
     ]
+  },
+  {
+    "date": "2026-11-01",
+    "ts": 1793535289800,
+    "overview": "Այսօրվա նորությունները կենտրոնանում են արհեստական բանականության բիզնես մոդելների փոփոխությունների, նորարարական հետազոտությունների և կարգավորող մարտահրավերների վրա: Ընկերությունները շարունակում են հարմարվել AI-ի զարգացող լանդշաֆտին՝ բախվելով ինչպես տեխնոլոգիական, այնպես էլ էթիկական հարցերի:",
+    "items": [
+      {
+        "headline": "OpenAI-ը փոխում է ChatGPT-ի գնագոյացումը",
+        "summary": "OpenAI-ը միավորում է ChatGPT-ի Chat և Work ռեժիմները մեկ ինտերֆեյսում՝ դեկտեմբերից Plus, Pro և Business պլանների համար ներդնելով ընդհանուր, թոքենների վրա հիմնված քվոտա։",
+        "source": 3,
+        "link": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը մշակում է StreamVibe տեսա-AI",
+        "summary": "Google-ի գլխավորած հետազոտական թիմը ստեղծել է StreamVibe տեսա-գործակալը, որը նախատեսված է դիտելու մարդկանց աշխատանքը և օգնություն առաջարկելու միայն անհրաժեշտության դեպքում։",
+        "source": 2,
+        "link": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ի գործադիր տնօրենը AI-ի մասին",
+        "summary": "Apple-ի գործադիր տնօրենը պաշտպանել է ընկերության ներկայիս դիրքորոշումը արհեստական բանականության ոլորտում՝ նշելով, որ իրենք չեն ցանկանում AI-ն ներդնել հանուն AI-ի։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "NAACP-ի հայցը xAI-ի դեմ",
+        "summary": "Դատավորը թույլ է տվել NAACP-ի հայցը՝ ընդդեմ SpaceX-ին պատկանող xAI ընկերության, շարունակելու, որը մեղադրում է նրան Clean Air Act-ը խախտելու մեջ։",
+        "source": 8,
+        "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ի Claude մոդելների թերությունը",
+        "summary": "Anthropic-ը ընդլայնում է իր տեքստային ջրանիշը չորս Claude մոդելների համար՝ ԵՄ AI օրենքի դեկտեմբերյան վերջնաժամկետին համապատասխանելու համար, սակայն հին մոդելներում հայտնաբերվել է շրջանցման հնարավորություն։",
+        "source": 11,
+        "link": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "Nanbeige/Nanbeige4.3-33B",
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "LiquidAI/LFM3-1.7B"
+    ]
   }
 ]
