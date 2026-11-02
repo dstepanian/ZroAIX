@@ -12476,5 +12476,53 @@
       "LiquidAI/LFM3-1.7B",
       "Nanbeige/Nanbeige4.3-33B"
     ]
+  },
+  {
+    "date": "2026-11-02",
+    "ts": 1793628377930,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության գործակալների զարգացումը և դրանց ազդեցությունը արդյունաբերության վրա, ինչպես նաև ոլորտի խոշոր ներդրումներն ու քաղաքականության ձևավորման ջանքերը։",
+    "items": [
+      {
+        "headline": "Saudi Aramco-ն խոշոր ներդրում է կատարում AI ոլորտում",
+        "summary": "Saudi Aramco-ն 2.6 միլիարդ դոլարով 49 տոկոս բաժնեմաս է ձեռք բերել Humain արհեստական բանականության ընկերությունում՝ նպատակ ունենալով Սաուդյան Արաբիան դարձնել AI-ի համաշխարհային կենտրոն։",
+        "source": 7,
+        "link": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը նախապատրաստվում է լոբբինգի արշավի",
+        "summary": "OpenAI-ը նախապատրաստվում է քաղաքական լոբբինգի և հանրային կապերի լայնածավալ արշավի՝ ԱՄՆ-ի միջանկյալ ընտրություններից հետո։",
+        "source": 8,
+        "link": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Գործակալական վեբի (agentic web) ժամանումը",
+        "summary": "Համաշխարհային սարդոստայնի գյուտարար Թիմ Բերներս-Լիի կողմից 2001 թվականին առաջ քաշված «գործակալական վեբի» տեսլականը, որը նախատեսում է ինքնավար ծրագրային գործակալների կողմից կառավարվող ինտերնետ, այժմ իրականություն է դառնում։",
+        "source": 9,
+        "link": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Adobe-ն փորձարկում է AI գործակալների խմբագրման հմտությունները",
+        "summary": "Adobe Research-ը և UC San Diego-ն մշակել են EditAgent անունով AI համակարգ, որը պատկերներ է խմբագրում ավելի պրոֆեսիոնալ կերպով՝ ընտրելով ճիշտ մասնագիտացված գործիքներ յուրաքանչյուր խնդրի համար։",
+        "source": 19,
+        "link": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալների թոքենների օգտագործման նոր մոտեցում",
+        "summary": "Երբ AI գործակալին կոդավորման առաջադրանք է տրվում, այն կարող է 10-ից 50 անգամ ավելի շատ թոքեններ օգտագործել, քան սովորական չաթի հարցումը, քանի որ այն պլանավորում է, կոդ է ստեղծում, թեստեր է անցկացնում և ուղղում սխալները։",
+        "source": 4,
+        "link": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+        "outlet": "MIT Tech Review"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "LiquidAI/LFM3-1.7B",
+      "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+    ]
   }
 ]
