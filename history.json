@@ -12524,5 +12524,60 @@
       "LiquidAI/LFM3-1.7B",
       "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
     ]
+  },
+  {
+    "date": "2026-11-03",
+    "ts": 1793661309814,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի արագ զարգացումները և աճող մարտահրավերները՝ սկսած առաջադեմ AI հնարավորությունների մասին նախազգուշացումներից մինչև տվյալների օգտագործման, գործառնական ծախսերի և էներգետիկ ենթակառուցվածքների շուրջ գործնական մտահոգությունները։",
+    "items": [
+      {
+        "headline": "Anthropic-ը զգուշացնում է AI-ի ինքնակատարելագործման մասին",
+        "summary": "Anthropic ընկերությունը նախազգուշացրել է, որ իրենք մոտ են RSI (Recursive Self-Improvement) հնարավորությանը, որը նշանակում է, որ AI-ն կարող է ինքնուրույն արագացնել իր զարգացումը։",
+        "source": 3,
+        "link": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Goldman Sachs-ը սահմանափակում է AI գործիքները",
+        "summary": "Goldman Sachs-ը սահմանափակում է AI կոդավորման գործիքների, ինչպիսիք են Claude Code-ը և GitHub Copilot-ը, հասանելիությունը իր առևտրականների և բանկիրների համար՝ դրանք թողնելով միայն ինժեներների օգտագործմանը։",
+        "source": 8,
+        "link": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "New York Times-ը դատի է տվել Brave բրաուզերին",
+        "summary": "The New York Times-ը դատի է տվել Brave վեբ բրաուզերին՝ մեղադրելով հեղինակային իրավունքով պաշտպանված բովանդակությունը քերելու և այն Anthropic-ի ու Perplexity-ի նման հաճախորդներին ապօրինի բաշխելու մեջ։",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Elon Musk-ը սահմանափակում է Grok Bot-ի օգտագործումը",
+        "summary": "Elon Musk-ը հայտարարել է, որ Grok Bot-ի օգտագործման սահմանաչափերը կկրճատվեն՝ «անտանելիորեն բարձր» ծախսերի պատճառով, չնայած այն իր ամենաարագ աճող արտադրանքն էր։",
+        "source": 23,
+        "link": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը ներկայացնում է Grid Protectors ծրագիրը",
+        "summary": "OpenAI-ը ներկայացնում է իր «Grid Protectors Program»-ը, որը նպատակ ունի օգնել էներգետիկ ընկերություններին ապահովել ցանցի հուսալիությունը և պաշտպանել սպառողների էլեկտրաէներգիայի ծախսերը իրենց ապագա տվյալների կենտրոնների մոտ։",
+        "source": 26,
+        "link": "https://openai.com/index/grid-protectors-program",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "42AI-ը ներգրավել է 62.5 միլիոն դոլար",
+        "summary": "42AI ստարտափը դուրս է եկել ստելս ռեժիմից՝ ներգրավելով 62.5 միլիոն դոլար և ներկայացնելով «աշխարհի մոդել», որը կարող է կանխատեսել մարդկային վարքագիծը։",
+        "source": 21,
+        "link": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "LiquidAI/LFM3-1.7B",
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+    ]
   }
 ]
