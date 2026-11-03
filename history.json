@@ -12527,8 +12527,8 @@
   },
   {
     "date": "2026-11-03",
-    "ts": 1793661309814,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի արագ զարգացումները և աճող մարտահրավերները՝ սկսած առաջադեմ AI հնարավորությունների մասին նախազգուշացումներից մինչև տվյալների օգտագործման, գործառնական ծախսերի և էներգետիկ ենթակառուցվածքների շուրջ գործնական մտահոգությունները։",
+    "ts": 1793711552949,
+    "overview": "Այսօրվա նորությունները ընդգծում են աշխարհաքաղաքական լարվածության, մատակարարման շղթայի մարտահրավերների և էթիկական նկատառումների բարդ փոխազդեցությունը, որոնք ձևավորում են AI արդյունաբերությունը: AI-ի խոշոր ընկերությունները լուծում են անվտանգության և քաղաքականության հարցերը, մինչդեռ ներդրումները շարունակվում են AI-ի հասանելիության ոլորտում:",
     "items": [
       {
         "headline": "Anthropic-ը զգուշացնում է AI-ի ինքնակատարելագործման մասին",
@@ -12571,6 +12571,48 @@
         "source": 21,
         "link": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Huawei-ի AI չիպերի հիշողության խնդիրներ",
+        "summary": "Huawei-ն իր հաճախորդներին հորդորում է ինքնուրույն ձեռք բերել իր AI չիպերի համար անհրաժեշտ բարձր արդյունավետության հիշողությունը՝ դրանով իսկ նրանց մղելով սև շուկա:",
+        "source": 5,
+        "link": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ն սահմանափակում է չինական բիզնեսը",
+        "summary": "Nvidia-ն որոշ ամպային ծառայություններ մատուցող հաճախորդներին հանձնարարել է կրճատել չինական ընկերությունների հետ իրենց բիզնեսի ծավալները:",
+        "source": 2,
+        "link": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը բարձրացնում է անվտանգության պարգևները",
+        "summary": "OpenAI-ը քառապատկել է իր bug bounty ծրագրի վճարումները՝ հասցնելով մինչև 172,000 դոլար, քանի որ ընկերությունը ուժեղացնում է իր անվտանգության միջոցները:",
+        "source": 7,
+        "link": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը սահմանափակում է խաղերի կլոնավորումը",
+        "summary": "Anthropic-ը արգելափակում է իր Claude Code կոդավորման օգնականի կողմից գոյություն ունեցող տեսախաղերի վերստեղծումը՝ արհեստական բանականությամբ ստեղծված կրկնօրինակների ալիքից հետո:",
+        "source": 8,
+        "link": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Trajectory-ը 45 միլիոն դոլարի ներդրում է ստացել",
+        "summary": "Trajectory ստարտափը 45 միլիոն դոլարի ներդրում է ներգրավել՝ AI մոդելների ուսուցումը ոչ տեխնիկական մասնագետների համար հասանելի դարձնելու նպատակով:",
+        "source": 19,
+        "link": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ի գործընկերը ստեղծել է բոտնետ",
+        "summary": "Google-ը հայտարարել է, որ իր Android արտադրող գործընկերներից մեկը գաղտնի հետնադուռ է ներկառուցել 1.3 միլիոն սարքերում՝ դրանք վերածելով բոտնետի, և ընկերությունը խզել է կապերը արտադրողի հետ:",
+        "source": 23,
+        "link": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down",
+        "outlet": "The Verge"
       }
     ],
     "releases": [],
