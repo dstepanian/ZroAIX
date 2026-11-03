@@ -12621,5 +12621,60 @@
       "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "ts": 1793740880588,
+    "overview": "Այսօրվա նորությունները կարևորում են AI-ի հնարավորությունների զգալի առաջընթացը և դրա աճող ինտեգրումը խոշոր տեխնոլոգիական հարթակներում ու ռազմավարական ոլորտներում։ Ուշադրության կենտրոնում են նաև AI-ի շուկայական ազդեցության զարգացումները և տեխնոլոգիական հսկաների քաղաքական որոշումները։",
+    "items": [
+      {
+        "headline": "OpenAI-ի GPT-6 Astra-ն նախագծել է սարք",
+        "summary": "OpenAI-ը հայտարարել է, որ իր GPT-6 Astra ներքին մոդելը մեկ շաբաթից էլ քիչ ժամանակում զրոյից նախագծել է ապարատային սարք՝ ներառյալ պատյանը, տպագիր տպատախտակը և որոնված ծրագիրը։",
+        "source": 7,
+        "link": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ն մրցակցում է Google Search-ի հետ",
+        "summary": "OpenAI-ը հայտարարել է, որ ChatGPT-ի միջոցով իրականացվող որոնումների ծավալը հասել է Google Search-ի որոնումների ծավալի 20 տոկոսին՝ ընդգծելով AI-ի աճող դերը տեղեկատվության որոնման մեջ։",
+        "source": 14,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Fal AI ստարտափի գնահատումը կրկնապատկվել է",
+        "summary": "AI ինֆերենցիայի Fal ստարտափի գնահատումը կրկնապատկվել է՝ հասնելով 16 միլիարդ դոլարի՝ Bessemer-ի գլխավորած 1.3 միլիարդ դոլարի ներդրումային փուլի շնորհիվ, ինչը վկայում է ոլորտում աճող պահանջարկի մասին։",
+        "source": 11,
+        "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Apple-ը Siri-ին տալիս է երրորդ կողմի հավելվածների հասանելիություն",
+        "summary": "Apple-ը սկսել է Siri AI-ին հասանելիություն տալ երրորդ կողմի հավելվածներին՝ iOS 27.3 թարմացման շրջանակներում, ինչը թույլ կտա ձայնային օգնականին կատարել գործողություններ տարբեր հավելվածներում։",
+        "source": 6,
+        "link": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը նշանակել է բանակի նախկին քարտուղարի",
+        "summary": "OpenAI-ը որպես «Ազգային անվտանգության արդիականացման ավագ խորհրդական» աշխատանքի է ընդունել ԱՄՆ բանակի նախկին քարտուղար Դեն Դրիսքոլին՝ նպատակ ունենալով ամրապնդել կապերը կառավարության հետ և ձևավորել AI-ի կանոնները ռազմական ոլորտում։",
+        "source": 26,
+        "link": "https://the-decoder.com/openai-hires-ex-army-secretary-gaining-bipartisan-reach-just-as-midterms-loom/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը դպրոցներին առաջարկում է AI գործիքներից հրաժարվել",
+        "summary": "Google-ը դպրոցներին հնարավորություն է տալիս հրաժարվել իր AI գործիքներից, սակայն դա կնշանակի նաև Google Search-ի հասանելիության կորուստ, քանի որ AI գործառույթներն այժմ ինտեգրված են որոնողական համակարգում։",
+        "source": 17,
+        "link": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "LiquidAI/LFM3-1.7B",
+      "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    ]
   }
 ]
