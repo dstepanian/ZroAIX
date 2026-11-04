@@ -12718,5 +12718,69 @@
       "LiquidAI/LFM3-1.7B",
       "deepseek-ai/DeepSeek-V4.1-Flash-1017"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "ts": 1793828224634,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների հնարավորությունների և ենթակառուցվածքների զգալի առաջընթացը, ինչպես նաև խոշոր ձեռքբերումները AI կոդավորման ոլորտում։ Նկատելի է նաև զգալի ներդրում AI-ի վրա հիմնված կիբերանվտանգության մեջ։",
+    "items": [
+      {
+        "headline": "GPT-6 Astra-ն վերածրագրավորում է AI մոդելները",
+        "summary": "MIT-ի հետազոտողները ցույց են տվել, որ OpenAI-ի GPT-6 Astra մոդելը կարող է ուղղակիորեն կարդալ և վերագրել այլ AI մոդելների կշիռները՝ առանց ավանդական ուսուցման։",
+        "source": 27,
+        "link": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Daybreak Red-ը հասանելի է AWS GovCloud-ում",
+        "summary": "OpenAI-ի Daybreak Red մոդելը, որը ներառում է GPT-5.6 Cyber-ը, այժմ հասանելի է AWS GovCloud (US-East)-ում հաստատված հաճախորդներին՝ կիբերանվտանգության լիազորված աշխատանքների համար։",
+        "source": 35,
+        "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "OpenAI-ը ձեռք է բերում Pierre Computer Company-ն",
+        "summary": "OpenAI-ը ձեռք է բերում Pierre Computer Company-ն՝ ընդլայնելով Codex-ի գործիքները կոդի ստեղծման, հասկացման և վերանայման համար։",
+        "source": 30,
+        "link": "https://openai.com/index/openai-to-acquire-pierre",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Meta-ն ձեռք է բերում AI կոդավորման ստարտափ",
+        "summary": "Meta-ն ձեռք է բերել Conductor AI կոդավորման ստարտափը, որը թույլ է տալիս ծրագրային ապահովման ինժեներներին գործակալների թիմեր տեղակայել նախագծի տարբեր ասպեկտների վրա միաժամանակ աշխատելու համար։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ChatGPT-ն այժմ ստեղծում է անիմացիոն GIF-եր",
+        "summary": "ChatGPT-ն այժմ կարող է անիմացիոն GIF-եր ստեղծել տեքստային հրահանգներից կամ լուսանկարներից՝ օգտագործելով OpenAI-ի Images 2.6 մոդելը, ինչպես նաև կարգավորել արագությունը և առանձին կադրերը։",
+        "source": 7,
+        "link": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Ballistic Ventures-ը $490 մլն է փնտրում",
+        "summary": "Կիբերանվտանգության վրա կենտրոնացած Ballistic Ventures ընկերությունը ձգտում է հավաքել 490 միլիոն դոլար նոր հիմնադրամների համար՝ AI-ի կողմից պայմանավորված կիբերանվտանգության ոլորտի զարգացման ֆոնին։",
+        "source": 39,
+        "link": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Daybreak Red",
+        "note": "OpenAI-ի մոդելը հասանելի է AWS GovCloud-ում"
+      },
+      {
+        "name": "Images 2.6",
+        "note": "OpenAI-ի մոդելը ChatGPT-ում GIF-եր ստեղծելու համար"
+      }
+    ],
+    "trending": [
+      "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "LiquidAI/LFM3-1.7B"
+    ]
   }
 ]
