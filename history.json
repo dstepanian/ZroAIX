@@ -12624,8 +12624,8 @@
   },
   {
     "date": "2026-11-04",
-    "ts": 1793740880588,
-    "overview": "Այսօրվա նորությունները կարևորում են AI-ի հնարավորությունների զգալի առաջընթացը և դրա աճող ինտեգրումը խոշոր տեխնոլոգիական հարթակներում ու ռազմավարական ոլորտներում։ Ուշադրության կենտրոնում են նաև AI-ի շուկայական ազդեցության զարգացումները և տեխնոլոգիական հսկաների քաղաքական որոշումները։",
+    "ts": 1793798783478,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության աճող ինտեգրումը առօրյա ծառայություններում և դրա ազդեցությունը տեխնոլոգիական ընկերությունների ֆինանսական ցուցանիշների վրա։ Կարևորվում են նաև AI-ի անվտանգության և էթիկայի հետ կապված մարտահրավերները, ինչպես նաև դրա կիրառումը գիտական հետազոտություններում։",
     "items": [
       {
         "headline": "OpenAI-ի GPT-6 Astra-ն նախագծել է սարք",
@@ -12668,12 +12668,54 @@
         "source": 17,
         "link": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Google-ը դժվարանում է AI-ը դրամայնացնել",
+        "summary": "Google-ի մայր ընկերություն Alphabet-ը հայտնել է, որ որոնման հարցումների աճը հինգ տարվա մեջ ամենաարագն է եղել, սակայն որոնման եկամուտների աճը դանդաղել է մինչև 12 տոկոս՝ նախորդ եռամսյակի 17 տոկոսի համեմատ, քանի որ ընկերությունը դեռ չի գտել AI-ի դրամայնացման արդյունավետ ուղիներ։",
+        "source": 3,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը սահմանափակում է դպրոցների որոնումը",
+        "summary": "2027 թվականից Google-ը կանջատի իր AI գործառույթները դպրոցական արտադրանքներում, թույլ տալով դպրոցներին որոշել, թե ինչ միացնել, սակայն AI-ը ամբողջությամբ արգելափակող դպրոցները կկորցնեն նաև Google Search-ի հասանելիությունը՝ համակարգերի խորը փոխկապակցվածության պատճառով։",
+        "source": 6,
+        "link": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AMD-ի ռեկորդային եկամուտները տվյալների կենտրոններից",
+        "summary": "AMD-ի գործադիր տնօրեն Լիզա Սուն հայտարարել է, որ 2026 թվականի երրորդ եռամսյակը եղել է ընկերության պատմության մեջ «ամենամեծն ու ամենաշահութաբերը»՝ 13.4 միլիարդ դոլար եկամուտով, որի հիմնական շարժիչ ուժը եղել է տվյալների կենտրոնների բիզնեսը։",
+        "source": 7,
+        "link": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ը մշակում է AI մոդելների ինքնության համակարգ",
+        "summary": "Anthropic-ը մշակում է FlashProve անունով համակարգ, որը թույլ կտա ցանկացած մարդու ստուգել, թե արդյոք AI-ի պատասխանն իսկապես եկել է այն մոդելից, որից պնդում է, որ եկել է։",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI գործակալները SETI-ի աստղադիտակում",
+        "summary": "SETI ինստիտուտը և Breakthrough Listen-ն այժմ օգտագործում են AI գործակալներ Allen Telescope Array-ում՝ աստղադիտակը կառավարելու և մուտքային ռադիոազդանշանները վերլուծելու համար, ինչը թույլ է տալիս շաբաթներ տևող խնդիրներն ավարտել ժամերի ընթացքում։",
+        "source": 25,
+        "link": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը սահմանափակում է AI ուղեկից հավելվածները",
+        "summary": "Apple-ի App Store-ի նոր կանոնները կպահանջեն 18+ վարկանիշ սահմանել ժամադրությունների հավելվածների և AI ուղեկիցների համար, որոնք առաջարկում են սեռական կամ ռոմանտիկ բովանդակություն։",
+        "source": 29,
+        "link": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [],
     "trending": [
-      "LiquidAI/LFM3-1.7B",
       "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "LiquidAI/LFM3-1.7B",
       "deepseek-ai/DeepSeek-V4.1-Flash-1017"
     ]
   }
