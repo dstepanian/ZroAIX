@@ -12721,8 +12721,8 @@
   },
   {
     "date": "2026-11-05",
-    "ts": 1793828224634,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների հնարավորությունների և ենթակառուցվածքների զգալի առաջընթացը, ինչպես նաև խոշոր ձեռքբերումները AI կոդավորման ոլորտում։ Նկատելի է նաև զգալի ներդրում AI-ի վրա հիմնված կիբերանվտանգության մեջ։",
+    "ts": 1793886038266,
+    "overview": "Այսօրվա նորությունները կենտրոնացած են արհեստական բանականության ենթակառուցվածքների շարունակական ընդլայնման և դրանց հետ կապված մարտահրավերների, ինչպես նաև ոլորտի առաջատար ընկերությունների կարևոր քայլերի վրա։ Դրանք ներառում են ձեռքբերումներ, կադրային փոփոխություններ և պատասխանատու AI-ի վերաբերյալ քաղաքականություն։",
     "items": [
       {
         "headline": "GPT-6 Astra-ն վերածրագրավորում է AI մոդելները",
@@ -12765,6 +12765,48 @@
         "source": 39,
         "link": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Agility Robotics-ը Nasdaq-ում",
+        "summary": "Մարդանման ռոբոտների առաջատար արտադրող Agility Robotics-ը հանրային է դարձել՝ մուտք գործելով Nasdaq ֆոնդային բորսա։",
+        "source": 4,
+        "link": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը ձեռք է բերում Pierre Computer Company-ն",
+        "summary": "OpenAI-ը ձեռք է բերել Pierre Computer Company ստարտափը՝ ամրապնդելով իր ենթակառուցվածքը AI կոդավորման գործակալների համար։",
+        "source": 31,
+        "link": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի ղեկավարը տեղափոխվում է OpenAI",
+        "summary": "Claude Code-ի հիմնադիր արտադրանքի ղեկավար Քեթրին Վուն Anthropic-ից տեղափոխվում է OpenAI՝ ղեկավարելու «Core Products»-ի արտադրանքի կառավարումը։",
+        "source": 3,
+        "link": "https://the-decoder.com/anthropic-loses-product-lead-catherine-wu-behind-claude-code-to-openai/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ի պատասխանատու AI ենթակառուցվածքի քաղաքականություն",
+        "summary": "OpenAI-ը ներկայացրել է իր Ազգային Համայնքային Պայմանագիրը և Հաշվողական Կամպուսի Քաղաքականության Ծրագիրը՝ տեղական ռեսուրսները պաշտպանելու և պատասխանատու AI ենթակառուցվածքի զարգացումն ուղղորդելու համար։",
+        "source": 12,
+        "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Տեխասի AI տվյալների կենտրոնների մարտահրավերներ",
+        "summary": "Տեխասում AI տվյալների կենտրոնների կառուցման արագ աճը կարող է վտանգվել էներգետիկ քաղաքականության փոփոխությունների պատճառով։",
+        "source": 1,
+        "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Anthropic-ի ջրանիշի շրջանցում",
+        "summary": "Հաղորդվում է, որ Anthropic-ի տեքստային ջրանիշը հեշտությամբ շրջանցվում է Claude-ի որոշ հին մոդելներում՝ մեկ պարամետր փոփոխելով։",
+        "source": 28,
+        "link": "https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -12775,12 +12817,16 @@
       {
         "name": "Images 2.6",
         "note": "OpenAI-ի մոդելը ChatGPT-ում GIF-եր ստեղծելու համար"
+      },
+      {
+        "name": "Phonon TTS",
+        "note": "Բարձրորակ ձայնի սինթեզի մոդել սարքերի վրա"
       }
     ],
     "trending": [
-      "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "LiquidAI/LFM3-1.7B"
+      "moonshotai/Kimi-K3.1-Pro",
+      "speridlabs/idol",
+      "mistralai/Mistral-Large-4-1T-A52B"
     ]
   }
 ]
