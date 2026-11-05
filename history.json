@@ -12828,5 +12828,69 @@
       "speridlabs/idol",
       "mistralai/Mistral-Large-4-1T-A52B"
     ]
+  },
+  {
+    "date": "2026-11-06",
+    "ts": 1793914844248,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության մոդելների զարգացումը, ինչպես նաև ոլորտի ենթակառուցվածքների և ֆինանսավորման հետ կապված մարտահրավերները։ Տեսնում ենք նոր մոդելների թողարկումներ և կարևոր ձեռքբերումներ, բայց նաև բյուջետային կրճատումներ և տվյալների կենտրոնների շուրջ աճող դիմադրություն։",
+    "items": [
+      {
+        "headline": "OpenAI-ը ներկայացրել է GPT-6 Cyber-ը",
+        "summary": "OpenAI-ը թողարկել է GPT-6 Cyber նոր արհեստական բանականության մոդելը, որը նախատեսված է կիբերանվտանգության խոցելիություններ հայտնաբերելու և շտկումներ մշակելու համար։",
+        "source": 36,
+        "link": "https://openai.com/index/introducing-gpt-6-cyber",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Google-ի Gemini Omni 1.2 Flash-ի թարմացում",
+        "summary": "Google Deepmind-ը հանրությանն է ներկայացրել Gemini Omni 1.2 Flash-ի թարմացված տարբերակը, որն այժմ կարող է մինչև 15 վայրկյան տևողությամբ տեսահոլովակներ ստեղծել և 30 տոկոսով ավելի էժան է։",
+        "source": 8,
+        "link": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Baidu-ն թողարկել է ERNIE 5.5 Flash Base-ը",
+        "summary": "Baidu-ն թողարկել է ERNIE 5.5 Flash Base-ը՝ 280 միլիարդ պարամետր ունեցող բաց կոդով հիմնարար մոդել, որը նախապես մարզվել է 33.5 տրիլիոն թոքենների վրա։",
+        "source": 14,
+        "link": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Dropbox-ը ձեռք է բերել Tigris Data-ն",
+        "summary": "Dropbox-ը 350 միլիոն դոլարով ձեռք է բերել Tigris Data-ն՝ ամրապնդելու իր AI ենթակառուցվածքը և աջակցելու DBX Agent Cloud-ի մշակմանը։",
+        "source": 25,
+        "link": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Apple-ը կրճատում է AI բյուջեները",
+        "summary": "Հաղորդվում է, որ Apple-ը կրճատում է իր ներքին AI օգտագործման բյուջեները, ինչը արտացոլում է տեխնոլոգիական ընկերությունների շրջանում AI ծախսերի կրճատման ընդհանուր միտումը։",
+        "source": 31,
+        "link": "https://the-decoder.com/apple-slashes-internal-ai-budgets-with-deeper-cuts-still-planned/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն զգուշացնում է տվյալների կենտրոնների դեմ դիմադրության մասին",
+        "summary": "Meta-ն զգուշացնում է, որ տվյալների կենտրոնների դեմ աճող քաղաքական դիմադրությունը կարող է սպառնալ AI-ի ընդլայնման ապագա ներդրումներին։",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "GPT-6 Cyber",
+        "note": "OpenAI-ի նոր մոդել կիբերանվտանգության համար"
+      },
+      {
+        "name": "ERNIE 5.5 Flash Base",
+        "note": "Baidu-ի բաց կոդով հիմնարար մոդել"
+      }
+    ],
+    "trending": [
+      "moonshotai/Kimi-K3.1-Pro",
+      "speridlabs/idol",
+      "Pika-Labs/Pika-H3-Flex"
+    ]
   }
 ]
