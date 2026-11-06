@@ -12938,5 +12938,69 @@
       "speridlabs/idol",
       "ccore/Qwen3.5-4B-3D-Coder"
     ]
+  },
+  {
+    "date": "2026-11-07",
+    "ts": 1793999360584,
+    "overview": "Այսօրվա նորությունները կարևորում են AI ենթակառուցվածքների շարունակական ընդլայնումը՝ զուգահեռաբար AI մոդելների, արտադրանքի գործառույթների զարգացումներին և AI անվտանգության ու օգտատերերի տվյալների շուրջ քննարկումներին։",
+    "items": [
+      {
+        "headline": "AI տվյալների կենտրոնների ազդեցությունը",
+        "summary": "AI տվյալների կենտրոնների արագ ընդլայնումը հանգեցնում է էներգիայի սպառման, կոմունալ վճարների և շրջակա միջավայրի վրա դրանց ազդեցության շուրջ բանավեճերի ամբողջ աշխարհում։",
+        "source": 1,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Meta-ն հրաժարվում է AI տվյալների պայմաններից",
+        "summary": "Meta-ն հրաժարվել է Facebook-ի էջերի սեփականատերերին ստիպելուց թույլ տալ AI մոդելների ուսուցումը կապված բովանդակության վրա՝ հետ քաշվելով իր նախնական պլաններից։",
+        "source": 10,
+        "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ի AI զարգացման արագացում",
+        "summary": "METR ոչ առևտրային կազմակերպությունը պարզել է, որ Anthropic-ի մոդելների մշակման տեմպերը կրկնապատկվել են, որի մոտ 80 տոկոսը պայմանավորված է AI-ի օգնությամբ իրականացվող հետազոտություններով։",
+        "source": 24,
+        "link": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Inkling 2 Small նոր AI մոդել",
+        "summary": "Thinking Machines ստարտափը, որը հիմնադրվել է OpenAI-ի նախկին CTO Միրա Մուրատիի կողմից, թողարկում է Inkling 2 Small-ը՝ 594 միլիարդ պարամետր ունեցող խառը փորձագետների մոդել, որը հայտարարվում է որպես ամենաուժեղ արևմտյան բաց կշռային մոդել։",
+        "source": 25,
+        "link": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude-ը բանկային հաշիվների հասանելիություն",
+        "summary": "Anthropic-ը Claude-ում ներկայացնում է Personal Finance նոր գործառույթը, որը թույլ է տալիս օգտատերերին կապել իրենց բանկային և քարտային հաշիվները՝ ֆինանսների վերաբերյալ հարցեր տալու համար։",
+        "source": 29,
+        "link": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Palo Alto Networks-ը ձեռք է բերում Clutch-ը",
+        "summary": "Palo Alto Networks-ը բանակցություններ է վարում AI գործակալների անվտանգության Clutch ստարտափը 500 միլիոն դոլարով ձեռք բերելու շուրջ։",
+        "source": 32,
+        "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Inkling 2 Small",
+        "note": "Նոր բաց կշռային AI մոդել"
+      },
+      {
+        "name": "Ripple-65B Preview",
+        "note": "Նոր բաց կոդով լեզվական մոդել"
+      }
+    ],
+    "trending": [
+      "moonshotai/Kimi-K3.1-Pro",
+      "speridlabs/idol",
+      "ccore/Qwen3.5-4B-3D-Coder"
+    ]
   }
 ]
