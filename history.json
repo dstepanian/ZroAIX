@@ -12831,8 +12831,8 @@
   },
   {
     "date": "2026-11-06",
-    "ts": 1793914844248,
-    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության մոդելների զարգացումը, ինչպես նաև ոլորտի ենթակառուցվածքների և ֆինանսավորման հետ կապված մարտահրավերները։ Տեսնում ենք նոր մոդելների թողարկումներ և կարևոր ձեռքբերումներ, բայց նաև բյուջետային կրճատումներ և տվյալների կենտրոնների շուրջ աճող դիմադրություն։",
+    "ts": 1793971501441,
+    "overview": "Օրվա նորությունները ընդգծում են AI մոդելների զգալի առաջընթացները, ինչպես նաև էթիկական հետևանքների և ոլորտի դինամիկայի շուրջ կարևոր քննարկումները։",
     "items": [
       {
         "headline": "OpenAI-ը ներկայացրել է GPT-6 Cyber-ը",
@@ -12875,6 +12875,48 @@
         "source": 6,
         "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը ներկայացնում է GPT-6 Cyber-ը",
+        "summary": "OpenAI-ը ներկայացրել է GPT-6 Cyber նոր AI մոդելը, որը նախատեսված է համակարգերում անվտանգության խոցելիություններ հայտնաբերելու, շահագործումներ մշակելու և շտկումներ առաջարկելու համար։",
+        "source": 21,
+        "link": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի IPO-ն դժվարությունների է հանդիպում",
+        "summary": "Anthropic-ի նախատեսվող IPO-ն դժվարությունների է հանդիպել, քանի որ ներդրողները դժգոհում են 1.5 տրիլիոն դոլար գնահատումից՝ տեխնոլոգիական շուկայի անկման պայմաններում։",
+        "source": 8,
+        "link": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT-ի կիրառումը սպանության պլանավորման համար",
+        "summary": "Հայց է ներկայացվել, որում պնդվում է, թե մի կին օգտագործել է ChatGPT-ն՝ իր ամուսնու սպանությունը պլանավորելու համար, ինչը բարձրացնում է AI-ի էթիկական և իրավական հետևանքների շուրջ մտահոգությունները։",
+        "source": 20,
+        "link": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ը հրաժարվում է NDA-ներից",
+        "summary": "OpenAI-ը հայտարարել է, որ հրաժարվում է գաղտնիության մասին համաձայնագրերից (NDA) հանրային պաշտոնյաների հետ՝ իր տվյալների կենտրոնների նախագծերի շուրջ համայնքների հետ հարաբերություններում։",
+        "source": 13,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Meta-ն ձեռք է բերում AI կոդավորման ստարտափ",
+        "summary": "Meta-ն ձեռք է բերել AI կոդավորման Conductor ստարտափը, որը թույլ է տալիս ծրագրավորողներին կառավարել բազմաթիվ AI կոդավորման գործակալներ, ինչը ցույց է տալիս խոշոր տեխնոլոգիական ընկերությունների մրցավազքը ծրագրավորողներին ներգրավելու համար։",
+        "source": 33,
+        "link": "https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Tencent-ը թողարկում է Hy4 մոդելը",
+        "summary": "Tencent-ը ներկայացրել է Hy4-ը՝ իր առաջին բազմամոդալ լեզվական մոդելը, որը հասկանում է պատկերներ և կարող է ինքնուրույն աշխատել ծրագրային ապահովման հետ՝ դառնալով երկրորդը չինական AI մոդելների շարքում։",
+        "source": 32,
+        "link": "https://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -12885,12 +12927,16 @@
       {
         "name": "ERNIE 5.5 Flash Base",
         "note": "Baidu-ի բաց կոդով հիմնարար մոդել"
+      },
+      {
+        "name": "Hy4",
+        "note": "Tencent-ի առաջին բազմամոդալ լեզվական մոդելը"
       }
     ],
     "trending": [
       "moonshotai/Kimi-K3.1-Pro",
       "speridlabs/idol",
-      "Pika-Labs/Pika-H3-Flex"
+      "ccore/Qwen3.5-4B-3D-Coder"
     ]
   }
 ]
