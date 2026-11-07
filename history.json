@@ -12941,8 +12941,8 @@
   },
   {
     "date": "2026-11-07",
-    "ts": 1794052951072,
-    "overview": "Այսօրվա լուրերը ցույց են տալիս արհեստական բանականության ոլորտում զգալի ներդրումների շարունակությունը և նոր մոդելների մշակումը, մինչդեռ միևնույն ժամանակ ընդգծվում են այդ տեխնոլոգիաների կիրառման հետ կապված մարտահրավերները և կարգավորման անհրաժեժմությունը:",
+    "ts": 1794080606578,
+    "overview": "Այսօրվա նորությունները շեշտում են AI արդյունաբերության շարունակական ֆինանսական ակտիվությունը՝ OpenAI-ի և Anthropic-ի զգալի գնահատումներով և ֆինանսավորմամբ։ Միաժամանակ, ուշադրության կենտրոնում են AI մոդելների հնարավորությունների զարգացումները կիբերանվտանգության ոլորտում և չինական AI մոդելներում քարոզչական կողմնակալության հեռացման հնարավորությունները։",
     "items": [
       {
         "headline": "AI տվյալների կենտրոնների ազդեցությունը",
@@ -13027,6 +13027,48 @@
         "source": 15,
         "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ի գնահատումը և Anthropic-ի IPO-ն",
+        "summary": "Bloomberg-ի տվյալներով՝ OpenAI-ն գնահատվել է 1.25 տրիլիոն դոլար՝ նոր ֆինանսավորման փուլում, որը ներգրավել է ևս 11 միլիարդ դոլար, մինչդեռ մրցակից Anthropic-ը մոտենում է իր IPO-ին։",
+        "source": 17,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ը շարունակում է IPO-ի պլանները",
+        "summary": "Չնայած տեխնոլոգիական շուկայի անկմանը, Anthropic-ը շարունակում է իր IPO-ի պլանները՝ 1.25-ից 1.75 տրիլիոն դոլար գնահատմամբ, ինչը ցածր է սկզբնական սպասումներից։",
+        "source": 1,
+        "link": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ-ի կողմից Nvidia-ի չիպերի վաճառքը Չինաստանին",
+        "summary": "Մտահոգություններ են բարձրացվում, որ ԱՄՆ Առևտրի դեպարտամենտը և Nvidia-ն պատշաճ ջանասիրություն չեն ցուցաբերում չինական ընկերությունների ստուգման հարցում, որոնք թույլտվություն ունեն գործելու Nvidia H200 AI չիպերի հետ, քանի որ New Matrix ընկերության գրասենյակները դատարկ են։",
+        "source": 8,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը գնում է Crusoe-ի տվյալների կենտրոնը",
+        "summary": "Crusoe-ն վաճառել է իր դժվարությունների հանդիպած Վայոմինգի տվյալների կենտրոնի նախագիծը Google-ին, ինչը ընդգծում է AI տվյալների զանգվածային կենտրոններ մշակելու մարտահրավերները։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Բաց և փակ AI մոդելների հնարավորությունները կիբերանվտանգության մեջ",
+        "summary": "Vals AI-ի չափորոշիչներով, OpenAI-ի GPT-6 Sol Daybreak-ը հասնում է հարձակման նպատակների 80.8 տոկոսին սիմուլյացված կորպորատիվ ցանցերում, մինչդեռ բաց կոդով DeepSeek V4.1 Flash մոդելը հասնում է 72.8 տոկոսի՝ տասն անգամ ավելի ցածր արժեքով։",
+        "source": 9,
+        "link": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինական AI մոդելների քարոզչության հեռացումը",
+        "summary": "Nous Research-ը վերապատրաստել է Alibaba-ի Qwen3.8-27B մոդելը՝ ստեղծելով Arete-27B-ը, որը զգալիորեն զրկված է իր չինամետ կողմնակալությունից, ինչը ցույց է տալիս, որ քաղաքական կողմնակալությունը կարող է հեռացվել նուրբ կարգավորումների միջոցով։",
+        "source": 13,
+        "link": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
