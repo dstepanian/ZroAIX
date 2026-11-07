@@ -12941,8 +12941,8 @@
   },
   {
     "date": "2026-11-07",
-    "ts": 1793999360584,
-    "overview": "Այսօրվա նորությունները կարևորում են AI ենթակառուցվածքների շարունակական ընդլայնումը՝ զուգահեռաբար AI մոդելների, արտադրանքի գործառույթների զարգացումներին և AI անվտանգության ու օգտատերերի տվյալների շուրջ քննարկումներին։",
+    "ts": 1794052951072,
+    "overview": "Այսօրվա լուրերը ցույց են տալիս արհեստական բանականության ոլորտում զգալի ներդրումների շարունակությունը և նոր մոդելների մշակումը, մինչդեռ միևնույն ժամանակ ընդգծվում են այդ տեխնոլոգիաների կիրառման հետ կապված մարտահրավերները և կարգավորման անհրաժեժմությունը:",
     "items": [
       {
         "headline": "AI տվյալների կենտրոնների ազդեցությունը",
@@ -12985,6 +12985,48 @@
         "source": 32,
         "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը հավաքել է 11 միլիարդ դոլար",
+        "summary": "OpenAI-ը հավաքել է 11 միլիարդ դոլար լրացուցիչ ֆինանսավորում՝ ընկերության գնահատումը հասցնելով 1.25 տրիլիոն դոլարի, ինչը վկայում է AI ոլորտում աճող ներդրումների մասին:",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ի AI-ն կարող է հայտնաբերել բարձր արյան ճնշումը",
+        "summary": "Google Research-ի կողմից մշակված արհեստական բանականությունը կարող է հայտնաբերել բարձր արյան ճնշման նշանները՝ օգտագործելով սմարթ ժամացույցի սենսորները՝ առանց կուֆի:",
+        "source": 2,
+        "link": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինաստանը փորձել է լրտեսել Nvidia-ի ղեկավարին",
+        "summary": "Ըստ The New York Times-ի՝ Չինաստանի հետախուզական ծառայությունը փորձել է լրտեսել Nvidia-ի գործադիր տնօրեն Ջենսեն Հուանգին՝ տեղեկություններ ստանալու ամերիկյան AI չիպերի վերաբերյալ:",
+        "source": 6,
+        "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Նոր AI մոդել՝ Ripple-65B Preview",
+        "summary": "Ricursive Intelligence-ը թողարկել է Ripple-65B Preview՝ 65 միլիարդ պարամետրով բաց կոդով AI մոդել, որը ցույց է տալիս ուժեղ արդյունքներ ծրագրավորման թեստերում:",
+        "source": 10,
+        "link": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI գործակալները ձախողվել են հետազոտական առաջադրանքներում",
+        "summary": "Ինը AI գործակալներ չեն կարողացել հաջողությամբ կատարել ԱՄՆ ազգային լաբորատորիաների կողմից առաջադրված բաց հետազոտական հարցերը՝ չհամապատասխանելով փորձագետների պահանջներին:",
+        "source": 1,
+        "link": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն ներկայացրել է Spaces նոր համագործակցային գործառույթը",
+        "summary": "Meta-ն ներկայացրել է Spaces նոր գործառույթը իր Muse AI օգնականի համար, որը թույլ է տալիս օգտատերերին ստեղծել անհատականացված, հավելվածանման միջավայրեր:",
+        "source": 15,
+        "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
@@ -12995,11 +13037,15 @@
       {
         "name": "Ripple-65B Preview",
         "note": "Նոր բաց կոդով լեզվական մոդել"
+      },
+      {
+        "name": "Meta Spaces",
+        "note": "Muse AI-ի համար նոր համագործակցային միջավայր"
       }
     ],
     "trending": [
-      "moonshotai/Kimi-K3.1-Pro",
       "speridlabs/idol",
+      "moonshotai/Kimi-K3.1-Pro",
       "ccore/Qwen3.5-4B-3D-Coder"
     ]
   }
