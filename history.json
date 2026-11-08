@@ -13090,5 +13090,60 @@
       "moonshotai/Kimi-K3.1-Pro",
       "ccore/Qwen3.5-4B-3D-Coder"
     ]
+  },
+  {
+    "date": "2026-11-09",
+    "ts": 1794168138296,
+    "overview": "Այսօրվա նորությունները լուսաբանում են AI-ի զարգացման տարբեր ասպեկտներ՝ սկսած Apple-ի AI ռազմավարությունից և AI երաժշտության շուրջ իրավական մարտահրավերներից, մինչև AI գործակալների գործնական սահմանափակումները և արհեստական բանականության փիլիսոփայական քննարկումները։",
+    "items": [
+      {
+        "headline": "Apple-ը արագացնում է Siri-ի AI զարգացումը",
+        "summary": "Bloomberg-ի զեկույցի համաձայն՝ Apple-ը ճնշում է գործադրում արագացնելու Siri-ի AI ճանապարհային քարտեզը՝ մրցակցելու OpenAI-ի և Meta-ի հետ։",
+        "source": 1,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Suno-ի դեմ հայցեր՝ հեղինակային իրավունքի համար",
+        "summary": "Elvis Presley-ի և Eminem-ի երաժշտության իրավատերերը դատի են տվել AI երաժշտական Suno ընկերությանը՝ պնդելով, որ այն ապօրինի կերպով ստեղծում է իրենց արտիստներին նմանակող երաժշտություն և բառեր։",
+        "source": 2,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI գիտակցության շուրջ բանավեճը",
+        "summary": "Գիտակցության հետազոտողները պնդում են, որ AI համակարգերը գիտակից չեն և չեն դառնա այդպիսին սիլիցիումի վրա, քանի որ գիտակցությունը միայն հաշվարկից կախված չէ։",
+        "source": 6,
+        "link": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "LLM-ների մասշտաբայնացման դասեր",
+        "summary": "Թյուրինգի մրցանակակիր Ռիչարդ Սաթոնը վերահաստատում է, որ հաշվողական հզորությունը բավարար չէ բանականության համար, և անհրաժեշտ են սովորելու նոր մեթոդներ։",
+        "source": 8,
+        "link": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI կոդավորող գործակալների սահմանափակումները",
+        "summary": "Alibaba-ի նոր Co-Design Bench թեստը ցույց է տվել, որ AI կոդավորող գործակալները, նույնիսկ GPT-6 Astra-ն, իրական առաջադրանքների գրեթե երեք քառորդի համար դեռ մարդկային միջամտության կարիք ունեն։",
+        "source": 9,
+        "link": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ի գործադիր տնօրենի լրտեսության մեղադրանք",
+        "summary": "ԱՄՆ հետախուզության զեկույցի համաձայն՝ չինական պետական անվտանգության նախարարությունը հավաքագրել է տեխնոլոգիական գործադիրի՝ լրտեսելու Nvidia-ի գործադիր տնօրենին։",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "speridlabs/idol",
+      "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "moonshotai/Kimi-K3.1-Pro"
+    ]
   }
 ]
