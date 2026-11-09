@@ -13093,8 +13093,8 @@
   },
   {
     "date": "2026-11-09",
-    "ts": 1794168138296,
-    "overview": "Այսօրվա նորությունները լուսաբանում են AI-ի զարգացման տարբեր ասպեկտներ՝ սկսած Apple-ի AI ռազմավարությունից և AI երաժշտության շուրջ իրավական մարտահրավերներից, մինչև AI գործակալների գործնական սահմանափակումները և արհեստական բանականության փիլիսոփայական քննարկումները։",
+    "ts": 1794235070752,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս AI ոլորտի բազմազան զարգացումները՝ սկսած նորարարական սարքավորումներից և հարթակներից մինչև կարևոր քննարկումներ դրա էթիկական և կլիմայական ազդեցությունների շուրջ։ Ուշադրության կենտրոնում են նաև արդյունաբերության առաջատարների շուրջ ծագած խնդիրները և դրանց հնարավոր հետևանքները։",
     "items": [
       {
         "headline": "Apple-ը արագացնում է Siri-ի AI զարգացումը",
@@ -13137,9 +13137,53 @@
         "source": 12,
         "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
         "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Automattic-ը ներկայացնում է Spacefast հարթակը",
+        "summary": "Automattic ընկերությունը գործարկել է Spacefast անունով նոր հարթակ՝ նպատակ ունենալով մրցակցել Lovable-ի նման ընկերությունների հետ՝ ինտերնետի փոփոխվող միջավայրում vibe coding հավելվածներ տեղակայելու համար։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ը թողարկում է նոր TPU տարբերակներ",
+        "summary": "Google-ն ընդլայնում է իր TPU 8 ընտանիքը երկու մասնագիտացված տարբերակներով՝ TPU 8tx-ը և TPU 8i Max-ը, ուժեղացնելով մրցակցությունը Nvidia-ի հետ՝ իր ներքին չիպերը որպես այլընտրանք դիրքավորելով։",
+        "source": 5,
+        "link": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Instagram-ի AI տարիքի հայտնաբերումը գլոբալ է",
+        "summary": "Meta-ն գլոբալ կերպով ընդլայնում է Instagram-ում տարիքի գնահատման իր AI տեխնոլոգիան՝ դեռահասներին պաշտպանելու համար, ովքեր ճիշտ չեն հայտնել իրենց տարիքը։",
+        "source": 7,
+        "link": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Nvidia-ի գործադիր տնօրենի սկանդալը թուլացնում է լոբբինգը",
+        "summary": "Nvidia-ի գործադիր տնօրեն Ջենսեն Հուանգի շուրջ սկանդալը, որը կապված է չինացի լրտեսի հետ ենթադրյալ հարաբերությունների հետ, թուլացնում է նրա ջանքերը՝ կանխելու AI չիպերի արտահանման ավելի խիստ վերահսկողությունը։",
+        "source": 8,
+        "link": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի կլիմայական պնդումները հիմնավորված չեն",
+        "summary": "MIT Tech Review-ի կարծիքով, արհեստական ​​ինտելեկտի կլիմայական դրական ազդեցության վերաբերյալ պնդումները դեռևս հիմնավորված չեն, չնայած ՄԱԿ-ի կլիմայական համաժողովում այս թեմայի շուրջ քննարկումներին։",
+        "source": 10,
+        "link": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+        "outlet": "MIT Tech Review"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "TPU 8tx",
+        "note": "Google-ի նոր չիպ՝ գաղտնի տվյալների մշակման համար"
+      },
+      {
+        "name": "TPU 8i Max",
+        "note": "Google-ի հզորացված չիպ՝ կրկնակի հաշվողական ուժով"
+      }
+    ],
     "trending": [
       "speridlabs/idol",
       "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
