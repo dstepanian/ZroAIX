@@ -13189,5 +13189,69 @@
       "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
       "moonshotai/Kimi-K3.1-Pro"
     ]
+  },
+  {
+    "date": "2026-11-10",
+    "ts": 1794268429382,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների թողարկման և հնարավորությունների զգալի զարգացումները, ինչպես նաև աճող մտահոգությունները AI-ի անվտանգության, ազգային անվտանգության հետևանքների և ոլորտի էներգիայի պահանջարկի վերաբերյալ։",
+    "items": [
+      {
+        "headline": "Nvidia-ի Գործադիր Տնօրենի Սկանդալը",
+        "summary": "Nvidia-ն հետաքննում է, թե արդյոք իր գործադիր տնօրեն Jensen Huang-ի անձնական հարաբերությունները չինական հետախուզության կողմից թիրախավորման արդյունք են դարձել՝ ազգային անվտանգության խնդիրներ առաջացնելով։",
+        "source": 29,
+        "link": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Anthropic-ը Ներկայացնում է Նոր Մոդելներ",
+        "summary": "Anthropic-ը թողարկում է իր ամենահզոր մոդելները՝ Claude Fable 5.2-ը և Mythos 5.2-ը, որոնք լուծում են բաց ֆիզիկայի խնդիրներ, ցուցաբերում են կիբերանվտանգության ավելի ուժեղ հնարավորություններ և նախագծում գործող օպերացիոն համակարգեր։",
+        "source": 8,
+        "link": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն Թողարկում է Muse Ember-ը",
+        "summary": "Meta-ն ներկայացնում է Muse Ember-ը՝ իր ամենափոքր և ամենաարդյունավետ AI մոդելը, որը օպտիմիզացված է գործակալների կրկնվող առաջադրանքների համար, ինչպիսիք են գործիքների կանչերը, երթուղիավորումը և տվյալների արդյունահանումը։",
+        "source": 11,
+        "link": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ-ում AI Կարգավորման Նոր Շարժ",
+        "summary": "Ներկայացուցիչների պալատի նախկին խոսնակ Nancy Pelosi-ի տեղը զբաղեցրած Scott Wiener-ը, ով նախկինում Կալիֆոռնիայի նահանգային սենատոր էր, պատրաստ է կարևոր դեր խաղալ դաշնային AI քաղաքականության մշակման գործում։",
+        "source": 24,
+        "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "Anthropic-ը Ներդրում է Կատարում Էներգիայում",
+        "summary": "Anthropic-ը միլիարդավոր դոլարների բնական գազի տուրբիններ է գնել՝ ընդգծելով արհեստական բանականության համակարգերի աճող էներգիայի պահանջարկը։",
+        "source": 25,
+        "link": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Tencent-ը Զգուշացնում է AI Կենսազենքերի Մասին",
+        "summary": "Tencent-ի AI գլխավոր գիտնական Vinces Yao Shunyu-ն զգուշացնում է, որ AI-ն շուտով կկարողանա մշակել կենսազենքեր և առաջարկում է միջանկյալ լուծում բաց և փակ մոդելների միջև՝ անվտանգության նկատառումներից ելնելով։",
+        "source": 28,
+        "link": "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Claude Fable 5.2 and Mythos 5.2",
+        "note": "Anthropic-ի նոր հզոր AI մոդելներ"
+      },
+      {
+        "name": "Muse Ember",
+        "note": "Meta-ի նոր փոքր և արդյունավետ AI մոդել"
+      }
+    ],
+    "trending": [
+      "speridlabs/idol",
+      "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "moonshotai/Kimi-K3.1-Pro"
+    ]
   }
 ]
