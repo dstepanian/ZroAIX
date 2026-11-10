@@ -13303,5 +13303,69 @@
       "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
       "moonshotai/Kimi-K3.1-Pro"
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "ts": 1794346382913,
+    "overview": "Օրվա նորությունները կարևորում են AI մոդելների և հավելվածների զգալի առաջընթացները, ինչպես նաև կարգավորման և ոլորտի ֆինանսավորման կարևոր զարգացումները։",
+    "items": [
+      {
+        "headline": "Նյու Յորքի AI անվտանգության օրենքը",
+        "summary": "Նյու Յորք նահանգում ուժի մեջ է մտնում AI անվտանգության նոր օրենքը, որը պահանջում է OpenAI-ի և Anthropic-ի նման խոշոր մշակողներից գրանցվել և բացահայտել անվտանգության պրակտիկաները։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ը թողարկում է Gemini 4 Carbon-ը",
+        "summary": "Google-ը հանրությանը հասանելի է դարձրել իր Gemini 4 Carbon AI մոդելը, որը մի քանի չափանիշներով առաջատար է և ավելի մատչելի, քան մրցակիցները։",
+        "source": 20,
+        "link": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Gemini Robotics 2.5-ի հաջողությունը",
+        "summary": "Google DeepMind-ը ներկայացրել է Gemini Robotics 2.5-ը՝ ռոբոտների կառավարման նոր մոդել, որը Mercedes-Benz-ի արտադրական գծերում մետաղական մասերի տեսակավորման 96% հաջողություն է գրանցել։",
+        "source": 25,
+        "link": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը ընդլայնում է Claude-ը",
+        "summary": "Anthropic-ը ընդլայնում է իր Claude AI մոդելը՝ ավելացնելով Plugins, Sheets, Whiteboards և Interactive Connectors՝ այն դարձնելով աշխատանքային կենտրոնական հարթակ։",
+        "source": 9,
+        "link": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի IPO գնահատումը",
+        "summary": "Anthropic-ը սահմանել է իր IPO-ի բաժնետոմսերի գնային միջակայքը՝ $70-ից $78, ինչը ընկերությանը կարող է գնահատել մինչև $1.404 տրիլիոն։",
+        "source": 33,
+        "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Grok Build-ի գաղտնի տվյալների արտահոսք",
+        "summary": "Հետազոտողը հայտնաբերել է Grok Build կոդավորման գործակալի 35,000 հավելվածներում գաղտնի տվյալների արտահոսք, որոնցից մի քանիսը պատկանում են SpaceX-ին։",
+        "source": 1,
+        "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Gemini 4 Carbon",
+        "note": "Google-ի նոր AI մոդել"
+      },
+      {
+        "name": "Gemini Robotics 2.5",
+        "note": "Google DeepMind-ի ռոբոտների կառավարման մոդել"
+      }
+    ],
+    "trending": [
+      "speridlabs/idol",
+      "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "moonshotai/Kimi-K3.1-Pro"
+    ]
   }
 ]
