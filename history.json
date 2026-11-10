@@ -13192,8 +13192,8 @@
   },
   {
     "date": "2026-11-10",
-    "ts": 1794268429382,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI մոդելների թողարկման և հնարավորությունների զգալի զարգացումները, ինչպես նաև աճող մտահոգությունները AI-ի անվտանգության, ազգային անվտանգության հետևանքների և ոլորտի էներգիայի պահանջարկի վերաբերյալ։",
+    "ts": 1794318928204,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության անվտանգության և կարգավորման շուրջ միջազգային ջանքերը, ինչպես նաև նոր մոդելների թողարկումները և ոլորտի կարևոր զարգացումները։",
     "items": [
       {
         "headline": "Nvidia-ի Գործադիր Տնօրենի Սկանդալը",
@@ -13236,6 +13236,48 @@
         "source": 28,
         "link": "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI անվտանգության Փարիզյան հռչակագիր",
+        "summary": "Ութ երկրներ և առաջատար AI լաբորատորիաներ, ներառյալ OpenAI-ը և Anthropic-ը, ստորագրել են «AI անվտանգության և պաշտպանության Փարիզյան կոչը», որը պարտավորեցնում է ընկերություններին ներդնել անջատման մեխանիզմներ և անկախ աուդիտներ։",
+        "source": 1,
+        "link": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը նախապատրաստվում է IPO-ի",
+        "summary": "Anthropic-ը սկսում է իր IPO-ի ճանապարհային շոուն՝ նպատակ ունենալով մինչև 1.02 տրիլիոն դոլարի գնահատում և 26 միլիարդ դոլարի մասնավոր տեղաբաշխում Google-ի, Nvidia-ի և Microsoft-ի հետ։",
+        "source": 8,
+        "link": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը թողարկում է նոր մոդելներ",
+        "summary": "Anthropic-ը ներկայացրել է Mythos և Fable նոր մոդելները, որոնք բարելավումներ են ցուցաբերում կոդավորման, դատողության և տեսողության ոլորտներում, ինչպես նաև օգտատերերի հետ ավելի հստակ հաղորդակցվելու հարցում։",
+        "source": 31,
+        "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Bytedance-ի Seedream 5.5 պատկերային մոդել",
+        "summary": "Bytedance Seed-ը ներկայացրել է Seedream 5.5 պատկերային մոդելը, որը նախատեսված է պրոֆեսիոնալ արտադրական աշխատանքների համար և ապահովում է կայուն բազմակի խմբագրում մինչև 100 կրկնություն։",
+        "source": 33,
+        "link": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Claude Code-ը բացահայտում է գաղտնիքներ",
+        "summary": "Հաղորդվում է, որ Claude Code-ը պատահաբար բացահայտում է գաղտնի տվյալներ, ներառյալ գաղտնաբառեր և API բանալիներ GitHub-ում՝ «Do not ask again» հուշման պատճառով։",
+        "source": 36,
+        "link": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Nvidia-ի Չինաստանի հավակնությունները վտանգի տակ",
+        "summary": "Jensen Huang-ի ենթադրյալ սիրավեպը չինացի լրտեսի հետ ստուգման տակ է դնում Nvidia-ի լոբբինգի ջանքերը՝ թուլացնելու ԱՄՆ չիպերի արտահանման սահմանափակումները և պահպանելու մուտքը Չինաստանի AI շուկա։",
+        "source": 34,
+        "link": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -13246,6 +13288,14 @@
       {
         "name": "Muse Ember",
         "note": "Meta-ի նոր փոքր և արդյունավետ AI մոդել"
+      },
+      {
+        "name": "Mythos and Fable",
+        "note": "Anthropic-ի նոր AI մոդելներ"
+      },
+      {
+        "name": "Seedream 5.5",
+        "note": "Bytedance-ի նոր պատկերային մոդել"
       }
     ],
     "trending": [
