@@ -13413,5 +13413,65 @@
       "speridlabs/idol",
       "moonshotai/Kimi-K3.1-Pro"
     ]
+  },
+  {
+    "date": "2026-11-12",
+    "ts": 1794435712231,
+    "overview": "Այսօրվա նորությունները կարևոր ֆինանսական տեղաշարժեր են ընդգծում AI ոլորտում՝ խոշոր ներդրումներով և եկամտի նշանակալի աճով։ Միաժամանակ, հայտնվում են նոր AI մոդելներ և կիրառություններ, ինչպես նաև աճում են մտահոգությունները տվյալների անվտանգության և աշխարհաքաղաքական հետևանքների վերաբերյալ։",
+    "items": [
+      {
+        "headline": "Google Deepmind-ը ներկայացրել է Gemini Decision 1 API-ը",
+        "summary": "Google Deepmind-ը թողարկել է Gemini Decision 1 API-ը, որը կարող է մեկ անգամից գնահատել մինչև 1000 փակ հարցեր՝ տեքստի, պատկերների, աուդիոյի և վիդեոյի միջոցով։",
+        "source": 7,
+        "link": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Fractile-ը 720 մլն դոլար ներդրում է ստացել AI չիպերի համար",
+        "summary": "Բրիտանական Fractile ընկերությունը 720 միլիոն դոլարի ֆինանսավորում է ներգրավել՝ դառնալով AI չիպերի մրցավազքի առաջատարներից մեկը։",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "TSMC-ն 1 մլրդ դոլար է ներդրել Anthropic-ում և OpenAI-ում",
+        "summary": "Չիպերի արտադրության հսկա TSMC-ն մեկ միլիարդ դոլար է ներդրել առաջատար AI ընկերություններ Anthropic-ի և OpenAI-ի մեջ։",
+        "source": 16,
+        "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ի եռամսյակային եկամուտը հասել է 10 մլրդ դոլարի",
+        "summary": "OpenAI-ի եռամսյակային եկամուտը, ըստ հաղորդումների, առաջին անգամ գերազանցել է 10 միլիարդ դոլարը՝ նախորդ եռամսյակից գրեթե 50%-ով աճելով։",
+        "source": 23,
+        "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Helsing-ը ներկայացրել է Clarity AI համակարգը զենքի համար",
+        "summary": "Helsing-ը ներկայացրել է Clarity անունով AI հարթակը, որը սենսորային տվյալները վերածում է թիրախային առաջարկությունների զենքի համակարգերի համար՝ մարդկային վերահսկողության ներքո։",
+        "source": 27,
+        "link": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ տվյալների բրոքերները AI տվյալներ են վաճառում Չինաստանին",
+        "summary": "Ըստ ChinaTalk-ի հետաքննության, ԱՄՆ տվյալների բրոքերները մոտ կես միլիարդ դոլարի AI ուսուցման տվյալներ են վաճառում չինական լաբորատորիաներին։",
+        "source": 36,
+        "link": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Gemini Decision 1",
+        "note": "Google Deepmind-ի նոր AI API-ը որոշումների կայացման համար"
+      }
+    ],
+    "trending": [
+      "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "MiniMaxAI/MiniMax-H3-Image",
+      "speridlabs/idol"
+    ]
   }
 ]
