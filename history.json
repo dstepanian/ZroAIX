@@ -13306,8 +13306,8 @@
   },
   {
     "date": "2026-11-11",
-    "ts": 1794346382913,
-    "overview": "Օրվա նորությունները կարևորում են AI մոդելների և հավելվածների զգալի առաջընթացները, ինչպես նաև կարգավորման և ոլորտի ֆինանսավորման կարևոր զարգացումները։",
+    "ts": 1794402513944,
+    "overview": "Այսօրվա տեխնոլոգիական նորությունների հիմնական թեմաները ներառում են արհեստական ​​ինտելեկտի (AI) զարգացումները, հատկապես խոշոր ընկերությունների կողմից նոր մոդելների և գործիքների թողարկումը, ինչպես նաև AI-ի կիրառումը տարբեր ոլորտներում, ներառյալ բիզնեսը և անվտանգությունը։",
     "items": [
       {
         "headline": "Նյու Յորքի AI անվտանգության օրենքը",
@@ -13350,6 +13350,48 @@
         "source": 1,
         "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "OpenAI-ն ընդլայնում է իր բիզնես հնարավորությունները ChatGPT-ի միջոցով",
+        "summary": "OpenAI-ն ChatGPT-ն դարձնում է բիզնես հարթակ՝ ներդնելով նոր Business Hub, որը թույլ է տալիս ընկերություններին ստեղծել իրենց պրոֆիլները, ավելացնել տվյալներ և վերահսկել օգտատերերի փոխազդեցությունը, ինչպես նաև «Business Agents»-ի միջոցով ուղղակիորեն շփվել հաճախորդների հետ։",
+        "source": 19,
+        "link": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը ներկայացնում է Claude Meetings-ը՝ աշխատանքային քննարկումները պլանների վերածելու համար",
+        "summary": "Anthropic-ը թողարկել է Claude Meetings գործիքը, որը մասնակիցների խոսակցությունների ընթացքում կարող է կազմել քննարկվող պլաններ, ստեղծել ժամանակացույցեր, պատասխանել հարցերի և մուտք գործել աշխատանքային հավելվածներ՝ տեղեկատվություն ստանալու համար։",
+        "source": 28,
+        "link": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Nvidia-ն ներկայացնում է GR00T 2 մոդելը ռոբոտների ուսուցման համար",
+        "summary": "Nvidia-ի նոր GR00T 2 AI մոդելը նախատեսված է ռոբոտներին նոր խնդիրներ սովորեցնելու համար՝ տեսանյութերից փոխանցելով մարդկային շարժումները ռոբոտային թևերին, որոնք մարզվել են մոտ 400,000 ժամ տեսանյութերի վրա։",
+        "source": 27,
+        "link": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Մեծ Բրիտանիայի կարգավորիչը սպառնում է համալսարաններին AI-ի դեմ պայքարի միջոցներով",
+        "summary": "Մեծ Բրիտանիայի ուսումնական հաստատությունների վերահսկիչը՝ Office for Students-ը, սպառնում է պատժամիջոցներ կիրառել համալսարանների նկատմամբ, եթե դրանք չընդունեն AI-ին հարմար քննական ձևաչափեր, քանի որ ChatGPT-ի միջոցով ուսանողների կողմից ամբողջական աշխատանքների գրելը դժվարացնում է գիտելիքների գնահատումը։",
+        "source": 8,
+        "link": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Oura-ն ձեռք է բերում Counsel Health-ը՝ բժշկական AI չաթբոտ ստարտափը",
+        "summary": "Oura-ն հայտարարել է, որ ձեռք է բերում AI-ով աշխատող առաջնային բժշկական օգնության ստարտափ Counsel Health-ը 625 միլիոն դոլարով՝ ավելի վաղ ընկերության AI չաթբոտը ինտեգրելով իր հավելվածին։",
+        "source": 15,
+        "link": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը թողարկում է նոր մասնագիտացված չիպեր AI-ի համար",
+        "summary": "Google-ը ընդլայնում է իր AI ապարատային պորտֆոլիոն՝ թողարկելով երկու նոր տենզորային պրոցեսորային միավորներ (TPU), որոնք նախատեսված են գաղտնի մոդելների մարզման և ավելի մեծ հիշողության հզորության համար։",
+        "source": 30,
+        "link": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -13360,11 +13402,15 @@
       {
         "name": "Gemini Robotics 2.5",
         "note": "Google DeepMind-ի ռոբոտների կառավարման մոդել"
+      },
+      {
+        "name": "GR00T 2",
+        "note": "Nvidia-ի նոր AI մոդել ռոբոտների ուսուցման համար"
       }
     ],
     "trending": [
-      "speridlabs/idol",
       "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "speridlabs/idol",
       "moonshotai/Kimi-K3.1-Pro"
     ]
   }
