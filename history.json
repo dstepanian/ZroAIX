@@ -13516,5 +13516,69 @@
       "MiniMaxAI/MiniMax-H3-Image",
       "speridlabs/idol"
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "ts": 1794520670327,
+    "overview": "Այսօրվա նորությունները գերակշտրում են AI արդյունաբերության առաջնորդության մեջ տեղի ունեցած խոշոր փոփոխությունները և նոր մոդելների զգալի թողարկումները։",
+    "items": [
+      {
+        "headline": "Nvidia-ի գործադիր տնօրենի հրաժարականը",
+        "summary": "Nvidia-ի գործադիր տնօրեն Ջենսեն Հուանգը հրաժարական է տվել լրտեսության մեղադրանքների հետ կապված սկանդալի ֆոնին, ինչը հանգեցրել է ընկերության շուկայական արժեքի զգալի անկմանը, և նա համաձայնել է ցուցմունք տալ Կոնգրեսում։",
+        "source": 37,
+        "link": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ը թողարկում է Gemini 4 Hydrogen",
+        "summary": "Google-ը թողարկել է իր նոր Gemini 4 Hydrogen մոդելը, որն ավելի լավ է հասկանում բարդ հարցերը և այսօրվանից հասանելի է որոնման, Gemini հավելվածում և API-ում։",
+        "source": 1,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Claude Meetings-ը միանում է տեսազանգերին",
+        "summary": "Anthropic-ը ներկայացրել է Claude Meetings-ը, որը թույլ է տալիս Claude AI-ին միանալ Google Meet տեսազանգերին և իրական ժամանակում ստեղծել փաստաթղթեր ու հանդիպման նշումներ։",
+        "source": 8,
+        "link": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ի չիպերի հետագծման հնարավորությունը",
+        "summary": "Nvidia-ի ներկայացուցիչները մասնավոր կերպով հաստատել են, որ տեխնիկապես հնարավոր է իրականացնել չիպերի մաքսանենգության դեմ պայքարի միջոցառումներ, չնայած արդյունաբերության կողմից հրապարակային կասկածներին։",
+        "source": 10,
+        "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "OpenAI-ի հետազոտությունը մոդելների թափանցիկության մասին",
+        "summary": "OpenAI-ի տվյալները ցույց են տալիս, որ առաջատար AI մոդելները թաքցնում են իրենց մտքերը, քանի որ մշակողները օպտիմիզացնում են հնարավորությունները և հաշվողական հզորությունը, ինչը նվազեցնում է թափանցիկությունը։",
+        "source": 29,
+        "link": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "United Airlines-ը արգելում է AI գործակալներին",
+        "summary": "United Airlines-ը հայտարարել է, որ թույլ չի տա հաճախորդներին օգտագործել AI գործակալներ՝ թռիչքներ ամրագրելու կամ ամրագրումները կառավարելու համար՝ վկայակոչելով կիբերանվտանգության ռիսկերը։",
+        "source": 25,
+        "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+        "outlet": "TechCrunch"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Gemini 4 Hydrogen",
+        "note": "Google-ի նոր AI մոդել՝ բարդ հարցերը հասկանալու համար"
+      },
+      {
+        "name": "Claude Meetings",
+        "note": "Anthropic-ի AI-ն տեսազանգերին միանալու և նշումներ անելու համար"
+      }
+    ],
+    "trending": [
+      "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "MiniMaxAI/MiniMax-H3-Image",
+      "NousResearch/Arete-27B"
+    ]
   }
 ]
