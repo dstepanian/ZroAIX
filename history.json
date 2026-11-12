@@ -13416,8 +13416,8 @@
   },
   {
     "date": "2026-11-12",
-    "ts": 1794435712231,
-    "overview": "Այսօրվա նորությունները կարևոր ֆինանսական տեղաշարժեր են ընդգծում AI ոլորտում՝ խոշոր ներդրումներով և եկամտի նշանակալի աճով։ Միաժամանակ, հայտնվում են նոր AI մոդելներ և կիրառություններ, ինչպես նաև աճում են մտահոգությունները տվյալների անվտանգության և աշխարհաքաղաքական հետևանքների վերաբերյալ։",
+    "ts": 1794492699353,
+    "overview": "Օրվա նորությունները գերակշտրում են AI ոլորտի ղեկավարության և մրցակցային դաշտի զգալի փոփոխությունները, ինչպես նաև նոր կարգավորող ջանքերը և AI-ի առաջադեմ կիրառությունները։",
     "items": [
       {
         "headline": "Google Deepmind-ը ներկայացրել է Gemini Decision 1 API-ը",
@@ -13460,12 +13460,55 @@
         "source": 36,
         "link": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "NVIDIA-ի Գործադիր Տնօրենի Հրաժարականը",
+        "summary": "NVIDIA-ի համահիմնադիր, նախագահ և գործադիր տնօրեն Ջենսեն Հուանգը հրաժարական է տվել՝ երկու արտաամուսնական կապերի մասին հաղորդումներից հետո, որոնցից մեկը ենթադրյալ չինացի լրտեսի հետ էր։",
+        "source": 4,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-fired-nvidia",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Ավստրալիայի AI Անվտանգության Օրինագիծը",
+        "summary": "Ավստրալիայի կառավարությունն առաջարկում է նոր օրենք՝ պարտադրելով առաջատար AI մոդելներ ստեղծողներին անկախ փորձաքննության ենթարկվել և սահմանելով տուգանքներ խախտումների համար։",
+        "source": 10,
+        "link": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ը Թուլացնում է NVIDIA CUDA-ի Դիրքերը",
+        "summary": "Anthropic-ը հայտարարել է, որ իր Mythos AI մոդելն օգտագործել է Claude-ը AMD GPU-ների վրա երեք օրում տեղափոխելու համար՝ նվազեցնելով NVIDIA-ի CUDA պլատֆորմից կախվածությունը։",
+        "source": 39,
+        "link": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը Ներդնում է Երեխաների Անվտանգության Համար",
+        "summary": "OpenAI-ը 2 միլիոն դոլար է հատկացրել AI-ի և երեխաների անվտանգության վերաբերյալ հետազոտություններին՝ աջակցելով երիտասարդների համար ռիսկերն ու հնարավորությունները չափելու գործիքներին։",
+        "source": 13,
+        "link": "https://openai.com/index/children-first-declaration",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "AlphaProof Code-ը Ստուգում է Signal-ի Կոդը",
+        "summary": "Google Deepmind-ի AlphaProof Code-ը չորս շաբաթում մաթեմատիկորեն ստուգել է Signal-ի կրիպտոգրաֆիկ հիմնական կոդը, ինչը սովորաբար տարիներ է տևում։",
+        "source": 30,
+        "link": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
       {
         "name": "Gemini Decision 1",
         "note": "Google Deepmind-ի նոր AI API-ը որոշումների կայացման համար"
+      },
+      {
+        "name": "ElevenLabs Scribe v3 Live",
+        "note": "Խոսքի ճանաչման նոր մոդել"
+      },
+      {
+        "name": "AlphaGenome 2",
+        "note": "Գենոմիկայի վերլուծության AI մոդել"
       }
     ],
     "trending": [
