@@ -13622,5 +13622,69 @@
       "MiniMaxAI/MiniMax-H3-Image",
       "NousResearch/Arete-27B"
     ]
+  },
+  {
+    "date": "2026-11-14",
+    "ts": 1794606202657,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI գործակալների հնարավորությունների զգալի առաջընթացը, որոնք թույլ են տալիս AI-ին կատարել իրական աշխարհի խնդիրներ, ինչպիսիք են գնումները և արդյունաբերական ավտոմատացումը։ Միաժամանակ, AI սարքավորումների շուրջ աշխարհաքաղաքական լարվածությունը և առաջատար AI ընկերությունների համար կարևոր ֆինանսական ձեռքբերումները ընդգծում են ոլորտի արագ աճն ու ռազմավարական նշանակությունը։",
+    "items": [
+      {
+        "headline": "OpenAI-ը ներկայացնում է ChatGPT Wallet-ը",
+        "summary": "OpenAI-ը գործարկել է ChatGPT Wallet-ը, որը թույլ է տալիս իր AI գործակալներին կատարել գնումներ օգտատերերի հաստատմամբ։",
+        "source": 27,
+        "link": "https://openai.com/index/introducing-chatgpt-wallet",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Չինական AI մոդելները՝ արգելված Nvidia չիպերով",
+        "summary": "Նախկին OpenAI հետազոտողը տեխնիկական ապացույցներ է ներկայացրել, որ չինական AI մոդելները մարզվել են ԱՄՆ-ի արտահանման վերահսկողության տակ գտնվող Nvidia Blackwell GPU-ներով։",
+        "source": 23,
+        "link": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի IPO-ն վեց անգամ գերբաժանորդագրված է",
+        "summary": "Anthropic-ի IPO-ն վեց անգամ գերազանցել է առկա բաժնետոմսերի քանակը՝ դառնալով պատմության մեջ ամենամեծ հրապարակային առաջարկներից մեկը։",
+        "source": 24,
+        "link": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "LangChain ստարտափը հասել է $3 միլիարդի գնահատման",
+        "summary": "AI գործակալների LangChain ստարտափը հասել է $3 միլիարդի գնահատման՝ ունենալով 7,000 հաճախորդ իր LangSmith գործիքի համար։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ԱՄՆ գործակալությունները և արհմիությունները՝ AI-ի շուրջ",
+        "summary": "Միացյալ Նահանգների պետական հատվածի գրեթե 70 տոկոսը օգտագործում է գեներատիվ AI, մինչդեռ արհմիությունները պաշտպանական մեխանիզմներ են մշակում AI հսկողության և ավտոմատացված աշխատանքից ազատումների դեմ։",
+        "source": 22,
+        "link": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի Claude for Manufacturing-ը արդյունաբերության համար",
+        "summary": "Anthropic-ի նոր Claude for Manufacturing պլագինը AI-ն ուղղակիորեն ինտեգրում է գործարանային ծրագրային ապահովմանը՝ ավտոմատացնելու արդյունաբերական աշխատանքային հոսքերը։",
+        "source": 16,
+        "link": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "ChatGPT Wallet",
+        "note": "AI գործակալների համար գնումներ կատարելու հնարավորություն"
+      },
+      {
+        "name": "Claude for Manufacturing",
+        "note": "AI պլագին արդյունաբերական աշխատանքային հոսքերի ավտոմատացման համար"
+      }
+    ],
+    "trending": [
+      "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "MiniMaxAI/MiniMax-H3-Image",
+      "NousResearch/Arete-27B"
+    ]
   }
 ]
