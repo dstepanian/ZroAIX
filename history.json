@@ -13519,8 +13519,8 @@
   },
   {
     "date": "2026-11-13",
-    "ts": 1794520670327,
-    "overview": "Այսօրվա նորությունները գերակշտրում են AI արդյունաբերության առաջնորդության մեջ տեղի ունեցած խոշոր փոփոխությունները և նոր մոդելների զգալի թողարկումները։",
+    "ts": 1794576936414,
+    "overview": "Օրվա կարևորագույն իրադարձություններն են Nvidia-ի ղեկավարության փոփոխությունը և Google-ի նոր AI մոդելի՝ Gemini 4 Hydrogen-ի թողարկումը, ինչպես նաև արհեստական բանականության անվտանգության շուրջ շարունակվող քննարկումները և ոլորտում կատարվող զգալի ներդրումները։",
     "items": [
       {
         "headline": "Nvidia-ի գործադիր տնօրենի հրաժարականը",
@@ -13562,6 +13562,48 @@
         "summary": "United Airlines-ը հայտարարել է, որ թույլ չի տա հաճախորդներին օգտագործել AI գործակալներ՝ թռիչքներ ամրագրելու կամ ամրագրումները կառավարելու համար՝ վկայակոչելով կիբերանվտանգության ռիսկերը։",
         "source": 25,
         "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Jensen Huang-ը հրաժարական տվեց Nvidia-ից",
+        "summary": "Jensen Huang-ը հրաժարական է տվել Nvidia-ի գործադիր տնօրենի պաշտոնից՝ սկանդալի ֆոնին, որը կարող է լուրջ հետևանքներ ունենալ AI արդյունաբերության համար։",
+        "source": 19,
+        "link": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Կոնգրեսը հետաքննում է Nvidia-ն",
+        "summary": "Ժողովրդավարները հետաքննություն են սկսել Nvidia-ի չինական վաճառքների և նախկին նախագահ Թրամփի հետ նրա գործարքների վերաբերյալ՝ կապված Jensen Huang-ի շուրջ ծագած սկանդալի հետ։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ը թողարկեց Gemini 4 Hydrogen-ը",
+        "summary": "Google-ը պաշտոնապես ներկայացրել է իր նոր AI մոդելը՝ Gemini 4 Hydrogen-ը, որը նախատեսված է բարելավելու բարդ հարցումների մշակումը և տեսողական պատասխանները։",
+        "source": 31,
+        "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "Gemini 4 Hydrogen-ը գերազանցում է Argon-ին",
+        "summary": "Google-ի նոր Gemini 4 Hydrogen մոդելը, ըստ անկախ Artificial Analysis Intelligence Index-ի, գերազանցում է ավելի մեծ Argon մոդելին և մրցակցում Claude Sonnet 5.5-ի հետ՝ ավելի ցածր գնով։",
+        "source": 24,
+        "link": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Կոչեր՝ դպրոցներում AI-ի մորատորիումի համար",
+        "summary": "Ընտանիքները կոչ են անում դպրոցներում AI-ի մորատորիում սահմանել՝ Google-ի Gemini-ի փորձնական ծրագրի շուրջ բացասական արձագանքներից հետո, երբ մի դեռահասի հայցում Gemini-ն անվանվել է «ինքնասպանության մարզիչ»։",
+        "source": 29,
+        "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Norwest-ը 4 միլիարդ դոլար է ներդնում AI-ում",
+        "summary": "Norwest ներդրումային ընկերությունը հայտարարել է 4 միլիարդ դոլարի նոր ֆոնդի մասին, որը նրա ամենամեծ ֆոնդն է մինչ օրս և ուղղված է արհեստական բանականության ոլորտում ներդրումներին։",
+        "source": 39,
+        "link": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
         "outlet": "TechCrunch"
       }
     ],
