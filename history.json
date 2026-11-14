@@ -13625,8 +13625,8 @@
   },
   {
     "date": "2026-11-14",
-    "ts": 1794606202657,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI գործակալների հնարավորությունների զգալի առաջընթացը, որոնք թույլ են տալիս AI-ին կատարել իրական աշխարհի խնդիրներ, ինչպիսիք են գնումները և արդյունաբերական ավտոմատացումը։ Միաժամանակ, AI սարքավորումների շուրջ աշխարհաքաղաքական լարվածությունը և առաջատար AI ընկերությունների համար կարևոր ֆինանսական ձեռքբերումները ընդգծում են ոլորտի արագ աճն ու ռազմավարական նշանակությունը։",
+    "ts": 1794660038155,
+    "overview": "Այսօրվա նորությունների կենտրոնում են Nvidia-ի ղեկավարության փոփոխությունները և դրանց հնարավոր հետևանքները AI ոլորտի համար, ինչպես նաև OpenAI-ի նորարարությունները AI գործակալների և ռոբոտաշինության ոլորտում։ Կարևոր են նաև AI չիպերի և ներդրումների շուրջ աշխարհաքաղաքական և կարգավորող խնդիրները։",
     "items": [
       {
         "headline": "OpenAI-ը ներկայացնում է ChatGPT Wallet-ը",
@@ -13669,6 +13669,48 @@
         "source": 16,
         "link": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Jensen Huang-ի հրաժարականը Nvidia-ից",
+        "summary": "Nvidia-ի գործադիր տնօրեն Ջենսեն Հուանգը հրաժարական է տվել, ինչը կարող է լուրջ հետևանքներ ունենալ AI ստարտափների ֆինանսավորման և ազգային անվտանգության համար։",
+        "source": 26,
+        "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ը լուծարում է ռոբոտաշինության թիմը",
+        "summary": "OpenAI-ը լուծարում է իր ռոբոտաշինության թիմը՝ հավանաբար այն պատճառով, որ ընդհանուր նշանակության մոդելները, ինչպիսիք են GPT-6 Astra-ն, կարող են ուղղակիորեն կառավարել ռոբոտներին։",
+        "source": 2,
+        "link": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Runway-ի բաց կոդով Praxis-1 մոդելը",
+        "summary": "Runway-ը թողարկել է իր Praxis-1 ռոբոտաշինության մոդելը բաց կոդով, որը տեսանյութերի ուսուցումից ստացված գիտելիքներն օգտագործում է ռոբոտների կառավարման համար։",
+        "source": 4,
+        "link": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ChatGPT Wallet-ի գործարկումը",
+        "summary": "OpenAI-ը գործարկել է ChatGPT Wallet-ը, որը թույլ է տալիս իր Dots AI գործակալներին գնումներ կատարել օգտատերերի համար։",
+        "source": 11,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Չինական AI մոդելները արգելված չիպերով",
+        "summary": "Նոր հետազոտությունները ցույց են տալիս, որ Չինաստանի ամենաառաջադեմ AI մոդելները մարզվել են արգելված Nvidia չիպերի վրա։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ի IPO-ն և չինացի ներդրողները",
+        "summary": "Բանկերը մերժում են չինացի և Հոնկոնգի ներդրողների գնման պատվերները Anthropic-ի IPO-ի համար՝ վկայակոչելով ԱՄՆ արտահանման վերահսկողության կանոնները։",
+        "source": 18,
+        "link": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -13679,12 +13721,16 @@
       {
         "name": "Claude for Manufacturing",
         "note": "AI պլագին արդյունաբերական աշխատանքային հոսքերի ավտոմատացման համար"
+      },
+      {
+        "name": "Praxis-1",
+        "note": "Բաց կոդով ռոբոտաշինության մոդել"
       }
     ],
     "trending": [
       "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
       "MiniMaxAI/MiniMax-H3-Image",
-      "NousResearch/Arete-27B"
+      "Lightricks/LTX-2.5"
     ]
   }
 ]
