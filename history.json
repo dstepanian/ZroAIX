@@ -13732,5 +13732,62 @@
       "MiniMaxAI/MiniMax-H3-Image",
       "Lightricks/LTX-2.5"
     ]
+  },
+  {
+    "date": "2026-11-15",
+    "ts": 1794687202459,
+    "overview": "Այսօրվա նորությունները շեշտում են AI ոլորտի արագ զարգացումները, ներառյալ նոր մոդելների բարձր արդյունավետությունը և դրանց կիրառումը կարևոր ոլորտներում, ինչպես նաև ֆինանսական մարտահրավերներն ու ղեկավարության փոփոխությունների ազդեցությունը։",
+    "items": [
+      {
+        "headline": "Anthropic-ի գործադիր տնօրենը մտահոգված է հաշվողական ծախսերով",
+        "summary": "Anthropic-ի գործադիր տնօրեն Դարիո Ամոդեյը ընկերության համար ամենամեծ մարտահրավերն է համարում հաշվողական հզորության ձեռքբերումը՝ նախքան ընկերության պատմության մեջ ամենամեծ IPO-ն։",
+        "source": 2,
+        "link": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Gemini 4 Carbon-ը գերազանցում է MathArena-ում",
+        "summary": "Google-ի Gemini 4 Carbon մոդելը և Anthropic-ի Fable 5.2-ը առաջին անգամ գերազանցել են OpenAI-ի GPT-6.1 Sol-ին MathArena AI մաթեմատիկական բենչմարկում, թեև զգալիորեն ավելի թանկ են։",
+        "source": 5,
+        "link": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Jensen Huang-ի հեռանալը ազդում է AI ստարտափների ֆինանսավորման վրա",
+        "summary": "Nvidia-ի գործադիր տնօրեն Jensen Huang-ի հեռանալը զգալի բաց է թողել AI ստարտափների ֆինանսավորման մեջ, ինչը մտահոգում է վենչուրային կապիտալիստներին և հիմնադիրներին։",
+        "source": 18,
+        "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Anthropic-ը բարելավում է Mythos-ի վերապատրաստման արդյունավետությունը",
+        "summary": "Նախկին հետազոտող Ջեյքոբ Քոքսոնը նշում է, որ Anthropic-ի ալգորիթմները բարելավվում են արագացված տեմպերով, ինչը թույլ է տալիս Mythos մոդելը վերապատրաստել սկզբնական հաշվողական հզորության միայն մի մասով։",
+        "source": 14,
+        "link": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "FAA-ն ընդլայնում է AI-ի կիրառումը օդային երթևեկության կառավարման համար",
+        "summary": "ԱՄՆ Դաշնային ավիացիոն վարչությունը (FAA) ընդլայնում է AI գործիքի կիրառումը՝ կառավարելու օդային երթևեկության խցանումները ամբողջ երկրի օդային տարածքում, ինչը ողջունվել է ավիաընկերությունների կողմից։",
+        "source": 20,
+        "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+        "outlet": "Ars Technica"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Gemini 4 Carbon",
+        "note": "Google-ի նոր AI մոդել"
+      },
+      {
+        "name": "Fable 5.2",
+        "note": "Anthropic-ի նոր AI մոդել"
+      }
+    ],
+    "trending": [
+      "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "MiniMaxAI/MiniMax-H3-Image",
+      "Lightricks/LTX-2.5"
+    ]
   }
 ]
