@@ -13828,5 +13828,53 @@
       "MiniMaxAI/MiniMax-H3-Image",
       "Qwen/Qwen3.8-27B"
     ]
+  },
+  {
+    "date": "2026-11-16",
+    "ts": 1794775152156,
+    "overview": "Այսօրվա նորությունները կենտրոնացած են Nvidia-ի շուրջ աճող լարվածության և արհեստական բանականության չիպերի արտահանման կանոնների խստացման շուրջ։ Բացի այդ, ներկայացվել են նորարարական մոտեցումներ AI պատկերների ստեղծման մեջ և տեղեկություններ Apple-ի ապագա խելացի ակնոցների մասին։",
+    "items": [
+      {
+        "headline": "ԱՄՆ Կոնգրեսը խստացնում է AI չիպերի արտահանումը",
+        "summary": "ԱՄՆ Կոնգրեսը քննարկում է արհեստական բանականության չիպերի արտահանման կանոնների խստացումը՝ Nvidia-ի նախկին գործադիր տնօրենի շուրջ լրտեսական սկանդալից հետո։",
+        "source": 2,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Claude Fable 5.2-ը պատկերներ է նկարում",
+        "summary": "Anthropic-ի Claude Fable 5.2-ը պատկերներ չի ստեղծում ավանդական AI մեթոդներով, այլ Python կոդի միջոցով վիրտուալ կտավի վրա հարյուր հազարավոր վրձնահարվածներ է տեղադրում։",
+        "source": 6,
+        "link": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ի անվտանգության թիմի բացակայությունը",
+        "summary": "Nvidia-ի անվտանգության ղեկավարը հեռացել է օգոստոսին, ինչը հարցեր է բարձրացնում ընկերության անվտանգության թիմի արդյունավետության մասին՝ գործադիր տնօրենի շուրջ ծագած սկանդալի ֆոնին։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Տեխնոլոգիական ղեկավարները պահանջում են Ջենսեն Հուանգի վերականգնումը",
+        "summary": "Էլոն Մասկը և այլ տեխնոլոգիական ղեկավարներ ստորագրել են միջնորդություն՝ կոչ անելով Nvidia-ին վերականգնել Ջենսեն Հուանգին՝ ընկերության նախկին գործադիր տնօրենին։",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Apple-ի առաջին խելացի ակնոցները",
+        "summary": "Ըստ Bloomberg-ի Մարկ Գուրմանի՝ Apple-ի առաջին խելացի ակնոցները, որոնք չեն ունենա ընդլայնված իրականության գործառույթներ, կհայտարարվեն հաջորդ տարվա հունիսին WWDC-ի ժամանակ։",
+        "source": 4,
+        "link": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "MiniMaxAI/MiniMax-H3-Image",
+      "Qwen/Qwen3.8-27B"
+    ]
   }
 ]
