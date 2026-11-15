@@ -13735,8 +13735,8 @@
   },
   {
     "date": "2026-11-15",
-    "ts": 1794687202459,
-    "overview": "Այսօրվա նորությունները շեշտում են AI ոլորտի արագ զարգացումները, ներառյալ նոր մոդելների բարձր արդյունավետությունը և դրանց կիրառումը կարևոր ոլորտներում, ինչպես նաև ֆինանսական մարտահրավերներն ու ղեկավարության փոփոխությունների ազդեցությունը։",
+    "ts": 1794748011305,
+    "overview": "Այսօրվա նորությունները շեշտում են AI-ի աճող ազդեցությունը աշխատաշուկայի և տեխնոլոգիական մրցակցության վրա, ինչպես նաև կարևոր առաջընթացներ տիեզերական և ինքնավար տրանսպորտային միջոցների ոլորտներում։",
     "items": [
       {
         "headline": "Anthropic-ի գործադիր տնօրենը մտահոգված է հաշվողական ծախսերով",
@@ -13772,6 +13772,41 @@
         "source": 20,
         "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
         "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Nvidia-ի չիպերի պատվերներ Չինաստանից",
+        "summary": "Ըստ WSJ-ի, Nvidia-ի նախկին գործադիր տնօրեն Ջենսեն Հուանգի նախկին սիրուհուն պատկանող Megaspeed ընկերությունը 2024-2025 թվականներին չինական ընկերությունների համար կազմակերպել է մոտ 12 միլիարդ դոլարի Nvidia չիպերի պատվերներ։",
+        "source": 2,
+        "link": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի ազդեցությունը երիտասարդ աշխատողների վրա",
+        "summary": "Ավստրալիայի կենտրոնական բանկը նշում է, որ AI-ն առաջին հերթին ազդում է երիտասարդ, սկսնակ աշխատողների վրա՝ հատկապես ծրագրային ապահովման մշակման և հաճախորդների սպասարկման ոլորտներում։",
+        "source": 3,
+        "link": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meituan-ը թողարկում է նոր AI մոդել",
+        "summary": "Meituan-ը թողարկել է LongCat-2.5 անունով 1.6 տրիլիոն պարամետր ունեցող գործակալ մոդել, որը մարզվել է բացառապես չինական սարքավորումների վրա և չի օգտագործել Nvidia GPU։",
+        "source": 4,
+        "link": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "SpaceX-ը հաջողությամբ բռնել է Starship-ը",
+        "summary": "SpaceX-ն առաջին անգամ հաջողությամբ բռնել է Starship տիեզերանավը իր \"Mechazilla\" արձակման և բռնելու աշտարակով՝ կատարելով «չոփսթիք» բռնումը։",
+        "source": 7,
+        "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Tesla-ն առաջարկում է Cybercab անձնական օգտագարծման համար",
+        "summary": "Tesla-ն ընտրված հաճախորդներին առաջարկում է գնել Cybercab «անձնական օգտագործման համար», սակայն մեքենան հասանելի կլինի միայն աջակցվող սպասարկման տարածքներում, որտեղ գործում է Robotaxi ծառայությունը։",
+        "source": 17,
+        "link": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
@@ -13782,12 +13817,16 @@
       {
         "name": "Fable 5.2",
         "note": "Anthropic-ի նոր AI մոդել"
+      },
+      {
+        "name": "LongCat-2.5",
+        "note": "Meituan-ի 1.6 տրիլիոն պարամետր ունեցող AI գործակալ մոդել"
       }
     ],
     "trending": [
       "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
       "MiniMaxAI/MiniMax-H3-Image",
-      "Lightricks/LTX-2.5"
+      "Qwen/Qwen3.8-27B"
     ]
   }
 ]
