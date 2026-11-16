@@ -13831,8 +13831,8 @@
   },
   {
     "date": "2026-11-16",
-    "ts": 1794775152156,
-    "overview": "Այսօրվա նորությունները կենտրոնացած են Nvidia-ի շուրջ աճող լարվածության և արհեստական բանականության չիպերի արտահանման կանոնների խստացման շուրջ։ Բացի այդ, ներկայացվել են նորարարական մոտեցումներ AI պատկերների ստեղծման մեջ և տեղեկություններ Apple-ի ապագա խելացի ակնոցների մասին։",
+    "ts": 1794838418962,
+    "overview": "Այսօրվա նորությունները կարևոր զարգացումներ և մարտահրավերներ են ընդգծում AI ոլորտում՝ սկսած նոր արտադրանքների ներդրումներից և խոշոր հետազոտական հայտնագործություններից մինչև AI չիպերի արտահանման հետ կապված կարգավորող մտահոգությունները։",
     "items": [
       {
         "headline": "ԱՄՆ Կոնգրեսը խստացնում է AI չիպերի արտահանումը",
@@ -13868,9 +13868,56 @@
         "source": 4,
         "link": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "ԱՄՆ սենատորը քննադատում է Nvidia չիպերի արտահոսքը",
+        "summary": "ԱՄՆ սենատոր Մարիա Քանթվելը քննադատել է Առևտրի դեպարտամենտին՝ Nvidia-ի AI չիպերի Չինաստան արտահոսքը կանխելու անկարողության համար՝ նշելով, որ դա խաթարում է Ամերիկայի ազգային անվտանգությունը։",
+        "source": 6,
+        "link": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Zoox ռոբոտաքսիներն այժմ հասանելի են Uber-ի միջոցով",
+        "summary": "Amazon-ին պատկանող Zoox-ի ռոբոտաքսիներն այժմ հասանելի են Uber-ի օգտատերերին Լաս Վեգասում՝ նշանավորելով Uber-ի ցանցում նման նպատակային ինքնավար մեքենաների առաջին ինտեգրումը։",
+        "source": 5,
+        "link": "https://www.theverge.com/transportation/1032984/uber-zoox-robotaxi-las-vegas-launch-mgm-resorts-los-angeles",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "LVMH Media-ն համագործակցում է OpenAI-ի հետ",
+        "summary": "LVMH-ի Media Division-ը հայտարարել է OpenAI-ի հետ ռազմավարական համագործակցության մասին՝ AI-ի միջոցով լրագրությանն աջակցելու և իր հրատարակությունները ChatGPT-ի միջոցով ավելի մատչելի դարձնելու համար։",
+        "source": 7,
+        "link": "https://openai.com/index/lvmh-media-division-partnership",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Apple-ը նոր ուսումնասիրություն է սկսում AI առողջապահության համար",
+        "summary": "Apple-ը նոր ուսումնասիրություն է սկսել OpenEvidence-ի հետ համագործակցությամբ՝ հասկանալու, թե ինչպես են մարդիկ փոխազդում խոսակցական AI առողջապահական գործիքների հետ և որքան արդյունավետ են դրանց պատասխանները։",
+        "source": 9,
+        "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ը նոր քայլ է անում Standard Model-ի սահմանման ուղղությամբ",
+        "summary": "OpenAI-ի հետազոտողները քայլ են կատարել դեպի Standard Model-ի ոչ պերտուրբատիվ ցանցային սահմանումը՝ GPT-6 Astra-ի օգնությամբ գաղափարը մանրամասն ապացույցի վերածելով։",
+        "source": 15,
+        "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Freshworks-ի շրջանավարտները $53M են հավաքում AI-CRM-ի համար",
+        "summary": "Freshworks-ի նախկին աշխատակիցները 53 միլիոն դոլարի ֆինանսավորում են հավաքել՝ ստեղծելու AI-native CRM, որը մրցակցելու է Salesforce-ի և HubSpot-ի հետ։",
+        "source": 4,
+        "link": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+        "outlet": "TechCrunch"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Zoox robotaxis on Uber",
+        "note": "Uber-ի միջոցով հասանելի ինքնավար տաքսի ծառայություն Լաս Վեգասում"
+      }
+    ],
     "trending": [
       "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
       "MiniMaxAI/MiniMax-H3-Image",
