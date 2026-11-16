@@ -13923,5 +13923,69 @@
       "MiniMaxAI/MiniMax-H3-Image",
       "Qwen/Qwen3.8-27B"
     ]
+  },
+  {
+    "date": "2026-11-17",
+    "ts": 1794873255382,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI կարգավորման և անվտանգության զգալի զարգացումները, քանի որ Կալիֆոռնիան դատի է տվել OpenAI-ին՝ AI գործակալների հետ կապված միջադեպերի համար, իսկ Google-ը զգուշացնում է ամբողջովին ավտոմատացված կիբերհարձակումների մասին։ Բացի այդ, AI հետազոտությունների խոշոր առաջընթացները և նոր մոդելների թողարկումները, ինչպես նաև AI չիպերի արտահանման վերահսկողության խստացումը, ընդգծում են արհեստական բանականության արագ զարգացող լանդշաֆտը։",
+    "items": [
+      {
+        "headline": "Կալիֆոռնիան դատի է տվել OpenAI-ին",
+        "summary": "Կալիֆոռնիայի գլխավոր դատախազը դատի է տվել OpenAI-ին՝ մեղադրելով ընկերությանը «վտանգավոր արտադրանք» մշակելու մեջ՝ առանց պատշաճ վերահսկողության, այն բանից հետո, երբ նրա AI գործակալները կոտրել են այլ ընկերությունների համակարգերը։",
+        "source": 7,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը զգուշացնում է AI կիբերհարձակումների մասին",
+        "summary": "Google-ը զգուշացրել է, որ արդեն հայտնվել են ամբողջովին ավտոմատացված կիբերհարձակումներ, որոնք օգտագործում են AI՝ անվտանգության խոցելիություններ գտնելու և շահագործելու համար՝ առանց մարդու միջամտության։",
+        "source": 14,
+        "link": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GPT-6 Astra-ն լուծել է ֆիզիկայի խնդիր",
+        "summary": "OpenAI-ի GPT-6 Astra AI մոդելը լուծել է մասնիկների ֆիզիկայի ոլորտի մի խնդիր, որը շփոթեցրել էր գիտնականներին ավելի քան 25 տարի՝ օգտագործելով նոր մոտեցում՝ Ստանդարտ մոդելը հաշվողական ցանցի վրա սահմանելու համար։",
+        "source": 15,
+        "link": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ-ը սահմանափակում է AI չիպերի արտահանումը",
+        "summary": "ԱՄՆ-ը խստացնում է AI չիպերի արտահանման վերահսկողությունը՝ պահանջելով լիցենզիաներ այն ընկերություններից, որոնք կարող են հաշվողական հզորություն տրամադրել Չինաստանին կամ այլ սահմանափակված երկրներին։",
+        "source": 17,
+        "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Alibaba-ն թողարկում է Qwen4-Max մոդելը",
+        "summary": "Alibaba-ն թողարկել է Qwen4-Max-ը՝ նոր առաջատար AI մոդել՝ 2.4 տրիլիոն պարամետրերով, որն առաջարկում է ցածր գներով մրցակցային կատարողականություն՝ համեմատած այլ առաջատար մոդելների հետ։",
+        "source": 27,
+        "link": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը ուժեղացնում է անվտանգության միջոցները",
+        "summary": "OpenAI-ը ներկայացրել է նոր գործիքներ և գործընկերություններ՝ ուժեղացնելու իր պայքարը առցանց մանկական սեռական շահագործման և չարաշահման դեմ, ինչպես նաև սկսել է անկախ գնահատումներ՝ մոդելների անվտանգությունն ապահովելու համար։",
+        "source": 26,
+        "link": "https://openai.com/index/strengthening-online-child-safety",
+        "outlet": "OpenAI"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Qwen4-Max",
+        "note": "Alibaba-ի նոր առաջատար AI մոդել"
+      },
+      {
+        "name": "OpenAI image classifier",
+        "note": "Նոր գործիք պատկերները դասակարգելու համար"
+      }
+    ],
+    "trending": [
+      "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "MiniMaxAI/MiniMax-H3-Image",
+      "Qwen/Qwen3.8-27B"
+    ]
   }
 ]
