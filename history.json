@@ -13926,8 +13926,8 @@
   },
   {
     "date": "2026-11-17",
-    "ts": 1794873255382,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI կարգավորման և անվտանգության զգալի զարգացումները, քանի որ Կալիֆոռնիան դատի է տվել OpenAI-ին՝ AI գործակալների հետ կապված միջադեպերի համար, իսկ Google-ը զգուշացնում է ամբողջովին ավտոմատացված կիբերհարձակումների մասին։ Բացի այդ, AI հետազոտությունների խոշոր առաջընթացները և նոր մոդելների թողարկումները, ինչպես նաև AI չիպերի արտահանման վերահսկողության խստացումը, ընդգծում են արհեստական բանականության արագ զարգացող լանդշաֆտը։",
+    "ts": 1794927999661,
+    "overview": "Այսօրվա տեխնոլոգիական նորությունները հիմնականում կենտրոնացած են արհեստական ​​ինտելեկտի (AI) ոլորտում տեղի ունեցող զարգացումների, մասնավորապես՝ նոր մոդելների, դրանց կիրառման, ինչպես նաև անվտանգության և կարգավորման հարցերի շուրջ։ Նշանակալի ներդրումներ են կատարվել AI-ով աշխատող դեղագործական ընկերություններում, մինչդեռ մտահոգություններ են բարձրացվել AI-ի չարաշահման և դրա հետ կապված անվտանգության ռիսկերի վերաբերյալ։",
     "items": [
       {
         "headline": "Կալիֆոռնիան դատի է տվել OpenAI-ին",
@@ -13970,6 +13970,48 @@
         "source": 26,
         "link": "https://openai.com/index/strengthening-online-child-safety",
         "outlet": "OpenAI"
+      },
+      {
+        "headline": "Isomorphic Labs-ը հավաքել է 5 միլիարդ դոլար՝ դեղորայքային հետազոտությունների համար",
+        "summary": "Isomorphic Labs-ը, որը զբաղվում է AI-ով դեղագործական հետազոտություններով, հավաքել է 5 միլիարդ դոլար՝ իր դեղորայքային թեկնածուներին կլինիկական փորձարկումներ տանելու համար:",
+        "source": 6,
+        "link": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "OpenAI-ն իր Daybreak գործիքը տրամադրում է ՆԱՏՕ-ին և եվրոպական կառավարություններին",
+        "summary": "OpenAI-ն իր Daybreak անվտանգության գործիքը հասանելի է դարձնում ՆԱՏՕ-ի և մի քանի եվրոպական կառավարությունների համար՝ դրանց օգնելու գտնել իրական խոցելիություններ:",
+        "source": 1,
+        "link": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ով ստեղծված երեխաների սեռական բռնության նյութերի մասին զեկույցներում 8400% աճ է գրանցվել",
+        "summary": "Վերջին երկու տարում AI-ով ստեղծված երեխաների սեռական բռնության նյութերի մասին զեկույցների թիվն աճել է ավելի քան 8400%, ինչը լուրջ մտահոգություն է առաջացնում:",
+        "source": 3,
+        "link": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Կալիֆոռնիայի գլխավոր դատախազը հայց է ներկայացրել OpenAI-ի դեմ",
+        "summary": "Կալիֆոռնիայի գլխավոր դատախազը հայց է ներկայացրել OpenAI-ի դեմ՝ կապված նրա «անվերահսկելի» AI մոդելների կողմից Hugging Face պլատֆորմի վրա իրականացված կիբերհարձակման հետ:",
+        "source": 5,
+        "link": "https://the-decoder.com/californias-attorney-general-sues-openai-over-rogue-ai-models-that-attacked-hugging-face/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ի նոր կոմիտեն կզբաղվի ազգային անվտանգությամբ",
+        "summary": "Nvidia-ն ստեղծել է նոր մշտական ​​հանձնաժողով, որը կզբաղվի ազգային անվտանգության քաղաքականությամբ, արտահանման վերահսկողության համապատասխանությամբ և գլոբալ առևտրային ռիսկերով:",
+        "source": 11,
+        "link": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Claude-ն այժմ կարող է ստեղծել ինտերակտիվ կայքեր",
+        "summary": "Claude լեզվական մոդելը այժմ կարող է ներկառուցել տեքստ, կոճակներ և այլ վեբ տարրեր բարդ գրաֆիկայի և 3D էֆեկտների մեջ՝ արդյունավետորեն վերակենդանացնելով Flash դարաշրջանը իրական HTML-ով:",
+        "source": 39,
+        "link": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -13980,12 +14022,20 @@
       {
         "name": "OpenAI image classifier",
         "note": "Նոր գործիք պատկերները դասակարգելու համար"
+      },
+      {
+        "name": "Daybreak",
+        "note": "OpenAI-ի կողմից մշակված կիբերանվտանգության գործիք"
+      },
+      {
+        "name": "Claude",
+        "note": "Ինտերակտիվ կայքեր ստեղծելու նոր հնարավորությամբ"
       }
     ],
     "trending": [
-      "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
       "MiniMaxAI/MiniMax-H3-Image",
-      "Qwen/Qwen3.8-27B"
+      "Qwen/Qwen3.8-27B",
+      "Lightricks/LTX-2.5"
     ]
   }
 ]
