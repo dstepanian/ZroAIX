@@ -14037,5 +14037,69 @@
       "Qwen/Qwen3.8-27B",
       "Lightricks/LTX-2.5"
     ]
+  },
+  {
+    "date": "2026-11-18",
+    "ts": 1794957235107,
+    "overview": "Այսօրվա տեխնոլոգիական նորությունների հիմնական թեմաները ներառում են AI մոդելների զարգացումները, ներառյալ OpenAI-ի նոր թողարկումները, ինչպես նաև խոշոր ընկերությունների ֆինանսական արդյունքները և ղեկավարության փոփոխությունները։ Նշվում է նաև AI-ի կիրառությունը տարբեր ոլորտներում, ինչպես նաև կարգավորման և անվտանգության հարցերը։",
+    "items": [
+      {
+        "headline": "OpenAI-ն թողարկել է GPT-6.2 Astra և Sol նոր մոդելները",
+        "summary": "OpenAI-ն ներկայացրել է GPT-6.2 Astra և Sol նոր մոդելները, որոնք ավելի արդյունավետ են, ունեն բարելավված ֆունկցիոնալություն և ավելի ցածր գներ API-ի համար։",
+        "source": 27,
+        "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "outlet": "OpenAI"
+      },
+      {
+        "headline": "Nvidia-ի ղեկավարության փոփոխություններ և կարգավորող մարմինների հետաքննություն",
+        "summary": "Nvidia-ի նախկին գործադիր տնօրեն Ջենսեն Հուանգի հեռանալուց հետո ընկերությունը հայտարարել է, որ չի պատրաստվում նրան վերականգնել պաշտոնում, մինչդեռ SEC-ը հետաքննություն է սկսել ընկերության նկատմամբ։",
+        "source": 9,
+        "link": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google-ը ընդլայնում է Gemini Tasks-ի հասանելիությունը",
+        "summary": "Google-ը ընդլայնում է Gemini Tasks-ի հասանելիությունը, որը օգնում է օգտատերերին կատարել զանգեր, կատարել գնումներ և մուտք գործել կայքեր։",
+        "source": 21,
+        "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Amazon-ը և Google-ը կունենան Anthropic-ի բաժնետոմսերի զգալի մաս",
+        "summary": "Amazon-ը և Google-ը կկազմեն Anthropic-ի մոտ 30% բաժնետոմսերը IPO-ից հետո, ինչը ընդգծում է նրանց ներդրումները AI ոլորտում։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Isomorphic Labs-ը հավաքել է 5 միլիարդ դոլար՝ դեղագործական հետազոտությունների համար",
+        "summary": "Alphabet-ի AI-ով զբաղվող դեղագործական ընկերությունը՝ Isomorphic Labs-ը, հավաքել է 5 միլիարդ դոլար՝ իր դեղերի մշակումը կլինիկական փորձարկումներ տեղափոխելու համար։",
+        "source": 38,
+        "link": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ-ը փորձում է արգելել Չինաստանին AI հզորություններ վարձել արտասահմանում",
+        "summary": "ԱՄՆ-ը խստացնում է չիպերի արտահանման վերահսկողությունը՝ Չինաստանին կանխելու համար օգտվելու արտասահմանյան AI հզորություններից, մինչդեռ Չինաստանը զարգացնում է սեփական մատակարարման շղթան։",
+        "source": 33,
+        "link": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "GPT-6.2 Astra",
+        "note": "OpenAI-ի նոր, ավելի հզոր և էժանագին AI մոդել"
+      },
+      {
+        "name": "GPT-6.2 Sol",
+        "note": "OpenAI-ի նոր, ավելի հզոր և էժանագին AI մոդել"
+      }
+    ],
+    "trending": [
+      "MiniMaxAI/MiniMax-H3-Image",
+      "Qwen/Qwen3.8-27B",
+      "Lightricks/LTX-2.5"
+    ]
   }
 ]
