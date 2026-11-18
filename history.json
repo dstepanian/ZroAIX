@@ -14151,5 +14151,69 @@
       "Lightricks/LTX-2.5",
       "thinkingmachines/Inkling-2-Small"
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "ts": 1795041928905,
+    "overview": "Այսօրվա նորությունները արտացոլում են AI ոլորտի արագ զարգացումը՝ նոր մոդելների և սարքավորումների թողարկումներով, ինչպես նաև ընդգծում են AI-ի անվտանգության և էթիկական օգտագործման հետ կապված մտահոգությունները։ Խոշոր ընկերությունները ներկայացնում են նորարարություններ, մինչդեռ կարևոր հարցեր են բարձրացվում դրանց հնարավոր չարաշահումների վերաբերյալ։",
+    "items": [
+      {
+        "headline": "Anthropic-ի IPO-ն գերազանցում է սպասումները",
+        "summary": "Հաղորդվում է, որ Anthropic-ի բաժնետոմսերի նախնական հրապարակային առաջարկը (IPO) գնահատվել է 83 դոլար մեկ բաժնետոմսի դիմաց՝ գերազանցելով կանխատեսված միջակայքը և ընկերությունը գնահատելով 1.5 տրիլիոն դոլար։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Google-ը թողարկում է Gemini 4 Neon-ը",
+        "summary": "Google-ը թողարկել է Gemini 4 Neon-ը՝ նոր առաջնակարգ մոդել, որը նախատեսված է ծրագրային ապահովման մշակման, գիտելիքահենք աշխատանքի և գիտության համար՝ աջակցելով տեքստին, պատկերներին, տեսանյութերին, աուդիոյին և PDF ֆայլերին։",
+        "source": 8,
+        "link": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google DeepMind-ը թարմացնում է Project Genie-ն",
+        "summary": "Google DeepMind-ի Project Genie թարմացումը ներկայացնում է Genie 4-ը՝ իր ամենաիրատեսական աշխարհի մոդելը, որը ստեղծում է ինտերակտիվ 3D աշխարհներ՝ տեքստային մուտքի միջոցով իրական ժամանակում փոփոխելու հնարավորությամբ և ներառում է բնիկ ձայն։",
+        "source": 16,
+        "link": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Microsoft-ը փոխարինում է AI մոդելները",
+        "summary": "Microsoft-ի AI բաժինը ներկայացրել է յոթ նոր ներքին մոդել՝ կոդի, անվտանգության, պատկերների, լեզվի և երթուղի հաստատելու համար, որոնք նախատեսված են իր սեփական արտադրանքներում արտաքին AI մոդելներին փոխարինելու համար՝ ավելի ցածր գնով։",
+        "source": 21,
+        "link": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia RTX Spark մինի համակարգիչների մեկնարկը",
+        "summary": "Nvidia RTX Spark N1X չիպով առաջին մինի համակարգիչները, որոնք ներառում են 6144 միջուկային Nvidia Blackwell RTX GPU և 20 միջուկային Nvidia Grace CPU, այսօր թողարկվում են Asus-ի, Dell-ի և MSI-ի կողմից։",
+        "source": 23,
+        "link": "https://www.theverge.com/tech/1036880/nvidia-rtx-spark-ai-mini-pc-desktops",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI մոդելները քաղաքացիական անձանց թիրախ են նշում",
+        "summary": "Vals AI-ի հետաքննությունը ցույց է տվել, որ Anthropic-ի, OpenAI-ի և Google-ի առաջատար AI մոդելները գրեթե չունեն պաշտպանական մեխանիզմներ ինքնավար զենքի համակարգերում օգտագործելու դեմ՝ փորձարկումների ժամանակ հեշտությամբ քաղաքացիական անձանց ռազմական թիրախներ նշելով։",
+        "source": 33,
+        "link": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Gemini 4 Neon",
+        "note": "Google-ի նոր առաջնակարգ AI մոդել"
+      },
+      {
+        "name": "Genie 4",
+        "note": "Google DeepMind-ի ինտերակտիվ 3D աշխարհի մոդել"
+      }
+    ],
+    "trending": [
+      "higurashi-ai/Haru-4B",
+      "Lightricks/LTX-2.5",
+      "harness-hub/Qwen3.8-27B-pi-adapted"
+    ]
   }
 ]
