@@ -14040,8 +14040,8 @@
   },
   {
     "date": "2026-11-18",
-    "ts": 1794957235107,
-    "overview": "Այսօրվա տեխնոլոգիական նորությունների հիմնական թեմաները ներառում են AI մոդելների զարգացումները, ներառյալ OpenAI-ի նոր թողարկումները, ինչպես նաև խոշոր ընկերությունների ֆինանսական արդյունքները և ղեկավարության փոփոխությունները։ Նշվում է նաև AI-ի կիրառությունը տարբեր ոլորտներում, ինչպես նաև կարգավորման և անվտանգության հարցերը։",
+    "ts": 1795013112763,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության մոդելների շարունակական զարգացումը և դրանց կիրառության ընդլայնումը տարբեր ոլորտներում, ինչպես նաև կարևորում են անվտանգության, կարգավորման և բնապահպանական մարտահրավերները։",
     "items": [
       {
         "headline": "OpenAI-ն թողարկել է GPT-6.2 Astra և Sol նոր մոդելները",
@@ -14084,6 +14084,48 @@
         "source": 33,
         "link": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը բացում է իր համակարգերը աուդիտորների համար",
+        "summary": "OpenAI-ն առաջին անգամ չորս անկախ աուդիտորական կազմակերպությունների ուղիղ մուտք է տրամադրել իր չթողարկված մոդելներին, ելակետային կոդին և ուսուցման տվյալներին՝ թաքնված թերությունները և անվտանգության բացերը բացահայտելու համար։",
+        "source": 1,
+        "link": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Տվյալների կենտրոնների էներգիան գազից և ածուխից",
+        "summary": "Հարվարդի ուսումնասիրությունը ցույց է տվել, որ ԱՄՆ-ի խոշորագույն տվյալների կենտրոնների էլեկտրաէներգիայի ավելի քան կեսը ստացվում է հանածո վառելիքից, ինչը մտահոգություն է առաջացնում կլիմայի վրա դրանց ազդեցության վերաբերյալ։",
+        "source": 3,
+        "link": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ն դադարեցնում է չիպերի վաճառքը Չինաստանին",
+        "summary": "Nvidia-ն դադարեցրել է իր առաջադեմ AI չիպերի մատակարարումը Չինաստանին՝ չնայած նախկինում Սպիտակ տան կողմից ստացված թույլտվությանը, մինչդեռ ԱՄՆ Արժեթղթերի և բորսաների հանձնաժողովը (SEC) հետաքննություն է սկսել ընկերության նկատմամբ չբացահայտված չիպերի վաճառքի վերաբերյալ։",
+        "source": 9,
+        "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "KPMG-ն AI գործակալներ է կիրառում աուդիտում",
+        "summary": "KPMG-ն ավելի քան 100 AI գործակալ է ներգրավել Մեծ Բրիտանիայի ցուցակված ընկերության աուդիտի մեջ, որոնք որոշ դեպքերում ավելի խորը հարցեր են տվել, քան աուդիտորական թիմը։",
+        "source": 6,
+        "link": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը թողարկում է GPT-6.2 Astra և Sol մոդելները",
+        "summary": "OpenAI-ը թողարկել է GPT-6.2 Astra և Sol նոր մոդելները, որոնք ավելի ընդունակ են և ունեն API-ի ավելի ցածր գներ՝ ցուցադրելով բենչմարկերի որոշակի բարելավումներ։",
+        "source": 35,
+        "link": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Model ML-ը 250 միլիոն դոլար է հավաքում",
+        "summary": "Model ML ստարտափը 250 միլիոն դոլար է հավաքել՝ ավտոմատացնելու ներդրումային բանկային ոլորտի ձանձրալի աշխատանքը՝ օգտագործելով AI գործակալներ։",
+        "source": 36,
+        "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -14094,12 +14136,20 @@
       {
         "name": "GPT-6.2 Sol",
         "note": "OpenAI-ի նոր, ավելի հզոր և էժանագին AI մոդել"
+      },
+      {
+        "name": "GPT-6.2 Astra and Sol",
+        "note": "OpenAI-ի նոր AI մոդելներ"
+      },
+      {
+        "name": "Suno Visuals",
+        "note": "AI երաժշտությանը տեսանյութեր ավելացնող գործառույթ"
       }
     ],
     "trending": [
-      "MiniMaxAI/MiniMax-H3-Image",
-      "Qwen/Qwen3.8-27B",
-      "Lightricks/LTX-2.5"
+      "higurashi-ai/Haru-4B",
+      "Lightricks/LTX-2.5",
+      "thinkingmachines/Inkling-2-Small"
     ]
   }
 ]
