@@ -14154,8 +14154,8 @@
   },
   {
     "date": "2026-11-19",
-    "ts": 1795041928905,
-    "overview": "Այսօրվա նորությունները արտացոլում են AI ոլորտի արագ զարգացումը՝ նոր մոդելների և սարքավորումների թողարկումներով, ինչպես նաև ընդգծում են AI-ի անվտանգության և էթիկական օգտագործման հետ կապված մտահոգությունները։ Խոշոր ընկերությունները ներկայացնում են նորարարություններ, մինչդեռ կարևոր հարցեր են բարձրացվում դրանց հնարավոր չարաշահումների վերաբերյալ։",
+    "ts": 1795099936925,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI ոլորտի զգալի առաջընթացները և ռազմավարական փոփոխությունները՝ սկսած խոշոր ֆինանսական ձեռքբերումներից և նոր մոդելների թողարկումներից մինչև AI-ի հասարակական ազդեցության և հիմնական տեխնոլոգիաների օպտիմալացման շուրջ քննարկումները։",
     "items": [
       {
         "headline": "Anthropic-ի IPO-ն գերազանցում է սպասումները",
@@ -14198,6 +14198,48 @@
         "source": 33,
         "link": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի պատմական IPO-ն",
+        "summary": "Anthropic-ը հրապարակային է դարձել պատմության մեջ ամենամեծ IPO-ով՝ գերազանցելով SpaceX-ի նախկին ռեկորդը 81.3 միլիարդ դոլարով։",
+        "source": 3,
+        "link": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google-ի AI սերվերային արբանյակներ",
+        "summary": "Google-ը համագործակցում է Blue Origin-ի հետ՝ 2029 թվականին իր AI սերվերային արբանյակները, որոնք հագեցած են Tensor Processing Units (TPU) չիպերով, տիեզերք արձակելու համար։",
+        "source": 6,
+        "link": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google DeepMind-ը թողարկում է Gemini 4 Neon",
+        "summary": "Google DeepMind-ը ներկայացրել է Gemini 4 Neon AI մոդելը, որն ավելի արագ, էժան և խելացի է, քան իր նախորդը։",
+        "source": 26,
+        "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+        "outlet": "DeepMind"
+      },
+      {
+        "headline": "Սատյա Նադելլան AI-ի ազդեցության մասին",
+        "summary": "Microsoft-ի գործադիր տնօրեն Սատյա Նադելլան բացատրել է, որ AI-ն է պատճառը, որ ինքը 60,000 աշխատակիցների առաջարկել է կամավոր հեռանալ՝ վերաձևելով աշխատուժի տնտեսագիտությունը։",
+        "source": 18,
+        "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Դպրոցները դիտարկում են Google Search-ի փոխարինումը",
+        "summary": "ԱՄՆ-ի խոշորագույն դպրոցական շրջանները դիտարկում են Google Search-ից հրաժարվելը, քանի որ ընկերությունը հայտարարել է, որ կանջատի Search-ը այն դպրոցների համար, որոնք կհրաժարվեն իր AI գործառույթներից։",
+        "source": 22,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "OpenAI-ի AI-ն չիպերի օպտիմալացման համար",
+        "summary": "OpenAI-ի մոդելները, համագործակցելով AMD-ի հետ, հասել են չիպերի օպտիմալացման մեկ տարվա առաջընթացի ընդամենը հինգ ամսում՝ բարելավելով AMD-ի GPU IP-ի արդյունավետությունը։",
+        "source": 37,
+        "link": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -14212,8 +14254,8 @@
     ],
     "trending": [
       "higurashi-ai/Haru-4B",
-      "Lightricks/LTX-2.5",
-      "harness-hub/Qwen3.8-27B-pi-adapted"
+      "tencent/Hy4-flash",
+      "Qwen/Qwen3.8-27B"
     ]
   }
 ]
