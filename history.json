@@ -14260,8 +14260,8 @@
   },
   {
     "date": "2026-11-20",
-    "ts": 1795128557199,
-    "overview": "Այսօրվա տեխնոլոգիական նորությունները շեշտում են արհեստական բանականության մոդելների և գործակալների արագ զարգացումը, ինչպես նաև դրանց անվտանգության, իրական աշխարհի ազդեցությունների և աշխարհաքաղաքական լարվածության շուրջ աճող մտահոգությունները։",
+    "ts": 1795185203448,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս արհեստական բանականության շարունակական ինտեգրումը հիմնական պրոդուկտներին և ծառայություններին, ինչպես նաև ոլորտի ֆինանսական դինամիկան՝ խոշոր IPO-ներով և աճի դանդաղման նշաններով։",
     "items": [
       {
         "headline": "Apple-ը մշակում է սեփական AI գործակալ",
@@ -14304,13 +14304,60 @@
         "source": 30,
         "link": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google Search-ի AI ինտեգրում",
+        "summary": "Google-ը գլոբալ կերպով ներդնում է իր Desktop Search-ի գլխավոր էջում AI ռեժիմով կողային վահանակ, որը թույլ է տալիս օգտատերերին վերաբացել վերջին AI որոնումները և ստեղծել նոթբուքեր։",
+        "source": 3,
+        "link": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Anthropic-ի հիմնադիրների IPO եկամուտ",
+        "summary": "Anthropic-ի յոթ հիմնադիրները ընկերության ռեկորդային IPO-ի շրջանակներում ստացել են մոտ 2 միլիարդ դոլար։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Gemini-ի նոր հնարավորություններ Mac-ում",
+        "summary": "Google-ի Gemini-ի վերջին թարմացումը AI գործակալին հնարավորություն է տալիս Mac-ում կազմակերպել ֆայլեր, լրացնել ձևաթղթեր և կատարել բազմաքայլ աշխատանքային հոսքեր։",
+        "source": 24,
+        "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Signal-ը արգելափակում է AI-ի մուտքը էկրանին",
+        "summary": "Signal-ը սահմանափակում է սքրինշոթեր անելու հնարավորությունը Android և iOS սարքերում՝ կանխելու համար AI գործակալների կողմից օգտատերերի հաղորդագրությունները և այլ տվյալները կարդալը։",
+        "source": 5,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Meta Muse Charm-ի գինը",
+        "summary": "Ըստ The Information-ի՝ Meta-ն նախատեսում է Muse Charm-ի՝ AI գործակալի հետ շփվելու համար նախատեսված փոքրիկ սարքի գինը սահմանել 300 դոլար։",
+        "source": 17,
+        "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI ոլորտի աճի դանդաղում",
+        "summary": "Չնայած AI ոլորտի ուժեղ աճին, վերջին տվյալները ցույց են տալիս եկամուտների աճի տեմպերի դանդաղում, քանի որ AI մոդելների թոքենների գները նվազել են 21 տոկոսով վեց շաբաթվա ընթացքում։",
+        "source": 22,
+        "link": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+        "outlet": "The Decoder"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "Muse Charm",
+        "note": "Meta-ի նոր AI կրվող սարք"
+      }
+    ],
     "trending": [
       "higurashi-ai/Haru-4B",
-      "tencent/Hy4-flash",
-      "apple/FastFrames-L"
+      "inworld/voice-isolator",
+      "harness-hub/Qwen3.8-27B-pi-adapted"
     ]
   }
 ]
