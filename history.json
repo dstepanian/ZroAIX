@@ -14359,5 +14359,65 @@
       "inworld/voice-isolator",
       "harness-hub/Qwen3.8-27B-pi-adapted"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "ts": 1795213574685,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI հետազոտությունների զգալի առաջընթացը, որտեղ Claude-ը հնարավոր է լուծել է մաթեմատիկական կարևոր խնդիր։ Կան նաև AI գործակալների հնարավորությունների զարգացումներ, ինչպես նաև աճող մտահոգություններ AI-ի բնապահպանական ազդեցության և տվյալների գաղտնիության վերաբերյալ։ Ճյուղը նաև տեսավ խոշոր ձեռքբերում և Չինաստանի աշխատաշուկայի վրա հստակ ազդեցություն։",
+    "items": [
+      {
+        "headline": "Claude-ը լուծել է Ռիմանի հիպոթեզը",
+        "summary": "Anthropic-ի մաթեմատիկոսը, օգտագործելով Claude AI-ն, հայտարարել է Ռիմանի հիպոթեզի լուծման մասին, որը մաթեմատիկայի ամենադժվար խնդիրներից է։",
+        "source": 20,
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Google Gemini-ը Mac հավելվածներում",
+        "summary": "Google-ի Gemini-ն այժմ կարող է աշխատեցնել Mac հավելվածներ և կատարել աշխատասեղանի առաջադրանքներ հետին պլանում, մինչ օգտատերերը շարունակում են աշխատել։",
+        "source": 12,
+        "link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI մատակարարման շղթայի գաղտնիության խնդիրներ",
+        "summary": "Հետազոտողը 2 միլիոն «կանարիա» է տեղադրել AI մատակարարման շղթայում, ինչը բացահայտել է գաղտնիության լուրջ խախտումներ՝ ապացուցելով, որ տվյալները գաղտնի չեն մնում։",
+        "source": 3,
+        "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Meta-ն վերանայում է զրոյական արտանետումների նպատակը",
+        "summary": "Meta-ն վերանայում է իր 2030 թվականի զրոյական զուտ արտանետումների նպատակը՝ AI տվյալների կենտրոններից գրանցված արտանետումների ֆոնին։",
+        "source": 2,
+        "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Nvidia-ն ձեռք է բերում Inception-ը",
+        "summary": "Nvidia-ն մոտ է Inception AI ստարտափը առնվազն 500 միլիոն դոլարով ձեռք բերելուն՝ ամրապնդելու իր բաց կոդով Nemotron մոդելների շարքը։",
+        "source": 26,
+        "link": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ի ազդեցությունը Չինաստանի աշխատաշուկայի վրա",
+        "summary": "Bloomberg-ի վերլուծությունը ցույց է տվել, որ Չինաստանում AI-ի ազդեցության տակ գտնվող աշխատատեղերը 10 տոկոսային կետով ավելի արագ են նվազել, քան մյուսները։",
+        "source": 23,
+        "link": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Inkling 2 Mini",
+        "note": "Նոր AI մոդել տեղական կարգավորումների համար"
+      }
+    ],
+    "trending": [
+      "higurashi-ai/Haru-4B",
+      "harness-hub/Qwen3.8-27B-pi-adapted",
+      "Qwen/Qwen3.8-27B"
+    ]
   }
 ]
