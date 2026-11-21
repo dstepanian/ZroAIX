@@ -14362,8 +14362,8 @@
   },
   {
     "date": "2026-11-21",
-    "ts": 1795213574685,
-    "overview": "Այսօրվա նորությունները ընդգծում են AI հետազոտությունների զգալի առաջընթացը, որտեղ Claude-ը հնարավոր է լուծել է մաթեմատիկական կարևոր խնդիր։ Կան նաև AI գործակալների հնարավորությունների զարգացումներ, ինչպես նաև աճող մտահոգություններ AI-ի բնապահպանական ազդեցության և տվյալների գաղտնիության վերաբերյալ։ Ճյուղը նաև տեսավ խոշոր ձեռքբերում և Չինաստանի աշխատաշուկայի վրա հստակ ազդեցություն։",
+    "ts": 1795269100178,
+    "overview": "Այսօրվա նորությունները արտացոլում են AI ոլորտի արագ զարգացումները՝ նոր մոդելների թողարկումներով և նույնիսկ մաթեմատիկական դժվար խնդիրների լուծման փորձերով։ Միաժամանակ, աճում են մտահոգությունները AI-ի գաղտնիության, շուկայական անկայունության և կարգավորման շուրջ, ինչպես նաև ուժեղանում է մրցակցությունը խոշոր տեխնոլոգիական ընկերությունների միջև։",
     "items": [
       {
         "headline": "Claude-ը լուծել է Ռիմանի հիպոթեզը",
@@ -14406,6 +14406,48 @@
         "source": 23,
         "link": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI-ը և մարդիկ՝ Ռիմանի վարկածի լուծման շուրջ",
+        "summary": "Anthropic-ի Claude AI-ն հայտարարել է Ռիմանի վարկածի ապացույցի մասին, որը մաթեմատիկայի 167-ամյա չլուծված խնդիրն է, մինչդեռ Սթենֆորդի հետազոտողները միաժամանակ հրապարակել են մարդկային անկախ ապացույց։",
+        "source": 15,
+        "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Նոր Inkling 2 Mini բաց մոդել",
+        "summary": "Thinking Machines-ը թողարկել է Inkling 2 Mini բաց մոդելը, որը ներքին տրամաբանություն է կիրառում ավելի քիչ բառերով խնդիրներ լուծելու համար և աշխատում է նոթբուքի վրա։",
+        "source": 6,
+        "link": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "ԱՄՆ տեխնոլոգիական բաժնետոմսերի անկում",
+        "summary": "Nasdaq 100-ը գրանցել է իր ամենավատ շաբաթական կորուստը համաճարակից ի վեր, քանի որ AI-ի շուրջ կասկածները, սկանդալները և տոկոսադրույքների բարձրացումը հարվածում են գերգնահատված արժեթղթերին։",
+        "source": 7,
+        "link": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Signal-ը արգելափակում է սքրինշոթերը",
+        "summary": "Signal-ը արգելափակում է սքրինշոթերը iOS 27-ում և Android-ում՝ կանխելու համար AI գործակալների կողմից անձնական զրույցների ընթերցումը՝ այն անվանելով գաղտնիության «էքզիստենցիալ սպառնալիք»։",
+        "source": 13,
+        "link": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Apple-ը մտնում է AI գործակալների մրցավազք",
+        "summary": "Meta-ի, OpenAI-ի, Anthropic-ի և Google-ի կողմից AI գործակալներ թողարկելուց հետո, Apple-ը նույնպես ստեղծում է իր սեփականը՝ միաժամանակ նոր խոչընդոտներ ստեղծելով մրցակիցների համար։",
+        "source": 25,
+        "link": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Թրամփի հարկային սպառնալիքը AI տվյալների կենտրոններին",
+        "summary": "Նախագահ Դոնալդ Թրամփը խոստացել է «հսկայական հարկ» սահմանել այն ընկերությունների համար, որոնք AI տվյալների կենտրոններ կկառուցեն ԱՄՆ-ից դուրս։",
+        "source": 18,
+        "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+        "outlet": "The Verge"
       }
     ],
     "releases": [
@@ -14415,9 +14457,9 @@
       }
     ],
     "trending": [
+      "thinkingmachines/Inkling-2-Mini",
       "higurashi-ai/Haru-4B",
-      "harness-hub/Qwen3.8-27B-pi-adapted",
-      "Qwen/Qwen3.8-27B"
+      "harness-hub/Qwen3.8-27B-pi-adapted"
     ]
   }
 ]
