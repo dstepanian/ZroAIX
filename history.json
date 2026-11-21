@@ -14461,5 +14461,62 @@
       "higurashi-ai/Haru-4B",
       "harness-hub/Qwen3.8-27B-pi-adapted"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "ts": 1795295857709,
+    "overview": "Օրվա նորությունները լուսաբանում են AI ոլորտում զգալի առաջընթացները և էթիկական բանավեճերը, ինչպես նաև ընդհանուր տեխնոլոգիաների ոլորտում խոշոր ֆինանսավորումը։ Կարևոր զարգացումները ներառում են նոր AI մոդելներ և հետազոտություններ, որոնք մարտահրավեր են նետում ուսուցման ավանդական մեթոդներին, ինչպես նաև AI կարգավորման շուրջ շարունակվող միջազգային քննարկումները։",
+    "items": [
+      {
+        "headline": "ՄԱԿ-ը չի կարողանում համաձայնել «մարդասպան ռոբոտների» կանոնների շուրջ",
+        "summary": "ՄԱԿ-ի դիվանագետները Ժնևում անցկացրած բանակցությունների անարդյունք շաբաթից հետո չկարողացան համաձայնության գալ ինքնավար զենքերի կամ «մարդասպան ռոբոտների» օգտագործումը կարգավորող կանոնների շուրջ։",
+        "source": 2,
+        "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Anthropic-ի Claude-ը և Ռիմանի հիպոթեզը",
+        "summary": "Anthropic-ի մաթեմատիկոսը հայտարարել է, որ օգտագործել է Claude-ը՝ ապացուցելու Ռիմանի հիպոթեզը, սակայն ժամեր անց Սթենֆորդի հետազոտողները հրապարակել են բացառապես մարդկային մրցակցային ապացույց։",
+        "source": 17,
+        "link": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Bytedance-ը ներկայացնում է Axion 1.0 AI մոդելը",
+        "summary": "Bytedance-ը և ԱՄՆ մի քանի համալսարաններ ներկայացրել են Axion 1.0 AI գործակալը, որը մրցում է OpenAI-ի և Anthropic-ի առաջատար առևտրային մոդելների հետ՝ ընդամենը երեք ուսուցման փուլից հետո։",
+        "source": 18,
+        "link": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Google Search-ի նոր գլխավոր էջը AI-ով",
+        "summary": "Google-ը գործարկում է որոնման նոր գլխավոր էջ՝ AI չաթի պատմությամբ և առանց որոնման կոճակի, ինչը հեշտացնում է AI գործիքներին հասանելիությունը։",
+        "source": 19,
+        "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Harbinger-ը $240 մլն ներդրում է ստացել",
+        "summary": "Էլեկտրական բեռնատարներ արտադրող Harbinger ստարտափը Series D փուլում հավաքել է 240 միլիոն դոլար՝ ներառյալ FedEx-ից 300 միլիոն դոլարի պատվեր և ԱՄՆ բանակի հետ նոր պաշտպանական պայմանագիր։",
+        "source": 16,
+        "link": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
+        "outlet": "The Verge"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Axion 1.0",
+        "note": "նոր բաց AI մոդել"
+      },
+      {
+        "name": "Google Search",
+        "note": "AI չաթի պատմությամբ նոր գլխավոր էջ"
+      }
+    ],
+    "trending": [
+      "thinkingmachines/Inkling-2-Mini",
+      "tencent/Hy4-flash",
+      "inworld/voice-isolator"
+    ]
   }
 ]
