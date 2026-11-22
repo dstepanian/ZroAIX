@@ -14553,5 +14553,62 @@
       "inworld/voice-isolator",
       "tencent/Hy4-flash"
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "ts": 1795382638798,
+    "overview": "Այսօրվա նորությունները շեշտում են AI մոդելների և գործիքների շարունակական զարգացումը, դրանց գործնական կիրառումը, ինչպես նաև էթիկական մարտահրավերներն ու զարգացման սահմանափակումների շուրջ քննարկումները։",
+    "items": [
+      {
+        "headline": "OpenAI-ի գլխավոր գիտնականը՝ AI զարգացման սահմանափակումների մասին",
+        "summary": "OpenAI-ի գլխավոր գիտնականը քննարկում է AI-ի զարգացման արագությունը սահմանափակելու հնարավորությունները՝ շեշտելով արագությունը չափելու համաձայնեցված մեթոդների անհրաժեշտությունը։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Binding of Isaac-ից հեռացվեց AI երաժշտությունը",
+        "summary": "The Binding of Isaac: Repentance Plus խաղի մշակողը հեռացրել է AI-ով ստեղծված երաժշտությունը՝ օգտատերերի բողոքներից հետո։",
+        "source": 4,
+        "link": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI կոդավորող գործակալների իրական աշխատանքը",
+        "summary": "Նոր փորձարկումները ցույց են տվել, որ AI կոդավորող գործակալները, ինչպիսիք են Opus 5.5-ը և Astra-ն, իրական աշխատանքային միջավայրում լուծում են տասը առաջադրանքից պակաս մեկը։",
+        "source": 7,
+        "link": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Perplexity-ի նոր Monitor API",
+        "summary": "Perplexity-ը գործարկում է Monitor API, որը թույլ է տալիս ավտոմատ կերպով որոնել համացանցը և ծանուցումներ ուղարկել միայն համապատասխան փոփոխությունների դեպքում։",
+        "source": 9,
+        "link": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "GPT-6.2 Astra և Sol-ի նոր գնահատում",
+        "summary": "OpenAI-ի GPT-6.2 Astra և Sol մոդելները ավելի արագ և ուղիղ պատասխաններ են տալիս, սակայն թափանցիկության առումով զիջում են Claude մոդելներին։",
+        "source": 16,
+        "link": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Perplexity Monitor API",
+        "note": "Վեբ որոնումների նոր API"
+      },
+      {
+        "name": "GPT-6.2 Astra և Sol",
+        "note": "OpenAI-ի նոր AI մոդելներ"
+      }
+    ],
+    "trending": [
+      "thinkingmachines/Inkling-2-Mini",
+      "inworld/voice-isolator",
+      "harness-hub/Qwen3.8-27B-pi-adapted"
+    ]
   }
 ]
