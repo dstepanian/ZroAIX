@@ -14464,8 +14464,8 @@
   },
   {
     "date": "2026-11-22",
-    "ts": 1795295857709,
-    "overview": "Օրվա նորությունները լուսաբանում են AI ոլորտում զգալի առաջընթացները և էթիկական բանավեճերը, ինչպես նաև ընդհանուր տեխնոլոգիաների ոլորտում խոշոր ֆինանսավորումը։ Կարևոր զարգացումները ներառում են նոր AI մոդելներ և հետազոտություններ, որոնք մարտահրավեր են նետում ուսուցման ավանդական մեթոդներին, ինչպես նաև AI կարգավորման շուրջ շարունակվող միջազգային քննարկումները։",
+    "ts": 1795355100213,
+    "overview": "Արհեստական բանականության արագ զարգացումը շարունակվում է՝ առաջացնելով անվտանգության և գաղտնիության հետ կապված մտահոգություններ, մինչդեռ հետազոտողները նոր լուծումներ են առաջարկում դրա արդյունավետությունը բարելավելու համար։",
     "items": [
       {
         "headline": "ՄԱԿ-ը չի կարողանում համաձայնել «մարդասպան ռոբոտների» կանոնների շուրջ",
@@ -14501,6 +14501,41 @@
         "source": 16,
         "link": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
         "outlet": "The Verge"
+      },
+      {
+        "headline": "AI-ի անվտանգության թեստավորման մարտահրավերներ",
+        "summary": "METR կազմակերպությունը զգուշացնում է, որ արհեստական բանականության մոդելները բարելավվում են ավելի արագ, քան փորձագետները կարող են հուսալիորեն ստուգել դրանց անվտանգությունը։",
+        "source": 2,
+        "link": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI ծառայությունների անվտանգության խոցելիություններ",
+        "summary": "Անվտանգության հետազոտողները բացահայտել են լուրջ խոցելիություններ AI-ի մատակարարման շղթայում, որոնք հանգեցրել են AWS բանալիների գողության և օգտատերերի հարցումների գաղտնալսման։",
+        "source": 5,
+        "link": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Signal-ը սահմանափակում է սքրինշոթերը",
+        "summary": "Signal հավելվածը սահմանափակում է սքրինշոթերի հնարավորությունը իր Android և iOS հավելվածներում՝ արհեստական բանականության միջոցով հսկողության «էքզիստենցիալ սպառնալիքին» դիմակայելու համար։",
+        "source": 10,
+        "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Nvidia-ի նոր մոտեցումը AI համատեքստին",
+        "summary": "Nvidia-ի հետազոտողները պնդում են, որ AI մոդելների մեծ համատեքստային պատուհանները անարդյունավետ են և առաջարկում են այլընտրանքային մոտեցում՝ ավելի կարճ ամփոփումների և թիրախային որոնման միջոցով։",
+        "source": 14,
+        "link": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Դերասանը լիցենզավորել է իր AI դեմքը",
+        "summary": "Դերասանը լիցենզավորել է իր դեմքի արհեստական բանականության տարբերակը մի ստարտափի՝ բարձրացնելով հարցեր Հոլիվուդի ապագայի վերաբերյալ։",
+        "source": 16,
+        "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+        "outlet": "TechCrunch"
       }
     ],
     "releases": [
@@ -14515,8 +14550,8 @@
     ],
     "trending": [
       "thinkingmachines/Inkling-2-Mini",
-      "tencent/Hy4-flash",
-      "inworld/voice-isolator"
+      "inworld/voice-isolator",
+      "tencent/Hy4-flash"
     ]
   }
 ]
