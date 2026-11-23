@@ -14556,8 +14556,8 @@
   },
   {
     "date": "2026-11-23",
-    "ts": 1795382638798,
-    "overview": "Այսօրվա նորությունները շեշտում են AI մոդելների և գործիքների շարունակական զարգացումը, դրանց գործնական կիրառումը, ինչպես նաև էթիկական մարտահրավերներն ու զարգացման սահմանափակումների շուրջ քննարկումները։",
+    "ts": 1795452345552,
+    "overview": "Այսօրվա նորությունները գերակշտրում են AI մոդելների զարգացումները և դրանց աշխարհաքաղաքական հետևանքները, ինչպես նաև արդյունաբերության առաջնորդության խոշոր փոփոխությունները և ֆինանսավորման շրջանները։",
     "items": [
       {
         "headline": "OpenAI-ի գլխավոր գիտնականը՝ AI զարգացման սահմանափակումների մասին",
@@ -14593,6 +14593,48 @@
         "source": 16,
         "link": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ն վերականգնում է Ջենսեն Հուանգին",
+        "summary": "Nvidia-ի տնօրենների խորհուրդը վերականգնել է Ջենսեն Հուանգին որպես գործադիր տնօրեն՝ ԱՄՆ կառավարության բարձրաստիճան պաշտոնյաների աջակցությամբ։",
+        "source": 14,
+        "link": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "ԱՄՆ-ը հետևել է Nvidia-ի գործչին",
+        "summary": "ԱՄՆ հետախուզական գործակալությունները մեկ տարուց ավելի հետևել են Nvidia-ի սկանդալի կենտրոնում հայտնված Ալիս Հուանգի կապերին Չինաստանի հետախուզության հետ։",
+        "source": 19,
+        "link": "https://the-decoder.com/us-spies-tracked-nvidia-scandal-figures-ties-to-chinese-intelligence-for-over-a-year/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Z.ai-ը ներկայացնում է GLM-5.4 մոդելը",
+        "summary": "Z.ai-ը ներկայացրել է իր GLM-5.4 ֆլագման մոդելը՝ հիմնված նոր օղակաձև ճարտարապետության վրա, որը թույլ է տալիս 750 միլիարդ պարամետր ունեցող մոդելին համընկնել 2-3 տրիլիոն պարամետր ունեցող մոդելների հետ։",
+        "source": 6,
+        "link": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Sierra-ն ստանում է 1,75 միլիարդ դոլար",
+        "summary": "Ձեռնարկությունների հաճախորդների փորձի ընկերություն Sierra-ն հայտարարել է 1,75 միլիարդ դոլարի Series F ֆինանսավորման մասին՝ վեց ամսվա ընթացքում կրկնապատկելով իր գնահատումը մինչև 30 միլիարդ դոլար։",
+        "source": 12,
+        "link": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "GPT-6.2 Astra-ն լուծում է թեորեմ",
+        "summary": "OpenAI-ի GPT-6.2 Astra-ն ինքնուրույն լուծել է մաթեմատիկական թեորեմ, որը ոչ մի այլ AI չէր կարողացել լուծել, և ստեղծել է իր սեփական ապացուցման ռազմավարությունը։",
+        "source": 22,
+        "link": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Չինաստանը մտահոգված է AI-ի պատճառով",
+        "summary": "Չինացի ռազմական հետազոտողները մտավախություն ունեն, որ AI-ի առաջընթացը կարող է ԱՄՆ-ին առավելություն տալ միջուկային ուժերի հավասարակշռության մեջ՝ հնարավորություն տալով գտնել և ոչնչացնել իրենց միջուկային հրթիռները։",
+        "source": 11,
+        "link": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
+        "outlet": "The Decoder"
       }
     ],
     "releases": [
@@ -14603,6 +14645,14 @@
       {
         "name": "GPT-6.2 Astra և Sol",
         "note": "OpenAI-ի նոր AI մոդելներ"
+      },
+      {
+        "name": "GLM-5.4",
+        "note": "Z.ai-ի նոր ֆլագման AI մոդել"
+      },
+      {
+        "name": "GPT-6.2 Astra",
+        "note": "OpenAI-ի նոր AI մոդել՝ մաթեմատիկական թեորեմներ լուծելու համար"
       }
     ],
     "trending": [
