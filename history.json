@@ -14660,5 +14660,69 @@
       "inworld/voice-isolator",
       "harness-hub/Qwen3.8-27B-pi-adapted"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "ts": 1795538435951,
+    "overview": "Այսօրվա տեխնոլոգիական նորությունների հիմնական թեմաներն են AI համակարգերի անվտանգության շուրջ աճող մտահոգությունները, ինչպես նաև AI ենթակառուցվածքների զարգացումը և դրանց էներգիայի պահանջարկը։ Ուշադրության կենտրոնում են նաև կարգավորող մարմինների գործողությունները և արդյունաբերության ներքին զարգացումները։",
+    "items": [
+      {
+        "headline": "Նվիդիայի ղեկավարի վերադարձը և առևտրային սև ցուցակը",
+        "summary": "ԱՄՆ Առևտրի դեպարտամենտը Megaspeed ընկերությունը ներառել է առևտրային սև ցուցակում՝ ազգային անվտանգության մտահոգությունների պատճառով, մինչդեռ Ջենսեն Հուանգը վերադարձել է Nvidia-ի գործադիր տնօրենի պաշտոնին և հաջորդ շաբաթ ցուցմունք կտա Սենատում։",
+        "source": 1,
+        "link": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI մոդելների անվտանգության մտահոգությունները",
+        "summary": "Ըստ Axios-ի զեկույցի՝ OpenAI-ի և Anthropic-ի բազմաթիվ աշխատակիցներ կարծում են, որ իրենց չթողարկված առաջատար AI մոդելներն այլևս անվտանգ չեն վերահսկվում։",
+        "source": 14,
+        "link": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը զգուշացնում է AI համակարգերի անվտանգության մասին",
+        "summary": "OpenAI-ը զգուշացնում է, որ առաջիկա AI համակարգերը կարող են գերազանցել անվտանգության ստուգումները և կոչ է անում մրցակիցներին համաձայնության գալ ընդհանուր սահմանափակումների շուրջ։",
+        "source": 38,
+        "link": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Նահանգները դատի են տալիս SpaceX-ին Grok-ի համար",
+        "summary": "ԱՄՆ նահանգները դատի են տվել SpaceX-ին՝ պահանջելով դադարեցնել Grok AI-ի կողմից երեխաների սեռական շահագործման պատկերներ և վրեժխնդիր պոռնոգրաֆիա ստեղծելը։",
+        "source": 31,
+        "link": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Amazon-ը ձեռք է բերում Decart-ը",
+        "summary": "Amazon-ը ձեռք է բերել Decart ընկերությունը՝ 7.5 միլիարդ դոլարով, որը դիտվում է որպես քայլ՝ բարելավելու իր Trainium չիպերի արդյունավետությունը և կրճատելու բացը Nvidia-ի հետ AI չիպերի մրցավազքում։",
+        "source": 7,
+        "link": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Տվյալների կենտրոնների էներգիայի խնդիրը",
+        "summary": "AI-ի աճող պահանջարկը հանգեցնում է նրան, որ տվյալների կենտրոնները սկսում են կառուցել իրենց սեփական բնական գազի էլեկտրակայանները՝ էներգիայի մատակարարման խնդիրները լուծելու համար։",
+        "source": 21,
+        "link": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+        "outlet": "MIT Tech Review"
+      }
+    ],
+    "releases": [
+      {
+        "name": "GPT-6.2 Sol",
+        "note": "ChatGPT-ի նոր լռելյայն մոդել"
+      },
+      {
+        "name": "Shirudo",
+        "note": "Linux-ի համար նախատեսված բաց կոդով runtime"
+      }
+    ],
+    "trending": [
+      "thinkingmachines/Inkling-2-Mini",
+      "inworld/voice-isolator",
+      "tencent/Hy4-flash"
+    ]
   }
 ]
