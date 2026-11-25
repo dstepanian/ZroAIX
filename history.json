@@ -14724,5 +14724,69 @@
       "inworld/voice-isolator",
       "tencent/Hy4-flash"
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "ts": 1795623842893,
+    "overview": "Այսօրվա նորությունները ցույց են տալիս AI-ի աճող ազդեցությունը տարբեր ոլորտներում՝ էլեկտրոնային առևտրից մինչև կիբերանվտանգություն և բովանդակության ստեղծում։ Միաժամանակ, շարունակվում են հետազոտությունները AI-ի հնարավորությունների և ենթակառուցվածքային մարտահրավերների շուրջ։",
+    "items": [
+      {
+        "headline": "Deepmind-ի AI գործակալները Gemini-ի համար",
+        "summary": "Google Deepmind-ն օգտագործում է AI գործակալներ՝ ապագա Gemini մոդելների համար փորձեր անցկացնելու համար, թեև ինքնակատարելագործումը դեռ հեռու է։",
+        "source": 9,
+        "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Amazon-ը և Meta-ն բանակցում են Muse-ի շուրջ",
+        "summary": "Հաղորդվում է, որ Amazon-ը բանակցություններ է վարում Meta-ի հետ՝ թույլ տալու Muse AI գործակալին գնումներ կատարել իր առցանց շուկայում՝ վերջ դնելով արգելափակմանը։",
+        "source": 4,
+        "link": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "AI տվյալների կենտրոնների կառուցման դժվարություններ",
+        "summary": "AI տվյալների կենտրոնների կառուցումը դառնում է ավելի բարդ, ինչը դժվարություններ է ստեղծում նեոամպային ընկերությունների համար՝ կապված շինարարության հետաձգումների և ավելի թանկ պարտքերի հետ։",
+        "source": 2,
+        "link": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Մեծ Բրիտանիան զգուշացնում է AI կիբերհարձակումների մասին",
+        "summary": "Մեծ Բրիտանիայի կիբերանվտանգության գործակալությունը զգուշացնում է, որ AI-ի կողմից պայմանավորված կիբերհարձակումները բացահայտում են անվտանգության թույլ կողմերը, ընդգծելով ամուր հիմքերի կարևորությունը։",
+        "source": 35,
+        "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Tidal-ը արգելում է AI երաժշտությունը",
+        "summary": "Tidal երաժշտական հարթակը հայտարարել է AI-ի կողմից ստեղծված երաժշտության արգելքի մասին՝ իր կատալոգից հեռացնելով 27 միլիոն երգ։",
+        "source": 38,
+        "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+        "outlet": "Ars Technica"
+      },
+      {
+        "headline": "Claude Artifacts-ը՝ որպես աշխատասեղանի հավելվածներ",
+        "summary": "Anthropic-ը թույլ է տալիս օգտատերերին տեղադրել Claude Artifacts-ը որպես աշխատասեղանի հավելվածներ macOS-ի և Windows-ի համար, ինչը հասանելի է անվճար հաշվով։",
+        "source": 30,
+        "link": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [
+      {
+        "name": "Claude Artifacts",
+        "note": "Այժմ հասանելի է որպես աշխատասեղանի հավելված macOS-ի և Windows-ի համար։"
+      },
+      {
+        "name": "Ternary Bonsai 2.5 27B",
+        "note": "54 ԳԲ լեզվական մոդելի սեղմված տարբերակ։"
+      }
+    ],
+    "trending": [
+      "thinkingmachines/Inkling-2-Mini",
+      "inworld/voice-isolator",
+      "SulphurAI/Sulphur-3"
+    ]
   }
 ]
