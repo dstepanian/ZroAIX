@@ -14788,5 +14788,60 @@
       "inworld/voice-isolator",
       "SulphurAI/Sulphur-3"
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "ts": 1795708706721,
+    "overview": "Այսօրվա նորությունները ընդգծում են AI-ի աճող գլոբալ ազդեցությունը՝ սկսած նոր ենթակառուցվածքային նախագծերից և սարքավորումների շուրջ աշխարհաքաղաքական լարվածությունից մինչև տվյալների գաղտնիության, կիբերանվտանգության և բնապահպանական մտահոգությունների շուրջ կարևոր քննարկումներ։ Կարգավորումներ են առաջանում նաև AI-ի հասարակական հետևանքները լուծելու համար։",
+    "items": [
+      {
+        "headline": "SpaceX-ը կտեղակայի AI տվյալների կենտրոններ",
+        "summary": "FCC-ն թույլատրել է SpaceX-ին մինչև 2040 թվականը տեղակայել մինչև 1 միլիոն Starmind արբանյակ՝ AI տվյալների ուղեծրային կենտրոններ ստեղծելու համար։",
+        "source": 7,
+        "link": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Microsoft-ը բացահայտում է ARTEX AI շրջանակը",
+        "summary": "Microsoft-ը մանրամասնել է ARTEX AI շրջանակի տեխնիկական ճարտարապետությունը, որը պետական աջակցություն ունեցող հաքերները օգտագործում են կիբերհարձակումներն ավտոմատացնելու համար։",
+        "source": 11,
+        "link": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Nvidia-ն դադարեցնում է սերվերների առաքումները",
+        "summary": "Nvidia-ն դադարեցրել է սերվերների առաքումները Մալայզիա, Սինգապուր, Թաիլանդ և Ինդոնեզիա՝ ԱՄՆ-ի արտահանման վերահսկողության խստացումից հետո։",
+        "source": 12,
+        "link": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Character.AI-ի տվյալների վաճառքի դեմ հայց",
+        "summary": "42 նահանգների գլխավոր դատախազներ փորձում են կանխել Character.AI-ին օգտատերերի զրույցների տվյալները վաճառելուց՝ ընկերության սնանկության գործընթացում։",
+        "source": 15,
+        "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Նյու Յորքը արգելում է AI խաղալիքները",
+        "summary": "Նյու Յորքը հինգ տարով արգելել է AI չաթբոտ խաղալիքները՝ անվտանգության հետ կապված մտահոգությունների և անպատշաճ բովանդակության ազդեցության ռիսկերի պատճառով։",
+        "source": 33,
+        "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "AI տվյալների կենտրոնները խթանում են գազի պահանջարկը",
+        "summary": "AI տվյալների կենտրոնների աճող էներգիայի պահանջարկը ԱՄՆ-ում հանգեցնում է բնական գազի արտադրության զգալի աճի։",
+        "source": 35,
+        "link": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+        "outlet": "MIT Tech Review"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "thinkingmachines/Inkling-2-Mini",
+      "inworld/voice-isolator",
+      "SulphurAI/Sulphur-3"
+    ]
   }
 ]
