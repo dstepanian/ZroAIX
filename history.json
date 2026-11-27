@@ -14938,5 +14938,53 @@
       "SulphurAI/Sulphur-3",
       "Lightricks/LTX-2.5"
     ]
+  },
+  {
+    "date": "2026-11-28",
+    "ts": 1795823332249,
+    "overview": "Այսօրվա նորությունները լուսաբանում են արհեստական բանականության ոլորտի զարգացումները՝ ներառելով իրավական վեճեր, կարգավորող մարտահրավերներ, նոր հետազոտական ուղղություններ և ներքին պլատֆորմների մշակումներ։ Ընդհանուր պատկերը ցույց է տալիս AI-ի շարունակական ընդլայնումը և բարդացումը։",
+    "items": [
+      {
+        "headline": "OpenAI-ը հակընդդեմ հայց է ներկայացրել Apple-ի դեմ",
+        "summary": "OpenAI-ը դատի է տվել Apple-ին՝ մեղադրելով առևտրային գաղտնիքների գողության և մատակարարների նկատմամբ հարկադրանքի մեջ, ինչը հակընդդեմ հայց է Apple-ի նախկին հայցին։",
+        "source": 11,
+        "link": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Արգելված Nvidia չիպեր Շանհայի տվյալների կենտրոնում",
+        "summary": "Bloomberg-ի հետաքննության համաձայն՝ երկու չինական ընկերություններ Nvidia-ի արգելված Blackwell չիպեր են տեղադրել Շանհայի տվյալների կենտրոնում, ինչը անօրինական է առանց ԱՄՆ լիցենզիայի։",
+        "source": 12,
+        "link": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Meta-ն և AMI Labs-ը աջակցում են JEPA մոդելներին",
+        "summary": "Meta-ի և AMI Labs-ի երեք նոր ուսումնասիրություններ ցույց են տալիս առաջընթաց Yann LeCun-ի JEPA աշխարհի մոդելների մշակման մեջ, որոնք այլընտրանք են լեզվական մեծ մոդելներին։",
+        "source": 13,
+        "link": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Հաքերները կոտրել են ԱՄՆ ՌՕՈւ Cloud One հարթակը",
+        "summary": "Հաքերները ներթափանցել են ԱՄՆ Ռազմաօդային ուժերի առաջատար Cloud One ամպային հարթակ, ինչպես հաղորդվում է զեկույցում։",
+        "source": 14,
+        "link": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "OpenAI-ը մշակում է \"Athena\" տվյալների հարթակ",
+        "summary": "OpenAI-ը մշակում է \"Athena\" կոդային անվանումով սեմանտիկ շերտի տվյալների հարթակ՝ AI գործակալների աշխատանքի ճշգրտությունը բարձրացնելու համար։",
+        "source": 15,
+        "link": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+        "outlet": "The Decoder"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "thinkingmachines/Inkling-2-Mini",
+      "SulphurAI/Sulphur-3",
+      "inworld/voice-isolator"
+    ]
   }
 ]
