@@ -14843,5 +14843,60 @@
       "inworld/voice-isolator",
       "SulphurAI/Sulphur-3"
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "ts": 1795738622997,
+    "overview": "Այսօրվա նորությունները լուսաբանում են արհեստական բանականության ոլորտի բազմաթիվ ասպեկտներ՝ սկսած աշխարհաքաղաքական լարվածությունից և կարգավորող փոփոխություններից մինչև տվյալների հասանելիության մարտահրավերները և տեխնոլոգիական նորարարությունները։ Ընդգծվում են նաև AI-ի լայնածավալ ազդեցությունը հասարակության և արդյունաբերության վրա։",
+    "items": [
+      {
+        "headline": "Nvidia-ն դադարեցնում է չիպերի առաքումները",
+        "summary": "Nvidia-ն դադարեցրել է սերվերային չիպերի առաքումները Հարավարևելյան Ասիայի չորս երկիր՝ ԱՄՆ-ի կողմից Չինաստանին արհեստական բանականության չիպերի մատակարարումը սահմանափակելու ջանքերի շրջանակում։",
+        "source": 2,
+        "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Android ծրագրավորողները կհրապարակեն հասցեները",
+        "summary": "Google-ը հայտարարել է, որ հաջորդ տարվանից Android հավելվածների շատ ծրագրավորողներից կպահանջվի հրապարակել իրենց հեռախոսահամարը և հասցեն՝ ԵՄ թվային ծառայությունների մասին օրենքի պահանջներին համապատասխանելու համար։",
+        "source": 7,
+        "link": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+        "outlet": "The Verge"
+      },
+      {
+        "headline": "Չինական AI ընկերությունները փնտրում են տվյալներ",
+        "summary": "Չինական AI ընկերությունները, ինչպիսիք են Z.AI-ը և Moonshot AI-ը, ստիպված են հետաձգել իրենց հաջորդ առաջատար մոդելների թողարկումը և նոր ուսուցողական տվյալների աղբյուրներ են փնտրում՝ OpenAI-ի և Anthropic-ի կողմից տվյալների հասանելիությունը սահմանափակելուց հետո։",
+        "source": 13,
+        "link": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Նոր սերնդի բիոնիկ ձեռքեր՝ զգացողությամբ",
+        "summary": "Մշակվել է բիոնիկ ձեռքի նոր սերունդ, որը նյարդերի միջոցով միացված է օգտատիրոջ նախաբազկին և թույլ է տալիս զգալ ճնշումը՝ բարելավելով նուրբ առարկաների հետ աշխատելու հնարավորությունը։",
+        "source": 19,
+        "link": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+        "outlet": "MIT Tech Review"
+      },
+      {
+        "headline": "AI-ի մաթեմատիկական բեկումների նշանակությունը",
+        "summary": "OpenAI-ի նախկին հետազոտող Սքոթ Աարոնսոնը պնդում է, որ AI համակարգերի կողմից մաթեմատիկական ապացույցների ստեղծումը կարևոր է ոչ միայն ակադեմիական ոլորտի համար, այլև կարող է վերափոխել համաշխարհային տնտեսությունը և ազդել կյանքի վրա։",
+        "source": 3,
+        "link": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "NYT-ը զգուշացնում է Photoshop-ի AI-ի մասին",
+        "summary": "The New York Times-ը զգուշացրել է լուսանկարիչներին չթարմացնել Photoshop-ը՝ դրա արհեստական բանականության գործառույթների շուրջ առկա մտահոգությունների պատճառով։",
+        "source": 21,
+        "link": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+        "outlet": "Simon Willison"
+      }
+    ],
+    "releases": [],
+    "trending": [
+      "thinkingmachines/Inkling-2-Mini",
+      "inworld/voice-isolator",
+      "SulphurAI/Sulphur-3"
+    ]
   }
 ]
