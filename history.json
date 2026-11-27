@@ -14846,8 +14846,8 @@
   },
   {
     "date": "2026-11-27",
-    "ts": 1795738622997,
-    "overview": "Այսօրվա նորությունները լուսաբանում են արհեստական բանականության ոլորտի բազմաթիվ ասպեկտներ՝ սկսած աշխարհաքաղաքական լարվածությունից և կարգավորող փոփոխություններից մինչև տվյալների հասանելիության մարտահրավերները և տեխնոլոգիական նորարարությունները։ Ընդգծվում են նաև AI-ի լայնածավալ ազդեցությունը հասարակության և արդյունաբերության վրա։",
+    "ts": 1795794404030,
+    "overview": "Այսօրվա նորությունները շեշտում են արհեստական բանականության աճող ազդեցությունը տարբեր ոլորտներում՝ սկսած ծրագրային ապահովման մշակումից և կորպորատիվ վերակազմավորումներից մինչև նոր մոդելների թողարկումները և օգտատերերի փորձի վրա դրանց ազդեցությունը։",
     "items": [
       {
         "headline": "Nvidia-ն դադարեցնում է չիպերի առաքումները",
@@ -14890,13 +14890,53 @@
         "source": 21,
         "link": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
         "outlet": "Simon Willison"
+      },
+      {
+        "headline": "AI կոդավորող գործակալները սպառնում են GTA 6-ի թողարկմանը",
+        "summary": "AI կոդավորող գործակալները, ինչպիսին է Claude Code-ը, արագացնում են GTA 6-ի Xbox տարբերակի հակադարձ ինժեներիան դեպի PC, ինչը ճնշում է գործադրում Rockstar-ի հետաձգված PC թողարկման բիզնես մոդելի վրա։",
+        "source": 1,
+        "link": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "SAP-ը կրճատում է 10,000 աշխատատեղ՝ անցնելով AI-ի",
+        "summary": "Bloomberg-ի հաղորդմամբ՝ SAP-ը նախատեսում է կրճատել առնվազն 10,000 աշխատատեղ՝ որպես արհեստական բանականությանն անցնելու լայնածավալ վերակազմավորման մաս։",
+        "source": 4,
+        "link": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "LTX-2.5-ը թողարկվել է տեսանյութեր ստեղծելու համար",
+        "summary": "Hugging Face-ը ներկայացրել է LTX-2.5 մոդելը, որը նախատեսված է տեսանյութեր ստեղծելու համար՝ օգտագործելով Trainium3 տեխնոլոգիան։",
+        "source": 16,
+        "link": "https://huggingface.co/blog/video-trainium3",
+        "outlet": "Hugging Face"
+      },
+      {
+        "headline": "OpenAI-ը շտկել է GPT-6.2 Astra-ի գնային սխալը",
+        "summary": "OpenAI-ը շտկել է GPT-6.2 Astra-ի գնային սխալը, ինչի հետևանքով օգտատերերն այժմ 40%-ով ավելի արագ են հասնում իրենց սահմանաչափերին, և որպես ներողություն՝ բաժանորդները կստանան լրացուցիչ վերականգնում։",
+        "source": 17,
+        "link": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Ժամանակակից պրոթեզները և մարդկային միտքը",
+        "summary": "MIT Technology Review-ը քննարկում է, թե ինչպես ժամանակակից պրոթեզները կարող են օգնել ուսումնասիրել մարդկային միտքը և նյարդաբանական վերականգնումը։",
+        "source": 15,
+        "link": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/",
+        "outlet": "MIT Tech Review"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "LTX-2.5",
+        "note": "Տեսանյութեր ստեղծող մոդել Trainium3-ով"
+      }
+    ],
     "trending": [
       "thinkingmachines/Inkling-2-Mini",
-      "inworld/voice-isolator",
-      "SulphurAI/Sulphur-3"
+      "SulphurAI/Sulphur-3",
+      "Lightricks/LTX-2.5"
     ]
   }
 ]
