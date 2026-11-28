@@ -14941,8 +14941,8 @@
   },
   {
     "date": "2026-11-28",
-    "ts": 1795823332249,
-    "overview": "Այսօրվա նորությունները լուսաբանում են արհեստական բանականության ոլորտի զարգացումները՝ ներառելով իրավական վեճեր, կարգավորող մարտահրավերներ, նոր հետազոտական ուղղություններ և ներքին պլատֆորմների մշակումներ։ Ընդհանուր պատկերը ցույց է տալիս AI-ի շարունակական ընդլայնումը և բարդացումը։",
+    "ts": 1795876956804,
+    "overview": "Այսօրվա նորությունները կենտրոնացած են արհեստական բանականության զարգացման վրա՝ ներառելով Ճապոնիայի ազգային ռազմավարությունները, ռոբոտաշինության ֆինանսավորումը և AI մոդելների գնահատումը։ Կարևորվում են նաև AI անվտանգության և թափանցիկության շուրջ կարգավորող մարմինների մտահոգությունները։",
     "items": [
       {
         "headline": "OpenAI-ը հակընդդեմ հայց է ներկայացրել Apple-ի դեմ",
@@ -14978,9 +14978,49 @@
         "source": 15,
         "link": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
         "outlet": "The Decoder"
+      },
+      {
+        "headline": "Sakana AI-ը ամրապնդում է Ճապոնիայի մրցունակությունը",
+        "summary": "Sakana AI-ի գործադիր տնօրենը հայտարարել է, որ իրենց սեփական AI մոդելները նպատակ ունեն ուժեղացնել Ճապոնիայի արդյունաբերական մրցունակությունը։",
+        "source": 1,
+        "link": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+        "outlet": "TechCrunch"
+      },
+      {
+        "headline": "Մեծ Բրիտանիայի խորհրդարանը պահանջում է Anthropic-ից",
+        "summary": "Մեծ Բրիտանիայի խորհրդարանը պահանջում է Anthropic-ից մինչև դեկտեմբերի 4-ը ներկայացնել METR AI անվտանգության զեկույցի չխմբագրված տարբերակը՝ ընկերության կողմից ապացույցների մեծ մասը խմբագրելուց հետո։",
+        "source": 4,
+        "link": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "AI մոդելները դեռ ձախողում են պարզ խնդիրները",
+        "summary": "Google Deepmind-ի «Մարդկության առաջին քննությունը» ցույց է տվել, որ լավագույն AI մոդելները դեռևս ձախողում են պարզ առօրյա առաջադրանքները կրկնվող փորձարկումների ժամանակ։",
+        "source": 6,
+        "link": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "Embo-ն 110 մլն դոլար է հավաքել ռոբոտների համար",
+        "summary": "Ռոբոտաշինական Embo ստարտափը 110 միլիոն դոլարի սերմնային ֆինանսավորում է ստացել՝ ռոբոտների համար համընդհանուր AI ուղեղ ստեղծելու համար։",
+        "source": 7,
+        "link": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+        "outlet": "The Decoder"
+      },
+      {
+        "headline": "BYD Whale էլեկտրական մինիվենը 559 մղոն հեռավորությամբ",
+        "summary": "Չինական BYD ընկերությունը ներկայացրել է BYD Whale էլեկտրական մինիվենը, որը մեկ լիցքավորումով կարող է անցնել մինչև 559 մղոն (900 կմ)։",
+        "source": 11,
+        "link": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
+        "outlet": "The Verge"
       }
     ],
-    "releases": [],
+    "releases": [
+      {
+        "name": "BYD Whale",
+        "note": "Նոր էլեկտրական մինիվեն՝ մինչև 559 մղոն հեռավորությամբ"
+      }
+    ],
     "trending": [
       "thinkingmachines/Inkling-2-Mini",
       "SulphurAI/Sulphur-3",
